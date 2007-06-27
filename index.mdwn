@@ -45,6 +45,10 @@ Reasons for using Webconverger
 * [[Maintenance]]
 * [[Support]]
 
+* [[WikiLink]]
+* [[different_name_for_a_WikiLink|WikiLink]]
+* [[different name for a WikiLink (with spaces this time)|WikiLink]]
+
 
 * [[WikiLink]]
 * [[different_name_for_a_WikiLink|WikiLink]]
