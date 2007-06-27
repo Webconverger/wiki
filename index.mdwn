@@ -1,5 +1,3 @@
-##### The Wiki is moving in the next few days where new users can edit! Sorry for the inconvenience everyone.
-
 * [Webconverger Design Goals](http://webconverger.org/design)
 * [[Kiosk]]
 * [[i18n]]
@@ -30,30 +28,16 @@ Reasons for using Webconverger
 ==============================
 
 
-* [[Ideal just for Web applications]]
-* [[Free & open software)|Freedom]]
+* [[Ideal_just_for_Web_applications]]
 * [[Freedom]]
 * [[different name for a WikiLink (with spaces this time)|Freedom]]
 * [[Requirements]]
 * [[Security]]
 * [[Deployment]]
-* [[Web Standards]]
+* [[Web Standards|WebStandards]]
 * [[Cost effective]]
 * [[Registration]]
 * [[Adobe]]
 * [[Training]]
 * [[Maintenance]]
 * [[Support]]
-
-* [[WikiLink]]
-* [[different_name_for_a_WikiLink|WikiLink]]
-* [[different name for a WikiLink (with spaces this time)|WikiLink]]
-
-
-* [[WikiLink]]
-* [[different_name_for_a_WikiLink|WikiLink]]
-* [[different name for a WikiLink (with spaces this time)|WikiLink]]
-* <http://www.gnu.org/>
-* [GNU](http://www.gnu.org/)
-* [Email](mailto:noone@invalid)
-* WikiLink without any markup.
