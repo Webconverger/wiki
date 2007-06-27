@@ -9,9 +9,6 @@ I have forked rkiosk and created my own extension, webconverger. I had to do thi
 
 * `apt-get source iceweasel-webconverger` from the [Webconverger Debian package repo](http://webconverger.com/debian/)
 
-### Fudge
-
-Atm [includes are manually inserted into Webconverger](http://svn.debian.org/wsvn/debian-live/configs/webconverger/config/chroot_local-includes/etc/iceweasel/?rev=0&sc=0) as I have not quite understood how to put them into the webconverger extension. :/
 
 ## Help
 
