@@ -1,0 +1,29 @@
+### Goal
+
+A quality free Firefox/Iceweasel kiosk extension for Debian
+
+## Implementation
+
+I have forked rkiosk and created my own extension, webconverger. I had to do this as I had to modify some of upstream's packaging and functions and upstream is a little un-cooperative. 
+
+
+* `apt-get source iceweasel-webconverger` from the [Webconverger Debian package repo](http://webconverger.com/debian/)
+
+### Fudge
+
+Atm [includes are manually inserted into Webconverger](http://svn.debian.org/wsvn/debian-live/configs/webconverger/config/chroot_local-includes/etc/iceweasel/?rev=0&sc=0) as I have not quite understood how to put them into the webconverger extension. :/
+
+## Help
+
+
+Extension hackers wanted. Also see [[Develop]].
+
+
+#### Further Links
+
+* [Another kiosk wiki](http://stlouis-shopper.com/cgi-bin/mozdev-wiki/kiosk-wiki.pl)
+* [Kiosk browser extension](https://addons.mozilla.org/firefox/954/)
+* [Bugzilla kiosk related bugs](https://bugzilla.mozilla.org/buglist.cgi?quicksearch=kiosk)
+* [del.icio.us links](http://del.icio.us/search/?fr=del_icio_us&p=firefox+kiosk&type=all)
+* [GNU Kiosk](http://kiosk.mozdev.org/)
+* [rkiosk](https://addons.mozilla.org/firefox/1659/)
