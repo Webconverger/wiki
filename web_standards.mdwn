@@ -1,0 +1,5 @@
+Webconverger currently ships with the Web standards compliant Firefox/Iceweasel 2 by default.
+
+* IE 7 is slow (couple of seconds to open a new tab)
+* IE 7 still has many many CSS errors
+* IE 7 still doesn't support the W3C DOM
