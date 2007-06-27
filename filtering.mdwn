@@ -1,4 +1,4 @@
-A **top** feature request is content filtering and censorship.
+A common feature request is content filtering and censorship.
 
 I prefer if this is implemented on the gateway with some "content filtering" appliance.
 
