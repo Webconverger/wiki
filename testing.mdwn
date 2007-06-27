@@ -1,0 +1,34 @@
+# vmware
+
+Windows or linux users can download [VMWARE player](http://www.vmware.com/download/player/download.html).
+
+Save the configuration below as a file named `webconverger.vmx` with [webconverger.iso](http://download.webconverger.com/webconverger.iso) in same directory. Run with VMWARE's player.
+
+    # VM Machine Info
+    guestOS = "linux"
+    displayName = "Webconverger"
+    config.version = "7"
+    memsize = "128"
+
+    # CDROM Info
+    ide1:0.present = "TRUE"
+    ide1:0.fileName = "webconverger.iso"
+    ide1:0.deviceType = "cdrom-image"
+
+    #Floppy Info
+    floppy0.present = "FALSE"
+
+    #Ethernet Info
+    Ethernet0.present = "TRUE"
+    ethernet0.addressType = "generated"
+
+    # Audio Settings
+    sound.present = "TRUE"
+    sound.autodetect = "TRUE"
+
+    # Host USB
+    usb.present = "TRUE"
+
+# qemu
+
+`qemu -cdrom webconverger.iso`
