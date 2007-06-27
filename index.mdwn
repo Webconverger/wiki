@@ -29,8 +29,7 @@ Reasons for using Webconverger
 
 
 * [[Ideal_just_for_Web_applications]]
-* [[Freedom]]
-* [[different name for a WikiLink (with spaces this time)|Freedom]]
+* [[Free_&_open_software]]
 * [[Requirements]]
 * [[Security]]
 * [[Deployment]]
