@@ -1,0 +1,5 @@
+Webconverger is designed to support **only** Web applications.
+
+Other operating systems often provide extra legacy software that simply is not required for modern day pervasive Web computing. This extra unnecessary bloat makes operating systems slow and harder to maintain.
+
+Webconverger believes _less is more_.
