@@ -1,0 +1,30 @@
+* [Technorati](http://www.technorati.com/search/webconverger.com%2F)
+* [Google blog search](http://blogsearch.google.com/blogsearch?hl=en&q=webconverger&btnG=Search+Blogs)
+* [LinuxLinks](http://www.linuxlinks.com/Web/E_commerce/index.shtml)
+* [Freshmeat](http://freshmeat.net/projects/webconverger)
+* [Firefox facts](http://www.firefoxfacts.com/2007/04/05/webconverger-the-firefox-os/)
+* [Jure](http://www.kiberpipa.org/~gandalf/blog/?p=75) on [Planet LiveCD](http://planet.livecd.net/)
+* [Distrowatch Weekly 20070409](http://distrowatch.com/weekly.php?issue=20070409)
+* [Current favourite for secure Internet banking - Webconverger](http://www.andrewpatrick.ca/security-and-privacy/quest-for-a-good-boot-cd-for-internet-banking/)
+
+Foreign Language
+================
+
+
+* [ZoneFirefox ES](http://www.zonafirefox.net/2007/04/webconverger-el-sistema-operativo.html)
+* [Something in Portuguese I think](http://debuxos.blogspot.com/2007/04/ferramentas-informticas-gratuitas-on_19.html)
+* [Web 2.0 OS in Spanish](http://kernelsource.org/2007/04/18/webconverger-un-livecd-para-el-web-20/)
+
+Quoted positive feedback
+========================
+
+
+* "Thank you for what you have done so far. Of webkiosk livecds, yours is currently the best." from Larry
+* "I am looking for a boot CD to give to friends and relatives for safe Internet banking. Webconverger is the best I have found" from anon
+* "it is good!!!" from anon
+* "This is what I've been looking for." from anon
+* "great work ! Really useful for safe and fast browsing. Very cool." from Marcel
+* 'Thanks for your support and this very useful "distribution".' from Christophe
+* 'That was my comment on how good it works! You are a good distro designer. Thanks for your response.' from Francis
+
+Keep it coming. :)
