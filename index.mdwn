@@ -1,8 +1,44 @@
-Hi
-==
+##### The Wiki is moving in the next few days where new users can edit! Sorry for the inconvenience everyone.
+
+* [Webconverger Design Goals](http://webconverger.org/design)
+* [[Kiosk]]
+* [[i18n]]
+* [[Develop]]
+* [[Acknowledgements]]
+* [[Networking]]
+* [[Printing]]
+* [[Opera]]
+* [[Testing]]
+* [[Filtering]]
+
+Customization
+=============
 
 
-Hello World!
+* [Purchase customization and support](http://webconverger.com/buy/)
+* [[Homepage]]
+* [[Features]]
+* [[Develop]]
+
+Webconverger in the press
+=========================
 
 
-Dude
+* [[Press]]
+
+Reasons for using Webconverger
+==============================
+
+
+* [[Ideal just for Web applications]]
+* [[Free & open software]]
+* [[Requirements]]
+* [[Security]]
+* [[Deployment]]
+* [[Web Standards]]
+* [[Cost effective]]
+* [[Registration]]
+* [[Adobe]]
+* [[Training]]
+* [[Maintenance]]
+* [[Support]]
