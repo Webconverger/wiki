@@ -1,0 +1,19 @@
+# Flash
+
+Sadly (from a purist POV), Webconverger chose to provide Flash viewer due to the fact several **compelling** Web applications employ Flash technologies.
+
+Despite that [Flash](http://www.adobe.com/products/flash/) is not free, a black hole binary blob and not supportive of [Web standards](http://www.whatwg.org/).
+
+However I do provide and preferably support a [Flash free Webconverger](http://download.webconverger.com/noflash/) alternative. The only sites that do not work without Flash are the multimedia sites where you watch video and play music.
+
+In an **office** or vertical market environments you probably do not require Flash & noisy multimedia, so please use the [non-flash version Of Webconverger](http://download.webconverger.com/noflash/).
+
+I do defend the inclusion of Flash in the main trunk of Webconverger because I think for the most part it makes the Web more compelling.
+
+During the [browser wars](http://en.wikipedia.org/wiki/Browser_Wars) Microsoft made the Web compelling. Thanks Microsoft. :) One has to look at the big picture sometimes. The [Web API](http://www.joelonsoftware.com/articles/APIWar.html) is the **key** to unlocking the potential of Free & Open source software to the world.
+
+# PDF
+
+The included PDF viewer is free software and [PDF](http://en.wikipedia.org/wiki/PDF) is an open file format.
+
+Though please think twice about using PDF on the Web! HTML is the best way to store your documents.
