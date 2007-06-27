@@ -1,0 +1,12 @@
+Webconverger can be deployed by a live CD in about two minutes depending on the machine. This is the primary method for deployment as it is the most common type.
+
+Though, there are also other [deployment methods such as a USB stick](http://video.google.com/videoplay?docid=7737229185629530129) and Network boots. Network boots can scale and enable several machines with Webconverger in seconds.
+
+Since Webconverger is [just for the Web](Ideal just for Web applications), compressed images are about 200 megabytes in size. Webconverger aims to get _smaller_, not bigger.
+
+Webconverger has a very minimal "setup" and uses sensible defaults. At boot up there may be a couple of optional options available to you, at the boot prompt hit the F4 key.
+
+By default a deployed Webconverger has no preferences you can set and is designed to be "locked down" so users can't accidentally change things. This makes Webconverger much easier to [maintain](Maintenance) compared to other operating systems. It also makes Webconverger an excellent choice for **sharing** amongst people.
+
+Currently Webconverger is aimed at English speaking users, though in future according to [Webconverger's design goals](http://webconverger.org/design/), Webconverger will support different languages and keyboards.
+
