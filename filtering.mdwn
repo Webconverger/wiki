@@ -1,0 +1,40 @@
+A **top** feature request is content filtering and censorship.
+
+I prefer if this is implemented on the gateway with some "content filtering" appliance.
+
+
+Known appliances
+----------------
+
+
+* [IPCop software](http://ipcop.org/) - not an appliance I think, though perhaps you load this on an old computer?
+* [SmoothWall](http://smoothwall.net/) or SmoothGuardian more specifically for content filtering
+
+These appliances are unfortunately quite pricey. The SmoothGuardian product module with hardware is AT LEAST 3000GBP.
+
+Also a lot of these appliances provide Firewalls. Webconverger does not require a Firewall...
+
+Why?
+---------
+
+
+* The main requirement is to block pornography. The TLD .xxx would be a godsend!
+
+No requests to block 'other material' as yet...
+
+
+Webconverger with in built filtering
+------------------------------------
+
+
+* [ProCon extension](https://addons.mozilla.org/en-US/firefox/addon/1803) [FTP](http://ftp.iasi.roedu.net/mirrors/mozdev.org/procon/?C=M;O=A)
+
+For those who **really** need a basic pornography filter, I could include the ProCon Alba 'solution' in a customisation.
+
+Cons
+----
+
+
+* Webconverger will be **slower** running these extra services
+* There are always ways of getting around content filtering
+* It is difficult to maintain and keep up to date
