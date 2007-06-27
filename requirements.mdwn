@@ -1,0 +1,11 @@
+Microsoft Vista has very high system requirements.
+
+MacOSX require their own particular Apple hardware.
+
+Webconverger can run on most PCs that meet [Firefox's minimum requirements](http://www.mozilla.com/en-US/firefox/system-requirements.html). In fact Webconverger does not require any hard drive and hence _free disk space_.
+
+Webconverger can run well on __recycled machines__. Pentium 3s with 128MB of RAM are quite suitable PCs for Webconverger.
+
+Webconverger does have issues with hardware that require proprietary firmware, such as **wireless network interfaces**.
+
+In the future Webconverger aims to support other architectures and devices, besides the typical PC. Everything from TVs to mobile devices will converge to the Web. Please give some feedback if you have a particular device you want to see Webconverger on.
