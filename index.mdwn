@@ -31,7 +31,7 @@ Reasons for using Webconverger
 
 
 * [[Ideal just for Web applications]]
-* [[Free & open software|freedom]]
+* [[Free & open software)|Freedom]]
 * [[Requirements]]
 * [[Security]]
 * [[Deployment]]
