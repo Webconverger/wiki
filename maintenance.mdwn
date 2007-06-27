@@ -1,0 +1,22 @@
+Webconverger is low maintenance. No administrator required!
+
+Webconverger is designed so that users store their data on Web applications, so you need not worry about losing (or maintaining) any data locally.
+
+Webconverger ships with the [latest stable packages](http://download.webconverger.com/packages.txt). Though even older versions of Webconverger will automatically **update on startup** to keep Webconverger users **always current with stable updates**.
+
+Webconverger differs from Windows as **all packages** are kept up to date and secure.
+
+# Example of Webconverger's upgrade functionality
+
+An example to better illustrate what Webconverger is designed to do:
+
+1. User finds an old Webconverger 2.4 CD
+2. User does **NOT** need to throw away, [download](http://download.webconverger.com/) and burn the latest ISO from on a new CD
+3. User still uses Webconverger 2.4 CD to boot machine
+4. At boot up in the background Webconverger **automatically upgrades itself**
+5. User should find version number of Webconverger in top right jump to latest version
+
+However this upgrade system is not absolutely perfect on read only media like live CDs. For example kernel updates can't be activated without a reboot. A reboot is pointless on a _live CD_ version as the upgrade changes will be lost! However the upgrade works very well for keeping the browser up to date which is the most important element of Webconverger.
+
+USB and hard drive installations of Webconverger should fully upgrade everything. Sometimes new (non-browser) features can be added to the Live CD version that the upgrade can't activate, so if you must, you can [download](http://download.webconverger.com/) the latest ISO to activate these features.
+
