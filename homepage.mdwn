@@ -1,0 +1,12 @@
+<a href="http://www.flickr.com/photos/hendry/455392868/" title="Photo Sharing"><img src="http://farm1.static.flickr.com/174/455392868_55874c9a8a.jpg" width="500" height="375" alt="Passing the homepage parameter in Webconverger 2.4" /></a>
+
+In order to set the homepage with Webconverger, you need to pass a **boot option**. 
+
+For example for setting the homepage [http://webconverger.com/](http://webconverger.com/).
+
+
+1. Pop in the Webconverger CD
+2. Boot machine... it should display quickly something like the image above
+3. Press F1 to examine boot menu... (optional)
+4. Type in `live homepage=http://webconverger.com/`
+5. Press return to load Webconverger with the customized homepage 
