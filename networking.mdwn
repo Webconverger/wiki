@@ -1,0 +1,17 @@
+Ideally Webconverger should be deployed in a network with a **DHCP server**.
+
+Otherwise you can set the IP using initramfs's functionality:
+
+       ip=IFACE,ADDRESS,NETMASK,GATEWAY[:IFACE,ADDRESS,NETMASK,GATEWAY]*
+              Let  you  specify  the  name(s) and the options of the interface(s) that should be configured at
+              boot time. Do not specify this if you want to use dhcp (default).
+
+
+An example at the bootup prompt:
+
+ live ip=eth0,192.168.1.22,255.255.255.0,192.168.1.1
+
+* eth0 means the first interface (you won't need to change this usually)
+* 192.168.1.22 is the IP address
+* 255.255.255.0 is the netmask
+* 192.168.1.1 is the gateway
