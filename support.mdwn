@@ -1,0 +1,20 @@
+As an IT manager you need to know about the product life cycle.
+
+
+1. How long will you have vendor support for your system?
+2. When will you be forced to "upgrade" to a new different version at some undefined cost? 
+3. How consistently can you source existing specifications?
+
+For Windows, you may be forced to upgrade to the Windows Vista package:
+
+1. [WinXP will be supported until 2014](http://www.microsoft.com/windows/lifecycle/default.mspx)
+2. The costs of upgrading to Vista are considered very high.
+3. [WinXP will only be sold until Jan 2008](http://news.bbc.co.uk/1/hi/technology/6551429.stm)
+
+In some cases your vendor won't tell you when they will cut off support for fixes and security updates. They often force you to purchase a new "upgrade" version when you are not prepared to do so.
+
+1. Webconverger can provide support for current 2.x series to 2011.
+2. Come 2011 an upgrade option will be provided at no extra cost for the software. There might be a small media/human cost associated to actually performing the upgrade in 2011.
+3. Webconverger will be available for [download](http://download.webconverger.com/) until 2011 and beyond.
+
+Webconverger will be maintained at least until 2011. That is because Webconverger is based on the stable version of **Debian etch**. Stable releases of Debian have a lifetime of about four years.
