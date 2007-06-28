@@ -15,6 +15,7 @@ Welcome to the Webconverger Wiki.
 * [[Testing]]
 * [[Filtering]]
 
+
 Customization
 =============
 
@@ -23,6 +24,7 @@ Customization
 * [[Homepage]]
 * [[Features]]
 * [[Develop]]
+* [[Artwork]]
 
 Webconverger in the press
 =========================
