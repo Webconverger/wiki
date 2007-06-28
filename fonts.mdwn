@@ -8,4 +8,4 @@ Webconverger uses the serif [Gentium font](http://scripts.sil.org/Gentium)
 # Other machines
 
 
- * http://scripts.sil.org/Gentium_download
+ * [Gentium download](http://scripts.sil.org/Gentium_download)
