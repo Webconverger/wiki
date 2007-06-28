@@ -1,6 +1,6 @@
  * [Download Opera Webconverger](http://download.webconverger.com/opera/)
 
-Opera is run in a kiosk mode. These settings are set by the **webconverger-base** package and they need some work:
+Opera is run in a kiosk mode. These settings are set by the **webconverger-base** package and they might need some verification:
 
     ; Put any settings here that are not overridable by users
     [User Prefs]
@@ -20,5 +20,5 @@ Opera is run in a kiosk mode. These settings are set by the **webconverger-base*
 `/usr/bin/opera -k -noprint -kioskresetstation -kioskwindows -nomenu -nohotlist -resetonexit -nosave -e $GO`
 
 
-
 * [Another Opera kiosk configuration](http://clug.net.nz/index.php/KioskSystem)
+
