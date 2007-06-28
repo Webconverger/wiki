@@ -1,23 +1,22 @@
 Webconverger design document
 ============================
-Goals and principles
-********************
+### Goals and principles
+
 
 Like LiveKiosk's EZWebPC but better and as free software. The audience for initial releases of Webconverger will most likely be Internet Cafes.
 
    1. No users - no superuser
    2. Stability & Security - based on Debian etch
-   3. Locked down browser kiosk - for example no functionality to save bookmarks locally
+   3. No local user data - Locked down browser kiosk - for example no functionality to save bookmarks locally
    4. Everything happens through the browser (for example if we need to do a HD install / network setup, through a browser, not a terminal!)
    5. Zero maintenance - Automatic update/upgrade
    6. Less is more - Minimal packages for the Web experience (though that includes Adobe flash and pdf support), though no KDE/GNOME bloat
    7. Excellent i18n support with keyboard switching
-   8. Universal commitment to all devices - Webconverger could be deployed anywhere from an office terminal to a mobile phone
+   8. (Long term) Universal commitment to all devices - Webconverger could be deployed anywhere from an office terminal to a mobile phone
 
 Up for debate
 
-   1. Printing capabilities
-   2. A default Web application - for example if network wasn't found the homepage could be a standalone Python Web application to help configure the network device manually.
+   1. A default Web application - for example if network wasn't found the homepage could be a standalone Python Web application to help configure the network device manually.
 
 Deployment options
 
