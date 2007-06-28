@@ -4,7 +4,7 @@ Webconverger uses the serif [Gentium font](http://scripts.sil.org/Gentium)
 # Installing on a Debian/Ubuntu machine
 
   1. `monty:~% sudo apt-get install ttf-gentium`
-  2. Restart your browerer
+  2. Restart your browser
 
 # Other machines
 
