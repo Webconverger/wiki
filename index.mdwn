@@ -1,4 +1,4 @@
-Welcome
+Welcome to the Webconverger Wiki.
 
 * [Download Webconverger](http://download.webconverger.com/)
 * [[Design]]
