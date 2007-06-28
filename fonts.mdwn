@@ -1,12 +1,12 @@
 Webconverger uses the serif [Gentium font](http://scripts.sil.org/Gentium), which is included on every Webconverger distribution since version 2.21.
 
 
-# Installing on a Debian/Ubuntu machine
+# Installing the Gentium font on a Debian/Ubuntu machine:
 
   1. `monty:~% sudo apt-get install ttf-gentium`
   2. Restart your browser
 
-# Other machines
+# On other operating systems:
 
 
  * [Gentium download](http://scripts.sil.org/Gentium_download)
