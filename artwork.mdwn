@@ -1,0 +1,23 @@
+There are a couple of pieces of artwork in Webconverger.
+
+1. The syslinux splash screen
+2. The usplash boot screen
+3. The X windows stretched background image
+4. CD artwork
+5. Web artwork
+
+# 1&2 
+
+Must be a simple 16 color-ish 640x480 ''tiled style image'' as it is difficult center/align and during the usplash stage the [image will have a square box in it showing bootup progress](http://webconverger.com/screenshots/2.1/thumb.bootup-webconverger.png). A good example image of what I am looking for is [http://flickr.com/photos/dgodin/265054078/](http://flickr.com/photos/dgodin/265054078/)
+
+# 3 
+
+This can be just about anything. I've kept with the **daisy theme** and chosen [http://flickr.com/photos/stevefe/13394735/](http://flickr.com/photos/stevefe/13394735/)
+We've then added the **Loading...** lettering to let users know that the Web browser is loading.
+
+Once the browser is loaded, 3 can't be seen anymore until the user closes the session.
+
+
+# Thoughts
+
+Choose [BY: licensed if from Flickr](http://flickr.com/creativecommons/by-2.0/) and stick with a theme.
