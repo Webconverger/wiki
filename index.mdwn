@@ -1,4 +1,8 @@
-* [Webconverger Design Goals](http://webconverger.org/design)
+* [Download Webconverger](http://download.webconverger.com/)
+* [[Design]]
+* [Changelog](http://svn.webconverger.org/webconverger.org/Changelog)
+* [TODO](http://svn.webconverger.org/webconverger.org/TODO)
+* [Debian-Live](http://debian-live.alioth.debian.org/)
 * [[Kiosk]]
 * [[i18n]]
 * [[Develop]]
@@ -40,3 +44,8 @@ Reasons for using Webconverger
 * [[Training]]
 * [[Maintenance]]
 * [[Support]]
+
+<a href="http://openvz.org/"><img width="88" height="31" alt="Powered by OpenVZ"
+ border="0" src="http://static.openvz.org/openvz_powered_88x31_rev.png" /></a>
+
+<a href="http://debian.org"><img src="http://www.debian.org/logos/bouton.jpg" border="0" /></a>

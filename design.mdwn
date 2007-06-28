@@ -1,0 +1,38 @@
+Webconverger design document
+============================
+Goals and principles
+********************
+
+Like LiveKiosk's EZWebPC but better and as free software. The audience for initial releases of Webconverger will most likely be Internet Cafes.
+
+   1. No users - no superuser
+   2. Stability & Security - based on Debian etch
+   3. Locked down browser kiosk - for example no functionality to save bookmarks locally
+   4. Everything happens through the browser (for example if we need to do a HD install / network setup, through a browser, not a terminal!)
+   5. Zero maintenance - Automatic update/upgrade
+   6. Less is more - Minimal packages for the Web experience (though that includes Adobe flash and pdf support), though no KDE/GNOME bloat
+   7. Excellent i18n support with keyboard switching
+   8. Universal commitment to all devices - Webconverger could be deployed anywhere from an office terminal to a mobile phone
+
+Up for debate
+
+   1. Printing capabilities
+   2. A default Web application - for example if network wasn't found the homepage could be a standalone Python Web application to help configure the network device manually.
+
+Deployment options
+
+Since USB boot is poorly supported by older machines, CDROM images will probably be the most important medium.
+
+Most computers have hard drives, so hard installs are important. Webconverger is not the traditional thin client, as CDROM 'live's and eventually hard drive installs will not put a burden on the network or server like LTSP setups do (esp. with RAM loading "toram" in mind).
+
+   1. Network live (could be served from a NSLU2)
+   2. CDROM live
+   3. USB live
+   4. Network live and then install to hard drive
+   5. CDROM live and then install to hard drive
+   6. USB live and then install to hard drive
+   7. OEM installs
+
+Notice Webconverger Web applications can target the rich capabilities of Opera or Firefox with SVG graphics et al.
+
+Feedback greatly appreciated hendry@webconverger.org

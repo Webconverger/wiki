@@ -1,4 +1,4 @@
-Webconverger itself is free of charge and is [[Free & open software]]
+Webconverger itself is free of charge and is [[Free_&_open_software]]
 
 * [Needs cheaper hardware](Requirements)
 * [Exhibits cheaper training costs](Training)
