@@ -22,9 +22,8 @@ Thank you very much for any translation help. If your translation meets my quali
 
 If you are a artist/"Web designer" who knows how to write [standards compliant](http://whatwg.org), minimal, device independent CSS (like mine, but better looking) without going too crazy with PNGs, then I'm interested in reaching out to you. My visual design skills on http://webconverger.com/ are pitiful. Can you tell?
 
-## Firefox extension writers
+## Firefox extension development
 
-You could write stuff on any platform. I need to get [includes stuff](http://svn.debian.org/wsvn/debian-live/configs/webconverger/config/chroot_local-includes/etc/iceweasel/?rev=0&sc=0) into the extension.
 
 * [[Kiosk]]
 
