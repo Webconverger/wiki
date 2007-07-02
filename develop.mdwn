@@ -34,13 +34,13 @@ There is lots of room for movement here, as long as your extension is **fast**.
 
 The most important elements of building Webconverger is the package list and setting `LIVE_BOOTAPPEND`.
 
-* [Package list](http://svn.debian.org/wsvn/debian-live/configs/webconverger/config/chroot_localpackageslists/webconverger?op=file&rev=0&sc=0)
-* [LIVE_BOOTAPPEND in /config/binary](http://svn.debian.org/wsvn/debian-live/configs/webconverger/config/binary?op=file&rev=0&sc=0)
+* [Package list](http://svn.debian.org/wsvn/debian-live/configs/webc/webconverger/config/chroot_local-packageslists/?rev=0&sc=0)
+* [LIVE_BOOTAPPEND in /config/binary](http://svn.debian.org/wsvn/debian-live/configs/webc/webconverger/config/binary?op=file&rev=0&sc=0)
 
 Develop on a debian etch system with [apt-cacher](http://packages.qa.debian.org/a/apt-cacher.html) (saves bandwidth!).
 
  * apt-get install [live-helper](http://live.debian.net/) (deb http://live.debian.net/debian etch main)
- * svn co svn://svn.debian.org/svn/debian-live/configs/
+ * svn co svn://svn.debian.org/svn/debian-live/configs/webc
  * webconverger/ is the base config file. Poke around.
  * Take a look inside config/. You probably need to edit LIVE_MIRROR variables in the file bootstrap.
  * lh_build in webconverger/ not /config !
