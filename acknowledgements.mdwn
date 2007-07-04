@@ -1,5 +1,5 @@
 In no order as yet:
 
-Otavio Salvador, Heike Jurzik, Mike Hommey, Anselm R. Garbe, Alexis Hildebrandt, Christophe DAVID, Marcel Bensch, Henri David, Paul Sander Langeslag, Daniel Baumann, Debian community, Ian Hickson, Tom Pike, Allan Clements, Phil Waring, Henri Sivonen, Kimmo Heinäaro, Jure Cuhalev, Thomas Park, Antoine Delaunay, Marco Amadori, Ruth Chong, Joose Vettenranta, in fact the entire country of Finland and for everyone who provided feedback.
+Eric Dorland, Otavio Salvador, Heike Jurzik, Mike Hommey, Anselm R. Garbe, Alexis Hildebrandt, Christophe DAVID, Marcel Bensch, Henri David, Paul Sander Langeslag, Daniel Baumann, Debian community, Ian Hickson, Tom Pike, Allan Clements, Phil Waring, Henri Sivonen, Kimmo Heinäaro, Jure Cuhalev, Thomas Park, Antoine Delaunay, Marco Amadori, Ruth Chong, Joose Vettenranta, in fact the entire country of Finland and for everyone who provided feedback.
 
 Webconverger project founded in February 2007 at [Praze Farm, Cornwall](http://prazefarm.co.uk/) by Kai Hendry.
