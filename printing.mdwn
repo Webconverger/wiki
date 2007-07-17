@@ -1,6 +1,6 @@
 Printing is configured with CUPS by going to [http://localhost:631/](http://localhost:631/)
 
-If [http://localhost:631/](http://localhost:631/) does not work, then your version of Webconverger does not have CUPS installed. CUPS is a bit of a resource hog, so versions of Webconverger do not have it installed, to improve load times.
+If [http://localhost:631/](http://localhost:631/) does not work, then your version of Webconverger does not have CUPS installed. CUPS is a bit of a resource hog, so default free (non-customized) versions of Webconverger do not have it installed, to improve load times.
 
 
 <embed style="width:400px; height:326px;" id="VideoPlayback" type="application/x-shockwave-flash" src="http://video.google.com/googleplayer.swf?docId=-5941547452106817554&hl=en" flashvars=""> </embed>
