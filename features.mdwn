@@ -2,12 +2,17 @@ Default (free of charge) versions of Webconverger aren't packed with too many fe
 
 So many of these features are **optional** and some will not work until enabled in a [customized](http://webconverger.com/buy/) build.
 
+The default homepage on Webconverger builds are [http://portal.webconverger.com/](http://portal.webconverger.com/). [Customize Webconverger](http://webconverger.com/buy/) for your own homepage.
+
+
+* [[i18n]] Extensive internationalization support. Exotic locales such as Chinese, Japanese and Korean (CJK) are supported. CJK keyboard switching via [scim](http://en.wikipedia.org/wiki/SCIM) and many other types of keyboard setups, such as swiss German
+* Spelling support with dictionaries in many languages
 * [Firefox Web browser](http://en.wikipedia.org/wiki/Firefox) 2.x rebuild [Iceweasel](http://en.wikipedia.org/wiki/Iceweasel) by default in every Webconverger. [Opera](http://download.webconverger.com/opera/) instead is optional, though unsupported.
 * Automatic update on bootup - Webconverger is designed by default to **always be up to date**
 * [[Printing]] disabled by default. cups must be re-enabled in the package list.
 * Kiosk reset with `kioskresetstation=<mins>`. Resets browser after user defined minutes of idleness/inactivity. Default off.
 * `toram` - loads live image into memory, so you can reuse media to boot further machines. Disabled by default as it makes startup a little slower.
-* [[i18n]] support with keyboard switching via scim.
+
 * [[Networking]] configuration with `ip=if,add,netm,gatew`. Default is DHCP.
 * [[Adobe]] Flash is **enabled by default**. However there is a supported "fully free" version of Webconverger which does not have the Flash package.
 * PDF viewer - xpdf - enabled by default
@@ -26,4 +31,6 @@ From 2.16 Webconverger will have migrated from casper to live-initramfs. Documen
 
 Also see the infamous [TODO list](http://svn.webconverger.org/webconverger.org/TODO) and development progress with the [Changelog](http://svn.webconverger.org/webconverger.org/Changelog).
 
-* Hard drive install - upcoming!
+* Hard drive install - *BETA*
+
+If you are interested in fast boot times, installing Webconverger on a hard disk is the best way of achieving this. This feature is currently in testing.
