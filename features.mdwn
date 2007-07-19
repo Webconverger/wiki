@@ -1,5 +1,3 @@
-Default (free of charge) versions of Webconverger aren't packed with too many features. Webconverger is designed to be **fast**. 
-
 So many of these features are **optional** and some will not work until enabled in a [customized](http://webconverger.com/buy/) build.
 
 The default homepage on Webconverger builds are [http://portal.webconverger.com/](http://portal.webconverger.com/). [Customize Webconverger](http://webconverger.com/buy/) for your own homepage like banks, museums, car dealerships and many other customers have done.
