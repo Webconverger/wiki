@@ -18,6 +18,21 @@ Check they are supported in Debian 'etch' by checking the country code is in `/u
 
 Sometimes a two letter shorthand for some locales may work for you. Try `locale=fr` for French for example.
 
+# Chinese support example
+
+When Webconverger initially boots up, these is a short delay when one can enter additional commands on the boot parameter.
+
+Entering `live locale=zh_CN.UTF-8 keyb=zh` as this image demonstrates, sets up Webconverger for the Chinese locale.
+
+<a href="http://www.flickr.com/photos/hendry/850230357/" title="Photo Sharing"><img src="http://farm2.static.flickr.com/1287/850230357_925f4a00c6_m.jpg" width="240" height="133" alt="Webconverger boot options for chinese support" /></a>
+
+Once booted into the browser, **CONTROL+SPACE** allows to switch between keyboard input modes via [scim](http://en.wikipedia.org/wiki/SCIM).
+
+
+<a href="http://www.flickr.com/photos/hendry/850230371/" title="Photo Sharing"><img src="http://farm2.static.flickr.com/1391/850230371_4ecbd13113_m.jpg" width="240" height="180" alt="Webconverger portal in Chinese" /></a>
+
+Please give any feedback anything. :)
+
 # UTF-8 etch /usr/share/i18n/SUPPORTED
 
 * aa_DJ.UTF-8
