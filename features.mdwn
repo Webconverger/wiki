@@ -29,4 +29,4 @@ Also see the infamous [TODO list](http://svn.webconverger.org/webconverger.org/T
 
 * Hard drive install - *BETA*
 
-If you are interested in fast boot times, installing Webconverger on a hard disk is the best way of achieving this. This feature is currently in testing.
+If you are interested in fast boot times, installing Webconverger on a hard disk is the best way of achieving this. This feature is currently in testing. You can **experiment** with the `install` boot parameter.
