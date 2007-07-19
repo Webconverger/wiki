@@ -9,7 +9,7 @@ The default homepage on Webconverger builds are [http://portal.webconverger.com/
 * Spelling support with dictionaries in many languages. Right click to choose your language and dictionary.
 * [Firefox Web browser](http://en.wikipedia.org/wiki/Firefox) 2.x rebuild [Iceweasel](http://en.wikipedia.org/wiki/Iceweasel) by default in every Webconverger. [Opera](http://download.webconverger.com/opera/) instead is optional, though unsupported.
 * Automatic update on bootup - Webconverger is designed by default to **always be up to date**
-* [[Printing]] disabled by default. cups must be re-enabled in the package list.
+* [[Printing]]
 * Kiosk reset with `kioskresetstation=<mins>`. Resets browser after user defined minutes of idleness/inactivity. Default off.
 * `toram` - loads live image into memory, so you can reuse media to boot further machines. Disabled by default as it makes startup a little slower.
 
