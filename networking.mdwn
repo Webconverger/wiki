@@ -16,4 +16,4 @@ An example at the bootup prompt:
 * 255.255.255.0 is the netmask
 * 192.168.1.1 is the gateway
 
-Non-standard network setups can be [customised](http://webconverger.com/buy) as a service of [Webconverger.com](http://webconverger.com/).
+Non-standard network (wireless) setups can be [customised](http://webconverger.com/buy) as a service of [Webconverger.com](http://webconverger.com/).
