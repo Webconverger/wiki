@@ -6,7 +6,7 @@ Since Webconverger is [Ideal just for web applications](http://webconverger.org/
 
 Webconverger has a very minimal "setup" and uses sensible defaults. At boot up there may be a couple of optional options available to you, at the boot prompt hit the F4 key.
 
-By default a deployed Webconverger has no preferences you can set and is designed to be "locked down" so users can't accidentally change things. This makes Webconverger much easier to [maintain](maintenance) compared to other operating systems. It also makes Webconverger an excellent choice for **sharing** amongst people.
+By default a deployed Webconverger has no preferences you can set and is designed to be "locked down" so users can't accidentally change things. This makes Webconverger much easier to [maintain](http://webconverger.org/maintenance/) compared to other operating systems. It also makes Webconverger an excellent choice for **sharing** amongst people.
 
 Currently Webconverger is aimed at English speaking users, though in future according to [Webconverger's design goals](http://webconverger.org/design/), Webconverger will support different languages and keyboards.
 
