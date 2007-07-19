@@ -22,7 +22,7 @@ Sometimes a two letter shorthand for some locales may work for you. Try `locale=
 
 When Webconverger initially boots up, these is a short delay when one can enter additional commands on the boot parameter.
 
-Entering `live locale=zh_CN.UTF-8 keyb=zh` as this image demonstrates, sets up Webconverger for the Chinese locale.
+Entering `live locale=zh_CN.UTF-8 keyb=zh` as [this pictures](http://www.flickr.com/photos/hendry/850230357) demonstrates, sets up Webconverger for the Chinese locale.
 
 <a href="http://www.flickr.com/photos/hendry/850230357/" title="Photo Sharing"><img src="http://farm2.static.flickr.com/1287/850230357_925f4a00c6_m.jpg" width="240" height="133" alt="Webconverger boot options for chinese support" /></a>
 
