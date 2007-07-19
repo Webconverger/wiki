@@ -31,7 +31,7 @@ Once booted into the browser, **CONTROL+SPACE** allows to switch between keyboar
 
 <a href="http://www.flickr.com/photos/hendry/850230371/" title="Photo Sharing"><img src="http://farm2.static.flickr.com/1391/850230371_4ecbd13113_m.jpg" width="240" height="180" alt="Webconverger portal in Chinese" /></a>
 
-Please give any feedback about anything. If you don't like the font or see some other rendering problem, I am very interested to solve this problems.
+Please give feedback about anything. If you don't like the font or see some other rendering problem, I am very interested to solve these problems.
 
 # UTF-8 etch /usr/share/i18n/SUPPORTED
 
