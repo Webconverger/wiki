@@ -2,7 +2,7 @@ Default (free of charge) versions of Webconverger aren't packed with too many fe
 
 So many of these features are **optional** and some will not work until enabled in a [customized](http://webconverger.com/buy/) build.
 
-The default homepage on Webconverger builds are [http://portal.webconverger.com/](http://portal.webconverger.com/). [Customize Webconverger](http://webconverger.com/buy/) for your own homepage.
+The default homepage on Webconverger builds are [http://portal.webconverger.com/](http://portal.webconverger.com/). [Customize Webconverger](http://webconverger.com/buy/) for your own homepage like banks, museums, car dealerships and many other customers have done.
 
 
 * [[i18n]] Extensive internationalization support. Exotic locales such as Chinese, Japanese and Korean (CJK) are supported. CJK keyboard switching via [scim](http://en.wikipedia.org/wiki/SCIM) and many other types of keyboard setups, such as swiss German
