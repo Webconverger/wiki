@@ -1,6 +1,6 @@
 Ideally Webconverger should be deployed in a network with a **DHCP server**.
 
-Otherwise you can set the IP using initramfs's functionality:
+Otherwise you can set the IP manually:
 
        ip=IFACE,ADDRESS,NETMASK,GATEWAY[:IFACE,ADDRESS,NETMASK,GATEWAY]*
               Let  you  specify  the  name(s) and the options of the interface(s) that should be configured at
@@ -15,3 +15,5 @@ An example at the bootup prompt:
 * 192.168.1.22 is the IP address
 * 255.255.255.0 is the netmask
 * 192.168.1.1 is the gateway
+
+Non-standard network setups can be [customised](http://webconverger.com/buy) as a service of [Webconverger.com](http://webconverger.com/).
