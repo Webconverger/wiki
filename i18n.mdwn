@@ -1,6 +1,3 @@
- * [Download i18n versions](http://download.webconverger.com/i18n/) 
-
-
 # Keyboard switching
 
 For current versions of Webconverger these internationalization settings only affect X/keyboard.
