@@ -15,7 +15,7 @@ The default homepage on Webconverger builds are [http://portal.webconverger.com/
 
 * [[Networking]] configuration with `ip=if,add,netm,gatew`. Default is DHCP.
 * [[Adobe]] Flash is **enabled by default**. However there is a supported "fully free" version of Webconverger which does not have the Flash package.
-* PDF viewer - xpdf - enabled by default
+* [PDF viewing](http://flickr.com/photos/hendry/851173358/) - xpdf - enabled by default
 * xvideomode=800x600 (new in >=2.16) - override resolution to 800x600. Default display is *autodetected*. 
 * Wireless customization support available. Not by default.
 * Basic pornography text content [[Filtering]]
