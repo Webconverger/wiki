@@ -21,13 +21,9 @@ The default homepage on Webconverger builds are [http://portal.webconverger.com/
 * Basic pornography text content [[Filtering]]
 * Java support - disabled by default
 
-Pressing F4 on initial Webconverger bootup can display further SPECIAL BOOT PARAMETERS documentation.
-
 [Documentation/kernel-parameters.txt](http://www.google.com/search?q=kernel-parameters.txt) has some other arguments you can pass to the linux kernel. Such as `noacpi` which disables power management, which some old buggy BIOSs can be incompatible with.
 
-From 2.16 Webconverger will have migrated from casper to live-initramfs. Documentation work is yet to begin, though for testers, [the live script](http://svn.debian.org/wsvn/debian-live/dists/trunk/live-initramfs/scripts/live?op=file&rev=0&sc=0) can offer very good clues about some *boot options* to try.
-
-# Features requested
+# Upcoming features
 
 Also see the infamous [TODO list](http://svn.webconverger.org/webconverger.org/TODO) and development progress with the [Changelog](http://svn.webconverger.org/webconverger.org/Changelog).
 
