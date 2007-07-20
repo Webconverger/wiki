@@ -14,7 +14,6 @@ Which need to be translated to every locale imaginable. :)
 Take a peek at:
 
 * [[i18n]]
-* [i18n downloads](http://download.webconverger.com/i18n)
 
 Thank you very much for any translation help. If your translation meets my quality standards, you could be [famous](http://webconverger.infogami.com/Acknowledgements)!
 
