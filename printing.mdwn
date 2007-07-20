@@ -1,17 +1,16 @@
-Printing is configured with [CUPS](http://www.cups.org/) by going to [http://localhost:631/](http://localhost:631/)
+# [CTRL]+p
 
-If [http://localhost:631/](http://localhost:631/) does not work, then your version of Webconverger does not have CUPS installed. CUPS is a bit of a resource hog, so default free (non-customized) versions of Webconverger do not have it installed, to improve load times.
+Holding down the [Control] and p keys on your keyboard gives you the printing dialog.
+
+If you do not see your printer in that dialog and you just see PostScript/default, your printer is not correctly configured.
 
 
-<embed style="width:400px; height:326px;" id="VideoPlayback" type="application/x-shockwave-flash" src="http://video.google.com/googleplayer.swf?docId=-5941547452106817554&hl=en" flashvars=""> </embed>
+
+* http://video.google.com/googleplayer.swf?docId=-5941547452106817554&hl=en
+* http://video.google.com/googleplayer.swf?docId=-2512639440187775804&hl=en
+
 
 <a href="http://www.flickr.com/photos/hendry/463396815/" title="Photo Sharing"><img src="http://farm1.static.flickr.com/209/463396815_c5ccbc2e6f.jpg" width="500" height="375" alt="2.0.10 trials cups" /></a>
-
-
-Print via **ctrl+p** and you should get something like:
-
-<embed style="width:400px; height:326px;" id="VideoPlayback" type="application/x-shockwave-flash" src="http://video.google.com/googleplayer.swf?docId=-2512639440187775804&hl=en" flashvars=""> </embed>
-
 
 <a href="http://www.flickr.com/photos/hendry/463888132/" title="Photo Sharing"><img src="http://farm1.static.flickr.com/188/463888132_1cc46692cb_m.jpg" width="180" height="240" alt="Webconverger print out" /></a>
 
