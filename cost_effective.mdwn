@@ -4,4 +4,4 @@ The non-customised Webconverger itself is free of charge and is [[Free_&_open_so
 * [[Exhibits_cheaper_training_costs|Training]]
 * [[Cheaper_to_deploy|Deployment]]
 * [[Cheaper_to_maintain|Maintenance]]
-* [[Cheaper_to_support}|Support]]
+* [[Cheaper_to_support|Support]]
