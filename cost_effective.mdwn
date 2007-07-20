@@ -1,7 +1,7 @@
 Webconverger itself is free of charge and is [[Free_&_open_software]]
 
 * [[different name for a WikiLink (with spaces this time)|features]]
-* [[Runs on cheap hardware|Requirements]]
+* [[Runs_on_cheap_hardware|Requirements]]
 * [Exhibits cheaper training costs](Training)
 * [Cheaper to deploy](Deployment) - there is an option where one can reuse one CD to boot more than one machine
 * [Cheaper to maintain](Maintenance)
