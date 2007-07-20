@@ -19,7 +19,7 @@ Check they are supported in Debian 'etch' by checking the country code is in `/u
 
 Sometimes a two letter shorthand for some locales may work for you. Try `locale=fr` for French for example.
 
-### Tested locales
+# Tested locales
 
 #### German
 locale=de_CH.UTF-8 keyb=ch kvariant=de
