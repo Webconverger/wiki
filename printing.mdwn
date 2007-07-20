@@ -1,4 +1,4 @@
-# [CTRL]+p
+# [CTRL]+[p]
 
 Printing with Webconverger is very simple.
 
