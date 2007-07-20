@@ -1,8 +1,10 @@
 # [CTRL]+p
 
-Holding down the [Control] and p keys on your keyboard gives you the printing dialog.
+Printing with Webconverger is very simple.
 
-If you do not see your printer in that dialog and you just see PostScript/default, your printer is not correctly configured.
+Holding down the [Control] and [p] keys on your keyboard gives you the printing dialog.
+
+If you do **not see your printer in that dialog** and you just see PostScript/default, your printer is **not correctly configured**.
 
 
 
@@ -10,9 +12,15 @@ If you do not see your printer in that dialog and you just see PostScript/defaul
 * http://video.google.com/googleplayer.swf?docId=-2512639440187775804&hl=en
 
 
+# Debug
+
+Go to [localhost:631](http://localhost:631/) Manage printers tab to try and diagnose the printer.
+
 <a href="http://www.flickr.com/photos/hendry/463396815/" title="Photo Sharing"><img src="http://farm1.static.flickr.com/209/463396815_c5ccbc2e6f.jpg" width="500" height="375" alt="2.0.10 trials cups" /></a>
 
+Sorry
+
+
+# Try [write a letter](http://letter.dabase.com/) and print it in Webconverger!
+
 <a href="http://www.flickr.com/photos/hendry/463888132/" title="Photo Sharing"><img src="http://farm1.static.flickr.com/188/463888132_1cc46692cb_m.jpg" width="180" height="240" alt="Webconverger print out" /></a>
-
-
-Try [write a letter](http://letter.dabase.com/) and print it in Webconverger!
