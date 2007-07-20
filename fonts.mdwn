@@ -1,4 +1,4 @@
-Webconverger uses the serif [Gentium font](http://scripts.sil.org/Gentium), which is included on every Webconverger distribution since version 2.21.
+Webconverger has the serif [Gentium font](http://scripts.sil.org/Gentium), which is included on every Webconverger distribution since version 2.21.
 
 
 # Installing the Gentium font on a Debian/Ubuntu machine:
