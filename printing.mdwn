@@ -6,7 +6,7 @@ Holding down the [Control] and [p] keys on your keyboard gives you the printing 
 
 If you do **not see your printer in that dialog** and you just see PostScript/default, your printer is **not correctly configured**.
 
-[Printing](http://video.google.co.uk/videoplay?docid=6606767171581818715)
+[Little video of myself getting printing working](http://video.google.co.uk/videoplay?docid=6606767171581818715)
 
 # Debug
 
