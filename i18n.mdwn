@@ -70,4 +70,4 @@ Lookup your country's codes at [ISO 3166](http://en.wikipedia.org/wiki/ISO_3166-
 
 
  * Translations underway at [http://svn.webconverger.org/portal.webconverger.com/](http://svn.webconverger.org/portal.webconverger.com/)
- * [Net Access statistics are a good guide and what locales to target](http://en.wikipedia.org/wiki/Broadband_Internet_access_worldwide)
+ * [Net Access statistics are a good guide to what locales to target](http://en.wikipedia.org/wiki/Broadband_Internet_access_worldwide)
