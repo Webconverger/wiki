@@ -1,9 +1,7 @@
-Webconverger itself is free of charge and is [[Free_&_open_software]]
+The non-customised Webconverger itself is free of charge and is [[Free_&_open_software]].
 
 * [[Runs_on_cheap_hardware|Requirements]]
-* [Exhibits cheaper training costs](Training)
-* [Cheaper to deploy](Deployment) - there is an option where one can reuse one CD to boot more than one machine
-* [Cheaper to maintain](Maintenance)
-* [Cheaper to support](Support)
-
-Commercial support and consultations may be required for certain complex scenarios which will not be free of charge.
+* [[Exhibits_cheaper_training_costs|Training]]
+* [[Cheaper_to_deploy|Deployment]]
+* [[Cheaper_to_maintain|Maintenance]]
+* [[Cheaper_to_support}|Support]]
