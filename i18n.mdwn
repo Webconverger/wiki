@@ -1,7 +1,7 @@
 [[toc ]]
 # Setting up Webconverger for your locale
 
-Specify them on the boot prompt. For British English configurations:
+Specify them on the boot prompt. For example British English configurations:
 
         LIVE_BOOTAPPEND="locale=en_GB.UTF-8 keyb=uk"
 
@@ -9,7 +9,7 @@ or
 
         LIVE_BOOTAPPEND="locale=uk"
 
-Sometimes a two letter shorthand for some locales may work for you. Try `locale=fr` for French for example.
+Sometimes a two letter shorthand for some locales may work for you.
 
 # Tested locales
 
