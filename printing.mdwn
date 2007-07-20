@@ -6,12 +6,6 @@ Holding down the [Control] and [p] keys on your keyboard gives you the printing 
 
 If you do **not see your printer in that dialog** and you just see PostScript/default, your printer is **not correctly configured**.
 
-
-
-* http://video.google.com/googleplayer.swf?docId=-5941547452106817554&hl=en
-* http://video.google.com/googleplayer.swf?docId=-2512639440187775804&hl=en
-
-
 # Debug
 
 Go to [localhost:631](http://localhost:631/) Manage printers tab to try and diagnose the printer.
@@ -26,3 +20,9 @@ Check for support in [this list of printers](https://wiki.ubuntu.com/HardwareSup
 # Try [write a letter](http://letter.dabase.com/) and print it in Webconverger!
 
 <a href="http://www.flickr.com/photos/hendry/463888132/" title="Photo Sharing"><img src="http://farm1.static.flickr.com/188/463888132_1cc46692cb_m.jpg" width="180" height="240" alt="Webconverger print out" /></a>
+
+## Old videos
+
+* [old1](http://video.google.com/googleplayer.swf?docId=-5941547452106817554&hl=en)
+* [old2](http://video.google.com/googleplayer.swf?docId=-2512639440187775804&hl=en)
+
