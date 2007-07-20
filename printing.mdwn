@@ -18,7 +18,9 @@ Go to [localhost:631](http://localhost:631/) Manage printers tab to try and diag
 
 <a href="http://www.flickr.com/photos/hendry/463396815/" title="Photo Sharing"><img src="http://farm1.static.flickr.com/209/463396815_c5ccbc2e6f.jpg" width="500" height="375" alt="2.0.10 trials cups" /></a>
 
-Sorry
+# Recommended printers
+
+Check for support in [this list of printers](https://wiki.ubuntu.com/HardwareSupportComponentsPrinters). Good luck!
 
 
 # Try [write a letter](http://letter.dabase.com/) and print it in Webconverger!
