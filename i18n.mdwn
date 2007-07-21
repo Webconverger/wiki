@@ -16,7 +16,7 @@ or
 
         LIVE_BOOTAPPEND="locale=uk"
 
-Sometimes a two letter shorthand for some locales may work for you.
+Sometimes a two letter shorthand for some locales (please test) may work for you.
 
 # Tested locales
 
