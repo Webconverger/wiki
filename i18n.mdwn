@@ -1,7 +1,14 @@
 [[toc ]]
 # Setting up Webconverger for your locale
 
-Specify them on the boot prompt. For example British English configurations:
+Specify them on the boot parameter prompt. 
+
+
+For example British English configurations:
+
+`live locale=uk` or `live locale=en_GB.UTF-8 keyb=uk`
+
+For setting during a Debian-Live build option set **config/binary** like so:
 
         LIVE_BOOTAPPEND="locale=en_GB.UTF-8 keyb=uk"
 
