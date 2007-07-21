@@ -1,3 +1,3 @@
 Pre-built versions of Webconverger have the homepage fixed on [http://portal.webconverger.com/](http://portal.webconverger.com/)
 
-If you want to set your own Website, either [[build_Webconverger_yourself|develop]]. Or pay use the [Webconverger customization service](http://webconverger.com/buy).
+If you want to set your own Website, either [[build_Webconverger_yourself|develop]] or utilise the [Webconverger customization service](http://webconverger.com/buy).
