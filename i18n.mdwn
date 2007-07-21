@@ -13,7 +13,7 @@ Sometimes a two letter shorthand for some locales may work for you.
 
 # Tested locales
 
-### German
+### Swiss German
 locale=de_CH.UTF-8 keyb=ch kvariant=de
 ### Chinese
 locale=zh_CN.UTF-8 keyb=zh
