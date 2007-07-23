@@ -1,7 +1,7 @@
 [[toc ]]
 
 
-# usplash boot screen
+# usplash boot screen (hard)
 
 <a href="http://www.flickr.com/photos/hendry/845129169/" title="Photo Sharing"><img src="http://farm2.static.flickr.com/1309/845129169_7b43022006_m.jpg" width="240" height="180" alt="Webconverger's 2.26 new bootup screen" /></a>
 
@@ -10,13 +10,15 @@ apt-get source usplash-theme-webconverger from deb-src http://webconverger.com/d
     monty:/tmp/usplash-theme-webconverger-0.29% ls *.svg
     osdesktop-artwork.svg  throbber_back_16.svg  throbber_back.svg  throbber_fore_16.svg  throbber_fore.svg
 
-Use [inkscape](http://www.inkscape.org/) to edit the images and a command like:
+Use [inkscape](http://www.inkscape.org/) to edit the Vector graphics images, osdesktop-artwork.svg being the main piece.
+
+A command like:
 
 `inkscape --export-area-canvas -w 1024 -h 768 --export-png /tmp/tmp.png osdesktop-artwork.svg`
 
-To test output.
+Is good to for initial testing. Usplash and its themes are actually quite complicated. If you read osdesktop-artwork.c you'll notice mention of the colour palettes and the way the progress bar is configured. I have not quite understand how to manipulate these values myself.
 
-# The X windows centered background image on a white background
+# The X windows centered background image on a white background (easy)
 
 This is retrieved from $HOMEPAGE/bg.png
 
@@ -36,4 +38,4 @@ If using Flickr choose a [BY: licensed image](http://flickr.com/creativecommons/
 
 # A call for help
 
-As you may or not notice, I could do with some help with the artwork. Any contributions would be fantstic.
+As you may or not notice, I could do with some help with the artwork. Any contributions would be fantastic! :)
