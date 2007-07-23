@@ -1,9 +1,9 @@
-There are a couple of pieces of artwork in Webconverger itself
-
 [[toc ]]
 
 
 # usplash boot screen
+
+<a href="http://www.flickr.com/photos/hendry/845129169/" title="Photo Sharing"><img src="http://farm2.static.flickr.com/1309/845129169_7b43022006_m.jpg" width="240" height="180" alt="Webconverger's 2.26 new bootup screen" /></a>
 
 apt-get source usplash-theme-webconverger from deb-src http://webconverger.com/debian/ stable/
 
@@ -27,8 +27,13 @@ So [view the current background](http://portal.webconverger.com/bg.png).
 Users see this as Webconverger loads Iceweasel. So initially at bootup and between sessions. The amount of time this background is viewable depends on the speed of the computer. I.e. how long it takes to load the browser.
 
 
-# Thoughts
+## Thoughts
 
 The background could be a nice image or piece of art. 
 
 If using Flickr choose a [BY: licensed image](http://flickr.com/creativecommons/by-2.0/).
+
+
+# A call for help
+
+As you may or not notice, I could do with some help with the artwork. Any contributions would be fantstic.
