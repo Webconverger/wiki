@@ -2,6 +2,13 @@
 
 Webconverger's development mantra.
 
+## Packages
+
+
+* [stable](http://webconverger.com/debian/stable/)
+
+There is an unstable branch, however most work is happening in stable atm. Unstable will be used more when the product is more mature.
+
 ## Translations
 
 The [Webconverger subversion repositry](http://svn.webconverger.org/) has files like
@@ -27,6 +34,8 @@ If you are a artist/"Web designer" who knows how to write [standards compliant](
 * [[Kiosk]]
 
 There is lots of room for movement here, as long as your extension is **fast**.
+
+`apt-get source iceweasel-webconverger` from Webconverger package repo
 
 ## Hacking and building the image
 
