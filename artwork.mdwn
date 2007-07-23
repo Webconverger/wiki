@@ -41,6 +41,6 @@ If using Flickr choose a [BY: licensed image](http://flickr.com/creativecommons/
 As you may or not notice, I could do with some help with the artwork. Any contributions would be fantastic! :)
 
 
-# External information
+# Related
 
 See the [Debian Live wiki article on Artwork](http://wiki.debian.org/DebianLive/Howto/Custom_Artwork)
