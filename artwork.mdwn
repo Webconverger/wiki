@@ -1,9 +1,9 @@
 There are a couple of pieces of artwork in Webconverger itself
 
-1. The usplash boot screen
-2. The X windows centered background image on a white background
+[[toc ]]
 
-# usplash
+
+# usplash boot screen
 
 apt-get source usplash-theme-webconverger from deb-src http://webconverger.com/debian/ stable/
 
@@ -16,7 +16,7 @@ Use [inkscape](http://www.inkscape.org/) to edit the images and a command like:
 
 To test output.
 
-# background
+# The X windows centered background image on a white background
 
 This is retrieved from $HOMEPAGE/bg.png
 
