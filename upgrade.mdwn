@@ -41,6 +41,9 @@ In the case where one has a long running Webconverger system (isn't rebooted), t
 
 Updates should "just work" and not require any user intervention. However if the browser or browser extension for example is updated, the only way a user can actually update is to close his/her session and allow the browser to reload itself.
 
+## Other thoughts
+
+Perhaps it is best just to upgrade the browser.
 
 # Outlook
 
