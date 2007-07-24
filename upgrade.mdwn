@@ -16,9 +16,9 @@ If you're using a CD in a ReWritable CD drive, then you could write updates to t
 
 * User has a CD writer
 * CD won't fill up
-* CD writing is a fragile process
+* CD writing is a very fragile process, so nothing can go wrong!
 
-Webconverger is not actively perusing this option.
+Webconverger is not actively pursuing this option.
 
 ## Writing to USB media or hard disc
 
