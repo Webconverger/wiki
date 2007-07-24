@@ -2,7 +2,7 @@
 
 # Back story
 
-A **problem** with [LiveCD](http://en.wikipedia.org/wiki/LiveCD)s is that they are generally speaking static distribution, on a read only CD.
+A **problem** with [LiveCD](http://en.wikipedia.org/wiki/LiveCD)s is that they are generally speaking static distributions, on a r**read only** CD.
 
 One might assume this is good for [[security]] at first, as if there there was ever an exploit with a LiveCD, you could just reboot the machine. The exploit/virus could not write itself to the disc, so a reboot starts from a fresh uncompromised position.
 
