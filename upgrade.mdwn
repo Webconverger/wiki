@@ -33,11 +33,19 @@ This is the current method, though there is a couple of serious problems:
 * If someone is using an old version of Webconverger, there will be lots of updates and hence a lot of downloads every boot - potentially high bandwidth
 * You can't update some elements (like kernel, drivers) of a running system without a reboot. And after a reboot the updated packages will be lost of course!
 
+## Other general problems of a apt-get dist-upgrade
+
+As mentioned before kernel updates require a reboot, which can only work on Read Write media like USB or Hard drives.
+
+In the case where one has a long running Webconverger system (isn't rebooted), then there might be new updated packages come availible. So Webconverger needs to update itself every day or 12 hours or... you be the judge!
+
+Updates should "just work" and not require any user intervention. However if the browser or browser extension for example is updated, the only way a user can actually update is to close his/her session and allow the browser to reload itself.
+
 
 # Outlook
 
 For CDs users, upgrades do not really work 100%. For small updates, "Updating at bootup" is fine on CD media. However as time goes on you really should [download the latest copy of Webconverger](http://download.webconverger.com/) and burn a new copy.
 
-So for commercial (paying) customers I would suggest ordering a Webconverger CD every six months. You're free to decide whether or not to update. 
+So for commercial (paying) customers I would suggest ordering a Webconverger CD every six months. You're free to decide whether or not to update. If you do not update, remember your fresh boot ups will be slower and your network costs will increase over time.
 
 For the future, USB and hard drive writing methods should mature and make the upgrade process a lot smoother and cheaper.
