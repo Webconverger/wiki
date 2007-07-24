@@ -6,7 +6,7 @@ A **problem** with [LiveCD](http://en.wikipedia.org/wiki/LiveCD)s is that they a
 
 One might assume this is good for [[security]] at first, as if there there was ever an exploit with a LiveCD, you could just reboot the machine. The exploit/virus could not write itself to the disc, so a reboot starts from a fresh uncompromised position.
 
-This is true to an extent, however what happens if the LiveCD shipped version 1 of browser. Suppose version 1 of browser is known to be insecure. If someone is using version 1 and goes to a malicious Web site, all the account details of previous surfing in that session could be compromised. The 'static' LiveCD model doesn't really help there in that important case.
+This is true to an extent, however what happens if the LiveCD shipped version 1 of browser. Suppose version 1 of browser is known to be insecure. If someone is using version 1 and goes to a malicious Web site, all the account details of previous surfing in that session could be compromised. The read only LiveCD model doesn't really help there in that important security situation.
 
 # Keeping the LiveCD up to date
 
@@ -18,21 +18,23 @@ If you're using a CD in a ReWritable CD drive, then you could write updates to t
 * CD won't fill up
 * CD writing is a fragile process
 
+Webconverger is not actively perusing this option.
+
 ## Writing to USB media or hard disc
 
-Much easier to do theoretically, though not implemented in Webconverger atm. Debian Live is designed for CDs, not USB media atm. Also USB users are the minority, so naturally CD users have been focused upon and assumed.
+Much easier to do theoretically, though not implemented in Webconverger atm. [Debian Live](http://debian-live.alioth.debian.org/) is designed for read only environments like CDs, not USB media atm. Also USB users are the minority, so naturally CD users have been assumed.
 
 ## Updating at bootup
 
 This is the current method, though there is a couple of serious problems:
 
 
-* If one of the servers is not responding or slow, it can disrupt the whole upgrade process and boot up! - very network sensitive
+* If one of the servers is not responding or slow, it can disrupt the whole upgrade and boot process - very network sensitive
 * If someone is using an old version of Webconverger, there will be lots of updates and hence a lot of downloads every boot - potentially high bandwidth
+* You can't update some elements (like kernel, drivers) of a running system without a reboot. And after a reboot the updated packages will be lost of course!
 
 
-
-# Conclusion
+# Outlook
 
 For CDs users, upgrades do not really work 100%. For small updates, "Updating at bootup" is fine on CD media. However as time goes on you really should [download the latest copy of Webconverger](http://download.webconverger.com/) and burn a new copy.
 
