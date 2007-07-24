@@ -14,9 +14,9 @@ This is true to an extent, however what happens if the LiveCD shipped version 1 
 
 If you're using a CD in a ReWritable CD drive, then you could write updates to that disc as another CD session (not a browser session). This is all very well, but you're assuming a couple of things:
 
-* User has a CD writer
-* CD won't fill up
-* CD writing is a very fragile process, so nothing can go wrong!
+1. User has a CD writer
+2. CD won't fill up
+3. CD writing is a very fragile process, so nothing can go wrong!
 
 Webconverger is not actively pursuing this option.
 
