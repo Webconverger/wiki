@@ -29,9 +29,9 @@ Much easier to do theoretically, though not implemented in Webconverger atm. [De
 This is the current method, though there is a couple of serious problems:
 
 
-* If one of the servers is not responding or slow, it can disrupt the whole upgrade and boot process - very network sensitive
-* If someone is using an old version of Webconverger, there will be lots of updates and hence a lot of downloads every boot - potentially high bandwidth
-* You can't update some elements (like kernel, drivers) of a running system without a reboot. And after a reboot the updated packages will be lost of course!
+1. If one of the servers is not responding or slow, it can disrupt the whole upgrade and boot process - very network sensitive
+2. If someone is using an old version of Webconverger, there will be lots of updates and hence a lot of downloads every boot - potentially high bandwidth
+3. You can't update some elements (like kernel, drivers) of a running system without a reboot. And after a reboot the updated packages will be lost of course!
 
 ## Other general problems of a apt-get dist-upgrade
 
