@@ -6,7 +6,7 @@ The default homepage on Webconverger builds are [http://portal.webconverger.com/
 * [[i18n]] Extensive internationalization support. Exotic locales such as Chinese, Japanese and Korean (CJK) are supported. CJK keyboard switching via [scim](http://en.wikipedia.org/wiki/SCIM) and many other types of keyboard setups, such as swiss German
 * Spelling support with dictionaries in many languages. Right click to choose your language and dictionary.
 * [Firefox Web browser](http://en.wikipedia.org/wiki/Firefox) 2.x rebuild [Iceweasel](http://en.wikipedia.org/wiki/Iceweasel) by default in every Webconverger. [Opera](http://download.webconverger.com/opera/) instead is optional, though unsupported.
-* Automatic update on bootup - Webconverger is designed by default to **always be up to date**
+* Automatic update on bootup - Webconverger has an [[upgrade]] feature enabled by default
 * [[Printing]]
 * Kiosk reset with `kioskresetstation=<mins>`. Resets browser after user defined minutes of idleness/inactivity. Default off.
 * `toram` - loads live image into memory, so you can reuse media to boot further machines. Disabled by default as it makes startup a little slower.
