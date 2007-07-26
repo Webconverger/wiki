@@ -5,7 +5,7 @@ Extension(s) that meet the requirements of Webconverger customers. Currently the
 
 # iceweasel-webconverger
 
-Default and most common
+Default and most common.
 
 <a href="http://www.flickr.com/photos/hendry/845129157/" title="Photo Sharing"><img src="http://farm2.static.flickr.com/1188/845129157_824320ad82_m.jpg" width="240" height="180" alt="Webconverger booted" /></a>
 
@@ -19,7 +19,7 @@ Customization option. Basically for customers who want patrons to browse, but no
 
 # iceweasel-webcfullscreen
 
-For customers who want to do [Digital signage](http://en.wikipedia.org/wiki/Digital_Signage).
+Customization option. For customers who want to do [Digital signage](http://en.wikipedia.org/wiki/Digital_Signage).
 
 <a href="http://www.flickr.com/photos/hendry/903110103/" title="Photo Sharing"><img src="http://farm2.static.flickr.com/1351/903110103_d7362c0951_m.jpg" width="240" height="180" alt="iceweasel-webcfullscreen" /></a>
 
@@ -34,7 +34,7 @@ I have forked rkiosk and created my own extension, webconverger. I had to do thi
 ## Help
 
 
-Extension hackers wanted. Also see [[Develop]].
+Extension hackers wanted. Also see [[Develop]] and [todo list](http://svn.webconverger.org/webconverger.org/TODO).
 
 
 #### Further Links
