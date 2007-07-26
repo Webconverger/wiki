@@ -1,4 +1,4 @@
-[[Core concepts|design]]
+[[Core_concepts|design]]
 
 ## Packages
 
