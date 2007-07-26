@@ -28,14 +28,10 @@ Thank you very much for any translation help. If your translation meets my quali
 
 If you are a artist/"Web designer" who knows how to write [standards compliant](http://whatwg.org), minimal, device independent CSS (like mine, but better looking) without going too crazy with PNGs, then I'm interested in reaching out to you. My visual design skills on http://webconverger.com/ are pitiful. Can you tell?
 
-## Firefox extension development
+## Firefox hacking
 
 
-* [[Kiosk]]
-
-There is lots of room for movement here, as long as your extension is **fast**.
-
-`apt-get source iceweasel-webconverger` from Webconverger package repo
+See [[Firefox_extension_development|Kiosk]]
 
 ## Hacking and building the image
 
