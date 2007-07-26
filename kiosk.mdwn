@@ -1,6 +1,27 @@
 ### Goal
 
-A quality free Firefox/Iceweasel kiosk extension for Debian
+Extension(s) that meet the requirements of Webconverger customers. Currently there are three scenarios.
+
+
+# iceweasel-webconverger
+
+Default and most common
+
+<a href="http://www.flickr.com/photos/hendry/845129157/" title="Photo Sharing"><img src="http://farm2.static.flickr.com/1188/845129157_824320ad82_m.jpg" width="240" height="180" alt="Webconverger booted" /></a>
+
+
+# iceweasel-webcnoaddressbar
+
+Customization option. Basically for customers who want patrons to browse, but not enter in URLs.
+
+<a href="http://www.flickr.com/photos/hendry/903110079/" title="Photo Sharing"><img src="http://farm2.static.flickr.com/1292/903110079_30e70db715_m.jpg" width="240" height="180" alt="iceweasel-webcnoaddressbar" /></a>
+
+
+# iceweasel-webcfullscreen
+
+For customers who want to do [Digital signage](http://en.wikipedia.org/wiki/Digital_Signage).
+
+<a href="http://www.flickr.com/photos/hendry/903110103/" title="Photo Sharing"><img src="http://farm2.static.flickr.com/1351/903110103_d7362c0951_m.jpg" width="240" height="180" alt="iceweasel-webcfullscreen" /></a>
 
 ## Implementation
 
