@@ -7,7 +7,7 @@ Webconverger's development mantra.
 
 * [stable](http://webconverger.com/debian/stable/)
 
-There is an unstable branch, however most work is happening in stable atm. Unstable will be used more when the product is more mature.
+There is an unstable branch, however most work is happening in stable atm. Unstable will be used more when the product is more mature, for testing purposes much like Debian.
 
 ## Translations
 
