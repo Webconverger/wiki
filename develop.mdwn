@@ -55,9 +55,9 @@ Please [contact hendry](http://hendry.iki.fi/) if you have any suggestions/comme
 
 ## Customizing service
 
-I hope to make some money by offering a build service of the above at [Webconverger.com/buy](http://webconverger.com/buy/). You're free to build your own Webconverger image, though please do not abuse bandwidth on my repos.
+I hope to make some money by offering a build service of the above at [Webconverger.com/buy](http://webconverger.com/buy/). You're free to build your own Webconverger image, though please do not abuse bandwidth of my repos. Also please let me know if you can it's application for the [[Testimonials|press]] page.
 
 So I am happy if you're competent enough to make your own [Web operating system](http://natalian.org/archives/2007/05/23/web-operating-systems/).
-Though if you need support services et al, it's best to get me to do it. I'm ridiculously cheap and I know the code best. ;) 
+Though if you need support services et al, it's best to get me to do it. I'm cheap and I know the code best. ;) 
 
 Spread the word, the Web is **the** open computing API for all.
