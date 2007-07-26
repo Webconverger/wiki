@@ -5,7 +5,7 @@ Welcome to the Webconverger Wiki.
 * [Changelog](http://svn.webconverger.org/webconverger.org/Changelog)
 * [TODO](http://svn.webconverger.org/webconverger.org/TODO)
 * [Debian-Live](http://debian-live.alioth.debian.org/)
-* [[Kiosk]]
+* [[Firefox_extention_development|Kiosk]]
 * [[i18n]]
 * [[Develop]]
 * [[Acknowledgements]]
