@@ -3,22 +3,21 @@ So many of these features are **optional** and some will not work until enabled 
 The default homepage on Webconverger builds are [http://portal.webconverger.com/](http://portal.webconverger.com/). [Customize Webconverger](http://webconverger.com/buy/) for your own homepage like banks, museums, car dealerships and many other customers have done.
 
 
-* [[Extensive_internationalization_support|i18n]] -  Exotic locales such as Chinese, Japanese and Korean (CJK) are supported. CJK keyboard switching via [scim](http://en.wikipedia.org/wiki/SCIM) and many other types of keyboard setups, such as swiss German
-* Spelling support with dictionaries in many languages are available. 
-* [Firefox Web browser](http://en.wikipedia.org/wiki/Firefox) 2.x rebuild [Iceweasel](http://en.wikipedia.org/wiki/Iceweasel) by default in every Webconverger. [Opera](http://download.webconverger.com/opera/) instead is optional, though unsupported.
-* Automatic update on bootup - Webconverger has an [[upgrade]] feature enabled by default
-* [[Printing]]
-* Kiosk reset with `kioskresetstation=<mins>`. Resets browser after user defined minutes of idleness/inactivity. Default off.
-* `toram` - loads live image into memory, so you can reuse media to boot further machines. Disabled by default as it makes startup slower.
-
-* [[Networking]] configuration with `ip=if,add,netm,gatew`. Default is DHCP.
-* [[Adobe]] Flash is **enabled by default**. However there is a supported "fully free" version of Webconverger which does not have the Flash package.
-* [PDF viewing](http://flickr.com/photos/hendry/851173358/) - xpdf - enabled by default
-* xvideomode=800x600 (new in >=2.16) - should override resolution to 800x600. Default display is *autodetected*. 
-* Wireless network device customization support available. Not by default.
-* Basic pornography text content [[Filtering]]
-* [[Digital_signage_modes|kiosk]]
-* Java support - disabled by default
+1. [[Extensive_internationalization_support|i18n]] -  Exotic locales such as Chinese, Japanese and Korean (CJK) are supported. CJK keyboard switching via [scim](http://en.wikipedia.org/wiki/SCIM) and many other types of keyboard setups, such as swiss German
+2. Spelling support with dictionaries in many languages are available. 
+3. [Firefox Web browser](http://en.wikipedia.org/wiki/Firefox) 2.x rebuild [Iceweasel](http://en.wikipedia.org/wiki/Iceweasel) by default in every Webconverger. [Opera](http://download.webconverger.com/opera/) instead is optional, though unsupported.
+4. Automatic update on bootup - Webconverger has an [[upgrade]] feature enabled by default
+5. [[Printing]]
+6. Kiosk reset with `kioskresetstation=<mins>`. Resets browser after user defined minutes of idleness/inactivity. Default off.
+7. `toram` - loads live image into memory, so you can reuse media to boot further machines. Disabled by default as it makes startup slower.
+8. [[Networking]] configuration with `ip=if,add,netm,gatew`. Default is DHCP.
+9. [[Adobe]] Flash is **enabled by default**. However there is a supported "fully free" version of Webconverger which does not have the Flash package.
+10. [PDF viewing](http://flickr.com/photos/hendry/851173358/) - xpdf - enabled by default
+11. xvideomode=800x600 (new in >=2.16) - should override resolution to 800x600. Default display is *autodetected*. 
+12. Wireless network device customization support available. Not by default.
+13. Basic pornography text content [[Filtering]]
+14. [[Digital_signage_modes|kiosk]]
+15. Java support - disabled by default
 
 [Documentation/kernel-parameters.txt](http://www.google.com/search?q=kernel-parameters.txt) has some other arguments you can pass to the linux kernel. Such as `noacpi` which disables power management, which some old buggy BIOSs can be incompatible with.
 
