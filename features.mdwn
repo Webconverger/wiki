@@ -9,13 +9,13 @@ The default homepage on Webconverger builds are [http://portal.webconverger.com/
 * Automatic update on bootup - Webconverger has an [[upgrade]] feature enabled by default
 * [[Printing]]
 * Kiosk reset with `kioskresetstation=<mins>`. Resets browser after user defined minutes of idleness/inactivity. Default off.
-* `toram` - loads live image into memory, so you can reuse media to boot further machines. Disabled by default as it makes startup a little slower.
+* `toram` - loads live image into memory, so you can reuse media to boot further machines. Disabled by default as it makes startup slower.
 
 * [[Networking]] configuration with `ip=if,add,netm,gatew`. Default is DHCP.
 * [[Adobe]] Flash is **enabled by default**. However there is a supported "fully free" version of Webconverger which does not have the Flash package.
 * [PDF viewing](http://flickr.com/photos/hendry/851173358/) - xpdf - enabled by default
 * xvideomode=800x600 (new in >=2.16) - should override resolution to 800x600. Default display is *autodetected*. 
-* Wireless customization support available. Not by default.
+* Wireless network device customization support available. Not by default.
 * Basic pornography text content [[Filtering]]
 * [[Digital_signage_modes|kiosk]]
 * Java support - disabled by default
