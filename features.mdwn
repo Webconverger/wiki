@@ -18,13 +18,3 @@ The default homepage on Webconverger builds are [http://portal.webconverger.com/
 13. Basic pornography text content [[Filtering]]
 14. [[Digital_signage_modes|kiosk]]
 15. Java support - disabled by default
-
-[Documentation/kernel-parameters.txt](http://www.google.com/search?q=kernel-parameters.txt) has some other arguments you can pass to the linux kernel. Such as `noacpi` which disables power management, which some old buggy BIOSs can be incompatible with.
-
-# Upcoming features
-
-Also see the infamous [TODO list](http://svn.webconverger.org/webconverger.org/TODO) and development progress with the [Changelog](http://svn.webconverger.org/webconverger.org/Changelog).
-
-* Hard drive install - *BETA*
-
-If you are interested in fast boot times, installing Webconverger on a hard disk is the best way of achieving this. This feature is currently in testing. You can **experiment** with the `install` boot parameter.
