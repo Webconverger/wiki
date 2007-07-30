@@ -17,6 +17,7 @@ The default homepage on Webconverger builds are [http://portal.webconverger.com/
 * xvideomode=800x600 (new in >=2.16) - override resolution to 800x600. Default display is *autodetected*. 
 * Wireless customization support available. Not by default.
 * Basic pornography text content [[Filtering]]
+* [[Digital_signage_modes|kiosk]]
 * Java support - disabled by default
 
 [Documentation/kernel-parameters.txt](http://www.google.com/search?q=kernel-parameters.txt) has some other arguments you can pass to the linux kernel. Such as `noacpi` which disables power management, which some old buggy BIOSs can be incompatible with.
