@@ -3,8 +3,6 @@ Webconverger design document
 ### Goals and principles
 
 
-Like LiveKiosk's EZWebPC but better and as free software. The audience for initial releases of Webconverger will most likely be Internet Cafes.
-
    1. No users - no superuser
    2. Stability & Security - based on Debian etch
    3. No local user data - Locked down browser kiosk - for example no functionality to save bookmarks locally
@@ -34,4 +32,3 @@ Most computers have hard drives, so hard installs are important. Webconverger is
 
 Notice Webconverger Web applications can target the rich capabilities of Opera or Firefox with SVG graphics et al.
 
-Feedback greatly appreciated hendry@webconverger.org
