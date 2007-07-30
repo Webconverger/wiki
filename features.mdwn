@@ -4,7 +4,7 @@ The default homepage on Webconverger builds are [http://portal.webconverger.com/
 
 
 * [[i18n]] Extensive internationalization support. Exotic locales such as Chinese, Japanese and Korean (CJK) are supported. CJK keyboard switching via [scim](http://en.wikipedia.org/wiki/SCIM) and many other types of keyboard setups, such as swiss German
-* Spelling support with dictionaries in many languages. Right click to choose your language and dictionary.
+* Spelling support with dictionaries in many languages are available. 
 * [Firefox Web browser](http://en.wikipedia.org/wiki/Firefox) 2.x rebuild [Iceweasel](http://en.wikipedia.org/wiki/Iceweasel) by default in every Webconverger. [Opera](http://download.webconverger.com/opera/) instead is optional, though unsupported.
 * Automatic update on bootup - Webconverger has an [[upgrade]] feature enabled by default
 * [[Printing]]
@@ -14,7 +14,7 @@ The default homepage on Webconverger builds are [http://portal.webconverger.com/
 * [[Networking]] configuration with `ip=if,add,netm,gatew`. Default is DHCP.
 * [[Adobe]] Flash is **enabled by default**. However there is a supported "fully free" version of Webconverger which does not have the Flash package.
 * [PDF viewing](http://flickr.com/photos/hendry/851173358/) - xpdf - enabled by default
-* xvideomode=800x600 (new in >=2.16) - override resolution to 800x600. Default display is *autodetected*. 
+* xvideomode=800x600 (new in >=2.16) - should override resolution to 800x600. Default display is *autodetected*. 
 * Wireless customization support available. Not by default.
 * Basic pornography text content [[Filtering]]
 * [[Digital_signage_modes|kiosk]]
