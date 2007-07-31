@@ -4,10 +4,11 @@ Webconverger's arguments for better security is that it is based on:
 
 * opensource software
 * Debian etch
-* Firefox/Iceweasel
+* Latest Firefox/Iceweasel
 * Always clears private data once a session is ended
 * no super user
-* automatic updates
+* [[automatic_updates|upgrade]]
+* does not allow local data
 
 Webconverger unlike Windows for example does not require:
 
