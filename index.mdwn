@@ -11,10 +11,10 @@
 * [[Acknowledgements]]
 * [[Networking]]
 * [[Printing]]
-* [[Opera]]
-* [[Testing]]
-* [[Filtering]]
-* [[Fonts]]
+* [[About_the_Opera_version|Opera]]
+* [[Howto_test_Webconverger|Testing]]
+* [[Content_filtering|Filtering]]
+* [[Information_about_Fonts|Fonts]]
 
 
 Customization
@@ -44,8 +44,8 @@ Reasons for using Webconverger
 * [[Deployment]]
 * [[Web_Standards]]
 * [[Cost_effective]]
-* [[Registration]]
-* [[Adobe]]
+* [[No_users_or_registration|Registration]]
+* [[Flash_and_PDF_viewer|Adobe]]
 * [[Training]]
 * [[Maintenance]]
 * [[Support]]
