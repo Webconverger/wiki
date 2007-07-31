@@ -1,9 +1,12 @@
+# The World Webconverger Web :)
+
 ### If you want to ask a question about Webconverger usage, try the new [forum for Webc users](http://groups.google.com/group/webc-users/topics)!
+
 
 * [Download Webconverger](http://download.webconverger.com/)
 * [[Design_document|Design]]
 * [Changelog](http://svn.webconverger.org/webconverger.org/Changelog)
-* [TODO](http://svn.webconverger.org/webconverger.org/TODO)
+* The [TODO](http://svn.webconverger.org/webconverger.org/TODO) list
 * The [Debian-Live](http://debian-live.alioth.debian.org/) is where Webconverger is derived
 * Webconverger [[Firefox_extension_development|Kiosk]]
 * [[Internationalisation_and_localisation|i18n]]
