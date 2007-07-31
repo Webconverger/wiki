@@ -1,15 +1,15 @@
 ### If you want to ask a question about Webconverger usage, try the new [forum for Webc users](http://groups.google.com/group/webc-users/topics)!
 
 * [Download Webconverger](http://download.webconverger.com/)
-* [[Design]]
+* [[Design_document|Design]]
 * [Changelog](http://svn.webconverger.org/webconverger.org/Changelog)
 * [TODO](http://svn.webconverger.org/webconverger.org/TODO)
-* [Debian-Live](http://debian-live.alioth.debian.org/)
+* The [Debian-Live](http://debian-live.alioth.debian.org/) is where Webconverger is derived
 * [[Firefox_extension_development|Kiosk]]
-* [[i18n]]
-* [[Develop]]
+* [[Internationalisation_and_localisation|i18n]]
+* [[Developer_information|Develop]]
 * [[Acknowledgements]]
-* [[Networking]]
+* [[Notes_on_Networking|Networking]]
 * [[Printing]]
 * [[About_the_Opera_version|Opera]]
 * [[Howto_test_Webconverger|Testing]]
