@@ -40,11 +40,11 @@ Reasons for using Webconverger
 * [[Free_&_open_software]]
 * [[Low_requirements|Requirements]] - can run on old/cheap hardware and can be ported to run on embedded devices
 * Good [[Security]] by [[design]]
-* [[Deployment]] options abound
+* [[Deployment]] options abound, though the most common by far is LiveCD
 * [[Web_Standards]] compliant
-* [[Cost_effective]]
+* [[Cost_effective]] - try the [free version](http://download.webconverger.com/) or order a [customised version](http://webconverger.com/buy)
 * [[No_users_or_registration|Registration]]
 * [[Flash_and_PDF_viewer|Adobe]]
 * [[Easy_to_use|Training]]
 * [[Low_Maintenance|Maintenance]]
-* Commercial [[Support]] via Webconverger.com is available.
+* Commercial [[Support]] via [Webconverger.com](http://webconverger.com/) is available. Please enquire.
