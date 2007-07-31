@@ -8,9 +8,9 @@
 * Webconverger [[Firefox_extension_development|Kiosk]]
 * [[Internationalisation_and_localisation|i18n]]
 * [[Developer_information|Develop]]
-* [[Acknowledgements]]
+* [[Acknowledgements]] - thanks everyone!
 * [[Notes_on_Networking|Networking]]
-* [[Printing]]
+* [[Printing]] with [CUPS](http://www.cups.org/)
 * [[About_the_Opera_version|Opera]]
 * [[Howto_test_Webconverger|Testing]]
 * [[Content_filtering|Filtering]] and white listing are possible
