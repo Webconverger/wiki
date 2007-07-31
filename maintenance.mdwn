@@ -1,5 +1,5 @@
 Webconverger is low maintenance. No administrator required!
 
-Webconverger is designed so that users store their data on Web applications, so you need not worry about losing **or maintaining** any data locally.
+Webconverger is [[designed|design]] so that users store their data on Web applications, so you need not worry about losing **or maintaining** any data locally.
 
 Webconverger ships with the [latest stable packages](http://download.webconverger.com/packages.txt). Though even older versions of Webconverger will try [[automatically_update_on_startup|upgrade]] to keep Webconverger users **always current with stable updates**.
