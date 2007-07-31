@@ -1,4 +1,4 @@
-Ideally Webconverger should be deployed in a network with a **DHCP server**.
+Ideally Webconverger should be deployed in a **wired network** with a **DHCP server**.
 
 Otherwise you can set the IP manually:
 
