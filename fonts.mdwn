@@ -1,7 +1,7 @@
 Webconverger has the serif [Gentium font](http://scripts.sil.org/Gentium) and the sans [DejaVu font](http://dejavu.sourceforge.net/), which is included on every Webconverger distribution since version 2.21.
 
 
-# Installing the Gentium font on a Debian/Ubuntu machine:
+# Installing the default Webconverger fonts on a Debian/Ubuntu machine:
 
   1. `monty:~% sudo apt-get install ttf-gentium ttf-dejavu`
   2. Restart your browser
