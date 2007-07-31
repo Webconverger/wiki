@@ -22,10 +22,10 @@ Customization
 
 
 * [Purchase customization and support](http://webconverger.com/buy/)
-* [[Homepage]]
-* [[Features]]
-* [[Develop]]
-* [[Artwork]]
+* [[Homepage]] by default is [Webconverger Portal](http://portal.webconverger.com/)
+* [[Features]] you could choose from
+* [[Develop]] your own Webconverger
+* [[Artwork]] information
 
 Webconverger in the press
 =========================
