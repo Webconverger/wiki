@@ -16,7 +16,6 @@ Web
 
 * [Technorati](http://www.technorati.com/search/webconverger.com%2F)
 * [Google blog search](http://blogsearch.google.com/blogsearch?hl=en&q=webconverger&btnG=Search+Blogs)
-* [LinuxLinks](http://www.linuxlinks.com/Web/E_commerce/index.shtml)
 * [Freshmeat](http://freshmeat.net/projects/webconverger)
 * [Firefox facts](http://www.firefoxfacts.com/2007/04/05/webconverger-the-firefox-os/)
 * [Jure](http://www.kiberpipa.org/~gandalf/blog/?p=75) on [Planet LiveCD](http://planet.livecd.net/)
@@ -35,6 +34,7 @@ Quoted positive feedback
 ========================
 
 
+* "Kai, it is great work! Keep it up." Waqar
 * "Thank you for what you have done so far. Of webkiosk livecds, yours is currently the best." from Larry
 * "I am looking for a boot CD to give to friends and relatives for safe Internet banking. Webconverger is the best I have found" from anon
 * "it is good!!!" from anon
