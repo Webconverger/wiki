@@ -1,8 +1,8 @@
-Microsoft Vista has very high system requirements.
+Microsoft Vista has very high system requirements and poor hardware compatibility.
 
 MacOSX require their own particular Apple hardware.
 
-Webconverger can run on most PCs that meet [Firefox's minimum requirements](http://www.mozilla.com/en-US/firefox/system-requirements.html). In fact Webconverger does not require any hard drive and hence _free disk space_.
+Webconverger can run on most PCs that meet [Firefox's minimum requirements](http://www.mozilla.com/en-US/firefox/system-requirements.html). In fact Webconverger does not require any hard drive (free disk space).
 
 Webconverger can run well on __recycled machines__. Pentium 3s with 128MB of RAM are quite suitable PCs for Webconverger.
 
