@@ -13,7 +13,7 @@
 * [[Printing]]
 * [[About_the_Opera_version|Opera]]
 * [[Howto_test_Webconverger|Testing]]
-* [[Content_filtering|Filtering]]
+* [[Content_filtering|Filtering]] and white listing are possible
 * [[Information_about_Fonts|Fonts]]
 
 
