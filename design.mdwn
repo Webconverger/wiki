@@ -30,6 +30,7 @@ Most computers have hard drives, so hard installs are important. Webconverger is
    5. CDROM live and then install to hard drive
    6. USB live and then install to hard drive
    7. OEM installs
+   8. Installs via Windows using something like [Wubi](http://wubi-installer.org/) or the [Win32 loader](http://goodbye-microsoft.com/)
 
 Notice Webconverger Web applications can leverage the rich capabilities of Firefox with SVG graphics and the default [[fonts]].
 
