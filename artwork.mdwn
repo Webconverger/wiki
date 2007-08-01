@@ -1,6 +1,6 @@
 [[toc ]]
 
-For customers, customising the X background is normal and best practice. If customers want their usplash customised, this is a lot of extra work and I have to charge accordingly.
+For Webconverger customization customers, customising the X background is normal and best practice. If customers want their usplash customised, this is a **lot of extra work** and I have to charge accordingly.
 
 # usplash boot screen (hard)
 
