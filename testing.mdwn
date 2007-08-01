@@ -32,3 +32,8 @@ Save the configuration below as a file named `webconverger.vmx` with [webconverg
 # qemu
 
 `qemu -cdrom webconverger.iso`
+
+
+# Future of testing
+
+[Videos](http://video.google.co.uk/videoplay?docid=-4095341796996048842&hl=en-GB)
