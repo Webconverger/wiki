@@ -10,13 +10,13 @@ apt-get source usplash-theme-webconverger from deb-src http://webconverger.com/d
     monty:/tmp/usplash-theme-webconverger-0.29% ls *.svg
     osdesktop-artwork.svg  throbber_back_16.svg  throbber_back.svg  throbber_fore_16.svg  throbber_fore.svg
 
-Use [inkscape](http://www.inkscape.org/) to edit the Vector graphics images, osdesktop-artwork.svg being the main piece.
+Use [inkscape](http://www.inkscape.org/) to edit the Vector graphics images, osdesktop-artwork.svg being the main piece. If you are using bitmap images, make sure they are embedded in **effects > images > embed**!
 
 A command like:
 
 `inkscape --export-area-canvas -w 1024 -h 768 --export-png /tmp/tmp.png osdesktop-artwork.svg`
 
-Is good to for initial testing. Usplash and its themes are actually quite complicated. If you read osdesktop-artwork.c you'll notice mention of the colour palettes and the way the progress bar is configured. I have not quite understand how to manipulate these values myself.
+Is good to for initial testing. Usplash and its themes are actually quite complicated. If you read osdesktop-artwork.c you'll notice mention of the colour palettes and the way the progress bar is configured. I do not quite fully understand how to manipulate these values myself.
 
 # The X windows centered background image on a white background (easy)
 
