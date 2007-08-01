@@ -36,4 +36,4 @@ Save the configuration below as a file named `webconverger.vmx` with [webconverg
 
 # Future of testing
 
-[Videos](http://video.google.co.uk/videoplay?docid=-4095341796996048842&hl=en-GB)
+[Videos](http://video.google.co.uk/videoplay?docid=-4095341796996048842&hl=en-GB) with [Brendan's autotesting script](http://svn.debian.org/wsvn/debian-live/people/bmsleight/autotesting/?rev=0&sc=0).
