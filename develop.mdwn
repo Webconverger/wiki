@@ -34,7 +34,7 @@ Develop on a Debian system:
 Please [contact hendry](http://hendry.iki.fi/) if you have any suggestions/comments/fixes/patches. :)
 
  * Read [Testing setup guide](http://wiki.debian.org/DebianLive/Howto/Creating_a_Test_environment)
- * Join the [Debian Live](http://debian-live.alioth.debian.org/) community
+ * Join the [Debian Live](http://debian-live.alioth.debian.org/) community. See the [dev mailing list archives](http://lists.alioth.debian.org/pipermail/debian-live-devel/)
 
 Tips:
 
