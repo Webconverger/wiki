@@ -23,6 +23,8 @@ Customization option. For customers who want to do [Digital signage](http://en.w
 
 <a href="http://www.flickr.com/photos/hendry/903110103/" title="Photo Sharing"><img src="http://farm2.static.flickr.com/1351/903110103_d7362c0951_m.jpg" width="240" height="180" alt="iceweasel-webcfullscreen" /></a>
 
+If you're concerned about the scroll bar, alter the **overflow** CSS element.
+
 ## Implementation
 
 I have forked rkiosk and created my own extension, webconverger. I had to do this as I had to modify some of upstream's packaging and functions and upstream is a little un-cooperative. 
