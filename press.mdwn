@@ -19,6 +19,7 @@ Web
 * [Freshmeat](http://freshmeat.net/projects/webconverger)
 * [Firefox facts](http://www.firefoxfacts.com/2007/04/05/webconverger-the-firefox-os/)
 * [Jure](http://www.kiberpipa.org/~gandalf/blog/?p=75) on [Planet LiveCD](http://planet.livecd.net/)
+* [Distrowatch Entry](http://distrowatch.com/table.php?distribution=webconverger)
 * [Distrowatch Weekly 20070409](http://distrowatch.com/weekly.php?issue=20070409)
 * [Current favourite for secure Internet banking - Webconverger](http://www.andrewpatrick.ca/security-and-privacy/quest-for-a-good-boot-cd-for-internet-banking/)
 
