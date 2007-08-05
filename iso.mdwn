@@ -1,0 +1,8 @@
+#Howto burn the ISO CD image to a blank CD in Windows
+
+   1. Download the latest version of Webconverger by clicking above webconverger.iso link and save to disk.
+   2. Install isorecorder
+   3. Pop in a blank CDR (80min) into the CD writer
+   4. Right click on the downloaded webconverger.iso file and select Copy image to CD
+   5. Complete the wizard and boot any PC with the new Webconverger CD
+   6. Enjoy surfing the Web!
