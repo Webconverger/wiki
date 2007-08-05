@@ -20,6 +20,7 @@
 * [[Information_about_Fonts|Fonts]]
 * [[ISO]]
 * [[USB]]
+* [[mini]]
 
 
 Customization
