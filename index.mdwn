@@ -18,6 +18,8 @@
 * [[Testing_Webconverger|Testing]] - please join the QA effort
 * [[Content_filtering|Filtering]] and white listing are possible
 * [[Information_about_Fonts|Fonts]]
+* [[ISO]]
+* [[USB]]
 
 
 Customization
