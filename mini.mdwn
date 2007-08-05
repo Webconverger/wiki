@@ -1,0 +1,1 @@
+Mini has most [[functionality|features]] removed to save on bandwidth and computer load.
