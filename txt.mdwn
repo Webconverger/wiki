@@ -8,7 +8,7 @@ This is a package list of all the Debian packages contained in this version (2.2
 This is very useful to know the exact version number of individual packages contained in the images, ignoring [[upgrade]]s.
 
 
-Also it is good to know which packages are included. 
+Also it is good to know which packages (and hence [[features]]) are included. 
 
 For example if the **cupsys** package is not included, you know the image does not have any [[printing]] support.
 
