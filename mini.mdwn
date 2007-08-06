@@ -1,3 +1,4 @@
 Mini has most [[functionality|features]] removed to save on bandwidth and computer load.
 
-See the package list in the text file.
+[Download mini](http://download.webconverger.com/mini/)
+
