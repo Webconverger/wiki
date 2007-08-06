@@ -16,4 +16,4 @@
 13. Basic pornography text content [[Filtering]]
 14. [[Digital_signage_modes|kiosk]]
 15. Java support - disabled by default
-16. Proxy (squid) support - good for saving bandwidth and if the Internet connection is unstable - disable by default
+16. Proxy [squid](http://www.squid-cache.org/) support - good for saving bandwidth and if the Internet connection is unstable - disable by default
