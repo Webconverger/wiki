@@ -21,7 +21,8 @@ Customization option. Basically for customers who want patrons to browse, but no
 
 Customization option. For customers who want to do [Digital signage](http://en.wikipedia.org/wiki/Digital_Signage) or just [show off some pictures](http://www.subitophoto.net/slideshow/machupicchu/) somewhere.
 
-<a href="http://www.flickr.com/photos/hendry/903110103/" title="Photo Sharing"><img src="http://farm2.static.flickr.com/1351/903110103_d7362c0951_m.jpg" width="240" height="180" alt="iceweasel-webcfullscreen" /></a>
+
+<a href="http://www.flickr.com/photos/hendry/903110103/" title="Photo Sharing"><img src="http://farm2.static.flickr.com/1351/903110103_3b82387709_m.jpg" width="240" height="180" alt="iceweasel-webcfullscreen" /></a>
 
 If you're concerned about the scroll bar, alter the **overflow** CSS element.
 
