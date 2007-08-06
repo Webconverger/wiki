@@ -1,6 +1,6 @@
 The maxi version is currently the default version [http://download.webconverger.com/webconverger.iso](http://download.webconverger.com/webconverger.iso).
 
-It has most of the [[features]] enabled. Like printing, Tor etc.
+It has most of the [[features]] enabled. Like printing, Tor and [[i18n]] support.
 
 It can be large and slow.
 
