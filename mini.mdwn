@@ -2,3 +2,4 @@ Mini has most [[functionality|features]] removed to save on bandwidth and comput
 
 [Download mini](http://download.webconverger.com/mini/)
 
+If you want to try out more [[features]], see [[maxi]].
