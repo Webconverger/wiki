@@ -1,0 +1,12 @@
+You may have noticed files with a .MD5SUM suffix such as:
+
+    webc-2.29.en.iso.MD5SUM
+
+This is a file containing a checksum. This is to verify the downloaded image file is not corrupt. For example:
+
+    monty:~/images% cat webc-2.29.mini.iso.MD5SUM
+    9f65b24422bb92224f7c54bf911dad59  /home/hendry/www/mini/webc-2.29.mini.iso
+    monty:~/images% md5sum webc-2.29.mini.iso       
+    9f65b24422bb92224f7c54bf911dad59  webc-2.29.mini.iso
+
+Above the MD5SUMs match, which means the original checksum is the same as my local checksum. The image is now verified.
