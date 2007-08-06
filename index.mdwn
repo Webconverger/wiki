@@ -21,6 +21,9 @@
 * [[ISO]]
 * [[USB]]
 * [[mini]]
+* [[maxi]]
+* [[MD5SUM]]
+* [[txt]]
 
 
 Customization
