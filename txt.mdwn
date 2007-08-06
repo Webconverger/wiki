@@ -1,0 +1,18 @@
+You may have noticed .txt (text files) like:
+
+    webc-2.29.en.txt
+
+
+This is a package list of all the Debian packages contained in this version (2.29) of Webconverger.
+
+This is very useful to know the exact version number of individual packages contained in the images, ignoring [[upgrades]]s.
+
+
+Also it is good to know which packages are included. 
+
+For example if the **cupsys** package is not included, you know the image does not have any [[printing]] support.
+
+If the **Tor** package is included, you know that image has some sort of anonymous browsing support.
+
+
+See [[mini]] and [[maxi]] for explanations of the different main configurations of Webconverger.
