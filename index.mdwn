@@ -60,5 +60,3 @@ Reasons for using Webconverger
 * [[Low_Maintenance|Maintenance]]
 * Commercial [[Support]] via [Webconverger.com](http://webconverger.com/) is available. Please enquire.
 
-
-[[pagestats style="table"]]
