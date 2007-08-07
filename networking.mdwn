@@ -1,3 +1,6 @@
+Currently there is a problem with [setting DNS from the BOOT parameter](http://groups.google.com/group/webc-users/browse_thread/thread/2423f987dda9bf48/f1116a232525dbb7#f1116a232525dbb7)
+
+
 Ideally Webconverger should be deployed in a **wired network** with a **DHCP server**.
 
 Otherwise you can set the IP manually:
