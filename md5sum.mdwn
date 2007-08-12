@@ -1,3 +1,6 @@
+MD5SUM is all about verifying your download. Large downloads can fail to download correctly and become corrupt. Hence it is worthwhile to check for any problems. Unfortunately this process is rather manual.
+
+
 You may have noticed files with a .MD5SUM suffix such as:
 
     webc-2.29.en.iso.MD5SUM
