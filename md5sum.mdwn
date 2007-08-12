@@ -10,3 +10,5 @@ This is a file containing a checksum. This is to verify the downloaded image fil
     9f65b24422bb92224f7c54bf911dad59  webc-2.29.mini.iso
 
 Above the MD5SUMs match, which means the original checksum is the same as my local checksum. The image is now verified.
+
+# [Howto MD5SUM on other operating systems](https://help.ubuntu.com/community/HowToMD5SUM)
