@@ -23,6 +23,9 @@ The most important elements of building Webconverger is the package list and set
 * [Package list](http://svn.debian.org/wsvn/debian-live/configs/webc/webconverger/config/chroot_local-packageslists/?rev=0&sc=0)
 * [LIVE_BOOTAPPEND in /config/binary](http://svn.debian.org/wsvn/debian-live/configs/webc/webconverger/config/binary?op=file&rev=0&sc=0)
 
+[live-initramfs lists the parameters](http://svn.debian.org/wsvn/debian-live/dists/trunk/live-initramfs/docs/parameters.txt)
+
+
 Develop on a Debian system:
 
  * apt-get install [live-helper](http://live.debian.net/) (deb http://live.debian.net/debian etch main)
