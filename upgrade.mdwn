@@ -45,6 +45,8 @@ Updates should "just work" and not require any user intervention. However if the
 
 Perhaps it is best just to upgrade the browser.
 
+Upgrade periodically with something like [cron apt](http://packages.qa.debian.org/c/cron-apt.html).
+
 # Outlook
 
 For CDs users, upgrades do not really work 100%. For small updates, "Updating at bootup" is fine on CD media. However as time goes on you really should [download the latest copy of Webconverger](http://download.webconverger.com/) and burn a new copy.
