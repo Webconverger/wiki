@@ -18,3 +18,7 @@ In some cases your vendor won't tell you when they will cut off support for fixe
 3. Webconverger will be available for [download](http://download.webconverger.com/) until 2011 and beyond.
 
 Webconverger will be maintained at least until 2011. That is because Webconverger is based on the stable version of **Debian etch**. Stable releases of Debian have a lifetime of about four years.
+
+### Support offerings by other distributions
+
+[Ubuntu support options](http://www.ubuntu.com/dell)
