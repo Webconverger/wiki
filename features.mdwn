@@ -1,4 +1,4 @@
-[Customize Webconverger](http://webconverger.com/buy/) for your own homepage like banks, museums, car dealerships and many other customers have done. Most customers get the [[homepage]] customised, however there are further options:
+[Customize Webconverger](http://webconverger.com/buy/) for your own homepage like banks, museums, car dealerships and many other customers have done. Most customers just need their [[homepage]] customised, however there are further options:
 
 
 1. [[Extensive_internationalization_support|i18n]] -  Exotic locales such as Chinese, Japanese and Korean (CJK) are supported. CJK keyboard switching via [scim](http://en.wikipedia.org/wiki/SCIM) and many other types of keyboard setups, such as swiss German
@@ -16,6 +16,6 @@
 13. Basic pornography text content [[Filtering]]
 14. [[Digital_signage_modes|kiosk]]
 15. Java support - disabled by default
-16. Proxy [squid](http://www.squid-cache.org/) support - good for saving bandwidth and if the Internet connection is unstable - disable by default
-17. Remote desktop via VNC so one could control a Digital Signage remotely.
+16. Proxy [squid](http://www.squid-cache.org/) support - good for saving bandwidth and if the Internet connection is unstable - disabled by default
+17. Remote desktop via VNC so one could control a Digital Signage remotely. By default disabled.
 18. [[Artwork]] - your $HOMEPAGE/bg.png, default being [http://portal.webconverger.com/bg.png](http://portal.webconverger.com/bg.png)
