@@ -18,7 +18,7 @@ There is an unstable branch, however most work is happening in stable atm. Unsta
 
 ## Building the image with live-helper
 
-The most important elements of building Webconverger is the package list and setting `LIVE_BOOTAPPEND`.
+The most important elements of building Webconverger is the package list and setting the `LIVE_BOOTAPPEND` variable.
 
 * [Package list](http://svn.debian.org/wsvn/debian-live/configs/webc/webconverger/config/chroot_local-packageslists/?rev=0&sc=0)
 * [LIVE_BOOTAPPEND in /config/binary](http://svn.debian.org/wsvn/debian-live/configs/webc/webconverger/config/binary?op=file&rev=0&sc=0)
@@ -32,7 +32,7 @@ Develop on a Debian system:
  * svn co svn://svn.debian.org/svn/debian-live/configs/webc
  * webconverger/ is the base config file. Poke around.
  * Take a look inside config/. You probably need to edit LIVE_MIRROR variables in the file bootstrap.
- * lh_build in webconverger/ not /config !
+ * lh_build in webconverger/ not config/ !
 
 Please [contact hendry](http://hendry.iki.fi/) if you have any suggestions/comments/fixes/patches. :)
 
@@ -42,12 +42,12 @@ Please [contact hendry](http://hendry.iki.fi/) if you have any suggestions/comme
 Tips:
 
 
- * squid or [apt-cacher](http://packages.qa.debian.org/a/apt-cacher.html) saves bandwidth
+ * squid or [apt-cacher](http://packages.qa.debian.org/a/apt-cacher.html) saves bandwidth whilst Debian Live's live-helper downloads the packages
 
 
 ## Customizing service
 
-I hope to make some money by offering a build service of the above at [Webconverger.com/buy](http://webconverger.com/buy/). You're free to build your own Webconverger image, though please do not abuse bandwidth of my repos. Also please let me know if you can it's application for the [[Testimonials|press]] page.
+I hope to make some money by offering a build service of the above at [Webconverger.com/buy](http://webconverger.com/buy/). You're free to build your own Webconverger image. Please let me know if you can it's application for the [[Testimonials|press]] page.
 
 So I am happy if you're competent enough to make your own [Web operating system](http://natalian.org/archives/2007/05/23/web-operating-systems/).
 Though if you need support services et al, it's best to get me to do it. I'm cheap and I know the code best. ;) 
