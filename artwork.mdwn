@@ -29,6 +29,7 @@ So [view the current background](http://portal.webconverger.com/bg.png).
 
 Users see this as Webconverger loads the Web browser. So initially at bootup and between sessions. The amount of time this background is viewable depends on the speed of the computer. I.e. how long it takes to load the browser.
 
+From 2.30 `noxbg` makes the X bootup screen blank.
 
 ## Thoughts
 
