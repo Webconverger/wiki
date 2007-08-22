@@ -19,3 +19,4 @@
 16. Proxy [squid](http://www.squid-cache.org/) support - good for saving bandwidth and if the Internet connection is unstable - disabled by default
 17. Remote desktop via VNC so one could control a Digital Signage remotely. By default disabled.
 18. [[Artwork]] - your $HOMEPAGE/bg.png, default being [http://portal.webconverger.com/bg.png](http://portal.webconverger.com/bg.png).
+19. ISO, USB or NETBOOT image varieties. Default: ISO
