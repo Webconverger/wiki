@@ -18,10 +18,10 @@ There is an unstable branch, however most work is happening in stable atm. Unsta
 
 ## Building the image with live-helper
 
-The most important elements of building Webconverger is the package list and setting the `LIVE_BOOTAPPEND` variable.
+The most important elements of building Webconverger are:
 
-* [Package list](http://svn.debian.org/wsvn/debian-live/configs/webc/webconverger/config/chroot_local-packageslists/?rev=0&sc=0)
-* [LIVE_BOOTAPPEND in /config/binary](http://svn.debian.org/wsvn/debian-live/configs/webc/webconverger/config/binary?op=file&rev=0&sc=0)
+1. [Package list](http://svn.debian.org/wsvn/debian-live/configs/webc/webconverger/config/chroot_local-packageslists/?rev=0&sc=0)
+2. [LH_BOOTAPPEND in /config/binary](http://svn.debian.org/wsvn/debian-live/configs/webc/webconverger/config/binary?op=file&rev=0&sc=0)
 
 [live-initramfs lists the parameters](http://svn.debian.org/wsvn/debian-live/dists/trunk/live-initramfs/docs/parameters.txt)
 
