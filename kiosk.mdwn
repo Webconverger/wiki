@@ -1,5 +1,3 @@
-### Goal
-
 Extension(s) that meet the requirements of Webconverger customers. Currently there are three scenarios.
 
 
@@ -12,7 +10,7 @@ Default and most common.
 
 # iceweasel-webcnoaddressbar
 
-Customization option. Basically for customers who want patrons to browse, but not enter in URLs.
+Customization option. For customers who want patrons to browse, but not enter in URLs.
 
 <a href="http://www.flickr.com/photos/hendry/903110079/" title="Photo Sharing"><img src="http://farm2.static.flickr.com/1292/903110079_30e70db715_m.jpg" width="240" height="180" alt="iceweasel-webcnoaddressbar" /></a>
 
@@ -24,7 +22,7 @@ Customization option. For customers who want to do [Digital signage](http://en.w
 
 <a href="http://www.flickr.com/photos/hendry/903110103/" title="Photo Sharing"><img src="http://farm2.static.flickr.com/1351/903110103_3b82387709_m.jpg" width="240" height="180" alt="iceweasel-webcfullscreen" /></a>
 
-If you're concerned about the scroll bar, alter the **overflow** CSS element.
+If you're concerned about the scroll bar, alter the **overflow** CSS element. Here is an [example of a Web application providing a digital sign](http://alephitv.com/webconverger.html).
 
 ## Implementation
 
