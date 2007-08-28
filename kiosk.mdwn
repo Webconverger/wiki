@@ -32,10 +32,9 @@ I have forked rkiosk and created my own extension, webconverger. I had to do thi
 * `apt-get source iceweasel-webconverger` from the [Webconverger Debian package repo](http://webconverger.com/debian/)
 
 
-## Help
+## Slideware
 
-
-Extension hackers wanted. Also see [[Develop]] and [todo list](http://svn.webconverger.org/webconverger.org/TODO).
+"iceweasel-fullerscreen" is the name of the package of Daniel Glazman's [FullerScreen](https://addons.mozilla.org/en-US/firefox/addon/4650) extension. It is good particularly for slideshows. Not digital signage as it does not all Flash movies to go fullscreen.
 
 
 #### Further Links
