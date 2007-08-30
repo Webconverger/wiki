@@ -4,4 +4,3 @@
 
 * Works only with newer computers
 * Just as fast as a hard drive in many cases
-blah
