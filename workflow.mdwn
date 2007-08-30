@@ -41,5 +41,3 @@ Wiki page created with [ikiwiki](http://ikiwiki.info). Example usb.mdwn [[usb]]
 
 # on si
 
-
-       hendry:208$ git-checkout
