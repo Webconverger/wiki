@@ -28,7 +28,7 @@ The most important elements of building Webconverger are:
 [live-initramfs lists the parameters](http://svn.debian.org/wsvn/debian-live/dists/trunk/live-initramfs/docs/parameters.txt)
 
 
-# Step by step, developing on a Debian system:
+## Step by step, developing on a Debian system:
 
  * apt-get install [live-helper](http://live.debian.net/) (deb http://live.debian.net/debian etch main)
  * svn co svn://svn.debian.org/svn/debian-live/configs/webc
