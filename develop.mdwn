@@ -1,3 +1,5 @@
+[[toc ]]
+
 [[Core_concepts|design]]
 
 ## Packages
