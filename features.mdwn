@@ -9,7 +9,7 @@
 6. Kiosk reset with `kioskresetstation=<mins>`. Resets browser after user defined minutes of idleness/inactivity. Default off. (requies xautlock package)
 7. `toram` - loads live image into memory, so you can reuse media to boot further machines. Disabled by default as it makes startup slower.
 8. [[Networking]] customisation. Default is DHCP.
-9. [[Adobe]] Flash is **enabled by default**. However there is a supported "fully free" version of Webconverger which does not have the Flash package.
+9. [[Adobe]] Flash is **enabled by default**.
 10. [PDF viewing](http://flickr.com/photos/hendry/851173358/) - [xpdf](http://packages.qa.debian.org/x/xpdf.html) - enabled by default
 11. xvideomode=800x600 (new in >=2.16) - should override resolution to 800x600. Default display is *autodetected*. 
 12. Wireless network device customization support available. Not by default.
