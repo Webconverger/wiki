@@ -11,3 +11,7 @@ The serif [Gentium font](http://scripts.sil.org/Gentium) and the sans [DejaVu fo
 
  * [Gentium download](http://scripts.sil.org/Gentium_download)
  * [DejaVu download](http://dejavu.sourceforge.net/wiki/index.php/Download)
+
+# Microsoft fonts
+
+The package _msttcorefonts_ contains the Microsoft fonts like Arial, Verdana etc. Since there are license and freedom issues shipping these proprietary fonts with Webconverger, they have been dropped.
