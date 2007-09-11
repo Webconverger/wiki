@@ -14,4 +14,4 @@ The serif [Gentium font](http://scripts.sil.org/Gentium) and the sans [DejaVu fo
 
 # Microsoft fonts
 
-The package _msttcorefonts_ contains the Microsoft fonts like Arial, Verdana etc. Since there are license and freedom issues shipping these proprietary fonts with Webconverger, they have been dropped.
+The package [msttcorefonts](http://packages.qa.debian.org/m/msttcorefonts.html) contains the familiar Microsoft fonts like Arial, Verdana etc. Since there are license and freedom issues shipping these proprietary fonts with Webconverger, they have been dropped.
