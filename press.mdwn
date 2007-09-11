@@ -23,6 +23,11 @@ Web
 * [Distrowatch Weekly 20070409](http://distrowatch.com/weekly.php?issue=20070409)
 * [Current favourite for secure Internet banking - Webconverger](http://www.andrewpatrick.ca/security-and-privacy/quest-for-a-good-boot-cd-for-internet-banking/)
 
+Printed Media
+=============
+
+* [Linux Format #97](http://www.linuxformat.co.uk/modules.php?op=modload&name=NewArchives) - "For surfers only" :)
+
 Foreign Language
 ================
 
