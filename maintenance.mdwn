@@ -6,6 +6,6 @@ Webconverger ships with the [latest stable packages](http://download.webconverge
 
 # Competition
 
-* [EZWebPC™](http://livekiosk.com/] is not being maintained
+* [EZWebPC™](http://livekiosk.com/) is not being maintained
 
 
