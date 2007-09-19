@@ -52,7 +52,7 @@ locale=ru_RU.UTF-8 keyb=ru
 
 # Chinese support example
 
-When Webconverger initially boots up, these is a short delay when one can enter additional commands on the boot parameter.
+When Webconverger [[maxi]] initially boots up, these is a short delay when one can enter additional commands on the boot parameter.
 
 Entering `live locale=zh_CN.UTF-8 keyb=zh` as [this picture](http://www.flickr.com/photos/hendry/850230357) demonstrates, sets up Webconverger for the Chinese locale.
 
