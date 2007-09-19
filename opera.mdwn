@@ -24,6 +24,3 @@ Opera is run in a kiosk mode. These settings are set by the **webconverger-base*
 
 
 * [Another Opera kiosk configuration](http://clug.net.nz/index.php/KioskSystem)
-
-
-balfshslkdfhk sdfkjhdsf
