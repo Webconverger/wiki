@@ -1,3 +1,5 @@
 Webconverger is 'opensource' software using Debian packages, where the [Debian social contract](http://www.debian.org/social_contract) applies. Even the build process is free software. It does unfortunately include the non-free software [[Adobe]] Flash.
 
+EZWebPC™ does not offer a source download. Currently Webconverger isn't doing a fantastic job at this. Webc relies on users to use the [Debian package Web interface](http://www.debian.org/distrib/packages) and the [package list](http://download.webconverger.com/packages.txt). Or better still [live helper](http://packages.debian.org/unstable/misc/live-helper)'s `lh_source` command.
+
 Apple MacOSX has some Free software under the hood and a Free rendering engine Webkit. Well done Apple, though everything open source would be far better.
