@@ -1,4 +1,6 @@
-Webconverger currently ships with the Web standards compliant Firefox/Iceweasel 2 by default.
+Webconverger currently ships with the latest Web standards compliant Firefox/Iceweasel 2 by default.
+
+## Reasons not use Internet Explorer (IE)
 
 * IE 7 is slow (couple of seconds to open a new tab)
 * IE 7 still has many many CSS errors
