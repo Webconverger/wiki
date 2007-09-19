@@ -22,10 +22,10 @@ There is an unstable branch, however most work is happening in stable atm. Unsta
 
 The most important elements of building Webconverger are:
 
-1. [Package list](http://svn.debian.org/wsvn/debian-live/configs/webc/webconverger/config/chroot_local-packageslists/?rev=0&sc=0)
-2. [LH_BOOTAPPEND in config/binary](http://svn.debian.org/wsvn/debian-live/configs/webc/webconverger/config/binary?op=file&rev=0&sc=0)
+1. [Package list](http://git.debian.org/?p=debian-live/config-webc.git;a=tree;f=webconverger/config/chroot_local-packageslists)
+2. [LH_BOOTAPPEND in config/binary](http://git.debian.org/?p=debian-live/config-webc.git;a=blob;f=webconverger/config/binary)
 
-[live-initramfs lists the parameters](http://svn.debian.org/wsvn/debian-live/dists/trunk/live-initramfs/docs/parameters.txt)
+[live-initramfs lists the parameters](http://git.debian.org/?p=users/daniel/live-initramfs.git;a=blob;f=manpages/live-initramfs.en.7.txt;)
 
 
 ## Step by step, developing on a Debian system:
