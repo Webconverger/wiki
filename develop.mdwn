@@ -31,7 +31,7 @@ The most important elements of building Webconverger are:
 ## Step by step, developing on a Debian system:
 
  * apt-get install [live-helper](http://live.debian.net/) (deb http://live.debian.net/debian etch main)
- * svn co svn://svn.debian.org/svn/debian-live/configs/webc
+ * `git clone git://git.debian.org/git/debian-live/config-webc.git`
  * webconverger/ is the base config file. Poke around.
  * Take a look inside config/. You probably need to edit LIVE_MIRROR variables in the file bootstrap.
  * lh_build in webconverger/ not config/ !
