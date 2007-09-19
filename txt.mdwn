@@ -10,11 +10,9 @@ This is very useful to know the exact version number of individual packages cont
 
 Also it is good to know which packages (and hence [[features]]) are included. 
 
-For example if the **cupsys** package is not included, you know the image does not have any [[printing]] support.
+For example: 
 
-If the **Tor** package is included, you know that image has some sort of anonymous browsing support.
-
+* If the **cupsys** package is not included, you then know that particular version does not have any [[printing]] support.
+* If the **Tor** package is included, you then know that particular version has some sort of anonymous browsing support.
 
 See [[mini]] and [[maxi]] for explanations of the different main configurations of Webconverger.
-
-Test
