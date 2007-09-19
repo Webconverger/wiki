@@ -1,4 +1,4 @@
-Webconverger currently ships with the latest Web standards compliant Firefox/Iceweasel 2 by default.
+Webconverger currently ships with the latest Web standards compliant [Firefox](http://en.www.mozilla.com/en/firefox/)/[Iceweasel](http://packages.qa.debian.org/i/iceweasel.html) 2 by default.
 
 ## Reasons not use Internet Explorer (IE)
 
