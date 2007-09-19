@@ -19,6 +19,7 @@ Webconverger design document
 
 ### Deployment options
 
+[[template id=note text="""There is in fact too many deployment options available. Working on how which is best subset to offer professionally..."""]]
 
 Since USB boot is poorly supported by older machines, CDROM images will probably be the most important medium. 
 
@@ -26,6 +27,7 @@ Since USB boot is poorly supported by older machines, CDROM images will probably
 2. install (normal netinst d-i installation)
 3. liveinstall (copy live system to hd)
 4. hdinstall (install live system to hd)
+
 
 
 Most computers have hard drives, so hard installs are important. Webconverger is not the traditional thin client, as CDROM 'live's and eventually hard drive installs will not put a burden on the network or server like LTSP setups do (esp. with RAM loading "toram" in mind).
