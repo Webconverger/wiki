@@ -1,8 +1,5 @@
-Webconverger users do not require any registration, though you could sign up to the newsletter.
-
-Webconverger does not have the concept of users or super users (administrators) for that matter.
-
-Users just sign into their favourite Web applications as usual, without anything getting in their way.
-
-When users close the browser, Webconverger will erase all private data to ensure you are _really_ signed out.
+* Webconverger users do not require any registration, though you could sign up to the newsletter.
+* Webconverger does not have the concept of users or super users (administrators) for that matter.
+* Users just sign into their favourite Web applications as usual, without anything getting in their way.
+* When users close the browser, Webconverger will erase all private data to ensure you are _really_ signed out.
 
