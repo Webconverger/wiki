@@ -8,3 +8,4 @@
 * Works only with newer computers
 * Just as fast as a hard drive in many cases
 
+[Kingston DataTravelers](http://www.flickr.com/photos/hendry/1172362068/) are recommended, though almost any generic USB stick should be fine.
