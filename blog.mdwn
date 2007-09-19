@@ -1,0 +1,5 @@
+[[meta title="Webconverger blog"]]
+
+[[inline pages="blog/entry/* and !blog/entry/*/*" 
+feedpages="created_after(blog/entry/back__33____33__)" show="10"
+actions=yes rootpage="blog/entry"]]
