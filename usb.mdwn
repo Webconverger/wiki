@@ -1,5 +1,5 @@
 [[template id=note text="""
-<a href="http://www.flickr.com/photos/hendry/1403651984/" title="Photo Sharing"><img src="http://farm2.static.flickr.com/1169/1403651984_30fd52a678.jpg" width="375" height="500" alt="Webconverger on an HP" /></a>"""]]
+<a href="http://www.flickr.com/photos/hendry/1403651984/" title="Photo Sharing"><img src="http://farm2.static.flickr.com/1169/1403651984_30fd52a678_m.jpg" width="180" height="240" alt="Webconverger on an HP" /></a>"""]]
 
 .img [downloadable](http://download.webconverger.com/) files are USB-hdd images for hardware able to boot from a USB stick/key.
 
