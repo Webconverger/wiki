@@ -3,7 +3,7 @@
 
 1. [[Extensive_internationalization_support|i18n]] -  Exotic locales such as Chinese, Japanese and Korean (CJK) are supported. CJK keyboard switching via [scim](http://en.wikipedia.org/wiki/SCIM) and many other types of keyboard setups, such as swiss German
 2. Spelling support with dictionaries in many languages are available. 
-3. [Firefox Web browser](http://en.wikipedia.org/wiki/Firefox) 2.x rebuild [Iceweasel](http://en.wikipedia.org/wiki/Iceweasel) by default in every Webconverger. [Opera](http://download.webconverger.com/opera/) instead is optional, though unsupported.
+3. [Firefox Web browser](http://en.wikipedia.org/wiki/Firefox) 2.x rebuild [Iceweasel](http://en.wikipedia.org/wiki/Iceweasel) by default in every Webconverger. [Opera](http://download.webconverger.com/opera/) is optional, though unsupported.
 4. Automatic update on bootup - Webconverger has an [[upgrade]] feature enabled by default
 5. [[Printing]]
 6. Kiosk reset with `kioskresetstation=<mins>`. Resets browser after user defined minutes of idleness/inactivity. Default off. (requies xautlock package)
