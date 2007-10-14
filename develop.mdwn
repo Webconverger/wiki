@@ -22,7 +22,7 @@ There is an unstable branch, however most work is happening in stable atm. Unsta
 
 The most important elements of building Webconverger are:
 
-1. [Package list](http://git.debian.org/?p=debian-live/config-webc.git;a=tree;f=webconverger/config/chroot_local-packageslists)
+1. [The package lists](http://git.debian.org/?p=debian-live/config-webc.git;a=tree;f=webconverger/config/chroot_local-packageslists)
 2. [LH_BOOTAPPEND in config/binary](http://git.debian.org/?p=debian-live/config-webc.git;a=blob;f=webconverger/config/binary)
 
 [live-initramfs lists the parameters](http://git.debian.org/?p=users/daniel/live-initramfs.git;a=blob;f=manpages/live-initramfs.en.7.txt;)
@@ -30,7 +30,7 @@ The most important elements of building Webconverger are:
 
 ## Step by step, developing on a Debian system:
 
- * apt-get install [live-helper](http://live.debian.net/) (deb http://live.debian.net/debian etch main)
+ * apt-get install [live-helper](http://live.debian.net/) from unstable
  * `git clone git://git.debian.org/git/debian-live/config-webc.git`
  * webconverger/ is the base config file. Poke around.
  * Take a look inside config/. You probably need to edit LIVE_MIRROR variables in the file bootstrap.
@@ -52,6 +52,6 @@ Tips:
 I hope to make some money by offering a build service of the above at [Webconverger.com/buy](http://webconverger.com/buy/). You're free to build your own Webconverger image. Please let me know if you can it's application for the [[Testimonials|press]] page.
 
 So I am happy if you're competent enough to make your own [Web operating system](http://natalian.org/archives/2007/05/23/web-operating-systems/).
-Though if you need support services et al, it's best to get me to do it. I'm cheap and I know the code best. ;) 
+Though if you need support services et al, it's best to get me to do it. ;) 
 
 Spread the word, the Web is **the** open computing API for all.
