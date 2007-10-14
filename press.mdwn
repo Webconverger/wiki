@@ -4,10 +4,11 @@ Existing customers use Webconverger for:
 
 
 * Client banking in Switzerland
-* Casinos on an Indian reserve in the USA
+* Casinos in the USA
 * Car dealerships in the UK
 * In a museum in Belgium
 * For sales assistance 
+* For registering students at a [University](http://www.uni-erlangen.de/)
 
 
 Web
