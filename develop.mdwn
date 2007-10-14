@@ -30,9 +30,9 @@ The most important elements of building Webconverger are:
 
 ## Step by step, developing on a Debian system:
 
- * apt-get install [live-helper](http://live.debian.net/) from unstable
+ * apt-get install [live-helper](http://packages.qa.debian.org/l/live-helper.html) (try use the latest)
  * `git clone git://git.debian.org/git/debian-live/config-webc.git`
- * webconverger/ is the base config file. Poke around.
+ * webconverger/ is the base config file. Have a look around.
  * Take a look inside config/. You probably need to edit LIVE_MIRROR variables in the file bootstrap.
  * lh_build in webconverger/ not config/ !
 
@@ -44,7 +44,7 @@ Please [contact hendry](http://hendry.iki.fi/) if you have any suggestions/comme
 Tips:
 
 
- * squid or [apt-cacher](http://packages.qa.debian.org/a/apt-cacher.html) saves bandwidth whilst Debian Live's live-helper downloads the packages
+ * [squid](http://packages.qa.debian.org/s/squid.html) saves bandwidth whilst Debian Live's live-helper downloads the packages
 
 
 ## Customizing service
@@ -52,6 +52,6 @@ Tips:
 I hope to make some money by offering a build service of the above at [Webconverger.com/buy](http://webconverger.com/buy/). You're free to build your own Webconverger image. Please let me know if you can it's application for the [[Testimonials|press]] page.
 
 So I am happy if you're competent enough to make your own [Web operating system](http://natalian.org/archives/2007/05/23/web-operating-systems/).
-Though if you need support services et al, it's best to get me to do it. ;) 
+Though if you need support services et al, it's best to pay me to do it. ;) 
 
 Spread the word, the Web is **the** open computing API for all.
