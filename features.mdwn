@@ -8,15 +8,15 @@
 5. [[Printing]]
 6. Kiosk reset with `kioskresetstation=<mins>`. Resets browser after user defined minutes of idleness/inactivity. Default off. (requies xautlock package)
 7. `toram` - loads live image into memory, so you can reuse media to boot further machines. Disabled by default as it makes startup slower.
-8. [[Networking]] customisation. Default is DHCP.
+8. [[Networking]] customisation. Default is DHCP. Wireless network device support available, thoug not by default.
 9. [[Adobe]] Flash is **enabled by default**.
 10. [PDF viewing](http://flickr.com/photos/hendry/851173358/) - [xpdf](http://packages.qa.debian.org/x/xpdf.html) - enabled by default
 11. Video mode override with `xvideomode=800x600` (new in >=2.16) - should override resolution to 800x600. Default display is *autodetected*. 
-12. Wireless network device customization support available. Not by default.
-13. Basic pornography text content [[Filtering]]
-14. [[Digital_signage_modes|kiosk]]
-15. Java support - disabled by default
-16. Proxy [squid](http://www.squid-cache.org/) support - good for saving bandwidth and if the Internet connection is unstable - disabled by default
-17. Remote desktop via VNC so one could control a Digital Signage remotely. By default disabled.
-18. [[Artwork]] - your $HOMEPAGE/bg.png, default being [http://portal.webconverger.com/bg.png](http://portal.webconverger.com/bg.png).
-19. ISO, USB or NETBOOT image varieties. Default: ISO
+12. Basic pornography text content [[Filtering]]
+13. [[Digital_signage_modes|kiosk]]
+14. Java support - disabled by default
+15. Proxy [squid](http://www.squid-cache.org/) support - good for saving bandwidth and if the Internet connection is unstable - disabled by default
+16. Remote desktop via VNC so one could control a Digital Signage remotely. By default disabled.
+17. [[Artwork]] - your $HOMEPAGE/bg.png, default being [http://portal.webconverger.com/bg.png](http://portal.webconverger.com/bg.png).
+18. ISO, USB or NETBOOT image varieties. Default: ISO
+19. [Web boot](http://blog.daniel-baumann.ch/2007/09/07#20070907_debian-live-web-boot) option allowed from versions equal and greater than 2.30.
