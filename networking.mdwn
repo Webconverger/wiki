@@ -20,3 +20,15 @@ An example at the bootup prompt:
 * 192.168.1.1 is the gateway
 
 Non-standard network (wireless) setups can be [customised](http://webconverger.com/buy) as a service of [Webconverger.com](http://webconverger.com/).
+
+# Wireless hardware
+
+Please purchase [Linux compatible wireless hardware](http://www.linuxemporium.co.uk/products/wireless/). Else making your wireless work with Webconverger will be very difficult!
+
+Other wireless chipsets known to work:
+
+* ipw3945
+* ipw2200
+* ipw2100
+* rt2x00
+* rt2570
