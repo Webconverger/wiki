@@ -20,3 +20,4 @@
 17. [[Artwork]] - your $HOMEPAGE/bg.png, default being [http://portal.webconverger.com/bg.png](http://portal.webconverger.com/bg.png).
 18. ISO, USB or NETBOOT image varieties. Default: ISO
 19. [Web boot](http://blog.daniel-baumann.ch/2007/09/07#20070907_debian-live-web-boot) option allowed from versions equal and greater than 2.30.
+20. Choice between syslinux and grub. Grub is more versatile, however it does not work on older hardware and it does not work with USB sticks. Default: Grub on ISOs from 2.30, else syslinux.
