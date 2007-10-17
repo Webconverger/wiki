@@ -27,7 +27,7 @@ Web
 Printed Media
 =============
 
-* [Linux Format #97](http://www.linuxformat.co.uk/modules.php?op=modload&name=NewArchives) - "For surfers only" :)
+* [Linux Format #97](http://www.linuxformat.co.uk/modules.php?op=modload&name=NewArchives&issue=97) - "For surfers only" :)
 
 Foreign Language
 ================
