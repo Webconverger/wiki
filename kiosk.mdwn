@@ -36,6 +36,9 @@ I have forked rkiosk and created my own extension, webconverger. I had to do thi
 
 "iceweasel-fullerscreen" is the name of the package of Daniel Glazman's [FullerScreen](https://addons.mozilla.org/en-US/firefox/addon/4650) extension. It is good particularly for slideshows. Not digital signage as it does not all Flash movies to go fullscreen.
 
+## TODO
+
+Package up these extensions for Windows users.
 
 #### Further Links
 
