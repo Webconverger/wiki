@@ -1,7 +1,7 @@
 <a href="http://www.flickr.com/photos/hendry/1620096637/" title="Photo Sharing"><img src="http://farm3.static.flickr.com/2103/1620096637_7b59253689_o.png" width="640" height="480" alt="Editing homepage with GRUB with Webc2.30 ISOs" /></a>
 
 
-# NEW
+# Webconverger 2.30 CD versions and above
 
 From version 2.30, CD ISOs have GRUB boot loaders. This allows you to modify the boot parameter line!
 
