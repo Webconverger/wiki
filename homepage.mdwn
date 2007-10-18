@@ -3,7 +3,7 @@
 
 # Webconverger 2.30 CD versions and above
 
-From version 2.30, CD ISOs have GRUB boot loaders. This allows you to modify the boot parameter line!
+From version 2.30, [CD](http://en.wikipedia.org/wiki/Compact_disc) ISOs have GRUB boot loaders. This allows you to modify the boot parameter line!
 
 # USB and customised versions
 
