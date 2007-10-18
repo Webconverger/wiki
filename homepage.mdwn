@@ -1,5 +1,4 @@
-<a href="http://www.flickr.com/photos/hendry/1620096637/" title="Photo Sharing"><img src="http://farm3.static.flickr.com/2103/1620096637_7b59253689_o.png" width="640" height="480" alt="Editing homepage with GRUB with Webc2.30 ISOs" /></a>
-
+<a href="http://www.flickr.com/photos/hendry/1620185957/" title="Photo Sharing"><img src="http://farm3.static.flickr.com/2332/1620185957_40e8c3b4fb.jpg" width="500" height="374" alt="Editing homepage digital zoomed" /></a>
 
 # Webconverger 2.30 CD versions and above
 
