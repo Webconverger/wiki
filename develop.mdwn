@@ -55,3 +55,11 @@ So I am happy if you're competent enough to make your own [Web operating system]
 Though if you need support services et al, it's best to pay me to do it. ;) 
 
 Spread the word, the Web is **the** open computing API for all.
+
+## Debugging
+
+1. git clone git://git.debian.org/git/debian-live/config-webc.git
+2. cd config-webc
+3. git-branch mydebug
+4. git-checkout mydebug
+5. sed -i 's/stable/unstable/' webconverger/config/chroot_sources/webc.bootstrap
