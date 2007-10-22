@@ -56,9 +56,11 @@ Though if you need support services et al, it's best to pay me to do it. ;)
 
 Spread the word, the Web is **the** open computing API for all.
 
-## Debug mode with "unstable"
+## Debug mode with Webconverger's "unstable"
 
-In the [unstable branch](http://webconverger.com/debian/unstable/) of Webconverger, I'm supporting a debug mode. Whereby developers can basically get a root terminal to debug in.
+Since Webconverger is based on Debian stable, if you want to test some hardware you should be testing under [Debian Etch](http://www.debian.org/releases/etch/debian-installer/). If it works under Debian stable, it will work in Webconverger.
+
+However in the [unstable branch](http://webconverger.com/debian/unstable/) of Webconverger, I'm supporting a debug mode. Whereby developers can basically get a root terminal to debug in.
 
 1. git clone git://git.debian.org/git/debian-live/config-webc.git
 2. cd config-webc
