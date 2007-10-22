@@ -63,3 +63,5 @@ Spread the word, the Web is **the** open computing API for all.
 3. git-branch mydebug
 4. git-checkout mydebug
 5. sed -i 's/stable/unstable/' webconverger/config/chroot_sources/webc.bootstrap
+
+Run in [screen](http://en.wikipedia.org/wiki/GNU_screen) and use [CTRL]+[a]-[H] to begin recording a log file, before a build.
