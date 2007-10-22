@@ -58,7 +58,7 @@ Spread the word, the Web is **the** open computing API for all.
 
 ## Debug mode with "unstable"
 
-In the [unstable branch](http://webconverger.com/debian/unstable/) of Webconverger, I'm supporting a debug mode. Whereby developers can basically get a root terminal to develop and debug in.
+In the [unstable branch](http://webconverger.com/debian/unstable/) of Webconverger, I'm supporting a debug mode. Whereby developers can basically get a root terminal to debug in.
 
 1. git clone git://git.debian.org/git/debian-live/config-webc.git
 2. cd config-webc
@@ -68,4 +68,6 @@ In the [unstable branch](http://webconverger.com/debian/unstable/) of Webconverg
 
 Run in [screen](http://en.wikipedia.org/wiki/GNU_screen) and use [CTRL]+[a]-[H] to begin recording a log file, before a build.
 
-To start a Terminal SHIFT+ALT+ENTER. You should be able to use `sudo` at this point too.
+To start a Terminal SHIFT+ALT+ENTER. You should be able to use `sudo` at this point.
+
+There isn't a proper system yet for deploying into unstable and migrating into stable. So some packages might be well be out of date.
