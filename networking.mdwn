@@ -58,3 +58,5 @@ Configure your (chroot) system for the device
     sudo ndiswrapper -i net5523.inf
     sudo ndiswrapper -l
     sudo ndiswrapper -m
+
+Another [guide](http://www.debian-administration.org/articles/401)
