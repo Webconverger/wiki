@@ -32,3 +32,29 @@ Other wireless chipsets known to work:
 * ipw2100
 * rt2x00
 * rt2570
+
+## Getting a Windows wireless device working
+
+Get the Win32 drivers:
+
+    x40:~/webc/wifi% ls
+    ar5523.bin  ar5523.sys  net5523.cat  net5523.inf
+
+Prime your chroot:
+
+    sudo apt-get install ndiswrapper-common ndiswrapper-utils ndiswrapper-source
+
+Build the ndiswrapper module for your distribution and architecture:
+
+    m-a prepare
+    m-a a-i ndiswrapper
+
+With any luck, you'll have made a Debian package, e.g. /usr/src/ndiswrapper-modules-2.6.22-2-686_1.47-2+2.6.22-4_i386.deb
+
+Install that package. You want that in your `config/chroot_local-packages`.
+
+Configure your (chroot) system for the device
+
+    sudo ndiswrapper -i net5523.inf
+    sudo ndiswrapper -l
+    sudo ndiswrapper -m
