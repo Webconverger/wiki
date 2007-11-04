@@ -1,5 +1,6 @@
 <a href="http://www.flickr.com/photos/hendry/1790045443/" title="Photo Sharing"><img src="http://farm3.static.flickr.com/2375/1790045443_80e5e8e2c8_m.jpg" width="240" height="180" alt="Trying to install Debian on a Koolu" /></a>
 
+A Koolu is about a 200USD device. However [robust kiosk hardware](http://www.flickr.com/photos/hendry/1858899680/) itself is usually quite expensive as it is expected to withstand public use of the terminal. So the pros really perhaps are it's small footprint and silent operation.
 
 # ACPI
 
@@ -8,9 +9,7 @@
 
 # Hands
 
-Phil Hands and Luke Leighton have done some Koolu optimised packages here:
-
-http://ftp.hands.com/hands-deb/pool/koolu/
+Phil Hands and Luke Leighton have done some [Koolu optimised packages.](http://ftp.hands.com/hands-deb/pool/koolu/)
 
 ## Still need to try
 
@@ -18,3 +17,16 @@ If you want to give is a try, boot any standard Etch install media, and at
 the boot prompt, type:
 
     auto url=hands.com classes=koolu
+
+
+# Issues
+
+* Slow CPU
+* Backport WebKit GTK+?
+* Supply of those little buggers
+* Video drivers
+* Custom kernel
+
+# Links
+
+* [Koolu_Community](http://www.koolu.org/)
