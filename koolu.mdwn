@@ -1,6 +1,8 @@
 <a href="http://www.flickr.com/photos/hendry/1790045443/" title="Photo Sharing"><img src="http://farm3.static.flickr.com/2375/1790045443_80e5e8e2c8_m.jpg" width="240" height="180" alt="Trying to install Debian on a Koolu" /></a>
 
-A Koolu is about a 200USD device. However [robust kiosk hardware](http://www.flickr.com/photos/hendry/1858899680/) itself is usually quite expensive as it is expected to withstand public use of the terminal. So the pros really perhaps are it's small footprint and silent operation.
+A Koolu is about a 200USD device. However [robust kiosk hardware](http://www.flickr.com/photos/hendry/1858899680/) itself is usually quite expensive as it is expected to withstand public use of the terminal. So the pros really perhaps are it's small physical footprint and silent operation.
+
+The biggest CON atm seems to be it's sluggish CPU which falls short of [Firefox's requirements.](http://www.mozilla.com/en-US/firefox/system-requirements.html)
 
 # ACPI
 
@@ -29,4 +31,4 @@ the boot prompt, type:
 
 # Links
 
-* [Koolu_Community](http://www.koolu.org/)
+* [Koolu Community](http://www.koolu.org/)
