@@ -28,6 +28,7 @@ There are [[pagecount ]] pages.
 * [[MD5SUM]]
 * [[txt]]
 * [[koolu]]
+* [[privacy]]
 
 
 Customization
