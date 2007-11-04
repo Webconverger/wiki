@@ -1,0 +1,20 @@
+<a href="http://www.flickr.com/photos/hendry/1790045443/" title="Photo Sharing"><img src="http://farm3.static.flickr.com/2375/1790045443_80e5e8e2c8_m.jpg" width="240" height="180" alt="Trying to install Debian on a Koolu" /></a>
+
+
+# ACPI
+
+`acpi=off` to boot succesfully
+
+
+# Hands
+
+Phil Hands and Luke Leighton have done some Koolu optimised packages here:
+
+http://ftp.hands.com/hands-deb/pool/koolu/
+
+## Still need to try
+
+If you want to give is a try, boot any standard Etch install media, and at
+the boot prompt, type:
+
+    auto url=hands.com classes=koolu
