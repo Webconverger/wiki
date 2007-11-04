@@ -4,6 +4,27 @@ A Koolu is about a 200USD device. However [robust kiosk hardware](http://www.fli
 
 The biggest CON atm seems to be it's [sluggish CPU](http://en.wikipedia.org/wiki/Amd_geode#AMD_Geode) which falls short of [Firefox's requirements.](http://www.mozilla.com/en-US/firefox/system-requirements.html)
 
+processor       : 0
+vendor_id       : Geode by NSC
+cpu family      : 5
+model           : 5
+model name      : Geode(TM) Integrated Processor by National Semi
+stepping        : 2
+cpu MHz         : 398.474
+cache size      : 32 KB
+fdiv_bug        : no
+hlt_bug         : no
+f00f_bug        : no
+coma_bug        : no
+fpu             : yes
+fpu_exception   : yes
+cpuid level     : 1
+wp              : yes
+flags           : fpu de pse tsc msr cx8 pge cmov mmx mmxext 3dnowext 3dnow
+bogomips        : 798.25
+
+
+
 # ACPI
 
 `acpi=off` to boot succesfully
