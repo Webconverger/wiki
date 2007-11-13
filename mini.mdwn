@@ -1,4 +1,4 @@
-Mini has most [[functionality|features]] removed to save on bandwidth and computer load.
+Mini has most [[functionality|features]] removed to save on bandwidth and computer load. However in *most cases* mini is all you to setup a secure and functional Web kiosk!
 
 [Download mini](http://download.webconverger.com/mini/)
 
