@@ -1,38 +1,38 @@
-2007-11-12  Kai Hendry <hendry@webconverger.org>
+2007-11-12  Kai Hendry
 
 	* 2.33 is slowing trickling out as fast as my slow PC can generate the
 	images and my terrible upload channel can swallow
 	* Added "nosudo" as default mode
 	* Improved extension to have a "End session" button
 
-2007-10-15  Kai Hendry <hendry@webconverger.org>
+2007-10-15  Kai Hendry
 
 	* Resolved unionfs module issue
 	* Uploaded a mini version 2.30 with the grub boot loader
 
-2007-10-14  Kai Hendry <hendry@webconverger.org>
+2007-10-14  Kai Hendry
 
 	* Rebuilt repo now
 	* Have a bit of an issue with unionfs modules
 	* Setup pbuilder for various backports, l.d.n is coming back up
 	* Playing with grub bootloader
 
-2007-10-11  Kai Hendry <hendry@webconverger.org>
+2007-10-11  Kai Hendry
 
 	* Rebuilding development setup after a hard drive crash
 	* Extending timeout of usplash
 	* Preparing a new release with an updated Gecko
 
-2007-09-19  Kai Hendry <hendry@webconverger.org>
+2007-09-19  Kai Hendry
 
 	* Switched from subversion to
 	git://git.debian.org/git/debian-live/config-webc.git
 
-2007-09-11  Kai Hendry <hendry@webconverger.org>
+2007-09-11  Kai Hendry
 
 	* General house keeping :)
 
-2007-08-21  Kai Hendry <hendry@webconverger.org>
+2007-08-21  Kai Hendry
 
 	* Removed FullerScreen from mini as
 		1) It's not representive of the Digital Signage modes:
@@ -41,42 +41,42 @@
 		3) It's only really good for slideware (not Digital Signage)
 	* Added a 'noxbg' option
 
-2007-08-06  Kai Hendry <hendry@webconverger.org>
+2007-08-06  Kai Hendry
 
 	* Release 2.29 of everything, ISO, USB (mini, maxi, opera)
 	* Web page updates since I see we're now listed on Distrowatch!
 
-2007-08-05  Kai Hendry <hendry@webconverger.org>
+2007-08-05  Kai Hendry
 
 	* Release 2.29, USB version of mini
 
-2007-08-04  Kai Hendry <hendry@webconverger.org>
+2007-08-04  Kai Hendry
 
 	* Improved 'Digital Signage' extension
 		http://www.flickr.com/photos/hendry/1005612714/
 
-2007-08-03  Kai Hendry <hendry@webconverger.org>
+2007-08-03  Kai Hendry
 
 	* Waiting for 2.0.0.6 to hit stable before I start generating new images
 
-2007-08-01  Kai Hendry <hendry@webconverger.org>
+2007-08-01  Kai Hendry
 
 	* Playing with the win32 loader. My linux compiles and works on WinXP.
 	Muhahaha...
 	* Torturing my soul with usplash themes
 
-2007-07-30  Kai Hendry <hendry@webconverger.org>
+2007-07-30  Kai Hendry
 
 	* Developing live-initscripts
 	* Doing a git repo for custom.webconverger.com
 
-2007-07-26  Kai Hendry <hendry@webconverger.org>
+2007-07-26  Kai Hendry
 
 	* Various updates to the wiki
 	* http://webconverger.org/kiosk/ details the two new iceweasel extensions
 	I've done for noaddressbar and fullscreen applications
 
-2007-07-23  Kai Hendry <hendry@webconverger.org>
+2007-07-23  Kai Hendry
 
 	* live.debian.net is back up.
 	* Made my own live.debian.net packages and doing a little hacking on
@@ -84,35 +84,35 @@
 	* 2.0.0.5 firefox is out, so I need to do some new images
 	* Still have not finished Harry Potter so sorry for excuse the delay
 
-2007-07-22  Kai Hendry <hendry@webconverger.org>
+2007-07-22  Kai Hendry
 
 	* live.debian.net and I can see there is a serious bug with the upgrade
 	script as Webconverger is not booting up...
 
-2007-07-20  Kai Hendry <hendry@webconverger.org>
+2007-07-20  Kai Hendry
 
 	* Since Webconverger isn't shipping msttcorefonts and the Flash plugin,
 	  I am dropping FullyFree, as Webconverger is ...well... fully free!
 	* Been maintaining the wiki...
 
-2007-07-19  Kai Hendry <hendry@webconverger.org>
+2007-07-19  Kai Hendry
 
 	* (re-)Enabled printing
 	* Testing Chinese locale and added some documentation. Seems to
 	work OK in the new consolidated version of Webconverger
 	* Pushed up 2.26
 
-2007-07-18  Kai Hendry <hendry@webconverger.org>
+2007-07-18  Kai Hendry
 
 	* new bg and i've let my artistic flair loose on the usplash theme
 
-2007-07-17  Kai Hendry <hendry@webconverger.org>
+2007-07-17  Kai Hendry
 
 	* Updated fullerscreen package
 	* Removed my usplash backports in favour of
 	http://live.debian.net/debian/pool/main/u/usplash/
 
-2007-07-11  Kai Hendry <hendry@webconverger.org>
+2007-07-11  Kai Hendry
 
 	* vim changelog editing is working again :)
 	* changed back to Dejavu as Gentium looks wrong in some cases
@@ -120,20 +120,20 @@
 	  It wasn't a good idea to have 19+ versions of webc to rebuild every
 	  revision!
 
-2007-07-04  Kai Hendry <hendry@webconverger.org>
+2007-07-04  Kai Hendry
 
 	* Silently rolled out 2.25 which fixed a cmdencode problem
 	* USB images need work atm
 	* Still need to regenerate other images...
 
-2007-07-04  Kai Hendry <hendry@webconverger.org>
+2007-07-04  Kai Hendry
 
 	* Been working a lot on behind the scenes processes
 	* Update the splash screen from Otavio's simpler example
 	* Removed syslinux boot splash and made a new bg with the Gentium font
 	* Silently rolled out 2.23 :)
 
-2007-06-27  Kai Hendry <hendry@webconverger.org>
+2007-06-27  Kai Hendry
 
 	* Did an Italian version
 	* Playing around with options in the Latvian version (unstable)
@@ -143,7 +143,7 @@
 	* Rolled out 2.21
 	* Issued a newsletter update
 
-2007-06-26  Kai Hendry <hendry@webconverger.org>
+2007-06-26  Kai Hendry
 
 	* i18n Japanese version
 	* Dropping /beta
@@ -152,20 +152,20 @@
 	* Added spelling to most images
 	* Added the Gentium TrueType font
 
-2007-06-14  Kai Hendry <hendry@webconverger.org>
+2007-06-14  Kai Hendry
 
 	* Pushed out Tor (anonymous browsing)
 	http://natalian.org/archives/2007/06/14/webconverger-with-tor/
 	* Working on Latvian version of Webconverger for Aigars
 	* Setup a "stable" staging area
 
-2007-06-13  Kai Hendry <hendry@webconverger.org>
+2007-06-13  Kai Hendry
 
 	* Great success! Found the right CSS selectors to hide some annoying
 	unrequired features like "send page", "save page", "bookmarkpage"
 	* still playing with usplash and thinking about webconverger artwork
 
-2007-06-12  Kai Hendry <hendry@webconverger.org>
+2007-06-12  Kai Hendry
 
 	* Too busy to keep up to date on the changelog at Debconf7
 	* looked into improving usplash
@@ -177,14 +177,14 @@
 	* tweaked deploy scripts
 	* need to ready 2.21 ...
 
-2007-06-06  Kai Hendry <hendry@webconverger.org>
+2007-06-06  Kai Hendry
 
 	* Opera builds are working again
 	  Thanks to Eddy at opera!
 	* Testing usplash0.4 again (not working for me)
 	* Ready-ing 2.18 for release
 
-2007-06-05  Kai Hendry <hendry@webconverger.org>
+2007-06-05  Kai Hendry
 
 	* Wrestling with Xen on my build host
 	* Updated dwm.web so there is no top bar (!)
@@ -196,19 +196,19 @@
 	* Updated German translation, thanks Marc
 	* Broke vmware on my X40. Damn unstable ;)
 
-2007-05-31  Kai Hendry <hendry@webconverger.org>
+2007-05-31  Kai Hendry
 
 	* Wrote a deployment script
 	* Released 2.17 inc. ES&ZH i18n version
 
-2007-05-30  Kai Hendry <hendry@webconverger.org>
+2007-05-30  Kai Hendry
 
 	* Tweaked the webconverger extension
 	* Updated the fullerscreen extension
 	* config/chroot_local-includes is now empty
 	* Researching Chinese fonts
 
-2007-05-28  Kai Hendry <hendry@webconverger.org>
+2007-05-28  Kai Hendry
 
 	* Added a few extensions:
 		* torbutton - toggling Tor routing
@@ -220,7 +220,7 @@
 	* Aaronsw says hopefully he'll get infogami fixed...
 	* s/wc-/webc-/ wc means huuhuuuu to the Chinese ;)
 
-2007-05-27  Kai Hendry <hendry@webconverger.org>
+2007-05-27  Kai Hendry
 
 	* Noticed keyb= boot option
 	* Struggled with infogami for a bit
@@ -234,7 +234,7 @@
 	* Worried about how to sanely build and test 4+ localisations. ISO/IMG et
 	al!
 
-2007-05-24  Kai Hendry <hendry@webconverger.org>
+2007-05-24  Kai Hendry
 
 	* casper is dead. really. i'm using live-initramfs now.
 	* Added some binary includes to hopefully help people inspecting the
@@ -245,7 +245,7 @@
 	* Removed some fonts 
 	* The 2.16 release is up!
 
-2007-05-23  Kai Hendry <hendry@webconverger.org>
+2007-05-23  Kai Hendry
 
 	* Implemented a reset boot parameter 'kioskresetstation=<mins>'
 	* I'm going for the 'Web 2.0 operating system' tag
@@ -253,7 +253,7 @@
 	* Organising the build process to hopefully be able to build lots of
 	different versions of Webconverger
 
-2007-05-22  Kai Hendry <hendry@webconverger.org>
+2007-05-22  Kai Hendry
 
 	* I blame Debian's #424224 for my terrible changelog editing
 	* Earlier I forgot to mention I updated dwm
@@ -265,7 +265,7 @@
 	* New progress bar http://flickr.com/photos/hendry/510000876/
 	* Been working on a reset feature... just a little more testing..
 
-2007-05-21  Kai Hendry <hendry@webconverger.org>
+2007-05-21  Kai Hendry
 
 	* Released 2.14
 	* Moved to xloadimage instead of feh
@@ -275,42 +275,42 @@
 	* Removing cups from packagelist (instead an option for customization)
 	* download.webconverger.com is now mirrored (and a little rearranged)
 
-2007-05-14  Kai Hendry <hendry@webconverger.org>
+2007-05-14  Kai Hendry
 
 	* Launched the /buy page
 	* I have Internet in my London house share!!
 
-2007-05-07  Kai Hendry <hendry@webconverger.org>
+2007-05-07  Kai Hendry
 
 	* Update config for new live-helper developments
 	* Working on a Korean version of Webconverger
 	* Trying to integrate Google checkout
 
-2007-04-29  Kai Hendry <hendry@webconverger.org>
+2007-04-29  Kai Hendry
 
 	* Moved into East London
 	* Booked 2 week trip for Debconf7
 
-2007-04-19  Kai Hendry <hendry@webconverger.org>
+2007-04-19  Kai Hendry
 
 	* Added some free fonts and going to go for a totally Free Software build
 	of Webconverger (without Flash!)
 	* Tweaked the Web page and style sheet for serif
 
-2007-04-18  Kai Hendry <hendry@webconverger.org>
+2007-04-18  Kai Hendry
 
 	* Tested printing, it works!
 	  http://webconverger.infogami.com/Printing
 	* Upto 2.12 with unsupported Opera builds of Webconverger
 
-2007-04-17  Kai Hendry <hendry@webconverger.org>
+2007-04-17  Kai Hendry
 
 	* Added cupsys for printing
 	* Added homepage redirect mechanism
 	* Upto 2.9 in dev...
 	* Will release 2.0.10 now
 
-2007-04-16  Kai Hendry <hendry@webconverger.org>
+2007-04-16  Kai Hendry
 
 	* Made test case for window popup bug
 	  http://dabase.com/whatwg/window.html
@@ -319,23 +319,23 @@
 	* Added RSS feed to .com
 	* Moved hook into -base with a noaddressbook feature in 2.6
 
-2007-04-14  Kai Hendry <hendry@webconverger.org>
+2007-04-14  Kai Hendry
 
 	* Disabling PC bell (Paul's suggestion)
 	* Released 2.5 and the first major test of an automatic update seems to
 	work.
 
-2007-04-11  Kai Hendry <hendry@webconverger.org>
+2007-04-11  Kai Hendry
 
 	* Releasing 2.4 ISO&USB versions
 
-2007-04-10  Kai Hendry <hendry@webconverger.org>
+2007-04-10  Kai Hendry
 
 	* Painfully moved most includes into webconverger-base
 	* Upto version 2.4 in testing...
 	* locales= are working again. Traced bug down to mini hook.
 
-2007-04-07  Kai Hendry <hendry@webconverger.org>
+2007-04-07  Kai Hendry
 
 	* Redesigned webconverger.com site
 	* Add homepage= boot parameter
@@ -343,35 +343,35 @@
 	* Moved some stuff from my own public repo to a Webconverger specific one
 	  to make it easier to share tasks.
 
-2007-04-03  Kai Hendry <hendry@webconverger.org>
+2007-04-03  Kai Hendry
 
 	* webconverger-usplash finally kinda works
 	* /usr/share/live-helper/includes/common/ purged
 	* mozplugger added to allow pdfs inline-ish
 
-2007-04-02  Kai Hendry <hendry@webconverger.org>
+2007-04-02  Kai Hendry
 
 	* Added more kill options to dwm
 	* uxterm is default term if enabled
 	* Improved http://webconverger.com/about/
 
-2007-03-31  Kai Hendry <hendry@webconverger.org>
+2007-03-31  Kai Hendry
 
 	* Generated source.iso and uploaded it
 
-2007-03-29  Kai Hendry <hendry@webconverger.org>
+2007-03-29  Kai Hendry
 
 	* Polished syslinux templates
 	* Put back searchbar :)
 
-2007-03-26  Kai Hendry <hendry@webconverger.org>
+2007-03-26  Kai Hendry
 
 	* Added About page
 	* Removed searchbar
 	* Bg with "loading..."
 	* Added mini hook to save a few megs
 
-2007-03-25  Kai Hendry <hendry@webconverger.org>
+2007-03-25  Kai Hendry
 
 	* Moved prefs into /etc/iceweasel
 	* Nuking /etc/sudoers to remove super user
@@ -382,7 +382,7 @@
 	* Added mini hook to purge some useless stuff
 	* Hopefully released 1.6 out the door tonight
 
-2007-03-19  Kai Hendry <hendry@webconverger.org>
+2007-03-19  Kai Hendry
 
 	* Tried out a i18n build (1.0) of WC&iceweasel
 	  Many extensions seriously degrade FF's preformance
@@ -394,7 +394,7 @@
 	* Added some Iceweasel prefs to the hook
 
 
-2007-03-17  Kai Hendry <hendry@webconverger.org>
+2007-03-17  Kai Hendry
 
 	* Tweaked Opera settings to remove wand(paswd manager), get Gmail js
 	working and reduce the reset time
@@ -403,24 +403,24 @@
 	* Looking good on live-helper now
 	* Using upgrade-system and a hook to init.d to provide updates
 
-2007-03-15  Kai Hendry <hendry@webconverger.org>
+2007-03-15  Kai Hendry
 
 	* Moving to live-helper
 	* Added newsletter on webconverger.com
 	* netboot works
 
-2007-03-09  Kai Hendry <hendry@webconverger.org>
+2007-03-09  Kai Hendry
 
 	* Updates to design
 
-2007-03-06 Kai Hendry <hendry@webconverger.org>
+2007-03-06 Kai Hendry
 
 	* Added /design
 	* Cleaned up persistence bootup script
 	* Building "etch" images now
 	* sudo removed
 
-2007-03-01 Kai Hendry <hendry@webconverger.org>
+2007-03-01 Kai Hendry
 
 	* "Beware the Ides of March" alpha release
 	* 0.7.1 has boot prompt enabled again because switches like acpi=off can
