@@ -35,6 +35,9 @@ is create a tab when closing the last tab.
 
 "gBrowser.tabContainer.childNodes.length" is never less than two.
 
+http://developer.mozilla.org/en/docs/Code_snippets:Tabbed_browser<br>
+http://developer.mozilla.org/en/docs/XUL:browser
+
 # iceweasel-webcnoaddressbar
 
 Customization option. For customers who want patrons to browse, but not enter in URLs.
