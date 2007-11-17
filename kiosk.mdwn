@@ -27,16 +27,10 @@ in your /etc/apt/sources.list and the `apt-get install iceweasel-webconverger` o
 * zip -r webc.xpi chrome.manifest content install.rdf defaults
 * `AddType application/x-xpinstall .xpi` in .htaccess
 
-## Current issues
+### Resources
 
-Restart icon should be removed in favour of a more intuitive method of closing
-the browser is closing the last tab. However the default behaviour of Firefox
-is create a tab when closing the last tab.
-
-"gBrowser.tabContainer.childNodes.length" is never less than two.
-
-http://developer.mozilla.org/en/docs/Code_snippets:Tabbed_browser<br>
-http://developer.mozilla.org/en/docs/XUL:browser
+* [http://developer.mozilla.org/en/docs/Code_snippets:Tabbed_browser](http://developer.mozilla.org/en/docs/Code_snippets:Tabbed_browser)
+* [http://developer.mozilla.org/en/docs/XUL:browser](http://developer.mozilla.org/en/docs/XUL:browser)
 
 # iceweasel-webcnoaddressbar
 
