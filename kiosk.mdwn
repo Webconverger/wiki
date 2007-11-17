@@ -7,32 +7,6 @@ Default and most common.
 
 <a href="http://www.flickr.com/photos/hendry/845129157/" title="Photo Sharing"><img src="http://farm2.static.flickr.com/1188/845129157_824320ad82_m.jpg" width="240" height="180" alt="Webconverger booted" /></a>
 
-## Test the extension on your Firefox 2.x browser
-
-[http://webconverger.com/webc.xpi](http://webconverger.com/webc.xpi)
-
-This will lock does the browser and you'll need to use the `firefox
---safe-mode` to remove it.
-
-The best way of installing and removing this extension is with:
-
-    deb http://webconverger.com/debian/ stable/
-
-in your /etc/apt/sources.list and the `apt-get install iceweasel-webconverger` on Debian machine.
-
-### How the .xpi was created
-
-* apt-get source iceweasel-webconverger; cd iceweasel-webconverger-6
-* zip -r webc.xpi chrome.manifest content install.rdf defaults
-* `AddType application/x-xpinstall .xpi` in .htaccess
-
-## Current issues
-
-Restart icon should be removed in favour of a more intuitive method of closing
-the browser is closing the last tab. However the default behaviour of Firefox
-is create a tab when closing the last tab.
-
-"gBrowser.tabContainer.childNodes.length" is never less than two.
 
 # iceweasel-webcnoaddressbar
 
@@ -61,6 +35,10 @@ I have forked rkiosk and created my own extension, webconverger. I had to do thi
 ## Slideware
 
 "iceweasel-fullerscreen" is the name of the package of Daniel Glazman's [FullerScreen](https://addons.mozilla.org/en-US/firefox/addon/4650) extension. It is good particularly for slideshows, though not digital signage as 'FullerScreen' does not allow [[Flash|adobe]] movies to go fullscreen.
+
+## TODO
+
+Package up these extensions for Windows users.
 
 #### Further Links
 

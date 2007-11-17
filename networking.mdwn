@@ -60,16 +60,3 @@ Configure your (chroot) system for the device
     sudo ndiswrapper -m
 
 Another [guide](http://www.debian-administration.org/articles/401)
-
-# Wireless router option
-
-<a href="http://www.flickr.com/photos/hendry/1172361934/" title="Every home should have a WRT54G-L by Kai Hendry, on Flickr"><img src="http://farm2.static.flickr.com/1055/1172361934_fe1a77dc72_m.jpg" width="180" height="240" alt="Every home should have a WRT54G-L" /></a>
-
-A [Linksys WRT54G](http://en.wikipedia.org/wiki/WRT54G) in *Wireless Client mode* is a
-very good solution for wireless kiosk access. They are about 50USD and this
-dedicated hardware provides excellent Wireless access without the complication
-of often proprietary Wireless drivers for each client. The highly recommended
-Linksys WRT54G allows at least four machines to easily plug into the router.
-
-The [Tomato firmware](http://www.polarcloud.com/tomato) also comes highly
-recommended.
