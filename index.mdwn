@@ -1,7 +1,7 @@
 # The World Webconverger Web :)
 
  
-There are [[pagecount ]] pages.
+There are [[pagecount ]] pages. [Subscribe to the Atom feed](http://webconverger.org/blog/index.atom) on the [[blog]].
 
 ### If you want to ask a question about Webconverger usage, try the new [forum for Webc users](http://groups.google.com/group/webc-users/topics)!
 
