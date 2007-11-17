@@ -9,7 +9,7 @@ There are [[pagecount ]] pages.
 * [Download Webconverger](http://download.webconverger.com/)
 * [[Design_document|Design]]
 * [Changelog](http://svn.webconverger.org/webconverger.org/Changelog)
-* The [TODO](http://svn.webconverger.org/webconverger.org/TODO) list
+* [[TODO]] list
 * The [Debian-Live project](http://debian-live.alioth.debian.org/) is where Webconverger is derived from
 * Webconverger [[Firefox_extension_development|Kiosk]]
 * [[Internationalisation_and_localisation|i18n]]
