@@ -1,38 +1,30 @@
-A common feature request is content filtering and censorship.
+A common feature request is for whitelisting, content filtering and censorship.
 
-I prefer if this is implemented on the gateway with some "content filtering" appliance.
+* Limit surfers to a domain (whitelisting)
+* Block pornography. The TLD .xxx would be a godsend!
 
+Prefereably these requirements should be implemented seperately on the gateway or proxy in your network.
 
-Known appliances
-----------------
-
+## Known 3rd party appliances
 
 * [IPCop software](http://ipcop.org/) - not an appliance I think, though perhaps you load this on an old computer?
 * [SmoothWall](http://smoothwall.net/) or SmoothGuardian more specifically for content filtering
 
 These appliances are unfortunately quite pricey. The SmoothGuardian product module with hardware is AT LEAST 3000GBP.
 
-Also a lot of these appliances provide Firewalls. Webconverger does not require a Firewall...
+Cons: These appliances focus on firewalls, though Webconverger does **not** actually require a firewall...
 
-Why?
----------
+## Whitelisting
 
+Whitelisting can be done fairly easily with [tinyproxy](http://tinyproxy.sourceforge.net/). If you need whitelisting, just follow up with an email your domains.
 
-* The main requirement is to block pornography. The TLD .xxx would be a godsend!
-
-No requests to block 'other material' as yet...
-
-
-Webconverger with in built filtering
-------------------------------------
-
+## Webconverger with content filtering
 
 * [ProCon extension](https://addons.mozilla.org/en-US/firefox/addon/1803) [FTP](http://ftp.iasi.roedu.net/mirrors/mozdev.org/procon/?C=M;O=A)
 
-For those who **really** need a basic pornography filter, I could include the ProCon Alba 'solution' in a customisation.
+For those who **really** need a basic pornography filter, this can be included in the ProCon Alba 'solution' in a special customisation.
 
-Cons
-----
+### Cons
 
 
 * Webconverger will be **slower** running these extra services
