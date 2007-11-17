@@ -3,20 +3,20 @@ Existing customers use Webconverger for:
 
 
 
-* Client banking in Switzerland
-* Casinos in the USA
-* Car dealerships in the UK
-* In a museum in Belgium
+* Several banks for secure client Internet banking
+* Casinos
+* Car dealerships
+* Museum infopints
 * For sales assistance 
-* For registering students at a [University](http://www.uni-erlangen.de/)
+* For education
 
 
 Web
 ===
 
 
-* [Technorati](http://www.technorati.com/search/webconverger.com%2F)
 * [Google blog search](http://blogsearch.google.com/blogsearch?hl=en&q=webconverger&btnG=Search+Blogs)
+* [Technorati](http://www.technorati.com/search/webconverger.com%2F)
 * [Freshmeat](http://freshmeat.net/projects/webconverger)
 * [Firefox facts](http://www.firefoxfacts.com/2007/04/05/webconverger-the-firefox-os/)
 * [Jure](http://www.kiberpipa.org/~gandalf/blog/?p=75) on [Planet LiveCD](http://planet.livecd.net/)
