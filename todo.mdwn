@@ -1,22 +1,22 @@
-write some sort of payment thing for internet cafes
-screensaver advertisement thing
-look into META-INIT nomeata http://wiki.debian.org/MetaInit
-Allow USB mounts so people can upload pictures to Flickr (use case by Phil Waring)
-prune some unrequired packages, get package list and see which ones are essential #136097
-about:config and various other "debugging" (uxterm!) stuff is enabled. I know about that.
-privacy policy?
-changelog to RSS thing? look into generating changelogs from subversion to the Web for better dev transparency
-think of how to enable/disable printing features nicely via extensions
-firewall? no real need except to maybe block ICMP
-wireless support and web app to configure essid and WPA key
-put in andika font
-- on browser close (x button on the right side of firefox) the whole session should close (like pressing ALT + F4)
-final tab close should close the browser
-- If we could also specify the pictures that were shown while starting and rebooting webconverger. (you can still add your details to it)
--Update service. Lets say you charge a fee per year and for that you supply a
-new iso twice a year with newest flash player, java, ... 
-think about how upgrades should work again for paying customers
-improve upgrade system
-clean up the feature list, esp. for orders. (Tek)
-disable "right-click to open a new window"
-syslinux backports (for USB images)
+* write some sort of payment thing for internet cafes
+* screensaver advertisement thing
+* look into META-INIT nomeata http://wiki.debian.org/MetaInit
+* Allow USB mounts so people can upload pictures to Flickr (use case by Phil Waring)
+* prune some unrequired packages, get package list and see which ones are essential #136097
+* about:config and various other "debugging" (uxterm!) stuff is enabled. I know about that.
+* privacy policy?
+* changelog to RSS thing? look into generating changelogs from subversion to the Web for better dev transparency
+* think of how to enable/disable printing features nicely via extensions
+* firewall? no real need except to maybe block ICMP
+* wireless support and web app to configure essid and WPA key
+* put in andika font
+* - on browser close (x button on the right side of firefox) the whole session should close (like pressing ALT + F4)
+* final tab close should close the browser
+* - If we could also specify the pictures that were shown while starting and rebooting webconverger. (you can still add your details to it)
+* -Update service. Lets say you charge a fee per year and for that you supply a
+* new iso twice a year with newest flash player, java, ... 
+* think about how upgrades should work again for paying customers
+* improve upgrade system
+* clean up the feature list, esp. for orders. (Tek)
+* disable "right-click to open a new window"
+* syslinux backports (for USB images)
