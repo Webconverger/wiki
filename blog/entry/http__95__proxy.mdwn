@@ -1,0 +1,13 @@
+Webconverger 2.36 has support for the `http_proxy=` boot parameter. Conducted some basic testing, though I have not tested SSL.
+
+I was thinking of using Firefox's [network.proxy.autoconfig_url](http://developer.mozilla.org/en/docs/Mozilla_Networking_Preferences#Proxy) feature, though it didn't seem to work.
+
+Trouble is, that network.proxy.autoconfig_url relies on these [odd JavaScript PAC files served with the "application/x-javascript-config" mimetype](http://open.itworld.com/5037/book_050425firefoxhacks/page_1.html). So it wasn't appropriate for simple localhost proxies.
+
+Using $http_proxy setup a whitelisting [[filtering]] setup for one of my customers using [tinyproxy](http://packages.debian.org/tinyproxy). This little [tinyproxy filtering guide](http://docs.pclinuxos.com/TinyProxy#banning_all_but_a_few_sites) came in useful.
+
+## Other updates
+
+The [[kiosk]] (>>6.21) extension now quits on **F10** or when the user closes the last tab. This took a lot longer than expected. Thanks to Jamie for helping me out on this and all the helpful people on IRC.
+
+I am looking for a new home for webconverger.org. Looking for a nice VPS vserver/xen solution in Europe with Debian of course.
