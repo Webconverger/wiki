@@ -4,7 +4,7 @@ I was thinking of using Firefox's [network.proxy.autoconfig_url](http://develope
 
 Trouble is, that network.proxy.autoconfig_url relies on these [odd JavaScript PAC files served with the "application/x-javascript-config" mimetype](http://open.itworld.com/5037/book_050425firefoxhacks/page_1.html). So it wasn't appropriate for simple localhost proxies.
 
-Using this $http_proxy setup a [whitelisting](http://en.wikipedia.org/wiki/Whitelisting) [[filtering]] setup for one of my customers using [tinyproxy](http://packages.debian.org/tinyproxy). This little [tinyproxy filtering guide](http://docs.pclinuxos.com/TinyProxy#banning_all_but_a_few_sites) came in useful.
+Using this $http_proxy a [whitelisting](http://en.wikipedia.org/wiki/Whitelisting) [[filtering]] was constructed for a client using [tinyproxy](http://packages.debian.org/tinyproxy). This little [tinyproxy filtering guide](http://docs.pclinuxos.com/TinyProxy#banning_all_but_a_few_sites) came in useful.
 
 ## Other updates
 
