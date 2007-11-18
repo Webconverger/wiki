@@ -3,7 +3,7 @@
  
 There are [[pagecount ]] pages. 
 
-### If you want to ask a question about Webconverger usage, try the new [forum for Webc users](http://groups.google.com/group/webc-users/topics)!
+### If you want to ask a question about Webconverger usage, try the [forum for Webc users](http://groups.google.com/group/webc-users/topics)!
 
 
 * [Download Webconverger](http://download.webconverger.com/)
