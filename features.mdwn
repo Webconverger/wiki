@@ -1,6 +1,6 @@
 [Customize Webconverger](http://webconverger.com/buy/) for your own homepage like banks, museums, car dealerships and many other customers have done. Most customers just need their [[homepage]] customised, however there are further options:
 
-This page lists technical features. For non-technical argumentation see [the about page](http://webconverger.com/about/)
+This page lists technical features. For non-technical argumentation see [the About Webconverger page.](http://webconverger.com/about/)
 
 # [[mini]]
 
