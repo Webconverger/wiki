@@ -11,8 +11,6 @@
 
 # Fix usplash issues
 
-Odd libssl upgrade on bootup
-
 # Upgrade improvement
 
 # Setup unstable -> stable QA
