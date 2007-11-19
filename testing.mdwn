@@ -2,7 +2,7 @@
 
 Windows or linux users can download [VMWARE player](http://www.vmware.com/download/player/download.html).
 
-Save the configuration below as a file named `webconverger.vmx` with [webconverger.iso](http://download.webconverger.com/webconverger.iso) in same directory. Run with VMWARE's player.
+Save the configuration below as a file named `webconverger.vmx` with [webconverger.iso](http://download.webconverger.com/webconverger.iso) in the same directory. Run with VMWARE's player.
 
     # VM Machine Info
     guestOS = "linux"

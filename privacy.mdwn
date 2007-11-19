@@ -1,8 +1,11 @@
 # Privacy policy
 
-## stats.webconverger.com
+Webconverger does not collect any information about how you use it. Hence
+ensuring your utmost privacy.
 
-**Currently disabled**
+## What data would be collected if we had such a system
+
+These reasons should be evaluated and scrutinized.
 
 A service to collect:
 
@@ -18,5 +21,5 @@ A service to collect:
 
 3. VERSION numbers
 
-* pros: Track what versions people are using.
-* cons: some customers don't want you to know
+* pros: Track what versions people are using. show users about the features relevant to the version they are using.
+* cons: some customers don't want you to know or care for that matter
