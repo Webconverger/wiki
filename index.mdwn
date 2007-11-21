@@ -29,6 +29,7 @@ There are [[pagecount ]] pages.
 * [[txt]]
 * [[koolu]]
 * [[privacy]]
+* [[debian]]
 
 
 Customization
