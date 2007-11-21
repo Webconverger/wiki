@@ -16,7 +16,7 @@
 
 * After editing, press [ENTER] and then [b] to boot into your own customised Webconverger!
 
-## Some examples of what you can customise
+## Some examples of what you can customise easily
 
 ### Your own homepage
 
@@ -37,3 +37,12 @@ append `http_proxy=http://192.168.1.5:8888`
 ### To do some debugging
 
 remove `nosudo`
+
+
+# Caveats
+
+## usb .[[img]]
+
+[[usb]] unfortunately does not support the GRUB boot loader currently. So you can't customise you USB image very easily. However you can mount you USB image and tweak your syslinux.cfg very easily by hand. Try it.
+
+And your changes are permanent!
