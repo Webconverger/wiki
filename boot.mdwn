@@ -41,7 +41,7 @@ remove `nosudo`
 
 # Caveats
 
-## usb .[[img]]
+## usb .img
 
 [[usb]] unfortunately does not support the GRUB boot loader currently. So you can't customise you USB image very easily. However you can mount you USB image and tweak your syslinux.cfg very easily by hand. Try it.
 
