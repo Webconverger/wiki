@@ -1,0 +1,39 @@
+# A guide to editing the boot parameter
+
+
+1. Boot into GRUB by burning the [[iso]] and booting your machine with it
+
+<a href="http://www.flickr.com/photos/hendry/2053115099/" title="grub on the CD version by Kai Hendry, on Flickr"><img src="http://farm3.static.flickr.com/2277/2053115099_bb620f1714_m.jpg" width="240" height="180" alt="grub on the CD version" /></a>
+
+
+2. Edit the first menu by pressing [e]
+
+<a href="http://www.flickr.com/photos/hendry/2053115105/" title="Press 'e' to edit by Kai Hendry, on Flickr"><img src="http://farm3.static.flickr.com/2150/2053115105_9d36bd3c70_m.jpg" width="240" height="180" alt="Press 'e' to edit" /></a>
+
+3. Now edit the **BOOT PARAMETER** line by pressing [e] again!
+
+<a href="http://www.flickr.com/photos/hendry/2053115107/" title="And 'e' again to do some more boot parameter hacking by Kai Hendry, on Flickr"><img src="http://farm3.static.flickr.com/2051/2053115107_445bf53dc6_m.jpg" width="240" height="180" alt="And 'e' again to do some more boot parameter hacking" /></a>
+
+4. After editing, press [ENTER] and then [b] to boot into your own customised Webconverger!
+
+## Some examples of what you can customise
+
+### Your own homepage
+
+Edit `homepage=`
+
+See [[homepage]]
+
+### Use Webconverger in German
+
+append `locale=de`
+
+see [[i18n]] for more
+
+### Specify a HTTP proxy at 192.168.1.5:8888
+
+append `http_proxy=http://192.168.1.5:8888`
+
+### To do some debugging
+
+remove `nosudo`
