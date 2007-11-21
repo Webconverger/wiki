@@ -30,6 +30,7 @@ There are [[pagecount ]] pages.
 * [[koolu]]
 * [[privacy]]
 * [[debian]]
+* [[boot]]
 
 
 Customization
