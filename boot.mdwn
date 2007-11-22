@@ -1,7 +1,7 @@
 # A guide to editing the boot parameter
 
 
-* Boot into GRUB by burning the [[iso]] and booting your machine with it
+* Boot into GRUB by burning the default official Webconverger [[iso]] and booting your machine with it
 
 <a href="http://www.flickr.com/photos/hendry/2053115099/" title="grub on the CD version by Kai Hendry, on Flickr"><img src="http://farm3.static.flickr.com/2277/2053115099_bb620f1714_m.jpg" width="240" height="180" alt="grub on the CD version" /></a>
 
