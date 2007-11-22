@@ -38,7 +38,7 @@ append `http_proxy=http://192.168.1.5:8888`
 
 remove `nosudo`
 
-Once Webconveger is booted, shift+alt+enter for a Terminal. =)
+Once Webconverger is booted, shift+alt+enter for a Terminal. =)
 
 ### Want more? See [[develop]]
 
