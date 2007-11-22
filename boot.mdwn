@@ -40,7 +40,7 @@ remove `nosudo`
 
 Once Webconveger is booted, shift+alt+enter for a Terminal. =)
 
-Want more? See [[develop]]
+### Want more? See [[develop]]
 
 # Caveats
 
