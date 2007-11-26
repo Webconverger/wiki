@@ -29,6 +29,8 @@ There are [[pagecount ]] pages.
 * [[txt]]
 * [[mpc]]
 * [[privacy]]
+* [[debian]]
+* [[boot]]
 
 
 Customization
