@@ -34,7 +34,7 @@ There are [[pagecount ]] pages.
 
 # Hardware
 
-Webconverger orks with **almost any standard x86 hardware*8. However there are
+Webconverger orks with **almost any standard x86 hardware**. However there are
 some interesting mini PC hardware options availible, such as:
 
 * [[Koolu_and_Linutop|mpc]]
