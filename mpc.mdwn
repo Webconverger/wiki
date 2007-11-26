@@ -48,8 +48,9 @@ processor used in the [Linutop](http://www.linutop.com/).
 
 You don't need a hard drive for Webconverger.
 
-Koolu thin client: 179 (+30EUR shipping) including vat compared to the
-[Linutop's 280EUR](http://www.linutop.com/shop/product_info.php?products_id=28)
+Koolu thin client: 179 (+30EUR shipping) from _info AT koolu.nl_ including vat
+compared to the [Linutop's
+280EUR](http://www.linutop.com/shop/product_info.php?products_id=28)
 
 # Hands on
 
