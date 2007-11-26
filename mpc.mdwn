@@ -22,6 +22,9 @@ processor used in the [Linutop](http://www.linutop.com/).
 * You need to arrange monitor, keyboard and mouse
 * [Sluggish CPU](http://en.wikipedia.org/wiki/Amd_geode#AMD_Geode)
 
+
+
+
         processor       : 0
         vendor_id       : Geode by NSC
         cpu family      : 5
