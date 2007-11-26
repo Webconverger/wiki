@@ -61,4 +61,4 @@ Phil Hands and Luke Leighton have done some [Koolu optimised packages.](http://f
 If you want to give is a try, boot any standard Etch install media, and at
 the boot prompt, type:
 
-    auto url=hands.com classes=koolu
+    auto url=hands.com classes=koolu acpi=off
