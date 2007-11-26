@@ -30,11 +30,14 @@ There are [[pagecount ]] pages.
 * [[mini]]
 * [[maxi]]
 * [[MD5SUM]]
-* [[txt]]
+* [[Package_listings|txt]]
 
 # Hardware
 
-* [[mpc]]
+Webconverger orks with **almost any standard x86 hardware*8. However there are
+some interesting mini PC hardware options availible, such as:
+
+* [[Koolu_and_Linutop|mpc]]
 
 
 Customization
@@ -45,7 +48,7 @@ Customization
 * [[Homepage]] by default is the [Webconverger Portal](http://portal.webconverger.com/)
 * [[Features]] you could choose from
 * [[Artwork]] information
-* [[boot]]
+* [[Boot_tutorial|boot]]
 
 Webconverger in the press
 =========================
@@ -59,7 +62,7 @@ Reasons for using Webconverger
 * [[Ideal_just_for_Web_applications]]
 * [[Free_&_open_software]]
 * [[Low_requirements|Requirements]] - can run on old/cheap hardware and can be ported to run on embedded devices
-* Good [[Security]] by [[design]]
+* Good [[security]] features by [[design]]
 * [[Deployment]] options abound, though the most common by far is LiveCD
 * [[Web_Standards]] compliant
 * [[Cost_effective]] - try the [free version](http://download.webconverger.com/) or order a [customised version](http://webconverger.com/buy)
