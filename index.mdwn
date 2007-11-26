@@ -32,8 +32,10 @@ There are [[pagecount ]] pages.
 
 # Hardware
 
-Webconverger works with **almost any standard x86 hardware**. However there are
-some interesting mini PC hardware options available, such as:
+Webconverger works with **almost any standard x86 hardware** that meets
+[Firefox's minimum
+requirements](http://www.mozilla.com/en-US/firefox/system-requirements.html).
+However there are some interesting mini PC hardware options available, such as:
 
 * [[Koolu_and_Linutop|mpc]]
 
