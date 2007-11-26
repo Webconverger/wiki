@@ -6,8 +6,8 @@ Existing customers use Webconverger for:
 * Several banks for secure client Internet banking
 * Casinos
 * Car dealerships
-* Museum infopints
-* For sales assistance 
+* Museum infopoints
+* For sales assistance
 * For education
 
 

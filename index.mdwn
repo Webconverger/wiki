@@ -27,7 +27,7 @@ There are [[pagecount ]] pages.
 * [[maxi]]
 * [[MD5SUM]]
 * [[txt]]
-* [[koolu]]
+* [[mpc]]
 * [[privacy]]
 
 
