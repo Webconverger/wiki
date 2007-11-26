@@ -1,7 +1,7 @@
 # [Subscribe to the Atom feed](http://webconverger.org/blog/index.atom) of the [[blog]].
 
- 
-There are [[pagecount ]] pages. 
+
+There are [[pagecount ]] pages.
 
 ### If you want to ask a question about Webconverger usage, try the [forum for Webc users](http://groups.google.com/group/webc-users/topics)!
 
@@ -21,16 +21,20 @@ There are [[pagecount ]] pages.
 * [[Testing_Webconverger|Testing]] - please join the QA effort
 * [[Content_filtering|Filtering]] and white listing are possible
 * [[Information_about_Fonts|Fonts]]
+* [[debian]]
+
+# Types of images
+
 * [[ISO]]
 * [[USB]]
 * [[mini]]
 * [[maxi]]
 * [[MD5SUM]]
 * [[txt]]
+
+# Hardware
+
 * [[mpc]]
-* [[privacy]]
-* [[debian]]
-* [[boot]]
 
 
 Customization
@@ -41,10 +45,10 @@ Customization
 * [[Homepage]] by default is the [Webconverger Portal](http://portal.webconverger.com/)
 * [[Features]] you could choose from
 * [[Artwork]] information
+* [[boot]]
 
 Webconverger in the press
 =========================
-
 
 * [[What_people_are_saying_about_Webconverger|Press]]
 
@@ -64,4 +68,4 @@ Reasons for using Webconverger
 * [[Easy_to_use|Training]]
 * [[Low_Maintenance|Maintenance]]
 * Commercial [[Support]] via [Webconverger.com](http://webconverger.com/) is available. Please enquire.
-
+* [[privacy]]
