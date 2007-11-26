@@ -8,10 +8,9 @@ There are [[pagecount ]] pages.
 
 * [Download Webconverger](http://download.webconverger.com/)
 * [[Design_document|Design]]
-* [Changelog](http://svn.webconverger.org/webconverger.org/Changelog)
 * [[TODO]] list
-* The [Debian-Live project](http://debian-live.alioth.debian.org/) is where Webconverger is derived from
-* Webconverger [[Firefox_extension_development|Kiosk]]
+* The [Debian-Live project](http://debian-live.alioth.debian.org/) and [[Debian]] is where Webconverger is derived from
+* [[Firefox_extension_development|Kiosk]]
 * [[Internationalisation_and_localisation|i18n]]
 * [[Developer_information|Develop]]
 * [[Acknowledgements]] - thanks everyone!
@@ -21,7 +20,6 @@ There are [[pagecount ]] pages.
 * [[Testing_Webconverger|Testing]] - please join the QA effort
 * [[Content_filtering|Filtering]] and white listing are possible
 * [[Information_about_Fonts|Fonts]]
-* [[debian]]
 
 # Types of images
 
