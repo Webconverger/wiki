@@ -19,11 +19,11 @@ processor used in the [Linutop](http://www.linutop.com/).
 * `acpi=off` to boot succesfully
 * Needs some patches with the video drivers
 * No [[networking]]
-* You need to arrange monitor, keyboard and mouse
+* You need to arrange the monitor, keyboard and mouse for the device
 * [Sluggish CPU](http://en.wikipedia.org/wiki/Amd_geode#AMD_Geode)
 
 
-
+## CPU
 
         processor       : 0
         vendor_id       : Geode by NSC
