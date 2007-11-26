@@ -18,29 +18,28 @@ processor used in the [Linutop](http://www.linutop.com/).
 * Long order times
 * `acpi=off` to boot succesfully
 * Needs some patches with the video drivers
-* No [[wireless]]
+* No [[networking]]
 * You need to arrange monitor, keyboard and mouse
 * [Sluggish CPU](http://en.wikipedia.org/wiki/Amd_geode#AMD_Geode)
 
-    processor       : 0
-    vendor_id       : Geode by NSC
-    cpu family      : 5
-    model           : 5
-    model name      : Geode(TM) Integrated Processor by National Semi
-    stepping        : 2
-    cpu MHz         : 398.474
-    cache size      : 32 KB
-    fdiv_bug        : no
-    hlt_bug         : no
-    f00f_bug        : no
-    coma_bug        : no
-    fpu             : yes
-    fpu_exception   : yes
-    cpuid level     : 1
-    wp              : yes
-    flags           : fpu de pse tsc msr cx8 pge cmov mmx mmxext 3dnowext 3dnow
-    bogomips        : 798.25
-
+        processor       : 0
+        vendor_id       : Geode by NSC
+        cpu family      : 5
+        model           : 5
+        model name      : Geode(TM) Integrated Processor by National Semi
+        stepping        : 2
+        cpu MHz         : 398.474
+        cache size      : 32 KB
+        fdiv_bug        : no
+        hlt_bug         : no
+        f00f_bug        : no
+        coma_bug        : no
+        fpu             : yes
+        fpu_exception   : yes
+        cpuid level     : 1
+        wp              : yes
+        flags           : fpu de pse tsc msr cx8 pge cmov mmx mmxext 3dnowext 3dnow
+        bogomips        : 798.25
 
 # Cost
 
