@@ -34,17 +34,17 @@ There are [[pagecount ]] pages.
 
 # Hardware
 
-Webconverger orks with **almost any standard x86 hardware**. However there are
-some interesting mini PC hardware options availible, such as:
+Webconverger works with **almost any standard x86 hardware**. However there are
+some interesting mini PC hardware options available, such as:
 
 * [[Koolu_and_Linutop|mpc]]
 
 
-Customization
+Customisation
 =============
 
 
-* [Purchase customization and support](http://webconverger.com/buy/)
+* [Purchase customisation and support](http://webconverger.com/buy/)
 * [[Homepage]] by default is the [Webconverger Portal](http://portal.webconverger.com/)
 * [[Features]] you could choose from
 * [[Artwork]] information
