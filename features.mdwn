@@ -14,7 +14,7 @@ This page lists technical features. For non-technical argumentation see [the Abo
 * [PDF viewing](http://flickr.com/photos/hendry/851173358/) - [xpdf](http://packages.qa.debian.org/x/xpdf.html) - enabled by default
 * Video mode override with `xvideomode=800x600` (new in >=2.16) - should override resolution to 800x600. Default display is *autodetected*.
 
-# [[maxi]] = [[mini]] + extras
+# [[maxi]] = [[mini]] + extras (mainly support for non-English locales)
 
 * [[Extensive_internationalization_support|i18n]] -  Exotic locales such as Chinese, Japanese and Korean (CJK) are supported. CJK keyboard switching via [scim](http://en.wikipedia.org/wiki/SCIM) and many other types of keyboard setups, such as swiss German. Spelling support with dictionaries in many languages. [[maxi]] only.
 * [[Printing]] support
