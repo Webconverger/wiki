@@ -42,6 +42,8 @@ Wireless devices that require Window's drivers wrappers such as ndiswrapper or f
 
 ## Getting a Windows wireless device working
 
+This is a developer reference.
+
 Get the Win32 drivers:
 
     x40:~/webc/wifi% ls
