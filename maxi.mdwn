@@ -1,5 +1,5 @@
 The maxi version is downloadable at [http://download.webconverger.com/maxi](http://download.webconverger.com/maxi).
 
-It has most of the [[features]] enabled. Like printing, Tor and [[i18n]] support (Chinese, Japanese, Korean and many more!).
+It has most of the [[features]] enabled. Like [[printing]], Tor and [[i18n]] support (Chinese, Japanese, Korean and many more!).
 
 It is much larger than [[mini]], which is smaller and faster.
