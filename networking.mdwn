@@ -35,7 +35,7 @@ Other wireless chipsets known to work:
 * rt2x00
 * rt2570
 
-Wireless devices that require Window's drivers wrappers such as ndiswrapper or fw-cutter etc. are **too painful** to integrate with Webconverger. In many cases it simply cannot be done without actually having the device.
+Wireless devices that require Window's drivers wrappers such as ndiswrapper or fw-cutter etc. are **too painful** to integrate with Webconverger. In many cases it simply cannot be done without actually having the device and preparing 'one off' packages.
 
 ### Further links regarding Wireless hardware
 
