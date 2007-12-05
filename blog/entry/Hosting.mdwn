@@ -8,7 +8,7 @@ The main method has been building images on a Thinkpad X40 and uploading to [Dre
 * download.webconverger.com
 * portal.webconverger.com
 
-Califorian hosters Dreamhost actually provide a very good service considering the price point. The bandwidth is practically unlimited.
+Californian hosters Dreamhost actually provide a very good service considering the price point. The bandwidth is practically unlimited.
 
 However uploading to Dreamhost from a British broadband connection has been painful. So in the past, in order to save money, I volunteered to work on a shared server called argo.nipl.net, which is now defunct. On argo I could build images and upload them pretty quickly. However I could not test the images until I downloaded them onto my Thinkpad. Downloading is actually quite painless from a good British broadband ADSL connection.
 
