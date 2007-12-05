@@ -14,7 +14,7 @@ However uploading to Dreamhost from a British broadband connection has been pain
 
 Webconverger.org, this wiki, requires a machine which I have sudo on. Previously I was running webconverger.org in a vserver on argo. It's recently moved and now hosted on a Xen [slicehost](http://www.slicehost.com/) virtual machine called "au". It seems to work quite well so far for 38USD a month.
 
-Since I am keen to build "au" to become a automated Webconverger build server, I thought I should perhaps also setup another machine to basically replicate what "au" is doing in Europe. So right now I am waiting to get a server in Finland ready and then I'll start prepping both machines to basically do the same things.
+Since I am keen to build "au" to become an automated Webconverger build server, I thought I should perhaps also setup another machine to basically replicate what "au" is doing in Europe. So right now I am waiting to get a server in Finland ready and then I'll start prepping both machines to basically do the same stuff.
 
 I have been investigating vservers or VPSes in other countries. Here are some suggestions:
 
