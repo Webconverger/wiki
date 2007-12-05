@@ -23,7 +23,7 @@ Non-standard network (wireless) setups can be [customised](http://webconverger.c
 
 # Wireless hardware
 
-Please purchase [Linux compatible wireless hardware](http://www.linuxemporium.co.uk/products/wireless/). Else making your wireless work with Webconverger will be very difficult!
+Please purchase [Linux compatible wireless hardware](http://www.linuxemporium.co.uk/products/wireless/). Else making your wireless work with Webconverger will be **very** difficult!
 
 Other wireless chipsets known to work:
 
@@ -32,6 +32,13 @@ Other wireless chipsets known to work:
 * ipw2100
 * rt2x00
 * rt2570
+
+Wireless devices that require Window's drivers wrappers such as ndiswrapper or fw-cutter etc. are **too painful** to integrate with Webconverger. In many cases it simply cannot be done without actually having the device.
+
+### Further links regarding Wireless hardware
+
+* [Debian wireless page](http://wiki.debian.org/WiFi)
+* [Ubuntu wireless page](https://help.ubuntu.com/community/WifiDocs/WirelessCardsSupported)
 
 ## Getting a Windows wireless device working
 
