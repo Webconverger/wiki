@@ -1,0 +1,25 @@
+You may wonder what computing services go into producing Webconverger.
+
+<a href="http://www.flickr.com/photos/hendry/463888118/" title="X40&amp;T30 testing Webconverger by Kai Hendry, on Flickr"><img src="http://farm1.static.flickr.com/208/463888118_99a37db62e_m.jpg" width="240" height="180" alt="X40&amp;T30 testing Webconverger" /></a>
+
+The main method has been building images on a Thinkpad X40 and uploading to [Dreamhost](http://www.dreamhost.com/r.cgi?104617) where the following sites are hosted:
+
+* webconverger.com
+* download.webconverger.com
+* portal.webconverger.com
+
+Califorian hosters Dreamhost actually provide a very good service considering the price point. The bandwidth is practically unlimited.
+
+However uploading to Dreamhost from a British broadband connection has been painful. So in the past, in order to save money, I volunteered to work on a shared server called argo.nipl.net, which is now defunct. On argo I could build images and upload them pretty quickly. However I could not test the images until I downloaded them onto my Thinkpad. Downloading is actually quite painless from a good British broadband ADSL connection.
+
+Webconverger.org, this wiki, requires a machine which I have sudo on. Previously I was running webconverger.org in a vserver on argo. It's recently moved and now hosted on a Xen [slicehost](http://www.slicehost.com/) virtual machine called "au". It seems to work quite well so far for 38USD a month.
+
+Since I am keen to build "au" to become a automated Webconverger build server, I thought I should perhaps also setup another machine to basically replicate what "au" is doing in Europe. So right now I am waiting to get a server in Finland ready and then I'll start prepping both machines to basically do the same things.
+
+I have been investigating vservers or VPSes in other countries. Here are some suggestions:
+
+* [In Germany](http://www.internetx.de/)
+* [In Netherlands](http://webextra.nl/)
+* [In Russia](http://www.host.ru/)
+
+For testing purposes I plan to upgrade my X40 to an X61. Also I hope to do video testing of each image produced. I'll save that story for another day.
