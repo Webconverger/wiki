@@ -14,10 +14,10 @@ become a "flavour" of Debian or at least Debian Live.
 ## webconverger-base
 
 When a sysadmin installs webconverger-base on their system, their machine would
-become a locked down Web Kiosk. This may not be diserable!
+become a locked down Web Kiosk. This may not be desirable!
 
 So perhaps a webc user should be created. Thereby a Debian user could switch
-into that user and temporaily create a Web kiosk. It's still quite a special
+into that user and temporarily create a Web kiosk. It's still quite a special
 use case.
 
 More specific issues:
@@ -32,7 +32,7 @@ Not incredibly useful without the persistent-browser script from **webconverger-
 
 The way Firefox/Iceweasel extensions are packaged in Debian, is that if a
 extension is installed it applies to all users and profiles. This may not be
-diserable!
+desirable!
 
 ## The webc key
 
@@ -41,4 +41,4 @@ diserable!
 Sometimes customers want specific patches to Debian packages. How should that be rolled out?
 
 In the past "customised packages" have been deployed via the Webconverger
-repositry. Authenticate packages require a webconverger key.
+repository. Authenticate packages require a webconverger key.

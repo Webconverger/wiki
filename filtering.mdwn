@@ -3,7 +3,7 @@ A common feature request is for whitelisting, content filtering and censorship.
 * Limit surfers to a domain (whitelisting)
 * Block pornography. The TLD .xxx would be a godsend!
 
-Prefereably these requirements should be implemented seperately on the gateway or proxy in your network.
+Preferably these requirements should be implemented separately on the gateway or proxy in your network.
 
 ## Known 3rd party appliances
 

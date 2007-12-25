@@ -4,7 +4,7 @@
 
 A **problem** with [LiveCD](http://en.wikipedia.org/wiki/LiveCD)s is that they are generally speaking static distributions, on a **read only** CD.
 
-One might assume this is good for [[security]] at first, as if there there was ever an exploit with a LiveCD, you could just reboot the machine. The exploit/virus could not write itself to the disc, so a reboot starts from a fresh uncompromised position.
+One might assume this is good for [[security]] at first, as if there there was ever an exploit with a LiveCD, you could just reboot the machine. The exploit/virus could not write itself to the disc, so a reboot starts from a fresh uncompromising position.
 
 This is true to an extent, however what happens if the LiveCD shipped version 1 of browser. Suppose version 1 of browser is known to be insecure. If someone is using version 1 and goes to a malicious Web site, all the account details of previous surfing in that session could be compromised. The read only LiveCD model doesn't really help there in that important security situation.
 
@@ -37,7 +37,7 @@ This is the current method, though there is a couple of serious problems:
 
 As mentioned before kernel updates require a reboot, which can only work on Read Write media like USB or Hard drives.
 
-In the case where one has a long running Webconverger system (isn't rebooted), then there might be new updated packages come availible. So Webconverger needs to update itself every day or 12 hours or... you be the judge!
+In the case where one has a long running Webconverger system (isn't rebooted), then there might be new updated packages come available. So Webconverger needs to update itself every day or 12 hours or... you be the judge!
 
 Updates should "just work" and not require any user intervention. However if the browser or browser extension for example is updated, the only way a user can actually update is to close his/her session and allow the browser to reload itself.
 

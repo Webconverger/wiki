@@ -16,7 +16,7 @@ processor used in the [Linutop](http://www.linutop.com/).
 # Cons
 
 * Long order times
-* `acpi=off` to boot succesfully
+* `acpi=off` to boot successfully
 * Needs some patches with the video drivers
 * No [[networking]]
 * You need to arrange the monitor, keyboard and mouse for the device

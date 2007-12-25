@@ -1,4 +1,4 @@
-* write some sort of payment thing for internet cafes
+* write some sort of payment thing for Internet cafes
 * screensaver advertisement thing
 * look into META-INIT nomeata http://wiki.debian.org/MetaInit
 * Allow USB mounts so people can upload pictures to Flickr (use case by Phil Waring)
