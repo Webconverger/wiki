@@ -24,6 +24,8 @@ Webconverger is not actively pursuing this option.
 
 Much easier to do theoretically, though not implemented in Webconverger atm. [Debian Live](http://debian-live.alioth.debian.org/) is designed for read only environments like CDs, not USB media atm. Also USB users are the minority, so naturally CD users have been assumed.
 
+Comment by kozuch82: I am one of the "few"  usb-hdd users. It would be nice to get some more USB-support from Webconverger - I think devices like Koolu and other embedded boards (mostly running AMD Geode LX) are next to older ordinary PC machines a second major group to use Webconverger. It will be my pleasure to help out with this stuff!
+
 ## Updating at bootup
 
 This is the current method, though there is a couple of serious problems:
