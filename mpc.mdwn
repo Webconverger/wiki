@@ -1,19 +1,21 @@
-# Koolu
+# Embedded hardare
 
-<a href="http://www.flickr.com/photos/hendry/1790045443/" title="Photo Sharing"><img src="http://farm3.static.flickr.com/2375/1790045443_80e5e8e2c8_m.jpg" width="240" height="180" alt="Trying to install Debian on a Koolu" /></a>
+Most of todays embedded boards are based on [AMD Geode](http://en.wikipedia.org/wiki/AMD_Geode) LX platform. Some of the [mini
+PCs](http://en.wikipedia.org/wiki/Template:Linux_mini_computers) are:
 
-Koolu is a [AMD Geode](http://en.wikipedia.org/wiki/AMD_Geode) based ["mini
-PC"](http://en.wikipedia.org/wiki/Template:Linux_mini_computers). The same
-processor used in the [Linutop](http://www.linutop.com/).
+* [Linutop](http://www.linutop.com/)
+* [Koolu](http://www.koolu.com/)
 
-# Pros
+
+## Pros
 
 * Silent
 * Small physical footprint
 * Robust
 * Low energy consumption
 
-# Cons
+
+## Cons
 
 * Long order times
 * `acpi=off` to boot successfully
@@ -22,6 +24,11 @@ processor used in the [Linutop](http://www.linutop.com/).
 * You need to arrange the monitor, keyboard and mouse for the device
 * [Sluggish CPU](http://en.wikipedia.org/wiki/Amd_geode#AMD_Geode)
 
+
+# Koolu
+
+<a href="http://www.flickr.com/photos/hendry/1790045443/" title="Photo Sharing"><img src="http://farm3.static.flickr.com/2375/1790045443_80e5e8e2c8_m.jpg" width="240" height="180" alt="Trying to install Debian on a Koolu" /></a>
+Trying to install Debian on a Koolu.
 
 ## CPU
 
