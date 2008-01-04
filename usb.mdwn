@@ -8,7 +8,7 @@
 2. fdisk -l will list your USB drive - usually /dev/sdx ("x" representing letter like sda, sdb etc.)
 3. dd if=webconverger-image.img of=/dev/sdx
 
-Detailed description on [debain wiki](http://wiki.debian.org/DebianLive/Howto/USB). 
+Detailed description on [Debian wiki](http://wiki.debian.org/DebianLive/Howto/USB). 
 
 * Works only with newer computers
 * Just as fast as a hard drive in many cases
