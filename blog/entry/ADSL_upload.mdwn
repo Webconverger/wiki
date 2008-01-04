@@ -1,0 +1,13 @@
+Happy New Year 2008!
+
+I have been busy with an offline collection of Debian etch packages to create Webconverger.
+
+My little investigations have included [GTK webkit](http://webkit.org/) and [directfb](http://www.directfb.org/).
+
+I've had little to show for several reasons, such as my Internet connectivity has been fairly limited to say the least.
+
+Since as we all know ADSL is asymetrical, the upload channel is pitiful. What's worse is the stalling if you need to do fairly large image uploads and your router isn't proriatizing Acks. :/
+
+Today I activated the UK's fastest ADSL option I could find with a company badly named [be](http://bethere.co.uk/). It's about 2 point something mbit. 2 mbit translates roughly into 200kB/sec. So a [[mini]] Webconverger image of say 200M takes roughly 15 minutes of upload time. 
+
+At last, progress. :)
