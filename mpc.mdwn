@@ -20,7 +20,6 @@ PCs](http://en.wikipedia.org/wiki/Template:Linux_mini_computers) are:
 * Long order times
 * `acpi=off` to boot successfully
 * Needs some patches with the video drivers
-* No [[networking]]
 * You need to arrange the monitor, keyboard and mouse for the device
 * [Sluggish CPU](http://en.wikipedia.org/wiki/Amd_geode#AMD_Geode)
 
@@ -53,7 +52,9 @@ Trying to install Debian on a Koolu.
 
 # Cost
 
-You don't need a hard drive for Webconverger.
+You don't need a hard drive for current versions of Webconverger. Future
+versions of Webconverger will hopefully utilise the hard drive, however best
+save money and don't buy an internal hard drive MPC for now.
 
 Koolu thin client: 179EUR (+30EUR shipping) from _info AT koolu.nl_ including vat
 compared to the [Linutop's
