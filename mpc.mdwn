@@ -74,4 +74,4 @@ It's not Webconverger, though it's quite close! From here you should add the Web
 
     deb http://webconverger.com/debian/ stable/
 
-And be able to install [extensions|kiosk] like iceweasel-webconverger. Good luck.
+And be able to install [[extensions|kiosk]] like iceweasel-webconverger. Good luck.
