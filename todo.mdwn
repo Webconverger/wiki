@@ -7,7 +7,7 @@
 * firewall? no real need except to maybe block ICMP
 * wireless support and web app to configure essid and WPA key
 * put in andika font
-
+* maxi default spelling is gaellic irish. user works around by selecting US english (which should be default)
 
 # Fix usplash issues
 
