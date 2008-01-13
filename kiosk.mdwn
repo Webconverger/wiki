@@ -1,5 +1,6 @@
 Extension(s) that meet the requirements of Webconverger customers. Currently there are three scenarios.
 
+This Firefox extension now has a [git repositry](http://git.webconverger.org/?p=iceweasel-webconverger.git).
 
 # iceweasel-webconverger
 
@@ -54,6 +55,7 @@ I have forked rkiosk and created my own extension, webconverger. I had to do thi
 
 
 * `apt-get source iceweasel-webconverger` from the [Webconverger Debian package repo](http://webconverger.com/debian/)
+* `git clone git://webconverger.org/git/webconverger-base.git`
 
 
 ## Slideware
