@@ -1,10 +1,11 @@
 The 'Iceweasel-webconverger' package has two small deviations webcnoaddressbar
-and webcfullscreen described in [[kiosk]]. Instead of have 3 repositries, you
-can consolidate them nicely in one git repository. Here is how I did. I
-initially used `git-import-orig` to import each individual package into their
-own git repository.
+and webcfullscreen described in [[kiosk]]. Instead of having 3 seperate repositries, you
+can consolidate them nicely in one git repository as **branches**. 
 
-Then from a [iceweasel-webconverger](http://git.webconverger.org/?p=iceweasel-webconverger.git) clone, I fetch in the other git repos as branches, for example:
+I initially used `git-import-orig` to import each individual package into their
+own git repository with [git-buildpackage](http://packages.qa.debian.org/g/git-buildpackage.html).
+
+Then from an [iceweasel-webconverger](http://git.webconverger.org/?p=iceweasel-webconverger.git) clone, I fetch in the other git repos as branches, for example:
 
     x61$ git fetch ssh://au/srv/git/iceweasel-webcnoaddressbar master:webcnoaddressbar
 
@@ -37,7 +38,8 @@ So lets see the minor changes beween packages:
      install.rdf                           |   15 ++--
      15 files changed, 34 insertions(+), 215 deletions(-)
 
-Unfortunately you can see a lot of debian/* changes that are required. Again I
-should make further efforts to consolidate the 'modes' of a [[Firefox_kiosk_extension|kiosk]].
+Unfortunately you can see a lot of boring debian/* packaging changes that are
+required. Again I should make further efforts to consolidate the 'modes' of a
+[[Firefox_kiosk_extension|kiosk]].
 
-Still TODO, nicely generate -webcnoaddressbar and -webcfullscreen packages!
+Still TODO, nicely generate -webcnoaddressbar and -webcfullscreen packages from the git repositry with `git-buildpackage`. :)
