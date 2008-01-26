@@ -42,10 +42,10 @@ reach the first 2 mbit speeds when I first tried. Anyway I was quite happy with
 the BE connection, until the 8th of January when I come home to find the
 Internet connection not working.
 
-After a 10 minute call to BE technical support in Sibera (ok, eastern Europe
-somewhere), they told me line is disconnected. It would have been nice if they
-called me to tell me that BT have disconnect my line. Anyhoo, I call up BT
-residential.
+After an expensive  10 minute call to BE technical support in Siberia (ok,
+eastern Europe somewhere), they told me line is disconnected at the exchange.
+It would have been nice if they called me to tell me that BT have disconnect my
+line. Anyhoo, I call up BT residential.
 
 BT residential says they couldn't finish the take over as my line is and still
 is a "working line". So then BT pushed me to BT business and back again. I
@@ -85,7 +85,7 @@ In fact if you just want **cable Internet** and not any of the other Virgin
 offers like BT line rental, it's actually more expensive. So you're almost
 **forced** to buy more than one service from Virgin... crazy.
 
-Virginmedia selling BT line rental seems a little bizaare to me. As someone
+Virginmedia selling BT line rental seems a little bizarre to me. As someone
 with a BT line can now get ADSL instead of their cable Internet package. So
 they are effectively trying to sell a product that rivals their own. Like
 Microsoft did with Internet Explorer. Pushing a Web platform that rivals their
@@ -103,7 +103,7 @@ Eventually I managed to sign up with a Win32 machine and get VirginMedia
 working.  My friend went through the pain and agony of filling in their brain
 dead forms.  Why can't they setup the modem?
 
-Stupidly they sent me two logins in seperate post. One with my named spelt
+Stupidly they sent me two logins in separate post. One with my named spelt
 incorrectly and one login with my name spelt correctly. Guess which one worked?
 So after pointlessly registering (they should have **all** my details already)
 with a wrong name, I had sweet Internet!
@@ -151,7 +151,7 @@ be actually be English, but their is terrible.
 
 ## Recommendations
 
-If I was [ofcom](http://www.ofcom.org.uk/) I would probably was my time trying
+If I was [ofcom](http://www.ofcom.org.uk/) I would probably waste my time trying
 to rectify some of my complaints. I know it won't happen. Right now I just feel
 like moving back to [Korea](http://natalian.org/archives/tag/korea/). Where
-10mbit symetriacal connections on fiber is like the baseline.
+10mbit symmetrical connections on fiber is like the baseline.
