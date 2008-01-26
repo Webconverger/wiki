@@ -1,0 +1,69 @@
+Before the wounds of not having Internet and the diabolical time getting
+Internet in the UK still aren't quite healed, let me tell you a story.
+
+Before the turn of the new year I took over the lease over the rented
+accommodation. Rented accommodation in the eyes of the powers that be is already
+setting yourself up for disaster. Most companies you'll do with will have no
+system for registering your landlord and their tenants.
+
+I took over a house with BT business line. I called BT explaining beforehand
+that I am taking over the line. Though since I am not a business and a BT
+business line is in fact more expensive than a residential line, I was passed
+off to BT residential. In hindsight I should have probably made Webconverger
+foot the cost.
+
+So after talking to BT residential in late December 2007, everything seemed to
+be OK for the change over.  Except my new ISP [BE](https://www.bethere.co.uk/),
+need a MAC code for the broadband. Unfortunately BT business would not give me
+this code and I had to get my ex-housemate on the line to get identify himself
+for the code.  Nevermind the line should be mine.
+
+After the holiday [BE](https://www.bethere.co.uk/)'s crappy ADSL2+ modem
+arrived. I plugged it in and it didn't work.  I expected the modem to be
+configured for my 'PRO' order, yet I had to call them up for them to tell me
+the settings I need to input into modem. Their support number is a "toll free"
+number from a landline, but I don't have a landline phone. I only have a
+[mobile](http://natalian.org/archives/2007/05/15/nokia-e65-from-3/) which
+charges a fortune for calling 0808 numbers.
+
+So ADSL2+ seems to work. While I was on the line I asked the upload channel to
+made bigger which they did. So I was getting 200kB/sec up which was nice. I
+typically build and upload Webconverger ISOs locally, hence I need a good
+upload channel to deliver the finished product. Uploading is typically a pain
+on ADSL and typical home access points. I believe the problem is the upload
+channel gets full and doesn't properly handle ACKs.  The result is a upload
+renders the Internet connect close to useless. So I usually have to upload
+overnight, which is a pain.
+
+There were connection errors and sadly the upload channel never seemed to ever
+reach the first 2 mbit speeds when I first tried. Anyway I was quite happy with
+the BE connection, until the 8th of January when I come home to find the
+Internet connection not working.
+
+After a 10 minute call to BE techinical support in Sibera (ok, eastern europe
+somewhere), they told me line is disconnected. It would have been nice if they
+called me to tell me that BT have disconnect my line. Anyhoo, I call up BT
+residential.
+
+BT residential says they couldn't finish the take over as my line is and still
+is a "working line". So then BT pushed me to BT business and back again. I
+recorded I spoke to at least seven BT people. Was on the call for at least an
+hour. And I made an order to reconnected twice. So I quickly learnt BT
+residential and BT business are completely seperate and can't seem to
+co-ordinate. Only after completing a order they could be a possible date of my
+Internet reconnection. Far into the future.
+
+Since Webconverger is an Internet service, its business can't operate without
+Internet for weeks! I ended the call and rang back on January the 18th and
+still the order was not in their system. The last person said they could only
+get my connected by the 11th of February for 130GBP. Which is a little crazy.
+
+Nevermind all this MAC code transferral that needs to happen with the ISP at
+the exchange... At this stage I was deperate to go for an alternative.
+
+The only alternative in the UK for Internet, besides BT & an ADSL ISP is cable.
+Cable is monopolised by [VirginMedia](http://virginmedia.com/)
+
+Signing up for cable from Virgin is quite tricky. They offer ADSL broadband too
+and if you are not careful you might actually order BT line rental, ADSL,
+mobile phone, some television package and some sort of credit card deal.

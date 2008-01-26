@@ -16,7 +16,7 @@ Ok so I end up with:
       webcfullscreen
       webcnoaddressbar
 
-So lets see the minor changes beween packages:
+So lets see the minor changes beween -webcnoaddressbar and the default -webconverger packages:
 
     x61$ git checkout webcnoaddressbar
     Switched to branch "webcnoaddressbar"
@@ -43,3 +43,5 @@ required. Again I should make further efforts to consolidate the 'modes' of a
 [[Firefox_kiosk_extension|kiosk]].
 
 Still TODO, nicely generate -webcnoaddressbar and -webcfullscreen packages from the git repositry with `git-buildpackage`. :)
+
+I hope to polish these [[kiosk]] 'digital signage' feature branches so we can see less of [failed windows digital signs](http://www.flickr.com/photos/hendry/2178479733/).
