@@ -6,18 +6,18 @@ explaining perhaps my lack of progress with
 Before the turn of the new year I took over the lease for my rented
 accommodation in Woking, UK. Rented accommodation in the eyes of the powers
 that be is already setting yourself up for disaster. Most suppliers you'll do
-business with will have no system for registering your landlord and their
+business with will have no system for dealing with your landlord and their
 tenants.
 
-I took over the house when it had a BT business line setup up by house mate who
-left. I called BT explaining beforehand that I am taking over the line. Though
-since I am personally not a business (despite what you might think) and a BT
-business line is in fact more expensive than a residential line, I was passed
-off to BT residential. In hindsight I should have probably made Webconverger
-foot the cost.
+I took over the house when it had a BT business line previously setup up by
+house mate who left. I called BT explaining beforehand that I am taking over
+the line. Though since I am personally not a business (despite what you might
+think) and a BT business line is in fact more expensive than a residential
+line, I was passed off to BT residential. In hindsight I should have probably
+made Webconverger foot the cost.
 
 So after talking to BT residential in late December 2007, everything seemed to
-be OK for the change over.  Except my new ISP [BE](https://www.bethere.co.uk/),
+be OK for the change over. Except my new ISP [BE](https://www.bethere.co.uk/),
 need a MAC code for the broadband. Unfortunately BT business would not give me
 this code and I had to get my ex-housemate on the line to get identify himself
 for the code.  Nevermind the line should be mine.
@@ -149,7 +149,7 @@ of 40GBP. So at least 80GBP for one week of Internet. Whatever happened to my
 rights](http://www.tradingstandards.gov.uk/cgi-bin/calitem.cgi?file=ADV0043-1011.txt).
 
 I will avoid BT residential or business like the plague. Their operators might
-be actually be English, but their is terrible.
+actually be English, but their customer service is terrible.
 
 ## Recommendations
 
