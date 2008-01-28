@@ -1,7 +1,7 @@
 Before the wounds of not having Internet and the diabolical time getting
-Internet in the UK still aren't quite healed, let me tell you a story. A story
-explaining perhaps my lack of progress with
-[Webconverger](http://webconverger.com) for a couple of weeks.
+Internet in the UK heal, let me tell you a story, a story
+perhaps explaining my lack of progress with
+[Webconverger](http://webconverger.com) for the last couple of weeks.
 
 Before the turn of the new year I took over the lease for my rented
 accommodation in Woking, UK. Rented accommodation in the eyes of the powers
@@ -10,7 +10,7 @@ business with will have no system for dealing with your landlord and their
 tenants.
 
 I took over the house when it had a BT business line previously setup up by
-house mate who left. I called BT explaining beforehand that I am taking over
+house mate who left. I called BT beforehand explaining that I would be taking over
 the line. Though since I am personally not a business (despite what you might
 think) and a BT business line is in fact more expensive than a residential
 line, I was passed off to BT residential. In hindsight I should have probably
@@ -18,9 +18,9 @@ made Webconverger foot the cost.
 
 So after talking to BT residential in late December 2007, everything seemed to
 be OK for the change over. Except my new ISP [BE](https://www.bethere.co.uk/),
-need a MAC code for the broadband. Unfortunately BT business would not give me
+needed a MAC code for the broadband. Unfortunately BT business would not give me
 this code and I had to get my ex-housemate on the line to get identify himself
-for the code.  Nevermind the line should be mine.
+for the code.  Nevermind that the line should be mine.
 
 After the holiday [BE](https://www.bethere.co.uk/)'s crappy ADSL2+ modem
 arrived. I plugged it in and it didn't work.  I expected the modem to be
@@ -30,37 +30,37 @@ number from a landline, but I don't have a landline phone. I only have a
 [mobile](http://natalian.org/archives/2007/05/15/nokia-e65-from-3/) which
 charges a fortune for calling 0808 numbers.
 
-So ADSL2+ seems to work. While I was on the line I asked the upload channel to
-made bigger which they did. So I was getting 200kB/sec up which was nice. I
-typically build and upload Webconverger ISOs locally, hence I need a good
+So ADSL2+ seemed to work. While I was on the line I asked the upload channel to
+increased, which they did. So I was getting 200kB/sec up which was nice. I
+typically build Webconverger ISOs locally and upload, hence I need a good
 upload channel to deliver the finished product. Uploading is typically a pain
 on ADSL and typical home access points. I believe the problem is the upload
-channel gets full and doesn't properly handle ACKs.  The result is a upload
-renders the Internet connect close to useless. So I usually have to upload
+channel gets full and doesn't properly handle ACKs.  The result is an upload
+renders the Internet connection close to useless. So I usually have to upload
 overnight, which is a pain.
 
-There were connection errors and sadly the upload channel never seemed to ever
-reach the first 2 mbit speeds when I first tried. Anyway I was quite happy with
-the BE connection, until the 8th of January when I come home to find the
-Internet connection not working.
+There were connection errors and sadly the upload channel never seemed to 
+reach the first 2 mbit speeds which I had experienced when I first tried. Anyway I was quite happy with
+the BE connection, until the 8th of January when I came home to find the
+Internet connection wasn't working.
 
 After an expensive  10 minute call to BE technical support in Siberia (ok,
 eastern Europe somewhere), they told me line is disconnected at the exchange.
-It would have been nice if they called me to tell me that BT have disconnect my
+It would have been nice if they'd called me to tell me that BT had disconnected my
 line. Anyhoo, I call up BT residential.
 
 BT residential says they couldn't finish the take over as my line is and still
 is a "working line". So then BT pushed me to BT business and back again. I
-recorded I spoke to at least seven BT people. Was on the call for at least an
-hour. And I made an order to reconnected twice. So I quickly learnt BT
+recorded I spoke to at least seven BT people, was on the phone for at least an
+hour and made an order to be reconnected twice. So I quickly learnt that BT
 residential and BT business are completely separate and can't seem to
-co-ordinate. Only after completing a order they could be a possible date of my
+co-ordinate. Only after completing an order could there be a possible date of my
 Internet reconnection. Far into the future.
 
 Since Webconverger is an Internet service, its business can't operate without
 Internet for weeks! I ended the call and rang back on January the 18th and
 still the order was not in their system. The last person said they could only
-get my connected by the 11th of February for 130GBP. Which is a little crazy.
+get me connected by the 11th of February for 130GBP. Which is a little crazy.
 
 Nevermind all this MAC code transferral that needs to happen with the ISP at
 the exchange... At this stage I was desperate to go for an alternative.
@@ -95,7 +95,7 @@ own Win32 platform. Stupid business.
 
 <a href="http://www.flickr.com/photos/hendry/2097786288/" title="Virgin topside by Kai Hendry, on Flickr"><img src="http://farm3.static.flickr.com/2268/2097786288_716692268f_m.jpg" width="180" height="240" alt="Virgin topside" /></a>
 
-I ordered the 37GBP a month XL package, with in mind to trial it for 30 days.
+I ordered the 37GBP a month XL package, in mind to trial it for 30 days.
 It arrived in two days in a package with a lot of network cable. I plugged it
 in and guess what? It didn't work, it needed Internet Explorer. Once again I
 was supposed to call a number to register. A premium number I previously barred
@@ -105,7 +105,7 @@ Eventually I managed to sign up with a Win32 machine and get VirginMedia
 working.  My friend went through the pain and agony of filling in their brain
 dead forms.  Why can't they setup the modem?
 
-Stupidly they sent me two logins in separate post. One with my named spelt
+Stupidly they sent me two logins which arrived in separate posts. One with my name spelt
 incorrectly and one login with my name spelt correctly. Guess which one worked?
 So after pointlessly registering (they should have **all** my details already)
 with a wrong name, I had sweet Internet!
