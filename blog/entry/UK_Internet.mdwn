@@ -115,11 +115,19 @@ Once again promises of 20 mbit are very far from the truth. I **suspect** there
 is some traffic shaping going on which severely limits the connection. I would
 say download speed is an optimistic 10mbit and upload again an exaggerated 2
 mbit.  At least that's how it starts, then the connection seems to get limited
-to a quarter of that speed. Very, very poor.
+to a quarter of that speed. Very, very poor VirginMedia. :(
 
 Worth mentioning is comedy that is their cable Internet hardware. If you
 connect a different computer to it or try change a setting, you have to turn it
 off for 2 minutes. Really, you do!
+
+I did call their technical support on the expensive number 0906 212 1111 to see
+if I would get someone knowledgeable on the other end of the line. I was
+connected to India.  All he could tell me is my Internet connection seemed to
+work. Yes, what about errors and speeds dude? He did tell me their service
+status number 0800 561 0061 then once connected your area code (e.g. 01483),
+one, one. So now I can find out if there is a problem.
+
 
 ## Choices
 
@@ -146,7 +154,7 @@ group](https://www.bethere.co.uk/companyinfo.do) actually cost me the most out
 of this fiasco. They have charged for more than a month and a cancellation fee
 of 40GBP. So at least 80GBP for one week of Internet. Whatever happened to my
 [statutory
-rights](http://www.tradingstandards.gov.uk/cgi-bin/calitem.cgi?file=ADV0043-1011.txt).
+rights](http://www.tradingstandards.gov.uk/cgi-bin/calitem.cgi?file=ADV0043-1011.txt)??
 
 I will avoid BT residential or business like the plague. Their operators might
 actually be English, but their customer service is terrible.
