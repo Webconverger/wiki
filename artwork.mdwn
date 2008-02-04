@@ -2,7 +2,9 @@
 
 For Webconverger customization customers, customising the X background is normal and best practice. If customers want their usplash customised, this is a **lot of extra work** and I have to charge accordingly.
 
-# splashy (new and somewhat easier than usplash!)
+# splashy
+
+New and somewhat easier than usplash. There is some rough edges wit the secondary screen.
 
 Recently backported splashy. Wrote up a little [customisation guide over at the d-l wiki](http://wiki.debian.org/DebianLive/Howto/Custom_Artwork). Try out the USB images on the [[mini]] [download page](http://download.webconverger.com/mini/). Splashy uses [directfb](http://directfb.org/).
 
