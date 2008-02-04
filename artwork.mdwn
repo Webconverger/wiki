@@ -4,7 +4,7 @@ For Webconverger customization customers, customising the X background is normal
 
 # splashy
 
-Recently backported splashy. Wrote up a little [guide over at the d-l wiki](http://wiki.debian.org/DebianLive/Howto/Custom_Artwork). Try out the USB images on the [[mini]] [download page](http://download.webconverger.com/mini/).
+Recently backported splashy. Wrote up a little [customisation guide over at the d-l wiki](http://wiki.debian.org/DebianLive/Howto/Custom_Artwork). Try out the USB images on the [[mini]] [download page](http://download.webconverger.com/mini/). Splashy uses [directfb](http://directfb.org/).
 
 # usplash boot screen (hard)
 
