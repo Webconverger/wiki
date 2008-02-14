@@ -2,6 +2,12 @@
 
 For Webconverger customization customers, customising the X background is normal and best practice. If customers want their usplash customised, this is a **lot of extra work** and I have to charge accordingly.
 
+# splashy
+
+New and somewhat easier than usplash. There is some rough edges with the secondary screen.
+
+Recently backported splashy to [stable](http://webconverger.com/debian/stable/). Wrote up a little [customisation guide over at the d-l wiki](http://wiki.debian.org/DebianLive/Howto/Custom_Artwork). Try out the USB images on the [[mini]] [download page](http://download.webconverger.com/mini/). Splashy uses [directfb](http://directfb.org/).
+
 # usplash boot screen (hard)
 
 <a href="http://www.flickr.com/photos/hendry/845129169/" title="Photo Sharing"><img src="http://farm2.static.flickr.com/1309/845129169_7b43022006_m.jpg" width="240" height="180" alt="Webconverger's 2.26 new bootup screen" /></a>
