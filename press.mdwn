@@ -9,6 +9,7 @@ Existing customers use Webconverger for:
 * Museum 'infopoints'
 * For sales assistance in retail
 * In educational institutions
+* Libraries
 
 
 Web

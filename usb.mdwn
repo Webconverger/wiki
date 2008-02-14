@@ -14,7 +14,3 @@ Detailed description on [Debian wiki](http://wiki.debian.org/DebianLive/Howto/US
 * Just as fast as a hard drive in many cases
 
 [Kingston DataTravelers](http://www.flickr.com/photos/hendry/1172362068/) are recommended, though almost any generic USB stick should be fine. Feel free to use the usb image also with embedded boards and Compact Flash cards (they behave like /dev/hda usually).
-
-
-
-Test from Mizi...
