@@ -1,7 +1,19 @@
 <a href="http://www.flickr.com/photos/hendry/2291204106/" title="Lincoln looking onto Washington memorial by Kai Hendry, on Flickr"><img src="http://farm3.static.flickr.com/2180/2291204106_146262609c_m.jpg" width="180" height="240" alt="Lincoln looking onto Washington memorial" /></a>
 
-Webconverger will be switching from [usplash](https://help.ubuntu.com/community/USplash) to [splashy](http://splashy.alioth.debian.org/wiki/) for the progress splash screen. Splashy is much simpler and easier, you just need to get a JPG graphic together for your [[artwork]] instead of an SVG (and praying) like you had to with usplash.
+Webconverger will be switching from
+[usplash](https://help.ubuntu.com/community/USplash) to
+[splashy](http://splashy.alioth.debian.org/wiki/) for the progress splash
+screen. Splashy is much simpler and easier, you just need to get a JPG graphic
+together for your [[artwork]] instead of an SVG (and praying) like you had to
+with usplash.
 
-Other big news is the Webconverger is upgrading to use the 'Lenny' release of Debian. 'Lenny' might not be as stable as Debian's 'etch' release yet. Though I think it has better hardware support and allows for some other exciting software developments.
+Other big news is the Webconverger is upgrading to use the 'Lenny' release of
+Debian. 'Lenny' might not be as stable as Debian's 'etch' release yet. Though I
+think it has better hardware support and allows for some other exciting
+software developments. Stay tuned for some big announcements in the near future! 
 
-Stay tuned for some big annoucements in the near future. Much is of this work has been made possible by [orders](http://webconverger.com/buy/) by various customers. Thank you for your custom. You are helping Webconverger improve by [purchasing customization and support](http://webconverger.com/buy/). Else please don't hesitate to send some feedback AT webconverger.com! :)
+Much is of this work has been made possible by
+[orders](http://webconverger.com/buy/) by various customers. Thank you for your
+custom. You are helping Webconverger improve by [purchasing customization and
+support](http://webconverger.com/buy/). Else please don't hesitate to send some
+feedback AT webconverger.com! :)
