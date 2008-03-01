@@ -1,19 +1,19 @@
-Existing customers use Webconverger for:
-========================================
+Clients use Webconverger in:
+============================
 
 
-
-* Several banks for secure client Internet banking
+* Banks for secure client Internet banking
 * Casinos
 * Car dealerships
 * Museum 'infopoints'
-* For sales assistance in retail
+* Retail shops for sales assistance
 * In educational institutions
 * Libraries
+* Charities
 
 
-Web
-===
+Web feedback
+============
 
 
 * [Google blog search](http://blogsearch.google.com/blogsearch?hl=en&q=webconverger&btnG=Search+Blogs)
@@ -28,27 +28,25 @@ Web
 Printed Media
 =============
 
-* [Linux Format #97](http://www.linuxformat.co.uk/modules.php?op=modload&name=NewArchives&issue=97) - "For surfers only" :)
+* [Linux Format #97](http://www.linuxformat.co.uk/modules.php?op=modload&name=NewArchives&issue=97) - "For surfers only"
 
 Foreign Language
 ================
 
 
 * [ZoneFirefox ES](http://www.zonafirefox.net/2007/04/webconverger-el-sistema-operativo.html)
-* [Something in Portuguese I think](http://debuxos.blogspot.com/2007/04/ferramentas-informticas-gratuitas-on_19.html)
+* [Portuguese coverage](http://debuxos.blogspot.com/2007/04/ferramentas-informticas-gratuitas-on_19.html)
 * [Web 2.0 OS in Spanish](http://kernelsource.org/2007/04/18/webconverger-un-livecd-para-el-web-20/)
 
 Quoted positive feedback
 ========================
 
-* What to say, I was looking for a Linux Live CD to do online banking and webc is the best solution out there. I'll suggest it to friends and forumers. Thank you. from M
+* I was looking for a Linux Live CD to do online banking and webc is the best solution out there. I'll suggest it to friends and forumers. Thank you. from M
 * "Kai, it is great work! Keep it up." Waqar
 * "Thank you for what you have done so far. Of webkiosk livecds, yours is currently the best." from Larry
 * "I am looking for a boot CD to give to friends and relatives for safe Internet banking. Webconverger is the best I have found" from anon
-* "it is good!!!" from anon
-* "This is what I've been looking for." from anon
 * "great work ! Really useful for safe and fast browsing. Very cool." from Marcel
-* 'Thanks for your support and this very useful "distribution".' from Christophe
+* 'Thanks for your support and this is a very useful "distribution".' from Christophe
 * 'That was my comment on how good it works! You are a good distro designer. Thanks for your response.' from Francis
 
 Keep it coming. :)

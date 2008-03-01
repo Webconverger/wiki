@@ -69,7 +69,7 @@ Please give feedback about anything. If you don't like the font or see some othe
 
 To look up the right codes, see:
 
-[/usr/share/i18n/SUPPORTED](http://static.natalian.org/2007-07-20/SUPPORTED) on an Debian etch system
+[/usr/share/i18n/SUPPORTED](http://static.natalian.org/2007-07-20/SUPPORTED) on an Debian system
 
 Lookup your country's codes at [ISO 3166](http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#MM).
 

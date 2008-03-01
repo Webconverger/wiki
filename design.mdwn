@@ -5,7 +5,7 @@ Webconverger design document
 
 
    1. No users - no superuser
-   2. Stability & Security - based on Debian etch
+   2. Stability & Security - based on Debian releases
    3. No local user data - Locked down browser kiosk - for example no functionality to save bookmarks locally
    4. Everything happens through the browser (for example if we need to do a HD install / network setup, through a browser, not a terminal!)
    5. Zero maintenance - Automatic update/upgrade

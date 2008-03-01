@@ -3,7 +3,7 @@ Security is complicated.
 Webconverger's arguments for better security is that it is based on:
 
 * opensource software
-* Debian etch
+* Debian security support
 * Latest Firefox/Iceweasel
 * Always clears private data once a session is ended
 * no super user
