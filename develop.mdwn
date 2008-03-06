@@ -4,10 +4,13 @@
 
 ## Packages
 
+* [Official Webconverger packages](http://webconverger.com/debian/)
 
-* [stable](http://webconverger.com/debian/stable/)
+Core packages:
 
-There is an unstable branch, however most work is happening in stable atm. Unstable will be used more when the product is more mature, for testing purposes much like Debian.
+* [webconverger-base](http://git.webconverger.org/?p=webconverger-base.git)
+* [iceweasel-webconverger](http://git.webconverger.org/?p=iceweasel-webconverger.git) the Mozilla [[kiosk]] extensio
+* [webconverger-archive-keyring](http://git.webconverger.org/?p=webconverger-archive-keyring.git) the public key used for secure updates
 
 ## Quick links
 
@@ -28,13 +31,13 @@ The most important elements of building Webconverger are:
 [live-initramfs lists the parameters](http://git.debian.org/?p=users/daniel/live-initramfs.git;a=blob;f=manpages/live-initramfs.en.7.txt;)
 
 
-## Step by step, developing on a Debian system:
+## Building on a Debian system:
 
- * apt-get install [live-helper](http://packages.qa.debian.org/l/live-helper.html) (try use the latest)
+ * apt-get install [live-helper](http://packages.qa.debian.org/l/live-helper.html) or rather use the latest from 'deb http://live.debian.net/debian-snapshots/ ./'
  * `git clone git://git.debian.org/git/debian-live/config-webc.git`
  * webconverger/ is the base config file. Have a look around.
  * Take a look inside config/. You probably need to edit LIVE_MIRROR variables in the file bootstrap.
- * lh_build in webconverger/ not config/ !
+ * lh build in webconverger/ 
 
 Please [contact hendry](http://hendry.iki.fi/) if you have any suggestions/comments/fixes/patches. :)
 
@@ -43,9 +46,7 @@ Please [contact hendry](http://hendry.iki.fi/) if you have any suggestions/comme
 
 Tips:
 
-
  * [squid](http://packages.qa.debian.org/s/squid.html) saves bandwidth whilst Debian Live's live-helper downloads the packages
-
 
 ## Customizing service
 
