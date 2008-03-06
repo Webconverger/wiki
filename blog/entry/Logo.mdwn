@@ -4,6 +4,6 @@
 
 I've just released [Webconverger 2.37](http://download.webconverger.com/mini/), the new 'lenny' release, though without the [earlier promise of splashy](http://webconverger.org/blog/entry/Lenny_in_with_a_splash/).
 
-I want to prepare a new "brand" for Webconverger and my old friend [designer
+I want to prepare a new "brand" and [[artwork]] for Webconverger and my old [designer
 friend Hawken](http://dadako.com/) (and fellow QuakeWorld TF-er) has
 contributed some designs. Which one do you like? Let me know via the feedback form on [Webconverger.com](http://webconverger.com/).
