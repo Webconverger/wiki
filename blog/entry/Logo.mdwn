@@ -8,10 +8,11 @@ without the [earlier promise of
 splashy](http://webconverger.org/blog/entry/Lenny_in_with_a_splash/). This
 means Webconverger is even more likely to _just work_, especially on newer hardware.
 
-I have not setup splashy because I've yet to decide on the new [[artwork]] to
-use. I'm also toying with the idea of **not having a splash screen** at all as
-it is useful to see network information and update information. Though I have
-received complaints that the black screen of text scares people... :/
+I have not setup [splashy](http://splashy.alioth.debian.org) because I've yet
+to decide on the new [[artwork]] to use. I'm also toying with the idea of **not
+having a splash screen** at all as it is useful to see network information and
+update information. Though I have received complaints that the black screen of
+text scares people... :/
 
 My [designer friend Hawken King](http://dadako.com/) (and old fellow QuakeWorld
 TF-er) has contributed some designs. Which one do you like? Please help me
