@@ -1,8 +1,8 @@
-# What's your favourte logo?
+# What is your favourite logo?
 
 <a href="http://www.flickr.com/photos/hendry/2307615290/" title="Sheet 3 by Kai Hendry, on Flickr"><img src="http://farm4.static.flickr.com/3020/2307615290_e63ba9d4f9_o.png" width="595" height="842" alt="Sheet 3" /></a>
 
-I've just released [Webconverger 2.37](http://download.webconverger.com/mini/), the new 'lenny' release, though without the [earlier promise of splashy](http://webconverger.org/blog/entry/Lenny_in_with_a_splash/).
+I've just released [Webconverger 2.37](http://download.webconverger.com/mini/), the new 'lenny' release, though without the [earlier promise of splashy](http://webconverger.org/blog/entry/Lenny_in_with_a_splash/). This means Webconverger is even more likely to work, especially on newer hardware.
 
 I want to prepare a new "brand" and [[artwork]] for Webconverger and my old [designer
 friend Hawken](http://dadako.com/) (and fellow QuakeWorld TF-er) has
