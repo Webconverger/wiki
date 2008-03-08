@@ -1,25 +1,49 @@
 # Privacy policy
 
-Webconverger does not collect any information about how you use it. Hence
-ensuring your utmost privacy.
+Webconverger is designed to ensure users privacy and security whilst surfing
+the Web.
 
-## What data would be collected if we had such a system
+This is chiefly accomplished by deleting the Firefox `~/.mozilla` directory
+between sessions.
 
-These reasons should be evaluated and scrutinized.
+Webconverger Ltd does not currently collect any information about how you use
+Webconverger.  Earlier versions (before 2.31) were collecting version, boot
+parameters (e.g. homepage=) and MAC information.
 
-A service to collect:
+All *.webconverger.[com|org] sites have standard [Apache](http://apache.org/)
+logs, which will log you if you visit that site. Logs are typically rotated
+(deleted) within a year.
 
-1. boot parameters people are using
+# Customised Webconverger
 
-* pros: see what options people are using.
-* cons: some customers don't want you to know
+Webconverger can however be [customised](http://webconverger.com/buy/) for
+[[remote_desktop_sharing|vnc]] and similar features for remote administration.
+This can allow an administrator spy your browsing session.
 
-2. MAC id
+# Surf with SSL to protect yourself from eavesdropping
 
-* pros: Track how many machines are actually using Webconverger
-* cons: some customers don't want you to know
+It's important to understand the [[security]] risks of general Web browsing.
+The good scope of Web security is difficult to address in this document,
+however you should know the basics.
 
-3. VERSION numbers
+When you surf the in most cases your browsing connection can be intercepted.
+That's if the attacker can get inbetween you and your favourite Website. So who
+could be in between your connection and say this site Webconverger.org?
+Typically it's only the network administrator on both ends and most likely your
+network administrator.
 
-* pros: Track what versions people are using. show users about the features relevant to the version they are using.
-* cons: some customers don't want you to know or care for that matter
+A "network administrator" is someone who can sniff packets. This is quite easy
+to do with unsecured Wireless. However this is a way you can get around this
+problem, and that's to use [SSL](http://en.wikipedia.org/wiki/Secure_Sockets_Layer).
+
+An encrypted SSL connection is denoted by a yellow coloured URL bar. So for example instead of visiting:
+
+	* http://gmail.com
+
+A more secure & simple way to protect from evesdropping is to visit instead:
+
+	* https://gmail.com
+
+Notice the difference? [https](http://en.wikipedia.org/wiki/Https) instead of
+the "clear" network messages of the much more common
+[http](http://en.wikipedia.org/wiki/Http).
