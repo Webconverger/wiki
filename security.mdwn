@@ -1,18 +1,24 @@
-Security is complicated.
-
-Webconverger's arguments for better security is that it is based on:
-
-* opensource software
-* Debian security support
-* Latest Firefox/Iceweasel
-* Always clears private data once a session is ended
-* no super user
-* [[automatic_updates|upgrade]]
-* does not allow local data
-
 Webconverger unlike Windows for example does not require:
 
 * a Firewall
 * anti-spyware
 * anti-virus
 
+Security is complicated. It's about identifying the risks and mitigating the
+risks.
+
+Webconverger's is [[designed|design]] for [[privacy]] and [[security]], based on:
+
+* opensource software
+* no super user
+* Always clears private data once a session is ended
+* does not allow local data
+
+When [[automatic_updates|upgrade]] are enabled (default):
+
+* Debian security support
+* Latest Firefox/Iceweasel browser
+
+Some customers do not want automatic upgrades. This is not a good choice for
+users as a security vulnerable Firefox will leave users ripe for phishing
+attacks.

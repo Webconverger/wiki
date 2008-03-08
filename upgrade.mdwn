@@ -2,29 +2,21 @@
 
 # Back story
 
-A **problem** with [LiveCD](http://en.wikipedia.org/wiki/LiveCD)s is that they are generally speaking static distributions, on a **read only** CD.
+A **problem** with [LiveCD](http://en.wikipedia.org/wiki/LiveCD)s is that they
+are generally speaking static distributions, on a **read only** CD.
 
-One might assume this is good for [[security]] at first, as if there there was ever an exploit with a LiveCD, you could just reboot the machine. The exploit/virus could not write itself to the disc, so a reboot starts from a fresh uncompromising position.
+One might assume this is good for [[security]] at first, as if there there was
+ever an exploit with a LiveCD, you could just reboot the machine. The
+exploit/virus could not write itself to the disc, so a reboot starts from a
+fresh uncompromising position.
 
-This is true to an extent, however what happens if the LiveCD shipped version 1 of browser. Suppose version 1 of browser is known to be insecure. If someone is using version 1 and goes to a malicious Web site, all the account details of previous surfing in that session could be compromised. The read only LiveCD model doesn't really help there in that important security situation.
+This is true to an extent, however what happens if the LiveCD shipped version 1
+of browser. Suppose version 1 of browser is known to be insecure. If someone is
+using version 1 and goes to a malicious Web site, all the account details of
+previous surfing in that session could be compromised. The read only LiveCD
+model doesn't really help there in that important security situation.
 
-# Keeping the LiveCD up to date
-
-## Writing to CD media
-
-If you're using a CD in a ReWritable CD drive, then you could write updates to that disc as another CD session (not a browser session). This is all very well, but you're assuming a couple of things:
-
-1. User has a CD writer
-2. CD won't fill up
-3. CD writing is a very fragile process, so nothing can go wrong!
-
-Webconverger is not actively pursuing this option.
-
-## Writing to USB media or hard disc
-
-Much easier to do theoretically, though not implemented in Webconverger atm. [Debian Live](http://debian-live.alioth.debian.org/) is designed for read only environments like CDs, not USB media atm. Also USB users are the minority, so naturally CD users have been assumed.
-
-## Updating at bootup
+# Keeping the LiveCD up to date by updating at bootup
 
 This is the current method, though there is a couple of serious problems:
 

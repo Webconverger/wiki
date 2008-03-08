@@ -38,11 +38,11 @@ problem, and that's to use [SSL](http://en.wikipedia.org/wiki/Secure_Sockets_Lay
 
 An encrypted SSL connection is denoted by a yellow coloured URL bar. So for example instead of visiting:
 
-	* http://gmail.com
+* http://gmail.com
 
 A more secure & simple way to protect from evesdropping is to visit instead:
 
-	* https://gmail.com
+* https://gmail.com
 
 Notice the difference? [https](http://en.wikipedia.org/wiki/Https) instead of
 the "clear" network messages of the much more common
