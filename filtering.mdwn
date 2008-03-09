@@ -12,11 +12,11 @@ Preferably these requirements should be implemented separately on the gateway or
 
 These appliances are unfortunately quite pricey. The SmoothGuardian product module with hardware is AT LEAST 3000GBP.
 
-Cons: These appliances focus on firewalls, though Webconverger does **not** actually require a firewall...
+Cons: These appliances focus on firewalls, though Webconverger does **not** actually require a firewall for [[security]]...
 
 ## Whitelisting
 
-Whitelisting can be done fairly easily with [tinyproxy](http://tinyproxy.sourceforge.net/). If you need whitelisting, just follow up with an email your domains.
+Whitelisting can be done fairly easily with [tinyproxy](http://tinyproxy.sourceforge.net/). If you need whitelisting, just follow up with an email of your "white-listed" domains.
 
 ## Webconverger with content filtering
 
@@ -28,5 +28,5 @@ For those who **really** need a basic pornography filter, this can be included i
 
 
 * Webconverger will be **slower** running these extra services
-* There are always ways of getting around content filtering
-* It is difficult to maintain and keep up to date
+* There are always ways of getting around content filtering. e.g. Many porn Web sites do not have any text, only images.
+* It is difficult to maintain and keep up to date a word list.
