@@ -1,6 +1,6 @@
 # [CTRL]+[p]
 
-Printing with Webconverger is very simple.
+Printing with Webconverger [[maxi]] is very simple.
 
 Holding down the [Control] and [p] keys on your keyboard gives you the printing dialog.
 
@@ -18,13 +18,12 @@ Go to [localhost:631](http://localhost:631/) and view the **Manage printers** ta
 
 Check for support in [this list of printers](https://wiki.ubuntu.com/HardwareSupportComponentsPrinters). Good luck!
 
-
-# Try [write a letter](http://letter.dabase.com/) and print it in Webconverger!
+# Try [write a letter](http://letterly.com/) and print it in Webconverger!
 
 <a href="http://www.flickr.com/photos/hendry/463888132/" title="Photo Sharing"><img src="http://farm1.static.flickr.com/188/463888132_1cc46692cb_m.jpg" width="180" height="240" alt="Webconverger print out" /></a>
 
 ## Old videos
 
-* [old1](http://video.google.com/googleplayer.swf?docId=-5941547452106817554&hl=en)
-* [old2](http://video.google.com/googleplayer.swf?docId=-2512639440187775804&hl=en)
+* [1](http://video.google.com/googleplayer.swf?docId=-5941547452106817554&hl=en)
+* [2](http://video.google.com/googleplayer.swf?docId=-2512639440187775804&hl=en)
 
