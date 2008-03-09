@@ -9,11 +9,11 @@ Webconverger or Linux is a bit of a nightmare. Switching between different
 Internet connections depending on their quality is also tricky.
 
 So I usually beg customers to use something like a [Linksys
-WRT54G](http://en.wikipedia.org/wiki/WRT54G) to do their wireless
-[[networking]].
+WRT54G](http://en.wikipedia.org/wiki/WRT54G) to act as a wireless
+[[networking]] client.
 
 Then some customers want more. :) A WRT54G isn't quite plug and play. You need
-to configure it, which most customers aren't prepared to do. Nevermind the
+to (often flash it and then) configure it, which most customers aren't prepared to do. Nevermind the
 difficult part of getting them to buy it and to ensure to get the more
 expensive WRT54G-L version...
 
@@ -24,13 +24,13 @@ again, better fulfilled by a clever router.
 
 However what clever router can do?
 
-1. Advanced Networking like being able to provide a Web interface for Wireless, 3G and other broadband options
-* Squid caching proxy
-* Filtering
+1. Advanced [[networking]] like being able to provide a Web interface for Wireless, 3G and other broadband options
+* Squid caching proxy for making [[upgrading|upgrade]] less painful
+* [[Filtering]]
 
 The [dd-wrt](http://www.dd-wrt.com) firmware shows the most promise. It has
 support for [keyword
 filtering](http://www.dd-wrt.com/wiki/index.php/Access_Restrictions), though
-not a " Squid caching proxy". dd-wrt does support quite a [lot of
+not a **caching** proxy (it needs a much bigger disk!). dd-wrt does support quite a [lot of
 hardware](http://www.dd-wrt.com/wiki/index.php/Supported_Devices). Though can
 it be bought off the shelf from Amazon, Ebuyer or Dabs? Not yet. :(
