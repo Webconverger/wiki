@@ -2,8 +2,8 @@
 
 # Introduction
 
-A **problem** with [LiveCD](http://en.wikipedia.org/wiki/LiveCD)s is that they
-are generally speaking static distributions, on a **read only** CD.
+[LiveCD](http://en.wikipedia.org/wiki/LiveCD)s are generally speaking static
+distributions, on a **read only** CD.
 
 One might assume this is good approach to mitigate several [[security]] risks,
 as if there there was ever an exploit with a LiveCD, you could just reboot the
@@ -36,7 +36,7 @@ Webconverger aims to be as small as possible, however typically when the
 Firefox debian package (Iceweasel) is updated, even the smallest changes (which
 they usually are), culminates into a fresh package that needs to be downloaded.
 
-A [fresh package typically is about 8 megs](http://packages.debian.org/lenny/iceweasel)!
+An [updated browser package typically is about 8 megs](http://packages.debian.org/lenny/iceweasel)!
 
 Customer who deploy Webconverger in places with poor Internet connections
 cannot afford to download often at least 8 megs for every machine.
@@ -48,7 +48,7 @@ So in order to make upgrades better, there are a things a customer can do:
 
 A good router should be able to provide an inbuilt proxy, however I haven't been able to track down such products.
 
-Stuff I can do:
+Stuff Webconverger can do to improve the situation:
 
 * Work out how to make upgrades smaller and more compact
 * Work out how to make upgrades more upto date, than just on bootup
