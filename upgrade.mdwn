@@ -55,6 +55,15 @@ Stuff Webconverger can do to improve the situation:
 
 Sadly both options currently on either side are difficult to implement!
 
+# New proposed update system
+
+From 2.38 Webconverger ships with rsync and just the browser is updated with:
+
+	rsync --delay-updates -a --progress webconverger.org::iceweasel/ /
+
+Executed by the boot option 'iceweaselupgrade' from the live-initscripts
+package at boot time. This simple minimal upgrade strategy should ensure an up
+to date browser on future Webconverger deployments.
 
 # Developer notes
 
