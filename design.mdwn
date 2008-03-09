@@ -3,11 +3,11 @@ Webconverger design document
 
 # Goals and principles
 
-	* No users - no superuser
-	* Stability & [[security]] of open source - based on GNU/Linux Debian releases
-	* No local user data - Locked down browser kiosk - for example no functionality to save bookmarks locally
-	* Zero maintenance - Automatic [[upgrades]]
-	* Less is more - Minimal packages for just the Web experience (though that includes [[Adobe]] flash and pdf support), though no KDE/GNOME bloat
-	* Excellent [[i18n]] support
-	* Committed to user's [[privacy]] and [[security]]
-	* (Long term) Universal commitment to all devices - Webconverger could be deployed anywhere from an office terminal to a mobile phone
+* No users - no superuser
+* Stability & [[security]] of open source - based on GNU/Linux Debian releases
+* No local user data - Locked down browser kiosk - for example no functionality to save bookmarks locally
+* Zero maintenance - Automatic [[upgrades]]
+* Less is more - Minimal packages for just the Web experience (though that includes [[Adobe]] flash and pdf support), though no KDE/GNOME bloat
+* Excellent [[i18n]] support
+* Committed to user's [[privacy]] and [[security]]
+* (Long term) Universal commitment to all devices - Webconverger could be deployed anywhere from an office terminal to a mobile phone

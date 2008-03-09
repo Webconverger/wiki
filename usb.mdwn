@@ -1,11 +1,12 @@
 [[template id=note text="""
 <a href="http://www.flickr.com/photos/hendry/1403651984/" title="Photo Sharing"><img src="http://farm2.static.flickr.com/1169/1403651984_30fd52a678_m.jpg" width="180" height="240" alt="Webconverger on an HP" /></a>"""]]
 
-.img [downloadable](http://download.webconverger.com/) files are USB-hdd images for hardware able to boot from a USB stick/key.
+.img [downloadable](http://download.webconverger.com/) files are USB images to be copied onto a USB stick/key.
 
 ## How to copy .img to USB stick (under Linux):
+
 1. run root terminal (or normal terminal with "sudo su")
-2. fdisk -l will list your USB drive - usually /dev/sdx ("x" representing letter like sda, sdb etc.)
+2. fdisk -l will list your USB drive - usually /dev/sdx ("x" representing letter like sda, sdb etc.), double check with `dmesg`
 3. dd if=webconverger-image.img of=/dev/sdx
 
 Detailed description on [Debian wiki](http://wiki.debian.org/DebianLive/Howto/USB). 
@@ -14,3 +15,9 @@ Detailed description on [Debian wiki](http://wiki.debian.org/DebianLive/Howto/US
 * Just as fast as a hard drive in many cases
 
 [Kingston DataTravelers](http://www.flickr.com/photos/hendry/1172362068/) are recommended, though almost any generic USB stick should be fine. Feel free to use the usb image also with embedded boards and Compact Flash cards (they behave like /dev/hda usually).
+
+# Developer notes
+
+In config/binary: 
+
+	LH_BINARY_IMAGES="usb-hdd"
