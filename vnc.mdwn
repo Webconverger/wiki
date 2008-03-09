@@ -19,7 +19,7 @@ Webconverger as VNC inherently does not protect the privacy of users.
 
 client=172.16.181.1 in my example.
 
-Connect to client with [[ssh]] and start VNC server
+Connect to client with ssh and start VNC server
 
 	ssh 172.16.181.1
 	user@webconverger:~$ x11vnc -passwd CHANGEME

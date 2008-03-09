@@ -1,0 +1,19 @@
+# How Webconverger blanks
+
+Webconverger use Xorg's default Energy saving and screen blanking features.
+
+`xset q` reveals:
+
+	Screen Saver:
+	  prefer blanking:  yes    allow exposures:  yes
+	  timeout:  600    cycle:  600
+
+
+So typically Webconverger will only blank after **10 minutes**.
+
+However some customers don't want the screen to blank at all. In these cases
+customers typically also use `kioskresetstation=`.
+
+If kioskresetstation is configured for 10 minutes or less then the screen will
+not blank. I prefer this method since no new configuration options need be
+introduced.

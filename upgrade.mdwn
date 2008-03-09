@@ -1,20 +1,21 @@
 [[toc ]]
 
-# Back story
+# Back story WRT [[security]]
 
 A **problem** with [LiveCD](http://en.wikipedia.org/wiki/LiveCD)s is that they
 are generally speaking static distributions, on a **read only** CD.
 
 One might assume this is good for [[security]] at first, as if there there was
 ever an exploit with a LiveCD, you could just reboot the machine. The
-exploit/virus could not write itself to the disc, so a reboot starts from a
-fresh uncompromising position.
+exploit/virus an not write itself to the read only disc (or RAM), so a reboot
+starts from a fresh uncompromised position.
 
 This is true to an extent, however what happens if the LiveCD shipped version 1
-of browser. Suppose version 1 of browser is known to be insecure. If someone is
-using version 1 and goes to a malicious Web site, all the account details of
-previous surfing in that session could be compromised. The read only LiveCD
-model doesn't really help there in that important security situation.
+of browser. Suppose version 1 of browser is known to be insecure and prone to a
+phishing attack. If someone is using version 1 and goes to a malicious Web
+site, all the details of previous surfing in that session could be compromised
+typically (a [[privacy]] violation). The read only LiveCD model doesn't really
+mitigate that particular [[security]] risk.
 
 # Keeping the LiveCD up to date by updating at bootup
 
@@ -24,13 +25,52 @@ This is the current method, though there is a couple of serious problems:
 2. If someone is using an old version of Webconverger, there will be lots of updates and hence a lot of downloads every boot - potentially high bandwidth
 3. You can't update some elements (like kernel, drivers) of a running system without a reboot. And after a reboot the updated packages will be lost of course!
 
+# Making upgrades better
+
+Upgrades must be on to ensure better [[security]] & [[privacy]] and to meet
+Webconveger's [[design]] goals. If people aren't using this feature, then there
+is obviously a grave bug here that needs to be fixed.
+
+The main problem as there are many megabytes of upgrades over time.
+Webconverger aims to be as small as possible, however typically when the
+Firefox debian package (Iceweasel) is updated, even the smallest changes (which
+they usually are), culminates into a fresh package that needs to be downloaded.
+
+A [fresh package typically is about 8 megs](http://packages.debian.org/lenny/iceweasel)!
+
+Customer who deploy Webconverger in places with poor Internet connections
+cannot afford to download often at least 8 megs for every machine.
+
+So in order to make upgrades better, there are a things a customer can do:
+
+* Run a proxy like [squid](http://www.squid-cache.org/)
+* Download and update to the latest Webconverger from time to time
+
+A good router should be able to provide an inbuilt proxy, however I haven't been able to track down such products.
+
+Stuff I can do:
+
+* Work out how to make upgrades smaller and more compact
+* Work out how to make upgrades more upto date, than just on bootup
+
+Sadly both options currently on either side are difficult to implement!
+
+
+# Developer notes
+
 ## Other general problems of a apt-get dist-upgrade
 
-As mentioned before kernel updates require a reboot, which can only work on Read Write media like USB or Hard drives.
+As mentioned before kernel updates require a reboot, which can only work on
+Read Write media like USB or Hard drives. 
 
-In the case where one has a long running Webconverger system (isn't rebooted), then there might be new updated packages come available. So Webconverger needs to update itself every day or 12 hours or... you be the judge!
+In the case where one has a long running Webconverger system (isn't rebooted),
+then there might be new updated packages come available. So Webconverger needs
+to update itself every day or 12 hours or... you be the judge!
 
-Updates should "just work" and not require any user intervention. However if the browser or browser extension for example is updated, the only way a user can actually update is to close his/her session and allow the browser to reload itself.
+Updates should "just work" and not require any user intervention. However if
+the browser or browser extension for example is updated, the only way a user
+can actually update is to close his/her session and allow the browser to reload
+itself.
 
 ## Other thoughts
 
