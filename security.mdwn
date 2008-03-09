@@ -31,10 +31,6 @@ This can allow an administrator to spy on your browsing session.
 
 # Surf with SSL to protect yourself from eavesdropping
 
-It's important to understand the security risks of general Web browsing. A good
-scope of Web security is difficult to address here, however you can simply
-improve your security by using **https**.
-
 When you surf the in most cases your browsing connection can be intercepted.
 That's if the attacker can get inbetween you and your favourite Website. So who
 could be in between your connection and say this site Webconverger.org?
@@ -60,11 +56,11 @@ could be in between your connection and say this site Webconverger.org?
 	17  38.104.162.22 (38.104.162.22)  133.132 ms  142.316 ms  135.659 ms
 	18  au (67.207.129.245)  117.989 ms  115.103 ms  116.748 ms
 
-
-This is quite easy to do with unsecured Wireless. This attack typically occurs
-at the very first stage.  devil (192.168.1.1) is the wireless access point I am
-using. The later points of the route are much bigger routers which are too busy
-routing huge amount of traffic than to isolate and sniff yours.
+Eavesdropping is most common with unsecured Wireless. This attack typically
+occurs at the very first stage.  devil (192.168.1.1) is the wireless access
+point I am using. The later points of the route (2-17) are much bigger routers
+which are too busy routing huge amounts of network traffic than to isolate and
+sniff yours.
 
 However this is a way you can get mitigate this risk, and that's to use
 [SSL](http://en.wikipedia.org/wiki/Secure_Sockets_Layer).
