@@ -1,21 +1,21 @@
 [[toc ]]
 
-# Back story WRT [[security]]
+# Introduction
 
 A **problem** with [LiveCD](http://en.wikipedia.org/wiki/LiveCD)s is that they
 are generally speaking static distributions, on a **read only** CD.
 
-One might assume this is good for [[security]] at first, as if there there was
-ever an exploit with a LiveCD, you could just reboot the machine. The
-exploit/virus an not write itself to the read only disc (or RAM), so a reboot
-starts from a fresh uncompromised position.
+One might assume this is good approach to mitigate several [[security]] risks,
+as if there there was ever an exploit with a LiveCD, you could just reboot the
+machine. The exploit/virus can not write itself to the read only disc (or RAM),
+so a reboot starts from a fresh uncompromised position.
 
 This is true to an extent, however what happens if the LiveCD shipped version 1
 of browser. Suppose version 1 of browser is known to be insecure and prone to a
 phishing attack. If someone is using version 1 and goes to a malicious Web
 site, all the details of previous surfing in that session could be compromised
 typically (a [[privacy]] violation). The read only LiveCD model doesn't really
-mitigate that particular [[security]] risk.
+mitigate that particular [[security]] risk of a vulnerable browser.
 
 # Keeping the LiveCD up to date by updating at bootup
 

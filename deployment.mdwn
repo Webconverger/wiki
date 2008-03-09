@@ -1,11 +1,11 @@
-Webconverger can be deployed by a live CD in about two minutes depending on the
+Webconverger can be deployed by a live [[CD|iso]] in about two minutes depending on the
 machine. This is the primary method for deployment as it is the most common
 type.
 
 Though, there are also other [deployment methods such as a [[USB]]
 stick](http://video.google.com/videoplay?docid=7737229185629530129).
 
-Since Webconverger is [[designed|design]] for [[ideal for just Web
+Since Webconverger is [[designed|design]] for [for just Web
 applications](http://webconverger.org/ideal_just_for_web_applications/).
 Compressed [[mini]] images are typically about 200 megabytes in size.
 Webconverger aims to get _smaller_, not bigger.
