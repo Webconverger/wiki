@@ -1,45 +1,13 @@
 Webconverger design document
 ============================
 
-### Goals and principles
+# Goals and principles
 
-
-   1. No users - no superuser
-   2. Stability & Security - based on Debian releases
-   3. No local user data - Locked down browser kiosk - for example no functionality to save bookmarks locally
-   4. Everything happens through the browser (for example if we need to do a HD install / network setup, through a browser, not a terminal!)
-   5. Zero maintenance - Automatic update/upgrade
-   6. Less is more - Minimal packages for the Web experience (though that includes Adobe flash and pdf support), though no KDE/GNOME bloat
-   7. Excellent i18n support with keyboard switching
-   8. (Long term) Universal commitment to all devices - Webconverger could be deployed anywhere from an office terminal to a mobile phone
-
-### Up for debate
-
-   1. A default Web application - for example if network wasn't found the homepage could be a standalone Python Web application to help configure the network device manually.
-
-### Deployment options
-
-[[template id=note text="""There is in fact too many deployment options available. Working on how which is best subset to offer professionally..."""]]
-
-Since USB boot is poorly supported by older machines, CDROM images will probably be the most important medium. 
-
-1. live (normal live system)
-2. install (normal netinst d-i installation)
-3. liveinstall (copy live system to hd)
-4. hdinstall (install live system to hd)
-5. [web boot](http://blog.daniel-baumann.ch/2007/09/07#20070907_debian-live-web-boot)
-
-
-Most computers have hard drives, so hard installs are important. Webconverger is not the traditional thin client, as CDROM 'live's and eventually hard drive installs will not put a burden on the network or server like LTSP setups do (esp. with RAM loading "toram" in mind).
-
-   1. Network live (could be served from a [NSLU2](http://flickr.com/photos/hendry/703708705/))
-   2. **CDROM live**
-   3. USB live
-   4. Network live and then install to hard drive
-   5. CDROM live and then install to hard drive
-   6. USB live and then install to hard drive
-   7. OEM installs
-   8. Installs via Windows using something like [Wubi](http://wubi-installer.org/) or the [Win32 loader](http://goodbye-microsoft.com/)
-
-Notice Webconverger Web applications can leverage the rich capabilities of Firefox with SVG graphics and the default [[fonts]].
-
+	* No users - no superuser
+	* Stability & [[security]] of open source - based on GNU/Linux Debian releases
+	* No local user data - Locked down browser kiosk - for example no functionality to save bookmarks locally
+	* Zero maintenance - Automatic [[upgrades]]
+	* Less is more - Minimal packages for just the Web experience (though that includes [[Adobe]] flash and pdf support), though no KDE/GNOME bloat
+	* Excellent [[i18n]] support
+	* Committed to user's [[privacy]] and [[security]]
+	* (Long term) Universal commitment to all devices - Webconverger could be deployed anywhere from an office terminal to a mobile phone
