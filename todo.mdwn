@@ -1,16 +1,6 @@
 * write some sort of payment thing for Internet cafes
 * screensaver advertisement thing
-* look into META-INIT nomeata http://wiki.debian.org/MetaInit
 * Allow USB mounts so people can upload pictures to Flickr (use case by Phil Waring)
 * prune some unrequired packages, get package list and see which ones are essential #136097
-* think of how to enable/disable printing features nicely via extensions
-* firewall? no real need except to maybe block ICMP
-* wireless support and web app to configure essid and WPA key
-* put in andika font
+* put in andika font?
 * maxi default spelling is gaellic irish. user works around by selecting US english (which should be default)
-
-# Fix usplash issues
-
-# Upgrade improvement
-
-# Setup unstable -> stable QA
