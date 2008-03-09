@@ -27,9 +27,6 @@ PCs](http://en.wikipedia.org/wiki/Template:Linux_mini_computers) are:
 
 # Koolu
 
-<a href="http://www.flickr.com/photos/hendry/1790045443/" title="Photo Sharing"><img src="http://farm3.static.flickr.com/2375/1790045443_80e5e8e2c8_m.jpg" width="240" height="180" alt="Trying to install Debian on a Koolu" /></a>
-Trying to install Debian on a Koolu.
-
 ## CPU
 
         processor       : 0

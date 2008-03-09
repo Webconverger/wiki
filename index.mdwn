@@ -21,7 +21,7 @@ There are [[pagecount ]] pages.
 * [[Content_filtering|Filtering]] and white listing are possible
 * [[Information_about_Fonts|Fonts]]
 
-# Types of images
+# Types of downloads
 
 * [[ISO]]
 * [[USB]]
