@@ -4,15 +4,13 @@ This page lists technical features. For non-technical argumentation see [the Abo
 
 # [[mini]]
 
-1. [[ISO]] and/or [[USB]] image varieties.
+1. [[ISO]] (with [[grub|boot]] and/or [[USB]] image varieties for [download](http://download.webconverger.com/)
 * [Firefox Web browser](http://en.wikipedia.org/wiki/Firefox) 2.x rebuild [Iceweasel](http://en.wikipedia.org/wiki/Iceweasel) by default in every Webconverger.
 * Automatic update on bootup - Webconverger has an [[upgrade]] feature
 * [[Artwork]] - your $HOMEPAGE/bg.png, default being [http://portal.webconverger.com/bg.png](http://portal.webconverger.com/bg.png).
-* Kiosk reset with `kioskresetstation=<mins>`. Resets browser after user defined minutes of idleness/inactivity. Default off. (requires xautolock package)
-* [[Networking]] customisation. Default is DHCP. Wireless network device support available, though not by default.
-* [[Adobe]] (Macromedia) Flash is **enabled by default**.
-* [PDF viewing](http://flickr.com/photos/hendry/851173358/) - [xpdf](http://packages.qa.debian.org/x/xpdf.html) - enabled by default
-* Video mode override with `xvideomode=800x600` (new in >=2.16) - should override resolution to 800x600. Default display is *autodetected*.
+* Kiosk reset with `kioskresetstation=<mins>`. Resets browser after user defined minutes of idleness/inactivity.
+* [[Networking]] customisation. Default is wired DHCP.
+* [[Adobe]] (Macromedia) Flash & [PDF viewing](http://flickr.com/photos/hendry/851173358/)
 
 # [[maxi]] = [[mini]] + extras (mainly support for non-English locales)
 
