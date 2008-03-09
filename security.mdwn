@@ -62,11 +62,10 @@ point I am using. The later points of the route (2-17) are much bigger routers
 which are too busy routing huge amounts of network traffic than to isolate and
 sniff yours.
 
-However this is a way you can get mitigate this risk, and that's to use
-[SSL](http://en.wikipedia.org/wiki/Secure_Sockets_Layer).
-
-An encrypted SSL connection is denoted by a yellow coloured URL bar. So for
-example instead of visiting:
+To mitigate this risk use
+[SSL](http://en.wikipedia.org/wiki/Secure_Sockets_Layer).  An encrypted SSL
+connection is denoted by a yellow coloured URL bar. So for example instead of
+visiting:
 
 * http://gmail.com
 
