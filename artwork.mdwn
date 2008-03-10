@@ -45,6 +45,8 @@ If using Flickr choose a [BY: licensed image](http://flickr.com/creativecommons/
 
 # Grub & Syslinux
 
-For the bootloader a 640x400 image (14 indexed colours) is required. The
-[Debian Live Artwork](http://wiki.debian.org/DebianLive/Howto/Custom_Artwork)
-page has details of how the artwork is converted.
+For the
+[grub](http://flickr.com/search/?q=grub%20webconverger&w=16105436%40N00)
+bootloader a 640x400 image (14 indexed colours) is required. The [Debian Live
+Artwork](http://wiki.debian.org/DebianLive/Howto/Custom_Artwork) page has
+details of how the artwork is converted.
