@@ -1,48 +1,50 @@
 [[toc ]]
 
-For Webconverger customization customers, customising the X background is normal and best practice. If customers want their usplash customised, this is a **lot of extra work** and I have to charge accordingly.
+For Webconverger customization customers, customising the X background is
+normal and best practice. If customers want splashy customised, this is
+currently a **lot of extra work** and I have to charge accordingly.
 
 # splashy
 
 New and somewhat easier than usplash. There is some rough edges with the secondary screen.
 
-Recently backported splashy to [stable](http://webconverger.com/debian/stable/). Wrote up a little [customisation guide over at the d-l wiki](http://wiki.debian.org/DebianLive/Howto/Custom_Artwork). Try out the USB images on the [[mini]] [download page](http://download.webconverger.com/mini/). Splashy uses [directfb](http://directfb.org/).
+Recently backported splashy to
+[stable](http://webconverger.com/debian/stable/). Wrote up a little
+[customisation guide over at the d-l
+wiki](http://wiki.debian.org/DebianLive/Howto/Custom_Artwork). Try out the USB
+images on the [[mini]] [download page](http://download.webconverger.com/mini/).
+Splashy uses [directfb](http://directfb.org/).
 
-# usplash boot screen (hard)
-
-<a href="http://www.flickr.com/photos/hendry/845129169/" title="Photo Sharing"><img src="http://farm2.static.flickr.com/1309/845129169_7b43022006_m.jpg" width="240" height="180" alt="Webconverger's 2.26 new bootup screen" /></a>
-
-apt-get source usplash-theme-webconverger from deb-src http://webconverger.com/debian/ stable/
-
-    monty:/tmp/usplash-theme-webconverger-0.29% ls *.svg
-    osdesktop-artwork.svg  throbber_back_16.svg  throbber_back.svg  throbber_fore_16.svg  throbber_fore.svg
-
-Use [inkscape](http://www.inkscape.org/) to edit the Vector graphics images, osdesktop-artwork.svg being the main piece. If you are using bitmap images, make sure they are embedded in **effects > images > embed**!
-
-A command like:
-
-`inkscape --export-area-canvas -w 1024 -h 768 --export-png /tmp/tmp.png osdesktop-artwork.svg`
-
-Is good to for initial testing. Usplash and its themes are actually quite complicated. If you read osdesktop-artwork.c you'll notice mention of the colour palettes and the way the progress bar is configured. I do not quite fully understand how to manipulate these values myself.
-
-# The X windows centered background image on a white background (easy)
-
-This is retrieved from $HOMEPAGE/bg.png
-
-So the default HOMEPAGE=http://portal.webconverger.com/
-
-So [view the current background](http://portal.webconverger.com/bg.png).
-
-Users see this as Webconverger loads the Web browser. So initially at bootup and between sessions. The amount of time this background is viewable depends on the speed of the computer. I.e. how long it takes to load the browser.
+Image should be about 640x480 and not have any detail close to the edges.
 
 From 2.30 `noxbg` makes the X bootup screen blank.
 
+# The X windows centered background image on a white background
+
+This is retrieved from $HOMEPAGE/bg.png
+
+Image should be about 800x600 & if it is a Webconverger image it should link:
+
+* webconverger.com/buy
+* support email address
+
+Users see this as Webconverger loads the Web browser. So initially at bootup
+and between sessions. The amount of time this background is viewable depends on
+the speed of the computer. I.e. how long it takes to load the browser.
+
+### Example
+
+So the default HOMEPAGE=http://portal.webconverger.com/
+So [view the current background](http://portal.webconverger.com/bg.png).
+
 ## Thoughts
 
-The background could be a nice image or piece of art. 
+The background could be a nice image or piece of art.
 
 If using Flickr choose a [BY: licensed image](http://flickr.com/creativecommons/by-2.0/).
 
-# Related
+# Grub & Syslinux
 
-See the [Debian Live wiki article on Artwork](http://wiki.debian.org/DebianLive/Howto/Custom_Artwork)
+For the bootloader a 640x400 image (14 indexed colours) is required. The
+[Debian Live Artwork](http://wiki.debian.org/DebianLive/Howto/Custom_Artwork)
+page has details of how the artwork is converted.
