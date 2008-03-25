@@ -16,8 +16,25 @@ Detailed description on [Debian wiki](http://wiki.debian.org/DebianLive/Howto/US
 
 [Kingston DataTravelers](http://www.flickr.com/photos/hendry/1172362068/) are recommended, though almost any generic USB stick should be fine. Feel free to use the usb image also with embedded boards and Compact Flash cards (they behave like /dev/hda usually).
 
+# Hacking the USB [[boot]]
+
+Plug your Webconverger USB stick in and mount the USB stick, for e.g.:
+
+	x61:~% sudo mount /dev/sdb1 /mnt/usb
+
+Edit the menu.cfg. Alter elements like the [[homepage]].
+
+	x61:/mnt/usb% sudo vim syslinux/menu.cfg
+
+Unmount and boot up your system:
+
+	x61:/mnt/usb% cd
+	x61:~% sudo umount /mnt/usb
+
 # Developer notes
 
 In config/binary: 
 
 	LH_BINARY_IMAGES="usb-hdd"
+
+And `grub` doesn't work, so you must use the `syslinux` bootloader.

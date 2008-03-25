@@ -4,8 +4,12 @@
 
 From version 2.30, [CD](http://en.wikipedia.org/wiki/Compact_disc) ISOs have GRUB boot loaders. This allows you to modify the boot parameter line! See the [[boot_tutorial|boot]].
 
-# USB and customised versions
+# USB
+
+Please see [[usb]].
+
+# Customised versions
 
 These versions of Webconverger have the homepage fixed on [http://portal.webconverger.com/](http://portal.webconverger.com/) or the URL of your choice if you [paid for customisation](http://webconverger.com/buy).
 
-If you want to set your own Website, either [[build_Webconverger_yourself|develop]] or utilise the [Webconverger customization service](http://webconverger.com/buy). Thank you.
+If you want to set your own Website, either [[build_Webconverger_yourself|develop]] or utilise the [Webconverger customization service](http://webconverger.com/buy).
