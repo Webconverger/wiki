@@ -13,6 +13,6 @@ Also it is good to know which packages (and hence [[features]]) are included.
 For example: 
 
 * If the **cupsys** package is not included, you then know that particular version does not have any [[printing]] support.
-* If 'iceweasel-l10n-fr' and 'myspell-fr' in [maxi.txt](http://download.webconverger.com/maxi.txt) then you know [[maxi]] contains [[i18n]] localisations for the browser and spell checking1
+* If **iceweasel-l10n-fr** and **myspell-fr** in [maxi.txt](http://download.webconverger.com/maxi.txt) then you know [[maxi]] contains [[i18n]] localisations for the browser and spell checking.
 
 See [[mini]] and [[maxi]] for explanations of the different main configurations of Webconverger.
