@@ -1,0 +1,13 @@
+One step forward and two step backwards with respect to [[upgrades|upgrade]].
+
+I updated the rsync server with the [security fixes of 2.0.0.13](http://www.mozilla.org/projects/security/known-vulnerabilities.html#firefox2.0.0.13) and I noticed the rsync server is exchanging:
+
+    2008/03/30 13:48:28 [10788] sent 11953590 bytes  received 65648 bytes  total size 21627786
+
+Ummm **21 MEGABYTES** rsync upgrade from 2.0.0.12 to 2.0.0.13!!?? WTF! The Debian package is:
+
+    7.8M    iceweasel_2.0.0.13-1_i386.deb
+
+How the hell did this happen? I did some basic testing before rolling out this new system, though I didn't pay close attention to  sizes of data transferred. I put too much trust in [rsync](http://en.wikipedia.org/wiki/Rsync). Sorry about this folks.
+
+If you want to disable [[upgrade]] simply remove the word 'iceweaselupgrade' from the [[boot]] parameters.
