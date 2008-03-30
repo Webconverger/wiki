@@ -11,3 +11,5 @@ Ummm **12 MEGABYTES** rsync upgrade from 2.0.0.12 to 2.0.0.13!!?? WTF! The Debia
 How the hell did this happen? I did some basic testing before rolling out this new system, though I didn't pay close attention to  sizes of data transferred. I put too much trust in [rsync](http://en.wikipedia.org/wiki/Rsync). Sorry about this folks.
 
 If you want to disable [[upgrade]] simply remove the word 'iceweaselupgrade' from the [[boot]] parameters.
+
+Ok I noticed I missed the compress flag '-z' which can half the transfer. The maddening this is that I need to regenerate all maxi and mini images. An effort which can take many hours for just two missing characters. :(
