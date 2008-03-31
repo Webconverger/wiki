@@ -12,4 +12,7 @@ How the hell did this happen? I did some basic testing before rolling out this n
 
 If you want to disable [[upgrade]] simply remove the word 'iceweaselupgrade' from the [[boot]] parameters.
 
-Ok I noticed I missed the compress flag '-z' which can half the transfer. The maddening this is that I need to regenerate all maxi and mini images. An effort which can take many hours for just two missing characters. :(
+Ok I noticed I missed the compress flag '-z' which can half the transfer. The maddening thing is that I need to regenerate all maxi and mini images. An effort which can take many hours for just two missing characters. :(
+
+
+Update: Just thought of something else I should try WRT [upgrading Firefox](http://kb.mozillazine.org/Software_Update).
