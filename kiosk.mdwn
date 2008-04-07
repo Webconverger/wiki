@@ -1,6 +1,6 @@
 Extension(s) that meet the requirements of Webconverger customers. Currently there are three scenarios.
 
-This Firefox extension now has a [git repositry](http://git.webconverger.org/?p=iceweasel-webconverger.git).
+This Firefox extension now has a [git repository](http://git.webconverger.org/?p=iceweasel-webconverger.git).
 
 # iceweasel-webconverger
 
