@@ -9,3 +9,6 @@ Webconverger can run well on __recycled machines__. Pentium 3s with 128MB of RAM
 Webconverger does have issues with hardware that requires proprietary firmware, such as **wireless network interfaces**. See [[networking]] for advice.
 
 In the future Webconverger aims to support other architectures and devices, besides the typical PC. Everything from TVs to mobile devices will converge to the Web. Please give some feedback if you have a particular device you want to see Webconverger on.
+
+
+* [Ubuntu HCL](http://www.ubuntuhcl.org/)

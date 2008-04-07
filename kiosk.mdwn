@@ -12,15 +12,15 @@ Default and most common.
 
 [http://webconverger.com/webc.xpi](http://webconverger.com/webc.xpi)
 
-This will lock does the browser and you'll need to use the `firefox
+This will lock down the browser and you'll need to use the `firefox
 --safe-mode` to remove it.
 
 The best way of installing and removing this extension is with:
 
-    deb http://webconverger.com/debian/ stable/
-    deb-src http://webconverger.com/debian/ stable/
+    deb http://debian.webconverger.com/ lenny/
+    deb-src http://debian.webconverger.com/ lenny/
 
-in your /etc/apt/sources.list and the `apt-get install iceweasel-webconverger` on Debian machine.
+in your /etc/apt/sources.list and the `apt-get install iceweasel-webconverger` on a Debian machine.
 
 ### How the .xpi was created
 
