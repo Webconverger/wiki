@@ -4,7 +4,7 @@
 
 ## Packages
 
-* [Official Webconverger packages](http://webconverger.com/debian/)
+* [Official Webconverger packages](http://debian.webconverger.com)
 
 Core packages:
 
@@ -57,9 +57,9 @@ Though if you need support services et al, it's best to pay me to do it. ;)
 
 Spread the word, the Web is **the** open computing API for all.
 
-## Debug mode with Webconverger's "unstable"
+## Debug mode with Webconverger
 
-However in the [unstable branch](http://webconverger.com/debian/unstable/) of
+However in the [lenny branch](http://debian.webconverger.com/lenny/) of
 Webconverger, there is a debug mode. Whereby developers can basically get a
 root terminal to debug in.
 

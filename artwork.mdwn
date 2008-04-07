@@ -8,12 +8,12 @@ currently a **lot of extra work** and I have to charge accordingly.
 
 New and somewhat easier than usplash. There is some rough edges with the secondary screen.
 
-Recently backported splashy to
-[stable](http://webconverger.com/debian/stable/). Wrote up a little
-[customisation guide over at the d-l
-wiki](http://wiki.debian.org/DebianLive/Howto/Custom_Artwork). Try out the USB
-images on the [[mini]] [download page](http://download.webconverger.com/mini/).
-Splashy uses [directfb](http://directfb.org/).
+Wrote up a little [customisation guide over at the d-l
+wiki](http://wiki.debian.org/DebianLive/Howto/Custom_Artwork).
+
+Try out the USB images on the [[mini]] [download
+page](http://download.webconverger.com/mini/).  Splashy uses
+[directfb](http://directfb.org/).
 
 Image should be about 640x480 and not have any detail close to the edges.
 

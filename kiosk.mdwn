@@ -54,7 +54,7 @@ If you're concerned about the scroll bar, alter the **overflow** CSS element. He
 I have forked rkiosk and created my own extension, webconverger. I had to do this as I had to modify some of upstream's packaging and functions and upstream is a little un-cooperative. 
 
 
-* `apt-get source iceweasel-webconverger` from the [Webconverger Debian package repo](http://webconverger.com/debian/)
+* `apt-get source iceweasel-webconverger` from the [Webconverger Debian package repo](http://debian.webconverger.com)
 * `git clone git://webconverger.org/git/webconverger-base.git`
 
 

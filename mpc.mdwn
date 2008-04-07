@@ -71,6 +71,6 @@ the boot prompt, type:
 
 It's not Webconverger, though it's quite close! From here you should add the Webconverger `/etc/apt/sources.list` line:
 
-    deb http://webconverger.com/debian/ stable/
+    deb http://debian.webconverger.com/lenny/
 
 And be able to install [[extensions|kiosk]] like iceweasel-webconverger. Good luck.
