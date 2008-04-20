@@ -18,8 +18,8 @@ For the time being, [[upgrades|upgrade]] are disabled, though I do aim to fix th
 future. I've updated the [[todo]] too.
 
 If there is a particular feature there you want to see implemented you can
-[sponsor the work](http://webconverger.com/buy/) or at least please drop a pleasant
-request at the [Webconverger users
+please [sponsor the work](http://webconverger.com/buy/) or at least drop a
+pleasant request at the [Webconverger users
 group](http://groups.google.com/group/webc-users/topics).
 
 Have a [safe surf with Webconverger](http://webconverger.com/)!
