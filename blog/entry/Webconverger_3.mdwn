@@ -3,7 +3,7 @@
 Lately [I have been enjoying using Firefox 3](http://natalian.org/archives/2008/04/14/go-faster-mozilla/).
 
 Though it's not explicit in the [[design_goals|design]], I do want to make
-Webconverger is fast as possible. Firefox 3 leaves Firefox 2 in the dust, so I
+Webconverger as fast as possible. Firefox 3 leaves Firefox 2 in the dust, so I
 think this is a good excuse for Webconverger to increment to the version three
 milestone. :)
 
@@ -14,7 +14,7 @@ In order to prepare for this release
 [dwm](http://git.debian.org/?p=users/kai-guest/dwm/.git;a=blob;f=debian/config/config.web.h)
 and the [[Firefox_addon|kiosk]] was updated, amongst other things.
 
-For the time being, [[upgrades]] are disabled, though I do aim to fix them in
+For the time being, [[upgrades|upgrade]] are disabled, though I do aim to fix them in
 future. I've updated to [[todo]].
 
 If there is a particular feature there you want to see implemented you can
