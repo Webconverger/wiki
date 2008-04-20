@@ -34,6 +34,8 @@ in your /etc/apt/sources.list and the `apt-get install iceweasel-webconverger` o
 * [http://developer.mozilla.org/en/docs/XUL:browser](http://developer.mozilla.org/en/docs/XUL:browser)
 * about:config and keywords like "privacy"
 
+	x61:~/ff3/source/mozilla% vim browser/themes/gnomestripe/browser/browser.css
+
 # iceweasel-webcnoaddressbar
 
 Customization option. For customers who want patrons to browse, but not enter in URLs.

@@ -1,6 +1,11 @@
-* write some sort of payment thing for Internet cafes
-* screensaver advertisement thing
 * Allow USB mounts so people can upload pictures to Flickr (use case by Phil Waring)
-* prune some unrequired packages, get package list and see which ones are essential #136097
+* aggressively prune some unrequired packages, get package list and see which ones are essential #136097
 * put in andika font?
 * maxi default spelling is gaellic irish. user works around by selecting US english (which should be default)
+* fix [[upgrades]]
+* do some sort of device API for attraction (screensaver advertisement) loop
+* Improve [[kiosk]] extension to disable downloading and context menu on A HREFs (disable about:config)
+* do hard drive install version !
+* somehow showcase Firefox 3 features like SVG etc. on the portal
+* make it easier for Windows users to create USB sticks
+* investigate Xorg screen detection stuff
