@@ -23,6 +23,8 @@ PCs](http://en.wikipedia.org/wiki/Template:Linux_mini_computers) are:
 * Needs some patches with the video drivers
 * You need to arrange the monitor, keyboard and mouse for the device
 * [Sluggish CPU](http://en.wikipedia.org/wiki/Amd_geode#AMD_Geode)
+* Very slow uncompressing LH_CHROOT_FILESYSTEM="squashfs"
+* Sometimes issues with large external monitors
 
 
 # Koolu

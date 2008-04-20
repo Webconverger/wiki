@@ -1,5 +1,9 @@
 [[toc ]]
 
+STATUS OF UPGRADES: I have disabled upgrading on current versions of
+Webconverger. Please manually upgrade by [downloading the very latest
+Webconverger](http://download.webconverger.com/).
+
 # Introduction
 
 [LiveCD](http://en.wikipedia.org/wiki/LiveCD)s are generally speaking static
@@ -55,7 +59,20 @@ Stuff Webconverger can do to improve the situation:
 
 Sadly both options currently on either side are difficult to implement!
 
-# New proposed update system
+# With rsync
+
+New versions will not being using rsync. Reasons are FF3 for example has many dependencies, such as:
+
+* dbus_1.2.1-1_i386.deb
+* iceweasel_3.0~b5-1_i386.deb
+* iceweasel-gnome-support_3.0~b5-1_i386.deb
+* iceweasel-webconverger_6-23_all.deb
+* libcairo2_1.6.4-1_i386.deb
+* libdbus-1-3_1.2.1-1_i386.deb
+* libdbus-glib-1-2_0.74-2_i386.deb
+* libpixman-1-0_0.10.0-2_i386.deb
+
+So rsyncing that from FF2 will **really not work**.
 
 From 2.38 Webconverger ships with rsync and just the browser is updated with:
 
@@ -70,7 +87,7 @@ to date browser on future Webconverger deployments.
 ## Other general problems of a apt-get dist-upgrade
 
 As mentioned before kernel updates require a reboot, which can only work on
-Read Write media like USB or Hard drives. 
+Read Write media like USB or Hard drives.
 
 In the case where one has a long running Webconverger system (isn't rebooted),
 then there might be new updated packages come available. So Webconverger needs

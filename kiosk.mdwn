@@ -32,6 +32,7 @@ in your /etc/apt/sources.list and the `apt-get install iceweasel-webconverger` o
 
 * [http://developer.mozilla.org/en/docs/Code_snippets:Tabbed_browser](http://developer.mozilla.org/en/docs/Code_snippets:Tabbed_browser)
 * [http://developer.mozilla.org/en/docs/XUL:browser](http://developer.mozilla.org/en/docs/XUL:browser)
+* about:config and keywords like "privacy"
 
 # iceweasel-webcnoaddressbar
 
@@ -39,11 +40,9 @@ Customization option. For customers who want patrons to browse, but not enter in
 
 <a href="http://www.flickr.com/photos/hendry/903110079/" title="Photo Sharing"><img src="http://farm2.static.flickr.com/1292/903110079_30e70db715_m.jpg" width="240" height="180" alt="iceweasel-webcnoaddressbar" /></a>
 
-
 # iceweasel-webcfullscreen
 
 Customization option. For customers who want to do [Digital signage](http://en.wikipedia.org/wiki/Digital_Signage) or just [show off some pictures](http://www.subitophoto.net/slideshow/machupicchu/) somewhere.
-
 
 <a href="http://www.flickr.com/photos/hendry/903110103/" title="Photo Sharing"><img src="http://farm2.static.flickr.com/1351/903110103_3b82387709_m.jpg" width="240" height="180" alt="iceweasel-webcfullscreen" /></a>
 
@@ -51,16 +50,18 @@ If you're concerned about the scroll bar, alter the **overflow** CSS element. He
 
 ## Implementation
 
-I have forked rkiosk and created my own extension, webconverger. I had to do this as I had to modify some of upstream's packaging and functions and upstream is a little un-cooperative. 
+I have forked rkiosk and created my own extension, (iceweasel-)webconverger. I
+had to do this as I had to modify some of upstream's packaging and functions.
+Upstream was also a little un-cooperative.
 
-
-* `apt-get source iceweasel-webconverger` from the [Webconverger Debian package repo](http://debian.webconverger.com)
-* `git clone git://webconverger.org/git/webconverger-base.git`
-
+* [iceweasel-webconverger.git](http://git.webconverger.org/?p=iceweasel-webconverger.git).
 
 ## Slideware
 
-"iceweasel-fullerscreen" is the name of the package of Daniel Glazman's [FullerScreen](https://addons.mozilla.org/en-US/firefox/addon/4650) extension. It is good particularly for slideshows, though not digital signage as 'FullerScreen' does not allow [[Flash|adobe]] movies to go fullscreen.
+"iceweasel-fullerscreen" is the name of the package of Daniel Glazman's
+[FullerScreen](https://addons.mozilla.org/en-US/firefox/addon/4650) extension.
+It is good particularly for slideshows, though not digital signage as
+'FullerScreen' does not allow [[Flash|adobe]] movies to go fullscreen.
 
 #### Further Links
 

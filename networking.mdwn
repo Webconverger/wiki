@@ -1,7 +1,8 @@
 Currently there is a problem with [setting DNS from the BOOT parameter](http://groups.google.com/group/webc-users/browse_thread/thread/2423f987dda9bf48/f1116a232525dbb7#f1116a232525dbb7)
 
-
-Ideally Webconverger should be deployed in a **wired network** with a **DHCP server**.
+Ideally Webconverger should be deployed in a **wired network** with a **DHCP
+server**. If you only have wireless Internet access you probably need a
+Wireless router.
 
 Otherwise you can set the IP manually:
 
@@ -27,8 +28,8 @@ Please purchase [Linux compatible wireless hardware](http://www.linuxemporium.co
 
 Other wireless chipsets known to work:
 
-* all intel based cards
-* all [atheros](http://en.wikipedia.org/wiki/Atheros) based cards
+* most intel based cards
+* most [atheros](http://en.wikipedia.org/wiki/Atheros) based cards
 * ipw3945
 * ipw2200
 * ipw2100
@@ -60,7 +61,9 @@ Build the ndiswrapper module for your distribution and architecture:
     m-a prepare
     m-a a-i ndiswrapper
 
-With any luck, you'll have made a Debian package, e.g. /usr/src/ndiswrapper-modules-2.6.22-2-686_1.47-2+2.6.22-4_i386.deb
+With any luck, you'll have made a Debian package, like:
+
+	/usr/src/ndiswrapper-modules-2.6.22-2-686_1.47-2+2.6.22-4_i386.deb
 
 Install that package. You want that in your `config/chroot_local-packages`.
 
@@ -70,17 +73,22 @@ Configure your (chroot) system for the device
     sudo ndiswrapper -l
     sudo ndiswrapper -m
 
-Another [guide](http://www.debian-administration.org/articles/401)
+Another [guide](http://www.debian-administration.org/articles/401).
 
-# Wireless router option
+# Wireless router (recommended)
 
 <a href="http://www.flickr.com/photos/hendry/1172361934/" title="Every home should have a WRT54G-L by Kai Hendry, on Flickr"><img src="http://farm2.static.flickr.com/1055/1172361934_fe1a77dc72_m.jpg" width="180" height="240" alt="Every home should have a WRT54G-L" /></a>
 
-A [Linksys WRT54G](http://en.wikipedia.org/wiki/WRT54G) in *Wireless Client mode* is a
-very good solution for wireless kiosk access. They are about 50USD and this
-dedicated hardware provides excellent Wireless access without the complication
-of often proprietary Wireless drivers for each client. The highly recommended
-Linksys WRT54G allows at least four machines to easily plug into the router.
+A [Linksys WRT54G](http://en.wikipedia.org/wiki/WRT54G) in **Wireless Client
+mode** is a very good solution for wireless kiosk access. They are about 50USD
+and this dedicated hardware provides excellent Wireless access without the
+complication of often proprietary Wireless drivers for each client. The highly
+recommended Linksys WRT54G allows at least four machines to easily plug into
+the router.
 
-The [Tomato firmware](http://www.polarcloud.com/tomato) also comes highly
-recommended.
+Also the blog entry on this topic: [[Better Routing wanted]]
+
+Recommended firmware:
+
+* [dd-wrt](http://www.dd-wrt.com)
+* [Tomato firmware](http://www.polarcloud.com/tomato)
