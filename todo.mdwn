@@ -2,7 +2,7 @@
 * aggressively prune some unrequired packages, get package list and see which ones are essential #136097
 * put in andika font?
 * maxi default spelling is gaellic irish. user works around by selecting US english (which should be default)
-* fix [[upgrades]]
+* fix [[upgrade]]
 * do some sort of device API for attraction (screensaver advertisement) loop
 * Improve [[kiosk]] extension to disable downloading and context menu on A HREFs (disable about:config)
 * do hard drive install version !

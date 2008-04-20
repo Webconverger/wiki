@@ -15,11 +15,11 @@ In order to prepare for this release
 and the [[Firefox_addon|kiosk]] was updated, amongst other things.
 
 For the time being, [[upgrades|upgrade]] are disabled, though I do aim to fix them in
-future. I've updated to [[todo]].
+future. I've updated the [[todo]] too.
 
 If there is a particular feature there you want to see implemented you can
 [sponsor the work](http://webconverger.com/buy/) or at least please drop a pleasant
 request at the [Webconverger users
 group](http://groups.google.com/group/webc-users/topics).
 
-Have a safe surf! :)
+Have a [safe surf with Webconverger](http://webconverger.com/)!
