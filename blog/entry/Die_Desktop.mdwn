@@ -40,6 +40,18 @@ HTML](http://webkit.org/blog/140/html5-media-support/) of course.  I was unable
 to seek through the video and then I tried to watch the video again and it
 didn't seem to work at all. Sad. :/
 
+Worryingly I noticed [Canonical](http://canonical.com/) offer a [60GBP product
+to train people how to use their
+Desktop](https://shop.canonical.com/product_info.php?products_id=134). Most
+people I've seem miracously don't require much [[training]] with Webconverger.
+The typical question I get asked is how to quit the browser (F10) and shutdown
+the computer (use the power button).
+
+Webconverger used to have quite a few versions, namely supporting different
+[[i18n]] locales. Now it's just [[mini]] and [[maxi]]. Ubuntu 8.10 has many
+flavours; "Ubuntu", JeOS, Edubuntu, Kubuntu, Xubuntu, UbuntuStudio, Mythbuntu and I think
+some more. Whatever happened to Debian's task selector with Ubuntu! ;)
+
 Anyway, I really think Ubuntu should endeavour to improve the user experience
 **via** the Web. The Web is the free software platform. Not these horrible
 Gnome/KDE "Windows" throwbacks. :)
