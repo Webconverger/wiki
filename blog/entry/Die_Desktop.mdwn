@@ -34,7 +34,7 @@ And finally after being very patient (or drunk) I managed to get a Youtube
 video to playback. Flash "just works" in Webconverger as the [non-free
 flash plugin](http://packages.qa.debian.org/f/flashplugin-nonfree.html) is preloaded.
 
-I did then try watch an OGG video from Ubuntu's Firefox and it did manage to
+I did then try watch an [OGG video](http://en.wikipedia.org/wiki/Ogg_video) from Ubuntu's Firefox and it did manage to
 playback, which was impressive. However it was not [inline
 HTML](http://webkit.org/blog/140/html5-media-support/) of course.  I was unable
 to seek through the video and then I tried to watch the video again and it
@@ -43,9 +43,9 @@ didn't seem to work at all. Sad. :/
 Worryingly I noticed [Canonical](http://canonical.com/) offer a [60GBP product
 to train people how to use their
 Desktop](https://shop.canonical.com/product_info.php?products_id=134). Most
-people I've seem miracously don't require much [[training]] with Webconverger.
-The typical question I get asked is how to quit the browser (F10) and shutdown
-the computer (use the power button).
+people I've observed miraculously don't require [[training]] with Webconverger.
+The typical question I get asked is howto shutdown the computer (A: the power
+button).
 
 Webconverger used to have quite a few versions, namely supporting different
 [[i18n]] locales. Now it's just [[mini]] and [[maxi]]. Ubuntu 8.10 has many
