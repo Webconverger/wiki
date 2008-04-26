@@ -1,4 +1,4 @@
-Just for fun I compared [Ubuntu 8.04 Beta](http://www.ubuntu.com/testing/hardy/beta) to Webconverger 3 (beta).
+Just for fun I compared [Ubuntu 8.04 Beta](http://www.ubuntu.com/testing/hardy/beta) to [[Webconverger_3]] (beta).
 
 I'm not sure if Ubuntu boots faster than Webconverger, but it certainly a lot
 slicker then the current text based boot of Webconverger.
@@ -7,9 +7,9 @@ Ok, that bloated Gnome desktop loaded quicker than expected. I wondered what was
 
 <a href="http://www.flickr.com/photos/hendry/2443396683/" title="Does not scale by Kai Hendry, on Flickr"><img src="http://farm4.static.flickr.com/3024/2443396683_53a683f16c_m.jpg" width="240" height="180" alt="Does not scale" /></a>
 
-Evolution... which I couldn't further trial as I couldn't figure out how to scale the window for the little screen I was testing Ubuntu on.
+Evolution... which I couldn't further trial as I couldn't figure out how to scale the window for the little screen I was testing Ubuntu on. :/
 
-Next I was amazed they shipped Firefox 3b5. Earlier I was thinking I was being a bit risky with [[Webconverger_3]]!
+Next I was amazed Ubuntu shipped Firefox 3b5. Earlier I was thinking I was being a bit risky with [[Webconverger_3]]!
 
 <a href="http://www.flickr.com/photos/hendry/2443396693/" title="ff3b5 by Kai Hendry, on Flickr"><img src="http://farm4.static.flickr.com/3256/2443396693_50ae0a0488_m.jpg" width="240" height="180" alt="ff3b5" /></a>
 
@@ -18,7 +18,7 @@ I tried a couple of typical use cases in the browser environment.
 1. Opening a PDF
 * Watching a YouTube video
 
-Opening a PDF pops up an external window. In Webconverger [PDFs open inline](http://www.flickr.com/photos/hendry/851173358/), which I think is much more usable.
+Opening a PDF pops up an external window. In Webconverger [PDFs open inline the same browser window](http://www.flickr.com/photos/hendry/851173358/), which I think is much more usable.
 
 <a href="http://www.flickr.com/photos/hendry/2443396679/" title="PDF by Kai Hendry, on Flickr"><img src="http://farm4.static.flickr.com/3092/2443396679_2afc30fa95_m.jpg" width="240" height="180" alt="PDF" /></a>
 
@@ -35,10 +35,11 @@ video to playback. Flash "just works" in Webconverger as the [non-free
 flash plugin](http://packages.qa.debian.org/f/flashplugin-nonfree.html) is preloaded.
 
 I did then try watch an OGG video from Ubuntu's Firefox and it did manage to
-playback, which was impressive. However it was not inline in HTML of course.  I
-was unable to seek through the video and then I tried to watch the video again
-and it didn't seem to work at all. Sad. :/
+playback, which was impressive. However it was not [inline
+HTML](http://webkit.org/blog/140/html5-media-support/) of course.  I was unable
+to seek through the video and then I tried to watch the video again and it
+didn't seem to work at all. Sad. :/
 
 Anyway, I really think Ubuntu should endeavour to improve the user experience
-on the Web. The Web is the free software platform. Not these horrible Gnome/KDE
-"Windows" throwbacks. :)
+**via** the Web. The Web is the free software platform. Not these horrible
+Gnome/KDE "Windows" throwbacks. :)
