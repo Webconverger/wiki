@@ -1,4 +1,4 @@
-Just for fun I compared [Ubuntu 8.04 Beta](http://www.ubuntu.com/testing/hardy/beta) to [[Webconverger_3]] (beta).
+Just for fun I compared [Ubuntu 8.04 Beta 'Hardy Heron'](http://www.ubuntu.com/testing/hardy/beta) to [[Webconverger_3]] (beta).
 
 I'm not sure if Ubuntu boots faster than Webconverger, but it certainly a lot
 slicker then the current text based boot of Webconverger.
