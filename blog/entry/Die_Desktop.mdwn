@@ -32,7 +32,7 @@ Next getting Youtube working was a 10 minute mission.
 
 And finally after being very patient (or drunk) I managed to get a Youtube
 video to playback. Flash "just works" in Webconverger as the [non-free
-flash](http://packages.qa.debian.org/f/flashplugin-nonfree.html) is preloaded.
+flash plugin](http://packages.qa.debian.org/f/flashplugin-nonfree.html) is preloaded.
 
 I did then try watch an OGG video from Ubuntu's Firefox and it did manage to
 playback, which was impressive. However it was not inline in HTML of course.  I
@@ -40,4 +40,5 @@ was unable to seek through the video and then I tried to watch the video again
 and it didn't seem to work at all. Sad. :/
 
 Anyway, I really think Ubuntu should endeavour to improve the user experience
-on the Web.
+on the Web. The Web is the free software platform. Not these horrible Gnome/KDE
+"Windows" throwbacks. :)
