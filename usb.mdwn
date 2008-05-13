@@ -14,7 +14,7 @@ As [described earlier on the forum](http://groups.google.com/group/webc-users/br
 * Download the [experimental dd 0.6 beta 2](http://webconverger.com/dd.exe) to the desktop
 * Start menu -> Run -> cmd
 * `cd Desktop`
-* `dd if=mini.img od=e:`
+* `dd if=mini.img od=x:` ("x" representing your USB drive)
 
 ## How to copy .img to USB stick (under Linux):
 
