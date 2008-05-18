@@ -14,7 +14,7 @@ As [described earlier on the forum](http://groups.google.com/group/webc-users/br
 * Download the [experimental dd 0.6 beta 2](http://webconverger.com/dd.exe) to the desktop
 * Start menu -> Run -> cmd (this launched the scary black console)
 * `cd Desktop`
-* `dd if=mini.img od=**x**:` (**x** representing your USB drive you are going to replace with Webconverger!)
+* `dd if=mini.img od=`**x**`:` (**x** representing your USB drive you are going to replace with Webconverger!)
 
 ## How to copy .img to USB stick (under Linux):
 
@@ -56,7 +56,7 @@ Unmount and boot up your system:
 
 # Developer notes
 
-In config/binary: 
+In config/binary:
 
 	LH_BINARY_IMAGES="usb-hdd"
 
