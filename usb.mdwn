@@ -9,12 +9,12 @@
 
 As [described earlier on the forum](http://groups.google.com/group/webc-users/browse_thread/thread/d0a2a310a0980078):
 
-1. Insert a USB stick that you are willing to replace with Webconverger and note it's drive letter (ASSUMING E: for this example)
+1. Insert a USB stick that you are willing to replace with Webconverger and note it's drive letter
 * Download an [IMG](http://download.webconverger.com/mini.img), a Webconverger USB image to desktop
 * Download the [experimental dd 0.6 beta 2](http://webconverger.com/dd.exe) to the desktop
-* Start menu -> Run -> cmd
+* Start menu -> Run -> cmd (this launched the scary black console)
 * `cd Desktop`
-* `dd if=mini.img od=x:` ("x" representing your USB drive)
+* `dd if=mini.img od=**x**:` (**x** representing your USB drive you are going to replace with Webconverger!)
 
 ## How to copy .img to USB stick (under Linux):
 
