@@ -1,0 +1,29 @@
+Just uploaded a new version 3 beta of [[maxi]].
+
+Webconverger has pretty AMAZING [[i18n]] support. That means after adding a locale in the [[boot]] option [`locale=ja_JP.UTF-8`](http://flickr.com/photos/hendry/2502506953/) you get a Japanese Web kiosk. Easy.
+
+This is great to play around with exotic [CJK](http://en.wikipedia.org/wiki/CJK) characters and inputs. Select a text box and [scim](http://www.scim-im.org/) (an input switcher) will be activated with [Control]+[Space]. Pretty impressive huh?
+
+# Chinese
+
+	locale=zh_CN.UTF-8 keyb=zh
+
+<a href="http://www.flickr.com/photos/hendry/2502506949/" title="Chinese support in Webconverger by Kai Hendry, on Flickr"><img src="http://farm4.static.flickr.com/3057/2502506949_56cdcd5c6b.jpg" width="500" height="375" alt="Chinese support in Webconverger" /></a>
+
+# Japanese
+
+	locale=ja_JP.UTF-8
+
+<a href="http://www.flickr.com/photos/hendry/2502506959/" title="Japanese support in Webconverger by Kai Hendry, on Flickr"><img src="http://farm3.static.flickr.com/2009/2502506959_e0c13b10cf.jpg" width="500" height="375" alt="Japanese support in Webconverger" /></a>
+
+# Korean
+
+	locale=ko_KR.UTF-8
+<a href="http://www.flickr.com/photos/hendry/2502506973/" title="Korean support in Webconverger by Kai Hendry, on Flickr"><img src="http://farm3.static.flickr.com/2192/2502506973_b970ca49a8.jpg" width="500" height="375" alt="Korean support in Webconverger" /></a>
+
+
+Trouble is, I don't hear of many people from the [CJK](http://en.wikipedia.org/wiki/CJK) part of the world. :(
+
+The only time I heard that Chinese people love Webconverger, was from a library in Canada. Come on guys, you're **welcome on the open Web platform**. I'm happy to see many [Chinese are already using UTF-8](http://googleblog.blogspot.com/2008/05/moving-to-unicode-51.html), which is great news. If you're Asian and find the fonts or some other rendering looks bad, **please** let me know.
+
+Enjoy :)

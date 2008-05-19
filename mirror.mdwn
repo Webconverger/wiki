@@ -1,0 +1,9 @@
+# Mirror configuration
+
+Current I upload new images to au / webconverger.org from my development machine.
+
+And then I copy it to the main mirror at download.webconverger.com.
+
+	rsync --delete -essh -artpv --progress /web/mirror.webconverger.org/ webconverger.com:download.webconverger.com
+
+http://mirror.webconverger.org/ is intended to be the main mirror. If you would like to rsync from it too, let me know.
