@@ -33,7 +33,13 @@ Save the configuration below as a file named `webconverger.vmx` with [webconverg
 
 `qemu -cdrom webconverger.iso`
 
-
-# Future of testing
+# Testing video idea
 
 [Videos](http://video.google.co.uk/videoplay?docid=-4095341796996048842&hl=en-GB) with [Brendan's autotesting script](http://svn.debian.org/wsvn/debian-live/people/bmsleight/autotesting/?rev=0&sc=0).
+
+# VMware workstation
+
+	x61:~% uname -a 
+	Linux x61 2.6.23-1-686 #1 SMP Fri Dec 21 13:57:07 UTC 2007 i686 GNU/Linux
+
+	sudo CC=/usr/bin/gcc-4.1 /usr/bin/vmware-config.pl
