@@ -1,6 +1,6 @@
 <a href="http://www.flickr.com/photos/hendry/2510013812/" title="webc-3.0b2.mini with splashy by Kai Hendry, on Flickr"><img src="http://farm3.static.flickr.com/2115/2510013812_f48434924e.jpg" width="500" height="375" alt="webc-3.0b2.mini with splashy" /></a>
 
-Yesterday I was surprised to see [Python](http://python.org/) in the [[packages_list|txt]]. A silly mistake is to use Python instead of shell when writing system scripts.
+Yesterday I was surprised to see a [Python](http://python.org/) in the [[packages_list|txt]]! A silly mistake is to use Python instead of simple shell when writing system scripts. You can even use [shell for Web stuff](http://dabase.com/e/04041/). :)
 
 I fealt very stupid when I found [webconverger-base depended on Python](http://git.webconverger.org/?p=webconverger-base.git;a=blob;f=debian/control). Woops! Fixed.
 
