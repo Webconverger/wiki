@@ -26,4 +26,8 @@ Trouble is, I don't hear of many people from the [CJK](http://en.wikipedia.org/w
 
 The only time I heard that Chinese people love Webconverger, was from a library in Canada. Come on guys, you're **welcome on the open Web platform**. I'm happy to see many [Chinese are already using UTF-8](http://googleblog.blogspot.com/2008/05/moving-to-unicode-51.html), which is great news. If you're Asian and find the fonts or some other rendering looks bad, **please** let me know.
 
+Update: 3.0beta2 now has an easy to use Grub menu on the CD [[iso]] version.
+
+<a href="http://www.flickr.com/photos/hendry/2513402032/" title="Webc 3.0 beta 2 Grub menu for CD by Kai Hendry, on Flickr"><img src="http://farm3.static.flickr.com/2140/2513402032_5b63a0c15e.jpg" width="500" height="375" alt="Webc 3.0 beta 2 Grub menu for CD" /></a>
+
 Enjoy :)
