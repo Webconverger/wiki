@@ -10,6 +10,6 @@ It gets worse. I had in mind to implement a [wpasupplicant](http://packages.qa.d
 
 [Debian Live](http://debian-live.alioth.debian.org/) has a wonderful little hooks section `chroot_local-hooks` and a [stripped](http://git.debian.org/?p=debian-live/config-webc.git;a=blob;f=mini/config/chroot_local-hooks/stripped) example that helped Webconverger get on a diet.
 
-One of the most important software quality is **less code**. Another similar movement is [suckless](http://www.suckless.org/wiki/) and armed with [sloccount](http://packages.qa.debian.org/s/sloccount.html) you go to work. And then you work, rework and add new features. If you manage to have less lines of code than what you started with, then you're really following the principle of less code. :)
+One of the most important software quality metrics is **less code**. Another similar movement is [suckless](http://www.suckless.org/wiki/) and armed with [sloccount](http://packages.qa.debian.org/s/sloccount.html) you go to work. And then you work, rework and add new features. If you manage to have less lines of code than what you started with, then you're really following the principle of less code. :)
 
 So it feels particularly good to make Webconverger shed dependencies, [[packages|txt]] and lines of code from 3.0 beta 2 as you can see for yourself in either [[mini]] or [[maxi]] download sections.
