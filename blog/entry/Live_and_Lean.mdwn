@@ -12,4 +12,4 @@ It gets worse. I had in mind to implement a [wpasupplicant](http://packages.qa.d
 
 One of the most important software quality is **less code**. Another similar movement is [suckless](http://www.suckless.org/wiki/) and armed with [sloccount](http://packages.qa.debian.org/s/sloccount.html) you go to work. And then you work, rework and add new features. If you manage to have less lines of code than what you started with, then you're following the principle of less code.
 
-So it feels particularly good to make Webconverger shed dependencies and lines of code from 3.0 beta 2 as you can see in either [[mini]] or [[maxi]] download sections.
+So it feels particularly good to make Webconverger shed dependencies, [[packages|txt]] and lines of code from 3.0 beta 2 as you can see in either [[mini]] or [[maxi]] download sections.
