@@ -1,9 +1,9 @@
 So you're a super smart Debian/Ubuntu geek. :)
 
-Here's a chance to impress when you have friends over. Hopefully your friends
-like computers too and its usually via the familiar Firefox Web browser.
+Here's a chance to **impress** when you have friends over. Hopefully your friends
+like computers too via the familiar Firefox Web browser.
 
-To save some blushes when your 'personal' Web history might be exposed whilst showing your friend's come cool new Web application...
+To save some blushes when your 'personal' Web history might be exposed whilst showing your friends some cool new Web application...
 
 Use **Webconverger**!
 
@@ -20,15 +20,15 @@ You well then be prompted to install two packages:
 	iceweasel-webconverger - the firefox extension to lock down the browser
 	webconverger-base - the bits that create a private browser using webc
 
-<img src="http://webconverger.com/logos/flower100.png" />
+<img style="float: right;" src="http://webconverger.com/logos/flower100.png" />
 
-Install them. Now the fun part:
+Install them. Now the geeky part:
 
 1. [Ctrl]+[Alt]+[F6] and login into tty6 with your usual username.
 * `sudo su - webc`
 * `startx -- :1`
 
-Here we launch a seperate X session in the webc's user sandboxed space.
+Here we launch a seperate X session in the webc's user **sandboxed** space.
 
 * [Ctrl]+[Alt]+[F7] should get you back to your normal X :0
 * [Ctrl]+[Alt]+[F8] switches you to your second webc X :1
@@ -41,4 +41,4 @@ To quit and clean up, on your second X :1 [Ctrl]+[Alt]+[Backspace] and logout fr
 
 Webconverger aims to uphold your [[privacy]] with this [Internet Appliance](http://en.wikipedia.org/wiki/Internet_appliance) aka Web Kiosk mode for Debian. This is an initial release, so my clever Debian brethren, if you spot any [[security]] bugs in [webconverger-base](http://git.webconverger.org/?p=webconverger-base.git), do tell.
 
-P.S. If you have no friends this Webconverger mode is good for porn. :)
+P.S. If you have no friends this Webconverger mode is good for porn. ;)
