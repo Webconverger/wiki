@@ -15,7 +15,7 @@ To your '/etc/apt/sources.list'
 
 	sudo apt-get update && sudo apt-get install webconverger-base
 
-You well then be prompted to install two packages:
+You will then be prompted to install two packages:
 
 	iceweasel-webconverger - the firefox extension to lock down the browser
 	webconverger-base - the bits that create a private browser using webc
