@@ -1,0 +1,40 @@
+So you're a super smart Debian/Ubuntu geek. :)
+
+Here's a chance to impress when you have friends over. Hopefully your friends
+like computers too and its usually via the familiar Firefox Web browser.
+
+To save some blushes when your 'personal' Web history might be exposed whilst showing your friend's come cool new Web application...
+
+Use **Webconverger**!
+
+Add:
+
+	deb http://debian.webconverger.com/ lenny/
+
+To your '/etc/apt/sources.list'
+
+	sudo apt-get update && sudo apt-get install webconverger-base
+
+You well then be prompted to install two packages:
+
+	iceweasel-webconverger - the firefox extension to lock down the browser
+	webconverger-base - the bits that create a private browser using webc
+
+Install them. Now the fun part:
+
+1. [Ctrl]+[Alt]+[F6] and login into tty6 with your usual username.
+* `sudo su - webc`
+* `startx -- :1`
+
+Here we launch a seperate X session in the webc's user sandboxed space.
+
+* [Ctrl]+[Alt]+[F7] should get you back to your normal X :0
+* [Ctrl]+[Alt]+[F8] switches you to your second X :1
+
+To quit and clean up, on your second X [Ctrl]+[Alt]+[Backspace] and:
+
+	sudo apt-get remove webconverger-base iceweasel-webconverger
+
+Webconverger aims to uphold your [[privacy]]. This is a initial release, so my clever Debian brethren, if you spot any [[security]] bugs in [webconverger-base](http://git.webconverger.org/?p=webconverger-base.git), do tell.
+
+P.S. If you have no friends this Webconverger mode is good for porn. :)
