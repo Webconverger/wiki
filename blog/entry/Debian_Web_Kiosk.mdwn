@@ -39,6 +39,6 @@ To quit and clean up, on your second X :1 [Ctrl]+[Alt]+[Backspace] and logout fr
 
 `iceweasel-webconverger` atm will lock down any user's browser on your system. So you might want to uninstall it once you're done.
 
-Webconverger aims to uphold your [[privacy]] with this [Internet Appliance](http://en.wikipedia.org/wiki/Internet_appliance) aka Web Kiosk mode for Debian. This is an initial release, so my clever Debian brethren, if you spot any [[security]] bugs in [webconverger-base](http://git.webconverger.org/?p=webconverger-base.git), do tell.
+Webconverger aims to uphold your [[privacy]] with this [Internet Appliance](http://en.wikipedia.org/wiki/Internet_appliance) aka Web Kiosk standalone mode for your Debian/Ubuntu system. This is an initial release, so my clever brethren, if you spot any [[security]] bugs in [webconverger-base](http://git.webconverger.org/?p=webconverger-base.git), do tell.
 
 P.S. If you have no friends this Webconverger mode is good for porn. ;)
