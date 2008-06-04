@@ -5,7 +5,7 @@ This page lists technical features. For non-technical argumentation see [the Abo
 # [[mini]]
 
 1. [[ISO]] (with [[grub|boot]]) and/or [[USB]] image varieties for [download](http://download.webconverger.com/)
-* [Firefox Web browser](http://en.wikipedia.org/wiki/Firefox) 2.x rebuild [Iceweasel](http://en.wikipedia.org/wiki/Iceweasel) by default in every Webconverger.
+* Latest [Firefox Web browser](http://en.wikipedia.org/wiki/Firefox) rebuild [Iceweasel](http://en.wikipedia.org/wiki/Iceweasel) by default in every Webconverger.
 * [[Artwork]] - your $HOMEPAGE/bg.png, default being [http://portal.webconverger.com/bg.png](http://portal.webconverger.com/bg.png).
 * Kiosk reset **timeout** with `kioskresetstation=<mins>`. Resets browser after user defined minutes of idleness/inactivity.
 * [[Networking]] customisation. Default is wired DHCP.
@@ -23,3 +23,4 @@ This page lists technical features. For non-technical argumentation see [the Abo
 * [[Remote_administration|vnc]]
 * [[Custom_browser_settings|kiosk]]
 * [[upgrade]]
+* Locking down the bootloader
