@@ -1,3 +1,4 @@
+* wpasupplicant interface
 * Allow USB mounts so people can upload pictures to Flickr (use case by Phil Waring)
 * fix [[upgrade]]
 * do some sort of device API for attraction (screensaver advertisement) loop
@@ -40,6 +41,14 @@ script](http://git.debian.org/?p=debian-live/config-webc.git;a=blob;f=mini/confi
 however it does not seem to work. :/ Seemingly after the script is run the
 UID/GID will change to 999!
 
-# Xorg
+# Xorg Zapping (ctrl+alt+backspace) wrongly enabled with new webc-base
 
 The (new) [Webconverger Xorg configuration](http://git.webconverger.org/?p=webconverger-base.git;a=blob;f=etc/X11/xorg.webc.conf) is currently being overwritten. Despite a further [hook](http://git.debian.org/?p=debian-live/config-webc.git;a=blob;f=mini/config/chroot_local-hooks/xorg). :/
+
+# [iceweasel-webconverger packaging](http://git.webconverger.org/?p=iceweasel-webconverger.git;a=summary)
+
+I need to fix up debian/rules to create all the different packages.
+
+Right not everything is in branches which is hard to maintain. I think I prefer to do the changes as patches.
+
+The [iceweasel-l10n](http://packages.qa.debian.org/i/iceweasel-l10n.html) is a starting point.
