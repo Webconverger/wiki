@@ -6,4 +6,10 @@ And then I copy it to the main mirror at download.webconverger.com.
 
 	rsync --delete -essh -artpv --progress /web/mirror.webconverger.org/ webconverger.com:download.webconverger.com
 
-http://mirror.webconverger.org/ is intended to be the main mirror. If you would like to rsync from it too, let me know.
+http://mirror.webconverger.org/ is intended to be the main mirror. If you would like to become a mirror, use something like in a cron job `contrab -e` like so:
+
+	MAILTO="your-admin-email-address@example.com"
+	@daily rsync -artpv --progress webconverger.org::mirror /web/webc-mirror.example.com
+
+I'm keeping a lot of older copies of webc at mirror.webconverger.org currently,
+so maybe you can tweak rsync to grab only the newer stuff to save space.
