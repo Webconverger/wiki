@@ -1,6 +1,6 @@
 # How Webconverger blanks
 
-Webconverger use Xorg's default Energy saving and screen blanking features by default.
+Webconverger uses Xorg's default Energy saving and screen blanking features by default.
 
 `xset q` reveals:
 
@@ -13,9 +13,9 @@ hardware can override this.
 
 Customers who don't want the screen to blank at all should use the boot option
 `noblank` (available from version 2.45 of webconverger-base). Note without
-blanking the monitor's life span will be drastically shortened. Of course such
-a feature is an absolute must if Webconverger is acting as a
-[[digital_sign|kiosk]].
+blanking a typical (non-specialised) monitor's life span will be drastically
+shortened. Of course such a feature is an absolute must if Webconverger is
+acting as a [[digital_sign|kiosk]].
 
 # Kiosk reset
 

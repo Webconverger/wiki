@@ -39,24 +39,25 @@ The most important elements of building Webconverger are:
  * Take a look inside config/. You probably need to edit LIVE_MIRROR variables in the file bootstrap.
  * `lh build` in webconverger/
 
-Please [contact hendry](http://hendry.iki.fi/) if you have any suggestions/comments/fixes/patches. :)
+Then typically use VMWARE for [[testing]] your freshly built image.
 
- * Read [Testing setup guide](http://wiki.debian.org/DebianLive/Howto/Creating_a_Test_environment)
- * Join the [Debian Live](http://debian-live.alioth.debian.org/) community. See the [dev mailing list archives](http://lists.alioth.debian.org/pipermail/debian-live-devel/)
+* [[todo]] has a list of bugs I need to fix. Please help me out and you will be [[acknowledged|acknowledgements]] for your contribution.
+* Read [Testing setup guide](http://wiki.debian.org/DebianLive/Howto/Creating_a_Test_environment)
+* Join the [Debian Live](http://debian-live.alioth.debian.org/) community. See the [dev mailing list archives](http://lists.alioth.debian.org/pipermail/debian-live-devel/)
 
 Tips:
 
- * [squid](http://packages.qa.debian.org/s/squid.html) saves bandwidth whilst Debian Live's live-helper downloads the packages
+ * [squid](http://packages.qa.debian.org/s/squid.html) on your build machine saves bandwidth whilst Debian Live's live-helper downloads the packages
+
+## Debug mode with Webconverger
+
+Debugging in Webconverger simply involves removing `nosudo` from the [[boot]] options.
 
 ## Customizing service
 
-I hope to make some money by offering a build service of the above at [Webconverger.com/buy](http://webconverger.com/buy/). You're free to build your own Webconverger image. Please let me know if you can it's application for the [[Testimonials|press]] page.
+I hope to earn some money by offering a build service of the above at [Webconverger.com/buy](http://webconverger.com/buy/). You're free to build your own Webconverger image. Please let me know if you can it's application for the [[Testimonials|press]] page.
 
 So I am happy if you're competent enough to make your own [Web operating system](http://natalian.org/archives/2007/05/23/web-operating-systems/).
 Though if you need support services et al, it's best to pay me to do it. ;)
 
 Spread the word, the Web is **the** open computing API for all.
-
-## Debug mode with Webconverger
-
-Debugging in Webconverger currently involves removing `nosudo` from the [[boot]] options.

@@ -1,11 +1,45 @@
 * Allow USB mounts so people can upload pictures to Flickr (use case by Phil Waring)
-* aggressively prune some unrequired packages, get package list and see which ones are essential #136097
-* put in andika font?
-* maxi default spelling is gaellic irish. user works around by selecting US english (which should be default)
 * fix [[upgrade]]
 * do some sort of device API for attraction (screensaver advertisement) loop
 * Improve [[kiosk]] extension to disable downloading and context menu on A HREFs (disable about:config)
 * do hard drive install version !
 * somehow showcase Firefox 3 features like SVG etc. on the portal
-* make it easier for Windows users to create USB sticks
-* investigate Xorg screen detection stuff
+
+# 999 bug (without manually fixing this, X will not start)
+
+After lh_chroot or after a `lh build` and a `sudo lh clean --binary` you need to fix the odd permissions that result:
+
+	x61:~/webc/config-webc/mini% sudo chroot chroot /bin/bash
+	root@x61:/# cd /home/webc
+	root@x61:/home/webc# ls -lah
+	total 24K
+	drwxr-xr-x 2  999  999 4.0K Jun  8 16:27 .
+	drwxr-xr-x 3 root root 4.0K Jun  8 16:27 ..
+	-rw-r--r-- 1  999  999  220 Jun  8 16:27 .bash_logout
+	-rw-r--r-- 1  999  999  560 May 28 19:53 .bash_profile
+	-rw-r--r-- 1  999  999 2.2K Jun  8 16:27 .bashrc
+	-rw-r--r-- 1  999  999 2.9K Jun  4 16:33 .xsession
+
+**Work around** by manually fixing the permission:
+
+	root@x61:/home/webc# chown -R webc:webc ~webc
+	root@x61:/home/webc# ls -lah
+	total 24K
+	drwxr-xr-x 2 webc webc 4.0K Jun  8 16:27 .
+	drwxr-xr-x 3 root root 4.0K Jun  8 16:27 ..
+	-rw-r--r-- 1 webc webc  220 Jun  8 16:27 .bash_logout
+	-rw-r--r-- 1 webc webc  560 May 28 19:53 .bash_profile
+	-rw-r--r-- 1 webc webc 2.2K Jun  8 16:27 .bashrc
+	-rw-r--r-- 1 webc webc 2.9K Jun  4 16:33 .xsession
+	root@x61:/home/webc#
+
+Then `exit` and `lh binary` to finalise the build.
+
+I've tried [hooking in a permission fixing
+script](http://git.debian.org/?p=debian-live/config-webc.git;a=blob;f=mini/config/chroot_local-hooks/perms),
+however it does not seem to work. :/ Seemingly after the script is run the
+UID/GID will change to 999!
+
+# Xorg
+
+The (new) [Webconverger Xorg configuration](http://git.webconverger.org/?p=webconverger-base.git;a=blob;f=etc/X11/xorg.webc.conf) is currently being overwritten. Despite a further [hook](http://git.debian.org/?p=debian-live/config-webc.git;a=blob;f=mini/config/chroot_local-hooks/xorg). :/
