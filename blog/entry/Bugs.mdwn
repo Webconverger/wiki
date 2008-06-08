@@ -2,9 +2,9 @@
 
 Recently I noticed some people trying to get around Webconverger's [customisation business model](http://www.openbusiness.cc/2007/07/30/finding-your-feet-in-an-internet-business/) by building Webconverger themselves with the [[developer_instructions|develop]].
 
-A treacherous path to follow instead of [enslaving me to do the build](http://webconverger.com/buy/). :)
+A treacherous path to follow instead of [enslaving me to do the build](http://webconverger.com/buy/). ;) [[Building_Webconverger|develop]] is [not easy](http://groups.google.com/group/webc-users/browse_thread/thread/1f2918144eea33a0/51f3425d1e1ad520#51f3425d1e1ad520).
 
-In case you do try to build Webconverger, have a look at the [recent changes](http://webconverger.org/recentchanges/) to the wiki and see the [[todo_list|todo]].
+In case you still want to try build Webconverger, do take look at the [recent changes](http://webconverger.org/recentchanges/) to the wiki and see the [[todo_list|todo]].
 
 Who said you had to be ruthless to do business?
 
