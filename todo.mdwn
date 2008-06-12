@@ -17,3 +17,7 @@ I've contacted [Debian Live about this 999 issue](http://lists.alioth.debian.org
 # Xorg Zapping (ctrl+alt+backspace) wrongly enabled with new webc-base
 
 The (new) [Webconverger Xorg configuration](http://git.webconverger.org/?p=webconverger-base.git;a=blob;f=etc/X11/xorg.webc.conf) is currently being overwritten. Despite a further [hook](http://git.debian.org/?p=debian-live/config-webc.git;a=blob;f=mini/config/chroot_local-hooks/xorg). :/
+
+# ALSA sound detection
+
+Does not seem to be working. Need to debug/test.
