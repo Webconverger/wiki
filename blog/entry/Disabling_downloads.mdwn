@@ -12,4 +12,7 @@ it was in Webconverger 2.
 
 webc-3.0b3.mini has these latest changes to the [[kiosk]] extension. However, I
 have noticed that on my test machines ALSA sound playback does not seem to work
-with these new images. Does sound work for you? Please let me know. Two steps forward, one step back. :)
+with these new images. Does sound playback work for you on
+[YouTube](http://youtube.com)? Please let me know.
+
+Two steps forward, one step back. :)
