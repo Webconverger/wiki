@@ -2,8 +2,10 @@
 
 Since [Firefox 3](http://getfirefox.com/) is now official, I've made Webconverger 3 official.
 
-So burn webc-3.0.mini.iso to a CD to effectively try Firefox 3 in a safe Live environment.
+So burn webc-3.0.mini.iso to a CD to effectively try Firefox or rather the brand-free [Iceweasel](http://en.wikipedia.org/wiki/Iceweasel) 3 in a safe live environment.
 
 I actually prefer the LiveUSB version. [Download](http://download.webconverger.com/) webc-3.0.mini.img and checkout the [[usb]] for instructions for putting Webconverger on your USB stick. Boots in a minute on my Thinkpad X40!
 
-There probably will be some [[blog/entry/Bugs]] so please report them to the [mailing list / forum](http://groups.google.com/group/webc-users/topics) or directly to me if you so wish. Thank you.
+There probably will be some [[bugs|blog/entry/Bugs]] so please report them to the [mailing list / forum](http://groups.google.com/group/webc-users/topics) or directly to me if you so wish.
+
+Enjoy and congratulations to the [Mozilla](http://www.mozilla.org/) guys. Remember every day is Webconverger [download day](http://www.spreadfirefox.com/en-US/worldrecord). ;)
