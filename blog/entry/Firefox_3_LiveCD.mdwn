@@ -8,4 +8,4 @@ I actually prefer the LiveUSB version. [Download](http://download.webconverger.c
 
 There probably will be some [[bugs|blog/entry/Bugs]] so please report them to the [mailing list / forum](http://groups.google.com/group/webc-users/topics) or directly to me if you so wish.
 
-Enjoy and congratulations to the [Mozilla](http://www.mozilla.org/) guys. Remember every day is Webconverger [download day](http://www.spreadfirefox.com/en-US/worldrecord). ;)
+Enjoy and congratulations to the [Mozilla](http://www.mozilla.org/) on the historic bit of PR which is [download day](http://blog.mozilla.com/blog/2008/06/18/over-8-million-way-to-go/).
