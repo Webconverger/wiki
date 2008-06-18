@@ -2,7 +2,6 @@
 * Allow USB mounts so people can upload pictures to Flickr (use case by Phil Waring)
 * fix [[upgrade]]
 * do some sort of device API for attraction (screensaver advertisement) loop
-* Improve [[kiosk]] extension to disable downloading and context menu on A HREFs (disable about:config)
 * do hard drive install version !
 * somehow showcase Firefox 3 features like SVG etc. on the portal
 
@@ -13,11 +12,3 @@
 And comment out the 999 part. :)
 
 I've contacted [Debian Live about this 999 issue](http://lists.alioth.debian.org/pipermail/debian-live-devel/2008-June/003863.html). It turns out it's for a [work around](http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=433076).
-
-# Xorg Zapping (ctrl+alt+backspace) wrongly enabled with new webc-base
-
-The (new) [Webconverger Xorg configuration](http://git.webconverger.org/?p=webconverger-base.git;a=blob;f=etc/X11/xorg.webc.conf) is currently being overwritten. Despite a further [hook](http://git.debian.org/?p=debian-live/config-webc.git;a=blob;f=mini/config/chroot_local-hooks/xorg). :/
-
-# ALSA sound detection
-
-Does not seem to be working. Need to debug/test.
