@@ -4,7 +4,7 @@ I'm venting my opinion about user interfaces in light of [Aza Raskin's concept p
 
 For me there are (broadly speaking) **two categories** of [user interfaces](http://en.wikipedia.org/wiki/User_interfaces):
 
-* Non-overlappying [tiles](http://en.wikipedia.org/wiki/Tiling_window_manager)
+* Non-overlapping [tiles](http://en.wikipedia.org/wiki/Tiling_window_manager)
 * Overlapping (floating) <a href="http://en.wikipedia.org/wiki/Window_(computing)">windows</a> aka the <a href="http://en.wikipedia.org/wiki/WIMP_(computing)">WIMP</a> paradigm
 
 [Microsoft Windows](http://en.wikipedia.org/wiki/Microsoft_Windows) made err...
