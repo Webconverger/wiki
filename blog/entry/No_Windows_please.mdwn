@@ -2,7 +2,7 @@
 
 I'm venting my opinion about user interfaces in light of [Aza Raskin's concept post](http://azarask.in/blog/post/firefox-mobile-concept-video/).
 
-For me there are (broadly speaking) **two categories** of [user interfaces](http://en.wikipedia.org/wiki/User_interfaces):
+For me there are (broadly speaking) **two categories** of computing [user interfaces](http://en.wikipedia.org/wiki/User_interfaces):
 
 * Non-overlapping [tiles](http://en.wikipedia.org/wiki/Tiling_window_manager)
 * Overlapping (floating) <a href="http://en.wikipedia.org/wiki/Window_(computing)">windows</a> aka the <a href="http://en.wikipedia.org/wiki/WIMP_(computing)">WIMP</a> paradigm
