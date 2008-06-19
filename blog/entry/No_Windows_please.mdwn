@@ -1,10 +1,10 @@
 <a href="http://www.flickr.com/photos/hendry/2053830046/" title="Windows on Palm by Kai Hendry, on Flickr"><img src="http://farm3.static.flickr.com/2113/2053830046_f79a9f6bbe.jpg" width="500" height="375" alt="Windows on Palm" /></a>
 
-I'm venting my opinion about user interfaces in light of [Aza Raskin's concept post](http://azarask.in/blog/post/firefox-mobile-concept-video/).
+I'm venting my opinion about (mobile) user interfaces in light of [Aza Raskin's concept post](http://azarask.in/blog/post/firefox-mobile-concept-video/).
 
 For me there are (broadly speaking) **two categories** of computing [user interfaces](http://en.wikipedia.org/wiki/User_interfaces):
 
-* Non-overlapping [tiles](http://en.wikipedia.org/wiki/Tiling_window_manager)
+1. Non-overlapping [tiles](http://en.wikipedia.org/wiki/Tiling_window_manager)
 * Overlapping (floating) <a href="http://en.wikipedia.org/wiki/Window_(computing)">windows</a> aka the <a href="http://en.wikipedia.org/wiki/WIMP_(computing)">WIMP</a> paradigm
 
 [Microsoft Windows](http://en.wikipedia.org/wiki/Microsoft_Windows) made err...
