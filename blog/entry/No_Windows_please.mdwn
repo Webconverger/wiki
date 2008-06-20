@@ -7,9 +7,9 @@ For me there are (broadly speaking) **two categories** of computing [user interf
 1. Non-overlapping [tiles](http://en.wikipedia.org/wiki/Tiling_window_manager)
 * Overlapping (floating) <a href="http://en.wikipedia.org/wiki/Window_(computing)">windows</a> aka the <a href="http://en.wikipedia.org/wiki/WIMP_(computing)">WIMP</a> paradigm
 
-[Microsoft Windows](http://en.wikipedia.org/wiki/Microsoft_Windows) made err...
-the **windows** style interface familiar to millions of people, though I think
-there are problems with **windows**:
+[Microsoft Windows](http://en.wikipedia.org/wiki/Microsoft_Windows) (post 1.0) made err...
+the floating **windows** style interface familiar to millions of people, though I think
+there are problems with floating **windows**:
 
 * Different sized windows aren't useful, esp. very small ones.
 * Dragging items between windows usage paradigm is not that common ([copy&paste](http://en.wikipedia.org/wiki/Cut%2C_copy%2C_and_paste) is easier)
@@ -19,14 +19,14 @@ there are problems with **windows**:
 
 So if I am right, why aren't we seeing **tiled** user interfaces?
 
-Well I believe most people nowadays know _tiled user interfaces_ as
+Well I believe most people nowadays know _tiled user interfaces_ simply as
 [tabs](http://en.wikipedia.org/wiki/Tabbed_document_interface). And we
-hopefully agree that browsers have made tabs and tiled windowing paradigm
-pretty mainstream.
+hopefully agree that browsers have made tabs and (maximised) tile windowing
+paradigm pretty mainstream.
 
-Safari on the Iphone is also basically a _tiled user interface_ too and I like
-it. I think Apple's Web UI is the **right paradigm** for browsing on mobile
-devices.
+Safari on the Iphone is also basically a _tabbed user interface_ too and I like
+it. I think Apple's Web UI (maximised tile ~ tab) is the **right paradigm** for
+browsing on mobile devices.
 
 In my experience 'designers' don't really understand scalable / resizable user
 interfaces.  Traditional designers know
