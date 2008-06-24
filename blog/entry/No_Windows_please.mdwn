@@ -37,3 +37,9 @@ If you're a Linux user (Ubuntu maybe?) and you want to try the tiled UI
 paradigm for more than just your browser (Firefox), give the excellent
 [dwm](http://www.suckless.org/wiki/dwm/about) window manager a try. It's
 what Webconverger uses. :)
+
+Update: The [image above](http://www.flickr.com/photos/hendry/2053830046/)
+could be a little misleading, as [Windows
+mobile](http://en.wikipedia.org/wiki/Windows_mobile) does not actually use
+floating (overlapping) windows on their platform.  Proof that Mozilla should
+really steer clear of this path in it's UI design for mobile environs!
