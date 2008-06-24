@@ -43,3 +43,5 @@ could be a little misleading, as [Windows
 mobile](http://en.wikipedia.org/wiki/Windows_mobile) does not actually use
 floating (overlapping) windows on their platform.  Proof that Mozilla should
 really steer clear of this path in it's UI design for mobile environs!
+
+Those people who make those [Webtops](http://en.wikipedia.org/wiki/Web_desktop) like this [one](http://mochaui.com/demo/) are impressive. Though I still think the overlapping windows in a browser window is broken and stupid.
