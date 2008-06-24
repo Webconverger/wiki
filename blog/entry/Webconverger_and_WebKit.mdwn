@@ -1,0 +1,20 @@
+<a href="http://www.flickr.com/photos/hendry/2608094293/" title="GTK Webkit Youtube by Kai Hendry, on Flickr"><img src="http://farm4.static.flickr.com/3128/2608094293_52e77d5997.jpg" width="500" height="375" alt="GTK Webkit Youtube" /></a>
+
+Thanks to [Mike Hommey](http://glandium.org/)'s [webkit
+packages](http://packages.qa.debian.org/w/webkit.html), [Alp
+Toker](http://www.atoker.com/blog/)'s Gtk/Webkit
+[changeset](http://trac.webkit.org/changeset/32766) of Rodney Dawes Flash
+support and countless others we have serious competition for Firefox.
+
+I've added a [webkit
+directory](http://git.debian.org/?p=debian-live/config-webc.git;a=tree;f=webkit)
+for [[developing|develop]] Webconverger with WebKit. There are two ways to play
+with WebKit. A basic library wrapper called:
+
+	/usr/lib/webkit-1.0/libexec/GtkLauncher
+
+from libwebkit-1.0-1. And the [Debian epiphany-webkit](http://packages.qa.debian.org/e/epiphany-browser.html) actually uses that library to provide the [Epiphany Web browser](http://www.gnome.org/projects/epiphany/).
+
+Epiphany is a little annoying as it seems to bring in a lot of Gnome [cruft](http://www.flickr.com/photos/hendry/2607825083/). Also I hate dbus* dependencies. Still need to get [[Webconverger_on_a_diet|Live_and_Lean]]!
+
+PDF viewing does not work atm and Epiphany also needs it's chrome hacked to disable bookmarking amongst many other elements, to make it [[kiosk_grade|kiosk]]. Anyway, the simple `GtkLauncher` is almost OK really. So have a look at webc-webkit-r33561.* in the [[mini]] [download directory](http://download.webconverger.com/mini).
