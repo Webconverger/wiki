@@ -13,7 +13,7 @@ with WebKit. A basic library wrapper called:
 
 	/usr/lib/webkit-1.0/libexec/GtkLauncher
 
-from libwebkit-1.0-1. And the [Debian epiphany-webkit](http://packages.qa.debian.org/e/epiphany-browser.html) actually uses that library to provide the [Epiphany Web browser](http://www.gnome.org/projects/epiphany/).
+from libwebkit-1.0-1. And via the [Debian epiphany-webkit package](http://packages.qa.debian.org/e/epiphany-browser.html) actually uses that library to provide the [Epiphany Web browser](http://www.gnome.org/projects/epiphany/).
 
 <a href="http://en.wikipedia.org/wiki/Epiphany_(browser)">Epiphany</a> is very annoying as it seems to bring in a lot of Gnome [cruft](http://www.flickr.com/photos/hendry/2607825083/). Also I hate [dbus](http://www.flickr.com/photos/hendry/2607825079/) dependencies. Still need to get [[Webconverger_on_a_diet|Live_and_Lean]]!
 
