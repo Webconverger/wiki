@@ -3,8 +3,8 @@
 Thanks to [Mike Hommey](http://glandium.org/)'s [webkit
 packages](http://packages.qa.debian.org/w/webkit.html), [Alp
 Toker](http://www.atoker.com/blog/)'s Gtk/Webkit
-[changeset](http://trac.webkit.org/changeset/32766) of Rodney Dawes Flash
-support and countless others we have serious competition for Firefox.
+[commit](http://trac.webkit.org/changeset/32766) of Rodney Dawes Flash
+support and [[countless_others|acknowledgements]] we have serious competition for [Firefox](http://getfirefox.com/).
 
 I've added a [webkit
 directory](http://git.debian.org/?p=debian-live/config-webc.git;a=tree;f=webkit)
