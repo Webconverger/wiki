@@ -4,8 +4,9 @@
 
 I am pushing up Webc 3.2 mini now. This returns the [[pdf_viewing|adobe]]
 feature I mistakenly left out the [3.1 mini package
-list](http://download.webconverger.com/mini/webc-3.1.mini.txt). Sorry about
-that.
+list](http://download.webconverger.com/mini/webc-3.1.mini.txt). This happened
+because the [[Webconverger_and_WebKit]] release I made at that time did not
+support inline [xpdf](http://packages.qa.debian.org/x/xpdf.html).
 
 The next big [[todos|todo]] as ever is to get:
 
@@ -22,8 +23,11 @@ is coming along... very slowly.
 
 As for wireless [[networking]], I have my own little solutions, however they
 work for me and my particular hardware and wireless setup. Wireless hardware
-and wireless setups are awfully complicated. I am quite envious of Apple's
-slick Iphone wireless interface.
+and wireless setups are awfully complex. I am quite envious of Apple's slick
+Iphone wireless interface. Writing something like that with
+[wpasupplicant](http://packages.qa.debian.org/w/wpasupplicant.html) might be
+possible. So far my efforts could be described in a [linux haters blog
+rant](http://linuxhaters.blogspot.com/).
 
 The good news in 'wireless networking' is that [3G USB dongles in the
 UK](http://gadgeteer.org.uk/tag/usb-modem/) or
@@ -38,6 +42,6 @@ a ppp dial up script and some polish. However I still need to get "borrow" one
 of these dongles to implement support. I will contact Vodafone or perhaps trial
 with T-online.
 
-I can't quite decide whether to move from [[boot]] options and run a local
-httpd like thttpd and run a "control panel" Web application to configure
-elements of Webconverger.
+I can't quite decide whether to move from [[boot]] `/proc/cmdline` options and
+run a local httpd like [thttpd](http://www.acme.com/software/thttpd/) and run a
+"control panel" Web application to configure elements of Webconverger.
