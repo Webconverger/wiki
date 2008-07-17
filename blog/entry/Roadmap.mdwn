@@ -36,7 +36,7 @@ states looks like an excellent achievable new feature for Webconverger.
 
 <a href="http://www.flickr.com/photos/hendry/2405476846/" title="EeePC with Three dongle by Kai Hendry, on Flickr"><img src="http://farm4.static.flickr.com/3080/2405476846_03b4353df6.jpg" width="500" height="375" alt="EeePC with Three dongle" /></a>
 
-I personally dial into 3G internet via bluetooth via my Nokia and it works
+[I personally dial into 3G internet via bluetooth via my Nokia](http://flickr.com/photos/hendry/2278783255/) and it works
 quite well. USB dongles are usually simple serial line modems that simply need
 a ppp dial up script and some polish. However I still need to get "borrow" one
 of these dongles to implement support. I will contact Vodafone or perhaps trial
