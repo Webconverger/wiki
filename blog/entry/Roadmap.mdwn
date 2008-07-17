@@ -1,0 +1,44 @@
+<a href="http://flickr.com/photos/laughingsquid/2554954112/">
+<img src="http://farm4.static.flickr.com/3255/2554954112_ba66df6bde.jpg">
+</a>jjj
+
+I am pushing up Webc 3.2 mini now. This returns the [[pdf_viewing|adobe]]
+feature I mistakenly left out the [3.1 mini package
+list](http://download.webconverger.com/mini/webc-3.1.mini.txt). Sorry about
+that.
+
+The next big [[todos|todo]] as ever is to get:
+
+* the hard drive installer working
+* include [[wireless_networking|networking]]
+
+The hard drive installer milestone is a bit too complicated for me and I am
+dependent on [Daniel](http://www.daniel-baumann.ch/) to look at this again on
+my behalf. Tbh I have been a little hesitant to roll out this feature as I
+feared I would get "Webc installer destroyed all the contents of my hard disk"
+type emails. Webconverger as a Live CD is about protecting people from (over)
+writing _any_ data. To the astute previous work described in [[Debian Web
+Kiosk]] paves the way for a hard drive installer in any case, so the installer
+is coming along... very slowly.
+
+As for wireless [[networking]], I have my own little solutions, however they
+work for me and my particular hardware and wireless setup. Wireless hardware
+and wireless setups are awfully complicated. I am quite envious of Apple's
+slick Iphone wireless interface.
+
+The good news WRT 'wireless networking' is that [3G USB dongles in the
+UK](http://gadgeteer.org.uk/tag/usb-modem/) or
+[EVDO](http://en.wikipedia.org/wiki/EVDO) as seems to be referred to in the
+states looks like an excellent achievable milestone.
+
+<a href="http://www.flickr.com/photos/hendry/2405476846/" title="EeePC with Three dongle by Kai Hendry, on Flickr"><img src="http://farm4.static.flickr.com/3080/2405476846_03b4353df6.jpg" width="500" height="375" alt="EeePC with Three dongle" /></a>
+
+I personally dial into 3G internet via bluetooth via my Nokia and it works
+quite well. USB dongles are usually simple serial line modems that simply need
+a ppp dial up script and some polish. However I still need to get "borrow" one
+of these dongles to implement support. I will contact Vodafone or perhaps trial
+with T-online.
+
+I can't quite decide whether to move from [[boot]] options and run a local
+httpd like thttpd and run a "control panel" Web application to configure
+elements of Webconverger.
