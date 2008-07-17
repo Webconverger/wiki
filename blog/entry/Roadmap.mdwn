@@ -2,9 +2,9 @@
 <img src="http://farm4.static.flickr.com/3255/2554954112_ba66df6bde.jpg">
 </a>
 
-I am pushing up Webc 3.2 [[mini]] now (97kB/sec upload is the best I can get
-[[Virgin_fibre_optic|UK_Internet]]). This returns the [[pdf_viewing|adobe]]
-feature I mistakenly left out the [3.1 mini package
+I am pushing up Webc 3.2 [[mini]] now (100kB/sec upload is the best I can get
+with [[Virgin_fibre_optic_XL|UK_Internet]]). This returns the
+[[pdf_viewing|adobe]] feature I mistakenly left out the [3.1 mini package
 list](http://download.webconverger.com/mini/webc-3.1.mini.txt). This happened
 because the [[Webconverger_and_WebKit]] release I made at that time did not
 support inline [xpdf](http://packages.qa.debian.org/x/xpdf.html).
