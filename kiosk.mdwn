@@ -1,6 +1,6 @@
-Extension(s) that meet the requirements of Webconverger customers. Currently there are three scenarios.
+Extension(s) that meet the requirements of Webconverger customers. Currently there are several scenarios.
 
-This Firefox extension now has a [git repository](http://git.webconverger.org/?p=iceweasel-webconverger.git).
+## Webconverger's Firefox extension now has a [git repository](http://git.webconverger.org/?p=iceweasel-webconverger.git)
 
 # iceweasel-webconverger
 
@@ -8,7 +8,7 @@ Default and most common.
 
 <a href="http://www.flickr.com/photos/hendry/845129157/" title="Photo Sharing"><img src="http://farm2.static.flickr.com/1188/845129157_824320ad82_m.jpg" width="240" height="180" alt="Webconverger booted" /></a>
 
-## Test the extension on your Firefox 2.x browser
+## Test the extension on your Firefox browser
 
 [http://webconverger.com/webc.xpi](http://webconverger.com/webc.xpi)
 
@@ -21,12 +21,6 @@ The best way of installing and removing this extension is with:
     deb-src http://debian.webconverger.com/ lenny/
 
 in your /etc/apt/sources.list and the `apt-get install iceweasel-webconverger` on a Debian machine.
-
-### How the .xpi was created
-
-* apt-get source iceweasel-webconverger; cd iceweasel-webconverger-6
-* zip -r webc.xpi chrome.manifest content install.rdf defaults
-* `AddType application/x-xpinstall .xpi` in .htaccess
 
 ### Resources
 
