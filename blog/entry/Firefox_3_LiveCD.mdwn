@@ -1,6 +1,6 @@
 <a href="http://www.flickr.com/photos/hendry/2590482305/" title="Webconverger Three point oh by Kai Hendry, on Flickr"><img src="http://farm4.static.flickr.com/3238/2590482305_eeeca0d20f.jpg" width="500" height="375" alt="Webconverger Three point oh" /></a>
 
-Since [Firefox 3](http://getfirefox.com/) is now official, I've made Webconverger 3 official.
+Since [Firefox 3](http://getfirefox.com/) is now official, I've made Webconverger 3 official. Try the latest [3.x webc-mini release](http://download.webconverger.com/mini/).
 
 So [[burn_webc-3.0.mini.iso_to_a_CD|iso]] to effectively try Firefox or rather the brand-free [Iceweasel](http://en.wikipedia.org/wiki/Iceweasel) 3 in a safe **live** environment.
 
