@@ -1,4 +1,4 @@
-    <p>Webconverger is an evolution of the <a
+<p>Webconverger is an evolution of the <a
 href="http://en.wikipedia.org/wiki/Hybrid_client">hybrid client</a> for
 deployments in places like offices or Internet cafes where only <a
 href="http://en.wikipedia.org/wiki/Web_application">Web applications</a> are
@@ -9,101 +9,101 @@ href="http://en.wikipedia.org/wiki/Hybrid_client">hybrid</a> clients,
 Webconverger is faster and more responsive by providing a up-to-date Web browser that runs
 locally.</p>
 
-		<table summary="table comparing the features Webconverger and Microsoft Windows">
-		<thead><tr>
-		  <th scope="col">"Out of the box" features</th>
-		  <th scope="col"><img src="/logos/winxp.png">Windows</th>
-		  <th scope="col"><img src="/logos/osx.png">Apple</th>
-		  <th scope="col"><a href="http://livekiosk.com/">EzWebPC</a></th>
-		  <th style="font-style: italic; background-color: #FFFF99 " scope="col">Webconverger</th>
-		</tr>
-        </thead>
-        <tbody>
-		<tr >
-		  <td><a href="http://webconverger.org/ideal_just_for_web_applications">Ideal just for Web applications</a></td>
-		  <td class="no">no</td>
-		  <td class="no">no</td>
-		  <td class="yes">yes</td>
-		  <td class="yes">yes</td>
-		</tr>
-		<tr >
-		  <td><a href="http://webconverger.org/free___38___open_software/">Free &amp; open software</a></td>
-		  <td class="no">no</td>
-		  <td class="undecided">some</td>
-		  <td class="no">no</td>
-		  <td class="yes">yes</td>
-		</tr>
-		<tr >
-		  <td><a href="http://webconverger.org/requirements">Low system requirements</a></td>
-		  <td class="no">no</td>
-		  <td class="no">no</td>
-		  <td class="yes">yes</td>
-		  <td class="yes">yes</td>
-		</tr>
-		<tr>
-		  <td><a href="http://webconverger.org/security">Good security</a></td>
-		  <td class="no">no</td>
-		  <td class="yes">yes</td>
-		  <td class="yes">yes</td>
-		  <td class="yes">yes</td>
-		</tr>
-		<tr >
-		  <td><a href="http://webconverger.org/deployment">Painless to deploy and setup</a></td>
-		  <td class="no">no</td>
-		  <td class="no">no</td>
-		  <td class="yes">yes</td>
-		  <td class="yes">yes</td>
-		</tr>
-		<tr>
-		  <td><a href="http://webconverger.org/web_standards">Features a Web standards compliant browser</a></td>
-		  <td class="no">no</td>
-		  <td class="yes">yes</td>
-		  <td class="yes">yes</td>
-		  <td class="yes">yes</td>
-		</tr>
-		<tr >
-		  <td><a href="http://webconverger.org/cost_effective">Cost effective</a></td>
-		  <td class="no">no</td>
-		  <td class="no">no</td>
-		  <td class="yes">yes</td>
-		  <td class="yes">yes</td>
-		</tr>
-		<tr>
-		  <td><a href="http://webconverger.org/registration">Does not require registration or accounts</a></td>
-		  <td class="no">no</td>
-		  <td class="no">no</td>
-		  <td class="yes">yes</td>
-		  <td class="yes">yes</td>
-		</tr>
-		<tr >
-		  <td><a href="http://webconverger.org/adobe">Flash and a PDF viewer installed by default</a></td>
-		  <td class="no">no</td>
-		  <td class="yes">yes</td>
-		  <td class="no">no</td>
-		  <td class="yes">yes</td>
-		</tr>
-		<tr >
-		  <td><a href="http://webconverger.org/training">Easy for new users to learn and use</a></td>
-		  <td class="no">no</td>
-		  <td class="no">no</td>
-		  <td class="yes">yes</td>
-		  <td class="yes">yes</td>
-		</tr>
-		<tr >
-		  <td><a href="http://webconverger.org/maintenance">Low maintenance costs</a></td>
-		  <td class="no">no</td>
-		  <td class="no">no</td>
-		  <td class="no">no</td>
-		  <td class="yes">yes</td>
-		</tr>
-		<tr >
-		  <td><a href="http://webconverger.org/support">Long term support</a></td>
-		  <td class="yes">yes</td>
-		  <td class="no">Unconfirmed</td>
-		  <td class="no">no</td>
-		  <td class="yes">yes</td>
-		</tr>
-	  </tbody></table>
+<table summary="table comparing the features Webconverger and Microsoft Windows">
+<thead><tr>
+  <th scope="col">"Out of the box" features</th>
+  <th scope="col"><img src="/logos/winxp.png">Windows</th>
+  <th scope="col"><img src="/logos/osx.png">Apple</th>
+  <th scope="col"><a href="http://livekiosk.com/">EzWebPC</a></th>
+  <th style="font-style: italic; background-color: #FFFF99 " scope="col">Webconverger</th>
+</tr>
+</thead>
+<tbody>
+<tr >
+  <td><a href="http://webconverger.org/ideal_just_for_web_applications">Ideal just for Web applications</a></td>
+  <td class="no">no</td>
+  <td class="no">no</td>
+  <td class="yes">yes</td>
+  <td class="yes">yes</td>
+</tr>
+<tr >
+  <td><a href="http://webconverger.org/free___38___open_software/">Free &amp; open software</a></td>
+  <td class="no">no</td>
+  <td class="undecided">some</td>
+  <td class="no">no</td>
+  <td class="yes">yes</td>
+</tr>
+<tr >
+  <td><a href="http://webconverger.org/requirements">Low system requirements</a></td>
+  <td class="no">no</td>
+  <td class="no">no</td>
+  <td class="yes">yes</td>
+  <td class="yes">yes</td>
+</tr>
+<tr>
+  <td><a href="http://webconverger.org/security">Good security</a></td>
+  <td class="no">no</td>
+  <td class="yes">yes</td>
+  <td class="yes">yes</td>
+  <td class="yes">yes</td>
+</tr>
+<tr >
+  <td><a href="http://webconverger.org/deployment">Painless to deploy and setup</a></td>
+  <td class="no">no</td>
+  <td class="no">no</td>
+  <td class="yes">yes</td>
+  <td class="yes">yes</td>
+</tr>
+<tr>
+  <td><a href="http://webconverger.org/web_standards">Features a Web standards compliant browser</a></td>
+  <td class="no">no</td>
+  <td class="yes">yes</td>
+  <td class="yes">yes</td>
+  <td class="yes">yes</td>
+</tr>
+<tr >
+  <td><a href="http://webconverger.org/cost_effective">Cost effective</a></td>
+  <td class="no">no</td>
+  <td class="no">no</td>
+  <td class="yes">yes</td>
+  <td class="yes">yes</td>
+</tr>
+<tr>
+  <td><a href="http://webconverger.org/registration">Does not require registration or accounts</a></td>
+  <td class="no">no</td>
+  <td class="no">no</td>
+  <td class="yes">yes</td>
+  <td class="yes">yes</td>
+</tr>
+<tr >
+  <td><a href="http://webconverger.org/adobe">Flash and a PDF viewer installed by default</a></td>
+  <td class="no">no</td>
+  <td class="yes">yes</td>
+  <td class="no">no</td>
+  <td class="yes">yes</td>
+</tr>
+<tr >
+  <td><a href="http://webconverger.org/training">Easy for new users to learn and use</a></td>
+  <td class="no">no</td>
+  <td class="no">no</td>
+  <td class="yes">yes</td>
+  <td class="yes">yes</td>
+</tr>
+<tr >
+  <td><a href="http://webconverger.org/maintenance">Low maintenance costs</a></td>
+  <td class="no">no</td>
+  <td class="no">no</td>
+  <td class="no">no</td>
+  <td class="yes">yes</td>
+</tr>
+<tr >
+  <td><a href="http://webconverger.org/support">Long term support</a></td>
+  <td class="yes">yes</td>
+  <td class="no">Unconfirmed</td>
+  <td class="no">no</td>
+  <td class="yes">yes</td>
+</tr>
+</tbody></table>
 
 <hr/>
 
