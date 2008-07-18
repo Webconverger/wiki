@@ -1,3 +1,7 @@
+[[meta title="Webconverger Comparison Matrix"]]
+
+# Introduction
+
 <p>Webconverger is an evolution of the <a
 href="http://en.wikipedia.org/wiki/Hybrid_client">hybrid client</a> for
 deployments in places like offices or Internet cafes where only <a
@@ -9,105 +13,39 @@ href="http://en.wikipedia.org/wiki/Hybrid_client">hybrid</a> clients,
 Webconverger is faster and more responsive by providing a up-to-date Web browser that runs
 locally.</p>
 
-<table summary="table comparing the features Webconverger and Microsoft Windows">
-<thead><tr>
-  <th scope="col">"Out of the box" features</th>
-  <th scope="col"><img src="/logos/winxp.png">Windows</th>
-  <th scope="col"><img src="/logos/osx.png">Apple</th>
-  <th scope="col"><a href="http://livekiosk.com/">EzWebPC</a></th>
-  <th style="font-style: italic; background-color: #FFFF99 " scope="col">Webconverger</th>
-</tr>
-</thead>
-<tbody>
-<tr >
-  <td><a href="http://webconverger.org/ideal_just_for_web_applications">Ideal just for Web applications</a></td>
-  <td class="no">no</td>
-  <td class="no">no</td>
-  <td class="yes">yes</td>
-  <td class="yes">yes</td>
-</tr>
-<tr >
-  <td><a href="http://webconverger.org/free___38___open_software/">Free &amp; open software</a></td>
-  <td class="no">no</td>
-  <td class="undecided">some</td>
-  <td class="no">no</td>
-  <td class="yes">yes</td>
-</tr>
-<tr >
-  <td><a href="http://webconverger.org/requirements">Low system requirements</a></td>
-  <td class="no">no</td>
-  <td class="no">no</td>
-  <td class="yes">yes</td>
-  <td class="yes">yes</td>
-</tr>
-<tr>
-  <td><a href="http://webconverger.org/security">Good security</a></td>
-  <td class="no">no</td>
-  <td class="yes">yes</td>
-  <td class="yes">yes</td>
-  <td class="yes">yes</td>
-</tr>
-<tr >
-  <td><a href="http://webconverger.org/deployment">Painless to deploy and setup</a></td>
-  <td class="no">no</td>
-  <td class="no">no</td>
-  <td class="yes">yes</td>
-  <td class="yes">yes</td>
-</tr>
-<tr>
-  <td><a href="http://webconverger.org/web_standards">Features a Web standards compliant browser</a></td>
-  <td class="no">no</td>
-  <td class="yes">yes</td>
-  <td class="yes">yes</td>
-  <td class="yes">yes</td>
-</tr>
-<tr >
-  <td><a href="http://webconverger.org/cost_effective">Cost effective</a></td>
-  <td class="no">no</td>
-  <td class="no">no</td>
-  <td class="yes">yes</td>
-  <td class="yes">yes</td>
-</tr>
-<tr>
-  <td><a href="http://webconverger.org/registration">Does not require registration or accounts</a></td>
-  <td class="no">no</td>
-  <td class="no">no</td>
-  <td class="yes">yes</td>
-  <td class="yes">yes</td>
-</tr>
-<tr >
-  <td><a href="http://webconverger.org/adobe">Flash and a PDF viewer installed by default</a></td>
-  <td class="no">no</td>
-  <td class="yes">yes</td>
-  <td class="no">no</td>
-  <td class="yes">yes</td>
-</tr>
-<tr >
-  <td><a href="http://webconverger.org/training">Easy for new users to learn and use</a></td>
-  <td class="no">no</td>
-  <td class="no">no</td>
-  <td class="yes">yes</td>
-  <td class="yes">yes</td>
-</tr>
-<tr >
-  <td><a href="http://webconverger.org/maintenance">Low maintenance costs</a></td>
-  <td class="no">no</td>
-  <td class="no">no</td>
-  <td class="no">no</td>
-  <td class="yes">yes</td>
-</tr>
-<tr >
-  <td><a href="http://webconverger.org/support">Long term support</a></td>
-  <td class="yes">yes</td>
-  <td class="no">Unconfirmed</td>
-  <td class="no">no</td>
-  <td class="yes">yes</td>
-</tr>
-</tbody></table>
+# Comparison with Microsoft Windows products
 
-<hr/>
+## SiteKiosk
 
-<h2>Rationale</h2>
+* [[blog/entry/SiteKiosk_versus_Webconverger]]
+
+## Microsoft Steady State
+
+[Microsoft Steady
+State](http://www.microsoft.com/windows/products/winfamily/sharedaccess/) is
+based on a vanilla Windows XP installation. If a malicous hacker is out to
+break it, he will as the image is not updated.  An AV-program (with certain
+scripts to write virus update signatures into the Steadystate cache, otherwise
+AV updates would be swept off after every reboot...) is still required as a
+virus could for example infect the MBR, corrupt the Steadystate cache partition
+and just mess up the system in general.
+
+A complete reboot is required to clean up the system after the user leaves the
+system, due to the nature of the system each reboot means that multiple
+gigabyte of data are being copied from one partition to the other. That takes a
+good 3-4 minutes on an average system and it's of course also pretty stressing
+for the HD.
+
+The good thing about Steadystate is that it allows me to offer a full Windows
+XP installation with MS office, Skype, Instant-messaging software and whatnot
+to the guests.  The downside is that it breaks continuously and is much more
+trouble than it's worth to maintain when most people really just want to check
+their webmail.  I could go on all day ranting about how something like Windows
+XP with Steadystate is inferior to a Webconverger for my usage scenario here.
+
+	> Thanks to Clemens Schaffenrath for providing this analysis
+
+# Rationale
 
 <p>Entrepreneurs are not developing for the Windows or the Linux desktop, they’re developing for the prevalent <a href="http://www.joelonsoftware.com/articles/APIWar.html">Web API platform</a>.</p>
 
@@ -128,4 +66,3 @@ secure. In most cases all you need to do is boot from a CD. That's it! A usable
 up to date Web browser that <strong>just works</strong>.</p> 
 
 <p><strong>The Web, just the Web and only the Web.</strong></p>
-</div>

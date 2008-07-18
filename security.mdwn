@@ -14,7 +14,7 @@ Webconverger is [[designed|design]] for [[privacy]] and [[security]], based on:
 * Always clears private data once a session is ended
 * does not allow local data
 
-When [[automatic_updates|upgrade]] are enabled (default):
+**When** [[automatic_updates|upgrade]] are enabled (default):
 
 * Debian security support
 * Latest Firefox/Iceweasel browser
@@ -22,6 +22,10 @@ When [[automatic_updates|upgrade]] are enabled (default):
 Some customers do not want automatic upgrades. This is not a good choice for
 users as a security vulnerable Firefox will leave users ripe for phishing
 attacks.
+
+# Peer review
+
+* [Review by Andrew Patrick, Ph.D. of the Information Security Group](http://www.andrewpatrick.ca/security-and-privacy/quest-for-a-good-boot-cd-for-internet-banking/) of the [National Research Council Canada](http://www.nrc-cnrc.gc.ca/)
 
 # Customised Webconverger
 
