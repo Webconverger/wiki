@@ -1,7 +1,7 @@
 Clients use Webconverger in:
 ============================
 
-
+* [Sport relief 2008](http://flickr.com/photos/hendry/2315610422/) for taking donations
 * Banks for secure client Internet banking
 * Casinos
 * Car dealerships
