@@ -60,3 +60,8 @@ In config/binary:
 	LH_BINARY_IMAGES="usb-hdd"
 
 And `grub` doesn't work, so you must use the `syslinux` bootloader.
+
+
+# Tests on various hardware
+
+* [lax contributed some information on this topic](http://groups.google.com/group/webc-users/browse_thread/thread/dac46b2093b27b78/0eb7a2ac12ab6c9c)
