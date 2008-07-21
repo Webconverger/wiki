@@ -4,11 +4,12 @@ video.](http://autotesting.livecd.org/webconverger/i386/webc-3.2.mini.iso/curren
 Awesome eh?
 
 Now I need to figure out how to link deeper into a video, as after a certain
-amount of seconds just before X starts, splashy prematurely finishes. That's a
+amount of seconds just before X starts,
+[splashy](http://splashy.alioth.debian.org/wiki/) prematurely quits. That's a
 bug.
 
-I've also come across the [Simple Light Incredible Temporary Autonomus
-Zone](http://www.slitaz.org/en) project. A rival Live distro that weighs in at
-just **25M**. Webconverger is 10x the size and provides embarrassingly less
-functionality. I've signed up to their mailing list and I am investigating
-their miracle [[diet_for_Webconverger|Live_and_Lean]].
+I've also come across the astonishing [Simple Light Incredible Temporary
+Autonomus Zone](http://www.slitaz.org/en) project. A rival Live distro that
+weighs in at just **25M**. Webconverger is 10x the size and provides
+embarrassingly less functionality. I've signed up to their mailing list and I
+am investigating their miracle [[diet_for_Webconverger|Live_and_Lean]].
