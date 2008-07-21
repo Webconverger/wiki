@@ -5,7 +5,7 @@ Awesome eh?
 
 <img src="http://autotesting.livecd.org/webconverger/i386/webc-3.2.mini.iso/current/video-booting-montage.jpg" alt="Webconverger montage booting"/>
 
-Now I need to figure out how to link deeper into a video, as after a certain
+Now I need to figure out how to link deeper into a video, after a certain
 amount of seconds just before X starts,
 [splashy](http://splashy.alioth.debian.org/wiki/) prematurely quits. That's a
 bug.
