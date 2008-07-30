@@ -9,7 +9,7 @@
 Core packages:
 
 * [webconverger-base](http://git.webconverger.org/?p=webconverger-base.git)
-* [iceweasel-webconverger](http://git.webconverger.org/?p=iceweasel-webconverger.git) the Mozilla [[kiosk]] extensio
+* [iceweasel-webconverger](http://git.webconverger.org/?p=iceweasel-webconverger.git) the Mozilla [[kiosk]] extension
 * [webconverger-archive-keyring](http://git.webconverger.org/?p=webconverger-archive-keyring.git) the public key used for secure updates
 
 ## Quick links
@@ -41,7 +41,7 @@ The most important elements of building Webconverger are:
 
 Then typically use VMWARE for [[testing]] your freshly built image.
 
-* [[todo]] has a list of bugs I need to fix. Please help me out and you will be [[acknowledged|acknowledgements]] for your contribution.
+* [[todo]] has a list of bugs that need to be fixed. Please help me out and you will be [[acknowledged|acknowledgements]] for your contribution.
 * Read [Testing setup guide](http://wiki.debian.org/DebianLive/Howto/Creating_a_Test_environment)
 * Join the [Debian Live](http://debian-live.alioth.debian.org/) community. See the [dev mailing list archives](http://lists.alioth.debian.org/pipermail/debian-live-devel/)
 
