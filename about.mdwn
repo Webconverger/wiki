@@ -13,6 +13,11 @@ href="http://en.wikipedia.org/wiki/Hybrid_client">hybrid</a> clients,
 Webconverger is faster and more responsive by providing a up-to-date Web browser that runs
 locally.</p>
 
+# Why Webconverger
+
+* Reliability
+* Better [[i18n]] support for difficult locales like Chinese, Korean and Japanese
+
 # Comparison with Microsoft Windows products
 
 Webconverger [[mini]] or [[maxi]] available for free download does not have any [[wireless_networking|networking]] support.
