@@ -1,33 +1,8 @@
-Extension(s) that meet the requirements of Webconverger customers. Currently there are several scenarios.
-
-## Webconverger's Firefox extension has a [git repository](http://git.webconverger.org/?p=iceweasel-webconverger.git)
-
 # iceweasel-webconverger
 
 Default and most common.
 
 <a href="http://www.flickr.com/photos/hendry/845129157/" title="Photo Sharing"><img src="http://farm2.static.flickr.com/1188/845129157_824320ad82_m.jpg" width="240" height="180" alt="Webconverger booted" /></a>
-
-## Test the extension on your Firefox browser
-
-[http://webconverger.com/xpis](http://webconverger.com/xpis)
-
-This will lock down the browser and you'll need to use the `firefox --safe-mode` to remove it.
-
-The best way of installing and removing this extension is with:
-
-    deb http://debian.webconverger.com/ lenny/
-    deb-src http://debian.webconverger.com/ lenny/
-
-in your /etc/apt/sources.list and the `apt-get install iceweasel-webconverger` on a Debian machine.
-
-### Resources
-
-* [http://developer.mozilla.org/en/docs/Code_snippets:Tabbed_browser](http://developer.mozilla.org/en/docs/Code_snippets:Tabbed_browser)
-* [http://developer.mozilla.org/en/docs/XUL:browser](http://developer.mozilla.org/en/docs/XUL:browser)
-* about:config and keywords like "privacy"
-
-	x61:~/ff3/source/mozilla% vim browser/themes/gnomestripe/browser/browser.css
 
 # iceweasel-webcnoaddressbar
 
@@ -39,13 +14,14 @@ Customization option. For customers who want patrons to browse, but not enter in
 
 <a href="http://www.flickr.com/photos/hendry/2738789515/" title="webc tab killer by Kai Hendry, on Flickr"><img src="http://farm4.static.flickr.com/3130/2738789515_650fcd06dc.jpg" width="447" height="500" alt="webc tab killer" /></a>
 
-Similar to the popular [Tab killer extension](https://addons.mozilla.org/en-US/firefox/addon/1938)
+Similar to the popular [Tab killer extension](https://addons.mozilla.org/en-US/firefox/addon/1938). Tabs _may_ convince some novice users.
 
 # iceweasel-webcyourlibrary
 
 <a href="http://www.flickr.com/photos/hendry/2738794775/" title="webcyourlibrary by Kai Hendry, on Flickr"><img src="http://farm4.static.flickr.com/3240/2738794775_856e66cc28.jpg" width="500" height="313" alt="webcyourlibrary" /></a>
 
-Especially commissioned by [your library Canada](http://yourlibrary.ca/) you required:
+Especially commissioned by [your library Canada](http://yourlibrary.ca/), who wanted:
+
 * no address bar
 * no tabs
 
@@ -65,6 +41,19 @@ Upstream was also a little un-cooperative.
 
 * [iceweasel-webconverger.git](http://git.webconverger.org/?p=iceweasel-webconverger.git).
 
+## Test the extension on your Firefox browser
+
+[http://webconverger.com/xpis](http://webconverger.com/xpis)
+
+This will lock down the browser and you'll need to use the `firefox --safe-mode` to remove it.
+
+The best way of installing and removing this extension is with:
+
+    deb http://debian.webconverger.com/ lenny/
+    deb-src http://debian.webconverger.com/ lenny/
+
+in your /etc/apt/sources.list and the `apt-get install iceweasel-webconverger` on a Debian machine.
+
 ## Slideware
 
 "iceweasel-fullerscreen" is the name of the package of Daniel Glazman's
@@ -74,6 +63,7 @@ It is good particularly for slideshows, though not digital signage as
 
 #### Further Links
 
+* [Ubufox](http://packages.ubuntu.com/search?keywords=ubufox) - Ubuntu's custom kiosk modifications
 * [Another kiosk wiki](http://stlouis-shopper.com/cgi-bin/mozdev-wiki/kiosk-wiki.pl)
 * [Kiosk browser extension](https://addons.mozilla.org/firefox/954/)
 * [Bugzilla kiosk related bugs](https://bugzilla.mozilla.org/buglist.cgi?quicksearch=kiosk)
