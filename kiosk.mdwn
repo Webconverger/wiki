@@ -1,6 +1,6 @@
 Extension(s) that meet the requirements of Webconverger customers. Currently there are several scenarios.
 
-## Webconverger's Firefox extension now has a [git repository](http://git.webconverger.org/?p=iceweasel-webconverger.git)
+## Webconverger's Firefox extension has a [git repository](http://git.webconverger.org/?p=iceweasel-webconverger.git)
 
 # iceweasel-webconverger
 
@@ -10,10 +10,9 @@ Default and most common.
 
 ## Test the extension on your Firefox browser
 
-[http://webconverger.com/webc.xpi](http://webconverger.com/webc.xpi)
+[http://webconverger.com/xpis](http://webconverger.com/xpis)
 
-This will lock down the browser and you'll need to use the `firefox
---safe-mode` to remove it.
+This will lock down the browser and you'll need to use the `firefox --safe-mode` to remove it.
 
 The best way of installing and removing this extension is with:
 
@@ -35,6 +34,20 @@ in your /etc/apt/sources.list and the `apt-get install iceweasel-webconverger` o
 Customization option. For customers who want patrons to browse, but not enter in URLs.
 
 <a href="http://www.flickr.com/photos/hendry/903110079/" title="Photo Sharing"><img src="http://farm2.static.flickr.com/1292/903110079_30e70db715_m.jpg" width="240" height="180" alt="iceweasel-webcnoaddressbar" /></a>
+
+# iceweasel-webctabkiller
+
+<a href="http://www.flickr.com/photos/hendry/2738789515/" title="webc tab killer by Kai Hendry, on Flickr"><img src="http://farm4.static.flickr.com/3130/2738789515_650fcd06dc.jpg" width="447" height="500" alt="webc tab killer" /></a>
+
+Similar to the popular [Tab killer extension](https://addons.mozilla.org/en-US/firefox/addon/1938)
+
+# iceweasel-webcyourlibrary
+
+<a href="http://www.flickr.com/photos/hendry/2738794775/" title="webcyourlibrary by Kai Hendry, on Flickr"><img src="http://farm4.static.flickr.com/3240/2738794775_856e66cc28.jpg" width="500" height="313" alt="webcyourlibrary" /></a>
+
+Especially commissioned by [your library Canada](http://yourlibrary.ca/) you required:
+* no address bar
+* no tabs
 
 # iceweasel-webcfullscreen
 
