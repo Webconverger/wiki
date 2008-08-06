@@ -1,6 +1,6 @@
 As I mentioned on the previous blog titled [[Roadmap]], [Brendan Sleight is helping out the
 project by running a Webconverger ISO through qemu and recording it to a
-video.](http://autotesting.livecd.org/webconverger/i386/webc-3.2.mini.iso/current/play-video-booting-swf.html)
+video.](http://autotesting.livecd.org/webconverger/)
 Awesome eh?
 
 <img src="http://autotesting.livecd.org/webconverger/i386/webc-3.2.mini.iso/current/video-booting-montage.jpg" alt="Webconverger montage booting"/>
