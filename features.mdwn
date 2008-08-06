@@ -1,7 +1,5 @@
 [Customize Webconverger](http://webconverger.com/buy/) for your own homepage like banks, museums, car dealerships and many other customers have done. Most customers just need their [[homepage]] customised, however there are further options:
 
-This page lists technical features. For non-technical argumentation see [the About Webconverger page.](http://webconverger.com/about/)
-
 # [[mini]]
 
 1. [[ISO]] (with [[grub|boot]]) and/or [[USB]] image varieties for [download](http://download.webconverger.com/)
@@ -18,9 +16,9 @@ This page lists technical features. For non-technical argumentation see [the Abo
 
 # Extras for customization for [purchasing](http://webconverger.com/buy/)
 
-* [[Digital_signage_modes|kiosk]]
+* Different layouts of the browser, such as disabling address bar and [[digital_signage_modes|kiosk]]
 * [[Filtering]]
+* Screen [[blanking]] options
 * [[Remote_administration|vnc]]
-* [[Custom_browser_settings|kiosk]]
 * Automatic [[upgrade]] features
-* Locking down the bootloader so [[boot]] options cannot be altered
+* Locking down the bootloader so [[boot]] options cannot be altered by users on machine boot

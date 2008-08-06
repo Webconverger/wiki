@@ -18,6 +18,21 @@ Cons: These appliances focus on firewalls, though Webconverger does **not** actu
 
 Whitelisting can be done fairly easily with [tinyproxy](http://tinyproxy.sourceforge.net/). If you need whitelisting, just follow up with an email of your "white-listed" domains.
 
+## Webconverger with OpenDNS
+
+[OpenDNS](http://www.opendns.com/) provide a filtering service.
+
+### Pros
+
+* Easy to implement (no cost)
+* Does not add any weight to Webconverger
+
+### Cons
+
+* Not really open :-)
+* Not using your ISP's DNS, so quite possibly slow
+* Only works on the Internet (so not good for Internal networks ... )
+
 ## Webconverger with content filtering
 
 * [ProCon extension](https://addons.mozilla.org/en-US/firefox/addon/1803) [FTP](http://ftp.iasi.roedu.net/mirrors/mozdev.org/procon/?C=M;O=A)
@@ -25,7 +40,6 @@ Whitelisting can be done fairly easily with [tinyproxy](http://tinyproxy.sourcef
 For those who **really** need a basic pornography filter, this can be included in the ProCon Alba 'solution' in a special customisation.
 
 ### Cons
-
 
 * Webconverger will be **slower** running these extra services
 * There are always ways of getting around content filtering. e.g. Many porn Web sites do not have any text, only images.

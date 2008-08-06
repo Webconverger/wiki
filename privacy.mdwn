@@ -3,10 +3,14 @@
 Webconverger is designed to ensure users privacy and [[security]] whilst
 surfing the Web.
 
-Webconverger Ltd does not currently collect any information about how you use
-Webconverger.  Earlier versions (before 2.31) were collecting version, boot
-parameters (e.g. homepage=) and MAC information.
+Webconverger limited (the company) does not currently collect any information
+about how you use Webconverger.  Earlier versions (before 2.31) were collecting
+version, boot parameters (e.g. homepage=) and MAC information.
 
 All *.webconverger.[com|org] sites have standard [Apache](http://apache.org/)
 logs, which will log you if you visit that site. Logs are typically rotated
 (deleted) within a year.
+
+Webconverger.org is using [Google analytics](https://www.google.com/analytics/)
+
+If you are concerned about your privacy, use Webconverger. :-)
