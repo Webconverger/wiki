@@ -14,7 +14,7 @@ And comment out the 999 part. :)
 
 I've contacted [Debian Live about this 999 issue](http://lists.alioth.debian.org/pipermail/debian-live-devel/2008-June/003863.html). It turns out it's for a [work around](http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=433076).
 
-* Clean up X detection scripts, e.g. xvideomode=
+* Clean up X detection scripts, e.g. xvideomode= does not seem to work
 
 # kioskresetstation bug
 

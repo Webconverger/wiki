@@ -1,5 +1,7 @@
 # Embedded hardare
 
+Update: These devices are becoming known as "[net tops](http://en.wikipedia.org/wiki/Nettop_(computer))". The Atom based generation should fix some of the Cons listed below...
+
 Most of todays embedded boards are based on [AMD Geode](http://en.wikipedia.org/wiki/AMD_Geode) LX platform. Some of the [mini
 PCs](http://en.wikipedia.org/wiki/Template:Linux_mini_computers) are:
 
