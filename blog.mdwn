@@ -4,4 +4,4 @@
 
 [[inline pages="blog/entry/* and !blog/entry/*/*" 
 feedpages="created_after(blog/entry/Testing_123)" show="10"
-actions=yes rss=yes rootpage="blog/entry"]]
+actions=no rss=yes rootpage="blog/entry"]]
