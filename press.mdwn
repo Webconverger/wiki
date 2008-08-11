@@ -10,6 +10,9 @@ Clients use Webconverger in:
 * In educational institutions
 * Libraries
 * Charities
+* Hotels
+* Tourist information infopoints
+* Waiting rooms
 
 
 Web feedback
