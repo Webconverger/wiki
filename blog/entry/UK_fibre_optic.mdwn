@@ -26,7 +26,7 @@ Typically a demanding UK business could be connected by LAN Extension aka
 market in the UK is full of mis-leading acronyms and terminology. The sales
 people will ease you into a false sense of confusion. Bonded, expresstream,
 dedicated, scalable 2M-10M and other sort of bollocks. Dedicated "tail
-circuits" to their point of presences (PoP) typically start at 2500GBP for
+circuits" to their [point of presences (PoP)](http://en.wikipedia.org/wiki/Point_of_presence) typically start at 2500GBP for
 installation and similar upkeep costs per month.
 
 If you ask a reasonable question like: "Will my upload channel be faster than the
@@ -48,6 +48,8 @@ equipment rental and bandwidth costs. If I was budgeting, I would say 50k GBP
 was needed just to get started.
 
 ## Non-Wired West
+
+<a href="http://www.flickr.com/photos/hendry/2756836140/" title="Globalcrossing UK fibre optic map by Kai Hendry, on Flickr"><img src="http://farm4.static.flickr.com/3169/2756836140_566a6ceafa.jpg" width="500" height="353" alt="Globalcrossing UK fibre optic map" /></a>
 
 The irony is in Cornwall, [Praze Farm](http://prazefarm.co.uk/), my family home
 is adjacent to fibre optic cable running along the A30. Probably the [fastest
@@ -90,13 +92,13 @@ Exeter to Penzance, they were interested too about getting connected to fibre. T
 Imagine your business could only have **one** telephone line. That's what *good
 domestic broadband* or 'entry level' leased line gives your business. The
 ability to handle just one customer at a time. Your business would not be able
-to grow.  This is the state of the current IT infrastructure in Britain.
+to grow.  This is the infertile state of the current IT infrastructure in Britain.
 
 Aside from the frustrating [UK business banking
 service](http://natalian.org/archives/2008/08/06/british-banking/) to deal
-with, I can't help but think if a serious IT firm wanted to innovate it have to
-be based elsewhere. Fact is, there aren't many fertile grounds in the world. I
-can only think of:
+with, I can't help but think if a serious IT firm wanted to innovate it would
+have to be based elsewhere. Fact is, there aren't many fertile grounds in the
+world. I can only think of:
 
 * USA, especially silicon valley
 * Japan
