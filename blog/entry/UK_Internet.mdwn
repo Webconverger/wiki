@@ -161,9 +161,9 @@ actually be English, but their customer service is terrible.
 
 ## Recommendations
 
-If I was [ofcom](http://www.ofcom.org.uk/) I would probably waste my time trying
+If I was [OFCOM](http://www.ofcom.org.uk/) I would probably waste my time trying
 to rectify some of my complaints. I know it won't happen. Right now I just feel
 like moving back to [Korea](http://natalian.org/archives/tag/korea/). Where
-10mbit symmetrical connections on fiber is like the baseline.
+100mbit symmetrical connections on fiber is like the baseline.
 
-If you like this, you might like the [[UK fibre optic]] essay.
+If you like this, you might like the [[UK_fibre_optic]] essay.
