@@ -85,18 +85,18 @@ connection.  After calling
 [EnterpriseMoucel](http://www.enterprisemouchel.com/) who manage the A30 from
 Exeter to Penzance, they were interested too about getting connected to fibre. They need fast Internet for their cameras to stream data to their control centre. Currently they use an obscenely expensive microwave link between [Mount and Looe](http://maps.google.co.uk/maps?f=d&saddr=mount,+cornwall&daddr=looe,+cornwall&hl=en&geocode=&mra=ls&dirflg=w&sll=50.415675,-4.535715&sspn=0.211331,0.440826&ie=UTF8&ll=50.424706,-4.534607&spn=0.21129,0.440826&t=h&z=11) supplied by [BT](http://en.wikipedia.org/wiki/British_Telecom).
 
-# An analogy
+## An analogy
 
 Imagine your business could only have **one** telephone line. That's what *good
-domestic broadband* or a leased line gives your business. The ability to handle
-just one customer at a time. Your business would not be able to grow.  This is
-the state of the current IT infrastructure in Britain.
+domestic broadband* or 'entry level' leased line gives your business. The
+ability to handle just one customer at a time. Your business would not be able
+to grow.  This is the state of the current IT infrastructure in Britain.
 
 Aside from the frustrating [UK business banking
 service](http://natalian.org/archives/2008/08/06/british-banking/) to deal
-with, I can't help but think if a serious IT firm wanted to innovate I would
-have to move out of the UK. Fact is, there aren't many fertile grounds in the
-world. I can only think of:
+with, I can't help but think if a serious IT firm wanted to innovate it have to
+be based elsewhere. Fact is, there aren't many fertile grounds in the world. I
+can only think of:
 
 * USA, especially silicon valley
 * Japan
@@ -105,5 +105,6 @@ world. I can only think of:
 
 It's a shame Britain can't seem to get it's act together with respect to wired
 fibre optic Internet link ups when we are such a small country. Attitudes must
-change. Fibre optics must come above ground. Britain needs to get competitive
-in the IT industry for new economies to grow.
+change. Fibre optics must come above ground. Britain must get better wired for
+new economies to grow. Government should make this a national issue and
+nationalise the fibre optic network.
