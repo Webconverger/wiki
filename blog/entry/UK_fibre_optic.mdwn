@@ -102,7 +102,7 @@ with, I can't help but think if a serious IT firm wanted to innovate it would
 have to be based elsewhere. Fact is, there aren't many fertile grounds in the
 world. I can only think of:
 
-* USA, especially silicon valley
+* USA, especially [Silicon Valley](http://en.wikipedia.org/wiki/Silicon_valley)
 * Japan
 * Korea
 * Bangalore, India
