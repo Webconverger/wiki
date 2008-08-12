@@ -1,0 +1,107 @@
+## Google could not have started in the UK
+
+In order to be a successful 'dot COM' business a good Internet connection is a
+basic requirement. No, you can't "work from anywhere". You must have a fast &
+reliable Internet connection.
+
+Most Web developers in the UK host their applications in the USA where the
+costs are much lower. Any company I've heard that co-locates or rents space in
+the UK is paying about a two fold premium. However it's about [20% cheaper in
+Germany](http://wiki.webvm.net/hardware/hosting/), with 3x increased latencies.
+
+Now if you really an innovative IT company you really need your machines and
+services close by for development iterations.
+
+**Google could never have started in the UK.** How on earth would they have had
+the right IT environment to grow when bandwidth is so incredibly expensive in
+the UK?  [JANET](http://en.wikipedia.org/wiki/JANET) don't have a clear policy
+WRT commercial hosting. From past of experience of JANET network administrators
+if you wanted them to host an enterprise like Google they would have responded
+with their typical "can't do" attitude.
+
+## Bamboozled
+
+Typically a demanding UK business could be connected by LAN Extension aka
+'leased line' aka LES100 (mbit) or WES (wholesale). This high end Internet
+market in the UK is full of mis-leading acronyms and terminology. The sales
+people will ease you into a false sense of confusion. Bonded, expresstream,
+dedicated, scalable 2M-10M and other sort of bollocks. Dedicated "tail
+circuits" to their point of presences (PoP) typically start at 2500GBP for
+installation and similar upkeep costs per month.
+
+If you ask a reasonable question like: "Will my upload channel be faster than the
+100 kB/sec I currently get from my [Virgin
+XL](http://webconverger.org/blog/entry/UK_Internet/) connection, the sales
+people won't know. They'll sprout bullshit about how their contention is better
+or that they can handle more parralel connections. Actually I just want to
+serve (upload) as fast as possible. 100 kB/sec is too slow. Most domestic
+broadband can currently suck down at 1000kB/sec to give you some perspective.
+
+The fact is that most UK leased lines barely compete with cabled domestic connections.
+
+If your company is based in London, perhaps you can actually connect straight
+up to fibre to an exchange like [LONAP](http://www.lonap.net/). This typically
+will cost your premises at **least** 20kGBP to get hooked up. Plus all sorts of
+equipment rental and bandwidth costs. If I was budgeting, I would say 50k GBP
+was needed just to get started.
+
+## Non-Wired West
+
+The irony is in Cornwall, [Praze Farm](http://prazefarm.co.uk/), my family home
+is adjacent to fibre optic cable running along the A30. Probably the [fastest
+Internet connections in the world are the transatlantic links between Cornwall
+and New York](http://en.wikipedia.org/wiki/AC-2). However neither [Global
+Crossing](http://en.wikipedia.org/wiki/Global_Crossing) or
+[EasyNet](http://www.easynet.com), would consider a splice into either of their
+cables that run along the A30.
+
+If you believed the "connected" hype from government and schemes derived from
+[Objective One](http://en.wikipedia.org/wiki/Objective_One) such as:
+
+* [Actnow Cornwall](http://www.actnowcornwall.co.uk)
+* [Wired West](http://www.wiredwest.co.uk/site/1/CORNWALL_HUB.html)
+* [Beacon technology park](http://www.objectiveone.com/client/media/media-522.htm)
+
+You could be fooled into thinking that EU money was going into improving the IT
+infrastructure in the South West of England. The truth is very different.
+
+There are no "point of presence" (PoP) hubs in Cornwall as far as I'm aware, so
+you can not get a high end leased line if you wanted to. In the Cornish
+countryside a typical broadband connection is about 1M. So a leased line to 10M
+would be a massive improvement, but as mentioned before at great cost. Anyway
+there is no such option offered by BT.
+
+The fastest connections in Cornwall are probably at Penwith College (Penzance),
+University College Falmouth & Truro College, all connected by the JANET
+offshoot [SWERN](http://www.swern.net.uk/). However they have no links near me
+in Bodmin, I've checked.
+
+## The highways agency
+
+Webconverger isn't the only company that could do with a fast Internet
+connection.  After calling
+[EnterpriseMoucel](http://www.enterprisemouchel.com/) who manage the A30 from
+Exeter to Penzance, they were interested too about getting connected to fibre. They need fast Internet for their cameras to stream data to their control centre. Currently they use an obscenely expensive microwave link between [Mount and Looe](http://maps.google.co.uk/maps?f=d&saddr=mount,+cornwall&daddr=looe,+cornwall&hl=en&geocode=&mra=ls&dirflg=w&sll=50.415675,-4.535715&sspn=0.211331,0.440826&ie=UTF8&ll=50.424706,-4.534607&spn=0.21129,0.440826&t=h&z=11) supplied by [BT](http://en.wikipedia.org/wiki/British_Telecom).
+
+# An analogy
+
+Imagine your business could only have **one** telephone line. That's what *good
+domestic broadband* or a leased line gives your business. The ability to handle
+just one customer at a time. Your business would not be able to grow.  This is
+the state of the current IT infrastructure in Britain.
+
+Aside from the frustrating [UK business banking
+service](http://natalian.org/archives/2008/08/06/british-banking/) to deal
+with, I can't help but think if a serious IT firm wanted to innovate I would
+have to move out of the UK. Fact is, there aren't many fertile grounds in the
+world. I can only think of:
+
+* USA, especially silicon valley
+* Japan
+* Korea
+* Bangalore, India
+
+It's a shame Britain can't seem to get it's act together with respect to wired
+fibre optic Internet link ups when we are such a small country. Attitudes must
+change. Fibre optics must come above ground. Britain needs to get competitive
+in the IT industry for new economies to grow.
