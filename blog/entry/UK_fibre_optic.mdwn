@@ -51,8 +51,8 @@ was needed just to get started.
 
 <a href="http://www.flickr.com/photos/hendry/2756836140/" title="Globalcrossing UK fibre optic map by Kai Hendry, on Flickr"><img src="http://farm4.static.flickr.com/3169/2756836140_566a6ceafa.jpg" width="500" height="353" alt="Globalcrossing UK fibre optic map" /></a>
 
-The irony is in Cornwall, [Praze Farm](http://prazefarm.co.uk/), my family home
-is adjacent to fibre optic cable running along the A30. Probably the [fastest
+The irony is in [Cornwall, Praze Farm](http://prazefarm.co.uk/), my family home
+is adjacent to fibre optic cable running along the A30 motorway. Probably the [fastest
 Internet connections in the world are the transatlantic links between Cornwall
 and New York](http://en.wikipedia.org/wiki/AC-2). However neither [Global
 Crossing](http://en.wikipedia.org/wiki/Global_Crossing) or
@@ -70,15 +70,16 @@ You could be fooled into thinking that EU money was going into improving the IT
 infrastructure in the South West of England. The truth is very different.
 
 There are no "point of presence" (PoP) hubs in Cornwall as far as I'm aware, so
-you can not get a costly high end leased line if you wanted to. In the Cornish
-countryside a typical broadband connection is about 1M. So a leased line to
-2M~10M would be a massive improvement, at great cost. Anyway there is no such
-option offered by BT.
+you can **not** get a costly high end leased line if you wanted to. In the
+Cornish countryside a typical broadband connection is about 1M. So a leased
+line to 2M~10M would be a massive improvement, at great expense. Anyway there
+is no such (WES) option offered by British Telecom (BT).
 
 The fastest connections in Cornwall are probably at Penwith College (Penzance),
-University College Falmouth & Truro College, all connected by the JANET
-offshoot [SWERN](http://www.swern.net.uk/). However they have no links near me
-in Bodmin, I've checked.
+University College Falmouth & Truro College, all connected by the
+[JANET](http://en.wikipedia.org/wiki/JANET) offshoot
+[SWERN](http://www.swern.net.uk/). However they have no links near me in
+Bodmin, I've checked.
 
 ## The highways agency
 
@@ -87,12 +88,13 @@ connection.  After calling
 [EnterpriseMoucel](http://www.enterprisemouchel.com/) who manage the A30 from
 Exeter to Penzance, they were interested too about getting connected to fibre. They need fast Internet for their cameras to stream data to their control centre. Currently they use an obscenely expensive microwave link between [Mount and Looe](http://maps.google.co.uk/maps?f=d&saddr=mount,+cornwall&daddr=looe,+cornwall&hl=en&geocode=&mra=ls&dirflg=w&sll=50.415675,-4.535715&sspn=0.211331,0.440826&ie=UTF8&ll=50.424706,-4.534607&spn=0.21129,0.440826&t=h&z=11) supplied by [BT](http://en.wikipedia.org/wiki/British_Telecom).
 
-## An analogy
+## Compared to copper
 
 Imagine your business could only have **one** telephone line. That's what *good
 domestic broadband* or 'entry level' leased line gives your business. The
-ability to handle just one customer at a time. Your business would not be able
-to grow.  This is the infertile state of the current IT infrastructure in Britain.
+ability to serve just one customer at a time. Your business would not be able
+to grow.  This is the infertile state of the current IT infrastructure in
+Britain.
 
 Aside from the frustrating [UK business banking
 service](http://natalian.org/archives/2008/08/06/british-banking/) to deal
