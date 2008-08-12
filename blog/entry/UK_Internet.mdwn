@@ -31,13 +31,13 @@ number from a landline, but I don't have a landline phone. I only have a
 charges a fortune for calling 0808 numbers.
 
 So ADSL2+ seemed to work. While I was on the line I asked the upload channel to
-increased, which they did. So I was getting 200kB/sec up which was nice. I
+be increased, which they did. So I was getting 200kB/sec up which was nice. I
 typically build Webconverger ISOs locally and upload, hence I need a good
 upload channel to deliver the finished product. Uploading is typically a pain
 on ADSL and typical home access points. I believe the problem is the upload
-channel gets full and doesn't properly handle ACKs.  The result is an upload
-renders the Internet connection close to useless. So I usually have to upload
-overnight, which is a pain.
+channel gets full and doesn't properly handle ACKs.  The result is a long
+running ADSL  upload renders the Internet connection close to useless. So I
+usually have to upload overnight, which is a pain.
 
 There were connection errors and sadly the upload channel never seemed to 
 reach the first 2 mbit speeds which I had experienced when I first tried. Anyway I was quite happy with
@@ -81,7 +81,7 @@ to be able to get it!!
 Signing up for cable from Virgin is quite tricky. They offer ADSL broadband too
 and if you are not careful you might actually order BT line rental, ADSL,
 mobile phone, some television package and some sort of credit card deal. And
-not cable Internet you wanted.
+not the cable Internet you wanted.
 
 In fact if you just want **cable Internet** and not any of the other Virgin
 offers like BT line rental, it's actually more expensive. So you're almost
@@ -91,7 +91,7 @@ Virginmedia selling BT line rental seems a little bizarre to me. As someone
 with a BT line can now get ADSL instead of their cable Internet package. So
 they are effectively trying to sell a product that rivals their own. Like
 Microsoft did with Internet Explorer. Pushing a Web platform that rivals their
-own Win32 platform. Stupid business.
+own Win32 platform. Silly business.
 
 <a href="http://www.flickr.com/photos/hendry/2097786288/" title="Virgin topside by Kai Hendry, on Flickr"><img src="http://farm3.static.flickr.com/2268/2097786288_716692268f_m.jpg" width="180" height="240" alt="Virgin topside" /></a>
 
@@ -103,7 +103,7 @@ from calling from my mobile. Instead I tried to find a computer with Windows on 
 
 Eventually I managed to sign up with a Win32 machine and get VirginMedia
 working.  My friend went through the pain and agony of filling in their brain
-dead forms.  Why can't they setup the modem?
+dead forms.  Why can't they setup the modem beforehand?
 
 Stupidly they sent me two logins which arrived in separate posts. One with my name spelt
 incorrectly and one login with my name spelt correctly. Guess which one worked?
@@ -137,7 +137,7 @@ customers more money. Though the BT line would only be working once my 30 day
 trial of VirginMedia expired. And would the BE ISP working once the line comes
 up (on a new number)? Very risky.
 
-I called up VirginMedia to find out exactly when the last day of trial was.
+I called up VirginMedia to find out exactly when the last day of the trial was.
 Whilst on the line to the cancellation/disconnection department, they lowered
 my package cost from 37GBP to 29GBP. I wasn't looking for a discount, I just
 wanted to know the last day of my trial!
@@ -145,8 +145,8 @@ wanted to know the last day of my trial!
 So BT line rental is about 12GBP and the "BE Pro" package is 22GBP a month =
 34GBP BE I estimate is about a '12mbit down, 2mbit up' line. However it seems
 to suffer from errors, instability and higher latencies compared to my Virgin
-Media connection. However it could not compare the two lines as well as I'd
-like to as they were never working alongside each other.
+Media connection. However it could not compare cable and ADSL lines as well as
+I'd like to as they were never working alongside each other. :/
 
 So since VirginMedia seems to be working and is slightly cheaper I decided to
 cancel my BT order(s) and cancel BE. [BE or the O2
@@ -165,3 +165,5 @@ If I was [ofcom](http://www.ofcom.org.uk/) I would probably waste my time trying
 to rectify some of my complaints. I know it won't happen. Right now I just feel
 like moving back to [Korea](http://natalian.org/archives/tag/korea/). Where
 10mbit symmetrical connections on fiber is like the baseline.
+
+If you like this, you might like the [[UK fibre optic]] essay.
