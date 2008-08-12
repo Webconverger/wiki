@@ -7,15 +7,15 @@ reliable Internet connection.
 Most Web developers in the UK host their applications in the USA where the
 costs are much lower. Any company I've heard that co-locates or rents space in
 the UK is paying about a two fold premium. However it's about [20% cheaper in
-Germany](http://wiki.webvm.net/hardware/hosting/), with 3x increased latencies.
+Germany](http://wiki.webvm.net/hardware/hosting/) compared to UK, with 3x increased latencies.
 
-Now if you really an innovative IT company you really need your machines and
+Now if you are an innovative IT company you really need your machines and
 services close by for development iterations.
 
 **Google could never have started in the UK.** How on earth would they have had
 the right IT environment to grow when bandwidth is so incredibly expensive in
 the UK?  [JANET](http://en.wikipedia.org/wiki/JANET) don't have a clear policy
-WRT commercial hosting. From past of experience of JANET network administrators
+WRT commercial hosting. From past experience of JANET network administrators
 if you wanted them to host an enterprise like Google they would have responded
 with their typical "can't do" attitude.
 
@@ -31,13 +31,15 @@ installation and similar upkeep costs per month.
 
 If you ask a reasonable question like: "Will my upload channel be faster than the
 100 kB/sec I currently get from my [Virgin
-XL](http://webconverger.org/blog/entry/UK_Internet/) connection, the sales
+XL](http://webconverger.org/blog/entry/UK_Internet/) connection?", the sales
 people won't know. They'll sprout bullshit about how their contention is better
 or that they can handle more parralel connections. Actually I just want to
 serve (upload) as fast as possible. 100 kB/sec is too slow. Most domestic
 broadband can currently suck down at 1000kB/sec to give you some perspective.
 
-The fact is that most UK leased lines barely compete with cabled domestic connections.
+The fact is that most business UK leased lines barely compete with cabled
+domestic connections. Especially since high quality broadband ADSL connections
+are no more than 30GBP a month, it's a scandal.
 
 If your company is based in London, perhaps you can actually connect straight
 up to fibre to an exchange like [LONAP](http://www.lonap.net/). This typically
@@ -66,10 +68,10 @@ You could be fooled into thinking that EU money was going into improving the IT
 infrastructure in the South West of England. The truth is very different.
 
 There are no "point of presence" (PoP) hubs in Cornwall as far as I'm aware, so
-you can not get a high end leased line if you wanted to. In the Cornish
-countryside a typical broadband connection is about 1M. So a leased line to 10M
-would be a massive improvement, but as mentioned before at great cost. Anyway
-there is no such option offered by BT.
+you can not get a costly high end leased line if you wanted to. In the Cornish
+countryside a typical broadband connection is about 1M. So a leased line to
+2M~10M would be a massive improvement, at great cost. Anyway there is no such
+option offered by BT.
 
 The fastest connections in Cornwall are probably at Penwith College (Penzance),
 University College Falmouth & Truro College, all connected by the JANET
