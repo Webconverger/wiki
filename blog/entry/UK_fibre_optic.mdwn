@@ -7,7 +7,7 @@ reliable Internet connection.
 Most Web developers in the UK host their applications in the USA where the
 costs are much lower. Any company I've heard that co-locates or rents space in
 the UK is paying about a two fold premium. However it's about [20% cheaper in
-Germany](http://wiki.webvm.net/hardware/hosting/) compared to UK, with 3x increased latencies.
+Germany](http://wiki.webvm.net/hardware/hosting/) compared to the UK, with 3x increased latencies.
 
 Now if you are an innovative IT company you really need your machines and
 services close by for development iterations.
