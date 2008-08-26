@@ -4,18 +4,12 @@
 * do some sort of device API for attraction (screensaver advertisement) loop
 * do hard drive install version. Exploring this again between the 11-13 of July 2008
 * somehow showcase Firefox 3 features like SVG etc. on the portal
-* look at Ubuntu's custom firefox extension
-
-# 999 bug (without manually fixing this, X will not start)
-
-	sudo vim /usr/bin/lh_chroot_hacks
-
-And comment out the 999 part. :)
-
-I've contacted [Debian Live about this 999 issue](http://lists.alioth.debian.org/pipermail/debian-live-devel/2008-June/003863.html). It turns out it's for a [work around](http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=433076).
-
+* remove the redundant SSL warning and look into fixing the SSL mozilla mess
+* Figure out mozplugger pdf issue on http://tinyurl.com/6npvk5
+* Look into crosses on the tab
 * Clean up X detection scripts, e.g. xvideomode= does not seem to work
 
 # kioskresetstation bug
 
-need a key press after time expires. I've written a C idle program which is a lot simpler than xautolock. i hope to integrate this into the next release and hopefully fix this silly bug.
+Need a key press after time expires. I've written a C idle program which is a
+lot simpler than xautolock.  Need to generate image again.
