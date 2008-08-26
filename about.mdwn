@@ -50,7 +50,7 @@ trouble than it's worth to maintain when most people really just want to check
 their webmail.  I could go on all day ranting about how something like Windows
 XP with Steadystate is inferior to a Webconverger for my usage scenario here.
 
-	> Thanks to Clemens Schaffenrath for providing this analysis
+	> Thanks to Clemens for providing this analysis
 
 # Rationale
 
