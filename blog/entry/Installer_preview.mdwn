@@ -12,8 +12,8 @@ The usual "ABSOLUTELY NO WARRANTY" waiver of liability applies. This is not yet
 for complete novices as you can accidentally wipe the contents of your disk.
 So for [[testing]] I do recommend something like
 [VMware](http://www.vmware.com/). This installer preview does not quite work as
-[[designed|design]] especially as there is no [[upgrade|upgrades]] path!
+[[designed|design]] especially as there is no [[upgrade]] path!
 
-Many [[thanks|acknowlgements]] to [Chris](http://chris-lamb.co.uk/),  Daniel and the [guys](http://alioth.debian.org/project/memberlist.php?group_id=30929) who pushed out [Debian Live 1.0](http://blog.daniel-baumann.ch/2008/08/27#20080827_debian-live-lenny-beta1) out, on which Webconverger is based! :)
+Many [[thanks|acknowledgements]] to [Chris](http://chris-lamb.co.uk/),  Daniel and the [guys](http://alioth.debian.org/project/memberlist.php?group_id=30929) who pushed [Debian Live 1.0](http://blog.daniel-baumann.ch/2008/08/27#20080827_debian-live-lenny-beta1) out, on which Webconverger is based! :)
 
 Spread the word and please [purchase Webconverger for your business](http://webconverger.com/buy/) as [[others|press]] already have. Enjoy!
