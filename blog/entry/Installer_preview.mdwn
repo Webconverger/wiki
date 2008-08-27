@@ -1,12 +1,12 @@
 <a href="http://www.flickr.com/photos/hendry/2801781153/" title="Installing to disk by Kai Hendry, on Flickr"><img src="http://farm4.static.flickr.com/3159/2801781153_c73ddd17ec.jpg" width="500" height="375" alt="Installing to disk" /></a>
 
-A beta release of Webconverger 3.3 which features the long awaited **hard drive
+A beta release of Webconverger 3.3 [[mini]] which features the long awaited **hard drive
 installer** has been painstakingly uploaded on a
-[[slow_British_Internet_connection|UK_fibre_optic]].
+[[slow_British_Internet_connection|UK_fibre_optic]]. :)
 
 Simply boot the Webconverger Live 3.3 CD, select "Install Webconverger" from
 the [[boot]] menu and in a few minutes you should have turned your computer
-into a Web kiosk.
+into a **Web kiosk**.
 
 The usual "ABSOLUTELY NO WARRANTY" waiver of liability applies. This is not yet
 for complete novices as you can accidentally wipe the contents of your disk.
