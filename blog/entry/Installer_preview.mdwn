@@ -19,3 +19,5 @@ So for [[testing]] I do recommend something like
 Many [[thanks|acknowledgements]] to [Chris](http://chris-lamb.co.uk/),  Daniel and the [guys](http://alioth.debian.org/project/memberlist.php?group_id=30929) who pushed [Debian Live 1.0](http://blog.daniel-baumann.ch/2008/08/27#20080827_debian-live-lenny-beta1) out, on which Webconverger is based. :)
 
 Spread the word and please [purchase Webconverger for your business](http://webconverger.com/buy/) as [[others|press]] already have. Enjoy!
+
+<img src="http://digg.com/tools/diggthis.php?u=http://webconverger.org/blog/entry/Installer_preview/"/>
