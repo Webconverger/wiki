@@ -44,6 +44,9 @@ Once Webconverger is booted, shift+alt+enter for a Terminal. =)
 
 append `xvideomode=800x600`
 
+### Disable ACPI (applicable to some [[odd_machines|mpc]] that fail to boot)
+
+append `acpi=off`
 
 ### Want more? See [[develop]] and [[features]]
 

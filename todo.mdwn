@@ -1,12 +1,16 @@
 * wpasupplicant interface
+* integrate [nostromo](http://git.debian.org/?p=users/kai-guest/nostromo)
 * Allow USB mounts so people can upload pictures to Flickr (use case by Phil Waring)
-* fix [[upgrade]]
+* fix [[upgrade]] (esp. on new hard drive installer images)
 * do some sort of device API for attraction (screensaver advertisement) loop
+* device API for USB coin slot
 * somehow showcase Firefox 3 features like SVG etc. on the portal
 * remove the redundant SSL warning and look into fixing the SSL mozilla mess
 * Figure out mozplugger pdf issue on http://tinyurl.com/6npvk5
-* Look into crosses on the tab
+* Look into crosses on the tab instead of the far right
 * Clean up X detection scripts, e.g. xvideomode= does not seem to work
+* generate [source images](http://blog.daniel-baumann.ch/2008/09/01#20080902_debian-not-complying-to-licenses)
+* fix daily builds on au
 
 # kioskresetstation bug
 
