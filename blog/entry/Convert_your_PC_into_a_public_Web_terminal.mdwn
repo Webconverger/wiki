@@ -1,0 +1,23 @@
+The new [[easy-to-use|training]] installer is now part of [[mini]] by default.
+So [downloading the latest mini](http://download.webconverger.com/mini) (> 3.4)
+you will be presented with an option in the Grub [[boot]] menu to install
+Webconverger to your disk. By default Webconverger is a safe Live CD that will
+not touch the existing contents of your disk.
+
+<a href="http://www.flickr.com/photos/hendry/2825408555/" title="Install Webconverger from Grub boot menu by Kai Hendry, on Flickr"><img src="http://farm4.static.flickr.com/3029/2825408555_63c4024307.jpg" width="500" height="375" alt="Install Webconverger from Grub boot menu" /></a>
+
+Sooner than later you will be simply prompted to confirm whether or not to replace the contents of your disk:
+
+<a href="http://www.flickr.com/photos/hendry/2825408483/" title="Click Yes to replace the contents of your disk with Webconverger by Kai Hendry, on Flickr"><img src="http://farm4.static.flickr.com/3194/2825408483_c8cdb83eed.jpg" width="500" height="375" alt="Click Yes to replace the contents of your disk with Webconverger" /></a>
+
+Installation is actually quite fast:
+
+<a href="http://www.flickr.com/photos/hendry/2825408487/" title="Copying to your hard drive... by Kai Hendry, on Flickr"><img src="http://farm4.static.flickr.com/3065/2825408487_ac72e1ef6a.jpg" width="500" height="375" alt="Copying to your hard drive..." /></a>
+
+Perhaps in a couple of minutes you should finally see:
+
+<a href="http://www.flickr.com/photos/hendry/2825408551/" title="All done! by Kai Hendry, on Flickr"><img src="http://farm4.static.flickr.com/3007/2825408551_059d492709.jpg" width="500" height="375" alt="All done!" /></a>
+
+Now you're ready to take out the CD ISO and start installing Webconverger on the next PC. :)
+
+If you don't want the default homepage to be [portal.webconverger.com](http://portal.webconverger.com/) for your particular deployment, then please utilise the [customisation service](http://webconverger.com/buy/).

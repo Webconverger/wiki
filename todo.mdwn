@@ -11,8 +11,14 @@
 * Clean up X detection scripts, e.g. xvideomode= does not seem to work
 * generate [source images](http://blog.daniel-baumann.ch/2008/09/01#20080902_debian-not-complying-to-licenses)
 * fix daily builds on au
+* remove flickr links on [screenshots](http://webconverger.com/screenshots/)
+* improve download page to make downloading the latest mini for example extremely simple
+* have a service to send CDs?
+* fix preseed to choose guided by default (forget LVM+crypto)
 
 # kioskresetstation bug
 
 Need a key press after time expires. I've written a C idle program which is a
-lot simpler than xautolock.  Need to generate image again.
+lot simpler than xautolock. However the problem *still* exists. Still not sure
+what the cause is! I am beginning it's something to do with
+[iceweasel](http://packages.qa.debian.org/i/iceweasel.html)

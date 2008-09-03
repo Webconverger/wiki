@@ -4,8 +4,6 @@ A beta release of Webconverger 3.3 [[mini]] which features the long awaited **ha
 installer** has been painstakingly uploaded on a
 [[slow_British_Internet_connection|UK_fibre_optic]]. :)
 
-[http://download.webconverger.com/mini/webc-3.3b.mini.iso](http://download.webconverger.com/mini/webc-3.3b.mini.iso)
-
 Simply boot the Webconverger Live 3.3 CD, select "Install Webconverger" from
 the [[boot]] menu and in a few minutes you should have turned your computer
 into a **Web kiosk**.
