@@ -14,7 +14,7 @@ Webconverger is [[designed|design]] for [[privacy]] and [[security]], based on:
 * Always clears private data once a session is ended
 * does not allow local data
 
-**When** [[automatic_updates|upgrade]] are enabled (default):
+**When** [[automatic_updates|upgrade]] are enabled:
 
 * Debian security support
 * Latest Firefox/Iceweasel browser

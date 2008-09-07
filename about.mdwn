@@ -18,9 +18,32 @@ locally.</p>
 * Reliability
 * Better [[i18n]] support for difficult locales like Chinese, Korean and Japanese
 
+Webconverger [[mini]] or [[maxi]] available for free download (demo) does not
+have any [[wireless_networking|networking]] support.
+
 # Comparison with Microsoft Windows products
 
-Webconverger [[mini]] or [[maxi]] available for free download does not have any [[wireless_networking|networking]] support.
+Below are products that run on the Windows platform. Microsoft exert their
+monopoly on OEMs, hiding the true license cost of about 60GBP (XP Home) or
+190GBP (Vista Ultimate) from the average consumer.
+
+## Kioware
+
+* [KioWare](http://www.kioware.com)
+
+KioWare's [pricing](http://www.kioware.com/kw_pricing.asp) seems to be based on
+a tradional per seat licensing model. Webconverger customers are free to copy
+and install their [customised](http://webconverger.com/buy/) copy on *as many
+machines as they like*.
+
+So lets take a typical deployment of 10 machines (Pricing effective 9/7/2008 and subject to change):
+
+* Kioware License 135*10 = 1350 USD
+* Webconverger = ~200 USD (Webconverger saves customers 1000USD!)
+
+Support is free of cost with Webconverger for 30 days. Kioware would charge 10 machines:
+
+* Kioware support price 27*10 = 270 USD
 
 ## SiteKiosk
 
