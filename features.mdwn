@@ -1,4 +1,7 @@
-[Customize Webconverger](http://webconverger.com/buy/) for your own homepage like banks, museums, car dealerships and many other customers have done. Most customers just need their [[homepage]] customised, however there are further options:
+[Customize Webconverger](http://webconverger.com/buy/) for your own homepage
+like banks, museums, car dealerships, libraries and many other customers have
+done. Most customers just want their [[homepage]] customised, however there are
+further options:
 
 # [[mini]]
 
@@ -6,7 +9,7 @@
 * Latest [Firefox Web browser](http://en.wikipedia.org/wiki/Firefox) rebuild [Iceweasel](http://en.wikipedia.org/wiki/Iceweasel) by default in every Webconverger.
 * [[Artwork]] - your $HOMEPAGE/bg.png, default being [http://portal.webconverger.com/bg.png](http://portal.webconverger.com/bg.png).
 * [[Kiosk_reset|blanking]] **timeout** with `kioskresetstation=<mins>`. Resets browser after user defined minutes of idleness/inactivity.
-* [[Networking]] customisation. Default is wired DHCP.
+* [[Networking]] customisation. Default is **wired** DHCP.
 * [[Adobe]] (Macromedia) Flash & [PDF viewing](http://flickr.com/photos/hendry/851173358/)
 
 # [[maxi]] = [[mini]] + extras (mainly support for non-English locales)
@@ -14,7 +17,7 @@
 * [[Extensive_internationalization_support|i18n]] -  Exotic locales such as Chinese, Japanese and Korean (CJK) are supported. CJK keyboard switching via [scim](http://en.wikipedia.org/wiki/SCIM) and many other types of keyboard setups, such as Swiss German. Spelling support with dictionaries in many languages. [[maxi]] only.
 * [[Printing]] support
 
-# Extras for customization for [purchasing](http://webconverger.com/buy/)
+# Extras for [customization](http://webconverger.com/buy/)
 
 * Different layouts of the browser, such as disabling address bar and [[digital_signage_modes|kiosk]]
 * [[Filtering]]
