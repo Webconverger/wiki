@@ -11,6 +11,7 @@ further options:
 * [[Kiosk_reset|blanking]] **timeout** with `kioskresetstation=<mins>`. Resets browser after user defined minutes of idleness/inactivity.
 * [[Networking]] customisation. Default is **wired** DHCP.
 * [[Adobe]] (Macromedia) Flash & [PDF viewing](http://flickr.com/photos/hendry/851173358/)
+* [[Convert your PC into a public Web terminal]] with the [[ISO]] installer
 
 # [[maxi]] = [[mini]] + extras (mainly support for non-English locales)
 
