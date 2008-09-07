@@ -39,7 +39,7 @@ machines as they like*.
 So lets take a typical deployment of 10 machines (Pricing effective 9/7/2008 and subject to change):
 
 * Kioware License 135*10 = 1350 USD
-* Webconverger = ~200 USD (Webconverger saves customers 1000USD!)
+* Webconverger = ~200 USD (Webconverger saves customers more than 1000USD!)
 
 Support is free of cost with Webconverger for 30 days. Kioware would charge 10 machines:
 
@@ -47,7 +47,7 @@ Support is free of cost with Webconverger for 30 days. Kioware would charge 10 m
 
 ## SiteKiosk
 
-* [[blog/entry/SiteKiosk_versus_Webconverger]]
+* Please see [[blog/entry/SiteKiosk_versus_Webconverger]]
 
 ## Microsoft Steady State
 
@@ -73,8 +73,6 @@ trouble than it's worth to maintain when most people really just want to check
 their webmail.  I could go on all day ranting about how something like Windows
 XP with Steadystate is inferior to a Webconverger for my usage scenario here.
 
-	> Thanks to Clemens for providing this analysis
-
 # Rationale
 
 <p>Entrepreneurs are not developing for the Windows or the Linux desktop, they’re developing for the prevalent <a href="http://www.joelonsoftware.com/articles/APIWar.html">Web API platform</a>.</p>
@@ -93,6 +91,6 @@ href="http://en.wikipedia.org/wiki/Microsoft_Vista">Vista</a> update.</p>
 
 <p>Webconverger is simply a Web kiosk/terminal, that is easy to deploy and
 secure. In most cases all you need to do is boot from a CD. That's it! A usable
-up to date Web browser that <strong>just works</strong>.</p> 
+up to date Web browser that <strong>just works</strong>.</p>
 
 <p><strong>The Web, just the Web and only the Web.</strong></p>

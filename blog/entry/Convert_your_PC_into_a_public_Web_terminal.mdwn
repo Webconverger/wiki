@@ -1,6 +1,6 @@
 The new [[easy-to-use|training]] installer is now part of Webconverger [[mini]]
 by default and out of [[beta|installer_preview]].  After [downloading the
-latest mini](http://download.webconverger.com/mini) (> 3.4), burning it to a CD
+latest mini](http://download.webconverger.com/mini) (>= 3.4) [[ISO]], burning it to a CD
 and booting your PC with it you should see a [[boot]] menu to install
 Webconverger to your disk. (By default Webconverger is a safe Live CD that will
 not touch the existing contents of your disk.)
