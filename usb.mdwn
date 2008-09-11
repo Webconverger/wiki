@@ -38,6 +38,12 @@ type in something at the toboot: prompt. For example to get boot [[maxi]] with
 
 	live locale=fr
 
+**NEW** from mini 3.4 try:
+
+	installgui
+
+For a [[blog/entry/Webconverger_install_from_USB]]
+
 # Hacking the USB [[boot]]
 
 Plug your Webconverger USB stick in and mount the USB stick, for e.g.:

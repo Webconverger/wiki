@@ -14,12 +14,11 @@ Core packages:
 
 ## Quick links
 
-
 * [[i18n]]
 * [[Artwork]]
+* [Daily development builds](http://build.webconverger.com/)
 * [[Firefox_extension_development|Kiosk]]
 * [Debian Live project](http://debian-live.alioth.debian.org/) and [Live helper packages](http://live.debian.net/)
-
 
 ## Building the image with live-helper
 
@@ -33,11 +32,11 @@ The most important elements of building Webconverger are:
 
 ## Building on a Debian system:
 
- * apt-get install [live-helper](http://packages.qa.debian.org/l/live-helper.html) or rather use the latest from 'deb http://live.debian.net/debian-snapshots/ ./'
+ * apt-get install [live-helper](http://packages.qa.debian.org/l/live-helper.html) or rather use the latest from 'deb http://live.debian.net/debian/ ./'
  * `git clone git://git.debian.org/git/debian-live/config-webc.git`
  * webconverger/ is the base config file. Have a look around.
  * Take a look inside config/. You probably need to edit LIVE_MIRROR variables in the file bootstrap.
- * `lh build` in webconverger/
+ * `lh build` in webconverger/ for [[maxi]] and mini/ for [[mini]]
 
 Then typically use VMWARE for [[testing]] your freshly built image.
 
@@ -47,7 +46,7 @@ Then typically use VMWARE for [[testing]] your freshly built image.
 
 Tips:
 
- * [squid](http://packages.qa.debian.org/s/squid.html) on your build machine saves bandwidth whilst Debian Live's live-helper downloads the packages
+ * [squid](http://packages.qa.debian.org/s/squid.html) and `export http_proxy=http://localhost:3128` on your build machine can save bandwidth whilst Debian Live's live-helper downloads the packages
 
 ## Debug mode with Webconverger
 
@@ -55,9 +54,4 @@ Debugging in Webconverger simply involves removing `nosudo` from the [[boot]] op
 
 ## Customizing service
 
-I hope to earn some money by offering a build service of the above at [Webconverger.com/buy](http://webconverger.com/buy/). You're free to build your own Webconverger image. Please let me know if you can it's application for the [[Testimonials|press]] page.
-
-So I am happy if you're competent enough to make your own [Web operating system](http://natalian.org/archives/2007/05/23/web-operating-systems/).
-Though if you need support services et al, it's best to pay me to do it. ;)
-
-Spread the word, the Web is **the** open computing API for all.
+UK based Webconverger Limited offers a build service of the above at [Webconverger.com/buy](http://webconverger.com/buy/).
