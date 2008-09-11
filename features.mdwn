@@ -11,7 +11,7 @@ further options:
 * [[Kiosk_reset|blanking]] **timeout** with `kioskresetstation=<mins>`. Resets browser after user defined minutes of idleness/inactivity.
 * [[Networking]] customisation. Default is **wired** DHCP.
 * [[Adobe]] (Macromedia) Flash & [PDF viewing](http://flickr.com/photos/hendry/851173358/)
-* Install to your hard disk from [[CD_ISP|blog/entry/Convert_your_PC_into_a_public_Web_terminal]] or [[USB|Webconverger_install_from_USB]]
+* Install to your hard disk from [[CD_ISO|blog/entry/Convert_your_PC_into_a_public_Web_terminal]] or [[USB_stick|blog/entry/Webconverger_install_from_USB]].
 
 # [[maxi]] = [[mini]] + extras (mainly support for non-English locales)
 
