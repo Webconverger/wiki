@@ -53,6 +53,7 @@ Quoted positive feedback
 * 'Thanks for your support and this is a very useful "distribution".' from Christophe
 * 'That was my comment on how good it works! You are a good distro designer. Thanks for your response.' from Francis
 * "A fantastic OS/application-setup - thank you very much." from anonymous
+* I tested Webconverger mini in an ATOM based motherboard and works great. from Mauricio
 
 T-shirts
 ========
