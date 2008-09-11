@@ -8,10 +8,11 @@ you too can experience the joy and ease of installing
 [Webconverger](http://webconverger.com/), the **best Web kiosk software** on the
 planet from a convenient [[USB]] stick!
 
-In development news, stay tuned to the growing [[todo]] list and take a peek at
-the new [Webconverger daily build site](http://build.webconverger.com/). I've
-also finally purchased a Samsung SCX 4200 printer, so I hope to resume [[maxi]]
-images and [[printing]] capabilties. Any questions or feedback? Please mail the
+In development news, stay tuned to the "foward looking" [[todo]] list and take
+a peek at the new [Webconverger daily build
+site](http://build.webconverger.com/). I've also finally purchased a Samsung
+SCX 4200 printer, so I hope to resume [[maxi]] images and [[printing]]
+capabilties. Any questions or feedback? Please mail the
 [forum](http://groups.google.com/group/webc-users/topics) or just get in touch!
 
 For Webconverger business enquiries please email <a
