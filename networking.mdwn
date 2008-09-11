@@ -86,7 +86,7 @@ complication of often proprietary Wireless drivers for each client. The highly
 recommended Linksys WRT54G allows at least four machines to easily plug into
 the router.
 
-Also the blog entry on this topic: [[Better Routing wanted]]
+Also the blog entry on this topic: [[blog/entry/Better_Routing_wanted]]
 
 Recommended firmware:
 
