@@ -1,6 +1,6 @@
 <a href="http://www.flickr.com/photos/hendry/2849197426/" title="USB install of Webconverger by Kai Hendry, on Flickr"><img src="http://farm4.static.flickr.com/3230/2849197426_b3e0d13f9f.jpg" width="500" height="375" alt="USB install of Webconverger" /></a>
 
-From [webc-3.4.mini.img](http://download.webconverger.com/mini/)'s [[boot]] menu, try running: `installgui` (default is `live`).
+From [webc-3.4.mini.img](http://download.webconverger.com/mini/)'s [[boot]] menu, try running: `installgui` (default is `live`)
 
 On my [Thinkpad it croaks a little at
 first](http://flickr.com/photos/hendry/2848365291), but be patient. Hopefully
@@ -8,10 +8,13 @@ you too can experience the joy and ease of installing
 [Webconverger](http://webconverger.com/), the **best Web kiosk software** on the
 planet from a convenient [[USB]] stick!
 
-For Webconverger sales enquiries please email <a href="mailto:&#115;&#097;&#108;&#101;&#115;&#064;&#119;&#101;&#098;&#099;&#111;&#110;&#118;&#101;&#114;&#103;&#101;&#114;&#046;&#099;&#111;&#109;">sales</a>.
-
 In development news, stay tuned to the growing [[todo]] list and take a peek at
 the new [Webconverger daily build site](http://build.webconverger.com/). I've
-also recently purchased a Samsung SCX 4200 printer, so I hope to resume
-[[maxi]] and [[printing]]. Any questions or feedback? Please mail the
+also finally purchased a Samsung SCX 4200 printer, so I hope to resume [[maxi]]
+images and [[printing]] capabilties. Any questions or feedback? Please mail the
 [forum](http://groups.google.com/group/webc-users/topics) or just get in touch!
+
+For Webconverger business enquiries please email <a
+href="mailto:&#115;&#097;&#108;&#101;&#115;&#064;&#119;&#101;&#098;&#099;&#111;&#110;&#118;&#101;&#114;&#103;&#101;&#114;&#046;&#099;&#111;&#109;">sales
+at webconverger dot COM</a>. We need your support and you really need
+Webconverger customised for your homepage. :)
