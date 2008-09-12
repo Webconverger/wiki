@@ -29,6 +29,7 @@ Web feedback
 * [Distrowatch Weekly 20070409](http://distrowatch.com/weekly.php?issue=20070409)
 * [Current favourite for secure Internet banking - Webconverger](http://www.andrewpatrick.ca/security-and-privacy/quest-for-a-good-boot-cd-for-internet-banking/)
 * [Webconverger is a Winner: Very simply Internet kiosk](http://stefanomatic.wordpress.com/2008/09/03/internet-kiosk/)
+* [German tech site profiling USB linux distributions including Webconverger](http://www.tecchannel.de/pc_mobile/linux/1750236/)
 
 Printed Media
 =============
