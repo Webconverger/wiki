@@ -15,7 +15,8 @@ it. Other times I wouldn't. This is why I removed the bug from the
 In hindsight, the **key press** gives the bug away. Though I spent many days
 thinking it was a problem with my
 [code](http://git.webconverger.org/?p=webconverger-base.git;a=tree;f=kioskresetstation).
-I even wrote my own little C program to detect user inactivity. Finally I
+I even wrote my own little C program to detect user inactivity to replace <a
+href="http://packages.qa.debian.org/x/xautolock.html">xautolock</a>. Finally I
 narrowed it down to Iceweasel, as Webkit's GtkLauncher did not have this
 problem.
 
