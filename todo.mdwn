@@ -13,8 +13,4 @@
 * improve download page to make downloading the latest mini for example **extremely** simple
 * have a service to send CDs?
 * fix preseed to choose guided by default (forget LVM+crypto)
-* look into webc-yourlibrary new window homepage breading bug
-
-# kioskresetstation bug
-
-I think it might be still with us. I blame iceweasel, but it's very difficult to debug where the problem lies exactly.
+* look into webc-yourlibrary **new window** homepage breaking bug
