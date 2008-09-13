@@ -2,7 +2,12 @@
 
 `kioskresetstation=5` as a [[boot]] parameter will configure Webconverger to reset after five minutes of inactivity.
 
-A [bug has been reported whereby Webconverger would not start properly without a key press after a reset](http://groups.google.com/group/webc-users/browse_thread/thread/39cf0cca0e1d8038/2381878f7f3b2759).
+A [bug has been reported whereby Webconverger would not start properly without
+a key press after a
+reset](http://groups.google.com/group/webc-users/browse_thread/thread/39cf0cca0e1d8038/2381878f7f3b2759).
+Trouble is most people didn't experience this bug at all. Sometimes I would see
+it. Other times I wouldn't. This is why I removed the bug from the
+[[bug_list|TODO]] only to see it reappear later.
 
 In hindsight, the **key press** gives the bug away. Though I spent many days
 thinking it was a problem with my
@@ -11,7 +16,7 @@ I even wrote my own little C program to detect user inactivity. Finally I
 narrowed it down to Iceweasel, as Webkit's GtkLauncher did not have this
 problem.
 
-After some hardcore debugging by removing `nosudo` from the [[boot_paramenters|boot]] I finally found the bug.
+After some [debugging](http://flickr.com/photos/hendry/2852122333/) by removing `nosudo` from the [[boot_paramenters|boot]] I finally found the bug.
 
 The browser was blocking on a read for random numbers!
 [/dev/random](http://en.wikipedia.org/wiki//dev/random) is the proper random
