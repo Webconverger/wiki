@@ -24,8 +24,8 @@ After some [debugging](http://flickr.com/photos/hendry/2852122333/) by removing 
 The browser was blocking on a read for random numbers!
 [/dev/random](http://en.wikipedia.org/wiki//dev/random) is the proper random
 number generator in Linux and gives generally quite good numbers. However it
-uses random events like **key presses** in order to work. Obvious now isn't it?
+uses entropy like **user input** in order to work. Obvious now isn't it?
 
 Solution: I will probably try removing /dev/random and symlinking to
 /dev/urandom, which is less likely to block. I really need find out why Firefox
-needs random numbers and what's the risk if the quality of randomness drops.
+needs random numbers and what's the risk if the _quality_ of randomness drops.
