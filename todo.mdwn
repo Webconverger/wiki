@@ -14,3 +14,5 @@
 * have a service to send CDs?
 * fix preseed to choose guided by default (forget LVM+crypto)
 * look into webc-yourlibrary **new window** homepage breaking bug
+* fix [xvideomode](http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=499304) [forcing video modes](http://lists.alioth.debian.org/pipermail/debian-live-devel/2008-August/004103.html)
+* fix [live-initramfs](http://groups.google.com/group/webc-users/browse_thread/thread/c002d31ddf74b21c) on HD installs so people can have the familiar options
