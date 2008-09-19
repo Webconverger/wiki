@@ -36,6 +36,8 @@ locale=it
 locale=ja_JP.UTF-8
 ### Korean
 locale=ko_KR.UTF-8
+### Norwegian
+locale=no
 
 # Testing
 
