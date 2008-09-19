@@ -30,3 +30,5 @@ uses entropy like **user input** in order to work. Obvious now isn't it?
 (Possible) Solution: I will probably try symlinking /dev/random ->
 /dev/urandom, which is less likely to block. I really need find out why Firefox
 needs random numbers and what's the risk if the _quality_ of randomness drops.
+
+Update: Mike Hommey has been [working on this problem](http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=499146) and has a [patch](https://bugzilla.mozilla.org/attachment.cgi?id=339296) that I need to test.
