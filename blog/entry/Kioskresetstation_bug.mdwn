@@ -34,6 +34,6 @@ needs random numbers and what's the risk if the _quality_ of randomness drops.
 Update: Mike Hommey has been [working on this
 problem](http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=499146) and has a
 [patch](https://bugzilla.mozilla.org/attachment.cgi?id=339296) on the [Netscape
-portableruntime Debian
+portable runtime Debian
 package](http://packages.qa.debian.org/n/nspr/news/20080920T084726Z.html) as of
 4.7.1-4.
