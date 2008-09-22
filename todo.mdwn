@@ -8,7 +8,6 @@
 * remove the redundant SSL warning and look into fixing the SSL mozilla mess
 * Figure out mozplugger pdf issue on http://tinyurl.com/6npvk5
 * Look into crosses on the tab instead of the far right
-* Clean up X detection scripts, e.g. xvideomode= does not seem to work
 * generate [source images](http://blog.daniel-baumann.ch/2008/09/01#20080902_debian-not-complying-to-licenses) - [apt bug is blocking this](http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=382826)
 * improve download page to make downloading the latest mini for example **extremely** simple
 * have a service to send CDs?
