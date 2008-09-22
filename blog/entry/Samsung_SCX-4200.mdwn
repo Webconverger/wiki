@@ -11,10 +11,10 @@ build date : 2008-09-11  Unified Linux Driver</a>. Though the driver seems to da
 
 	d5e3343099e86317e2068097e017ecb3  20070720152943906_UnifiedLinuxDriver.tar.gz
 
-So I am guess Samsung screwed up the deployment. Anyway after extracting the
-driver I read through `./cdroot/Linux/install.sh`. (You should never ever run
+So I am guessing Samsung screwed up the deployment. Anyway after extracting the
+driver I read through `./cdroot/Linux/install.sh`. _You should never ever run
 shell scripts as root from an untrusted source, without at the very least
-carefully reading the file.) After reading this file, I was not prepared to
+carefully reading the file._ After reading this bloated file, I was not prepared to
 execute it. What a horrific mess of an install. Suck less Samsung.
 
 So I know from previous experience with CUPS, that it generally just needs a
@@ -31,7 +31,8 @@ found. After searching around I found the binaries:
 	pscms*  rastertosamsungpcl*  rastertosamsungspl*  rastertosamsungsplc*
 	x61:~/Desktop/samsung/cdroot/Linux/i386/at_root/usr/lib/cups/filter% sudo cp * /usr/lib/cups/filter
 
-And copied them into the place where install.sh was trying to put them. And guess what? It works. :)
+And copied them into the place where install.sh was trying to put them. And
+guess what? It works. :) Is the black hole binary a rootkit? Who knows! :(
 
 `rastertosamsungspl` and friends use an **insane** amount of shared libraries:
 
@@ -84,7 +85,7 @@ Well done. Though sadly:
 
 Again looking at `install.sh` another proprietary blob (with a FECK load of deps):
 
-	x61:~/Desktop/samsung/cdroot/Linux/i386/at_opt/bin% ldd smfpscan 
+	x61:~/Desktop/samsung/cdroot/Linux/i386/at_opt/bin% ldd smfpscan
 			linux-gate.so.1 =>  (0xb7fac000)
 			libdl.so.2 => /lib/i686/cmov/libdl.so.2 (0xb7f92000)
 			libqt-mt.so.3 => /usr/lib/libqt-mt.so.3 (0xb7899000)
@@ -119,4 +120,4 @@ Again looking at `install.sh` another proprietary blob (with a FECK load of deps
 			libXfixes.so.3 => /usr/lib/libXfixes.so.3 (0xb724f000)
 			libXdmcp.so.6 => /usr/lib/libXdmcp.so.6 (0xb7249000)
 
-Seems required. Argh... no :( Why are things such a nightmare?
+Seems required. Argh... no :( Why are things such a nightmare? I'm not any closer in restoring a supported print service in [[maxi]]. :/
