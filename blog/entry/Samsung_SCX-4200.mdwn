@@ -6,20 +6,19 @@ after I heard it had Linux driver support.
 
 The multi-function printer costs about 62GBP (ex VAT), so it's quite cheap for a laser printer.
 
-After downloading the drivers online from <a href="http://www.samsung.com/us/support/search/supportSearchResultView.do?group=&type=&subtype=&model_nm=SCX-4200&vType=L&mType=UM&dType=D&menu=download">Samsung's terrible support Website</a>.
-
-The [CUPS](http://en.wikipedia.org/wiki/CUPS) driver described as <a href="http://www.samsung.com/us/support/download/supportDownDetail.do?group=&type=&subtype=&model_nm=SCX-4200&language=&cate_type=all&mType=DR&dType=D&vType=L&cttID=828690&prd_ia_cd=06010300&disp_nm=SCX-4200">
+From <a href="http://www.samsung.com/us/support/search/supportSearchResultView.do?group=&type=&subtype=&model_nm=SCX-4200&vType=L&mType=UM&dType=D&menu=download">Samsung's terrible support Website</a>, the [CUPS](http://en.wikipedia.org/wiki/CUPS) driver described as <a href="http://www.samsung.com/us/support/download/supportDownDetail.do?group=&type=&subtype=&model_nm=SCX-4200&language=&cate_type=all&mType=DR&dType=D&vType=L&cttID=828690&prd_ia_cd=06010300&disp_nm=SCX-4200">
 build date : 2008-09-11  Unified Linux Driver</a>. Though the driver seems to date from 2007:
 
 	d5e3343099e86317e2068097e017ecb3  20070720152943906_UnifiedLinuxDriver.tar.gz
 
 So I am guess Samsung screwed up the deployment. Anyway after extracting the
 driver I read through `./cdroot/Linux/install.sh`. (You should never ever run
-shell script as root from an untrusted source, without at the very least
+shell scripts as root from an untrusted source, without at the very least
 carefully reading the file.) After reading this file, I was not prepared to
 execute it. What a horrific mess of an install. Suck less Samsung.
 
-So I know with CUPS it generally just needs a "ppd" configuration file. So I found:
+So I know from previous experience with CUPS, that it generally just needs a
+"ppd" configuration file. So I found a likely suspect:
 
 	x61:~/Desktop/samsung% sudo find . -name 'scx4200.ppd'
 	./cdroot/Linux/noarch/at_opt/share/ppd/scx4200.ppd
@@ -32,7 +31,7 @@ found. After searching around I found the binaries:
 	pscms*  rastertosamsungpcl*  rastertosamsungspl*  rastertosamsungsplc*
 	x61:~/Desktop/samsung/cdroot/Linux/i386/at_root/usr/lib/cups/filter% sudo cp * /usr/lib/cups/filter
 
-And copied them into the place where install.sh was trying to put them. And guess what? It works.
+And copied them into the place where install.sh was trying to put them. And guess what? It works. :)
 
 `rastertosamsungspl` and friends use an **insane** amount of shared libraries:
 
@@ -65,25 +64,25 @@ And copied them into the place where install.sh was trying to put them. And gues
 As the operating system evolves one of these depedencies is bound to break. Samsung should have either:
 
 1. Statically built the binaries
-* Given the source to Debian to package and manage
+* Made the source freely licensed and available
 
 Preference goes to the second option. For example Webconverger cannot
 distribute a binary blob of a printer driver, so this printer cannot be
 supported. So I want the source please, Samsung.
 
 The print quality is satisfactory thought the printer had a noisy fan blaring
-after just one print test page. In this case I just turn the printer off.
+after just one print test page. In such cases I just turn the printer off.
 
 Next I need to try the scanning ability of the device. [scan-utils](http://packages.qa.debian.org/s/sane-backends.html)'s `sane-find-scanner` finds:
 
 	found USB scanner (vendor=0x04e8 [Samsung], product=0x341b [SCX-4200 Series]) at libusb:003:004
 
-Though sadly:
+Well done. Though sadly:
 
 	x61:~% sudo scanimage -L
 	No scanners were identified.
 
-W.T.F. Again looking at `install.sh` another proprietary blob (with a FECK load of deps):
+Again looking at `install.sh` another proprietary blob (with a FECK load of deps):
 
 	x61:~/Desktop/samsung/cdroot/Linux/i386/at_opt/bin% ldd smfpscan 
 			linux-gate.so.1 =>  (0xb7fac000)
