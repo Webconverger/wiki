@@ -1,0 +1,123 @@
+<a href="http://www.flickr.com/photos/hendry/2880137032/" title="Samsung SCX-4200 by Kai Hendry, on Flickr"><img src="http://farm4.static.flickr.com/3172/2880137032_6d9f025a46.jpg" width="500" height="375" alt="Samsung SCX-4200" /></a>
+
+I bought a [Samsung
+SCX-4200](http://www.openprinting.org/show_printer.cgi?recnum=Samsung-SCX-4200)
+after I heard it had Linux driver support.
+
+The multi-function printer costs about 62GBP (ex VAT), so it's quite cheap for a laser printer.
+
+After downloading the drivers online from <a href="http://www.samsung.com/us/support/search/supportSearchResultView.do?group=&type=&subtype=&model_nm=SCX-4200&vType=L&mType=UM&dType=D&menu=download">Samsung's terrible support Website</a>.
+
+The [CUPS](http://en.wikipedia.org/wiki/CUPS) driver described as <a href="http://www.samsung.com/us/support/download/supportDownDetail.do?group=&type=&subtype=&model_nm=SCX-4200&language=&cate_type=all&mType=DR&dType=D&vType=L&cttID=828690&prd_ia_cd=06010300&disp_nm=SCX-4200">
+build date : 2008-09-11  Unified Linux Driver</a>. Though the driver seems to date from 2007:
+
+	d5e3343099e86317e2068097e017ecb3  20070720152943906_UnifiedLinuxDriver.tar.gz
+
+So I am guess Samsung screwed up the deployment. Anyway after extracting the
+driver I read through `./cdroot/Linux/install.sh`. (You should never ever run
+shell script as root from an untrusted source, without at the very least
+carefully reading the file.) After reading this file, I was not prepared to
+execute it. What a horrific mess of an install. Suck less Samsung.
+
+So I know with CUPS it generally just needs a "ppd" configuration file. So I found:
+
+	x61:~/Desktop/samsung% sudo find . -name 'scx4200.ppd'
+	./cdroot/Linux/noarch/at_opt/share/ppd/scx4200.ppd
+
+And via the CUPS administrator [[printing]] interface http://localhost:631/ installed it. So
+far so good. Then an error occured that `rastertosamsungspl` could not be
+found. After searching around I found the binaries:
+
+	x61:~/Desktop/samsung/cdroot/Linux/i386/at_root/usr/lib/cups/filter% ls
+	pscms*  rastertosamsungpcl*  rastertosamsungspl*  rastertosamsungsplc*
+	x61:~/Desktop/samsung/cdroot/Linux/i386/at_root/usr/lib/cups/filter% sudo cp * /usr/lib/cups/filter
+
+And copied them into the place where install.sh was trying to put them. And guess what? It works.
+
+`rastertosamsungspl` and friends use an **insane** amount of shared libraries:
+
+	x61:~% ldd /usr/lib/cups/filter/rastertosamsungspl
+        linux-gate.so.1 =>  (0xb7fd7000)
+        libcups.so.2 => /usr/lib/libcups.so.2 (0xb7f8b000)
+        libcupsimage.so.2 => /usr/lib/libcupsimage.so.2 (0xb7f73000)
+        libc.so.6 => /lib/i686/cmov/libc.so.6 (0xb7e17000)
+        libgssapi_krb5.so.2 => /usr/lib/libgssapi_krb5.so.2 (0xb7ded000)
+        libkrb5.so.3 => /usr/lib/libkrb5.so.3 (0xb7d59000)
+        libk5crypto.so.3 => /usr/lib/libk5crypto.so.3 (0xb7d35000)
+        libcom_err.so.2 => /lib/libcom_err.so.2 (0xb7d32000)
+        libgnutls.so.26 => /usr/lib/libgnutls.so.26 (0xb7c95000)
+        libpthread.so.0 => /lib/i686/cmov/libpthread.so.0 (0xb7c7b000)
+        libm.so.6 => /lib/i686/cmov/libm.so.6 (0xb7c55000)
+        libcrypt.so.1 => /lib/i686/cmov/libcrypt.so.1 (0xb7c23000)
+        libz.so.1 => /usr/lib/libz.so.1 (0xb7c0e000)
+        libtiff.so.4 => /usr/lib/libtiff.so.4 (0xb7bb9000)
+        libpng12.so.0 => /usr/lib/libpng12.so.0 (0xb7b95000)
+        libjpeg.so.62 => /usr/lib/libjpeg.so.62 (0xb7b76000)
+        /lib/ld-linux.so.2 (0xb7fd8000)
+        libkrb5support.so.0 => /usr/lib/libkrb5support.so.0 (0xb7b6e000)
+        libdl.so.2 => /lib/i686/cmov/libdl.so.2 (0xb7b6a000)
+        libkeyutils.so.1 => /lib/libkeyutils.so.1 (0xb7b67000)
+        libresolv.so.2 => /lib/i686/cmov/libresolv.so.2 (0xb7b52000)
+        libtasn1.so.3 => /usr/lib/libtasn1.so.3 (0xb7b42000)
+        libgpg-error.so.0 => /usr/lib/libgpg-error.so.0 (0xb7b3e000)
+        libgcrypt.so.11 => /usr/lib/libgcrypt.so.11 (0xb7ad6000)
+
+As the operating system evolves one of these depedencies is bound to break. Samsung should have either:
+
+1. Statically built the binaries
+* Given the source to Debian to package and manage
+
+Preference goes to the second option. For example Webconverger cannot
+distribute a binary blob of a printer driver, so this printer cannot be
+supported. So I want the source please, Samsung.
+
+The print quality is satisfactory thought the printer had a noisy fan blaring
+after just one print test page. In this case I just turn the printer off.
+
+Next I need to try the scanning ability of the device. [scan-utils](http://packages.qa.debian.org/s/sane-backends.html)'s `sane-find-scanner` finds:
+
+	found USB scanner (vendor=0x04e8 [Samsung], product=0x341b [SCX-4200 Series]) at libusb:003:004
+
+Though sadly:
+
+	x61:~% sudo scanimage -L
+	No scanners were identified.
+
+W.T.F. Again looking at `install.sh` another proprietary blob (with a FECK load of deps):
+
+	x61:~/Desktop/samsung/cdroot/Linux/i386/at_opt/bin% ldd smfpscan 
+			linux-gate.so.1 =>  (0xb7fac000)
+			libdl.so.2 => /lib/i686/cmov/libdl.so.2 (0xb7f92000)
+			libqt-mt.so.3 => /usr/lib/libqt-mt.so.3 (0xb7899000)
+			libpthread.so.0 => /lib/i686/cmov/libpthread.so.0 (0xb787f000)
+			libXext.so.6 => /usr/lib/libXext.so.6 (0xb7871000)
+			libX11.so.6 => /usr/lib/libX11.so.6 (0xb7782000)
+			libstdc++.so.5 => /usr/lib/libstdc++.so.5 (0xb76c8000)
+			libm.so.6 => /lib/i686/cmov/libm.so.6 (0xb76a2000)
+			libgcc_s.so.1 => /lib/libgcc_s.so.1 (0xb7695000)
+			libc.so.6 => /lib/i686/cmov/libc.so.6 (0xb7539000)
+			/lib/ld-linux.so.2 (0xb7fad000)
+			libfontconfig.so.1 => /usr/lib/libfontconfig.so.1 (0xb750f000)
+			libaudio.so.2 => /usr/lib/libaudio.so.2 (0xb74f9000)
+			libXt.so.6 => /usr/lib/libXt.so.6 (0xb74a9000)
+			libjpeg.so.62 => /usr/lib/libjpeg.so.62 (0xb748a000)
+			libpng12.so.0 => /usr/lib/libpng12.so.0 (0xb7467000)
+			libz.so.1 => /usr/lib/libz.so.1 (0xb7451000)
+			libXi.so.6 => /usr/lib/libXi.so.6 (0xb7449000)
+			libXrender.so.1 => /usr/lib/libXrender.so.1 (0xb7440000)
+			libXrandr.so.2 => /usr/lib/libXrandr.so.2 (0xb743a000)
+			libXcursor.so.1 => /usr/lib/libXcursor.so.1 (0xb7431000)
+			libXinerama.so.1 => /usr/lib/libXinerama.so.1 (0xb742e000)
+			libXft.so.2 => /usr/lib/libXft.so.2 (0xb741a000)
+			libfreetype.so.6 => /usr/lib/libfreetype.so.6 (0xb73a5000)
+			libSM.so.6 => /usr/lib/libSM.so.6 (0xb739d000)
+			libICE.so.6 => /usr/lib/libICE.so.6 (0xb7386000)
+			libstdc++.so.6 => /usr/lib/libstdc++.so.6 (0xb7298000)
+			libXau.so.6 => /usr/lib/libXau.so.6 (0xb7294000)
+			libxcb-xlib.so.0 => /usr/lib/libxcb-xlib.so.0 (0xb7292000)
+			libxcb.so.1 => /usr/lib/libxcb.so.1 (0xb727a000)
+			libexpat.so.1 => /usr/lib/libexpat.so.1 (0xb7254000)
+			libXfixes.so.3 => /usr/lib/libXfixes.so.3 (0xb724f000)
+			libXdmcp.so.6 => /usr/lib/libXdmcp.so.6 (0xb7249000)
+
+Seems required. Argh... no :( Why are things such a nightmare?
