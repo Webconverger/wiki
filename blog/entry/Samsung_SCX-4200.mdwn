@@ -121,3 +121,11 @@ Again looking at `install.sh` another proprietary blob (with a FECK load of deps
 			libXdmcp.so.6 => /usr/lib/libXdmcp.so.6 (0xb7249000)
 
 Seems required. Argh... no :( Why are things such a nightmare? I'm not any closer in restoring a supported print service in [[maxi]]. :/
+
+* [LWN issues a warning about the SCX-4200 printer driver](http://lwn.net/Articles/242072/)
+
+I guess I should have done my research better. After living in
+[Korea](http://flickr.com/photos/hendry/tags/korea/) I know Korean programmers
+do not have much experience of Linux and Web unfortunately due to several
+reasons like ActiveX lock in. So I will try get the sources to their driver
+otherwise I'll quickly have a 5kg hunk of useless plastic on my desk.
