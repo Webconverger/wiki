@@ -21,6 +21,30 @@ Hetty is rented for the following functions:
 
 ## Bootloader
 
-Grub
+lilo
 
+## RAID-1 setup
 
+Using this [guide](http://www.jochem.name/Debian-Sarge-Raid1-mdadm):
+
+	sudo sfdisk -d /dev/sda | sed s/sda/sdb/ > /tmp/sdb
+	sudo sfdisk -f /dev/sdb < /tmp/sdb
+	sudo mdadm --create /dev/md0 --level=1 --raid-devices=2 /dev/sdb2 missing
+
+	hendry@hetty:~$ cat /proc/partitions 
+	major minor  #blocks  name
+
+	   8     0  488386584 sda
+	   8     1    2104514 sda1
+	   8     2  486279517 sda2
+	   8    16  488386584 sdb
+	   8    17    2104514 sdb1
+	   8    18  486279517 sdb2
+	   9     0  486279424 md0
+	hendry@hetty:~$ cat /proc/mdstat
+	Personalities : [raid0] [raid1] [linear] [multipath] [raid6] [raid5] [raid4] [raid10] 
+	md0 : active raid1 sdb2[0]
+		  486279424 blocks [2/1] [U_]
+
+	unused devices: <none>
+	hendry@hetty:~$
