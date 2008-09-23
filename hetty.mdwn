@@ -1,5 +1,8 @@
 Hetty is a [DS3000](http://www.hetzner.de/hosting/produkte_rootserver/ds3000/) dedicated server supplied by [Hetzner online](http://www.hetzner.de).
 
+* [Hetzner status and fault reports](http://translate.google.com/translate?hl=de&langpair=de|en&u=http://www.hetzner-status.de)
+* [Hetzner wiki](http://wiki.hetzner.de/) with a [Debian section](http://wiki.hetzner.de/index.php/Debian)
+
 Originally configured with a minimal Debian 64 bit etch and now upgraded to Debian's lenny release.
 
 The 2 x 400 GB will be configured as software [RAID-1](http://en.wikipedia.org/wiki/RAID-1#RAID_1) for redundancy.
@@ -7,11 +10,17 @@ The 2 x 400 GB will be configured as software [RAID-1](http://en.wikipedia.org/w
 There are two other machines that are used by Webconverger Limited:
 
 * jurupa - webconverger.com at [Dreamhost](http://dreamhost.com/) in California
-* au - webconverger.org a Xen 512-slice VPS hosted [Slicehost](http://www.slicehost.com/) in Missouri (root)
+* au - webconverger.org a Xen 512-slice VPS hosted by [Slicehost](http://www.slicehost.com/) in Missouri (root)
 
-Hetty was bought for the following reasons:
+Hetty is rented for the following functions:
 
 * Performing builds
 * Storage & backup (au only has 20G!)
 * Providing a European mirror
 * Providing a European work place for developers
+
+## Bootloader
+
+Grub
+
+
