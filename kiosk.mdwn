@@ -25,6 +25,8 @@ Especially commissioned by [your library Canada](http://yourlibrary.ca/), who wa
 * no address bar
 * no tabs
 
+BUG [[todo]]: Does not take kindly to new window popups with 'target="_blank"'.
+
 # iceweasel-webcfullscreen
 
 Customization option. For customers who want to do [Digital signage](http://en.wikipedia.org/wiki/Digital_Signage) or just [show off some pictures](http://www.subitophoto.net/slideshow/machupicchu/) somewhere.
