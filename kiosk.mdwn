@@ -6,15 +6,20 @@ Default and most common.
 
 # iceweasel-webcnoaddressbar
 
-Customization option. For customers who want patrons to browse, but not enter in URLs.
+Customization option. For customers who want patrons to browse, but not enter
+in URLs. This is the best option is clients like webc-yourlibrary, though
+exhibit on pages with [popups](http://webconverger.org/tests/target.html).
 
-<a href="http://www.flickr.com/photos/hendry/903110079/" title="Photo Sharing"><img src="http://farm2.static.flickr.com/1292/903110079_30e70db715_m.jpg" width="240" height="180" alt="iceweasel-webcnoaddressbar" /></a>
+<a href="http://www.flickr.com/photos/hendry/2934652998/" title="Webconverger noaddressbar kiosk extension demo by Kai Hendry, on Flickr"><img src="http://farm4.static.flickr.com/3034/2934652998_462143ea42.jpg" width="500" height="375" alt="Webconverger noaddressbar kiosk extension demo" /></a>
 
 # iceweasel-webctabkiller
 
 <a href="http://www.flickr.com/photos/hendry/2738789515/" title="webc tab killer by Kai Hendry, on Flickr"><img src="http://farm4.static.flickr.com/3130/2738789515_650fcd06dc.jpg" width="447" height="500" alt="webc tab killer" /></a>
 
-Similar to the popular [Tab killer extension](https://addons.mozilla.org/en-US/firefox/addon/1938). Tabs _may_ convince some novice users.
+Similar to the popular [Tab killer
+extension](https://addons.mozilla.org/en-US/firefox/addon/1938). Tabs _may_
+convince some novice users. Suffers from the
+[popups](http://webconverger.org/tests/target.html) problem.
 
 # iceweasel-webcyourlibrary
 
