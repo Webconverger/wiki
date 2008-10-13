@@ -16,6 +16,7 @@
 * fix [xvideomode](http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=499304) [forcing video modes](http://lists.alioth.debian.org/pipermail/debian-live-devel/2008-August/004103.html)
 * fix [live-initramfs](http://groups.google.com/group/webc-users/browse_thread/thread/c002d31ddf74b21c) on HD installs so people can have the familiar options
 * A way of shutting down Webconverger hard drive install version. ['Soft' power button events are ignored.](http://groups.google.com/group/webc-users/browse_thread/thread/ebf29918c6bebe55#)
+* Disable boot options
 
 # Proposal
 
@@ -26,3 +27,10 @@ Install httpd with CGI scripts to:
 	http://localhost/version
 	http://localhost/wifi
 	http://localhost/install-msttcorefonts
+
+# [[boot]] options that needed to be hacked into webconverger-base from live-initramfs
+
+* nosudo
+* locale
+* keyb
+* toram
