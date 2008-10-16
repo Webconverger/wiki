@@ -50,5 +50,4 @@ There is lots [[todo]] and we need your support and advice on <a
 href="mailto:&#102;&#101;&#101;&#100;&#098;&#097;&#099;&#107;&#064;&#119;&#101;&#098;&#099;&#111;&#110;&#118;&#101;&#114;&#103;&#101;&#114;&#046;&#099;&#111;&#109;">feedback@webconverger.com</a>.
 Webconverger is a free software project so please contribute your time and
 skills. Otherwise if you're a business looking for an alternative the Microsoft
-monopoly, please [consider our Windows Embedded competing
-product](http://webconverger.com/buy).
+monopoly, please [consider our Linux/Firefox based Windows Embedded competitor](http://webconverger.com/buy).
