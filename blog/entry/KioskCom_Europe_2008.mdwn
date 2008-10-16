@@ -46,7 +46,9 @@ Whilst Microsoft has serious competition on the Desktop PC & Mobile
 challenge. Webconverger makes Linux Web kiosk deployments much easier than they
 used be and we at Webconverger will endeavour to make it even easier.
 
-There is lots [[todo]] and we need your support and advice. Webconverger is a
-free software project so please contribute your skills.  Otherwise if you're a
-business looking for an alternative the Microsoft monopoly, please [buy our
-Windows Embedded competing product](http://webconverger.com/buy).
+There is lots [[todo]] and we need your support and advice on <a
+href="mailto:&#102;&#101;&#101;&#100;&#098;&#097;&#099;&#107;&#064;&#119;&#101;&#098;&#099;&#111;&#110;&#118;&#101;&#114;&#103;&#101;&#114;&#046;&#099;&#111;&#109;">feedback@webconverger.com</a>.
+Webconverger is a free software project so please contribute your time and
+skills. Otherwise if you're a business looking for an alternative the Microsoft
+monopoly, please [consider our Windows Embedded competing
+product](http://webconverger.com/buy).
