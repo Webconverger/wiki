@@ -1,0 +1,30 @@
+I have had this idea for an operating system with an interface like:
+
+	http://localhost/halt
+	http://localhost/upgrade
+
+<a href="http://www.flickr.com/photos/hendry/2954897797/" title="webconverger/upgrade by Kai Hendry, on Flickr"><img src="http://farm3.static.flickr.com/2277/2954897797_bd6837eb6d.jpg" width="500" height="375" alt="webconverger/upgrade" /></a>
+
+Since I began seriously developing [operating systems](http://www.hannux.com/)
+when I lived in [Korea](http://flickr.com/photos/hendry/tags/korea/).
+
+Some people have ideas and another is realising them. After years of delay and
+procrastination on my part, the basic functionality has been checked in with
+the help of the lightweight httpd [nostromo](http://www.nazgul.ch/dev.html). To
+try it out you can experiment with [3.6 beta maxi
+releases](http://download.webconverger.com/maxi/) or try out the
+[dailies](http://build.webconverger.org/) from today.
+
+Browsing to:
+
+	http://webconverger
+
+Will give a list of some options you can try out.
+
+A post about this [Web API on the mailing
+list](http://groups.google.com/group/webc-users/browse_thread/thread/d698ee201117c298#).
+
+Of course the security must be better. Super user commands www-data should be
+defined in `/etc/sudoers`. Perhaps a prompt for at least `/halt` should be in
+place before I do a proper release. Please consider the concept for now and let
+me know if you like it or not.
