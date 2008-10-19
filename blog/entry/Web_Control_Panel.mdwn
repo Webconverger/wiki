@@ -8,18 +8,15 @@ I have had this idea for an operating system with an interface like:
 Since I began seriously developing [operating systems](http://www.hannux.com/)
 when I lived in [Korea](http://flickr.com/photos/hendry/tags/korea/).
 
-Some people have ideas and another is realising them. After years of delay and
-procrastination on my part, the basic functionality has been checked in with
-the help of the lightweight httpd [nostromo](http://www.nazgul.ch/dev.html). To
-try it out you can experiment with [3.6 beta maxi
-releases](http://download.webconverger.com/maxi/) or try out the
-[dailies](http://build.webconverger.org/) from today.
+To have an idea is one thing, though to carry the idea out is quite another
+thing! After years of procrastination on my part, the basic functionality has
+been checked in with the help of the lightweight httpd
+[nostromo](http://www.nazgul.ch/dev.html). To try it out you can experiment
+with [3.6 beta maxi releases](http://download.webconverger.com/maxi/) or try
+out the [dailies](http://build.webconverger.org/) from today.
 
-Browsing to:
-
-	http://webconverger
-
-Will give a list of some options you can try out.
+Browsing to [http://webconverger](http://flickr.com/photos/hendry/2954897791/),
+will give a list of some options you can try out.
 
 A post about this [Web API on the mailing
 list](http://groups.google.com/group/webc-users/browse_thread/thread/d698ee201117c298#).
@@ -27,4 +24,4 @@ list](http://groups.google.com/group/webc-users/browse_thread/thread/d698ee20111
 Of course the security must be better. Super user commands www-data should be
 defined in `/etc/sudoers`. Perhaps a prompt for at least `/halt` should be in
 place before I do a proper release. Please consider the concept for now and let
-me know if you like it or not.
+me know whether you like it or not.
