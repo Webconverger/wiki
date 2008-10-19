@@ -5,7 +5,7 @@ I have had this idea for an operating system with an interface like:
 
 <a href="http://www.flickr.com/photos/hendry/2954897797/" title="webconverger/upgrade by Kai Hendry, on Flickr"><img src="http://farm3.static.flickr.com/2277/2954897797_bd6837eb6d.jpg" width="500" height="375" alt="webconverger/upgrade" /></a>
 
-Since I began seriously developing [operating systems](http://www.hannux.com/)
+Since I seriously began developing [operating systems](http://www.hannux.com/)
 when I lived in [Korea](http://flickr.com/photos/hendry/tags/korea/).
 
 To have an idea is one thing, though to carry the idea out is quite another
