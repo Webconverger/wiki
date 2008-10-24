@@ -24,6 +24,7 @@ Install httpd with CGI scripts to:
 	http://localhost/upgrade
 	http://localhost/version
 	http://localhost/wifi
+	http://localhost/volume (up,down,mute)
 	http://localhost/install-msttcorefonts
 
 # [[boot]] options that needed to be hacked into webconverger-base from live-initramfs
