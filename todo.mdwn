@@ -11,12 +11,10 @@
 * improve download page to make downloading the latest mini for example **extremely** simple
 * have a service to send CDs?
 * fix preseed to choose guided by default (forget LVM+crypto)
-* look into webc-yourlibrary **new window** homepage breaking bug
+* look into webc-yourlibrary **new window** homepage breaking bug (use iceweasel-webcnoaddressbar instead?)
 * fix [xvideomode](http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=499304) [forcing video modes](http://lists.alioth.debian.org/pipermail/debian-live-devel/2008-August/004103.html)
-* fix [live-initramfs](http://groups.google.com/group/webc-users/browse_thread/thread/c002d31ddf74b21c) on HD installs so people can have the familiar options
-* A way of shutting down Webconverger hard drive install version. ['Soft' power button events are ignored.](http://groups.google.com/group/webc-users/browse_thread/thread/ebf29918c6bebe55#)
 * Disable boot options
-* get [[maxi]] working build working
+* ensure home is mounted encrypted and keys are thrown away between sessions in persistent-browser script
 
 # Proposal
 
