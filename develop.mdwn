@@ -1,6 +1,4 @@
-[[toc ]]
-
-* [[Core_concepts|design]]
+1. [[Core_concepts|design]]
 * [Webconverger live-helper configuration](http://git.debian.org/?p=debian-live/config-webc.git)
 * [Official Webconverger package repository](http://debian.webconverger.com)
 * [Webconverger git repository](http://git.webconverger.org/)
@@ -10,15 +8,10 @@
 * [[Artwork]]
 * [[Firefox_extension_development|Kiosk]]
 * [Debian Live project](http://debian-live.alioth.debian.org/) and [Live helper packages](http://live.debian.net/)
-
-## Building the image with the fantastic [Debian live-helper](http://debian-live.alioth.debian.org/) tool
-
-The most important elements of building Webconverger are:
-
-1. [The package lists](http://git.debian.org/?p=debian-live/config-webc.git;a=tree;f=webconverger/config/chroot_local-packageslists)
-2. [LH_BOOTAPPEND in config/binary](http://git.debian.org/?p=debian-live/config-webc.git;a=blob;f=webconverger/config/binary)
-
-[live-initramfs lists the parameters](http://git.debian.org/?p=users/daniel/live-initramfs.git;a=blob;f=manpages/live-initramfs.en.7.txt;)
+* Building the image with the fantastic [Debian live-helper](http://debian-live.alioth.debian.org/) tool
+* [The package lists](http://git.debian.org/?p=debian-live/config-webc.git;a=tree;f=webconverger/config/chroot_local-packageslists)
+* [LH_BOOTAPPEND in config/binary](http://git.debian.org/?p=debian-live/config-webc.git;a=blob;f=webconverger/config/binary)
+* [live-initramfs lists the boot parameters](http://git.debian.net/?p=debian-live/live-initramfs.git;a=blob;f=manpages/live-initramfs.en.7.txt)
 
 ## Building on a Debian system:
 
