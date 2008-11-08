@@ -8,7 +8,8 @@ c. [[Core_concepts|design]]
 * [[Artwork]]
 * [[Firefox_extension_development|Kiosk]]
 * [Debian Live project](http://debian-live.alioth.debian.org/) and [Live helper packages](http://live.debian.net/)
-* [Maxi package lists](http://git.debian.org/?p=debian-live/config-webc.git;a=tree;f=webconverger/config/chroot_local-packageslists) & [Mini package lists](http://git.debian.org/?p=debian-live/config-webc.git;a=tree;f=mini/config/chroot_local-packageslists)
+* [Maxi package lists](http://git.debian.org/?p=debian-live/config-webc.git;a=tree;f=webconverger/config/chroot_local-packageslists)
+* [Mini package lists](http://git.debian.org/?p=debian-live/config-webc.git;a=tree;f=mini/config/chroot_local-packageslists)
 * [LH_BOOTAPPEND in config/binary](http://git.debian.org/?p=debian-live/config-webc.git;a=blob;f=webconverger/config/binary) is where you typically make modifications to boot parameters
 * [live-initramfs lists the boot parameters](http://git.debian.net/?p=debian-live/live-initramfs.git;a=blob;f=manpages/live-initramfs.en.7.txt). Also see [[boot]].
 
