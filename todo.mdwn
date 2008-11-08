@@ -15,6 +15,7 @@
 * fix [xvideomode](http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=499304) [forcing video modes](http://lists.alioth.debian.org/pipermail/debian-live-devel/2008-August/004103.html)
 * Disable boot options
 * ensure home is mounted encrypted and keys are thrown away between sessions in persistent-browser script
+* live installer is currently broken on the [daily builds](http://build.webconverger.org)
 
 # Proposal
 

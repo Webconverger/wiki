@@ -32,7 +32,7 @@ Originally I tried to manually install Debian lenny via a
 found on the net. Don't do it this way. There are lots of pitfalls.
 
 Instead open a [Support-Anfragen](https://robot.your-server.de/server_3.php)
-and ask nicely for a minimal install with RAID-1. Finally it should look
+and ask politely for a minimal install with RAID-1. Finally it should look
 similar to this:
 
 	Debian-40-etch-64-minimal:~# df -h
