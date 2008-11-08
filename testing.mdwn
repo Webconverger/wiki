@@ -1,3 +1,5 @@
+Please help test the very latest [daily build images](http://build.webconverger.org/). Report bugs on [webc-users](http://groups.google.com/group/webc-users/topics). Once verified, bugs are listed on the [[todo]] list.
+
 # vmware
 
 Windows or linux users can download [VMWARE player](http://www.vmware.com/download/player/download.html).
@@ -36,7 +38,6 @@ Save the configuration below as a file named `webconverger.vmx` with [webconverg
 # Testing video idea
 
 [Videos](http://video.google.co.uk/videoplay?docid=-4095341796996048842&hl=en-GB) with [Brendan's autotesting script](http://git.debian.org/?p=debian-live/autotesting.git).
-
 
 # VMware workstation
 
