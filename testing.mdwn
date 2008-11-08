@@ -1,10 +1,16 @@
 Please help test the very latest [daily build images](http://build.webconverger.org/). Report bugs on [webc-users](http://groups.google.com/group/webc-users/topics). Once verified, bugs are listed on the [[todo]] list.
 
-# vmware
+# qemu
 
-Windows or linux users can download [VMWARE player](http://www.vmware.com/download/player/download.html).
+`qemu -cdrom binary.iso`
 
-Save the configuration below as a file named `webconverger.vmx` with [webconverger.iso](http://download.webconverger.com/webconverger.iso) in the same directory. Run with VMWARE's player.
+Qemu might be a little slow if you don't have the qemu kernel module running.
+
+# VMware
+
+Windows or linux users can download [VMWARE player](http://www.vmware.com/download/player/download.html), which is free of cost.
+
+Save the configuration below as a file named `webconverger.vmx` with webconverger.iso in the same directory. Run with VMWARE's player.
 
     # VM Machine Info
     guestOS = "linux"
@@ -31,17 +37,10 @@ Save the configuration below as a file named `webconverger.vmx` with [webconverg
     # Host USB
     usb.present = "TRUE"
 
-# qemu
-
-`qemu -cdrom webconverger.iso`
+Hendry uses VMware workstation. :-)
 
 # Testing video idea
 
 [Videos](http://video.google.co.uk/videoplay?docid=-4095341796996048842&hl=en-GB) with [Brendan's autotesting script](http://git.debian.org/?p=debian-live/autotesting.git).
 
-# VMware workstation
-
-	x61:~% uname -a 
-	Linux x61 2.6.23-1-686 #1 SMP Fri Dec 21 13:57:07 UTC 2007 i686 GNU/Linux
-
-	sudo CC=/usr/bin/gcc-4.1 /usr/bin/vmware-config.pl
+Problem is the process is quite CPU intensive.
