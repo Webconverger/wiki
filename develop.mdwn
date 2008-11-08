@@ -11,23 +11,23 @@
 * [Maxi package lists](http://git.debian.org/?p=debian-live/config-webc.git;a=tree;f=webconverger/config/chroot_local-packageslists)
 * [Mini package lists](http://git.debian.org/?p=debian-live/config-webc.git;a=tree;f=mini/config/chroot_local-packageslists)
 * [LH_BOOTAPPEND in config/binary](http://git.debian.org/?p=debian-live/config-webc.git;a=blob;f=webconverger/config/binary) is where you typically make modifications to boot parameters
-* [live-initramfs lists the boot parameters](http://git.debian.net/?p=debian-live/live-initramfs.git;a=blob;f=manpages/live-initramfs.en.7.txt). Also see [[boot]]
+* [live-initramfs lists the boot parameters](http://git.debian.net/?p=debian-live/live-initramfs.git;a=blob;f=manpages/live-initramfs.en.7.txt). Also see [[boot]].
 
-If you are new to the project, please help by [[testing]]. Thank you!
+If you are new to the project, **Welcome**! Please help by [[testing]]. Thank you!
 
 ## Building on a Debian system:
 
  * `apt-get install` [live-helper](http://packages.qa.debian.org/l/live-helper.html) or rather use the latest from 'deb http://live.debian.net/debian/ ./'
  * `git clone git://git.debian.org/git/debian-live/config-webc.git`
- * webconverger/ is the base config file (maxi). Have a look around.
- * Take a look inside config/. You probably need to edit LIVE_MIRROR variables in the file bootstrap.
+ * webconverger/ is the base config file for **maxi**. Have a look around.
+ * Take a look inside config/. You might need to edit LIVE_MIRROR variables in the file bootstrap.
  * `lh build` in webconverger/ for [[maxi]] and mini/ for [[mini]]
 
 Then [[test|testing]] your freshly built image.
 
 * [[todo]] has a list of bugs that need to be fixed. Please help me out and you will be [[acknowledged|acknowledgements]] for your contribution.
 * Check out the [testing setup guide](http://wiki.debian.org/DebianLive/Howto/Creating_a_Test_environment) for testing with netboot on native hardware
-* Join the [Debian Live](http://debian-live.alioth.debian.org/) community. Peruse the [debian-live mailing list archives](http://lists.debian.org/debian-live/)
+* Join the [Debian Live](http://debian-live.alioth.debian.org/) community. Peruse the [debian-live mailing list archives](http://lists.debian.org/debian-live/). :)
 
 ## Debug mode with Webconverger
 
