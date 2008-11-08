@@ -1,26 +1,17 @@
 [[toc ]]
 
-[[Core_concepts|design]]
-
-## Packages
-
-* [Official Webconverger packages](http://debian.webconverger.com)
-
-Core packages:
-
-* [webconverger-base](http://git.webconverger.org/?p=webconverger-base.git)
-* [iceweasel-webconverger](http://git.webconverger.org/?p=iceweasel-webconverger.git) the Mozilla [[kiosk]] extension
-* [webconverger-archive-keyring](http://git.webconverger.org/?p=webconverger-archive-keyring.git) the public key used for secure updates
-
-## Quick links
-
-* [[i18n]]
+* [[Core_concepts|design]]
+* [Webconverger live-helper configuration](http://git.debian.org/?p=debian-live/config-webc.git)
+* [Official Webconverger package repository](http://debian.webconverger.com)
+* [Webconverger git repository](http://git.webconverger.org/)
+* [Webconverger's own Debian mirror](http://mirror.webconverger.com/) on [[hetty]]
+* [Webconverger daily builds](http://live.webconverger.com/)
+* [[i18n]] - perhaps you could help translate the [portal](http://portal.webconverger.com/) into your local language?
 * [[Artwork]]
-* [Daily development builds](http://build.webconverger.com/)
 * [[Firefox_extension_development|Kiosk]]
 * [Debian Live project](http://debian-live.alioth.debian.org/) and [Live helper packages](http://live.debian.net/)
 
-## Building the image with live-helper
+## Building the image with the fantastic [Debian live-helper](http://debian-live.alioth.debian.org/) tool
 
 The most important elements of building Webconverger are:
 
@@ -28,7 +19,6 @@ The most important elements of building Webconverger are:
 2. [LH_BOOTAPPEND in config/binary](http://git.debian.org/?p=debian-live/config-webc.git;a=blob;f=webconverger/config/binary)
 
 [live-initramfs lists the parameters](http://git.debian.org/?p=users/daniel/live-initramfs.git;a=blob;f=manpages/live-initramfs.en.7.txt;)
-
 
 ## Building on a Debian system:
 
@@ -43,10 +33,6 @@ Then typically use VMWARE for [[testing]] your freshly built image.
 * [[todo]] has a list of bugs that need to be fixed. Please help me out and you will be [[acknowledged|acknowledgements]] for your contribution.
 * Read [Testing setup guide](http://wiki.debian.org/DebianLive/Howto/Creating_a_Test_environment)
 * Join the [Debian Live](http://debian-live.alioth.debian.org/) community. See the [dev mailing list archives](http://lists.alioth.debian.org/pipermail/debian-live-devel/)
-
-Tips:
-
- * [squid](http://packages.qa.debian.org/s/squid.html) and `export http_proxy=http://localhost:3128` on your build machine can save bandwidth whilst Debian Live's live-helper downloads the packages
 
 ## Debug mode with Webconverger
 
