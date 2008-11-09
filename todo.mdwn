@@ -1,7 +1,4 @@
-* wpasupplicant interface (use [nostromo](http://git.debian.org/?p=users/kai-guest/nostromo) and cgi for this?)
-* integrate [nostromo](http://git.debian.org/?p=users/kai-guest/nostromo) (httpd)
 * Allow USB mounts so people can upload pictures to Flickr (use case by Phil Waring)
-* fix [[upgrade]] (esp. on new hard drive installer images)
 * do some sort of device API for attraction (screensaver advertisement) loop
 * device API for USB coin slot
 * somehow showcase Firefox 3 features like SVG etc. on the portal
@@ -15,22 +12,10 @@
 * fix [xvideomode](http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=499304) [forcing video modes](http://lists.alioth.debian.org/pipermail/debian-live-devel/2008-August/004103.html)
 * Disable boot options
 * ensure home is mounted encrypted and keys are thrown away between sessions in persistent-browser script
-* live installer is currently broken on the [daily builds](http://build.webconverger.org)
-
-# Proposal
-
-Install httpd with CGI scripts to:
-
-	http://localhost/shutdown
-	http://localhost/upgrade
-	http://localhost/version
-	http://localhost/wifi
-	http://localhost/volume (up,down,mute)
-	http://localhost/install-msttcorefonts
 
 # [[boot]] options that needed to be hacked into webconverger-base from live-initramfs
 
-* nosudo
+1. nosudo
 * locale
 * keyb
 * toram
