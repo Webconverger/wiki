@@ -6,11 +6,10 @@ Join <a href="http://hendry.iki.fi/">me</a>!
 
 Armed with my [compromised UK Government
 Gateway](http://p10.hostingprod.com/@spyblog.org.uk/blog/2008/11/government-gateway-usb-memory-device-with-passwords-and-source-code-found-in-a-p.html)
-account details, I can pay [Corporation
-Tax](https://online.hmrc.gov.uk/corporation-tax) via a Web application. There
-seem to be quite a few [third party
-tools](http://www.hmrc.gov.uk/efiling/ctsoft_dev.htm) to file taxes, though a
-quick peek doesn't excite me.
+account details, I think I can pay [Corporation Tax via a Web
+application](https://online.hmrc.gov.uk/corporation-tax). There seem to be
+quite a few [third party tools](http://www.hmrc.gov.uk/efiling/ctsoft_dev.htm)
+to file taxes, though a quick peek doesn't excite me.
 
 The strategy for Webconverger I will adopt is this:
 
