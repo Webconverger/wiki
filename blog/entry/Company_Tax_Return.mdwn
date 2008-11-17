@@ -30,14 +30,14 @@ business adviser doesn't return my calls. Oh, I loathe Barclays.
 
 Right, I'll export the data as
 [CSV](http://en.wikipedia.org/wiki/Comma-separated_values) which alarming
-Barclays think is Excel data. Ok, seems like I have all entries there. Rename
-data.csv as 2008.csv. Data portabilty is not hard! Oh wait, the Barclays CSV
-seems close to unreadable. Oh dear.
+Barclays think is Excel data. Rename data.csv as 2008.csv. [Data
+portabilty](http://www.dataportability.org/) is not hard! Oh wait, the Barclays
+CSV seems close to unreadable. Oh dear.
 
 	 ,15/10/2008,20-97-58 XXXXXXX,98.62,DIRECTDEP,GOOGLE CHECKOUT       WEBCONVERG         BGC
 
-Next, Google checkout. Ok, I have [complained to Google about exporting
-checkout
+Next, [Google checkout](http://checkout.google.com/). Ok, I have [complained to
+Google about exporting checkout
 data](http://groups.google.com/group/google-checkout-uk/browse_thread/thread/1049515cc972693f/e13d8b7ac7f56c2d?#e13d8b7ac7f56c2d)
 and hopefully it's now easy. Hmm, **no**, it still seems I can only [export my
 data a month at a time!](https://checkout.google.com/sell/orders) :(
