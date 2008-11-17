@@ -1,10 +1,10 @@
 Webconverger Limited (incorporated 11th September 2007) is filing (or
-'returning') its taxes for the first time! (Not to be confused with a [[Annual
-Return]]) The dreaded deadline is January 2009 and evidently you must **pay**
-before you actual do the return in April. Confused? Join <a
+'returning') its taxes for the first time! Not to be confused with an [[Annual
+Return]], the dreaded corporation tax deadline is January 2009 and evidently
+you must **pay** before you actual do the return in April. Confused?  Join <a
 href="http://hendry.iki.fi/">me</a>!
 
-Armed with my compromised [UK Government
+Armed with my [compromised UK Government
 Gateway](http://p10.hostingprod.com/@spyblog.org.uk/blog/2008/11/government-gateway-usb-memory-device-with-passwords-and-source-code-found-in-a-p.html)
 account details, I can sign into paying my [Corporation
 Tax](https://online.hmrc.gov.uk/corporation-tax). There seem to be quite a few
@@ -16,7 +16,7 @@ The strategy for Webconverger I will adopt is this:
 1. Collect all bank statements and Google checkout orders
 * Give them to accountant (print and email)
 * Talk to accountant about how to pay the least tax possible
-* File taxes online using my Government Gateway account
+* File taxes online using my Government Gateway account (not going to fiddle with agent access)
 
 Since I've never filed taxes before, I'm prepared to pay an accountant for
 advice as I would hate to be penalised for some novice mistake.
@@ -38,8 +38,8 @@ seems close to unreadable. Oh dear.
 Next, Google checkout. Ok, I have [complained to Google about exporting
 checkout
 data](http://groups.google.com/group/google-checkout-uk/browse_thread/thread/1049515cc972693f/e13d8b7ac7f56c2d?#e13d8b7ac7f56c2d)
-and hopefully it's now easy. Hmm, *no*, it still seems I can only [export my
-data a month at a time!](https://checkout.google.com/sell/orders)
+and hopefully it's now easy. Hmm, **no**, it still seems I can only [export my
+data a month at a time!](https://checkout.google.com/sell/orders) :(
 
 Oh man, [cloud
 computing](http://natalian.org/archives/2008/10/29/come-down-from-the-clouds/)
