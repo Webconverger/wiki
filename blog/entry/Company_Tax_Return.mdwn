@@ -1,14 +1,15 @@
 Webconverger Limited (incorporated 11th September 2007) is filing (or
-'returning') its taxes for the first time! (Not to be confused with an [[Annual_Return]]) the dreaded corporation tax deadline is January 2009 and evidently
-you must **pay** before you actual do the return in April. Confused?  Join <a
+'returning') its taxes for the first time (Not to be confused with an [[Annual_Return]])! The dreaded corporation tax deadline is January 2009 and evidently
+you must **pay** before you actual do the report in April. Confused?  Join <a
 href="http://hendry.iki.fi/">me</a>!
 
 Armed with my [compromised UK Government
 Gateway](http://p10.hostingprod.com/@spyblog.org.uk/blog/2008/11/government-gateway-usb-memory-device-with-passwords-and-source-code-found-in-a-p.html)
-account details, I can sign into paying my [Corporation
-Tax](https://online.hmrc.gov.uk/corporation-tax). There seem to be quite a few
-[third party tools](http://www.hmrc.gov.uk/efiling/ctsoft_dev.htm) to file
-taxes, though a quick peek doesn't excite me.
+account details, I can pay [Corporation
+Tax](https://online.hmrc.gov.uk/corporation-tax) via a Web application. There
+seem to be quite a few [third party
+tools](http://www.hmrc.gov.uk/efiling/ctsoft_dev.htm) to file taxes, though a
+quick peek doesn't excite me.
 
 The strategy for Webconverger I will adopt is this:
 
@@ -68,4 +69,5 @@ HORRIFIC XML APIS. Still I am missing all customer data from:
 
 Ok, next. How do I print CSV to study with my Pakistani accountant? This is
 what I bought a [[printer|blog/entry/Samsung_SCX-4200]] for! I can't just send
-the CSV to my accountant as an email attachment. That would be too easy.
+the CSV text file to my accountant as an email attachment. That would be too
+easy. :)
