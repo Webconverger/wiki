@@ -29,7 +29,7 @@ business adviser doesn't return my calls. Oh, I loathe Barclays.
 
 Right, I'll export the data as
 [CSV](http://en.wikipedia.org/wiki/Comma-separated_values) which alarming
-Barclays think is Excel data. Rename data.csv as 2008.csv. [Data
+Barclays thinks is Excel data. Rename data.csv as 2008.csv. [Data
 portabilty](http://www.dataportability.org/) is not hard! Oh wait, the Barclays
 CSV seems close to unreadable. Oh dear.
 

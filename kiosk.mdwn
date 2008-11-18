@@ -12,26 +12,6 @@ exhibit on pages with [popups](http://webconverger.org/tests/target.html).
 
 <a href="http://www.flickr.com/photos/hendry/2934652998/" title="Webconverger noaddressbar kiosk extension demo by Kai Hendry, on Flickr"><img src="http://farm4.static.flickr.com/3034/2934652998_462143ea42.jpg" width="500" height="375" alt="Webconverger noaddressbar kiosk extension demo" /></a>
 
-# iceweasel-webctabkiller
-
-<a href="http://www.flickr.com/photos/hendry/2738789515/" title="webc tab killer by Kai Hendry, on Flickr"><img src="http://farm4.static.flickr.com/3130/2738789515_650fcd06dc.jpg" width="447" height="500" alt="webc tab killer" /></a>
-
-Similar to the popular [Tab killer
-extension](https://addons.mozilla.org/en-US/firefox/addon/1938). Tabs _may_
-convince some novice users. Suffers from the
-[popups](http://webconverger.org/tests/target.html) problem.
-
-# iceweasel-webcyourlibrary
-
-<a href="http://www.flickr.com/photos/hendry/2738794775/" title="webcyourlibrary by Kai Hendry, on Flickr"><img src="http://farm4.static.flickr.com/3240/2738794775_856e66cc28.jpg" width="500" height="313" alt="webcyourlibrary" /></a>
-
-Especially commissioned by [your library Canada](http://yourlibrary.ca/), who wanted:
-
-* no address bar
-* no tabs
-
-BUG [[todo]]: Does not take kindly to new window popups with 'target="_blank"'.
-
 # iceweasel-webcfullscreen
 
 Customization option. For customers who want to do [Digital signage](http://en.wikipedia.org/wiki/Digital_Signage) or just [show off some pictures](http://www.subitophoto.net/slideshow/machupicchu/) somewhere.
