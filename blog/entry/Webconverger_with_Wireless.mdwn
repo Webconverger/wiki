@@ -6,3 +6,5 @@ Youtube video following:
 <embed src="http://www.youtube.com/v/MIvE_Qn-2fw" type="application/x-shockwave-flash" wmode="transparent" width="425" height="344"></embed></object>
 
 UPDATE: The [very latest builds](http://build.webconverger.org/) should have WPA support. Track [webc-users](http://groups.google.com/group/webc-users/topics) to know more...
+
+UPDATE: A new `wlan=` [[boot]] option has been added to the [daily builds](http://build.webconverger.com/), see [[networking]] for more.
