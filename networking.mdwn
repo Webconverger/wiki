@@ -24,12 +24,21 @@ Non-standard network (wireless) setups can be [customised](http://webconverger.c
 
 # Wireless hardware
 
-**UPDATE**: As of webconverger-base_3.17 you can try define your network on [[boot]] cmdline startup, like so:
+**UPDATE**: [Daily builds](http://build.webconverger.com/) can try define your network on [[boot]] cmdline startup, like so:
 
-	wlan=iface,essid,key
+	wlan=essid,key
 
-For example for my unencrypted hidden network, `wlan=eth1.w` should work. Track developments in [webconverger.init](http://git.webconverger.org/?p=webconverger-base.git;a=blob;f=debian/webconverger.init).
+Examples:
 
+To join a WPA network with ESSID 'foo' and password 'francisco' append `wlan=foo,francisco`
+
+To join an unsecured network called 'w', append `wlan=w,`
+
+To join any open network, appen `wlan=,`
+
+Track developments in [webconverger.init](http://git.webconverger.org/?p=webconverger-base.git;a=blob;f=debian/webconverger.init).
+
+# BUY LINUX COMPATIBLE WIRELESS HARDWARE !!!
 
 Please purchase [Linux compatible wireless hardware](http://www.linuxemporium.co.uk/products/wireless/). Else making your wireless work with Webconverger will be **very** difficult!
 
