@@ -34,7 +34,7 @@ To join a WPA network with ESSID 'foo' and password 'francisco' append `wlan=foo
 
 To join an unsecured network called 'w', append `wlan=w,`
 
-To join any open network, appen `wlan=,`
+To join any open network, append `wlan=,` to the [[boot]] options.
 
 Track developments in [webconverger.init](http://git.webconverger.org/?p=webconverger-base.git;a=blob;f=debian/webconverger.init).
 
