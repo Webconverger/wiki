@@ -1,4 +1,4 @@
-# Wireless
+# Wireless (working from version 3.12)
 
 	wlan=essid,key
 
