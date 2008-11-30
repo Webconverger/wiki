@@ -1,7 +1,7 @@
 * Allow USB mounts so people can upload pictures to Flickr (use case by Phil Waring)
 * do some sort of device API for attraction (screensaver advertisement) loop
 * device API for USB coin slot
-* somehow showcase Firefox 3 features like SVG etc. on the portal
+* somehow showcase Firefox 3 features like SVG, rounded corners, canvas, video etc. on the portal
 * remove the redundant SSL warning and look into fixing the SSL mozilla mess
 * Figure out mozplugger pdf issue on http://tinyurl.com/6npvk5
 * Look into crosses on the tab instead of the far right
@@ -10,12 +10,12 @@
 * fix preseed to choose guided by default (forget LVM+crypto)
 * look into webc-yourlibrary **new window** homepage breaking bug (use iceweasel-webcnoaddressbar instead?)
 * fix [xvideomode](http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=499304) [forcing video modes](http://lists.alioth.debian.org/pipermail/debian-live-devel/2008-August/004103.html)
-* Disable boot options
-* ensure home is mounted encrypted and keys are thrown away between sessions in persistent-browser script
+* Ensure home is mounted encrypted and keys are thrown away between sessions in persistent-browser script
+* Install from Wireless
+* Look into advertising on the free version
 
 # [[boot]] options that needed to be hacked into webconverger-base from live-initramfs
 
-1. nosudo
-* locale
 * keyb
-* toram
+* toram is this really appropriate?
+* locale - double check locale works
