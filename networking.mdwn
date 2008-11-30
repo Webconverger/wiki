@@ -1,10 +1,10 @@
+
 Currently there is a problem with [setting DNS from the BOOT parameter](http://groups.google.com/group/webc-users/browse_thread/thread/2423f987dda9bf48/f1116a232525dbb7#f1116a232525dbb7)
 
 Ideally Webconverger should be deployed in a **wired network** with a **DHCP
-server**. If you only have wireless Internet access you probably need a
-Wireless router.
+server**. 
 
-Otherwise you can set the IP manually:
+Otherwise you can set a static IP manually (discouraged!):
 
        ip=IFACE,ADDRESS,NETMASK,GATEWAY[:IFACE,ADDRESS,NETMASK,GATEWAY]*
               Let  you  specify  the  name(s) and the options of the interface(s) that should be configured at
@@ -20,91 +20,4 @@ An example at the bootup prompt:
 * 255.255.255.0 is the netmask
 * 192.168.1.1 is the gateway
 
-Non-standard network (wireless) setups can be [customised](http://webconverger.com/buy) as a service of [Webconverger.com](http://webconverger.com/).
-
-# Wireless hardware
-
-**UPDATE**: [Daily builds](http://build.webconverger.com/) can try define your network on [[boot]] cmdline startup, like so:
-
-	wlan=essid,key
-
-Examples:
-
-To join a WPA network with ESSID 'foo' and password 'francisco' append `wlan=foo,francisco`
-
-To join an unsecured network called 'w', append `wlan=w,`
-
-To join any open network, append `wlan=,` to the [[boot]] options.
-
-Track developments in [webconverger.init](http://git.webconverger.org/?p=webconverger-base.git;a=blob;f=debian/webconverger.init).
-
-# BUY LINUX COMPATIBLE WIRELESS HARDWARE !!!
-
-Please purchase [Linux compatible wireless hardware](http://www.linuxemporium.co.uk/products/wireless/). Else making your wireless work with Webconverger will be **very** difficult!
-
-Other wireless chipsets known to work:
-
-* most intel based cards
-* most [atheros](http://en.wikipedia.org/wiki/Atheros) based cards
-* ipw3945
-* ipw2200
-* ipw2100
-* rt2x00
-* rt2570
-
-Wireless devices that require Window's drivers wrappers such as ndiswrapper or fw-cutter etc. are **too painful** to integrate with Webconverger. In many cases it simply cannot be done without actually having the device and preparing 'one off' packages.
-
-### Further links regarding Wireless hardware
-
-* [Debian wireless page](http://wiki.debian.org/WiFi)
-* [Ubuntu wireless page](https://help.ubuntu.com/community/WifiDocs/WirelessCardsSupported)
-
-## Getting a Windows wireless device working
-
-This is a developer reference.
-
-Get the Win32 drivers:
-
-    x40:~/webc/wifi% ls
-    ar5523.bin  ar5523.sys  net5523.cat  net5523.inf
-
-Prime your chroot:
-
-    sudo apt-get install ndiswrapper-common ndiswrapper-utils ndiswrapper-source
-
-Build the ndiswrapper module for your distribution and architecture:
-
-    m-a prepare
-    m-a a-i ndiswrapper
-
-With any luck, you'll have made a Debian package, like:
-
-	/usr/src/ndiswrapper-modules-2.6.22-2-686_1.47-2+2.6.22-4_i386.deb
-
-Install that package. You want that in your `config/chroot_local-packages`.
-
-Configure your (chroot) system for the device
-
-    sudo ndiswrapper -i net5523.inf
-    sudo ndiswrapper -l
-    sudo ndiswrapper -m
-
-Another [guide](http://www.debian-administration.org/articles/401).
-
-# Wireless router (recommended)
-
-<a href="http://www.flickr.com/photos/hendry/1172361934/" title="Every home should have a WRT54G-L by Kai Hendry, on Flickr"><img src="http://farm2.static.flickr.com/1055/1172361934_fe1a77dc72_m.jpg" width="180" height="240" alt="Every home should have a WRT54G-L" /></a>
-
-A [Linksys WRT54G](http://en.wikipedia.org/wiki/WRT54G) in **Wireless Client
-mode** is a very good solution for wireless kiosk access. They are about 50USD
-and this dedicated hardware provides excellent Wireless access without the
-complication of often proprietary Wireless drivers for each client. The highly
-recommended Linksys WRT54G allows at least four machines to easily plug into
-the router.
-
-Also the blog entry on this topic: [[blog/entry/Better_Routing_wanted]]
-
-Recommended firmware:
-
-* [dd-wrt](http://www.dd-wrt.com)
-* [Tomato firmware](http://www.polarcloud.com/tomato)
+# [[Wireless_networking|wireless]]
