@@ -8,8 +8,8 @@ to enter the telephone area code. For my area, I think it is 01483. Then 1 and
 1 to choose Internet broadband. This process takes a few minutes and on my
 T-mobile it costs 00:00:48 £0.09 (40p a minute on T-mobile). I'm fast. :)
 
-The service status number said there are no reports. Now I need to call
-customer services on 0845 454 1111. There are roughly 6 menus you need to
+The service status number said there are no reports of an outage. Now I need to
+call customer services on 0845 454 1111. There are roughly 6 menus you need to
 navigate in order to report a fault.  Thankfully they are all 3, so 333333.
 Once through to an operator, you need to give the account number etc. They then
 probably put you on hold as if you are cable customer, as you will be
