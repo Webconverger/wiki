@@ -18,22 +18,23 @@ transferred to a **NTL** department. This process last night costs 00:22:12
 
 After talking to an Indian NTL engineer on a terrible line for some time, we agreed the following:
 
-* Engineer visit on Wednesday afternoon. He would call me on the Wednesday to setup the time.
-* I was to be compensated for the Internet outage on my next bill for Monday, Tuesday & Wednesday. 5GBP.
+* Engineer visit on Wednesday afternoon. He would call me on the Wednesday to setup the time. Of course they expected me to take time off work to receive the engineer... (!)
+* I was to be compensated for the Internet outage on my next bill for Monday, Tuesday & Wednesday. 5GBP. (!)
 
 If I was not around to receive the engineer I would be fined 10GBP. If the
 Internet is working again, I must call customer services again.
 
-Since the Internet began working again the next morning, I called customer
-services. She said there was an outage last night. I said no one has called me
-to say that the Internet is working again. She asked me if I wanted anything
-else, I said please **cancel** the engineer visit then!
+Since the Internet began working again the next morning, I reluctantly called
+customer services. The operator then says there **was** an outage last night. I
+said no one has contacted me to follow up on the case. She asked me if I wanted
+anything else, I said please **cancel** the engineer visit then!
 
-Virgin media, the Internet supplier with no way to address their service via
-the Internet. I would of happily notified them of the outage via a Web page
-from my [Android G1 device](http://dabase.com/g1/).
+Virgin media, the 'state of the art' leading UK Internet supplier with **no way
+to address their service via the Internet**. I would of happily notified them
+of the outage via a Web page from my [Android G1
+device](http://dabase.com/g1/).
 
 T-mobile rant: I can not use my [T-mobile G1](http://dabase.com/g1/) as a
 [bluetooth dialup modem](http://flickr.com/photos/hendry/2278783255/) from my
 [Thinkpad X61](http://wiki.webvm.net/hardware/x61), like I did with my Nokia
-E65 in the past. It's got to get worse before it gets better, right? :(
+E65 with 3 in the past. It's got to get worse before it gets better, right? :(
