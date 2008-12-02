@@ -32,3 +32,8 @@ else, I said please **cancel** the engineer visit then!
 Virgin media, the Internet supplier with no way to address their service via
 the Internet. I would of happily notified them of the outage via a Web page
 from my [Android G1 device](http://dabase.com/g1/).
+
+T-mobile rant: I can not use my [T-mobile G1] as a [bluetooth dialup
+modem](http://flickr.com/photos/hendry/2278783255/) from my [Thinkpad
+X61](http://wiki.webvm.net/hardware/x61), like I did with my Nokia E65 in the
+past. It's got to get worse before it gets better, right? :(
