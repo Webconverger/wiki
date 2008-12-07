@@ -1,9 +1,9 @@
 This new major 4.x series release of Webconverger is marked by [[wireless]]
 driver support. Webconverger also has a new super fast [download
-mirror](http://download.webconverger.org/) hosted by a new machine [[hetty]]
-located somewhere in Germany.
+mirror](http://download.webconverger.org/mini) hosted by a new machine [[hetty]]
+located somewhere in Germany. Try it out!
 
-[[blog/entry/Webconverger_3]] before that was celebrated Firefox 3.
+Historically [[blog/entry/Webconverger_3]] before celebrated Firefox 3.
 
 # Webconverger 4 release notes
 
