@@ -40,9 +40,9 @@ remove `nosudo`
 
 Once Webconverger is booted, shift+alt+enter for a Terminal. =)
 
-### Set the resolution to 800x600 pixels
+### Setup to use [[wireless]] access point "san" with WPA password "francisco"
 
-append `xvideomode=800x600`
+Append `wlan=san,francisco`
 
 ### Disable ACPI (applicable to some [[odd_machines|mpc]] that fail to boot)
 
