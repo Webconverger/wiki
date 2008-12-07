@@ -1,4 +1,4 @@
-# Wireless (working from version 3.12)
+# Wireless (working from version 4!)
 
 	wlan=essid,key
 
@@ -35,7 +35,7 @@ Wireless devices that require Window's drivers wrappers such as ndiswrapper or f
 * [Debian wireless page](http://wiki.debian.org/WiFi)
 * [Ubuntu wireless page](https://help.ubuntu.com/community/WifiDocs/WirelessCardsSupported)
 
-## Getting a Windows wireless device working
+## Getting a Windows wireless device working (for developers!)
 
 This is a developer reference.
 

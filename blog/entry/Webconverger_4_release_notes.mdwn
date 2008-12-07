@@ -1,0 +1,26 @@
+This new major 4.x series release of Webconverger is marked by [[wireless]]
+driver support. Webconverger also has a new super fast [download
+mirror](http://download.webconverger.org/) hosted by a new machine [[hetty]]
+located somewhere in Germany.
+
+[[blog/entry/Webconverger_3]] before that was celebrated Firefox 3.
+
+# Webconverger 4 release notes
+
+The Debian installer does not have any wireless support. So if you want to
+install Webconverger from CD ISO [[grub_boot_menu|boot]] or
+[[USB|blog/entry/Webconverger_install_from_USB]], please do so from a
+[[wired_connection|networking]].
+
+There is a [video describing Webconverger USB wireless boot
+option](http://uk.youtube.com/watch?v=CkryMFlBotg). Please post [[testing]]
+feedback publicly on the
+[forums](http://groups.google.com/group/webc-users/topics).
+
+## About non-English [[locales|i18n]]
+
+[[maxi]] will be updated when people are happy with [[wifi_support|wireless]].
+I am tinkering with the idea of setting up locale dynamically from a control
+panel once Webconverger mini has booted up. This would download the necessary
+locale files instead of distributing a huge distribution such as [[maxi]] with
+everything bundled in.
