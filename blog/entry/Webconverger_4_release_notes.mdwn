@@ -7,10 +7,10 @@ Historically [[blog/entry/Webconverger_3]] before celebrated Firefox 3.
 
 # Webconverger 4 release notes
 
-The Debian installer does not have any wireless support. So if you want to
-install Webconverger from CD ISO [[grub_boot_menu|boot]] or
-[[USB|blog/entry/Webconverger_install_from_USB]], please do so from a
-[[wired_connection|networking]].
+The Debian installer does not contain wireless firmware support. So **if** you
+want to install Webconverger to your hard drive from CD ISO
+[[grub_boot_menu|boot]] or [[USB|blog/entry/Webconverger_install_from_USB]],
+please do so from a [[wired_connection|networking]].
 
 There is a [video describing Webconverger USB wireless boot
 option](http://uk.youtube.com/watch?v=CkryMFlBotg). Please post [[testing]]
@@ -23,7 +23,7 @@ sites you are surfing. Webconverger is designed to be [[secure|security]]!
 
 ## About non-English [[locales|i18n]]
 
-[[maxi]] will be updated when people are happy with [[wifi_support|wireless]].
+[[Maxi]] will be updated when people are happy with [[wifi_support|wireless]].
 I am tinkering with the idea of setting up locale dynamically from a control
 panel once Webconverger mini has booted up. This would download the necessary
 locale files instead of distributing a huge distribution such as [[maxi]] with
