@@ -17,6 +17,10 @@ option](http://uk.youtube.com/watch?v=CkryMFlBotg). Please post [[testing]]
 feedback publicly on the
 [forums](http://groups.google.com/group/webc-users/topics).
 
+Last, but not least. For production deployments you **must** use WPA security
+on your Wireless access point otherwise attackers can too easily sniff the
+sites you are surfing. Webconverger is designed to be [[secure|security]]!
+
 ## About non-English [[locales|i18n]]
 
 [[maxi]] will be updated when people are happy with [[wifi_support|wireless]].
