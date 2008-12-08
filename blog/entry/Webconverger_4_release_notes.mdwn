@@ -24,7 +24,7 @@ surfing. Webconverger is designed to be [[secure|security]]!
 
 ## UPDATE FLASH does not seem to work
 
-An point release with Flash 10 is being prepared for 9/12/2008!
+A point release with Flash 10 is being prepared for 9/12/2008!
 
 ## About non-English [[locales|i18n]]
 
