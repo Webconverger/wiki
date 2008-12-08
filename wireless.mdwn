@@ -4,7 +4,7 @@
 
 Examples:
 
-To join a WPA network with ESSID 'foo' and password 'francisco' append `wlan=foo,francisco`
+To join a [secured wireless network](http://en.wikipedia.org/wiki/Wi-Fi_Protected_Access) with ESSID 'foo' and password 'francisco' append `wlan=foo,francisco`
 
 To join an unsecured network called 'w', append `wlan=w,`
 

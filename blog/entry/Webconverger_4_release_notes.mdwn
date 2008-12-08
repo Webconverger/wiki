@@ -17,9 +17,14 @@ option](http://uk.youtube.com/watch?v=CkryMFlBotg). Please post [[testing]]
 feedback publicly on the
 [forums](http://groups.google.com/group/webc-users/topics).
 
-Last, but not least. For production deployments you **must** use WPA security
-on your Wireless access point otherwise attackers can too easily sniff the
-sites you are surfing. Webconverger is designed to be [[secure|security]]!
+Last, but not least. For production deployments you **must** use [WPA
+security](http://en.wikipedia.org/wiki/Wi-Fi_Protected_Access) on your Wireless
+access point otherwise attackers can too easily sniff the sites you are
+surfing. Webconverger is designed to be [[secure|security]]!
+
+## UPDATE FLASH does not seem to work
+
+An point release with Flash 10 is being prepared for 9/12/2008!
 
 ## About non-English [[locales|i18n]]
 
