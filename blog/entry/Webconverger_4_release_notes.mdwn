@@ -22,9 +22,9 @@ security](http://en.wikipedia.org/wiki/Wi-Fi_Protected_Access) on your Wireless
 access point otherwise attackers can too easily sniff the sites you are
 surfing. Webconverger is designed to be [[secure|security]]!
 
-## UPDATE FLASH does not seem to work
+## UPDATE FLASH does not seem to work with 4.0
 
-A point release with Flash 10 is being prepared for 9/12/2008!
+4.1 fixes the problem. Enjoy :-)
 
 ## About non-English [[locales|i18n]]
 

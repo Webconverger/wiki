@@ -13,6 +13,7 @@
 * Ensure home is mounted encrypted and keys are thrown away between sessions in persistent-browser script
 * Install from Wireless
 * Look into advertising on the free version
+* Virtual (on screen) keyboard
 
 # [[boot]] options that needed to be hacked into webconverger-base from live-initramfs
 
