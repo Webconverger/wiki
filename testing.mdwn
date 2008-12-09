@@ -44,3 +44,20 @@ Hendry uses VMware workstation. :-)
 [Videos](http://video.google.co.uk/videoplay?docid=-4095341796996048842&hl=en-GB) with [Brendan's autotesting script](http://git.debian.org/?p=debian-live/autotesting.git).
 
 Problem is the process is quite CPU intensive.
+
+# Elements to test
+
+## [[wireless]]
+
+## [YouTube](http://youtube.com/)
+
+* Flash video
+* Sound
+
+## [Letterly](http://letterly.com/)
+
+* PDF
+
+## Debian installer
+
+Install to 8G VMWARE virtual hard disk
