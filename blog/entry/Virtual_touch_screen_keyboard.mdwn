@@ -1,6 +1,6 @@
-A popular requested feature on my [[todo]] list is a virtual keyboard.
+A popular requested feature on the [[todo_list|todo]] is a virtual keyboard.
 
-I'm not entirely sure if customers need a [Virtual keyboard](http://en.wikipedia.org/wiki/Virtual_keyboard) for systems with a [touch
+I'm not entirely sure if customers need a [virtual keyboard](http://en.wikipedia.org/wiki/Virtual_keyboard) for systems with a [touch
 screen](http://hardware.slashdot.org/article.pl?sid=08/12/15/1614205)
 interface, or meant for simpler kiosk configurations **without a keyboard**.
 
