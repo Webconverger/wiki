@@ -63,9 +63,10 @@ as a [Dalvik](http://en.wikipedia.org/wiki/Dalvik_virtual_machine) and/or as a n
 for Webconverger.
 
 I think the best solution is to implement the keyboard as a [Firefox
-addon](https://addons.mozilla.org) in Javascript. I swear there was such
-project in the past.  So like [[kiosk]] I might write another Firefox addon to
-implement this feature sanely. Teemu also pointed me out to [Javascript
+addon](https://addons.mozilla.org) in Javascript. I swear there was such a
+onscreen keyboard addon project in the past.  So like [[kiosk]] I might write
+another Firefox addon to implement this feature sanely. Teemu also pointed me
+out to [Javascript
 VirtualKeyboard](http://www.codeproject.com/KB/scripting/jsvk.aspx) which may
 prove handy.
 
