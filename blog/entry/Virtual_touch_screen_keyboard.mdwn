@@ -17,7 +17,7 @@ the keyboard is supposed to slide in and out either from the browser pane.
 version of this tool and since I hate KDE and Gnome and it's bloatware
 dependencies... that's not going in Webconverger no matter how great it is.
 
-Maemo is interesting as [Maemo should get a GSM stack soon with
+[Maemo](http://en.wikipedia.org/wiki/Maemo_%28operating_system%29) is interesting as [Maemo should get a GSM stack soon with
 Fremantle](http://wiki.maemo.org/Task:Maemo_roadmap/Fremantle) and er... it has
 and onscreen keyboard called [Hildon Input
 Method](http://live.gnome.org/Hildon/HildonInputMethod). I think this may have
@@ -61,6 +61,9 @@ framework (IMF) as Google call it on their
 [roadmap](http://source.android.com/roadmap). I guess this will be implemented
 as a [Dalvik](http://en.wikipedia.org/wiki/Dalvik_virtual_machine) and/or as a non-X application so I don't think this will be of any use
 for Webconverger.
+
+* OpenMoko have a promising Virtual keyboard based on E17 libraries
+* A work colleague has also pointed out [Cell writer](http://risujin.org/cellwriter/).
 
 I think the best solution is to implement the keyboard as a [Firefox
 addon](https://addons.mozilla.org) in Javascript. I swear there was such a
