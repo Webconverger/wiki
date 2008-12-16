@@ -62,7 +62,7 @@ framework (IMF) as Google call it on their
 as a [Dalvik](http://en.wikipedia.org/wiki/Dalvik_virtual_machine) and/or as a non-X application so I don't think this will be of any use
 for Webconverger.
 
-* OpenMoko have a promising Virtual keyboard based on E17 libraries
+* [OpenMoko have a promising Virtual keyboard based on E17 libraries](http://wiki.openmoko.org/wiki/Illume)
 * A work colleague has also pointed out [Cell writer](http://risujin.org/cellwriter/).
 
 I think the best solution is to implement the keyboard as a [Firefox
