@@ -14,9 +14,12 @@
 * Install from Wireless
 * Look into advertising on the free version
 * Virtual (on screen) keyboard
+* wlan ESSID with spaces
 
 # [[boot]] options that needed to be hacked into webconverger-base from live-initramfs
 
 * keyb
 * toram is this really appropriate?
 * locale - double check locale works
+
+
