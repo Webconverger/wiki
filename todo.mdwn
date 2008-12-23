@@ -10,7 +10,7 @@
 * fix preseed to choose guided by default (forget LVM+crypto)
 * look into webc-yourlibrary **new window** homepage breaking bug (use iceweasel-webcnoaddressbar instead?)
 * fix [xvideomode](http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=499304) [forcing video modes](http://lists.alioth.debian.org/pipermail/debian-live-devel/2008-August/004103.html)
-* Ensure home is mounted encrypted and keys are thrown away between sessions in persistent-browser script
+* Ensure home is mounted encrypted and keys are thrown away between sessions in persistent-browser script (i.e. same as an encrypted swap drive)
 * Install from Wireless
 * Look into advertising on the free version
 * Virtual (on screen) keyboard
