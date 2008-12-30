@@ -1,4 +1,4 @@
-MD5SUM is an **optional** procedure to verify your download. 
+MD5SUM is the old **DEPRECATED** procedure to verify your download. Please see [[txt]] for the more current hash verfication.
 
 Large downloads can fail to download correctly and become corrupt. Hence it is worthwhile to check for any problems. Unfortunately this process is rather manual.
 
@@ -10,7 +10,7 @@ This is a file containing a checksum. This is to verify the downloaded image fil
 
     monty:~/images% cat webc-2.29.mini.iso.MD5SUM
     9f65b24422bb92224f7c54bf911dad59  /home/hendry/www/mini/webc-2.29.mini.iso
-    monty:~/images% md5sum webc-2.29.mini.iso       
+    monty:~/images% md5sum webc-2.29.mini.iso
     9f65b24422bb92224f7c54bf911dad59  webc-2.29.mini.iso
 
 Above the MD5SUMs match, which means the original checksum is the same as my local checksum. The image is now verified.

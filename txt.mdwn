@@ -2,11 +2,9 @@ You may have noticed .txt (text files) like:
 
     webc-2.29.en.txt
 
-
 This is a package list of all the Debian packages contained in this version (2.29) of Webconverger.
 
 This is very useful to know the exact version number of individual packages contained in the images, ignoring [[upgrade]]s.
-
 
 Also it is good to know which packages (and hence [[features]]) are included. 
 
@@ -16,3 +14,9 @@ For example:
 * If **iceweasel-l10n-fr** and **myspell-fr** is listed in [maxi.txt](http://download.webconverger.com/maxi.txt) then you know [[maxi]] contains [[i18n]] localisations for the browser and spell checking for the [French language](http://en.wikipedia.org/wiki/French_language).
 
 See [[mini]] and [[maxi]] for explanations of the different main configurations of Webconverger.
+
+# Hash checksum (verifying your download)
+
+From `webc-4.1.mini.txt` the sha1 sums are appended to the text file.
+
+	sha1sum webc-4.1.mini.* >> webc-4.1.mini.txt
