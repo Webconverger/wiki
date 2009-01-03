@@ -13,7 +13,7 @@ for them.
 
 I then emailed (wrong move) Devon based [Eclipse
 Internet](http://www.eclipse.net.uk/) to retrain the connection, since the
-connection seemed lock to half a meg... I should have called Eclipse support on
+connection seemed locked to half a meg... I should have called Eclipse support on
 0845 1224 111 and actually got something done, instead of waiting for a week
 for a silly email reply.
 
@@ -25,12 +25,12 @@ controller](https://www.eclipse.net.uk/index.cfm?id=connectionmanager)... oh
 pretty please [KISS](http://en.wikipedia.org/wiki/KISS_principle)!
 
 I've reworked the home networking now too, which was a little tricky since the
-[grade 2 listed house](http://www.flickr.com/photos/hendry/513500793/) has
+[grade 2 listed house](http://www.flickr.com/photos/hendry/tags/prazefarm/) has
 **very** thick walls (especially on the ground level).
 
 1. Master socket direct to upper level Linksys WAG354G Firmware Version: 1.01.11
 * WAG354G to [wall power socket](http://en.wikipedia.org/wiki/Power_line_communication) [ZyXEL PLA401](http://flickr.com/photos/hendry/3106453789/)
-* ZyXEL PLA401 to downstairs WRT54GL running [Tomato firmware](http://www.polarcloud.com/tomato)
+* ZyXEL PLA401 to downstairs WRT54GL running the latest greatest [Tomato firmware](http://www.polarcloud.com/tomato)
 * A second WRT54GL operating on [WDS](http://en.wikipedia.org/wiki/Wireless_Distribution_System) extending both 'downstairs WRT54GL' and WAG354G wireless access point, towards the cottage
 
 So the connection can hop from my X61 'wirelessly to' WRT54GL (WDS) 'wirelessly
