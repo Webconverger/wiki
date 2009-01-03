@@ -2,7 +2,7 @@
 
 [Subscribe to the Atom feed](http://webconverger.org/blog/index.atom) of the [[blog]].
 
-There are [[pagecount ]] pages in the wiki.
+There are [[!pagecount ]] pages in the wiki.
 
 ### If you want to ask a question about Webconverger usage, try the [forum for Webc users](http://groups.google.com/group/webc-users/topics)!
 
