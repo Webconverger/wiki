@@ -1,20 +1,20 @@
 Happy new year 2009!
 
-I'm staying at my parent's [Cornish cottage](http://prazefarm.co.uk/) and
+I'm staying at my parent's [cottage in Cornwall](http://prazefarm.co.uk/) and
 enjoying slow Internet connectivity.
 
 <img src="http://www.speedtest.net/result/383433002.png">
 
-I moved the ADSL splitter to plug directly into the [BT
+I moved the ADSL splitter from the back room to plug directly into the [BT
 NTE5](http://www.telephonesuk.co.uk/images/NTE5_BT_front.jpg). I wish these
 things had integrated [ADSL](http://en.wikipedia.org/wiki/ADSL) splitters and
 basically [BT](http://en.wikipedia.org/wiki/British_telecom) was responsible
 for them.
 
-I then emailed (wrong move) Devon based [Eclipse
+I then emailed (wrong move) [Devon based Eclipse
 Internet](http://www.eclipse.net.uk/) to retrain the connection, since the
-connection seemed locked to half a meg... I should have called Eclipse support on
-0845 1224 111 and actually got something done, instead of waiting for a week
+connection seemed locked to half a meg... I should have called Eclipse support
+on 0845 1224 111 and actually got something done, instead of waiting for a week
 for a silly email reply.
 
 Another annoying element to Eclipse ISP is that they've dropped their unlimited
@@ -33,11 +33,12 @@ I've reworked the home networking now too, which was a little tricky since the
 * ZyXEL PLA401 to downstairs WRT54GL running the latest greatest [Tomato firmware](http://www.polarcloud.com/tomato)
 * A second WRT54GL operating on [WDS](http://en.wikipedia.org/wiki/Wireless_Distribution_System) extending both 'downstairs WRT54GL' and WAG354G wireless access point, towards the cottage
 
-So the connection can hop from my X61 'wirelessly to' WRT54GL (WDS) 'wirelessly
-to'  WRT54GL 'cabled to' PLA401 'powerlined to' PLA401 'cabled to' WAG354G
-'ADSL to' Eclipse... Yowsers.
+So the connection can hop from my [X61 laptop](http://dabase.com/x61/)
+'wirelessly to' WRT54GL (WDS) 'wirelessly to'  WRT54GL 'cabled to' PLA401
+'powerlined to' PLA401 'cabled to' WAG354G 'ADSL to' Eclipse... Yowsers.
 
-Retraining the ADSL connection according to BT can take several days. By that
-time, I'll be back in the South East of England. I'm really hoping Praze Farm's
-connection can increase from half a meg to something like the national UK
-average of 2meg...
+Retraining the ADSL connection according to BT (via Eclipse telephone support)
+can take several days. By that time, I'll be back in the South East of England.
+I'm really hoping Praze Farm's connection can increase from half a meg to
+something like the national UK average of 2 meg... shameful for such a small
+developed country.
