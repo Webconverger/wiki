@@ -1,4 +1,4 @@
-[[template id=note text="""
+[[!template id=note text="""
 <a href="http://www.flickr.com/photos/hendry/1403651984/" title="Photo Sharing"><img src="http://farm2.static.flickr.com/1169/1403651984_30fd52a678_m.jpg" width="180" height="240" alt="Webconverger on an HP" /></a>"""]]
 
 .img [downloadable](http://download.webconverger.com/) files are USB images to be copied onto a USB stick/key.
