@@ -16,6 +16,7 @@ locally.</p>
 # Why Webconverger
 
 * Reliability
+* Sandboxed security
 * Better [[i18n]] support for difficult locales like Chinese, Korean and Japanese
 
 Webconverger [[mini]] or [[maxi]] available for free download (demo) does not
