@@ -1,5 +1,7 @@
 [[!meta title="Webconverger Comparison Matrix"]]
 
+Webconverger is a simple and secure Web platform.
+
 # Introduction
 
 <p>Webconverger is an evolution of the <a
@@ -10,8 +12,8 @@ used.</p>
 
 <p>Unlike <a href="http://en.wikipedia.org/wiki/Thin_clients">thin</a> or <a
 href="http://en.wikipedia.org/wiki/Hybrid_client">hybrid</a> clients,
-Webconverger is faster and more responsive by providing a up-to-date Web browser that runs
-locally.</p>
+Webconverger is faster and more responsive by providing a up-to-date Web
+browser that runs locally.</p>
 
 # Why Webconverger
 
@@ -48,7 +50,7 @@ Support is free of cost with Webconverger for 30 days. Kioware would charge 10 m
 
 ## SiteKiosk
 
-* Please see [[blog/entry/SiteKiosk_versus_Webconverger]]
+Please view [[blog/entry/SiteKiosk_versus_Webconverger]].
 
 ## Microsoft Steady State
 
@@ -76,22 +78,23 @@ XP with Steadystate is inferior to a Webconverger for my usage scenario here.
 
 # Rationale
 
-<p>Entrepreneurs are not developing for the Windows or the Linux desktop, they’re developing for the prevalent <a href="http://www.joelonsoftware.com/articles/APIWar.html">Web API platform</a>.</p>
+Entrepreneurs are not developing for the Windows or the Linux desktop, they’re
+developing for the prevalent <a
+href="http://www.joelonsoftware.com/articles/APIWar.html">Web platform</a>.
 
-<p>Likewise users are not checking their email with Outlook Express
+Likewise users are not checking their email with Outlook Express
 anymore, they’re using Web applications such as Gmail or Yahoo. This is
-Web convergence.</p>
+Web convergence.
 
-<p>That leads us onto a <strong>problem</strong>. How does an IT manager roll
+That leads us onto a <strong>problem</strong>. How does an IT manager roll
 out the Web platform? We probably have to deal with fragile pre-installations
 of Windows and battle to get Firefox on each machine. Then the hopeless battle
 to maintain that system from viruses, spyware and the looming costs of a <a
-href="http://en.wikipedia.org/wiki/Microsoft_Vista">Vista</a> update.</p>
+href="http://en.wikipedia.org/wiki/Microsoft_Vista">Vista</a> update.
 
-<p><strong>The answer is Webconverger.</strong></p>
-
-<p>Webconverger is simply a Web kiosk/terminal, that is easy to deploy and
+Webconverger is simply a Web kiosk/terminal, that is easy to deploy and
 secure. In most cases all you need to do is boot from a CD. That's it! A usable
-up to date Web browser that <strong>just works</strong>.</p>
+up to date Web browser that <strong>just works</strong>.
 
-<p><strong>The Web, just the Web and only the Web.</strong></p>
+<p><strong>Webconverger provides the Web, just the Web and only the
+Web.</strong></p>
