@@ -46,6 +46,8 @@ developed country.
 UPDATE: The connection at [Praze Farm](http://prazefarm.co.uk/) should be up
 from ~500 Kbps (half a megabit) to 8 mbit!!! (8128 Kbps)
 
+<img src="http://www.speedtest.net/result/385243946.png">
+
 	DSL Status:      Up
 	DSL Modulation Mode:     GDMT
 	DSL Path Mode:           INTERLEAVED
@@ -73,3 +75,4 @@ from ~500 Kbps (half a megabit) to 8 mbit!!! (8128 Kbps)
 
 However the complex wireless over PNA in the house seems a tad unstable
 according to my folks. Two steps forward, one step back. :)
+
