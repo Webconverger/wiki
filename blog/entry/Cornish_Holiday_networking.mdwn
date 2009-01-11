@@ -42,3 +42,34 @@ can take several days. By that time, I'll be back in the South East of England.
 I'm really hoping Praze Farm's connection can increase from half a meg to
 something like the national UK average of 2 meg... shameful for such a small
 developed country.
+
+UPDATE: The connection at [Praze Farm](http://prazefarm.co.uk/) should be up
+from ~500 Kbps (half a megabit) to 8 mbit!!! (8128 Kbps)
+
+	DSL Status:      Up
+	DSL Modulation Mode:     GDMT
+	DSL Path Mode:           INTERLEAVED
+	Downstream Rate:         8128 Kbps
+	Upstream Rate:           448 Kbps
+	Downstream Margin:       6 db
+	Upstream Margin:         25 db
+	Downstream Line Attenuation:     44
+	Upstream Line Attenuation:       24
+	Downstream Transmit Power:       0
+	Upstream Transmit Power:         0
+
+
+	PVC Connection
+	Encapsulation:           RFC 2364 PPPoA
+	Multiplexing:    VC
+	QoS:     UBR
+	PCR Rate:        0
+	SCR Rate:        0
+	Autodetect:      Disable
+	VPI:     0
+	VCI:     38
+	Enable:          Yes
+	PVC Status:      Applied
+
+However the complex wireless over PNA in the house seems a tad unstable
+according to my folks. Two steps forward, one step back. :)
