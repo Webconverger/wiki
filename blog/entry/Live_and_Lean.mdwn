@@ -15,3 +15,5 @@ One of the most important software quality metrics is **less code**. One such mo
 So it feels particularly good to make Webconverger shed dependencies, [[packages|txt]] and lines of code from 3.0 beta 2 as you can see for yourself in either [[mini]] or [[maxi]] download sections.
 
 Update: I've since been pointed out many other packages in the [[list|txt]] that could be removed from Webcoverger like the legacy X driver packages. [Damn Small Linux](http://damnsmalllinux.org/packages.html) will be the guide to take Webconverger **sub-100 megs**.
+
+Update: [Small size image](http://wiki.debian.org/DebianLive/HowTo/SmallSizeImage) must be experimented with!
