@@ -1,5 +1,5 @@
 * Allow USB mounts so people can upload pictures to Flickr (use case by Phil Waring)
-* do some sort of device API for attraction (screensaver advertisement) loop
+* do some sort of device API for attraction (screensaver advertisement) loop, perhaps it can be done with kioskresetstation?
 * device API for USB coin slot
 * somehow showcase Firefox 3 features like SVG, rounded corners, canvas, video etc. on the portal
 * remove the redundant SSL warning and look into fixing the SSL mozilla mess
