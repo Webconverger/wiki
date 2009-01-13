@@ -1,6 +1,6 @@
 # Screen detection bug
 
-<img src="squashedX1.jpg">
-<img src="squashedX2.jpg">
-<img src="squashedX3.jpg">
-<img src="squashedX4.jpg">
+<img src="../squashedX1.jpg">
+<img src="../squashedX2.jpg">
+<img src="../squashedX3.jpg">
+<img src="../squashedX4.jpg">
