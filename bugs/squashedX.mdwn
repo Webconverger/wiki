@@ -1,10 +1,11 @@
-# When Xorg 7.3 first boots it shows a squashed screen
+# When Xorg 1.4.2 first boots it shows a squashed screen
+
 <img src="../squashedX1.jpg">
 
 # Workaround
 
-One workaround is start the screen in another screen. Then switch back to the
-touchscreen. Now the display takes the full width.
+One workaround is start X with another attached monitor. Then switch back to
+the touchscreen. Now the display takes the full width. (?)
 
 <img src="../squashedX2.jpg">
 
@@ -12,6 +13,7 @@ touchscreen. Now the display takes the full width.
 
 I assumed it had to do with the screen resolution being mis-detected by Xorg.
 However both images are reported being displayed by the monitor at 1024x768!
+
 Any clues?
 
 <img src="../squashedX3.jpg">
