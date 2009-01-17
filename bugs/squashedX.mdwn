@@ -22,4 +22,6 @@ However on closer inspection the <a href="../WinmateR15T630Xorg.1.log">Winmate T
 
 	(II) intel(0): Output VGA using initial mode 1280x768
 
-Is that the problem?
+It seems like the monitor was lying and it really was a screen resolution detection problem!
+
+[[bugs/done]]
