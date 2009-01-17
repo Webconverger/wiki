@@ -1,6 +1,6 @@
 # Welcome to the Webconverger Web kiosk project
 
-[Subscribe to the Atom feed](http://webconverger.org/blog/index.atom) of the [[blog]].
+[Subscribe to the RSS feed](http://webconverger.org/blog/index.rss) of the [[blog]].
 
 There are [[!pagecount ]] pages in the wiki.
 
