@@ -18,7 +18,7 @@ However both images are reported being displayed by the monitor at 1024x768!
 <img src="../squashedX3.jpg">
 <img src="../squashedX4.jpg">
 
-However on closer inspection the <a href="../WinmateR15T630Xorg.1.log">WinmateR15T63 Xorg.log</a> shows
+However on closer inspection the <a href="../WinmateR15T630Xorg.1.log">Winmate T15 T630 Xorg.log</a> shows
 
 	(II) intel(0): Output VGA using initial mode 1280x768
 

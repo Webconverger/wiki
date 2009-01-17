@@ -1,25 +1,31 @@
+# Bugs, todo and ideas
+
+These really should be prioritized and plotted onto a timeline.
+
 * Allow USB mounts so people can upload pictures to Flickr (use case by Phil Waring)
-* do some sort of device API for attraction (screensaver advertisement) loop, perhaps it can be done with kioskresetstation?
+* do some sort of device API for attraction (screensaver advertisement) loop, perhaps it can be done with kioskresetstation? No, [this can be done with a Web application](http://groups.google.com/group/webc-users/browse_thread/thread/656f92ff84582535)
 * device API for USB coin slot
 * somehow showcase Firefox 3 features like SVG, rounded corners, canvas, video etc. on the portal
 * remove the redundant SSL warning and look into fixing the SSL mozilla mess
 * Figure out mozplugger pdf issue on http://tinyurl.com/6npvk5
 * Look into crosses on the tab instead of the far right
 * improve download page to make downloading the latest mini for example **extremely** simple
-* have a service to send CDs?
+* have a service to send CDs? or USB keys?
 * fix preseed to choose guided by default (forget LVM+crypto)
 * look into webc-yourlibrary **new window** homepage breaking bug (use iceweasel-webcnoaddressbar instead?)
-* fix [xvideomode](http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=499304) [forcing video modes](http://lists.alioth.debian.org/pipermail/debian-live-devel/2008-August/004103.html)
-* Ensure home is mounted encrypted and keys are thrown away between sessions in persistent-browser script (i.e. same as an encrypted swap drive)
-* Install from Wireless
+* fix [xvideomode](http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=499304) [forcing video modes](http://lists.alioth.debian.org/pipermail/debian-live-devel/2008-August/004103.html) with xrandr
+* Ensure home is mounted encrypted and keys are thrown away between sessions in persistent-browser script (i.e. same as an encrypted swap drive), or just use shred?
+* Install from wireless
 * Look into advertising on the free version
 * Virtual (on screen) keyboard
-* wlan ESSID with spaces
+* [[wlan|wireless]] ESSID with spaces
+* [security kiosk bugs](http://groups.google.com/group/webc-users/browse_thread/thread/60d62ae72fcff707)
+* [[persistent_printing|printing]], which is one of the [[Goals_for_2009|blog/entry/2009_goals]]
+* Do an on the [[i18n]] in mini instead of a [[maxi]] version (download packages as we need them?)
+* Do some advocacy/marketing by writing to libraries and such places that use 'infopoints'. Perhaps do a talk at Hampshire/Surrey LUG or some other opensource event.
 
 # [[boot]] options that needed to be hacked into webconverger-base from live-initramfs
 
 * keyb
 * toram is this really appropriate?
 * locale - double check locale works
-
-

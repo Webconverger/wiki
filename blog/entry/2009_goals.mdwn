@@ -7,17 +7,21 @@ for 2009.
 
 Besides fixing some annoying [[bugs|todo]] like being able to manually fix the
 resolution, I would like to spend some time carefully polishing the install.
-For example making sure any menus are locked down.
+For example making sure any boot menus are locked down, once they are
+configured on install.
 
 Another goal is to tweak the business model. I would like to move away from a
 customisation model as it's ultimately silly to differentiate from your core
 product for every order. Hopefully some administrator settings can persist with
-some nice Web UI I have been working on behind the scenes.
+a Web UI I have been working on behind the scenes.
 
 To [tweet about Webconverger](http://twitter.com/webconverger) and only
 Webconverger related stuff. I have been tweeting about me, myself and I. Sorry,
 I got carried away. :)
 
-To properly come up with a system on the Web that I like for doing business
-accountancy and document the process on the [wiki](http://webconverger.org/). I
-would like to see how far we can push that "open business" idea.
+Since Webconverger Limited actually owns a
+[[printer|blog/entry/Samsung_SCX-4200]], I will endeavour to get some sort of
+persistent [[printing]] configuration working.
+
+To balance the Webconverger books and pay some taxes. Someone has to save the
+UK economy. ;)
