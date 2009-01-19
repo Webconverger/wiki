@@ -10,8 +10,8 @@ Hence the [4.2 security release](http://download.webconverger.com/mini) which [f
 also disables
 about:config](http://git.webconverger.org/?p=iceweasel-webconverger.git;a=commitdiff;h=3e5ca0b9212152ca55a693844e5d698d916ce8be).
 
-The packages are refreshed from Debian lenny, including an important browser
-[security update
+The packages are refreshed from Debian lenny, including an [important browser
+security update
 3.0.5](http://www.mozilla.com/en-US/firefox/3.0.5/releasenotes/). To find out
 which packages have been updated, try:
 
@@ -21,4 +21,4 @@ Next week I hope to have some more improvements like the 'Compose key' and resol
 
 Webconverger takes security very seriously. You are welcome to mail the [user
 forum](http://groups.google.com/group/webc-users) or mail us privately on **security** at
-webconverger.com.
+webconverger.com. Take care,
