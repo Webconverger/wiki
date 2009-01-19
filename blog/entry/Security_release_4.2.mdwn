@@ -3,7 +3,7 @@
 [Recently we've been made
 aware](http://groups.google.com/group/webc-users/browse_thread/thread/60d62ae72fcff707)
 that the [[extension|kiosk]] that locks down Webconverger can be removed by
-installing another extension. That's a serious security bug and thank you for
+installing another extension. That's a security bug and thank you for
 the report!
 
 Hence the [4.2 security release](http://download.webconverger.com/mini) which [fixes this XPIinstallConfirm issue and
