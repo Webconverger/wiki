@@ -20,5 +20,5 @@ which packages have been updated, try:
 Next week I hope to have some more improvements like the 'Compose key' and resolution setting `xvideomode=` working again.
 
 Webconverger takes security very seriously. You are welcome to mail the [user
-forum](http://groups.google.com/group/webc-users) or mail us privately at **security** at
+forum](http://groups.google.com/group/webc-users) or mail us privately on **security** at
 webconverger.com.
