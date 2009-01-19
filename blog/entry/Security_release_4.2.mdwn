@@ -1,3 +1,5 @@
+<a href="http://www.flickr.com/photos/hendry/3210823632/" title="Webconverger 4.2 by Kai Hendry, on Flickr"><img src="http://farm4.static.flickr.com/3424/3210823632_19bac69b72_m.jpg" width="240" height="180" alt="Webconverger 4.2" /></a>
+
 [Recently we've been made
 aware](http://groups.google.com/group/webc-users/browse_thread/thread/60d62ae72fcff707)
 that the [[extension|kiosk]] that locks down Webconverger can be removed by
@@ -18,5 +20,5 @@ which packages have been updated, try:
 Next week I hope to have some more improvements like the 'Compose key' and resolution setting `xvideomode=` working again.
 
 Webconverger takes security very seriously. You are welcome to mail the [user
-forum](http://groups.google.com/group/webc-users) or mail us at **security** at
+forum](http://groups.google.com/group/webc-users) or mail us privately at **security** at
 webconverger.com.
