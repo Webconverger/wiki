@@ -9,10 +9,10 @@ have been avoiding some accountancy work, though I am sure we'll get there.
 
 In February I am planning a long holiday in South Africa, however there should
 be someone to cover when I will be away from the Internet suffering withdrawal
-symptoms. Hopefully I'll covert a few backpackers hostels over to sanity that
+symptoms. Hopefully I'll covert a few backpacker hostels over to sanity that
 is Webconverger along the way.
 
-Last week has been productive. I have been looking into the [Compose
+Last week has been productive. I have been looking into the [mystical compose
 key](https://help.ubuntu.com/community/ComposeKey) after being prompted by
 [Pierre on the webc-users
 list](http://groups.google.com/group/webc-users/browse_thread/thread/a544075b80ed807a).
@@ -48,8 +48,17 @@ rig](http://flickr.com/photos/hendry/3212799691/) running
 [ArchLinux](http://www.archlinux.org/) (quite a nice distro btw!) which is much
 faster and of course [[powerful_hetty|hetty]] is always there for us too.
 Despite the [growing cost thanks to a weak
-GBP](http://finance.yahoo.com/q/bc?s=GBPEUR=X&t=5d&l=on&z=m&q=l&c=).
+GBP](http://finance.yahoo.com/q/bc?s=GBPEUR=X&t=5d&l=on&z=m&q=l&c=). That's
+good news for you btw. [Purchasing and supporting
+Webconverger](http://webconverger.com/buy) is really cheap right now at 100GBP
+and pricing will increase soon!
 
-So a new release of 4.3 is out soon. I just want to test it a little more over
-the week. Try a [beta](http://build.webconverger.org/) in the meantime for
+In other news, besides those [[blog/entry/2009_goals]], there will be work into
+getting Webconverger support on touch screen devices. Yeah, get [worried
+Microsoft](http://www.microsoft.com/surface/index.html)! =) I also wonder how
+badly that [CrunchPad](http://en.wikipedia.org/wiki/CrunchPad) will suck if
+they don't use Webconverger. ;)
+
+So a new release of 4.3 is being prepared. I just want to test it a little more
+over the week. Try a [beta](http://build.webconverger.org/) in the meantime for
 [[testing]].
