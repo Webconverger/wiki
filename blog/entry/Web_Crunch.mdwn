@@ -1,0 +1,55 @@
+So all this talk of the credit crunch and recession, I'd try liven' it up with
+a few bits of **good news**.
+
+<a href="http://www.flickr.com/photos/hendry/3226631492/" title="Webconverger 4.3 booted by Kai Hendry, on Flickr"><img src="http://farm4.static.flickr.com/3357/3226631492_9d39dd35b4.jpg" width="500" height="375" alt="Webconverger 4.3 booted" /></a>
+
+Webconverger Limited is in healthy shape and this year since my savings
+accounts interest rates are so dismal, I might attempt to grow the company. I
+have been avoiding some accountancy work, though I am sure we'll get there.
+
+In February I am planning a long holiday in South Africa, however there should
+be someone to cover when I will be away from the Internet suffering withdrawal
+symptoms. Hopefully I'll covert a few backpackers hostels over to sanity that
+is Webconverger along the way.
+
+Last week has been productive. I have been looking into the [Compose
+key](https://help.ubuntu.com/community/ComposeKey) after being prompted by
+[Pierre on the webc-users
+list](http://groups.google.com/group/webc-users/browse_thread/thread/a544075b80ed807a).
+
+It's been an interesting adventure looking into [[i18n]] issues like this. I'm
+very interested in learning about how Ubuntu implement the Shift+Ctrl+U
+<u>u</u>nicode key. Very cool Ubuntu, despite my [rants of
+late](http://natalian.org/archives/2009/01/08/ubuntus-minimum-resolution-lie/).
+
+I think I have fixed that 'essid space' bug with the help of Freenode #bash
+with the [[wireless]] settings. I can't remember who reported that to me. So a
+`wlan=BONDI codefest,0123456789` might work. I must say I regret adding
+wireless support.  Builds seem to take twice as long and the image has grown a
+third. Not cool.
+
+I finally tested [Jordi's xvideomode
+patch](http://lists.alioth.debian.org/pipermail/debian-live-devel/2008-August/004103.html)
+and [xvideomode=1024x768](http://flickr.com/photos/hendry/3226627794/) works in my 4.3beta build! This needs to be in [trunk
+live-initramfs](http://git.debian.net/?p=debian-live/live-initramfs.git).
+
+In not so good news, my [Thinkpad
+X40](http://flickr.com/photos/hendry/tags/X40) from my time at
+[Hannux](http://hannux.com/) in
+[Korea](http://flickr.com/photos/hendry/tags/korea/) has finally died. First it
+was the hard drive (er.. three times), then the USB subsystem and now it's a
+paper weight. That X40 unbelievably was the machine Webconverger was
+[[first_built|acknowledgements]] with [Debian Live
+help](http://debian-live.alioth.debian.org/) and a crazy bad
+[[Cornish_Internet_connection|Cornish_Holiday_Internet]] (at the time).
+
+The good news is that I have a [test
+rig](http://flickr.com/photos/hendry/3212799691/) running
+[ArchLinux](http://www.archlinux.org/) (quite a nice distro btw!) which is much
+faster and of course [[powerful_hetty|hetty]] is always there for us too.
+Despite the [growing cost thanks to a weak
+GBP](http://finance.yahoo.com/q/bc?s=GBPEUR=X&t=5d&l=on&z=m&q=l&c=).
+
+So a new release of 4.3 is out soon. I just want to test it a little more over
+the week. Try a [beta](http://build.webconverger.org/) in the meantime for
+[[testing]].

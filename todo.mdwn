@@ -12,20 +12,18 @@ These really should be prioritized and plotted onto a timeline.
 * improve download page to make downloading the latest mini for example **extremely** simple
 * have a service to send CDs? or USB keys?
 * fix preseed to choose guided by default (forget LVM+crypto)
-* look into webc-yourlibrary **new window** homepage breaking bug (use iceweasel-webcnoaddressbar instead?)
-* fix [xvideomode](http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=499304) [forcing video modes](http://lists.alioth.debian.org/pipermail/debian-live-devel/2008-August/004103.html) with xrandr
 * Ensure home is mounted encrypted and keys are thrown away between sessions in persistent-browser script (i.e. same as an encrypted swap drive), or just use shred?
 * Install from wireless
 * Look into advertising on the free version
 * Virtual (on screen) keyboard
-* [[wlan|wireless]] ESSID with spaces
-* [security kiosk bugs](http://groups.google.com/group/webc-users/browse_thread/thread/60d62ae72fcff707)
+* [security kiosk bugs](http://groups.google.com/group/webc-users/browse_thread/thread/60d62ae72fcff707) - file:/// must go (password on cmdline)
 * [[persistent_printing|printing]], which is one of the [[Goals_for_2009|blog/entry/2009_goals]]
 * Do an on the [[i18n]] in mini instead of a [[maxi]] version (download packages as we need them?)
 * Do some advocacy/marketing by writing to libraries and such places that use 'infopoints'. Perhaps do a talk at Hampshire/Surrey LUG or some other opensource event.
+* DIET - remove gcc* binaries etc. etc.
 
 # [[boot]] options that needed to be hacked into webconverger-base from live-initramfs
 
 * keyb
-* toram is this really appropriate?
-* locale - double check locale works
+* toram is this really appropriate for installs?
+* locale - double check locale works - need httpd nostromo service
