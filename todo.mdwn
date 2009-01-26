@@ -27,3 +27,4 @@ These really should be prioritized and plotted onto a timeline.
 * keyb
 * toram is this really appropriate for installs?
 * locale - double check locale works - need httpd nostromo service
+* **proxy** does not work from hard drive install!
