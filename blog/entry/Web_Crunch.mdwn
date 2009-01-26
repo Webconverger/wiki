@@ -4,12 +4,12 @@ a few bits of **good news**.
 <a href="http://www.flickr.com/photos/hendry/3226631492/" title="Webconverger 4.3 booted by Kai Hendry, on Flickr"><img src="http://farm4.static.flickr.com/3357/3226631492_9d39dd35b4.jpg" width="500" height="375" alt="Webconverger 4.3 booted" /></a>
 
 Webconverger Limited is in healthy shape and this year since my savings account
-interest rate are so dismal, I might attempt to grow the company. I have been
-avoiding some accountancy work, though I am sure we'll get there.
+interest rate is so dismal, I might attempt to invest to grow the company. I
+have been avoiding some accountancy work, though I am sure we'll get there.
 
 In February I am planning a long holiday in South Africa, however there should
 be someone to cover when I will be away from the Internet suffering withdrawal
-symptoms. Hopefully I'll covert a few backpacker hostels over to sanity that
+symptoms. Hopefully I'll convert a few backpacker hostels over to sanity that
 is Webconverger along the way.
 
 Last week has been productive. I have been looking into the [mystical compose
@@ -18,7 +18,7 @@ key](https://help.ubuntu.com/community/ComposeKey) after being prompted by
 list](http://groups.google.com/group/webc-users/browse_thread/thread/a544075b80ed807a).
 
 It's been an interesting adventure looking into [[i18n]] issues like this. I'm
-very interested in learning about how Ubuntu implement the Shift+Ctrl+U
+very interested in learning about how Ubuntu implements the Shift+Ctrl+U
 <u>u</u>nicode key. Very cool Ubuntu, despite my [rants of
 late](http://natalian.org/archives/2009/01/08/ubuntus-minimum-resolution-lie/).
 
