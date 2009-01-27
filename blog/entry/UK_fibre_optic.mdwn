@@ -114,6 +114,7 @@ world. I can only think of:
 * Japan
 * Korea
 * Bangalore, India
+* [Good list of FTTH countries from Wikipedia](http://en.wikipedia.org/wiki/Fiber_to_the_premises_by_country)
 
 It's a shame Britain can't seem to get its act together with respect to wired
 fibre optic Internet links when we are such a small country. Attitudes must

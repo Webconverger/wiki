@@ -170,4 +170,5 @@ If you like this, you might like the [[UK_fibre_optic]] essay. This [Wikipedia
 entry on
 FTTH](http://en.wikipedia.org/wiki/Fiber_to_the_premises_by_country#United_Kingdom)
 shows the terrible state of fast Internet connectivity in the UK. With
-[OpenReach charging like wounded Rhino], I am considering moving.
+[OpenReach charging like wounded
+Rhino](http://flickr.com/photos/hendry/3227822547/), consider moving.
