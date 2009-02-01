@@ -1,10 +1,10 @@
 
 Currently there is a problem with [setting DNS from the BOOT parameter](http://groups.google.com/group/webc-users/browse_thread/thread/2423f987dda9bf48/f1116a232525dbb7#f1116a232525dbb7)
 
-Ideally Webconverger should be deployed in a **wired network** with a **DHCP
+Ideally Webconverger **should** be deployed in a **wired network** with a **DHCP
 server**. 
 
-Otherwise you can set a static IP manually (discouraged!):
+Otherwise you could set a static IP manually (discouraged!):
 
        ip=IFACE,ADDRESS,NETMASK,GATEWAY[:IFACE,ADDRESS,NETMASK,GATEWAY]*
               Let  you  specify  the  name(s) and the options of the interface(s) that should be configured at
@@ -20,4 +20,32 @@ An example at the bootup prompt:
 * 255.255.255.0 is the netmask
 * 192.168.1.1 is the gateway
 
+If you really must setup the IP, `nonetworking` is better and more versatile approach to the problem.
+
 # [[Wireless_networking|wireless]]
+
+# Using `nonetworking`
+
+By default a Debian live distro should use
+[live-initramfs](http://git.debian.net/?p=debian-live/live-initramfs.git) to
+setup
+[networking](http://git.debian.net/?p=debian-live/live-initramfs.git;a=blob;f=scripts/live-bottom/23networking).
+However the same can be achieved by
+[interfaces](http://manpages.debian.net/cgi-bin/man.cgi?query=interfaces).
+
+In [Webconverger the
+interfaces](http://git.debian.org/?p=debian-live/config-webc.git;a=blob;f=webconverger/config/chroot_local-includes/etc/network/interfaces)
+assumes the eth0 is the wired connection and the eth1 or wlan0 interface is a
+[[wireless]] interface. The wireless interface is configured by [wpa
+supplicant](http://git.debian.org/?p=debian-live/config-webc.git;a=blob;f=webconverger/config/chroot_local-includes/etc/wpa_supplicant/wpa_supplicant.conf).
+By default it has a convienant, though perhaps a dangerous feature to join any
+open wireless network.
+
+If users are frankly too silly not to use DHCP, they need to setup a network by
+the [interfaces](http://manpages.debian.net/cgi-bin/man.cgi?query=interfaces)
+rules and manipulate typically
+`webconverger/config/chroot_local-includes/etc/network/interfaces`. Let me
+remind you that you must have `nonetworking` on your `config/binary`
+LH_BOOTAPPEND_LIVE line for it to all work. For debugging an image with a
+particular network setup, I suggest removing `nonetworking` to default to
+live-initramfs's sensible wired DHCP defaults.
