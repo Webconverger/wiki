@@ -9,7 +9,7 @@ display you can append:
 And as promised [[last_week|blog/entry/Web_Crunch/]] the [Compose key is bound
 to the Right-Alt
 key](http://git.webconverger.org/?p=webconverger-base.git;a=blob;f=home/webc/.Xmodmap)
-(113). This feature is of especially interest to French users who care about
+(113). This feature is of especial interest to French users who care about
 accented characters. Superb.
 
 Developers, builders and integrators might be interested to note some improved
@@ -25,9 +25,9 @@ Maxi, the version of Webconverger with [[foreign_language|i18n]] support like
 Japanese, Korean and Chinese is just a Live CD. You cannot install it to your
 hard drive.
 
-The reason is the way you switch locales with the boot parameter `locale=` does
-not work once you've installed Webconverger, due to the fact live-initramfs is
-not part of the bootup sequence on installations.
+The way you switch locales with the boot parameter `locale=` does not work once
+you've installed Webconverger, due to the fact live-initramfs is not part of
+the bootup sequence on installations.
 
 This needs to be fixed. The plan I have is to roughly have a Web interface to
 change locales and maintain an installed copy of Webconverger on the hard
@@ -39,7 +39,7 @@ So you might notice that [[maxi]] and [[mini]] and roughly the same size now.
 That's because mini has extra bits to install to the hard drive, whilst maxi
 does not. In future [[maxi]] and the [[mini]] concepts will be dropped and
 things will get simpler with just one version that can meet most people's kiosk
-needs.
+needs. :)
 
 # Other notes
 
