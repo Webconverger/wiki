@@ -1,30 +1,9 @@
+# Also see [[Wireless_networking|wireless]]
 
-Currently there is a problem with [setting DNS from the BOOT parameter](http://groups.google.com/group/webc-users/browse_thread/thread/2423f987dda9bf48/f1116a232525dbb7#f1116a232525dbb7)
+# Using `nonetworking` (static setups)
 
-Ideally Webconverger **should** be deployed in a **wired network** with a **DHCP
-server**. 
-
-Otherwise you could set a static IP manually (discouraged!):
-
-       ip=IFACE,ADDRESS,NETMASK,GATEWAY[:IFACE,ADDRESS,NETMASK,GATEWAY]*
-              Let  you  specify  the  name(s) and the options of the interface(s) that should be configured at
-              boot time. Do not specify this if you want to use dhcp (default).
-
-
-An example at the bootup prompt:
-
- live ip=eth0,192.168.1.22,255.255.255.0,192.168.1.1
-
-* eth0 means the first interface (you won't need to change this usually)
-* 192.168.1.22 is the IP address
-* 255.255.255.0 is the netmask
-* 192.168.1.1 is the gateway
-
-If you really must setup the IP, `nonetworking` is better and more versatile approach to the problem.
-
-# [[Wireless_networking|wireless]]
-
-# Using `nonetworking`
+Ideally Webconverger **should** be deployed in a **wired network** with a
+**DHCP server**.
 
 By default a Debian live distro should use
 [live-initramfs](http://git.debian.net/?p=debian-live/live-initramfs.git) to
@@ -33,7 +12,7 @@ setup
 However the same can be achieved by
 [interfaces](http://manpages.debian.net/cgi-bin/man.cgi?query=interfaces).
 
-In [Webconverger the
+In recent versions of [[mini]] [Webconverger the
 interfaces](http://git.debian.org/?p=debian-live/config-webc.git;a=blob;f=webconverger/config/chroot_local-includes/etc/network/interfaces)
 assumes the eth0 is the wired connection and the eth1 or wlan0 interface is a
 [[wireless]] interface. The wireless interface is configured by [wpa
@@ -46,6 +25,6 @@ the [interfaces](http://manpages.debian.net/cgi-bin/man.cgi?query=interfaces)
 rules and manipulate typically
 `webconverger/config/chroot_local-includes/etc/network/interfaces`. Let me
 remind you that you must have `nonetworking` on your `config/binary`
-LH_BOOTAPPEND_LIVE line for it to all work. For debugging an image with a
-particular network setup, I suggest removing `nonetworking` to default to
+`LH_BOOTAPPEND_LIVE` line for it to all work. For debugging an image with a
+static network setup, I suggest removing `nonetworking` to default to
 live-initramfs's sensible wired DHCP defaults.
