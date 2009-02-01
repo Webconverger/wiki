@@ -1,4 +1,4 @@
-[[toc ]]
+[[!toc ]]
 
 For Webconverger customization customers, customising the X background is
 normal and best practice. If customers want splashy customised, this is

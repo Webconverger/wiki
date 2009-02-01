@@ -1,4 +1,4 @@
-[[toc ]]
+[[!toc ]]
 # Setting up Webconverger for your locale
 
 Specify them on the boot parameter prompt. 

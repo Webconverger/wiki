@@ -1,4 +1,4 @@
-[[toc ]]
+[[!toc ]]
 
 STATUS OF UPGRADES: I have disabled upgrading on current versions of
 Webconverger. Please manually upgrade by [downloading the very latest
