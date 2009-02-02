@@ -21,8 +21,5 @@ further options:
 # Extras for [customization](http://webconverger.com/buy/)
 
 * Different layouts of the browser, such as disabling address bar and [[digital_signage_modes|kiosk]]
-* [[Filtering]]
-* Screen [[blanking]] options
-* [[Remote_administration|vnc]]
-* Automatic [[upgrade]] features
+* Screen [[blanking]] options and setting the resolution to a fixed sized (displays are autodetected by default)
 * Locking down the bootloader so [[boot]] options cannot be altered by users on machine boot
