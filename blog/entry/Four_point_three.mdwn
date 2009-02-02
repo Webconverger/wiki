@@ -41,6 +41,10 @@ does not. In future [[maxi]] and the [[mini]] concepts will be dropped and
 things will get simpler with just one version that can meet most people's kiosk
 needs. :)
 
-# Other notes
+# Other notes and issues
 
 Pushing the upload now. The source tar ball will come during the week. It's quite large. [Download now from Germany](http://download.webconverger.org/).
+
+The USB images seem to have the wrong bootloader graphic. This is probably due
+to the config/ changes. I am not going through the expense of regenerating the
+USB images, until the next release.
