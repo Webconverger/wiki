@@ -48,3 +48,5 @@ Pushing the upload now. The source tar ball will come during the week. It's quit
 The USB images seem to have the wrong bootloader graphic. This is probably due
 to the config/ changes. I am not going through the expense of regenerating the
 USB images, until the next release.
+
+Also the video mode could be wrong at least on my machine.
