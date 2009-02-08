@@ -35,3 +35,15 @@ Debugging in Webconverger simply involves removing `nosudo` from the [[boot]] op
 ## Commerical customizing service
 
 UK based Webconverger Limited offers a build service of the above at [Webconverger.com/buy](http://webconverger.com/buy/).
+
+## [Daily building](http://git.webconverger.org/?p=build)
+
+If you want to debug mini:
+
+	DEBUG=1 sudo -E ./build.sh mini.willwork
+
+## Debugging live-helper
+
+Checking your environment is sane:
+
+	export MIRROR_DEBIAN="http://mirror.webconverger.com/debian/" && lh_config -b iso -a i386 -p minimal --mirror-bootstrap $MIRROR_DEBIAN --mirror-chroot $MIRROR_DEBIAN
