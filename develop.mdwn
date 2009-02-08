@@ -16,19 +16,20 @@ If you are new to the project, **Welcome**! Please help by [[testing]]. Thank yo
 
 ## Building on a Debian system:
 
- * `apt-get install` [live-helper](http://packages.qa.debian.org/l/live-helper.html) or rather use the latest from 'deb http://live.debian.net/debian/ ./'
- * `git clone git://git.debian.org/git/debian-live/config-webc.git`
- * webconverger/ is the base config file for **maxi**. Have a look around.
- * Take a look inside config/. You might need to edit LIVE_MIRROR variables in the file bootstrap.
- * `lh build` in webconverger/ for [[maxi]] and mini/ for [[mini]]
+1. `apt-get install` [live-helper](http://packages.qa.debian.org/l/live-helper.html) or rather use the latest from 'deb http://live.debian.net/debian/ ./'
+* `git clone git://git.debian.org/git/debian-live/config-webc.git`
+* webconverger/ is the base config file for **maxi**. Have a look around.
+* Take a long good look at [scripts/config](http://git.debian.org/?p=debian-live/config-webc.git;a=blob;f=mini/scripts/config)
+* `lh_config`
+* `sudo lh_build` in webconverger/ for [[maxi]] and mini/ for [[mini]]
 
 Then [[test|testing]] your freshly built image.
 
-* [[todo]] has a list of bugs that need to be fixed. Please help me out and you will be [[acknowledged|acknowledgements]] for your contribution.
+* [[todo]] has a list of bugs that need to be fixed. Please help Webconverger out and you will be [[acknowledged|acknowledgements]] for your contribution.
 * Check out the [testing setup guide](http://wiki.debian.org/DebianLive/Howto/Creating_a_Test_environment) for testing with netboot on native hardware
 * Join the [Debian Live](http://debian-live.alioth.debian.org/) community. Peruse the [debian-live mailing list archives](http://lists.debian.org/debian-live/). :)
 
-## Debug mode with Webconverger
+## Debugging mode with the build Webconverger image
 
 Debugging in Webconverger simply involves removing `nosudo` from the [[boot]] options.
 
@@ -38,12 +39,15 @@ UK based Webconverger Limited offers a build service of the above at [Webconverg
 
 ## [Daily building](http://git.webconverger.org/?p=build)
 
-If you want to debug mini:
+If you want to debug mini with the daily build scripts:
 
 	DEBUG=1 sudo -E ./build.sh mini.willwork
+
+Then look in /tmp/ for a temp directory named willwork and inspect the output.
 
 ## Debugging live-helper
 
 Checking your environment is sane:
 
 	export MIRROR_DEBIAN="http://mirror.webconverger.com/debian/" && lh_config -b iso -a i386 -p minimal --mirror-bootstrap $MIRROR_DEBIAN --mirror-chroot $MIRROR_DEBIAN
+	sudo lh build
