@@ -9,7 +9,7 @@ These really should be prioritized and plotted onto a timeline.
 * remove the redundant SSL warning and look into fixing the SSL mozilla mess
 * Figure out mozplugger pdf issue on http://tinyurl.com/6npvk5
 * Look into crosses on the tab instead of the far right
-* improve download page to make downloading the latest mini for example **extremely** simple
+* improve download page to make downloading the latest mini for example **extremely** simple (a printable PDF guide too!)
 * have a service to send CDs? or USB keys?
 * fix preseed to choose guided by default (forget LVM+crypto)
 * Ensure home is mounted encrypted and keys are thrown away between sessions in persistent-browser script (i.e. same as an encrypted swap drive), or just use shred?
@@ -19,8 +19,9 @@ These really should be prioritized and plotted onto a timeline.
 * [security kiosk bugs](http://groups.google.com/group/webc-users/browse_thread/thread/60d62ae72fcff707) - file:/// must go (password on cmdline)
 * [[persistent_printing|printing]], which is one of the [[Goals_for_2009|blog/entry/2009_goals]]
 * Do an on the [[i18n]] in mini instead of a [[maxi]] version (download packages as we need them?)
-* Do some advocacy/marketing by writing to libraries and such places that use 'infopoints'. Perhaps do a talk at Hampshire/Surrey LUG or some other opensource event.
-* DIET - remove gcc* binaries etc. etc.
+* Do some advocacy/marketing by writing to libraries and such places that use 'infopoints'. Perhaps do a [talk at Hampshire/Surrey LUG](http://talks.webconverger.com/2009-02-14/) or some other opensource event.
+* A way of entering [commands like to control specific hardware](http://groups.google.com/group/webc-users/browse_thread/thread/e8a36eccc4c78a56?hl=en)
+* Remove [[wireless]] default to join any open network, currently a fallback
 
 # [[boot]] options that needed to be hacked into webconverger-base from live-initramfs
 
