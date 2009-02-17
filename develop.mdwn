@@ -50,4 +50,4 @@ Then look in /tmp/ for a temp directory named willwork and inspect the output.
 Checking your environment is sane:
 
 	export MIRROR_DEBIAN="http://mirror.webconverger.com/debian/" && lh_config -b iso -a i386 -p minimal --mirror-bootstrap $MIRROR_DEBIAN --mirror-chroot $MIRROR_DEBIAN
-	sudo lh build
+	sudo lh_build
