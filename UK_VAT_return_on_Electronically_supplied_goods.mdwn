@@ -1,0 +1,91 @@
+Ok, I admit since my last post about the [[blog/entry/Company_Tax_Return]],
+nothing much has happened.
+
+There are a couple of silly reasons for this. When I sent the CSV of my bank
+statements and Google checkout orders I assumed the
+[accountant](http://azure-global.com/) would be able to go from there.
+
+After sometime, my accountant got back to me, very confused. He seemed to think
+that I wanted a personal tax return. No I want a **Company Tax Return**.
+
+Then it seemed like they couldn't parse the CSVs I sent. I admit they are quite
+hard to read. So my accountant sent me a Cash Book template. After a couple of
+weeks I realised the document he sent me in an [unreadable .xlsx
+format](http://static.natalian.org/2009-02-18/CashBookTemplate.xlsx), which I
+was unable to open with [Google Spreadsheets](http://spreadsheets.google.com).
+I then asked for a .xls version and finally I could open the [cashbook.xls
+template](http://static.natalian.org/2009-02-18/CashBookTemplate.xls) in Google
+docs.
+
+So now I was entering Webconverger receipts and payments myself with 'expense
+type' notes. Very painful work I dreamt my accountant would do.  I ordered all
+the statements from Barclays. They took more than a week to arrive and the
+print outs were quite odd. First batch looks like they came from a Unix
+machine. The latest statements were printed on what looks like a crap Windows
+machine. Finally I learnt I should import the CSVs into Google docs.
+
+You can't import a CSV into your working document. You have to open a new
+document and then the copy from context menu was not working. After much
+frustration I learnt trusty ctrl+c and ctrl+v does work in Google docs.
+Fantastic.
+
+After completing the Cash Book and feeling again quite pleased with the
+turnover of this 'opensource' company, namely Webconverger, I think tried to
+work out exactly when Company Tax Return was required.
+
+So in England there is a government service called [Companies
+House](http://en.wikipedia.org/wiki/Companies_House) who confusing ask your
+company for an [[blog/entry/Annual_Return]] every year. You pay them 15GBP to
+keep a few records of your UK business. In return Companies House provides you
+an ABYSMAL Web site. A site so bad that I know for a fact other government
+agencies can't be bothered to query it. I know this because the Company Tax
+Payment Reminder office in Shipley didn't seem to know the accounts return due
+date. I asked them why they had not checked with Companies House and I could
+feel their frustration...
+
+Let me ranting by saying the Companies House Website is a bitch to navigate.
+The most interesting link is hidden on the right and it's called
+[WebCHeck](http://www.companieshouse.gov.uk/info).
+
+Here after waiting 30 seconds per request for me, you can enter 'Webconverger'.
+Then an obscene list of yellow entries with Web-something-or-other is
+presented.  Fruitlessly try click Webconverger Limited on the very top of the
+page and give up. No, the secret after calling their helpline, is to click on
+the **number in the left column**. _Head slap_
+
+Notice how the company information seems to fail to have additional useful
+information like a EU VAT ID. Honestly, [Companies
+House](http://www.companieshouse.gov.uk) sucks so bad.  Ideally this public
+information should be available for search engines to trawl and index.
+Companies House Website is offline between 12 and 7am. Isn't that just bizarre
+in the 21st century? What are they using for a back end? Punch cards?
+
+Confusingly, I need to file two returns as my first year of trading was not a
+full year so HM Revenue & Customs cannot accept a return unless it's a full
+year has elapsed.  Urf.
+
+Next I needed to find out about VAT. Not paying VAT can wind you up in jail. So
+I better do this since my returns are only due in September.
+
+I think I should be filing EC Sales lists (ECSLs) every quarter for supplies
+I've zero rated to EU customers. However in some of my notes it says I do not
+need to charge VAT on electronic supplies. [Customised
+images](http://webconverger.com/buy/) are electronic downloads, so I have not
+submitted any ECSLs. However calling up the VAT helpline today, I was advised
+to submit ECSLs all the same. So I am a little confused and I need some help
+here.
+
+Especially since some of my EU customers do not have EU VAT IDs. Or valid ones
+for that matter. One customer supplied a domestic VAT ID which the ECSL system
+would not take. Feck. The VAT helpline says if the Tax ID is invalid,
+Webconverger Limited must pay the taxes. Umm... oh dear. He then advised they I
+should confirm every EU VAT by calling 0151 7038720, because I cannot trust the
+'Europa' Website, whatever that is. I have a feeling that EU VAT IDs are being
+abused, though I can't say for sure.
+
+Earlier I've been advised I do not need to charge tax for US customers. So I
+have been only charging VAT for UK customers. Pity British customers, they seem
+to get the worst deal, especially since the GBP has devalued so much.
+
+So right now I can't quite submit my VAT return completely as I am unsure with
+this electronics good stuff and the EU. Grr....
