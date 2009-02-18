@@ -10,12 +10,12 @@ that I wanted a personal tax return. No I want a **Company Tax Return**.
 
 Then it seemed like they couldn't parse the CSVs I sent. I admit they are quite
 hard to read. So my accountant sent me a Cash Book template. After a couple of
-weeks I realised the document he sent me in an [unreadable .xlsx
+weeks I realised the document he sent me was an [unreadable .xlsx
 format](http://static.natalian.org/2009-02-18/CashBookTemplate.xlsx), which I
 was unable to open with [Google Spreadsheets](http://spreadsheets.google.com).
 I then asked for a .xls version and finally I could open the [cashbook.xls
 template](http://static.natalian.org/2009-02-18/CashBookTemplate.xls) in Google
-docs.
+docs. Phew.
 
 So now I was entering Webconverger receipts and payments myself with 'expense
 type' notes. Very painful work I dreamt my accountant would do.  I ordered all
@@ -30,8 +30,8 @@ frustration I learnt trusty ctrl+c and ctrl+v does work in Google docs.
 Fantastic.
 
 After completing the Cash Book and feeling again quite pleased with the
-turnover of this 'opensource' company, namely Webconverger, I think tried to
-work out exactly when Company Tax Return was required.
+turnover of this 'opensource' company, namely Webconverger, I tried to work out
+exactly when Company Tax Return was required.
 
 So in England there is a government service called [Companies
 House](http://en.wikipedia.org/wiki/Companies_House) who confusing ask your
@@ -43,7 +43,7 @@ Payment Reminder office in Shipley didn't seem to know the accounts return due
 date. I asked them why they had not checked with Companies House and I could
 feel their frustration...
 
-Let me ranting by saying the Companies House Website is a bitch to navigate.
+Let me continue ranting by saying the Companies House Website is a bitch to navigate.
 The most interesting link is hidden on the right and it's called
 [WebCHeck](http://www.companieshouse.gov.uk/info).
 
@@ -65,15 +65,23 @@ full year so HM Revenue & Customs cannot accept a return unless it's a full
 year has elapsed.  Urf.
 
 Next I needed to find out about VAT. Not paying VAT can wind you up in jail. So
-I better do this since my returns are only due in September.
+I better do this **now** since my returns are only due in September. Though I
+assumed that the HMRC Government gateway would email me reminders beforehand.
+Unfortunately they don't do this.
 
-I think I should be filing EC Sales lists (ECSLs) every quarter for supplies
+I thought I should be filing EC Sales lists (ECSLs) every quarter for supplies
 I've zero rated to EU customers. However in some of my notes it says I do not
 need to charge VAT on electronic supplies. [Customised
 images](http://webconverger.com/buy/) are electronic downloads, so I have not
 submitted any ECSLs. However calling up the VAT helpline today, I was advised
 to submit ECSLs all the same. So I am a little confused and I need some help
 here.
+
+	HMCE_VAT_ESL_BULK_SUBMISSION_FILE,,,,,,
+	987654321,401,2005,1,GBP,A Bloggs,0
+	DE,123456789,750312,2,,,
+	FI,12345678,649,0,,,
+	FR,12345678901,62149,0,,,
 
 Especially since some of my EU customers do not have EU VAT IDs. Or valid ones
 for that matter. One customer supplied a domestic VAT ID which the ECSL system
