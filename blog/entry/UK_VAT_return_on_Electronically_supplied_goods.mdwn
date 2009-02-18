@@ -24,10 +24,10 @@ print outs were quite odd. First batch looks like they came from a Unix
 machine. The latest statements were printed on what looks like a crap Windows
 machine. Finally I learnt I should import the CSVs into Google docs.
 
-You can't import a CSV into your working document. You have to open a new
-document and then the copy from context menu was not working. After much
-frustration I learnt trusty ctrl+c and ctrl+v does work in Google docs.
-Fantastic.
+You can't currently import a CSV into your working Google docs document. You
+have to open a new document and then the copy from context menu was not
+working. After much frustration I learnt trusty ctrl+c and ctrl+v does work in
+Google docs.  Fantastic.
 
 After completing the Cash Book and feeling again quite pleased with the
 turnover of this 'opensource' company, namely Webconverger, I tried to work out
@@ -57,7 +57,7 @@ Notice how the company information seems to fail to have additional useful
 information like a EU VAT ID. Honestly, [Companies
 House](http://www.companieshouse.gov.uk) sucks so bad.  Ideally this public
 information should be available for search engines to trawl and index.
-Companies House Website is offline between 12 and 7am. Isn't that just bizarre
+Companies House Website is unbelievably offline between 12 and 7am. Isn't that just bizarre
 in the 21st century? What are they using for a back end? Punch cards?
 
 Confusingly, I need to file two returns as my first year of trading was not a
@@ -97,3 +97,8 @@ to get the worst deal, especially since the GBP has devalued so much.
 
 So right now I can't quite submit my VAT return completely as I am unsure with
 this electronics good stuff and the EU. Grr....
+
+Just tried to log into [VAT
+returns](https://online.hmrc.gov.uk/registration/organisation/whatyouneed?services=vat-returns)
+and confusing I had to register again on the Government Website. On the main
+menu, it asks me to register for the New VAT Returns. WTF?!
