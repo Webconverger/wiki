@@ -34,7 +34,7 @@ turnover of this 'opensource' company, namely Webconverger, I tried to work out
 exactly when Company Tax Return was required.
 
 So in England there is a government service called [Companies
-House](http://en.wikipedia.org/wiki/Companies_House) who confusing ask your
+House](http://en.wikipedia.org/wiki/Companies_House) who confusingly ask your
 company for an [[blog/entry/Annual_Return]] every year. You pay them 15GBP to
 keep a few records of your UK business. In return Companies House provides you
 an ABYSMAL Web site. A site so bad that I know for a fact other government
@@ -100,5 +100,20 @@ this electronics good stuff and the EU. Grr....
 
 Just tried to log into [VAT
 returns](https://online.hmrc.gov.uk/registration/organisation/whatyouneed?services=vat-returns)
-and confusing I had to register again on the Government Website. On the main
+and confusingly I had to register again on the Government Website. On the main
 menu, it asks me to register for the New VAT Returns. WTF?!
+
+UPDATE: After calling the VAT office, they initially wanted me to create a new
+login. I've done this before and I am not doing it again. Then the advisor
+conceded and said I should enrol on the 'New VAT returns' service via the
+Government Gateway. That went well since he walked my though the odd values
+like when and what I paid in my last VAT return. How am I supposed to
+remember??
+
+Next I rang up ECSL people on 0151 7038720 and a lovely woman from Liverpool
+answered my queries. She said that since Webconverger does not trade in
+physical goods, I need to write in and tell the 'ESL compliance team' that I
+should be taken off the ECSL database. Aha!
+
+She also advised when filling in the VAT returns to **leave Box 8 blank**
+otherwise the sysmte might re-enroll Webconverger to the ECSL.
