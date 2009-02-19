@@ -18,6 +18,7 @@ These really should be prioritized and plotted onto a timeline.
 * Virtual (on screen) keyboard
 * [security kiosk bugs](http://groups.google.com/group/webc-users/browse_thread/thread/60d62ae72fcff707) - file:/// must go (password on cmdline)
 * [[persistent_printing|printing]], which is one of the [[Goals_for_2009|blog/entry/2009_goals]]
+* Fix ctrl+p in the extension!
 * Do an on the [[i18n]] in mini instead of a [[maxi]] version (download packages as we need them?)
 * Do some advocacy/marketing by writing to libraries and such places that use 'infopoints'. Perhaps do a [talk at Hampshire/Surrey LUG](http://talks.webconverger.com/2009-02-14/) or some other opensource event.
 * A way of entering [commands like to control specific hardware](http://groups.google.com/group/webc-users/browse_thread/thread/e8a36eccc4c78a56?hl=en)
