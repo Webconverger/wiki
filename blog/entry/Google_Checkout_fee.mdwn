@@ -1,0 +1,28 @@
+<a href="http://www.flickr.com/photos/jamiekitson/3386044172/">
+<img src="http://farm4.static.flickr.com/3649/3386044172_601e9a2e9a.jpg">
+</a>
+
+When Webconveger first started using [Google
+checkout](http://checkout.google.com) it was free, which was nice. I can't
+remember when Google Checkout UK started charging transactions fees, I guess at
+the end of 2007.
+
+Until May 2009 they charged Webconverger 1.5% + 0.15. So on 100GBP, Google's cut was 1.65GBP.
+
+Google's checkout fees have increaded to 3.4% + 0.20 on Monthly sales below
+1500GBP. So Google's cut will increase to 3.6GBP. More than a 100% increase.
+That's a big greedy [Google](http://www.google.com/finance?q=GOOG).
+
+So what are the alternatives?
+
+* [Paypal](http://www.paypal.com/cgi-bin/webscr?cmd=_display-receiving-fees-outside) charge 2.9% + $0.30 USD
+* Worldpay use [complex pricing](http://www.worldpay.com/corporate/content.php?page=pricing&c=UK)
+
+After enquiring Worldpay say:
+
+	Our new business offer is:
+	Set-up Fee: £75
+	Monthly Fee: £15 each month (first month payable upon application).
+	Credit and Debit card charge is 3.35% + 15p per transaction.
+
+There must be better ...
