@@ -129,3 +129,7 @@ I guess I should have done my research better. After living in
 do not have much experience of Linux and the Web unfortunately due to several
 reasons like ActiveX lock in. So I will try get the sources to their driver
 otherwise I'll quickly have a 5kg hunk of useless plastic on my desk.
+
+Trouble shooting tip: **Failed to load the PPM image** means you are missing **ghostscript**.
+
+**Update**: I've noticed via the [ArchLinux splix package](http://aur.archlinux.org/packages.php?ID=7126) that there is an [opensource implementation of the Samsung Printer Language](http://splix.ap2c.org/) drivers. Awesome!
