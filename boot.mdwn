@@ -48,6 +48,10 @@ Append `wlan=san,francisco`
 
 append `acpi=off`
 
+### Force a screen resolution of 640x480
+
+append `xvideomode=640x480`
+
 ### Want more? See [[develop]] and [[features]]
 
 # Caveats

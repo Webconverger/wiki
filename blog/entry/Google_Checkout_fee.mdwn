@@ -30,3 +30,10 @@ There must be better ...
 ----
 
 It depends how much you're going to use it and who for.  For UK-centric, nochex.co.uk used to be competitive.  For small volumes, moneybookers.com was OK.  I'm interested to hear what you go for. [MjR](http://mjr.towers.org.uk/)
+
+----
+
+Since most of Webconverger customers are from outside the UK, we need a global
+solution. My friend [Jake](http://twitter.com/jake) just mailed me to have a
+look at [secpay, now Paypoint](http://www.paypoint.net/). Like Worldpay,
+Paypoint seem to require a business to ask for a quote. Urgh.
