@@ -6,17 +6,18 @@ These really should be prioritized and plotted onto a timeline.
 * do some sort of device API for attraction (screensaver advertisement) loop, perhaps it can be done with kioskresetstation? No, [this can be done with a Web application](http://groups.google.com/group/webc-users/browse_thread/thread/656f92ff84582535)
 * device API for USB coin slot
 * somehow showcase Firefox 3 features like SVG, rounded corners, canvas, video etc. on the portal
-* remove the redundant SSL warning and look into fixing the SSL mozilla mess
 * Figure out mozplugger pdf issue on http://tinyurl.com/6npvk5
 * Look into crosses on the tab instead of the far right
 * improve download page to make downloading the latest mini for example **extremely** simple (a printable PDF guide too!)
 * have a service to send CDs? or USB keys?
 * fix preseed to choose guided by default (forget LVM+crypto)
 * Ensure home is mounted encrypted and keys are thrown away between sessions in persistent-browser script (i.e. same as an encrypted swap drive), or just use shred?
-* Install from wireless
+* Install from wireless -- really neccessary?
 * Look into advertising on the free version
-* Virtual (on screen) keyboard
+* Virtual (on screen) keyboard [[blog/entry/Virtual_touch_screen_keyboard_for_Kiosks]]
 * [security kiosk bugs](http://groups.google.com/group/webc-users/browse_thread/thread/60d62ae72fcff707) - file:/// must go (password on cmdline)
+* Release more upto date Firefox (enable updater?)
+* Disable CUPS [[printing]] since users can get root. **Security** issue!
 * [[persistent_printing|printing]], which is one of the [[Goals_for_2009|blog/entry/2009_goals]]
 * Fix ctrl+p in the extension!
 * Do an on the [[i18n]] in mini instead of a [[maxi]] version (download packages as we need them?)
@@ -24,6 +25,16 @@ These really should be prioritized and plotted onto a timeline.
 * A way of entering [commands like to control specific hardware](http://groups.google.com/group/webc-users/browse_thread/thread/e8a36eccc4c78a56?hl=en)
 * Remove [[wireless]] default to join any open network, currently a fallback
 * [installs from USB seem broken](http://flickr.com/photos/hendry/3288149567/)
+* [disable right click](http://ubuntuforums.org/showthread.php?t=264372)
+
+# On [[kiosk]] iceweasel-webcnoaddressbar
+
+These keys must be disabled:
+
+* Alt+D  opens a field to enter another URL
+* CTRL+J goes to Google
+* CTRL+T new Tab
+* CTRL+K goes to Google
 
 # [[boot]] options that needed to be hacked into webconverger-base from live-initramfs
 
