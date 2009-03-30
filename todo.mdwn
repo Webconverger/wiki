@@ -26,6 +26,7 @@ These really should be prioritized and plotted onto a timeline.
 * Remove [[wireless]] default to join any open network, currently a fallback
 * [installs from USB seem broken](http://flickr.com/photos/hendry/3288149567/)
 * [disable right click](http://ubuntuforums.org/showthread.php?t=264372)
+* Figure out with the [[wireless]] networking [ipw drivers are not found](http://groups.google.com/group/webc-users/browse_thread/thread/fb3a1861471988a8)
 
 # On [[kiosk]] iceweasel-webcnoaddressbar
 
