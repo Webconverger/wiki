@@ -6,6 +6,8 @@ Please help test the very latest [daily build images](http://build.webconverger.
 
 Qemu might be a little slow if you don't have the qemu kernel module running.
 
+* [Archlinux Qemu guide](http://wiki.archlinux.org/index.php/Qemu)
+
 # VMware
 
 Windows or linux users can download [VMWARE player](http://www.vmware.com/download/player/download.html), which is free of cost.
