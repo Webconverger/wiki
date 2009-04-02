@@ -7,14 +7,14 @@ re-introduced in the next release, without the Web control panel.
 
 This is how a release is currently done. Improvement ideas are very welcome.
 
+
 1. A [daily build](http://build.webconverger.org/) is targeted
-* [A round of testing is asked for](http://groups.google.com/group/webc-users/browse_thread/thread/77d0b5f6d310ea0f/b49f339b9f009919#b49f339b9f009919)
-* Webconverger limited does some of its own [[testing]] on VMWARE [[iso]] and on actual hardware [[usb]].
+* A round of [[testing]] is asked for on the mailing list](http://groups.google.com/group/webc-users/browse_thread/thread/77d0b5f6d310ea0f/b49f339b9f009919#b49f339b9f009919)
+* Of course we dome of our own [[testing]] on VMWARE [[iso]] and on actual hardware [[usb]].
 * A day or two of [[testing]] elapses
 * The [deliver.sh](http://git.webconverger.org/?p=build;a=blob;f=deliver.sh) script is executed, which stages the release on [[hetty]] at [build.webconverger.org](http://build.webconverger.org/)
-* `rsync -essh -artpv --progress --delete /srv/www/download.webconverger.org/ hendry.iki.fi:/home/hendry/download.webconverger.com/` which mirrors the download at the [server in the states](http://download.webconverger.com/)
-* A blog is drafted with the release notes
-* Blog is pushed
+* `rsync -essh -artpv --progress --delete /srv/www/download.webconverger.org/ webconverger.com:/home/hendry/download.webconverger.com/` which mirrors the download at the [server in the states](http://download.webconverger.com/)
+* A [[blog]] is published with the release notes
 * [Webconverger.com](http://webconverger.com/) is updated.
 * [Release is tweeted](http://twitter.com/webconverger)
 * Release is announced on [Freshmeat](http://freshmeat.net/projects/webconverger)
