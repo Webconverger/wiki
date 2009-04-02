@@ -1,7 +1,7 @@
 So there is no more [[maxi]] or [[mini]] in 4.4. Just one Webconverger with all you need.
 
 4.4 unforunately does not have [[printing]] support. Printing will be
-re-introduced in the next release, without its Web control panel.
+re-introduced in the next release, without the [CUPS](http://cups.org/) Web control panel.
 
 # The Webconverger release process
 
