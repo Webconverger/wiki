@@ -1,6 +1,6 @@
 # [CTRL]+[p]
 
-Printing with Webconverger [[maxi]] is very simple.
+Printing with Webconverger either works for you or doesn't. You cannot configure anything.
 
 Holding down the [Control] and [p] keys on your keyboard gives you the printing dialog.
 

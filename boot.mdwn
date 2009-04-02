@@ -28,8 +28,6 @@ See [[homepage]]
 
 append `locale=de`
 
-[[i18n]] support, i.e. non-english locales is only in [[maxi]]
-
 ### Specify a HTTP proxy at 192.168.1.5 with port 8888
 
 append `http_proxy=http://192.168.1.5:8888`

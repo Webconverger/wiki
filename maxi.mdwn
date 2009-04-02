@@ -1,5 +1,1 @@
-The maxi version is downloadable at [http://download.webconverger.com/maxi](http://download.webconverger.com/maxi).
-
-Features support for [[printing]] and [[i18n]] (Chinese, Japanese, Korean and many more!).
-
-It is much larger than [[mini]], which is smaller and faster.
+[[maxi]] is deprecated. There is only one version of Webconverger now. It's simpler that way. :)

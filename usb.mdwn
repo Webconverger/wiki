@@ -33,8 +33,8 @@ Detailed description on [Debian wiki](http://wiki.debian.org/DebianLive/Howto/US
 <a href="http://www.flickr.com/photos/hendry/2366474295/" title="French support added to USB boot by Kai Hendry, on Flickr"><img src="http://farm3.static.flickr.com/2110/2366474295_c089249bd5_m.jpg" width="240" height="180" alt="French support added to USB boot" /></a>
 
 When the bootloader (syslinux) initially loads, you'll have a few seconds to
-type in something at the toboot: prompt. For example to get boot [[maxi]] with
-[[i18n]] French support simply add:
+type in something at the toboot: prompt. For example to get boot with [[i18n]]
+French support simply add:
 
 	live locale=fr
 

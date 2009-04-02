@@ -7,7 +7,7 @@ There are [[!pagecount ]] pages in the wiki.
 ### If you want to ask a question about Webconverger usage, try the [forum for Webc users](http://groups.google.com/group/webc-users/topics)!
 
 
-* [Download Webconverger](http://download.webconverger.com/)
+* [Download Webconverger](http://download.webconverger.com/) - [German mirror](http://download.webconverger.org/)
 * [[Design_document|Design]]
 * [[TODO]] list
 * The [Debian-Live project](http://debian-live.alioth.debian.org/) and [[Debian]] is where Webconverger is derived from
@@ -22,12 +22,10 @@ There are [[!pagecount ]] pages in the wiki.
 * [[Content_filtering|Filtering]] and white listing are possible
 * [[Information_about_Fonts|Fonts]]
 
-# Types of downloads
+# Types of [downloads](http://download.webconverger.com/)
 
 * [[ISO]]
 * [[USB]]
-* [[mini]]
-* [[maxi]]
 * [[MD5SUM]]
 * [[Package_listings|txt]]
 

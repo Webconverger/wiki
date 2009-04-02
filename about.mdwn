@@ -17,12 +17,10 @@ browser that runs locally.</p>
 
 # Why Webconverger
 
+* Simple
 * Reliability
 * Sandboxed security
 * Better [[i18n]] support for difficult locales like Chinese, Korean and Japanese
-
-Webconverger [[mini]] or [[maxi]] available for free download (demo) does not
-have any [[wireless_networking|networking]] support.
 
 # Comparison with Microsoft Windows products
 
