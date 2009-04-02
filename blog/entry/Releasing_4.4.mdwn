@@ -9,7 +9,7 @@ This is how a release is currently done. Improvement ideas are very welcome.
 
 
 * A [daily build](http://build.webconverger.org/) is targeted
-* A round of [[testing]] is asked for on the mailing list](http://groups.google.com/group/webc-users/browse_thread/thread/77d0b5f6d310ea0f/b49f339b9f009919#b49f339b9f009919)
+* A round of [[testing]] is [asked for on the mailing list](http://groups.google.com/group/webc-users/browse_thread/thread/77d0b5f6d310ea0f/b49f339b9f009919#b49f339b9f009919)
 * Of course we dome of our own [[testing]] on VMWARE [[iso]] and on actual hardware [[usb]].
 * A day or two of [[testing]] elapses
 * The [deliver.sh](http://git.webconverger.org/?p=build;a=blob;f=deliver.sh) script is executed, which stages the release on [[hetty]] at [build.webconverger.org](http://build.webconverger.org/)
