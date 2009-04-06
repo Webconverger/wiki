@@ -39,3 +39,14 @@ These keys must be disabled:
 * toram is this really appropriate for installs?
 * locale - double check locale works - need httpd nostromo service
 * **proxy** does not work from hard drive install!
+
+# Make Webconverger smaller by installing certain packages when needed
+
+For example in Japan and Korea Internet connections are very fast. So on boot
+with `locale=ja_JP.UTF-8` the Live version could immediately just install from
+the local mirror ftp.jp.debian.org/debian the following packages required for
+input:
+
+	iceweasel-l10n-ja
+	ttf-vlgothic
+	scim-anthy scim-uim scim-skk scim-prime scim-canna scim-tables-ja
