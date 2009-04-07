@@ -1,0 +1,33 @@
+	WARNING: The following packages cannot be authenticated!
+
+Another year, another archive key so you know the 7EEFD8EC key is from Webconverger.
+
+	4198 920B 166E 4256 B26E  E6AB E3C6 58D6 7EEF D8EC
+
+So following Daniel's example [except the change in repository
+layout](http://groups.google.com/group/webc-users/browse_thread/thread/6c7b7a2989b942b8)
+I have updated the [Webconverger archive
+key](http://debian.webconverger.com/archive-key.asc).
+
+If you track [[todo]] you'll notice I've added _IN DAILY_ to:
+
+* disabling right click
+* setting the UA to Firefox 2
+* disabling the [[wireless]] convenience feature to join any open AP -- [a bad default](http://groups.google.com/group/webc-users/browse_thread/thread/e746409c50e0a9a/040b5a1920f8e024)
+
+<a href="http://www.flickr.com/photos/hendry/3422498310/" title="Tor install by Kai Hendry, on Flickr"><img src="http://farm4.static.flickr.com/3617/3422498310_3621723b55.jpg" width="500" height="375" alt="Tor install" /></a>
+
+As you all know with the uncustomized free version of Webconverger you can
+alter the [[boot]] options and remove `nosudo` to activate **debug mode**. From
+here you could run:
+
+	sudo apt-get install tor iceweasel-torbutton privoxy
+	sudo su -c "echo forward-socks4a / localhost:9050 . >> /etc/privoxy/config"
+	sudo /etc/init.d/privoxy restart
+
+This might help improve your privacy from the lunacy of the [EU Data Retention
+Directive](http://www.openrightsgroup.org/2009/04/06/data-retention-endangers-democracy/).
+I personally find using
+[Tor](http://en.wikipedia.org/wiki/Tor_(anonymity_network)) unusable. It's just
+too slow. So in this case I don't think technology will save us. You should
+instead politely lobby your local government representative.
