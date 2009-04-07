@@ -4,7 +4,7 @@ Another year, another archive key so you know the 7EEFD8EC key is from Webconver
 
 	4198 920B 166E 4256 B26E  E6AB E3C6 58D6 7EEF D8EC
 
-So following Daniel's example [except the change in repository
+So following [Daniel](http://blog.daniel-baumann.ch/)'s example [except the change in repository
 layout](http://groups.google.com/group/webc-users/browse_thread/thread/6c7b7a2989b942b8)
 I have updated the [Webconverger archive
 key](http://debian.webconverger.com/archive-key.asc).
