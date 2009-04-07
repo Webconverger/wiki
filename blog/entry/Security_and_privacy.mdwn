@@ -9,6 +9,10 @@ layout](http://groups.google.com/group/webc-users/browse_thread/thread/6c7b7a298
 I have updated the [Webconverger archive
 key](http://debian.webconverger.com/archive-key.asc).
 
+	hendry@x61 ~$ wget -q http://debian.webconverger.com/archive-key.asc -O /dev/stdout | gpg
+	pub  1024D/7EEFD8EC 2009-04-07 Webconverger Archive Automatic Signing Key <key@webconverger.com>
+	sub  2048g/5CBB8700 2009-04-07 [expires: 2011-04-07]
+
 If you track [[todo]] you'll notice I've added _IN DAILY_ to:
 
 * disabling right click
