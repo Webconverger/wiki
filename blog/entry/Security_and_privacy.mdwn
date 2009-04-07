@@ -29,6 +29,7 @@ As you all know with the uncustomized free version of Webconverger you can
 alter the [[boot]] options and remove `nosudo` to activate **debug mode**. From
 here you could run:
 
+	sudo apt-get update
 	sudo apt-get install tor iceweasel-torbutton privoxy
 	sudo su -c "echo forward-socks4a / localhost:9050 . >> /etc/privoxy/config"
 	sudo /etc/init.d/privoxy restart
