@@ -15,6 +15,10 @@ If you track [[todo]] you'll notice I've added _IN DAILY_ to:
 * setting the UA to Firefox 2
 * disabling the [[wireless]] convenience feature to join any open AP -- [a bad default](http://groups.google.com/group/webc-users/browse_thread/thread/e746409c50e0a9a/040b5a1920f8e024)
 
+_IN DAILY_ ? What does mean? That means the bug has been fixed or rather in
+testing in the [daily builds](http://build.webconverger.org/), though not in
+the proper tested official [release](http://download.webconverger.com/) yet.
+
 <a href="http://www.flickr.com/photos/hendry/3422498310/" title="Tor install by Kai Hendry, on Flickr"><img src="http://farm4.static.flickr.com/3617/3422498310_3621723b55.jpg" width="500" height="375" alt="Tor install" /></a>
 
 As you all know with the uncustomized free version of Webconverger you can
