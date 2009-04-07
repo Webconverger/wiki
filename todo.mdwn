@@ -18,9 +18,9 @@ These really should be prioritized and plotted onto a timeline.
 * [security kiosk bugs](http://groups.google.com/group/webc-users/browse_thread/thread/60d62ae72fcff707) - file:/// must go (password on cmdline)
 * Do some advocacy/marketing by writing to libraries and such places that use 'infopoints'. Perhaps do a [talk at Hampshire/Surrey LUG](http://talks.webconverger.com/2009-02-14/) or some other opensource event.
 * A way of entering [commands like to control specific hardware](http://groups.google.com/group/webc-users/browse_thread/thread/e8a36eccc4c78a56?hl=en)
-* Remove [[wireless]] default to join any open network, currently a fallback
+* Remove [[wireless]] default to join any open network, currently a fallback. _IN DAILY_
 * [installs from USB seem broken](http://flickr.com/photos/hendry/3288149567/)
-* [disable right click](http://ubuntuforums.org/showthread.php?t=264372)
+* [disable right click](http://ubuntuforums.org/showthread.php?t=264372). _IN DAILY_
 * Figure out with the [[wireless]] networking [ipw drivers are not found](http://groups.google.com/group/webc-users/browse_thread/thread/fb3a1861471988a8)
 * [Fix UA string](http://groups.google.com/group/webc-users/browse_thread/thread/fc8171407b40a733)
 
