@@ -16,6 +16,10 @@ As [described earlier on the forum](http://groups.google.com/group/webc-users/br
 * `cd Desktop`
 * `dd if=mini.img od=`**x**`:` (**x** representing your USB drive you are going to replace with Webconverger!)
 
+There is a now an alternative to use a program called Flashnul described in :
+* [Debian EEEPC guide on Flashnul](http://wiki.debian.org/DebianEeePC/HowTo/Install#Usingflashnul)
+* [Archlinux on Flashnul](http://wiki.archlinux.org/index.php/Install_from_USB_stick#The_Flashnul_Way)
+
 ## How to copy .img to USB stick (under Linux):
 
 1. fdisk -l will list your USB drive - usually /dev/sdx ("x" representing letter like sda, sdb etc.), double check with `dmesg`
