@@ -1,4 +1,4 @@
-If you daring enough to try a browser that supports [HTML5
+If you are daring enough to try a browser that supports [HTML5
 video](http://www.whatwg.org/specs/web-apps/current-work/multipage/video.html#video),
 like the very latest [Firefox trunk
 builds](http://ftp.mozilla.org/pub/mozilla.org/firefox/nightly/latest-trunk/),
