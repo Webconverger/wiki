@@ -6,16 +6,15 @@ These really should be prioritized and plotted onto a timeline.
 * do some sort of device API for attraction (screensaver advertisement) loop, perhaps it can be done with kioskresetstation? No, [this can be done with a Web application](http://groups.google.com/group/webc-users/browse_thread/thread/656f92ff84582535)
 * device API for USB coin slot
 * somehow showcase Firefox 3 features like SVG, rounded corners, canvas, video etc. on the portal
-* Figure out mozplugger pdf issue on http://tinyurl.com/6npvk5
 * Look into crosses on the tab instead of the far right
 * improve download page to make downloading the latest mini for example **extremely** simple (a printable PDF guide too!)
 * have a service to send CDs? or USB keys?
-* fix preseed to choose guided by default (forget LVM+crypto)
+* fix [preseed](http://git.debian.org/?p=debian-live/config-webc.git;a=blob;f=webconverger/config/binary_debian-installer/preseed.cfg;) to choose guided by default (forget LVM+crypto)
 * Ensure home is mounted encrypted and keys are thrown away between sessions in persistent-browser script (i.e. same as an encrypted swap drive), or just use shred?
-* Install from wireless -- really neccessary?
+* Install from [[wireless]] -- really neccessary?
 * Look into advertising on the free version
 * Virtual (on screen) keyboard [[blog/entry/Virtual_touch_screen_keyboard_for_Kiosks]]
-* [security kiosk bugs](http://groups.google.com/group/webc-users/browse_thread/thread/60d62ae72fcff707) - file:/// must go (password on cmdline)
+* [security kiosk bugs](http://groups.google.com/group/webc-users/browse_thread/thread/60d62ae72fcff707) - file:/// must go (password on cmdline) _IN DAILY_
 * A way of entering [commands like to control specific hardware](http://groups.google.com/group/webc-users/browse_thread/thread/e8a36eccc4c78a56?hl=en)
 * Remove [[wireless]] default to join any open network, currently a fallback. _IN DAILY_
 * [installs from USB seem broken](http://flickr.com/photos/hendry/3288149567/)
@@ -23,7 +22,7 @@ These really should be prioritized and plotted onto a timeline.
 * Figure out with the [[wireless]] networking [ipw drivers are not found](http://groups.google.com/group/webc-users/browse_thread/thread/fb3a1861471988a8)
 * [Fix UA string for Hotmail](http://groups.google.com/group/webc-users/browse_thread/thread/fc8171407b40a733) _IN DAILY_
 * Focus on the hard drive installed Webconverger and making the boot options and init stuff work correctly
-* Block incoming connection with [iptables live-initscripts](http://git.debian.net/?p=debian-live/live-initscripts.git;a=blob;f=scripts/iptables;) firewall -- security in layers
+* Block incoming connection with [iptables](http://git.debian.org/?p=debian-live/config-webc.git;a=blob;f=webconverger/config/chroot_local-includes/etc/iptables.conf;) firewall -- security in layers _IN DAILY_
 
 # [[boot]] options that needed to be hacked into webconverger-base from live-initramfs
 
@@ -34,11 +33,14 @@ These really should be prioritized and plotted onto a timeline.
 
 # Make Webconverger smaller by installing certain packages when needed
 
+
 For example in Japan and Korea Internet connections are very fast. So on boot
 with `locale=ja_JP.UTF-8` the Live version could immediately just install from
-the local mirror ftp.jp.debian.org/debian the following packages required for
-input:
+the [Debian content delivery network](http://cdn.debian.net/debian/) the
+following packages required for input:
 
 	iceweasel-l10n-ja
 	ttf-vlgothic
 	scim-anthy scim-uim scim-skk scim-prime scim-canna scim-tables-ja
+
+This needs to be scripted in [live-initscripts](http://git.debian.net/?p=debian-live/live-initscripts.git).
