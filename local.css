@@ -44,12 +44,11 @@ h2                  { margin: 0em; }
 
 
 #nav                { float: left; width: 17em; }
-#main               { margin-left: 17em; border: thin #CCCCCC solid; padding: 1em; 
-                      -moz-border-radius-bottomleft:5px;
-                      -moz-border-radius-bottomright:5px;
-                      -moz-border-radius-topleft:5px;
-                      -moz-border-radius-topright:5px; }
-
+#main, .inlinepage  { margin-left: 17em; border: thin #CCCCCC solid; padding: 1em; 
+-moz-border-radius: 0.5em;
+-webkit-border-radius: 0.5em;
+border-radius: 0.5em;
+}
 
 input[type=text], input[type=email], textarea { width: 90%; border: thin solid #33FF33; }
 input.homepage { width: 90%; font-size: 2.5em; border: thin solid #33FF33;}
@@ -64,10 +63,11 @@ td.no { background-color: #FF9999 }
 td.yes { background-color: #CCFF99 }
 
 p.tip { width: 18em; min-height: 2em; margin: 1em 2em; padding: 1em 1.4em; border: solid medium; text-align: center; float: right; 
-                      -moz-border-radius-bottomleft:5px;
-                      -moz-border-radius-bottomright:5px;
-                      -moz-border-radius-topleft:5px;
-                      -moz-border-radius-topright:5px; }
+-moz-border-radius: 0.5em;
+-webkit-border-radius: 0.5em;
+border-radius: 0.5em;
+}
+
 
 
 p.tip :link, p.tip :visited { color: black; text-decoration: underline; }
