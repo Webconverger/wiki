@@ -12,8 +12,10 @@ During the [browser wars](http://en.wikipedia.org/wiki/Browser_Wars) Microsoft m
 
 # PDF
 
-<a href="http://www.flickr.com/photos/hendry/851173358/" title="Photo Sharing"><img src="http://farm2.static.flickr.com/1247/851173358_a01bd92860_m.jpg" width="240" height="180" alt="Inline PDF viewing support in Webconverger" /></a>
+The included PDF viewer is now the proprietary [Adobe
+acroread](http://www.adobe.com/support/downloads/product.jsp?product=10&platform=unix).
 
-The included PDF viewer is free software and [PDF](http://en.wikipedia.org/wiki/PDF) is an open file format.
+This was chosen over the free [XPDF](http://packages.qa.debian.org/x/xpdf.html) due to xpdf's unusable printing dialog.
 
-Though please think twice about using PDF on the Web! HTML is the best way to store your documents.
+Though please think twice about using PDF on the Web! **HTML is the best format
+to store your documents**.
