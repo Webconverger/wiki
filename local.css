@@ -24,11 +24,11 @@ h2                  { margin: 0em; }
 	-webkit-transition-duration: 0.15s;
 	-webkit-transition-timing-function: ease-in-out;
 }
-:visited { 
+:visited {
 	color: #831596;	
 }
 :link:hover, :visited:hover { 
-	background-color: #FFFFCC;
+	background-color: #33FF33;
 	-moz-border-radius: 0.5em;
 	-webkit-border-radius: 0.5em;
 	border-radius: 0.5em;
@@ -58,10 +58,6 @@ table { border-collapse: collapse; }
 td { padding: 0.1em 0.5em; }
 table td { border-left: 1px solid silver; border-right: 1px solid silver }
 
-/*
-#nav form, ul { border-left: thick solid #FF9999; margin: 0.2em; padding: 0.1em; }
-ul { list-style: none; padding-left: 0.7em;}
-*/
 
 td.yes, td.no, td.undecided { text-align: center; }
 td.no { background-color: #FF9999 }
