@@ -78,7 +78,7 @@ p.tip { color: black; background: #FFFF99; border-color: #FFFF00; }
 
 form, .footer { text-align: center; }
 
-form, .inlinepage { border: thin solid #FFFF00; padding: 0.5em; margin: 0.5em;
+form, .inlinepage { border: thin solid #fbab37; padding: 0.5em; margin: 0.5em;
 -moz-border-radius: 0.5em;
 -webkit-border-radius: 0.5em;
 border-radius: 0.5em;
