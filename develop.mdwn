@@ -10,6 +10,7 @@
 * [Debian Live project](http://debian-live.alioth.debian.org/) and [Live helper packages](http://live.debian.net/)
 * [LH_BOOTAPPEND in config/binary](http://git.debian.org/?p=debian-live/config-webc.git;a=blob;f=webconverger/config/binary) is where you typically make modifications to boot parameters
 * [live-initramfs lists the boot parameters](http://git.debian.net/?p=debian-live/live-initramfs.git;a=blob;f=manpages/live-initramfs.en.7.txt). Also see [[boot]].
+* [live-initscripts](http://git.debian.net/?p=debian-live/live-initscripts.git)
 
 If you are new to the project, 1.1.Welcome1.1.! Please help by [[testing]]. Thank you!
 
