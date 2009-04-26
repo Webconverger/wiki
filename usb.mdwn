@@ -3,7 +3,7 @@
 
 .img [downloadable](http://download.webconverger.com/) files are USB images to be copied onto a USB stick/key.
 
-## How to copy .img to USB stick (under Windows):
+# How to copy .img to USB stick (under Windows):
 
 <a href="http://www.flickr.com/photos/hendry/2486704737/" title="0.6beta2 by Kai Hendry, on Flickr"><img src="http://farm3.static.flickr.com/2154/2486704737_85843411c5_m.jpg" width="240" height="150" alt="0.6beta2" /></a>
 
@@ -20,7 +20,7 @@ There is a now an alternative to use a program called Flashnul described in :
 * [Debian EEEPC guide on Flashnul](http://wiki.debian.org/DebianEeePC/HowTo/Install#Usingflashnul)
 * [Archlinux on Flashnul](http://wiki.archlinux.org/index.php/Install_from_USB_stick#The_Flashnul_Way)
 
-## How to copy .img to USB stick (under Linux):
+# How to copy .img to USB stick (under Linux):
 
 1. fdisk -l will list your USB drive - usually /dev/sdx ("x" representing letter like sda, sdb etc.), double check with `dmesg`
 * dd if=webconverger-image.img of=/dev/sdx
@@ -32,6 +32,10 @@ Detailed description on [Debian wiki](http://wiki.debian.org/DebianLive/Howto/US
 
 [Kingston DataTravelers](http://www.flickr.com/photos/hendry/1172362068/) are recommended, though almost any generic USB stick should be fine. Feel free to use the usb image also with embedded boards and Compact Flash cards (they behave like /dev/hda usually).
 
+# Booting your USB stick
+
+Different machines have different ways of **Entering the boot menu**. However it's usually the [F8] key or at least configurable in the BIOS menu.
+
 # Appending arguments to boot loader
 
 <a href="http://www.flickr.com/photos/hendry/2366474295/" title="French support added to USB boot by Kai Hendry, on Flickr"><img src="http://farm3.static.flickr.com/2110/2366474295_c089249bd5_m.jpg" width="240" height="180" alt="French support added to USB boot" /></a>
@@ -41,12 +45,6 @@ type in something at the toboot: prompt. For example to get boot with [[i18n]]
 French support simply add:
 
 	live locale=fr
-
-**NEW** from mini 3.4 try:
-
-	installgui
-
-For a [[blog/entry/Webconverger_install_from_USB]]
 
 # Hacking the USB [[boot]]
 

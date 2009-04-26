@@ -14,15 +14,10 @@ These really should be prioritized and plotted onto a timeline.
 * Install from [[wireless]] -- really neccessary?
 * Look into advertising on the free version
 * Virtual (on screen) keyboard [[blog/entry/Virtual_touch_screen_keyboard_for_Kiosks]]
-* [security kiosk bugs](http://groups.google.com/group/webc-users/browse_thread/thread/60d62ae72fcff707) - file:/// must go (password on cmdline) _IN DAILY_
 * A way of entering [commands like to control specific hardware](http://groups.google.com/group/webc-users/browse_thread/thread/e8a36eccc4c78a56?hl=en)
-* Remove [[wireless]] default to join any open network, currently a fallback. _IN DAILY_
 * [installs from USB seem broken](http://flickr.com/photos/hendry/3288149567/)
-* [disable right click](http://ubuntuforums.org/showthread.php?t=264372). _IN DAILY_
 * Figure out with the [[wireless]] networking [ipw drivers are not found](http://groups.google.com/group/webc-users/browse_thread/thread/fb3a1861471988a8)
-* [Fix UA string for Hotmail](http://groups.google.com/group/webc-users/browse_thread/thread/fc8171407b40a733) _IN DAILY_
 * Focus on the hard drive installed Webconverger and making the boot options and init stuff work correctly
-* Block incoming connection with [iptables](http://git.debian.org/?p=debian-live/config-webc.git;a=blob;f=webconverger/config/chroot_local-includes/etc/iptables.conf;) firewall -- security in layers _IN DAILY_
 
 # [[boot]] options that needed to be hacked into webconverger-base from live-initramfs
 
@@ -43,4 +38,4 @@ following packages required for input:
 	ttf-vlgothic
 	scim-anthy scim-uim scim-skk scim-prime scim-canna scim-tables-ja
 
-This needs to be scripted in [live-initscripts](http://git.debian.net/?p=debian-live/live-initscripts.git).
+This needs to be scripted in [live-initscripts](http://git.debian.net/?p=debian-live/live-initscripts.git). [Follow up on debian-live](http://lists.debian.org/debian-live/2009/04/msg00151.html)
