@@ -18,6 +18,7 @@ These really should be prioritized and plotted onto a timeline.
 * [installs from USB seem broken](http://flickr.com/photos/hendry/3288149567/)
 * Figure out with the [[wireless]] networking [ipw drivers are not found](http://groups.google.com/group/webc-users/browse_thread/thread/fb3a1861471988a8)
 * Focus on the hard drive installed Webconverger and making the boot options and init stuff work correctly
+* kernel headers must be removed from [packaged list](http://download.webconverger.org/webc-4.7.txt)
 
 # [[boot]] options that needed to be hacked into webconverger-base from live-initramfs
 

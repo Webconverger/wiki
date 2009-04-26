@@ -20,4 +20,4 @@
 * USB version seems to trigger _Unknown video mode_ at least one of our test systems
 * [CJK support disabled](http://lists.debian.org/debian-live/2009/04/msg00151.html) until new code proven and accepted in [live-initscripts](http://git.debian.net/?p=debian-live/live-initscripts.git)
 
-[Available first on the German mirror](http://download.webconverger.org/)
+[Available first on the German mirror](http://download.webconverger.org/). Please [comment on webc-users](http://groups.google.com/group/webc-users/browse_thread/thread/8b4a477db0a4fe04), thank you.
