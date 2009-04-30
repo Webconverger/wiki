@@ -18,8 +18,8 @@ If you are new to the project, 1.1.Welcome1.1.! Please help by [[testing]]. Than
 
 1. `apt-get install` [live-helper](http://packages.qa.debian.org/l/live-helper.html) or rather use the latest from 'deb http://live.debian.net/debian/ ./'
 1. `git clone git://git.debian.org/git/debian-live/config-webc.git`
-1. webconverger/ is the base config file for [[maxi]]
-1. Take a long good look at [scripts/config](http://git.debian.org/?p=debian-live/config-webc.git;a=blob;f=mini/scripts/config)
+1. webconverger/ is the base config file
+1. Take a long good look at [scripts/config](http://git.debian.org/?p=debian-live/config-webc.git;a=blob;f=webconverger/scripts/config)
 1. `lh_config` to setup the configuration (this is the new live-helper 'autoconfig' style)
 1. `sudo lh_build` in webconverger/ to kick off the long build process
 
@@ -39,7 +39,7 @@ UK based Webconverger Limited offers a build service of the above at [Webconverg
 
 ## [Daily building](http://git.webconverger.org/?p=build)
 
-If you want to debug mini with the daily build scripts:
+If you want to debug with the daily build scripts:
 
 	DEBUG=1 sudo -E ./build.sh mini.willwork
 
