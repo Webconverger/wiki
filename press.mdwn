@@ -34,6 +34,7 @@ Web feedback
 Printed Media
 =============
 
+* [Linux Magazin](http://www.linux-magazin.de/news/webconverger_4_7_mit_firewall_und_adobe_reader)
 * [Linux Format #97](http://www.linuxformat.co.uk/modules.php?op=modload&name=NewArchives&issue=97) - "For surfers only"
 
 Foreign Language

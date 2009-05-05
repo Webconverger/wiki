@@ -22,9 +22,9 @@ If you're concerned about the scroll bar, alter the **overflow** CSS element. He
 
 ## Implementation
 
-I have forked rkiosk and created my own extension, (iceweasel-)webconverger. I
-had to do this as I had to modify some of upstream's packaging and functions.
-Upstream was also a little un-cooperative.
+We have forked rkiosk and created our own extension, (iceweasel-)webconverger.
+We had to do this as I had to modify some of upstream's packaging and
+functions.  Upstream was also a little un-cooperative.
 
 * [iceweasel-webconverger.git](http://git.webconverger.org/?p=iceweasel-webconverger.git).
 
