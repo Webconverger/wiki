@@ -1,0 +1,34 @@
+<object width="425" height="344"><param name="movie" value="http://www.youtube.com/v/r4D3vnj5pC8"></param><param name="wmode" value="transparent"></param>
+<embed src="http://www.youtube.com/v/r4D3vnj5pC8" type="application/x-shockwave-flash" wmode="transparent" width="425" height="344"></embed></object>
+
+Some of you may have noticed the [Webconverger
+portal](http://portal.webconverger.com/) has been not working as it should.
+Apologies.
+
+[Dreamhost](http://dreamhost.com/) where the portal is hosted has upgraded to
+PHP5 and since the site makes use of the
+[AddLanguage](http://httpd.apache.org/docs/2.0/mod/mod_mime.html#addlanguage)
+their *.php directive wasn't catching the files. The solution was to add to the
+`.htaccess`:
+
+	<Files *.php.*>
+	ForceType php5-cgi
+	</Files>
+
+So the portal currently has translations in:
+
+	humantorch:462$ ls *.php*
+	index.php.cn  index.php.en  index.php.fi  index.php.nl
+	index.php.de  index.php.es  index.php.fr  index.php.sv
+
+If you want to create a portal for your country, I'm very receptive to adding
+it. If you find the links on any of the version of the portal could be better,
+please let us know too.
+
+Thank you
+[sneekylinux](http://boats-video.blogspot.com/2009/05/webconvergerrailboat-or-plane.html)
+for the above succinct video. Also recently Webconverger has been featured in
+the German [[press]].
+
+With all this talk of "Cloud Computing", Webconverger really should be
+receiving some more press, as it makes the perfect **cloud client**.
