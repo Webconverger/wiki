@@ -7,7 +7,7 @@ Apologies.
 
 [Dreamhost](http://dreamhost.com/) where the portal is hosted has upgraded to
 PHP5 and since the site makes use of the
-[AddLanguage](http://httpd.apache.org/docs/2.0/mod/mod_mime.html#addlanguage)
+[Apache AddLanguage feature](http://httpd.apache.org/docs/2.0/mod/mod_mime.html#addlanguage)
 their *.php directive wasn't catching the files. The solution was to add to the
 `.htaccess`:
 
@@ -31,4 +31,4 @@ for the above succinct video. Also recently Webconverger has been featured in
 the German [[press]].
 
 With all this talk of "Cloud Computing", Webconverger really should be
-receiving some more press, as it makes the perfect **cloud client**.
+receiving some more press, as Webconverger makes the perfect **cloud client**.
