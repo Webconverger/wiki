@@ -5,7 +5,7 @@ Some of you may have noticed the [Webconverger
 portal](http://portal.webconverger.com/) has been not working as it should.
 Apologies.
 
-[Dreamhost](http://dreamhost.com/) where the portal is hosted has upgraded to
+[Dreamhost](http://www.dreamhost.com/r.cgi?104617) where the portal is hosted has upgraded to
 PHP5 and since the site makes use of the
 [Apache AddLanguage feature](http://httpd.apache.org/docs/2.0/mod/mod_mime.html#addlanguage)
 their *.php directive wasn't catching the files. The solution was to add to the
