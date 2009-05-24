@@ -11,7 +11,7 @@ These really should be prioritized and plotted onto a timeline.
 * have a service to send CDs? or USB keys?
 * fix [preseed](http://git.debian.org/?p=debian-live/config-webc.git;a=blob;f=webconverger/config/binary_debian-installer/preseed.cfg;) to choose guided by default (forget LVM+crypto)
 * Ensure home is mounted encrypted and keys are thrown away between sessions in persistent-browser script (i.e. same as an encrypted swap drive), or just use shred?
-* Install from [[wireless]] -- really neccessary?
+* Install from [[wireless]] -- really necessary?
 * Look into advertising on the free version
 * Virtual (on screen) keyboard [[blog/entry/Virtual_touch_screen_keyboard_for_Kiosks]]
 * A way of entering [commands like to control specific hardware](http://groups.google.com/group/webc-users/browse_thread/thread/e8a36eccc4c78a56?hl=en)
@@ -19,6 +19,9 @@ These really should be prioritized and plotted onto a timeline.
 * Figure out with the [[wireless]] networking [ipw drivers are not found](http://groups.google.com/group/webc-users/browse_thread/thread/fb3a1861471988a8)
 * Focus on the hard drive installed Webconverger and making the boot options and init stuff work correctly
 * kernel headers must be removed from [packaged list](http://download.webconverger.org/webc-4.7.txt)
+* confirm [[printing]] support
+* [ntpdate](http://groups.google.com/group/webc-users/browse_thread/thread/5fcb685c38d16366#) for security certificates
+* fix compose key for French (Canadian?) users
 
 # [[boot]] options that needed to be hacked into webconverger-base from live-initramfs
 
