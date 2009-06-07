@@ -1,24 +1,28 @@
-A common feature request is for whitelisting, content filtering and censorship.
+# Limiting users to your Website
+
+Firstly Webconverger needs to be [ordered](http://webconverger.com/) to be
+fixed to your homepage on startup.
+
+The problem: A common feature request is for whitelisting, content filtering and/or censorship.
 
 * Limit surfers to a domain (whitelisting)
 * Block pornography. The TLD .xxx would be a godsend!
 
-Preferably these requirements should be implemented separately on the gateway or proxy in your network.
+To practically limit users to your Website, in your [customisation
+order](http://webconverger.com) please specify
+[[iceweasel-webcnoaddressbar|kiosk]]. This modifies the User Interface to
+remove the URL addressbar, so that users can't navigate away from your homepage
+easily.
 
-## Known 3rd party appliances
+Alternatively these requirements could be implemented separately on the gateway
+or proxy in your network. Many good routers have blacklisting/whitelisting
+capabilites.
 
-* [IPCop software](http://ipcop.org/) - not an appliance I think, though perhaps you load this on an old computer?
-* [SmoothWall](http://smoothwall.net/) or SmoothGuardian more specifically for content filtering
+You may also want to consider the [kiosk_reset|blanking]] feature in order to
+reset Webconverger to your site every say, 3 minutes. This can help avoid
+Webconverger being set on a non-mandated Website for too long in public spaces.
 
-These appliances are unfortunately quite pricey. The SmoothGuardian product module with hardware is AT LEAST 3000GBP.
-
-Cons: These appliances focus on firewalls, though Webconverger does **not** actually require a firewall for [[security]]...
-
-## Whitelisting
-
-Whitelisting can be done fairly easily with [[iceweasel-webcnoaddressbar|kiosk]].
-
-## Webconverger with OpenDNS
+# Webconverger with OpenDNS
 
 [OpenDNS](http://www.opendns.com/) provide a filtering service.
 

@@ -21,7 +21,7 @@ These really should be prioritized and plotted onto a timeline.
 * kernel headers must be removed from [packaged list](http://download.webconverger.org/webc-4.7.txt)
 * confirm [[printing]] support
 * [ntpdate](http://groups.google.com/group/webc-users/browse_thread/thread/5fcb685c38d16366#) for security certificates
-* fix compose key for French (Canadian?) users
+* fix compose key for French users `setxkbmap -option "compose:rwin"`
 
 # [[boot]] options that needed to be hacked into webconverger-base from live-initramfs
 

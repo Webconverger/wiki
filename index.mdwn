@@ -2,11 +2,10 @@
 
 [Subscribe to the RSS feed](http://webconverger.org/blog/index.rss) of the [[blog]].
 
-There are [[!pagecount ]] pages in the wiki.
-
 ### If you want to ask a question about Webconverger usage, try the [forum for Webc users](http://groups.google.com/group/webc-users/topics)!
 
 
+* [Twitter updates](http://twitter.com/Webconverger)
 * [Download Webconverger](http://download.webconverger.com/) - [German mirror](http://download.webconverger.org/)
 * [[Design_document|Design]]
 * [[TODO]] list
