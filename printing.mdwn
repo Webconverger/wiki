@@ -18,7 +18,7 @@ Go to [localhost:631](http://localhost:631/) and view the **Manage printers** ta
 
 If you see for an example: `cupsdAuthorize: No authentication data provided.`,
 that means you are restricting access. Here is an [example of printing server
-which permits everything](cupsdAuthorize: No authentication data provided.).
+which permits everything](http://static.natalian.org/2009-06-07/cupsd.conf).
 
 # Printing to PDF on your network
 
@@ -47,7 +47,8 @@ should work.
 
 # Setting up your [CUPS printer](http://cups.org/) on your network server
 
-You do **not** host a printer on the machine running the Webconverger operating system.
+You do **not** host a printer service on the machine running the Webconverger
+operating system.
 
 You host the printer on a server running another operating system like Ubuntu,
 Debian or Archlinux. On that server, the important elements to enable in
