@@ -20,7 +20,9 @@ If you see for an example: `cupsdAuthorize: No authentication data provided.`,
 that means you are restricting access. Here is an [example of printing server
 which permits everything](http://static.natalian.org/2009-06-07/cupsd.conf).
 
-# Printing to PDF on your network
+# Printing to [PDF](http://en.wikipedia.org/wiki/PDF) on your network
+
+<a href="http://www.flickr.com/photos/hendry/3605150186/" title="CUPS-PDF by Kai Hendry, on Flickr"><img src="http://farm4.static.flickr.com/3413/3605150186_3037f2b36f.jpg" width="500" height="375" alt="CUPS-PDF" /></a>
 
 The [cups-pdf](http://packages.qa.debian.org/c/cups-pdf.html) package allows
 you to setup a server (Debian lenny recommended for this task) on your network
