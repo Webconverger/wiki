@@ -14,6 +14,24 @@ Go to [localhost:631](http://localhost:631/) and view the **Manage printers** ta
 
 <a href="http://www.flickr.com/photos/hendry/463396815/" title="Photo Sharing"><img src="http://farm1.static.flickr.com/209/463396815_c5ccbc2e6f.jpg" width="500" height="375" alt="2.0.10 trials cups" /></a>
 
+`tail -f /var/log/cups/error_log`
+
+If you see for an example: `cupsdAuthorize: No authentication data provided.`,
+that means you are restricting access. Here is an [example of printing server
+which permits everything](cupsdAuthorize: No authentication data provided.).
+
+# Printing to PDF on your network
+
+The [cups-pdf](http://packages.qa.debian.org/c/cups-pdf.html) package allows
+you to setup a server (Debian lenny recommended for this task) on your network
+that basically dumps PDFs of printing material sent to it. Hence you do not
+require a printer!
+
+This is useful for debugging and allowing you to manually check what does and
+does not get printed.
+
+[PDF example of the Webconverger portal](http://static.natalian.org/2009-06-07/portal_webconverger.pdf)
+
 # Recommended printers
 
 Check for support in [this list of
@@ -39,8 +57,3 @@ Debian or Archlinux. On that server, the important elements to enable in
 * Share published printers connect to this system
 
 These options basically set **Browsing On** and some Allow IP filters usually for your local network.
-
-## Old videos
-
-* [1](http://video.google.com/googleplayer.swf?docId=-5941547452106817554&hl=en)
-* [2](http://video.google.com/googleplayer.swf?docId=-2512639440187775804&hl=en)
