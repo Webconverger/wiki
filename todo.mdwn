@@ -18,11 +18,11 @@ These really should be prioritized and plotted onto a timeline.
 * [installs from USB seem broken](http://flickr.com/photos/hendry/3288149567/)
 * Figure out with the [[wireless]] networking [ipw drivers are not found](http://groups.google.com/group/webc-users/browse_thread/thread/fb3a1861471988a8)
 * Focus on the hard drive installed Webconverger and making the boot options and init stuff work correctly
-* kernel headers must be removed from [packaged list](http://download.webconverger.org/webc-4.7.txt)
 * fix compose key for French users `setxkbmap -option "compose:rwin"`
-* USB must disable installer
+* Initial spelling language priority [[issue|blog/entry/Webconverger_4.7_release_notes]] bug
+* showcase Webconverger as a vehicle for online examinations
 
-# [[boot]] options that needed to be hacked into webconverger-base from live-initramfs
+# [[boot]] options that needed to be hacked into webconverger-base from live-initramfs for hard drive installs
 
 * keyb
 * toram is this really appropriate for installs?
@@ -30,7 +30,6 @@ These really should be prioritized and plotted onto a timeline.
 * **proxy** does not work from hard drive install!
 
 # Make Webconverger smaller by installing certain packages when needed
-
 
 For example in Japan and Korea Internet connections are very fast. So on boot
 with `locale=ja_JP.UTF-8` the Live version could immediately just install from
