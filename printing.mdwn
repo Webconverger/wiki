@@ -1,10 +1,10 @@
 # [CTRL]+[p]
 
-Printing with Webconverger either works for you or doesn't. You cannot configure anything.
+Webconverger only prints to auto-detected CUPS **networked printers**.
 
 Holding down the [Control] and [p] keys on your keyboard gives you the printing dialog.
 
-If you do **not see your printer in that dialog** and you just see PostScript/default, your printer is **not correctly configured**.
+If you do **not see your printer in that dialog** and you just see PostScript/default, _your_ print server is **not correctly configured**.
 
 [Little video of myself getting printing working](http://video.google.co.uk/videoplay?docid=6606767171581818715)
 
