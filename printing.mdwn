@@ -2,6 +2,12 @@
 
 Webconverger only prints to auto-detected CUPS **networked printers**.
 
+Supported network printers available through the [Internet Printing Protocol
+(IPP)](http://en.wikipedia.org/wiki/Internet_Printing_Protocol) (used by
+[CUPS](http://www.cups.org)) are automatically discovered and configured. No
+other printers (connected locally or served by a Windows server) will be
+available.
+
 Holding down the [Control] and [p] keys on your keyboard gives you the printing dialog.
 
 If you do **not see your printer in that dialog** and you just see PostScript/default, _your_ print server is **not correctly configured**.
@@ -34,7 +40,7 @@ does not get printed.
 
 [PDF example of the Webconverger portal](http://static.natalian.org/2009-06-07/portal_webconverger.pdf)
 
-# Recommended printers
+# Supported printers
 
 Check for support in [this list of
 printers](https://wiki.ubuntu.com/HardwareSupportComponentsPrinters). Otherwise
