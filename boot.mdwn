@@ -38,6 +38,10 @@ remove `nosudo`
 
 Once Webconverger is booted, shift+alt+enter for a Terminal. =)
 
+### To enable the Compose key
+
+Add `compose`
+
 ### Setup to use [[wireless]] access point "san" with WPA password "francisco"
 
 Append `wlan=san,francisco`

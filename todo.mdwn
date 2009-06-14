@@ -16,9 +16,7 @@ These really should be prioritized and plotted onto a timeline.
 * Virtual (on screen) keyboard [[blog/entry/Virtual_touch_screen_keyboard_for_Kiosks]]
 * A way of entering [commands like to control specific hardware](http://groups.google.com/group/webc-users/browse_thread/thread/e8a36eccc4c78a56?hl=en)
 * [installs from USB seem broken](http://flickr.com/photos/hendry/3288149567/)
-* Figure out with the [[wireless]] networking [ipw drivers are not found](http://groups.google.com/group/webc-users/browse_thread/thread/fb3a1861471988a8)
 * Focus on the hard drive installed Webconverger and making the boot options and init stuff work correctly
-* fix compose key for French users `setxkbmap -option "compose:rwin"`
 * Initial spelling language priority [[issue|blog/entry/Webconverger_4.7_release_notes]] bug
 * showcase Webconverger as a vehicle for online examinations
 * tweak syslinux

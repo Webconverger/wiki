@@ -11,4 +11,4 @@ Since Google Checkout omits some countries like Brasil from its [buyer
 registration](https://checkout.google.com/buyerSignup?service=sierra&signupAgent=sierraukAgent&gclid=homepage)
 page, I've reluctantly setup a Paypal account for Webconverger.
 
-I thought [[blog/entry/Google_Checkout_fee]] was expensive at 3.6GBP. Paypal has taken 4.10GBP from a 100GBP transaction!
+I thought [[blog/entry/Google_Checkout_fee]] was outrageous at 3.6GBP. Paypal took 4.10GBP from a 100GBP transaction!

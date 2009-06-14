@@ -2,8 +2,6 @@
 
 	wlan=essid,key
 
-Examples:
-
 To join a [secured wireless network](http://en.wikipedia.org/wiki/Wi-Fi_Protected_Access) with ESSID 'foo' and password 'francisco' append `wlan=foo,francisco`
 
 To join an unsecured network called 'w', append `wlan=w,`
@@ -12,6 +10,10 @@ To join any open network, append `wlan=,` to the [[boot]] options. This relies
 on some wpa-supplicant magic that needs [[testing]]. If you do join an
 unsecured wireless network, do remember you have **little security** until you
 connect with **https**/SSL !!
+
+To join an [ESSID](http://en.wikipedia.org/wiki/ESSID) with spaces, you need to entity encode it. Example ESSID "Hopstock Gjestenett", becomes:
+
+	wlan=Hopstock%20Gjestenett,
 
 Track developments in [webconverger.init](http://git.webconverger.org/?p=webconverger-base.git;a=blob;f=debian/webconverger.init).
 
