@@ -1,0 +1,19 @@
+<a href="http://www.flickr.com/photos/dittaeva/sets/72157618881931360/">
+<img src="http://farm4.static.flickr.com/3663/3571635572_6b126a422e.jpg" alt="Webconverger used for Web access" />
+</a>
+
+So what's new with 4.9?
+
+	vimdiff http://download.webconverger.org/webc-4.7.txt http://download.webconverger.org/webc-4.9.txt
+
+* Shows a new Iceweasel (Firefox) [security update 3.0.11](http://www.mozilla.com/en-US/firefox/3.0.11/releasenotes/)
+* Back to [[xpdf|adobe]] despite printing dialog problems, because it's lighter and integrates better with the browser (no EULA to agree to everytime!)
+* webconverger-base 4.9 featuring [[wireless_essid_with_spaces_fix|wireless]] and a [[compose_key_option|boot]]. Read the [back story on the forum.](http://groups.google.com/group/webc-users/browse_thread/thread/b1b9c26b2bd4eaf3)
+
+# Known issues
+
+* Hard drive installer is not present on the [[ISO]] version (or any version for that matter)
+
+Download is first made available on the [German mirror](http://download.webconverger.org/) and is syncing now slowly with the [Californian mirror](http://download.webconverger.com/).
+
+Any comments? Please drop by the [Web forum](http://groups.google.com/group/webc-users).
