@@ -15,7 +15,7 @@ So what's new with 4.9?
 
 # Known issues
 
-* Hard drive installer is not present on the [[ISO]] version (or any version for that matter)
+* Hard drive installer is not present on the [[ISO]] version (or the [[USB]] media for that matter)
 
 Download is first made available on the [German mirror](http://download.webconverger.org/) and is syncing now slowly with the [Californian mirror](http://download.webconverger.com/).
 
