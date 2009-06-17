@@ -20,6 +20,7 @@ These really should be prioritized and plotted onto a timeline.
 * Initial spelling language priority [[issue|blog/entry/Webconverger_4.7_release_notes]] bug
 * showcase Webconverger as a vehicle for online examinations
 * tweak syslinux
+* fix download, not to download
 
 # [[boot]] options that needed to be hacked into webconverger-base from live-initramfs for hard drive installs
 
