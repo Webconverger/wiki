@@ -25,13 +25,19 @@ Please purchase [Linux compatible wireless hardware](http://www.linuxemporium.co
 
 Other wireless chipsets known to work:
 
-* most intel based cards
+* most Intel based wireless cards
 * most [atheros](http://en.wikipedia.org/wiki/Atheros) based cards
 * ipw3945
 * ipw2200
 * ipw2100
 * rt2x00
 * rt2570
+* ipw4965AGN
+* 5100BG
+* 5100ABG
+* 5100AGN
+* 5300AGN
+* 5350AGN
 
 Wireless devices that require Window's drivers wrappers such as ndiswrapper or fw-cutter etc. are **too painful** to integrate with Webconverger. In many cases it simply cannot be done without actually having the device and preparing 'one off' packages.
 
