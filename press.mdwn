@@ -7,6 +7,8 @@ Clients use Webconverger in:
 * Car dealerships
 * Museum 'infopoints'
 * Retail shops for sales assistance
+* Bars
+* Clinics
 * In educational institutions
 * Libraries
 * Charities
