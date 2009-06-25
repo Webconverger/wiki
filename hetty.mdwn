@@ -10,14 +10,13 @@ The 2 x 400 GB will be configured as software [RAID-1](http://en.wikipedia.org/w
 There are two other machines that are used by Webconverger Limited:
 
 * jurupa - webconverger.com at [Dreamhost](http://www.dreamhost.com/r.cgi?104617) in California - 120USD (~75GBP) a year
-* au - webconverger.org a Xen 512-slice VPS hosted by [Slicehost](http://www.slicehost.com/) in Missouri (root) - 38USD a month (22.56GBP)
+* webc - webconverger.org hosted by a Xen VPS from [Bitfolk](http://bitfolk.com) based in London, England - ~200GBP year
 
 Hetty (88.198.3.35) is rented for the following functions:
 
 * Performing [builds](http://build.webconverger.org/)
-* Storage & backup (au only has 20G!)
-* Providing a European mirror - [Webconverger.org mirror](http://hetty.webconverger.org/)
-* Providing a European work place for developers
+* Storage & backup (webc only has 20G!)
+* Providing a European mirror - [Webconverger.org mirror](http://download.webconverger.org/)
 
 ## Bootloader
 
