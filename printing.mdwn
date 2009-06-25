@@ -2,10 +2,8 @@
 
 Webconverger only prints to auto-detected CUPS **networked printers**.
 
-Supported network printers available through the [Internet Printing Protocol
-(IPP)](http://en.wikipedia.org/wiki/Internet_Printing_Protocol) (used by
-[CUPS](http://www.cups.org)) are automatically discovered and configured. No
-other printers (connected locally or served by a Windows server) will be
+Supported network printers shared through [CUPS](http://www.cups.org) are automatically discovered and configured. No
+other printers (connected locally or networked) will be
 available.
 
 Holding down the [Control] and [p] keys on your keyboard gives you the printing dialog.
@@ -44,10 +42,9 @@ does not get printed.
 
 Check for support in [this list of
 printers](https://wiki.ubuntu.com/HardwareSupportComponentsPrinters). Otherwise
-since Apple Macs use [CUPS](http://en.wikipedia.org/wiki/CUPS), any [Mac
+since new Apple Macs with Mac OS X use [CUPS](http://en.wikipedia.org/wiki/CUPS), you will have fairly good chances with [Mac
 compatible
-printer](http://store.apple.com/us/browse/home/shop_mac/mac_accessories/printers?mco=MjUzMDM4OA)
-should work.
+printers](http://store.apple.com/us/browse/home/shop_mac/mac_accessories/printers?mco=MjUzMDM4OA).
 
 # Try [write a letter](http://letterly.com/) and print it in Webconverger!
 
