@@ -12,26 +12,17 @@ Webconverger is [[designed|design]] for [[privacy]] and [[security]], based on:
 * opensource software
 * no super user
 * Always clears private data once a session is ended
-* does not allow local data
+* does not store local data
+* **live** session by default
 
-**When** [[automatic_updates|upgrade]] are enabled:
+# Peers
 
-* Debian security support
-* Latest Firefox/Iceweasel browser
+Webconverger welcomes security review. Please email **security** AT wecbonverger.com with your findings.
 
-Some customers do not want automatic upgrades. This is not a good choice for
-users as a security vulnerable Firefox will leave users ripe for phishing
-attacks.
+Could reviewers please practice [responsible disclosure](http://www.google.com/corporate/security.html).
 
-# Peer review
-
+* Webconverger is a member of the [Open Source Computer Emergency Response Team](http://ocert.org/team_and_members.html)
 * [Review by Andrew Patrick, Ph.D. of the Information Security Group](http://www.andrewpatrick.ca/security-and-privacy/quest-for-a-good-boot-cd-for-internet-banking/) of the [National Research Council Canada](http://www.nrc-cnrc.gc.ca/)
-
-# Customised Webconverger
-
-Webconverger can however be [customised](http://webconverger.com/buy/) for
-[[remote_desktop_sharing|vnc]] and similar features for remote administration.
-This can allow an administrator to spy on your browsing session.
 
 # Surf with SSL to protect yourself from eavesdropping
 

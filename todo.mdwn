@@ -19,8 +19,11 @@ These really should be prioritized and plotted onto a timeline.
 * Focus on the hard drive installed Webconverger and making the boot options and init stuff work correctly
 * Initial spelling language priority [[issue|blog/entry/Webconverger_4.7_release_notes]] bug
 * showcase Webconverger as a vehicle for online examinations
+* section on "automatic updates"
 * tweak syslinux
 * fix download, not to download
+* prepare for 3.5 -- take advantage of **privateBrowsingEnabled** (security in layers)
+* fix grub menu
 
 # [[boot]] options that needed to be hacked into webconverger-base from live-initramfs for hard drive installs
 
