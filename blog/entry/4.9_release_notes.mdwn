@@ -11,7 +11,7 @@ So what's new with 4.9?
 * [webconverger-base](http://git.webconverger.org/?p=webconverger-base.git) 4.9 featuring [[wireless_essid_with_spaces_fix|wireless]] and a [[compose_key_option|boot]]. Read the [back story on the forum.](http://groups.google.com/group/webc-users/browse_thread/thread/b1b9c26b2bd4eaf3)
 * Webconverger should be synced by Internet time, hence you shouldn't see SSL warnings if your BIOS clock is wrong.
 * You don't have to hold down the button on newer machines. Webconverger should understand ACPI "power down" events, that your computer should send on physically pressing the power button momentarily.
-* Known to work flawlessly with a cheap EEEPC900! [[Many_thanks|acknowledgements]] to [Ben Armstrong](http://syn.theti.ca/) and Guttorm Flatabø!
+* Known to work flawlessly with a cheap EEEPC900 **netbook**! [[Many_thanks|acknowledgements]] to [Ben Armstrong](http://syn.theti.ca/) and Guttorm Flatabø!
 
 # Known issues
 
