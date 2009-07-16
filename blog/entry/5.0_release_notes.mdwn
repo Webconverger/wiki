@@ -13,3 +13,6 @@ for 3.5, which should address some problems on the [[todo]] list.
 
 I'll be in [Debconf9](http://www.debconf.org) next week in Spain and I hope to
 at least get the Debian installer working again for us.
+
+The images are available on the [European download
+mirror](http://download.webconverger.org/) first. Enjoy.
