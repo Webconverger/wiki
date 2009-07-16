@@ -1,5 +1,5 @@
 <a href="http://www.flickr.com/photos/dittaeva/3698153749/">
-<img src="http://farm3.static.flickr.com/2662/3698153749_085f6a3bb6.jpg" alt="Webconverger with guest satisfaction survey at the reception of Tørvis Hotell">
+<img src="http://farm3.static.flickr.com/2662/3698153749_085f6a3bb6.jpg" alt="Webconverger with guest satisfaction survey at the reception of Tørvis Hotell" />
 </a>
 
 5.0 is minor point release with a small grub boot menu correction (hard drive
