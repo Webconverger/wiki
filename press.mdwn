@@ -33,6 +33,7 @@ Web feedback
 * [Current favourite for secure Internet banking - Webconverger](http://www.andrewpatrick.ca/security-and-privacy/quest-for-a-good-boot-cd-for-internet-banking/)
 * [Webconverger is a Winner: Very simply Internet kiosk](http://stefanomatic.wordpress.com/2008/09/03/internet-kiosk/)
 * [German tech site profiling USB linux distributions including Webconverger](http://www.tecchannel.de/pc_mobile/linux/1750236/)
+* [Google opensource talk](http://google-opensource.blogspot.com/2009/06/london-open-source-jam-13.html)
 
 Printed Media
 =============

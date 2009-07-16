@@ -1,0 +1,15 @@
+<a href="http://www.flickr.com/photos/dittaeva/3698153749/">
+<img src="http://farm3.static.flickr.com/2662/3698153749_085f6a3bb6.jpg" alt="Webconverger with guest satisfaction survey at the reception of Tørvis Hotell">
+</a>
+
+5.0 is minor point release with a small grub boot menu correction (hard drive
+installer option shouldn't be displayed when it's not available!) and an
+updated xulrunner.
+
+Once [Firefox in Debian](http://packages.qa.debian.org/i/iceweasel.html) 3.5
+hits unstable, there should be some backports and a much more exciting release
+will be made. The Webconverger [[kiosk]] addon for Firefox is being overhauled
+for 3.5, which should address some problems on the [[todo]] list.
+
+I'll be in [Debconf9](http://www.debconf.org) next week in Spain and I hope to
+at least get the Debian installer working again for us.
