@@ -24,6 +24,7 @@ These really should be prioritized and plotted onto a timeline.
 * fix download, not to download
 * prepare for 3.5 -- take advantage of **privateBrowsingEnabled** (security in layers)
 * fix grub menu
+* fix X locale keyboard `setxkbmap de -print | xkbcomp - $DISPLAY`
 
 # [[boot]] options that needed to be hacked into webconverger-base from live-initramfs for hard drive installs
 
