@@ -20,18 +20,16 @@ These really should be prioritized and plotted onto a timeline.
 * Initial spelling language priority [[issue|blog/entry/Webconverger_4.7_release_notes]] bug
 * showcase Webconverger as a vehicle for online examinations
 * section on "automatic updates"
-* tweak syslinux
-* fix download, not to download
+* fix download [[kiosk_extension|kiosk]], not to download
 * prepare for 3.5 -- take advantage of **privateBrowsingEnabled** (security in layers)
-* fix grub menu
-* fix X locale keyboard `setxkbmap de -print | xkbcomp - $DISPLAY`
+* fix X locale keyboard `setxkbmap de -print | xkbcomp - $DISPLAY` [Bug found](http://lists.debian.org/debian-live/2009/07/msg00088.html)
 
 # [[boot]] options that needed to be hacked into webconverger-base from live-initramfs for hard drive installs
 
 * keyb
 * toram is this really appropriate for installs?
 * locale - double check locale works - need httpd nostromo service
-* **proxy** does not work from hard drive install!
+* **proxy** does not work from hard drive install
 
 # Make Webconverger smaller by installing certain packages when needed
 
