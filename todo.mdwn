@@ -22,7 +22,6 @@ These really should be prioritized and plotted onto a timeline.
 * section on "automatic updates"
 * fix download [[kiosk_extension|kiosk]], not to download
 * prepare for 3.5 -- take advantage of **privateBrowsingEnabled** (security in layers)
-* fix X locale keyboard `setxkbmap de -print | xkbcomp - $DISPLAY` [Bug found](http://lists.debian.org/debian-live/2009/07/msg00088.html)
 
 # [[boot]] options that needed to be hacked into webconverger-base from live-initramfs for hard drive installs
 

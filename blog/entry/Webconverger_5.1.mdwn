@@ -17,12 +17,12 @@ I've just come from [Debconf9](http://www.debconf.org/) in Spain, with the follo
 * Some other interesting installer options are being worked on, so perhaps in future you can install Webconverger without requiring a reboot
 
 For debugging Webconverger or rather live-initramfs the [[boot]]
-option`break=top` is super useful. To speed up builds, try building on ram with
+option `break=top` is super useful. To speed up builds, try building on ram with
 `mount -t tmpfs -o size=1G tmpfs /path/to/mountpoint`.
 
 In not so good news Iceweasel 3.5.x is proving a pain to backport. I am
 seriously considering using the official static builds instead.
 
-For now please try out [Webconverger 5.1](http://download.webconverger.org/)
+For now please [download Webconverger 5.1](http://download.webconverger.org/)
 and please report any bugs to <feedback2009@webconverger.com> or the [mailing
 list](http://groups.google.com/group/webc-users). Enjoy!
