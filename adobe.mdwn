@@ -12,10 +12,7 @@ During the [browser wars](http://en.wikipedia.org/wiki/Browser_Wars) Microsoft m
 
 # PDF
 
-The included PDF viewer is now the proprietary [Adobe
-acroread](http://www.adobe.com/support/downloads/product.jsp?product=10&platform=unix).
+Known [[bug|todo]]: [XPDF](http://packages.qa.debian.org/x/xpdf.html) has an unusable [[printing]] dialog.
 
-This was chosen over the free [XPDF](http://packages.qa.debian.org/x/xpdf.html) due to xpdf's unusable [[printing]] dialog.
-
-Though please think twice about using PDF on the Web! **HTML is the best format
-to store your documents**.
+Though please think twice about using PDF on the Web! [HTML is the best format
+to store your documents](http://dabase.com/blog/PDF-A_versus_HTML/).
