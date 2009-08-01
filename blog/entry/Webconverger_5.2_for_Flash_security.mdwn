@@ -1,0 +1,5 @@
+[Daniel](http://blog.daniel-baumann.ch/) let me know there there is an
+important flash player security update 10.0.32.18+20090731.120040. The [only
+difference](http://groups.google.com/group/webc-users/browse_thread/thread/a8a472d97e01307f
+between [[5.1|blog/entry/Webconverger_5.1/]] and 5.2 is that updated
+proprietary package.
