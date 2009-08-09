@@ -6,29 +6,21 @@ These really should be prioritized and plotted onto a timeline.
 * do some sort of device API for attraction (screensaver advertisement) loop, perhaps it can be done with kioskresetstation? No, [this can be done with a Web application](http://groups.google.com/group/webc-users/browse_thread/thread/656f92ff84582535)
 * device API for USB coin slot
 * somehow showcase Firefox 3 features like SVG, rounded corners, canvas, video etc. on the portal
-* Look into crosses on the tab instead of the far right
-* improve download page to make downloading the latest mini for example **extremely** simple (a printable PDF guide too!)
-* have a service to send CDs? or USB keys?
+* have a service to buy CDs? or USB keys? Many people seem to have problems imaging Webconverger on [[usb]] from Windows.
 * fix [preseed](http://git.debian.org/?p=debian-live/config-webc.git;a=blob;f=webconverger/config/binary_debian-installer/preseed.cfg;) to choose guided by default (forget LVM+crypto)
 * Ensure home is mounted encrypted and keys are thrown away between sessions in persistent-browser script (i.e. same as an encrypted swap drive), or just use shred?
 * Install from [[wireless]] -- really necessary?
 * Look into advertising on the free version
 * Virtual (on screen) keyboard [[blog/entry/Virtual_touch_screen_keyboard_for_Kiosks]]
 * A way of entering [commands like to control specific hardware](http://groups.google.com/group/webc-users/browse_thread/thread/e8a36eccc4c78a56?hl=en)
-* [installs from USB seem broken](http://flickr.com/photos/hendry/3288149567/)
 * Focus on the hard drive installed Webconverger and making the boot options and init stuff work correctly
 * Initial spelling language priority [[issue|blog/entry/Webconverger_4.7_release_notes]] bug
 * showcase Webconverger as a vehicle for online examinations
 * section on "automatic updates"
 * fix download [[kiosk_extension|kiosk]], not to download
 * prepare for 3.5 -- take advantage of **privateBrowsingEnabled** (security in layers)
-
-# [[boot]] options that needed to be hacked into webconverger-base from live-initramfs for hard drive installs
-
-* keyb
-* toram is this really appropriate for installs?
-* locale - double check locale works - need httpd nostromo service
-* **proxy** does not work from hard drive install
+* Fix the [PDF viewer](http://groups.google.com/group/webc-users/browse_thread/thread/e522ca199ecca790)
+* Experiment with `plainroot` with live-initramfs
 
 # Make Webconverger smaller by installing certain packages when needed
 
