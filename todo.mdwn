@@ -5,7 +5,7 @@ These really should be prioritized and plotted onto a timeline.
 * Allow USB mounts so people can upload pictures to Flickr (use case by Phil Waring)
 * do some sort of device API for attraction (screensaver advertisement) loop, perhaps it can be done with kioskresetstation? No, [this can be done with a Web application](http://groups.google.com/group/webc-users/browse_thread/thread/656f92ff84582535)
 * device API for USB coin slot
-* somehow showcase Firefox 3 features like SVG, rounded corners, canvas, video etc. on the portal
+* somehow showcase Firefox 3 features like SVG, rounded corners, canvas, video etc. on the portal (beware of processor intensive stuff).
 * have a service to buy CDs? or USB keys? Many people seem to have problems imaging Webconverger on [[usb]] from Windows.
 * fix [preseed](http://git.debian.org/?p=debian-live/config-webc.git;a=blob;f=webconverger/config/binary_debian-installer/preseed.cfg;) to choose guided by default (forget LVM+crypto)
 * Ensure home is mounted encrypted and keys are thrown away between sessions in persistent-browser script (i.e. same as an encrypted swap drive), or just use shred?
@@ -21,6 +21,7 @@ These really should be prioritized and plotted onto a timeline.
 * prepare for 3.5 -- take advantage of **privateBrowsingEnabled** (security in layers)
 * Fix the [PDF viewer](http://groups.google.com/group/webc-users/browse_thread/thread/e522ca199ecca790)
 * Experiment with `plainroot` with live-initramfs
+* Enable find in IceWeasel.
 
 # Make Webconverger smaller by installing certain packages when needed
 
