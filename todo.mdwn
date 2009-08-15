@@ -19,8 +19,6 @@ These really should be prioritized and plotted onto a timeline.
 * section on "automatic updates"
 * fix download [[kiosk_extension|kiosk]], not to download
 * prepare for 3.5 -- take advantage of **privateBrowsingEnabled** (security in layers)
-* Fix the [PDF viewer](http://groups.google.com/group/webc-users/browse_thread/thread/e522ca199ecca790)
-* Experiment with `plainroot` with live-initramfs
 
 # Make Webconverger smaller by installing certain packages when needed
 
