@@ -2,8 +2,11 @@
 
 These really should be prioritized and plotted onto a timeline.
 
+Webconverger at its core is an opensource project reliant on your contributions
+to strengthen the most competitive open platform... the Web!
+
 * Allow USB mounts so people can upload pictures to Flickr (use case by Phil Waring)
-* do some sort of device API for attraction (screensaver advertisement) loop, perhaps it can be done with kioskresetstation? No, [this can be done with a Web application](http://groups.google.com/group/webc-users/browse_thread/thread/656f92ff84582535)
+* do some sort of device API for attraction (screensaver advertisement) loop, perhaps it can be done with kioskresetstation? No, [this can be done with a Web application](http://groups.google.com/group/webc-users/browse_thread/thread/656f92ff84582535) -- write this up!
 * device API for USB coin slot
 * somehow showcase Firefox 3 features like SVG, rounded corners, canvas, video etc. on the portal (beware of processor intensive stuff).
 * have a service to buy CDs? or USB keys? Many people seem to have problems imaging Webconverger on [[usb]] from Windows.
@@ -13,24 +16,12 @@ These really should be prioritized and plotted onto a timeline.
 * Look into advertising on the free version
 * Virtual (on screen) keyboard [[blog/entry/Virtual_touch_screen_keyboard_for_Kiosks]]
 * A way of entering [commands like to control specific hardware](http://groups.google.com/group/webc-users/browse_thread/thread/e8a36eccc4c78a56?hl=en)
-* Focus on the hard drive installed Webconverger and making the boot options and init stuff work correctly
 * Initial spelling language priority [[issue|blog/entry/Webconverger_4.7_release_notes]] bug
 * showcase Webconverger as a vehicle for online examinations
-* section on "automatic updates"
+* section on [automatic updates](http://git.debian.org/?p=debian-live/config-webc.git;a=blob;f=webconverger/config/chroot_local-includes/etc/network/if-up.d/apt-upgrade;)
 * fix download [[kiosk_extension|kiosk]], not to download
 * prepare for 3.5 -- take advantage of **privateBrowsingEnabled** (security in layers)
 * Enable find in IceWeasel.
-* Set UA string
+* Set UA string --- can't really do this thanks to crazy Web apps like hotmail depending on a generic UA string
 
-# Make Webconverger smaller by installing certain packages when needed
-
-For example in Japan and Korea Internet connections are very fast. So on boot
-with `locale=ja_JP.UTF-8` the Live version could immediately just install from
-the [Debian content delivery network](http://cdn.debian.net/debian/) the
-following packages required for input:
-
-	iceweasel-l10n-ja
-	ttf-vlgothic
-	scim-anthy scim-uim scim-skk scim-prime scim-canna scim-tables-ja
-
-This needs to be scripted in [live-initscripts](http://git.debian.net/?p=debian-live/live-initscripts.git). [Follow up on debian-live](http://lists.debian.org/debian-live/2009/04/msg00151.html)
+Please help by [[testing]] or [[building|develop]] and submitting to patches to the [mailing list](http://groups.google.com/group/webc-users/topics).
