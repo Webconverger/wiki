@@ -23,5 +23,6 @@ to strengthen the most competitive open platform... the Web!
 * prepare for 3.5 -- take advantage of **privateBrowsingEnabled** (security in layers)
 * Enable find in IceWeasel.
 * Set UA string --- can't really do this thanks to crazy Web apps like hotmail depending on a generic UA string
+* Move or explain live.webconverger.com
 
 Please help by [[testing]] or [[building|develop]] and submitting to patches to the [mailing list](http://groups.google.com/group/webc-users/topics).
