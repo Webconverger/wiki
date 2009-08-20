@@ -3,7 +3,7 @@
 * [Official Webconverger package repository](http://debian.webconverger.com)
 * [Webconverger git repositories](http://git.webconverger.org/)
 * [Webconverger's own Debian mirror](http://mirror.webconverger.com/) on [[hetty]]
-* [Webconverger daily builds](http://live.webconverger.com/output/)
+* [Webconverger daily builds](http://build.webconverger.org/output/)
 * [[i18n]] - perhaps you could help translate the [portal](http://portal.webconverger.com/) into your local language?
 * [[Artwork]]
 * [[Firefox_extension_development|Kiosk]]
