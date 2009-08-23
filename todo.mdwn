@@ -1,7 +1,3 @@
-# Bugs, todo and ideas
-
-These really should be prioritized and plotted onto a timeline.
-
 Webconverger at its core is an opensource project reliant on
 [[your_contributions|acknowledgements]] to strengthen the most competitive open
 platform... the Web!
@@ -18,12 +14,21 @@ platform... the Web!
 * A way of entering [commands like to control specific hardware](http://groups.google.com/group/webc-users/browse_thread/thread/e8a36eccc4c78a56?hl=en)
 * Initial spelling language priority [[issue|blog/entry/Webconverger_4.7_release_notes]] bug
 * showcase Webconverger as a vehicle for online examinations
+* CJK scripts not working (network is not setup in time)
+
+# debian-installer (hard drive install) issues
+
+* sources.list is not being copied across, which is important for [[upgrades|upgrade]].
+* sudo does not work on installs or root account
+* ISO double splashimage=
+* ISO does not have cmdline setup
+* USB too many redundant options on syslinux boot menu
 
 # [[Extension|kiosk]] improvements needed
 
 * fix download [[kiosk_extension|kiosk]], not to download
 * prepare for 3.5 -- take advantage of **privateBrowsingEnabled** (security in layers)
-* Enable find in IceWeasel.
+* Enable find `/`
 
 Please help and contribute by [[testing]] or [[building|develop]] and
 submitting to patches to the [mailing
