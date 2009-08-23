@@ -2,8 +2,9 @@
 
 These really should be prioritized and plotted onto a timeline.
 
-Webconverger at its core is an opensource project reliant on your contributions
-to strengthen the most competitive open platform... the Web!
+Webconverger at its core is an opensource project reliant on
+[[your_contributions|acknowledgements]] to strengthen the most competitive open
+platform... the Web!
 
 * Allow USB mounts so people can upload pictures to Flickr (use case by Phil Waring)
 * do some sort of device API for attraction (screensaver advertisement) loop, perhaps it can be done with kioskresetstation? No, [this can be done with a Web application](http://groups.google.com/group/webc-users/browse_thread/thread/656f92ff84582535) -- write this up!
@@ -12,17 +13,18 @@ to strengthen the most competitive open platform... the Web!
 * have a service to buy CDs? or USB keys? Many people seem to have problems imaging Webconverger on [[usb]] from Windows.
 * fix [preseed](http://git.debian.org/?p=debian-live/config-webc.git;a=blob;f=webconverger/config/binary_debian-installer/preseed.cfg;) to choose guided by default (forget LVM+crypto)
 * Ensure home is mounted encrypted and keys are thrown away between sessions in persistent-browser script (i.e. same as an encrypted swap drive), or just use shred?
-* Install from [[wireless]] -- really necessary?
 * Look into advertising on the free version
 * Virtual (on screen) keyboard [[blog/entry/Virtual_touch_screen_keyboard_for_Kiosks]]
 * A way of entering [commands like to control specific hardware](http://groups.google.com/group/webc-users/browse_thread/thread/e8a36eccc4c78a56?hl=en)
 * Initial spelling language priority [[issue|blog/entry/Webconverger_4.7_release_notes]] bug
 * showcase Webconverger as a vehicle for online examinations
-* section on [automatic updates](http://git.debian.org/?p=debian-live/config-webc.git;a=blob;f=webconverger/config/chroot_local-includes/etc/network/if-up.d/apt-upgrade;)
+
+# [[Extension|kiosk]] improvements needed
+
 * fix download [[kiosk_extension|kiosk]], not to download
 * prepare for 3.5 -- take advantage of **privateBrowsingEnabled** (security in layers)
 * Enable find in IceWeasel.
-* Set UA string --- can't really do this thanks to crazy Web apps like hotmail depending on a generic UA string
-* Move or explain live.webconverger.com
 
-Please help by [[testing]] or [[building|develop]] and submitting to patches to the [mailing list](http://groups.google.com/group/webc-users/topics).
+Please help and contribute by [[testing]] or [[building|develop]] and
+submitting to patches to the [mailing
+list](http://groups.google.com/group/webc-users/topics).

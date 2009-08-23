@@ -11,7 +11,7 @@ further options:
 * [[Artwork]] - your $HOMEPAGE/bg.png, default being [http://portal.webconverger.com/bg.png](http://portal.webconverger.com/bg.png).
 * [[Kiosk_reset|blanking]] **timeout** with `kioskresetstation=<mins>`. Resets browser after user defined minutes of idleness/inactivity.
 * [[Networking]] customisation. Default is **wired** DHCP.
-* [[Adobe]] (Macromedia) Flash & [PDF viewing](http://flickr.com/photos/hendry/851173358/)
+* [[Adobe]] (Macromedia) Flash & [PDF viewing](http://www.flickr.com/photos/hendry/3825411003/)
 * Install to your hard disk from [[CD_ISO|blog/entry/Convert_your_PC_into_a_public_Web_terminal]] or [[USB_stick|blog/entry/Webconverger_install_from_USB]].
 * [[Extensive_internationalization_support|i18n]] -  Exotic locales such as Chinese, Japanese and Korean (CJK) are supported. CJK keyboard switching via [scim](http://en.wikipedia.org/wiki/SCIM) and many other types of keyboard setups, such as Swiss German. Spelling support with dictionaries in many languages. [[maxi]] only.
 * [[Printing]] support - temporary disabled due to security concerns

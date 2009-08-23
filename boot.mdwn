@@ -24,7 +24,9 @@ Edit `homepage=`
 
 See [[homepage]]
 
-### Use Webconverger in German
+(new) you can enter several homepages, which open in several tabs, e.g. `homepage=http://portal.webconverger.com/%20http://webconverger.com`
+
+### Use Webconverger in German, see [[i18n]] for more localisations
 
 append `locale=de`
 
@@ -36,7 +38,7 @@ append `http_proxy=http://192.168.1.5:8888`
 
 remove `nosudo`
 
-Once Webconverger is booted, shift+alt+enter for a Terminal. =)
+Once Webconverger is booted, the [dwm window manager](http://dwm.suckless.org/tutorial) defaults to shift+alt+enter for a Terminal. =)
 
 ### To enable the Compose key
 
@@ -54,12 +56,18 @@ append `acpi=off`
 
 append `xvideomode=640x480`
 
+### Do an [upgrade](http://git.debian.org/?p=debian-live/config-webc.git;a=blob;f=webconverger/config/chroot_local-includes/etc/network/if-up.d/apt-upgrade;) on startup (new)
+
+append `upgrade`
+
 ### Want more? See [[develop]] and [[features]]
 
 # Caveats
 
 ## usb .img
 
-[[usb]] unfortunately does not support the GRUB boot loader currently. So you can't customise you USB image very easily. However you can mount you USB image and tweak your syslinux.cfg very easily by hand. Try it.
+[[usb]] unfortunately does not support the GRUB boot loader currently. So you
+can't customise you USB image very easily. However you can mount you USB image
+and tweak your syslinux.cfg very easily by hand. Try it.
 
 And your changes are permanent!
