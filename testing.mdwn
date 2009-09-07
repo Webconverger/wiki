@@ -21,6 +21,8 @@ Then try it out:
 
 **Issue** is getting network connectivity to analyse the debug logs.
 
+**BUG** The installed webconverger has a login prompt. in-target must have failed.
+
 ## Testing the hard drive installer on [[USB]]
 
 Create the hard drive:
