@@ -14,7 +14,8 @@ platform... the Web!
 * A way of entering [commands like to control specific hardware](http://groups.google.com/group/webc-users/browse_thread/thread/e8a36eccc4c78a56?hl=en)
 * Initial spelling language priority [[issue|blog/entry/Webconverger_4.7_release_notes]] bug
 * showcase Webconverger as a vehicle for online examinations
-* CJK scripts not working (network is not setup in time)
+* CJK scripts not working (network is not setup in time, sometimes)
+* Ability to change chrome [[kiosk]] options on [[boot]] - [ref](http://groups.google.com/group/webc-users/browse_thread/thread/c6c8649feadbb8dc)
 
 # debian-installer (hard drive install) issues
 

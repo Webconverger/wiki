@@ -34,8 +34,8 @@ Then try it out:
 	wget http://build.webconverger.org/latest.img
 	qemu -hdb test.qcow2 webconverger.2009-09-06.5.5-usb.img
 
-
 <a href="http://www.flickr.com/photos/hendry/3898440536/" title="Qemu bug, it detects the squashfs on an actual machine by Kai Hendry, on Flickr"><img src="http://farm4.static.flickr.com/3527/3898440536_8d807231b7.jpg" width="500" height="375" alt="Qemu bug, it detects the squashfs on an actual machine" /></a>
+
 # VMware
 
 Windows or linux users can download [VMWARE player](http://www.vmware.com/download/player/download.html), which is free of cost.
