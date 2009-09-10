@@ -8,6 +8,8 @@ Qemu might be a little slow if you don't have the qemu kernel module running.
 
 * [Archlinux Qemu guide](http://wiki.archlinux.org/index.php/Qemu)
 
+Known issue: Flash does not like QEMU for some unknown reason
+
 ## Testing the hard drive installer on ISO
 
 Create the hard drive:
@@ -19,7 +21,9 @@ Then try it out:
 	wget http://build.webconverger.org/latest.iso
 	qemu -kernel-kqemu -no-acpi -net nic,vlan=1 -net user,vlan=1 -hda test.qcow2 -cdrom webconverger.2009-09-06.5.5-iso.iso
 
-**Issue** is getting network connectivity to analyse the debug logs.
+Setup [tap networking](http://wiki.archlinux.org/index.php/Qemu#Tap_Networking_with_QEMU):
+
+	sudo qemu -enable-kvm -net nic -net tap,ifname=tap0 -cdrom /tmp/webconverger.2009-09-09.5.5-iso.iso
 
 **BUG** The installed webconverger has a login prompt. in-target must have failed.
 
@@ -36,7 +40,7 @@ Then try it out:
 
 <a href="http://www.flickr.com/photos/hendry/3898440536/" title="Qemu bug, it detects the squashfs on an actual machine by Kai Hendry, on Flickr"><img src="http://farm4.static.flickr.com/3527/3898440536_8d807231b7.jpg" width="500" height="375" alt="Qemu bug, it detects the squashfs on an actual machine" /></a>
 
-# VMware
+# Proprietary VMware
 
 Windows or linux users can download [VMWARE player](http://www.vmware.com/download/player/download.html), which is free of cost.
 
@@ -84,10 +88,12 @@ Problem is the process is quite CPU intensive.
 * Flash video
 * Sound
 
+Might not work under virtualisation.
+
 ## [Letterly](http://letterly.com/)
 
 * PDF
 
 ## Debian installer
 
-Install to 8G VMWARE virtual hard disk
+Install to 8G VMWARE virtual hard disk. EEEPC are great test beds.
