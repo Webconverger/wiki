@@ -1,0 +1,36 @@
+Tracking the status of the Debian installer.
+
+Webconverger has [sponsored
+work](http://lists.debian.org/debian-live/2009/08/msg00029.html) to allow
+Webconverger to be installed on the hard drive.
+
+There are some pros and cons on installs.
+
+# Pros
+
+If you computer is enable to boot [[usb]] sticks, you typically would want to
+install Webconverger from the [[iso]] version onto the hard drive to improve
+load times.
+
+Although USB or ISO (Compact Disc) media is inexpensive, it is sometimes a
+waste not to use the hard drive contained in most computers today. Customers
+also worry that USB sticks or CDs can go missing from the computer.
+
+# Cons
+
+Users can unwittingly replace the contents of their hard drive with Webconverger.
+
+Including the installer on the Webconverger images, can bloat the image by many
+several megabytes. Since Webconverger is by [[design]] a Live Linux
+distribution, this can be wasteful since many will not be using this feature.
+
+Webconverger on a writable disk makes everything rather complicated. Some users
+don't want to loose history and hence this goes against the [[design]].
+Webconverger on the hard drive makes it much easier to upgrade than a LiveCD,
+since upgrades can be persistent across reboots. However ensuring upgrades
+happen smoothly and efficiently is hard work!
+
+The installer is complex and it's difficult to support and [[test|testing]].
+
+The [[USB]] Live version of Webconverger boots up as fast as the hard drive
+version.

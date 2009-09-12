@@ -1,4 +1,7 @@
-Please help test the very latest [daily build images](http://build.webconverger.org/). Report bugs on [webc-users](http://groups.google.com/group/webc-users/topics). Once verified, bugs are listed on the [[todo]] list.
+Please help test the very latest [daily build
+images](http://build.webconverger.org/). Report bugs on
+[webc-users](http://groups.google.com/group/webc-users/topics). Once verified,
+bugs are listed on the [[todo]] list.
 
 # qemu
 
@@ -6,20 +9,11 @@ Please help test the very latest [daily build images](http://build.webconverger.
 
 Qemu might be a little slow if you don't have the qemu kernel module running.
 
-* [Archlinux Qemu guide](http://wiki.archlinux.org/index.php/Qemu)
-
-Known issue: Flash does not like QEMU for some unknown reason
-
-## Testing the hard drive installer on ISO
+## Testing the hard drive [[installer]] on ISO
 
 Create the hard drive:
 
 	qemu-img create test.qcow2 10G
-
-Then try it out:
-
-	wget http://build.webconverger.org/latest.iso
-	qemu -kernel-kqemu -no-acpi -net nic,vlan=1 -net user,vlan=1 -hda test.qcow2 -cdrom webconverger.2009-09-06.5.5-iso.iso
 
 Setup [tap networking](http://wiki.archlinux.org/index.php/Qemu#Tap_Networking_with_QEMU):
 
@@ -29,16 +23,7 @@ Setup [tap networking](http://wiki.archlinux.org/index.php/Qemu#Tap_Networking_w
 
 ## Testing the hard drive installer on [[USB]]
 
-Create the hard drive:
-
-	qemu-img create test.qcow2 10G
-
-Then try it out:
-
-	wget http://build.webconverger.org/latest.img
-	qemu -hdb test.qcow2 webconverger.2009-09-06.5.5-usb.img
-
-<a href="http://www.flickr.com/photos/hendry/3898440536/" title="Qemu bug, it detects the squashfs on an actual machine by Kai Hendry, on Flickr"><img src="http://farm4.static.flickr.com/3527/3898440536_8d807231b7.jpg" width="500" height="375" alt="Qemu bug, it detects the squashfs on an actual machine" /></a>
+Use real hardware, such as an EEEPC or netbook.
 
 # Proprietary VMware
 
@@ -71,7 +56,6 @@ Save the configuration below as a file named `webconverger.vmx` with webconverge
     # Host USB
     usb.present = "TRUE"
 
-Hendry uses VMware workstation. :-)
 
 # Testing video idea
 
@@ -88,12 +72,8 @@ Problem is the process is quite CPU intensive.
 * Flash video
 * Sound
 
-Might not work under virtualisation.
+NOTE: Flash & sound not work under virtualisation (qemu).
 
 ## [Letterly](http://letterly.com/)
 
 * PDF
-
-## Debian installer
-
-Install to 8G VMWARE virtual hard disk. EEEPC are great test beds.
