@@ -34,3 +34,18 @@ The installer is complex and it's difficult to support and [[test|testing]].
 
 The [[USB]] Live version of Webconverger boots up as fast as the hard drive
 version.
+
+
+
+# USB issues
+
+* Too many menu options
+
+You can accidentally install Webconverger on the free space on the USB key. Don't do this, it won't work.
+
+
+# ISO issues
+
+`grub-pc` is in affect, which will cause
+<http://git.debian.org/?p=debian-live/config-webc.git;a=blob;f=webconverger/config/binary_local-includes/install/late_command.sh>
+to fail and hence the install will report failure too.
