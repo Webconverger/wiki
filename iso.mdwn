@@ -6,3 +6,10 @@
    4. Right click on the downloaded webconverger.iso file and select Copy image to CD
    5. Complete the wizard and boot any PC with the new Webconverger CD
    6. Enjoy safely surfing the Web with Webconverger!
+
+
+# Debugging
+
+How to inspect an ISO:
+
+	sudo mount -o loop /tmp/webconverger.2009-09-13.5.5-iso.iso /mnt/live/
