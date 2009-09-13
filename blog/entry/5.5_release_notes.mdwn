@@ -8,9 +8,11 @@ giving these experimental features a try and giving feedback on them.
 * Allow for several homepages to be specified which get opened in separate tabs, e.g. `homepage=http://portal.webconverger.com/%20http://webconverger.com`
 * [noclutter](http://packages.qa.debian.org/u/unclutter.html) added, which hides the mouse cursor after a couple of seconds of inactivity
 * Several new [experimental hooks](http://git.debian.org/?p=debian-live/config-webc.git;a=tree;f=webconverger/config/chroot_local-includes/etc/network/if-up.d) to [[upgrade|boot]] and setup [[CJK_locales|i18n]]
-* A new PDF viewer based on [epdfview](http://packages.qa.debian.org/e/epdfview.html), this one unlike `xpdf` has a decent [[printing]] dialog!
+* A new PDF viewer based on [epdfview](http://packages.qa.debian.org/e/epdfview.html), which unlike `xpdf` has a decent [[printing]] dialog!
 
-# [[Installer]]
+# Experimental option to [[install_Webconverger_onto_a_hard_drive]]
+
+<a href="http://www.flickr.com/photos/hendry/3915352042/" title="awful grub-pc dialog by Kai Hendry, on Flickr"><img src="http://farm3.static.flickr.com/2478/3915352042_336d04f2c8.jpg" width="500" height="375" alt="awful grub-pc dialog" /></a>
 
 The included EXPERIMENTAL [[installer]] has problems. For example the [[USB]]
 version only seems to work when installing without a network due to some odd
