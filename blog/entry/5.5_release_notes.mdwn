@@ -10,7 +10,7 @@ giving these experimental features a try and giving feedback on them.
 * Several new [experimental hooks](http://git.debian.org/?p=debian-live/config-webc.git;a=tree;f=webconverger/config/chroot_local-includes/etc/network/if-up.d) to [[upgrade|boot]] and setup [[CJK_locales|i18n]]
 * A new PDF viewer based on [epdfview](http://packages.qa.debian.org/e/epdfview.html), which unlike `xpdf` has a decent [[printing]] dialog!
 
-# Experimental option to [[install_Webconverger_onto_a_hard_drive]]
+# Experimental option to [[install_Webconverger_onto_a_hard_drive|installer]]
 
 <a href="http://www.flickr.com/photos/hendry/3915352042/" title="awful grub-pc dialog by Kai Hendry, on Flickr"><img src="http://farm3.static.flickr.com/2478/3915352042_336d04f2c8.jpg" width="500" height="375" alt="awful grub-pc dialog" /></a>
 
