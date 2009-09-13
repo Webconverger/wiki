@@ -21,6 +21,9 @@ issues is incredibly long and painful. The whole effort might have been a
 colossal waste of time, considering USB boots as just as effective as fast as
 boot from a hard disk.
 
-If you would like to see this feature stay, please report bugs and [[develop]] patches.
+If you would like to see this feature stay, please [[test|testing]], report
+bugs and [[develop]] patches.
 
 The next release will focus on packaging Firefox 3.5 and the [[kiosk]] extension for it.
+
+[[Thank_you!|acknowledgements]]
