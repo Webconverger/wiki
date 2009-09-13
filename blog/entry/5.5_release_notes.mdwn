@@ -1,0 +1,24 @@
+<a href="http://www.flickr.com/photos/hendry/3915142369/" title="Showcasing EPDFVIEW by Kai Hendry, on Flickr"><img src="http://farm3.static.flickr.com/2644/3915142369_81de62e3a6.jpg" width="500" height="375" alt="Showcasing EPDFVIEW" /></a>
+
+Hello everyone! 5.5 is a much delayed release which is not as polished as I
+would have liked. Instead of delaying any further, I would appreciate you
+giving these experimental features a try and giving feedback on them.
+
+* [Allow ICMP ping replies](http://git.debian.org/?p=debian-live/config-webc.git;a=blob;f=webconverger/config/chroot_local-includes/etc/iptables.conf) so that you can check the machine is up and running.
+* Allow for several homepages to be specified which get opened in separate tabs, e.g. `homepage=http://portal.webconverger.com/%20http://webconverger.com`
+* [noclutter](http://packages.qa.debian.org/u/unclutter.html) added, which hides the mouse cursor after a couple of seconds of inactivity
+* Several new [experimental hooks](http://git.debian.org/?p=debian-live/config-webc.git;a=tree;f=webconverger/config/chroot_local-includes/etc/network/if-up.d) to [[upgrade|boot]] and setup [[CJK_locales|i18n]]
+* A new PDF viewer based on [epdfview](http://packages.qa.debian.org/e/epdfview.html), this one unlike `xpdf` has a decent [[printing]] dialog!
+
+# [[Installer]]
+
+The included EXPERIMENTAL [[installer]] has problems. For example the [[USB]]
+version only seems to work when installing without a network due to some odd
+grub2 transition. The development cycles for debugging [[installer]] related
+issues is incredibly long and painful. The whole effort might have been a
+colossal waste of time, considering USB boots as just as effective as fast as
+boot from a hard disk.
+
+If you would like to see this feature stay, please report bugs and [[develop]] patches.
+
+The next release will focus on packaging Firefox 3.5 and the [[kiosk]] extension for it.
