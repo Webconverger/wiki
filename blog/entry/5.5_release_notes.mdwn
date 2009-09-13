@@ -9,6 +9,7 @@ giving these experimental features a try and giving feedback on them.
 * [noclutter](http://packages.qa.debian.org/u/unclutter.html) added, which hides the mouse cursor after a couple of seconds of inactivity
 * Several new [experimental hooks](http://git.debian.org/?p=debian-live/config-webc.git;a=tree;f=webconverger/config/chroot_local-includes/etc/network/if-up.d) to [[upgrade|boot]] and setup [[CJK_locales|i18n]]
 * A new PDF viewer based on [epdfview](http://packages.qa.debian.org/e/epdfview.html), which unlike `xpdf` has a decent [[printing]] dialog!
+* Anything else? See `vimdiff http://download.webconverger.com/webc-5.2.txt http://download.webconverger.com/webc-5.5.txt`
 
 # Experimental option to [[install_Webconverger_onto_a_hard_drive|installer]]
 
