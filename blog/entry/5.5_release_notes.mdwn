@@ -19,8 +19,8 @@ The included EXPERIMENTAL [[installer]] has problems. For example the [[USB]]
 version only seems to work when installing without a network due to some odd
 grub2 transition. The development cycles for debugging [[installer]] related
 issues is incredibly long and painful. The whole effort might have been a
-colossal waste of time, considering USB boots as just as effective as fast as
-boot from a hard disk.
+colossal waste of time, considering USB boots as **just as fast** as
+booting from a hard disk.
 
 If you would like to see this feature stay, please [[test|testing]], report
 bugs and [[develop]] patches.
