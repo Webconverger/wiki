@@ -37,6 +37,8 @@ locale=ja_JP.UTF-8
 locale=ko_KR.UTF-8
 ### Norwegian
 locale=no
+### Finnish
+locale=fi keyb=fi
 
 # Testing
 
