@@ -5,20 +5,7 @@
 
 # How to copy .img to USB stick (under Windows):
 
-<a href="http://www.flickr.com/photos/hendry/2486704737/" title="0.6beta2 by Kai Hendry, on Flickr"><img src="http://farm3.static.flickr.com/2154/2486704737_85843411c5_m.jpg" width="240" height="150" alt="0.6beta2" /></a>
-
-As [described earlier on the forum](http://groups.google.com/group/webc-users/browse_thread/thread/d0a2a310a0980078):
-
-1. Insert a USB stick that you are willing to replace with Webconverger and note it's drive letter
-* Download the latest Webconverger USB [IMG](http://download.webconverger.com/mini) image to your Windows desktop
-* Download the [experimental dd 0.6 beta 2](http://webconverger.com/dd.exe) to the desktop
-* Start menu -> Run -> cmd (this launches the scary black console)
-* `cd Desktop`
-* `dd if=mini.img od=`**x**`:` (**x** representing your USB drive you are going to replace with Webconverger!)
-
-There is a now an alternative to use a program called Flashnul described in :
-* [Debian EEEPC guide on Flashnul](http://wiki.debian.org/DebianEeePC/HowTo/Install#Usingflashnul)
-* [Archlinux on Flashnul](http://wiki.archlinux.org/index.php/Install_from_USB_stick#The_Flashnul_Way)
+Please follow this [USB imaging guide from Ubuntu](https://help.ubuntu.com/community/Installation/FromImgFiles#Windows)
 
 # How to copy .img to USB stick (under Linux):
 
@@ -30,7 +17,9 @@ Detailed description on [Debian wiki](http://wiki.debian.org/DebianLive/Howto/US
 * Just as fast as a hard drive in many cases
 * USB boot works generally only with newer computers (since 2004)
 
-[Kingston DataTravelers](http://www.flickr.com/photos/hendry/1172362068/) are recommended, though almost any generic USB stick should be fine. Feel free to use the usb image also with embedded boards and Compact Flash cards (they behave like /dev/hda usually).
+Almost any cheap generic USB stick should be fine. Feel free to use the usb
+image also with embedded boards and Compact Flash cards (they behave like
+/dev/hda usually).
 
 # Booting your USB stick
 
@@ -52,9 +41,9 @@ Plug your Webconverger USB stick in and mount the USB stick, for e.g.:
 
 	x61:~% sudo mount /dev/sdb1 /mnt/usb
 
-Edit the menu.cfg. Alter elements like the [[homepage]].
+Edit the live.cfg. Alter elements like the [[homepage]].
 
-	x61:/mnt/usb% sudo vim syslinux/menu.cfg
+	x61:/mnt/usb% sudo vim syslinux/live.cfg
 
 Unmount and boot up your system:
 
