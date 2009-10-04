@@ -5,12 +5,13 @@
 
 # How to copy .img to USB stick (under Windows):
 
-Please follow this [USB imaging guide from Ubuntu](https://help.ubuntu.com/community/Installation/FromImgFiles#Windows)
+Please follow this [USB imaging guide from Ubuntu](https://help.ubuntu.com/community/Installation/FromImgFiles#Windows).
 
 # How to copy .img to USB stick (under Linux):
 
-1. fdisk -l will list your USB drive - usually /dev/sdx ("x" representing letter like sda, sdb etc.), double check with `dmesg`
-* dd if=webconverger-image.img of=/dev/sdx
+fdisk -l` will list your USB drive - usually /dev/sdx ("x" representing letter like sda, sdb etc.), double check with `dmesg`.
+
+	dd if=webconverger-image.img of=/dev/sdx
 
 Detailed description on [Debian wiki](http://wiki.debian.org/DebianLive/Howto/USB).
 
@@ -23,7 +24,7 @@ image also with embedded boards and Compact Flash cards (they behave like
 
 # Booting your USB stick
 
-Different machines have different ways of **Entering the boot menu**. However it's usually the [F8] key or at least configurable in the BIOS menu.
+Different machines have different ways of **Entering the boot menu**. However it's usually the [Esc], [F8] or [F11] key or at least configurable in the BIOS menu.
 
 # Appending arguments to boot loader
 
@@ -56,8 +57,7 @@ In config/binary:
 
 	LH_BINARY_IMAGES="usb-hdd"
 
-And `grub` doesn't work, so you must use the `syslinux` bootloader.
-
+And `grub` does not work, so you must use the `syslinux` bootloader.
 
 # Tests on various hardware
 
