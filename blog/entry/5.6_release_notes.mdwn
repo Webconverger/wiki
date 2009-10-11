@@ -6,5 +6,6 @@ updates.
 
 The change to [webconverger-base fixes the home button when more than one URL is specified](http://git.webconverger.org/?p=webconverger-base.git;a=commit;h=00af4186fe28b21df7787666609495862cacb61a) on the [[boot_command_line|boot]].
 
-Lately I have been working on **static** Firefox builds, as I hope they may
-help make [[upgrading|upgrade]] manageable.
+Lately I have been exploring **static** Firefox builds, as I hope they may help
+make [[upgrading|upgrade]] manageable. Also if you tech savvy, checkout the
+Webkit-based [surf](http://surf.suckless.org/) browser.
