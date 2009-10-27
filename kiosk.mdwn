@@ -1,3 +1,44 @@
+# Updating to 3.5
+
+## BrowserLoadURL broken
+
+Overriding BrowserLoadURL in this kiosk extension was use to stop access to:
+* file://
+* about:
+* resource:
+
+File browsing access is not really a security problem, though some people perceive it to be, so it should not be allowed.
+
+[BrowserLoadURL does not work in Firefox
+3.5](http://git.webconverger.org/?p=iceweasel-webconverger.git;a=blob;f=src/webconverger.js;h=433c420ffccb70f065f15e36128f1d62e71c3619;hb=HEAD#l29)
+
+This [issue has been raised on
+[mozillazine](http://forums.mozillazine.org/viewtopic.php?f=38&t=570826&start=15),
+however the fixes involve hacking browser.jar instead of overriding it, as what
+extensions should be doing. The final suggestion of fixing the local file
+browsing issue elegantly with CSS with:
+
+	@-moz-document url-prefix(file://) {
+	html > body { visibility: hidden !important;
+	}
+
+Does not work in my tests.
+
+## Stopping downloads
+
+Stopping downloads should just work with
+<http://git.webconverger.org/?p=iceweasel-webconverger.git;a=blob;f=content/unknownContentType.xul>,
+however Firefox just continues downloading the file with the `.part` extension.
+
+This must limit needs to be in place as an attacker could start downloading a
+large file e.g.  <http://download.webconverger.org/webc-5.5.tar.gz> and render
+an average Internet connection useless. Also in many countries "PAYG Internet"
+exists, so this hole can burn a hole in the pocket of Internet café operators.
+
+
+Further kiosk related bugs might be listed in [[todo]].
+
+
 # iceweasel-webconverger
 
 Default and most common.
@@ -56,3 +97,4 @@ It is good particularly for slideshows, though not digital signage as
 * [del.icio.us links](http://del.icio.us/search/?fr=del_icio_us&p=firefox+kiosk&type=all)
 * [GNU Kiosk](http://kiosk.mozdev.org/)
 * [rkiosk](https://addons.mozilla.org/firefox/1659/)
+* [public fox](https://addons.mozilla.org/en-US/firefox/addon/3911)
