@@ -3,17 +3,18 @@
 ## BrowserLoadURL broken
 
 Overriding BrowserLoadURL in this kiosk extension was use to stop access to:
+
 * file://
 * about:
 * resource:
 
-File browsing access is not really a security problem, though some people perceive it to be, so it should not be allowed.
+File browsing is not really a security problem, though some people perceive it to be, therefore `file://` should be disallowed.
 
 [BrowserLoadURL does not work in Firefox
 3.5](http://git.webconverger.org/?p=iceweasel-webconverger.git;a=blob;f=src/webconverger.js;h=433c420ffccb70f065f15e36128f1d62e71c3619;hb=HEAD#l29)
 
 This [issue has been raised on
-[mozillazine](http://forums.mozillazine.org/viewtopic.php?f=38&t=570826&start=15),
+mozillazine](http://forums.mozillazine.org/viewtopic.php?f=38&t=570826&start=15),
 however the fixes involve hacking browser.jar instead of overriding it, as what
 extensions should be doing. The final suggestion of fixing the local file
 browsing issue elegantly with CSS with:
@@ -29,6 +30,8 @@ Does not work in my tests.
 Stopping downloads should just work with
 <http://git.webconverger.org/?p=iceweasel-webconverger.git;a=blob;f=content/unknownContentType.xul>,
 however Firefox just continues downloading the file with the `.part` extension.
+
+Setting the [download dir as /dev/null](http://git.webconverger.org/?p=iceweasel-webconverger.git;a=blob;f=defaults/preferences/prefs.js;h=88f7bdad1c8d3ea3671a82fffc130552f81e9d89;hb=HEAD#l9) does not work either btw.
 
 This must limit needs to be in place as an attacker could start downloading a
 large file e.g.  <http://download.webconverger.org/webc-5.5.tar.gz> and render
