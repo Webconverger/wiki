@@ -25,6 +25,8 @@ the local file browsing issue elegantly with CSS with:
 
 Does not work in my tests. :(
 
+<https://bugzilla.mozilla.org/show_bug.cgi?id=524951>
+
 ## Stopping downloads
 
 Stopping downloads should just work with
@@ -39,6 +41,8 @@ an average Internet connection useless. Also in many countries "PAYG Internet"
 exists, so this hole can burn a hole in the pocket of Internet café operators.
 
 irc.mozilla.org's #extdev sez I should look at <https://developer.mozilla.org/en/nsIDownloadProgressListener> to disable downloads.
+
+<https://bugzilla.mozilla.org/show_bug.cgi?id=524949>
 
 # iceweasel-webconverger
 
