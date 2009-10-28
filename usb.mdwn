@@ -9,7 +9,7 @@ Please follow this [USB imaging guide from Ubuntu](https://help.ubuntu.com/commu
 
 # How to copy .img to USB stick (under Linux):
 
-fdisk -l` will list your USB drive - usually /dev/sdx ("x" representing letter like sda, sdb etc.), double check with `dmesg`.
+`fdisk -l` will list your USB drive - usually /dev/sdx ("x" representing letter like sda, sdb etc.), double check with `dmesg`.
 
 	dd if=webconverger-image.img of=/dev/sdx
 
