@@ -15,15 +15,15 @@ File browsing is not really a security problem, though some people perceive it t
 
 This [issue has been raised on
 mozillazine](http://forums.mozillazine.org/viewtopic.php?f=38&t=570826&start=15),
-however the fixes involve hacking browser.jar instead of overriding it, as what
-extensions should be doing. The final suggestion of fixing the local file
-browsing issue elegantly with CSS with:
+however the fixes involve hacking browser.jar instead of overriding it with
+browser.xul, as what extensions should be doing. The final suggestion of fixing
+the local file browsing issue elegantly with CSS with:
 
 	@-moz-document url-prefix(file://) {
 	html > body { visibility: hidden !important;
 	}
 
-Does not work in my tests.
+Does not work in my tests. :(
 
 ## Stopping downloads
 
@@ -38,9 +38,7 @@ large file e.g.  <http://download.webconverger.org/webc-5.5.tar.gz> and render
 an average Internet connection useless. Also in many countries "PAYG Internet"
 exists, so this hole can burn a hole in the pocket of Internet café operators.
 
-
-Further kiosk related bugs might be listed in [[todo]].
-
+irc.mozilla.org's #extdev sez I should look at <https://developer.mozilla.org/en/nsIDownloadProgressListener> to disable downloads.
 
 # iceweasel-webconverger
 
