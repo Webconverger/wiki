@@ -61,7 +61,7 @@ Reasons for using Webconverger
 * [[Free_&_open_software]]
 * [[Low_requirements|Requirements]] - can run on old/cheap hardware and can be ported to run on embedded devices
 * Good [[security]] features by [[design]]
-* Documented manuals for the customized version.
+* Documented manuals and [essays](http://uk.bestessays.com/) for the customized version.
 * [[Deployment]] options abound, though the most common by far is LiveCD
 * [[Web_Standards]] compliant
 * [[Cost_effective]] - try the [free version](http://download.webconverger.com/) or order a [customised version](http://webconverger.com/buy)
