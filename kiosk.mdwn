@@ -44,6 +44,8 @@ irc.mozilla.org's #extdev sez I should look at <https://developer.mozilla.org/en
 
 <https://bugzilla.mozilla.org/show_bug.cgi?id=524949>
 
+Implement <https://developer.mozilla.org/en/NsIContentPolicy>
+
 # iceweasel-webconverger
 
 Default and most common.
