@@ -37,7 +37,7 @@ I've enabled FF3.5's [Private
 Browsing](http://support.mozilla.com/en-US/kb/Private+Browsing) feature by
 default. Strictly speaking since the `~/.mozilla` directory is purged between
 sessions, making this feature is totally unneccessary and probably introduces
-problems. However I'm thinking "security in layers" and a lets give it go.
+problems. However I'm thinking "security in layers" and "lets give it go".
 
 Spelling does not seem to work. Something is wrong with the myspell
 dictionaries and FF3.5 backport. I need to fix this. On the plus side, you
