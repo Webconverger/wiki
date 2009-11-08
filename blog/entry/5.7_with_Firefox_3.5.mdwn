@@ -17,10 +17,10 @@ local URLs and file downloads is proving to be beyond my ability.
 If you're a developer familiar with Firefox, please take a look at my notes on
 the [[kiosk]] wiki page.
 
-# Debian installer is disabled and I won't re-enable it
+# Debian installer is disabled
 
-Yes, I've disabled the debian installer again. It's far too complicated and I
-am going to write my own installer.
+Yes, I've disabled the debian installer again. I am finding it far too complex
+and I am tempted to to write my own simpler installer based on `dd`.
 
 If you are tech-savvy you can simply install Webconverger by:
 
