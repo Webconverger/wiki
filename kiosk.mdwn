@@ -44,7 +44,7 @@ irc.mozilla.org's #extdev sez I should look at <https://developer.mozilla.org/en
 
 <https://bugzilla.mozilla.org/show_bug.cgi?id=524949>
 
-Implement <https://developer.mozilla.org/en/NsIContentPolicy>
+TODO: Implement <https://developer.mozilla.org/en/NsIContentPolicy> by [building a XPCOM Component in Javascript](https://developer.mozilla.org/en/How_to_Build_an_XPCOM_Component_in_Javascript)
 
 # iceweasel-webconverger
 
