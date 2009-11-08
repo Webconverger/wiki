@@ -4,15 +4,15 @@
 
 Overall I would consider this release as **experimental**.
 
-There is a couple new known bugs introduced with Firefox 3.5. Namely the one
-can now non-persistently change configuration settings in the about: URL and
-browse the local filesystem.
+There is a couple new known bugs introduced with Firefox 3.5. Namely you can
+now non-persistently change configuration settings in the about: URL and browse
+the local filesystem.
 
 This introduces possibly some security issues and of course I would rather have
-the kiosk locked down that this current state. Sadly Firefox is very difficult
-to modify into a sane kiosk deployment. I've written a kiosk extension myself
-and trying to implement `NsIContentPolicy` to control these local URLs and file
-downloads is proving to be beyond my ability.
+the kiosk more locked down that this current state. Sadly Firefox is very
+difficult to modify into a sane kiosk deployment. I've written a kiosk
+extension myself and trying to implement `NsIContentPolicy` to control these
+local URLs and file downloads is proving to be beyond my ability.
 
 If you're a developer familiar with Firefox, please take a look at my notes on
 the [[kiosk]] wiki page.
@@ -22,7 +22,7 @@ the [[kiosk]] wiki page.
 Yes, I've disabled the debian installer again. It's far too complicated and I
 am going to write my own installer.
 
-If you tech-savvy you can simply install Webconverger by:
+If you are tech-savvy you can simply install Webconverger by:
 
 	wget http://download.webconverger.org/webc-5.7.img
 	sudo dd if=webc-5.7.img of=/dev/sda
@@ -31,7 +31,7 @@ This will **replace** the contents of your first hard drive (typically) with Web
 
 What I do in my deployments is use a "debug version" of Webconverger to perform these installs.
 
-# Notes on the release
+# 5.7 release notes
 
 I've enabled FF3.5's [Private
 Browsing](http://support.mozilla.com/en-US/kb/Private+Browsing) feature by
