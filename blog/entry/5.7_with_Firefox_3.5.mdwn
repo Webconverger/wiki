@@ -1,6 +1,6 @@
 <a href="http://www.flickr.com/photos/hendry/4085980133/"><img src="http://farm3.static.flickr.com/2596/4085980133_d2a61f537e.jpg" width="500" height="375" alt="Webconverger 5.7 playing back HTML5 video" /></a>
 
-5.7 features a lenny backported **Firefox 3.5** build, finally!
+5.7 features a lenny backported [Firefox 3.5](http://www.mozilla.com/en-US/firefox/upgrade.html) build, finally!
 
 Overall I would consider this release as **experimental**.
 
