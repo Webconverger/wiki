@@ -22,7 +22,7 @@ the [[kiosk]] wiki page.
 Yes, I've disabled the debian installer again. I am finding it far too complex
 and I am tempted to to write my own simpler installer based on `dd`.
 
-If you are tech-savvy you can simply install Webconverger by:
+If you are tech-savvy you can simply install Webconverger to your hard drive by:
 
 	wget http://download.webconverger.org/webc-5.7.img
 	sudo dd if=webc-5.7.img of=/dev/sda
@@ -36,12 +36,13 @@ What I do in my deployments is use a "debug version" of Webconverger to perform 
 I've enabled FF3.5's [Private
 Browsing](http://support.mozilla.com/en-US/kb/Private+Browsing) feature by
 default. Strictly speaking since the `~/.mozilla` directory is purged between
-sessions, making this feature is totally unneccessary and probably introduces
-problems. However I'm thinking "security in layers" and "lets give it go".
+sessions, this enabling this "private browsing" feature is totally unneccessary
+and probably introduces problems. However I'm thinking "security in layers" and
+"lets give it go".
 
 Spelling does not seem to work. Something is wrong with the myspell
 dictionaries and FF3.5 backport. I need to fix this. On the plus side, you
-might it quicker not to have spelling support. :)
+might find Webconverger quicker. :)
 
 If you notice a [SPLASHY
 ERROR](http://www.flickr.com/photos/hendry/4085980139/) on bootup, do not be
