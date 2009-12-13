@@ -8,7 +8,7 @@ ago I [predicted and compared the features of Google's operating
 system](http://webconverger.com/about/) to Webconverger. And I think I am
 right!
 
-Webconverger does not require any registration and you can now download the
+Webconverger does not require any registration and you can now [download](http://download.webconverger.org/) the
 latest 5.8 update! The differences can be seen from this package listing:
 
 	vimdiff http://download.webconverger.org/webc-5.7.txt http://download.webconverger.org/webc-5.8.txt
