@@ -1,0 +1,20 @@
+<a href="http://www.flickr.com/photos/hendry/4104916845/" title="Webconverger supports Chinese locale by Kai Hendry, on Flickr"><img src="http://farm3.static.flickr.com/2496/4104916845_810d3180f7.jpg" width="500" height="375" alt="Webconverger supports Chinese locale" /></a>
+
+Festive greetings!
+
+Apologies for being quiet lately despite big news that [Chromium
+OS](http://www.chromium.org/chromium-os) sources has been released. Sometime
+ago I [predicted and compared the features of Google's operating
+system](http://webconverger.com/about/) to Webconverger. And I think I am
+right!
+
+Webconverger does not require any registration and you can now download the latest 5.8 update! The differences can be seen from this package listing:
+
+	vimdiff http://download.webconverger.org/webc-5.7.txt http://download.webconverger.org/webc-5.8.txt
+
+
+The big difference with this release is that I experimenting by using **i686**
+builds instead of **486**. This means that Webconverger will not boot on very
+old PCs and some cheap CPUs like Geode. If this is problem for you, let me know! For the rest of us with i686 compatible hardware, Webconverger should be a litter **faster**.
+
+In other news, the spelling from the previous release [[5.7_with_Firefox_3.5]] should now be working for you.

@@ -16,15 +16,7 @@ platform... the Web!
 * showcase Webconverger as a vehicle for online examinations
 * CJK scripts not working (network is not setup in time, sometimes)
 * Ability to change chrome [[kiosk]] options on [[boot]] - [ref](http://groups.google.com/group/webc-users/browse_thread/thread/c6c8649feadbb8dc)
-* Can the home button be fixed to two urls?
-
-# debian-installer (hard drive install) issues
-
-* sources.list is not being copied across, which is important for [[upgrades|upgrade]].
-* sudo does not work on installs or root account
-* ISO double splashimage=
-* ISO does not have cmdline setup
-* USB too many redundant options on syslinux boot menu
+* Can the home button be fixed for supporting two urls?
 
 # [[Extension|kiosk]] improvements needed
 
