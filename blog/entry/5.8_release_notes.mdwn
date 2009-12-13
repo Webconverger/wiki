@@ -30,4 +30,6 @@ Thank you and [[thanks|acknowledgements]] to the Debian project and [Debian
 Live project](http://debian-live.alioth.debian.org/) contributors to make
 Webconverger possible.
 
+<a href="http://www.flickr.com/photos/hendry/4182725526/" title="Short message by Kai Hendry, on Flickr"><img src="http://farm3.static.flickr.com/2613/4182725526_7a236f44f4.jpg" width="500" height="375" alt="Short message" /></a>
+
 And just for fun, if you need Webconverger to make a quick sign, please try <http://sm.nomeata.de/> :)
