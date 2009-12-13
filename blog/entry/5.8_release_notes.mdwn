@@ -8,7 +8,8 @@ ago I [predicted and compared the features of Google's operating
 system](http://webconverger.com/about/) to Webconverger. And I think I am
 right!
 
-Webconverger does not require any registration and you can now download the latest 5.8 update! The differences can be seen from this package listing:
+Webconverger does not require any registration and you can now download the
+latest 5.8 update! The differences can be seen from this package listing:
 
 	vimdiff http://download.webconverger.org/webc-5.7.txt http://download.webconverger.org/webc-5.8.txt
 
@@ -18,3 +19,15 @@ builds instead of **486**. This means that Webconverger will not boot on very
 old PCs and some cheap CPUs like Geode. If this is problem for you, let me know! For the rest of us with i686 compatible hardware, Webconverger should be a litter **faster**.
 
 In other news, the spelling from the previous release [[5.7_with_Firefox_3.5]] should now be working for you.
+
+The [CJK](http://en.wikipedia.org/wiki/CJK) support might not quite work on
+these free images, however if you [purchase
+Webconverger](http://webconverger.com/buy/) with Chinese (or Korean or
+Japanese) support I will ensure all the relevant fonts and input tools are
+pre-installed.
+
+Thank you and [[thanks|acknowledgements]] to the Debian project and [Debian
+Live project](http://debian-live.alioth.debian.org/) contributors to make
+Webconverger possible.
+
+And just for fun, if you need Webconverger to make a quick sign, please try <http://sm.nomeata.de/> :)
