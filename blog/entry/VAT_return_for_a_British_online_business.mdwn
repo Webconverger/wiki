@@ -75,9 +75,10 @@ as a "good".
 
 # Several ways to screw up the VAT return
 
-I assumed that the form somehow took all your UK gross sales and calculated the
-VAT reclaim value for you for that particular period. For some bizarre reason
-**YOU** need to calculate this value manually and screw it up in a variety of ways.
+I assumed that the form somehow took all your UK (& outside UK) gross sales and
+calculated the VAT reclaim value for you for that particular period. For some
+bizarre reason **YOU** need to calculate this value manually and screw it up in
+a variety of ways. WHY HMRC? WHY?
 
 For example:
 
@@ -101,3 +102,6 @@ origin of payment/receipt) to their CSV exports, it would save a lot of time
 and money. If there was a standard CSV data interchange format, so I didn't
 have to convert the CSV into some braindead XML HMRC format, that would be even
 better.
+
+Again the <https://online.hmrc.gov.uk/vat-file> can be improved to easily amend
+recent returns.
