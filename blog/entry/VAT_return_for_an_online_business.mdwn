@@ -12,25 +12,25 @@ account.
 Right now my procedure is submitting goes something like this.
 
 1) Receive alert
-2) Procrastinate
-3) Swear to myself that are going to do it first thing this morning
-4) Get down to doing it a week before the due date
-5) Export my data as CSV from my Barclays business account
-6) Spend far too long putting it in the correct tables in the cash book
-7) Calculate VAT on the appropriate fields (only UK entries)
+* Procrastinate
+* Swear to myself that are going to do it first thing this morning
+* Get down to doing it a week before the due date
+* Export my data as <abbr title="comma seperated value">CSV</abbr> from my Barclays bank business account
+* Spend far too long putting it in the correct tables in the cash book
+* Calculate VAT on the appropriate fields (only UK entries)
 
-Then I load up the HMRC site and you get 9 fields to fill in:
+Then I load up the [HMRC](http://en.wikipedia.org/wiki/HMRC) site and you get 9 fields to fill in:
 
 
 	1) VAT due in this period on sales and other outputs
 
 This is what you fill in if you charged VAT on a sale. For Webconverger this is
-only filled in for UK orders.
+only filled in for orders that originate in the United Kingdom.
 
 	2) VAT due in this period on acquisitions from other EC Member States
 
 Since Webconverger deals in
-[[electronic_goods|UK_VAT_return_on_Electronically_supplied_goods.mdwn]], this
+[[electronic_goods|UK_VAT_return_on_Electronically_supplied_goods]], this
 field is always blank for the return.
 
 	3) Is automatically calculated (Sum of 1&2)
@@ -42,7 +42,7 @@ back on:
 
 * hardware purchases
 * ISP costs
-* Google adwords
+* [Google adwords](http://en.wikipedia.org/wiki/Adwords)
 
 And such and so forth. Once this is submitted, HMRC deposits this money back
 into Webconverger's bank account. Thanks very much.
@@ -59,7 +59,7 @@ Once painstakingly importing values from your bank statement into your cash
 book, you now need to calculate the **Net amounts** of payments without VAT.
 
 Thankfully most of Webconverger are not in the UK, so the gross amount is the
-net amount since I do not need to change VAT for orders outside the UK.
+net amount since I do not need to charge VAT for orders outside the UK.
 
 	7) Total value of purchases and all other inputs excluding any VAT.
 
@@ -77,20 +77,20 @@ as a "good".
 
 I assumed that the form somehow took all your UK gross sales and calculated the
 VAT reclaim value for you for that particular period. For some bizarre reason
-YOU need to calculate this value manually and screw it up in a variety of ways.
+**YOU** need to calculate this value manually and screw it up in a variety of ways.
 
 For example:
 
-* Getting the tax rate wrong
-* Submitting Gross values instead of Net values
-* Accidentally filling in 1 or 8/9 if you're a software company like Webconverger
+* Getting the tax rate wrong (i.e. copy the wrong tax formula)
+* Submitting Gross values (with VAT) instead of Net values (ex VAT)
+* Accidentally filling in box 1 or 8/9 if you're a software company like Webconverger
 
-If you fill in 8/9, you are then obligated to fill in ECSL returns. You don't
-want to go there.
+If you fill in 8/9, you are then obligated to fill in <abbr title="EC Sales
+lists">ECSL</abbr> returns. You don't want to go there.
 
 You can avoid all this hassle entirely if you are not VAT registered. However I think being VAT registered has a couple of advantages:
 
-* You can reclaim your VAT, which is important if you make a lot of local purchases
+* You can reclaim your VAT, which is important if you make a lot of local purchases and you do much more sales outside the UK
 * You can zero rate EU vat easier since companies in the EU expect you to be VAT registered, however since software is an electronic product EU companies should not need a EU VAT number. Unfortunately there seems to be a lot of confusion here.
 
 I want to see a system where my bank transactions are fed directly into the
@@ -98,4 +98,6 @@ HMRC, so I don't have to worry about this. Currently exporting data from
 Barclays is a very manual task and then you need to sort out which transactions
 are UK based and which aren't. If Barclays had some extra meta data (TAX data,
 origin of payment/receipt) to their CSV exports, it would save a lot of time
-and money.
+and money. If there was a standard CSV data interchange format, so I didn't
+have to convert the CSV into some braindead XML format, that would be even
+better.
