@@ -116,4 +116,4 @@ physical goods, I need to write in and tell the 'ESL compliance team' that I
 should be taken off the ECSL database. Aha!
 
 She also advised when filling in the VAT returns to **leave Box 8 blank**
-otherwise the sysmte might re-enroll Webconverger to the ECSL.
+otherwise the system might re-enroll Webconverger to the ECSL.
