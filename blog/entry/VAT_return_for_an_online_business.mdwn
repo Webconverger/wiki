@@ -13,8 +13,8 @@ Right now my procedure for submitting a VAT return goes something like this:
 
 
 1. Receive alert
-* Procrastinate
-* Swear to myself that are going to do it first thing this morning
+2. Procrastinate
+3. Swear to myself that are going to do it first thing this morning
 * Get down to doing it a week before the due date
 * Export my data as <abbr title="comma seperated value">CSV</abbr> from my Barclays bank business account
 * Spend far too long putting it in the correct tables in the cash book in <http://docs.google.com/>
