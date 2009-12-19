@@ -15,13 +15,12 @@ Right now my procedure for submitting a VAT return goes something like this:
 1. Receive alert
 2. Procrastinate
 3. Swear to myself that are going to do it first thing this morning
-* Get down to doing it a week before the due date
-* Export my data as <abbr title="comma seperated value">CSV</abbr> from my Barclays bank business account
-* Spend far too long putting it in the correct tables in the cash book in <http://docs.google.com/>
-* Calculate VAT on the appropriate fields (only UK entries)
+4. Get down to doing it a week before the due date
+5. Export my data as <abbr title="comma seperated value">CSV</abbr> from my Barclays bank business account
+6. Spend far too long putting it in the correct tables in the cash book in <http://docs.google.com/>
+7. Calculate VAT on the appropriate fields (only UK entries)
 
-Then I load up the [HMRC](http://en.wikipedia.org/wiki/HMRC) site and you get 9 fields to fill in:
-
+Then I load up the [HMRC](http://en.wikipedia.org/wiki/HMRC) site and you get **9 boxes** to fill in:
 
 	1) VAT due in this period on sales and other outputs
 
@@ -74,7 +73,7 @@ the Net amount (excluding VAT).
 I leave this blank, since software supplied over the Internet is not regarded
 as a "good".
 
-# Several ways you can you screw up the VAT return
+# Several ways to screw up the VAT return
 
 I assumed that the form somehow took all your UK gross sales and calculated the
 VAT reclaim value for you for that particular period. For some bizarre reason
@@ -89,7 +88,7 @@ For example:
 If you fill in 8/9, you are then obligated to fill in <abbr title="EC Sales
 lists">ECSL</abbr> returns. You don't want to go there.
 
-You can avoid all this hassle entirely if you are not VAT registered. However I think being VAT registered has a couple of advantages:
+You could avoid all this hassle entirely if you are not VAT registered. However I think being VAT registered has a couple of advantages:
 
 * You can reclaim your VAT, which is important if you make a lot of local purchases and you do much more sales outside the UK
 * You can zero rate EU vat easier since companies in the EU expect you to be VAT registered, however since software is an electronic product EU companies should not need a EU VAT number. Unfortunately there seems to be a lot of confusion here.
