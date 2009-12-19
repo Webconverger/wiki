@@ -9,14 +9,15 @@ There is now even an option to see View submitted returns, though it always
 says "There are no returns previously submitted available to view." on my
 account.
 
-Right now my procedure is submitting goes something like this.
+Right now my procedure for submitting a VAT return goes something like this:
+
 
 1. Receive alert
 * Procrastinate
 * Swear to myself that are going to do it first thing this morning
 * Get down to doing it a week before the due date
 * Export my data as <abbr title="comma seperated value">CSV</abbr> from my Barclays bank business account
-* Spend far too long putting it in the correct tables in the cash book
+* Spend far too long putting it in the correct tables in the cash book in <http://docs.google.com/>
 * Calculate VAT on the appropriate fields (only UK entries)
 
 Then I load up the [HMRC](http://en.wikipedia.org/wiki/HMRC) site and you get 9 fields to fill in:
@@ -99,5 +100,5 @@ Barclays is a very manual task and then you need to sort out which transactions
 are UK based and which aren't. If Barclays had some extra meta data (TAX data,
 origin of payment/receipt) to their CSV exports, it would save a lot of time
 and money. If there was a standard CSV data interchange format, so I didn't
-have to convert the CSV into some braindead XML format, that would be even
+have to convert the CSV into some braindead XML HMRC format, that would be even
 better.
