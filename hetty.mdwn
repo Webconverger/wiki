@@ -1,18 +1,16 @@
-Hetty is a [DS3000](http://www.hetzner.de/hosting/produkte_rootserver/ds3000/) dedicated server supplied by [Hetzner online](http://www.hetzner.de). 50 EUR (~40GBP) a month
+Hetty is a [EQ4](http://www.hetzner.de/en/hosting/produkte_rootserver/eq4/) dedicated server supplied by [Hetzner online](http://www.hetzner.de).
 
 * [Hetzner status and fault reports](http://translate.google.com/translate?hl=de&langpair=de|en&u=http://www.hetzner-status.de)
 * [Hetzner wiki](http://wiki.hetzner.de/) with a [Debian section](http://wiki.hetzner.de/index.php/Debian)
 
-Originally configured with a minimal Debian 64 bit etch and now upgraded to Debian's lenny release.
-
-The 2 x 400 GB will be configured as software [RAID-1](http://en.wikipedia.org/wiki/RAID-1#RAID_1) for redundancy.
+It is configured as a 32bit Debian "squeeze" system. It replaces an older machine at 88.198.3.35.
 
 There are two other machines that are used by Webconverger Limited:
 
 * jurupa - webconverger.com at [Dreamhost](http://www.dreamhost.com/r.cgi?104617) in California - 120USD (~75GBP) a year
 * webc - webconverger.org hosted by a Xen VPS from [Bitfolk](http://bitfolk.com) based in London, England - ~200GBP year
 
-Hetty (88.198.3.35) is rented for the following functions:
+Hetty (88.198.64.227) is rented for the following functions:
 
 * Performing [builds](http://build.webconverger.org/)
 * Storage & backup (webc only has 20G!)
@@ -23,79 +21,3 @@ Hetty (88.198.3.35) is rented for the following functions:
 From a hetzner installed etch and upgrading to lenny, lilo is claimed to be
 installed via debconf. Though in fact **grub** is used if you use the
 [KVM](http://lara01.rz3.hetzner.de/auth.asp).
-
-## Notes on setup
-
-Originally I tried to manually install Debian lenny via a
-[guide](http://www.madscience.dk/index.php/2008/01/22/remote-ubuntu-install/) I
-found on the net. Do not do it this way. There are lots of pitfalls.
-
-Instead open a [Support-Anfragen](https://robot.your-server.de/server_3.php)
-and ask politely for a minimal install with RAID-1. Finally it should look
-similar to this:
-
-	Debian-40-etch-64-minimal:~# df -h
-	Filesystem            Size  Used Avail Use% Mounted on
-	/dev/md1              457G  1.1G  433G   1% /
-	tmpfs                 992M     0  992M   0% /lib/init/rw
-	udev                   10M   84K   10M   1% /dev
-	tmpfs                 992M     0  992M   0% /dev/shm
-
-	Debian-40-etch-64-minimal:~# cat /proc/cpuinfo
-	processor       : 0
-	vendor_id       : AuthenticAMD
-	cpu family      : 15
-	model           : 107
-	model name      : AMD Athlon(tm) 64 X2 Dual Core Processor 5600+
-	stepping        : 2
-	cpu MHz         : 1000.000
-	cache size      : 512 KB
-	physical id     : 0
-	siblings        : 2
-	core id         : 0
-	cpu cores       : 2
-	apicid          : 0
-	initial apicid  : 0
-	fpu             : yes
-	fpu_exception   : yes
-	cpuid level     : 1
-	wp              : yes
-	flags           : fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt rdtscp lm 3dnowext 3dnow rep_good pni cx16 lahf_lm cmp_legacy h
-	bogomips        : 2063.36
-	TLB size        : 1024 4K pages
-	clflush size    : 64
-	cache_alignment : 64
-	address sizes   : 40 bits physical, 48 bits virtual
-	power management: ts fid vid ttp tm stc 100mhzsteps
-
-	processor       : 1
-	vendor_id       : AuthenticAMD
-	cpu family      : 15
-	model           : 107
-	model name      : AMD Athlon(tm) 64 X2 Dual Core Processor 5600+
-	stepping        : 2
-	cpu MHz         : 1000.000
-	cache size      : 512 KB
-	physical id     : 0
-	siblings        : 2
-	core id         : 1
-	cpu cores       : 2
-	apicid          : 1
-	initial apicid  : 1
-	fpu             : yes
-	fpu_exception   : yes
-	cpuid level     : 1
-	wp              : yes
-	flags           : fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt rdtscp lm 3dnowext 3dnow rep_good pni cx16 lahf_lm cmp_legacy h
-	bogomips        : 2063.36
-	TLB size        : 1024 4K pages
-	clflush size    : 64
-	cache_alignment : 64
-	address sizes   : 40 bits physical, 48 bits virtual
-	power management: ts fid vid ttp tm stc 100mhzsteps
-
-	Debian-40-etch-64-minimal:~# free -m
-				 total       used       free     shared    buffers     cached
-	Mem:          1983        253       1729          0         10        195
-	-/+ buffers/cache:         47       1935
-	Swap:         2055          0       2055
