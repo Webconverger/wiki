@@ -6,15 +6,17 @@ I have been enduring a cold and
 broadband which limits me to 3GB of traffic between 9am-6pm for the
 MONTH](http://aaisp.net/broadband-units.html) in [Cornwall,
 UK](http://prazefarm.co.uk)! Yes, it's almost 2010! And that also means the
-feedback email address has been updated to <mailto:&#102;&#101;&#101;&#100;&#098;&#097;&#099;&#107;&#050;&#048;&#049;&#048;&#064;&#119;&#101;&#098;&#099;&#111;&#110;&#118;&#101;&#114;&#103;&#101;&#114;&#046;&#099;&#111;&#109;>
+feedback email address has been updated to &#102;&#101;&#101;&#100;&#098;&#097;&#099;&#107;&#050;&#048;&#049;&#048;&#064;&#119;&#101;&#098;&#099;&#111;&#110;&#118;&#101;&#114;&#103;&#101;&#114;&#046;&#099;&#111;&#109;
 
-So what's new?
+So what's changed in **5.9**?
 
 	vimdiff http://download.webconverger.org/webc-5.8.txt http://download.webconverger.org/webc-5.9.txt
 
 * 0-day flash security update
 * Bloated [GNU grub](http://en.wikipedia.org/wiki/GNU_GRUB) is dropped on [[ISO]] which should mean wider hardware support
-* [[hetty]] is being upgraded meaning quicker builds and turnarounds
+* [[hetty]] has been upgraded meaning quicker builds and [order](http://webconverger.com/buy/) turnarounds
 * Unfortunately some bloat crept in (avahi, dbus, xorg-docs) -- will remove them later
 
-Please report any issues that are not in the [[todo_list|todo]] on the [mailing list](http://groups.google.com/group/webc-users).
+Please report any issues that are not in the [[todo_list|todo]] on the friendly [mailing list](http://groups.google.com/group/webc-users).
+
+Happy surfing!
