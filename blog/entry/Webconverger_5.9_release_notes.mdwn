@@ -8,7 +8,7 @@ MONTH](http://aaisp.net/broadband-units.html) in [Cornwall,
 UK](http://prazefarm.co.uk)! Yes, it's almost 2010! And that also means the
 feedback email address has been updated to &#102;&#101;&#101;&#100;&#098;&#097;&#099;&#107;&#050;&#048;&#049;&#048;&#064;&#119;&#101;&#098;&#099;&#111;&#110;&#118;&#101;&#114;&#103;&#101;&#114;&#046;&#099;&#111;&#109;
 
-So what's changed in **5.9**?
+So what has changed in **5.9** over [[5.8|5.8_release_notes]]?
 
 	vimdiff http://download.webconverger.org/webc-5.8.txt http://download.webconverger.org/webc-5.9.txt
 
