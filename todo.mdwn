@@ -2,6 +2,7 @@ Webconverger at its core is an opensource project reliant on
 [[your_contributions|acknowledgements]] to strengthen the most competitive open
 platform... the Web!
 
+* Chase up [xrandr issue](http://groups.google.com/group/webc-users/browse_thread/thread/baf8555e8d8aae41)
 * Allow USB mounts so people can upload pictures to Flickr (use case by Phil Waring)
 * do some sort of device API for attraction (screensaver advertisement) loop, perhaps it can be done with kioskresetstation? No, [this can be done with a Web application](http://groups.google.com/group/webc-users/browse_thread/thread/656f92ff84582535) -- write this up!
 * device API for USB coin slot
