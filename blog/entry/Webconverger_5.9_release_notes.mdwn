@@ -12,7 +12,7 @@ So what has changed in **5.9** over [[5.8|5.8_release_notes]]?
 
 	vimdiff http://download.webconverger.org/webc-5.8.txt http://download.webconverger.org/webc-5.9.txt
 
-* 0-day flash security update
+* hefty [flash security update](http://www.adobe.com/support/security/bulletins/apsb09-19.html)
 * Bloated [GNU grub](http://en.wikipedia.org/wiki/GNU_GRUB) is dropped on [[ISO]] which should mean wider hardware support
 * [[hetty]] has been upgraded meaning quicker builds and [order](http://webconverger.com/buy/) turnarounds
 * Unfortunately some bloat crept in (avahi, dbus, xorg-docs) -- will remove them later
