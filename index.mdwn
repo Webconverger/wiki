@@ -25,7 +25,6 @@
 
 * [[ISO]]
 * [[USB]]
-* [[MD5SUM]]
 * [[Package_listings|txt]]
 
 # Hardware
