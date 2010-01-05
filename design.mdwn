@@ -1,5 +1,5 @@
 * No users - no superuser
-* Stability & [[security]] of open source - based on GNU/Linux Debian releases
+* Stability & [[security]] of open source - based on GNU/Linux Debian stable releases
 * No local user data - Locked down browser kiosk - for example no functionality to save bookmarks locally
 * Zero maintenance - Automatic [[upgrades|upgrade]]
 * Less is more - Minimal packages for just the Web experience (though that includes [[Adobe]] flash and pdf support)

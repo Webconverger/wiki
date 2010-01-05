@@ -2,8 +2,7 @@
 * [Webconverger live-helper configuration](http://git.debian.org/?p=debian-live/config-webc.git)
 * [Official Webconverger package repository](http://debian.webconverger.com)
 * [Webconverger git repositories](http://git.webconverger.org/)
-* [Webconverger's own Debian mirror](http://mirror.webconverger.com/) on [[hetty]]
-* [Webconverger daily builds](http://build.webconverger.org/)
+* [Webconverger daily builds](http://build.webconverger.org/) - [build script sources](http://git.webconverger.org/?p=build)
 * [[i18n]] - perhaps you could help translate the [portal](http://portal.webconverger.com/) into your local language?
 * [[Artwork]]
 * [[Firefox_extension_development|Kiosk]]
@@ -14,12 +13,12 @@ If you are new to the project, **Welcome**! Please help by [[testing]]. Thank yo
 
 ## Building on a Debian system:
 
-1. Download and install the latest [live-helper](http://packages.qa.debian.org/l/live-helper.html) from the Debial Live repository: 'deb http://live.debian.net/debian/ ./'
+1. Download and install the latest [live-helper](http://packages.qa.debian.org/l/live-helper.html) from the Debian Live repository: 'deb http://live.debian.net/debian/ ./'
 1. `git clone git://git.debian.org/git/debian-live/config-webc.git`
 1. webconverger/ is the base config file
 1. Take a long good look at [scripts/config](http://git.debian.org/?p=debian-live/config-webc.git;a=blob;f=webconverger/scripts/config)
-1. `lh_config` to setup the configuration (this is the new live-helper 'autoconfig' style)
-1. `sudo lh_build` in webconverger/ to kick off the long build process
+1. `lh config` to setup the configuration (this is the new live-helper 'autoconfig' style)
+1. `sudo lh build` in webconverger/ to kick off the long build process
 
 Then [[test|testing]] your freshly built image.
 
@@ -31,21 +30,6 @@ Then [[test|testing]] your freshly built image.
 
 Debugging in Webconverger simply involves removing `nosudo` from the [[boot]] options.
 
-## Commerical customizing service
+## Commercial customizing service
 
 UK based Webconverger Limited offers a build service of the above at [Webconverger.com/buy](http://webconverger.com/buy/).
-
-## [Daily building](http://git.webconverger.org/?p=build)
-
-If you want to debug with the daily build scripts:
-
-	DEBUG=1 sudo -E ./build.sh mini.willwork
-
-Then look in /tmp/ for a temp directory named willwork and inspect the output.
-
-## Debugging live-helper
-
-Checking your environment is sane:
-
-	export MIRROR_DEBIAN="http://mirror.webconverger.com/debian/" && lh_config -b iso -a i386 -p minimal --mirror-bootstrap $MIRROR_DEBIAN --mirror-chroot $MIRROR_DEBIAN
-	sudo lh_build
