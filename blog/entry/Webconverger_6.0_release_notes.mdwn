@@ -8,7 +8,7 @@ The red bits are the removed packages, so you can see Webconverger has lost
 some bloatware in the new year. :)
 
 Also we are back on **486** kernels, meaning wider hardware support at the cost
-of a negligible performance gain to 686 machines.
+of negligible performance gain to 686 machines.
 
 Please consider purchasing the [customised
 version](http://webconverger.org/features/) to support the project. I will
