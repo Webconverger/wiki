@@ -3,19 +3,24 @@ like banks, museums, car dealerships, libraries and many other customers have
 done. Most customers just want their [[homepage]] customised, however there are
 further options:
 
+* A choice of browser chrome, which helps limit Webconverger to the your customised homepage:
 
-* [[ISO]] (with [[grub|boot]]) and/or [[USB]] image varieties for [download](http://download.webconverger.com/)
-* It's best to use a Live CD or USB, though we can arrange to install Webconverger to a hard drive
+<a href="http://www.flickr.com/photos/hendry/845129157/" title="iceweasel-webconverger"><img src="http://farm2.static.flickr.com/1188/845129157_824320ad82_m.jpg" width="240" height="180" alt="Default Webconverger iceweasel-webconverger" /></a>
+
+<a href="http://www.flickr.com/photos/hendry/2934652998/" title="iceweasel-noaddressbar"><img src="http://farm4.static.flickr.com/3034/2934652998_462143ea42_m.jpg" width="240" height="180" alt="iceweasel-noaddressbar" /></a>
+
+<a href="http://www.flickr.com/photos/hendry/903110103/" title="iceweasel-webcfullscreen"><img src="http://farm2.static.flickr.com/1351/903110103_3b82387709_m.jpg" width="240" height="180" alt="iceweasel-webcfullscreen" /></a>
+
+
+* [[ISO]] and/or [[USB]] image varieties for [download](http://download.webconverger.com/)
+* It is best to use Webconverger from an inexpensive [[USB]] stick, though you can install Webconverger to a hard drive
 * Latest [Firefox Web browser](http://en.wikipedia.org/wiki/Firefox) rebuild [Iceweasel](http://en.wikipedia.org/wiki/Iceweasel) by default in every Webconverger.
 * custom [[Artwork]] - your $HOMEPAGE/bg.png, default being [http://portal.webconverger.com/bg.png](http://portal.webconverger.com/bg.png).
 * [[Kiosk_reset|blanking]] **timeout** with `kioskresetstation=<mins>`. Resets browser after user defined minutes of idleness/inactivity.
-* [[Networking]] customisation. Default is **wired** DHCP. Wireless works too!
-* [[Adobe]] (Macromedia) Flash & [PDF viewing](http://www.flickr.com/photos/hendry/3825411003/)
+* [[Networking]] **wired** works simply with DHCP. Wireless works too!
+* [[Adobe]] Flash & [PDF viewing](http://www.flickr.com/photos/hendry/3825411003/)
 * [[Extensive_internationalization_support|i18n]] -  Exotic locales such as Chinese, Japanese and Korean (CJK) are supported. CJK keyboard switching via [scim](http://en.wikipedia.org/wiki/SCIM) and many other types of keyboard setups, such as Swiss German. Spelling support with dictionaries in many languages. [[maxi]] only.
 * [[Printing]] support is included by default
-
-# Extras for [customization](http://webconverger.com/buy/)
-
 * Different layouts of the browser, such as disabling address bar and [[digital_signage_modes|kiosk]]
 * Screen [[blanking]] options and setting the resolution to a fixed sized (displays are autodetected by default)
 * Locking down the bootloader so [[boot]] options cannot be altered by users on machine boot

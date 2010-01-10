@@ -5,7 +5,7 @@
 
 # How to copy .img to USB stick (under Windows):
 
-Please follow this [USB imaging guide from Ubuntu](https://help.ubuntu.com/community/Installation/FromImgFiles#Windows).
+Please follow this [USB imaging guide from Ubuntu](https://help.ubuntu.com/community/Installation/FromImgFiles#Windows) or this one from [ArchLinux](http://wiki.archlinux.org/index.php/Install_from_a_USB_flash_drive).
 
 # How to copy .img to USB stick (under Linux):
 
@@ -51,6 +51,12 @@ Unmount and boot up your system:
 	x61:/mnt/usb% cd
 	x61:~% sudo umount /mnt/usb
 
+You can edit the image without first flashing the physical drive using <http://wiki.debian.org/DebianLive/Howto/USB> as a guide:
+
+	sudo mount -o loop,offset=512 webconverger.2010-01-06.5.6-usb.img /mnt/myusb
+
+And from there you would typically edit `sudo vim /mnt/myusb/syslinux/live.cfg` to remove **nosudo** for debugging.
+
 # Developer notes
 
 In config/binary:
@@ -60,5 +66,7 @@ In config/binary:
 And `grub` does not work, so you must use the `syslinux` bootloader.
 
 # Tests on various hardware
+
+USB image boots work on most hardware nowadays.
 
 * [lax contributed some information on this topic](http://groups.google.com/group/webc-users/browse_thread/thread/dac46b2093b27b78/0eb7a2ac12ab6c9c)

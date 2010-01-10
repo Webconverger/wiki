@@ -8,8 +8,12 @@
    6. Enjoy safely surfing the Web with Webconverger!
 
 
-# Debugging
+# Debugging in Linux
 
 How to inspect an ISO:
 
 	sudo mount -o loop /tmp/webconverger.2009-09-13.5.5-iso.iso /mnt/live/
+
+Though you can't save the changes you make to `isolinux/live.cfg` ! That is why
+the [customisation service](http://webconverger.com/buy) exists and that is why you should use the [[USB]]
+version instead.
