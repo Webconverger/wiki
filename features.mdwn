@@ -17,9 +17,9 @@ further options:
 * Latest [Firefox Web browser](http://en.wikipedia.org/wiki/Firefox) rebuild [Iceweasel](http://en.wikipedia.org/wiki/Iceweasel) by default in every Webconverger.
 * custom [[Artwork]] - your $HOMEPAGE/bg.png, default being [http://portal.webconverger.com/bg.png](http://portal.webconverger.com/bg.png).
 * [[Kiosk_reset|blanking]] **timeout** with `kioskresetstation=<mins>`. Resets browser after user defined minutes of idleness/inactivity.
-* [[Networking]] **wired** works simply with DHCP. Wireless works too!
+* [[Networking]] **wired** works simply with DHCP. [[Wireless]] works too!
 * [[Adobe]] Flash & [PDF viewing](http://www.flickr.com/photos/hendry/3825411003/)
-* [[Extensive_internationalization_support|i18n]] -  Exotic locales such as Chinese, Japanese and Korean (CJK) are supported. CJK keyboard switching via [scim](http://en.wikipedia.org/wiki/SCIM) and many other types of keyboard setups, such as Swiss German. Spelling support with dictionaries in many languages. [[maxi]] only.
+* [[Extensive_internationalization_support|i18n]] -  Exotic locales such as Chinese, Japanese and Korean (CJK) are supported. CJK keyboard switching via [scim](http://en.wikipedia.org/wiki/SCIM) and many other types of keyboard setups, such as Swiss German. Spelling support with dictionaries in many languages.
 * [[Printing]] support is included by default
 * Different layouts of the browser, such as disabling address bar and [[digital_signage_modes|kiosk]]
 * Screen [[blanking]] options and setting the resolution to a fixed sized (displays are autodetected by default)
