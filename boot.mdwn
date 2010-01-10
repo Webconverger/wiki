@@ -1,5 +1,10 @@
 # A guide to editing the boot parameter
 
+Editing the `/proc/cmdline` is a little tricky from the syslinux bootloader, though not impossible.
+
+<a href="http://www.flickr.com/photos/hendry/4261594781/" title="Adding wireless arguments to Webconverger 6.0 by Kai Hendry, on Flickr"><img src="http://farm5.static.flickr.com/4065/4261594781_1dc14e7dde_m.jpg" width="240" height="180" alt="Adding wireless arguments to Webconverger 6.0" /></a>
+
+
 Please see [[USB]] about editing the syslinux kernel command line.
 
 ### Your own homepage
