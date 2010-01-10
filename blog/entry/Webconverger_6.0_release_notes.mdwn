@@ -2,7 +2,7 @@
 
 Hah! I've discovered a way of [showing you the
 changes](http://stackoverflow.com/questions/2013091/coloured-diff-to-html) from
-[[5.9_to_6.0|changes/5.9-6.0]].
+[[5.9_to_6.0|changes/5.9-6.0]], without the developer tool `vimdiff`.
 
 The red bits are the removed packages, so you can see Webconverger has lost
 some bloatware in the new year. :)
@@ -12,7 +12,7 @@ of a negligible performance gain to 686 machines.
 
 Please consider purchasing the [customised
 version](http://webconverger.org/features/) to support the project. I will
-offer a 50% **refund** this month if you photograph your customised
-Webconverger in use and allow me to use your images.
+offer a 50% **refund** this month if you [photograph your customised
+Webconverger in use](http://www.flickr.com/photos/hendry/4101961283/) and allow me to use your images.
 
 [Download](http://download.webconverger.org/) and enjoy! Happy 2010!
