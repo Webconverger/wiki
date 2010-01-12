@@ -14,12 +14,13 @@ If you are new to the project, **Welcome**! Please help by [[testing]]. Thank yo
 ## Building on a Debian system:
 
 Building an image is only (unfortunately) necessary is you need to customise
-the [[ISO]] image typically. You can change [[boot]] options **without
+the [[ISO]] image typically. You can persistently change [[boot]] options **without
 building** on the [[USB]] version.
 
 1. Download and install the latest [live-helper](http://packages.qa.debian.org/l/live-helper.html) from the Debian Live repository. Add the following lines to your `/etc/apt/sources.list`:
 
 	deb http://live.debian.net/debian/ sid/snapshots main contrib non-free
+
 	deb-src http://live.debian.net/debian/ sid/snapshots main contrib non-free
 
 1. `git clone git://git.debian.org/git/debian-live/config-webc.git`
