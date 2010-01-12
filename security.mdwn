@@ -4,16 +4,16 @@ Webconverger unlike Windows for example does not require:
 * anti-spyware
 * anti-virus
 
-Security is complicated. It's about identifying the risks and mitigating the
-risks.
+Security is complicated. Good security is about identifying the risks and
+mitigating the risks.
 
 Webconverger is [[designed|design]] for [[privacy]] and [[security]], based on:
 
 * opensource software
 * no super user
-* Always clears private data once a session is ended
-* does not store local data
-* **live** session by default
+* always clears private data once a session is ended
+* does not store local data (**live** session by default)
+* does not require any signup or registration
 
 # Peers
 
@@ -26,7 +26,9 @@ Could reviewers please practice [responsible disclosure](http://www.google.com/c
 
 # Surf with SSL to protect yourself from eavesdropping
 
-When you surf the in most cases your browsing connection can be intercepted.
+When you surf the Web in several cases your browsing connection can be
+intercepted.
+
 That's if the attacker can get inbetween you and your favourite Website. So who
 could be in between your connection and say this site Webconverger.org?
 
@@ -54,19 +56,19 @@ could be in between your connection and say this site Webconverger.org?
 Eavesdropping is most common with unsecured Wireless. This attack typically
 occurs at the very first stage.  devil (192.168.1.1) is the wireless access
 point I am using. The later points of the route (2-17) are much bigger routers
-which are too busy routing huge amounts of network traffic than to isolate and
-sniff yours.
+which are too busy routing huge amounts of network traffic to isolate and sniff
+yours.
 
 To mitigate this risk use
 [SSL](http://en.wikipedia.org/wiki/Secure_Sockets_Layer).  An encrypted SSL
 connection is denoted by a yellow coloured URL bar. So for example instead of
 visiting:
 
-* http://gmail.com
+* <http://gmail.com>
 
-A more secure & simple way to protect from evesdropping is to visit instead:
+A more secure & simple way to protect from eavesdropping is to visit instead:
 
-* https://gmail.com
+* <https://gmail.com>
 
 Notice the difference? [https](http://en.wikipedia.org/wiki/Https) instead of
 the "clear" network messages of the much more common
