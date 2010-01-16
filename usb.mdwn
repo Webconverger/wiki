@@ -3,7 +3,7 @@
 
 .img [downloadable](http://download.webconverger.com/) files are USB images to be copied onto a USB stick/key.
 
-# How to copy .img to USB stick (under Windows):
+# How to copy the .img file to a USB stick (under Windows):
 
 Please follow this [USB imaging guide from Ubuntu](https://help.ubuntu.com/community/Installation/FromImgFiles#Windows) or this one from [ArchLinux](http://wiki.archlinux.org/index.php/Install_from_a_USB_flash_drive).
 
@@ -21,6 +21,14 @@ Detailed description on [Debian wiki](http://wiki.debian.org/DebianLive/Howto/US
 Almost any cheap generic USB stick should be fine. Feel free to use the usb
 image also with embedded boards and Compact Flash cards (they behave like
 /dev/hda usually).
+
+# Install the USB .img to a hard drive
+
+The same principle applies. You copy the "image" to you hard drive using `dd`.
+In order to do this you typically need to put the USB version of Webconverger
+into debug mode (remove `nosudo` from [[boot]]). Or boot with an Ubuntu Live CD
+and image from there to your hard drive (typically `dd if=webc.img
+of=/dev/sda`). Apologies for not providing a GUI at this point in time.
 
 # Booting your USB stick
 

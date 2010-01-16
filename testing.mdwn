@@ -19,7 +19,9 @@ Setup [tap networking](http://wiki.archlinux.org/index.php/Qemu#Tap_Networking_w
 
 	sudo qemu -enable-kvm -net nic -net tap,ifname=tap0 -cdrom /tmp/webconverger.2009-09-09.5.5-iso.iso
 
-**BUG** The installed webconverger has a login prompt. in-target must have failed.
+Test [[USB]] image, like so:
+
+	qemu -hda webc-6.0.img
 
 ## Testing the hard drive installer on [[USB]]
 
