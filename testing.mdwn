@@ -5,27 +5,15 @@ bugs are listed on the [[todo]] list.
 
 # qemu
 
+Test [[ISO]] image, like so:
+
 	qemu -cdrom binary.iso
 
 Qemu might be a little slow if you don't have the qemu kernel module running.
 
-## Testing the hard drive [[installer]] on ISO
-
-Create the hard drive:
-
-	qemu-img create test.qcow2 10G
-
-Setup [tap networking](http://wiki.archlinux.org/index.php/Qemu#Tap_Networking_with_QEMU):
-
-	sudo qemu -enable-kvm -net nic -net tap,ifname=tap0 -cdrom /tmp/webconverger.2009-09-09.5.5-iso.iso
-
 Test [[USB]] image, like so:
 
 	qemu -hda webc-6.0.img
-
-## Testing the hard drive installer on [[USB]]
-
-Use real hardware, such as an EEEPC or netbook.
 
 # Proprietary VMware
 
@@ -59,7 +47,7 @@ Save the configuration below as a file named `webconverger.vmx` with webconverge
     usb.present = "TRUE"
 
 
-# Testing video idea
+# Test videos proposal
 
 [Videos](http://video.google.co.uk/videoplay?docid=-4095341796996048842&hl=en-GB) with [Brendan's autotesting script](http://git.debian.org/?p=debian-live/autotesting.git).
 
