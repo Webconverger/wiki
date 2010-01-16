@@ -24,7 +24,7 @@ building** on the [[USB]] version.
 	deb-src http://live.debian.net/debian/ sid/snapshots main contrib non-free
 
 1. `git clone git://git.debian.org/git/debian-live/config-webc.git`
-1. Take a long good look at [scripts/config](http://git.debian.org/?p=debian-live/config-webc.git;a=blob;f=webconverger/scripts/config)
+1. Take a long good look at [auto/config](http://git.debian.org/?p=debian-live/config-webc.git;a=blob;f=webconverger/auto/config)
 1. `lh config` to setup the configuration (this is the new live-helper 'autoconfig' style)
 1. `sudo lh build` in webconverger/ to kick off the long build process
 
