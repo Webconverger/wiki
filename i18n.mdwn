@@ -1,6 +1,10 @@
+Webconverger has great support for worldwide cultures on boot. If you need to
+switch keyboard layouts, this is possible to configure using the `keyb=`
+switch. See the Russian example.
+
 # Setting up Webconverger for your locale
 
-Specify them on the boot parameter prompt. 
+Specify them on the [[boot]] parameter prompt.
 
 
 For example British English configurations:
@@ -46,11 +50,18 @@ Please check and test different locales. If they work (or don't!), please
 contribute that information to the wiki. :)
 
 ### Hungarian
-locale=hu keyb=hu
+
+	locale=hu keyb=hu
+
 ### Latvian
-locale=lv_LV.UTF-8 keyb=lv,ru,us vga=773 koptions=grp:switch,grp:alt_shift_toggle,grp_led:scroll
+
+	locale=lv_LV.UTF-8 keyb=lv,ru,us vga=773 koptions=grp:switch,grp:alt_shift_toggle,grp_led:scroll
+
 ### Russian
-locale=ru_RU.UTF-8 keyb=ru
+
+	locale=ru_RU.UTF-8 keyb=us,ru koptions=grp:alt_shift_toggle
+
+Like Windows you press Alt+Shift to toggle between Cyrillic and Latin keyboard layouts.
 
 # Does your locale have a translation for the browser?
 
@@ -76,23 +87,22 @@ Please give feedback about anything. If you don't like the font or see some othe
 * [Korean](http://git.debian.org/?p=debian-live/config-webc.git;a=blob;f=webconverger/config/chroot_local-includes/etc/network/if-up.d/korean)
 
 CJK support requires a bunch of extra fonts and complex logic for the input
-system.  Since most Webconverger users currently are Anglophiles, it seems a
-little unfair to bloat the image by 100M+ for locale support rarely used.
+system.  Since most Webconverger users currently are Western, it seems a little
+unfair to bloat the image by 100M+ for locale support rarely used Asian input
+methods.
 
-So CJK is currently supported is by downloading the locale support packages on
+So CJK is currently supported by downloading the locale support packages on
 startup from <http://cdn.debian.net/debian/> with a **if-up.d** hook.
-
-If you are on a slow connection, this solution is painfully time consuming. To
-work around the problem you could install Webconverger to the hard drive,
-resulting in persistent package upgrades. Or you could ask for a [customised
-copy of Webconverger](http://webconverger.com/buy) with these packages in an
-image for you.
 
 Currently this "on network ready" hook is a little fragile. Sometimes the
 network isn't quite 100% ready on a if-up.d hook. Please help identify issues
-by [[testing]] and [report bugs](http://groups.google.com/group/webc-users).
+by [[testing]] and [reporting bugs](http://groups.google.com/group/webc-users).
 Please do not be embarrassed by your English language skills, the list is very
 friendly!
+
+Ideally place an order for a [customised copy of
+Webconverger](http://webconverger.com/buy) with these CJK support packages in
+an image for you.
 
 Any suggestions to improve this locale support mechanism would be
 [[acknowledged|acknowledgements]].
@@ -104,6 +114,8 @@ To look up the right codes, see:
 [/usr/share/i18n/SUPPORTED](http://static.natalian.org/2007-07-20/SUPPORTED) on an Debian system
 
 Lookup your country's codes at [ISO 3166](http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#MM).
+
+See the [Debian live manual on the topic of languages](http://live.debian.net/manual/html/language.html).
 
 # Furthermore
 
