@@ -50,5 +50,5 @@ Webconverger's HTML5 video playback is far more stable and faster than Flash on
 cheap netbooks. Yes, I'm aware [Youtube](http://www.youtube.com/) is being a
 little bit daft by UA sniffing.
 
-Otherwise, do enjoy this new feature release of Webconverger and please [report
+Otherwise, do [download](http://download.webconverger.org/) and enjoy this new feature release of Webconverger and please [report
 any issues to the mailing list](http://groups.google.com/group/webc-users).
