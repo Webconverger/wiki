@@ -2,7 +2,7 @@ From [[6.0_to_6.1|changes/6.0-6.1]] we have the usual updated browser, flash and
 
 # Customising [iso-hybrid](http://git.debian-maintainers.org/?p=syslinux/syslinux.git;a=blob;f=doc/isolinux.txt#l80)
 
-No need for separate [[img]] and [[iso]] files. One file ISO HYBRID can do
+No need for separate [[img|usb]] and [[iso]] files. One file ISO HYBRID can do
 both. You can burn the ISO and also image the same file to a USB stick.
 
 The reason why [Webconverger has a commercial customisation
@@ -28,6 +28,11 @@ Now rebuild the ISO like so:
 	mkisofs -o /tmp/custom-webc.iso -b -r -J -no-emul-boot -boot-load-size 4 -boot-info-table \
 	-b isolinux/isolinux.bin -c isolinux/boot.cat /mnt/custom
 
+The customisation service remains if you are unable to perform these commands.
+It's also difficult to edit the package listing (changing [[chrome|kiosk]]
+without the [service](http://webconverger.com/buy) still. For
+[[large_deployments|press]], please enquire sales in how we can support you.
+
 # Migrate your video content to open [HTML5 video](http://www.whatwg.org/specs/web-apps/current-work/multipage/video.html#video) instead of Adobe Flash
 
 <a href="http://www.flickr.com/photos/hendry/4375639834/" title="Argh, browser filtering by Kai Hendry, on Flickr"><img src="http://farm5.static.flickr.com/4048/4375639834_c37ddda6e9.jpg" width="500" height="375" alt="Argh, browser filtering" /></a>
@@ -35,8 +40,8 @@ Now rebuild the ISO like so:
 I agree with [Steve Jobs that Adobe has been lazy](http://www.wired.com/epicenter/2009/03/apple-shows-off/).
 
 I am sick and tired of Flash killing the performance of Webconverger on
-netbooks and its long running instabilities.  Nevermind that it is really the
-only proprietary non-free software in this distribution.
+netbooks and its long running instabilities. Flash is really the only
+proprietary non-free software in this opensource distribution.
 
 So if you are a content creator, **please** move to HTML5 video.  I have
 quickly made a [Web tool to help create HTML5 video](http://o.dabase.com/).
