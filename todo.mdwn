@@ -21,8 +21,6 @@ platform... the Web!
 # [[Extension|kiosk]] improvements needed
 
 * fix download [[kiosk_extension|kiosk]], not to download
-* prepare for 3.5 -- take advantage of **privateBrowsingEnabled** (security in layers)
-* Enable find `/`
 
 Please help and contribute by [[testing]] or [[building|develop]] and
 submitting to patches to the [mailing
