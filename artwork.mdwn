@@ -1,32 +1,14 @@
 [[!toc ]]
 
-For Webconverger customization customers, customising the X background is
-normal and best practice. If customers want splashy customised, this is
-currently a **lot of extra work** and I have to charge accordingly.
+# splashy (the bootup logo)
 
-# splashy
-
-New and somewhat easier than usplash. There is some rough edges with the secondary screen.
-
-Wrote up a little [customisation guide over at the d-l
-wiki](http://wiki.debian.org/DebianLive/Howto/Custom_Artwork).
-
-Try out the USB images on the [[mini]] [download
-page](http://download.webconverger.com/mini/).  Splashy uses
-[directfb](http://directfb.org/).
-
-Image should be about 640x480 and not have any detail close to the edges.
-
-From 2.30 `noxbg` makes the X bootup screen blank.
+Can you change the bootup logo? Short answer: **No**, not easily
 
 # The X windows centered background image on a white background
 
-This is retrieved from $HOMEPAGE/bg.png
+`noxbg` [[boot]] option makes the X bootup screen blank.
 
-Image should be about 800x600 & if it is a Webconverger image it should link:
-
-* webconverger.com/buy
-* support email address
+Otherwise the background logo is retrieved from $HOMEPAGE/bg.png
 
 Users see this as Webconverger loads the Web browser. So initially at bootup
 and between sessions. The amount of time this background is viewable depends on
@@ -36,17 +18,3 @@ the speed of the computer. I.e. how long it takes to load the browser.
 
 So the default HOMEPAGE=http://portal.webconverger.com/
 So [view the current background](http://portal.webconverger.com/bg.png).
-
-## Thoughts
-
-The background could be a nice image or piece of art.
-
-If using Flickr choose a [BY: licensed image](http://flickr.com/creativecommons/by-2.0/).
-
-# Grub & Syslinux
-
-For the
-[grub](http://flickr.com/search/?q=grub%20webconverger&w=16105436%40N00)
-bootloader a 640x400 image (14 indexed colours) is required. The [Debian Live
-Artwork](http://wiki.debian.org/DebianLive/Howto/Custom_Artwork) page has
-details of how the artwork is converted.
