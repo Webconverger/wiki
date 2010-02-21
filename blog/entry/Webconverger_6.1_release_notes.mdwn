@@ -10,8 +10,8 @@ service](http://webconverger.com/buy) is that it used to be very difficult to
 make trivial changes to the [[boot_command_line|boot]].
 [[Thanks|acknowledgements]] to
 [nils](http://groups.google.com/group/webc-users/msg/9379c3da15f08e6d) and to
-[Daniel Baumann](http://blog.daniel-baumann.ch) for his hard work on the
-[Debian Live](http://debian-live.alioth.debian.org/), customisation has become
+[Daniel Baumann](http://blog.daniel-baumann.ch) especially for his hard work on this
+[Debian Live](http://debian-live.alioth.debian.org/) feature, customisation has become
 a lot easier for you.
 
 The customisation steps are something like:
