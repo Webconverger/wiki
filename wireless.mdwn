@@ -1,17 +1,23 @@
-# Wireless (working from version 4!)
+# Wireless
 
 	wlan=essid,key
 
-To join a [secured wireless network](http://en.wikipedia.org/wiki/Wi-Fi_Protected_Access) with ESSID 'foo' and password 'francisco' append `wlan=foo,francisco`
+To join a [secured wireless
+network](http://en.wikipedia.org/wiki/Wi-Fi_Protected_Access) with ESSID 'foo'
+and password 'francisco' append `wlan=foo,francisco`
 
-To join an unsecured network called 'w', append `wlan=w,`
+Webconverger supports both WEP and WPA, though your Wireless access point
+should be using WPA for your security.
+
+To join an unsecured network called 'w', append `wlan=w,`. Notice the **trailing comma**, this is because some ESSIDs have spaces.
 
 To join any open network, append `wlan=,` to the [[boot]] options. This relies
 on some wpa-supplicant magic that needs [[testing]]. If you do join an
 unsecured wireless network, do remember you have **little security** until you
 connect with **https**/SSL !!
 
-To join an [ESSID](http://en.wikipedia.org/wiki/ESSID) with spaces, you need to entity encode it. Example ESSID "Hopstock Gjestenett", becomes:
+To join an [ESSID](http://en.wikipedia.org/wiki/ESSID) with spaces, you need to
+entity encode it. Example ESSID "Hopstock Gjestenett", becomes:
 
 	wlan=Hopstock%20Gjestenett,
 
@@ -46,7 +52,7 @@ Wireless devices that require Window's drivers wrappers such as ndiswrapper or f
 * [Debian wireless page](http://wiki.debian.org/WiFi)
 * [Ubuntu wireless page](https://help.ubuntu.com/community/WifiDocs/WirelessCardsSupported)
 
-## Getting a Windows wireless device working (for developers!)
+## Getting a Windows wireless device working (for developers only)
 
 This is a developer reference.
 
@@ -94,4 +100,3 @@ Also the blog entry on this topic: [[blog/entry/Better_Routing_wanted]]
 Recommended firmware:
 
 * [dd-wrt](http://www.dd-wrt.com)
-* [Tomato firmware](http://www.polarcloud.com/tomato)
