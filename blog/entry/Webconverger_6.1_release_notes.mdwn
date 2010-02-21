@@ -25,7 +25,7 @@ with your homepage URL.
 
 Now rebuild the ISO like so:
 
-	mkisofs -o /tmp/custom-webc.iso -b -r -J -no-emul-boot -boot-load-size 4 -boot-info-table \
+	mkisofs -o /tmp/custom-webc.iso -b -r -J -l -cache-inodes -allow-multidot -no-emul-boot -boot-load-size 4 -boot-info-table \
 	-b isolinux/isolinux.bin -c isolinux/boot.cat /mnt/custom
 
 The [customisation service](http://webconverger.com/buy) remains if you are unable to perform these commands.
