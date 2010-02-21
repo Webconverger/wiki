@@ -2,8 +2,8 @@ From [[6.0_to_6.1|changes/6.0-6.1]] we have the usual updated browser, flash and
 
 # Customising [iso-hybrid](http://git.debian-maintainers.org/?p=syslinux/syslinux.git;a=blob;f=doc/isolinux.txt#l80)
 
-No need for separate [[img|usb]] and [[iso]] files. One file ISO HYBRID can do
-both. You can burn the ISO and also image the same file to a USB stick.
+No need for separate [[img|usb]] and [[iso]] files. **One** ISO HYBRID file can
+do **both**. You can burn the ISO and also image the same file to a USB stick.
 
 The reason why [Webconverger has a commercial customisation
 service](http://webconverger.com/buy) is that it used to be very difficult to
@@ -28,10 +28,10 @@ Now rebuild the ISO like so:
 	mkisofs -o /tmp/custom-webc.iso -b -r -J -no-emul-boot -boot-load-size 4 -boot-info-table \
 	-b isolinux/isolinux.bin -c isolinux/boot.cat /mnt/custom
 
-The customisation service remains if you are unable to perform these commands.
-It's also difficult to edit the package listing (changing [[chrome|kiosk]]
+The [customisation service](http://webconverger.com/buy) remains if you are unable to perform these commands.
+It's also difficult to edit the package listing, such as changing [[chrome|kiosk]]
 without the [service](http://webconverger.com/buy) still. For
-[[large_deployments|press]], please enquire sales in how we can support you.
+[[large_deployments|press]], please enquire sales in how we can help you.
 
 # Migrate your video content to open [HTML5 video](http://www.whatwg.org/specs/web-apps/current-work/multipage/video.html#video) instead of Adobe Flash
 
