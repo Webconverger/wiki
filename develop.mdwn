@@ -13,15 +13,17 @@ If you are new to the project, **Welcome**! Please help by [[testing]]. Thank yo
 
 ## Building on a Debian system:
 
-Building an image is only (unfortunately) necessary is you need to customise
-the [[ISO]] image typically. You can persistently change [[boot]] options **without
-building** on the [[USB]] version.
+Building an image from scratch is usually only necessary if you need to
+customise the image's packages [[chrome|kiosk]] typically. You can use this <a
+href="http://webconverger.org/blog/entry/Webconverger_6.1_release_notes/">guide
+to persistently change [[boot]] options **without building**</a>.
 
-1. Download and install the latest [live-helper](http://packages.qa.debian.org/l/live-helper.html) from the Debian Live repository. Add the following lines to your `/etc/apt/sources.list`:
+1. Download and install the **latest**
+[live-helper](http://live.debian.net/devel/live-helper/) from the Debian
+Live repository. Add the following lines to your `/etc/apt/sources.list`:
 
-	deb http://live.debian.net/debian/ sid/snapshots main contrib non-free
-
-	deb-src http://live.debian.net/debian/ sid/snapshots main contrib non-free
+	deb http://live.debian.net/ sid-snapshots main contrib non-free
+	deb-src http://live.debian.net/ sid-snapshots main contrib non-free
 
 1. `git clone git://git.debian.org/git/debian-live/config-webc.git`
 1. Take a long good look at [auto/config](http://git.debian.org/?p=debian-live/config-webc.git;a=blob;f=webconverger/auto/config)
