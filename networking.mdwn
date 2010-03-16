@@ -28,3 +28,17 @@ remind you that you must have `nonetworking` on your `config/binary`
 `LH_BOOTAPPEND_LIVE` line for it to all work. For debugging an image with a
 static network setup, I suggest removing `nonetworking` to default to
 live-initramfs's sensible wired DHCP defaults.
+
+# Example of a static configuration customisation
+
+`webconverger/config/chroot_local-includes/etc/network/interfaces` would read:
+
+	iface eth0 inet static
+		   address 10.100.7.230
+		   netmask 255.255.255.0
+		   gateway 10.100.7.253
+
+And the DNS:
+
+	cat webconverger/config/chroot_local-includes/etc/resolv.conf
+	nameserver 10.100.7.253
