@@ -23,6 +23,7 @@ to persistently change [[boot]] options **without building**</a>.
 Live repository. Add the following lines to your `/etc/apt/sources.list`:
 
 	deb http://live.debian.net/ sid-snapshots main contrib non-free
+
 	deb-src http://live.debian.net/ sid-snapshots main contrib non-free
 
 1. `git clone git://git.debian.org/git/debian-live/config-webc.git`

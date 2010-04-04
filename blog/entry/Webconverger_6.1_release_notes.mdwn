@@ -28,6 +28,12 @@ Now rebuild the ISO like so:
 	mkisofs -o /tmp/custom-webc.iso -b -r -J -l -cache-inodes -allow-multidot -no-emul-boot -boot-load-size 4 -boot-info-table \
 	-b isolinux/isolinux.bin -c isolinux/boot.cat /mnt/custom
 
+Finally:
+
+	/usr/bin/isohybrid /tmp/custom-webc.iso
+
+`isohybrid` comes from a recent version of [syslinux](http://packages.debian.org/unstable/syslinux-common)
+
 The [customisation service](http://webconverger.com/buy) remains if you are unable to perform these commands.
 It's also difficult to edit the package listing, such as changing [[chrome|kiosk]]
 without the [service](http://webconverger.com/buy) still. For

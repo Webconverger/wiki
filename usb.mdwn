@@ -78,3 +78,21 @@ And `grub` does not work, so you must use the `syslinux` bootloader.
 USB image boots work on most hardware nowadays.
 
 * [lax contributed some information on this topic](http://groups.google.com/group/webc-users/browse_thread/thread/dac46b2093b27b78/0eb7a2ac12ab6c9c)
+
+
+## Flashing an USB-Stick with v6.1 under Windows
+
+Since version 6.1 webconverger provides a hybrid.iso which can be burned to CD
+or flashed on an usb-stick.  In some scenarios flashing the hybrid-iso onto an
+usb-stick with MS Windows won´t work out.
+
+Here are the steps which helped some people:
+
+1. Download and install [Fedora LiveUSB Creator](https://fedorahosted.org/releases/l/i/liveusb-creator/liveusb-creator-3.9.1-setup.exe)
+* Flash the hybrid-iso to your usb-stick
+* change the word isolinux to syslinux in syslinux/syslinux.cfg
+* old: default /*isolinux*/vesamenu.c32
+* new: default /*syslinux*/vesamenu.c32
+* plug in the usb-stick and boot from it
+
+These steps are taken from this post: [Webconverger 6.1 on USB flash drive - Michael Steinböck](http://groups.google.com/group/webc-users/browse_thread/thread/55b7717c5dfb2bc7/8c6e60148346e6fc#8c6e60148346e6fc)
