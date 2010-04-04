@@ -19,4 +19,6 @@ acting as a [[digital_sign|kiosk]].
 
 # Kiosk reset
 
-`kioskresetstation` resets the Webconverger terminal after a specified number of minutes of inactivity.
+The cmdline [[boot]] option `kioskresetstation` resets the Webconverger terminal after a specified number of minutes of inactivity.
+
+For example, appending `kioskresetstation=10` will reset the kiosk after ten minutes of inactivity.
