@@ -37,6 +37,16 @@ Webconverger being set on a non-mandated Website for too long in public spaces.
 * Not using your ISP's DNS, so quite possibly slow
 * Only works on the Internet (so not good for Internal networks ... )
 
+# Using your WRT54G-L router
+
+As mentioned on <http://webconverger.org/blog/entry/Better_Routing_wanted>
+
+3rd party firmware like [dd-wrt](http://www.dd-wrt.com) provide options to
+limit WAN access under Access Restrictions to:
+
+* Website Blocking by URL Address
+* Website Blocking by Keyword
+
 # Webconverger and IPCop
 
 [IPCop](http://www.ipcop.org/) is a lfs-based firewall which can easily be tweaked up to an url-filter.
