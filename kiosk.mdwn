@@ -1,4 +1,7 @@
-# Updating to 3.5
+# Top browser issues
+
+* Debian problems [backporting FF](packages.qa.debian.org/i/iceweasel.html) 3.6 to lenny
+* [problems with extensions](http://groups.google.com/group/mozilla.dev.extensions/browse_thread/thread/1e42bdc1748d907a)
 
 ## BrowserLoadURL broken
 
