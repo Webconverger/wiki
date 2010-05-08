@@ -17,8 +17,6 @@
 * [[Notes_on_Networking|Networking]]
 * [[Printing]] with [CUPS](http://www.cups.org/)
 * [[About_the_Opera_version|Opera]]
-* [Insurance Quotes](http://zolpo.com/)
-* [World Cup](http://ezinearticles.com/?Betting-on-the-Football-World-Cup---For-Beginners&id=4191582)
 * [[Testing_Webconverger|Testing]] - please join the QA effort
 * [[Content_filtering|Filtering]] and white listing are possible
 * [[Information_about_Fonts|Fonts]]
