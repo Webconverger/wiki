@@ -17,6 +17,8 @@ platform... the Web!
 * CJK scripts not working (network is not setup in time, sometimes)
 * Ability to change chrome [[kiosk]] options on [[boot]] - [ref](http://groups.google.com/group/webc-users/browse_thread/thread/c6c8649feadbb8dc)
 * Can the home button be fixed for supporting two urls?
+* nolocales by default ?
+* [session timer](http://groups.google.com/group/webc-users/browse_thread/thread/39a3dcda1305a036) ?
 
 # [[Extension|kiosk]] improvements needed
 
