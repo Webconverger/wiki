@@ -1,12 +1,10 @@
-The Webconverger 6.2 security release applies the [APSB10-14 security update
+The [Webconverger 6.2](http://download.webconverger.org/webc-6.2.txt) security release applies the [APSB10-14 security update
 for the Adobe Flash
-Player](http://www.adobe.com/support/security/bulletins/apsb10-14.html). This
-fix for [numerous remote code execution bugs is only second to
+Player](http://www.adobe.com/support/security/bulletins/apsb10-14.html). Patching [numerous remote code execution bugs is only second to
 Oracle](http://translate.google.com/translate?js=n&prev=_t&hl=en&ie=UTF-8&layout=1&eotf=1&u=http://blog.fefe.de/%3Fts%3Db2ef379a&sl=de&tl=en)!
-
-Once we've confirmed 6.2 in production I will remove the availability of the
-older releases since this is such an important security fix.
 
 Surprisingly this is the first update for almost 4 months. In it's current
 (Debian Live **lenny**) design Webconverger has reached maturity as a piece of
 software. Another reason to deploy it in a public space.
+
+Download it from the [German mirror](http://download.webconverger.org/) or the [Webconverger download mirror in California](http://download.webconverger.com/).
