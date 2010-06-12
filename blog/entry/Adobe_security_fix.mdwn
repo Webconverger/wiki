@@ -8,3 +8,7 @@ Surprisingly this is the first update for almost 4 months. In it's current
 software. Another reason to deploy it in a public space.
 
 Download it from the [German mirror](http://download.webconverger.org/) or the [Webconverger download mirror in California](http://download.webconverger.com/).
+
+The md5sum incidentally is:
+
+	e2146a4342f263cf39c60809d049ae97  webc-6.2.iso
