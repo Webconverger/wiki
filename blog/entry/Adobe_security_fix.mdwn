@@ -3,9 +3,9 @@ for the Adobe Flash
 Player](http://www.adobe.com/support/security/bulletins/apsb10-14.html). Patching [numerous remote code execution bugs second to only
 Oracle](http://translate.google.com/translate?js=n&prev=_t&hl=en&ie=UTF-8&layout=1&eotf=1&u=http://blog.fefe.de/%3Fts%3Db2ef379a&sl=de&tl=en)!
 
-Surprisingly this is the first update for almost 4 months. In it's current
+Surprisingly this is the first update for almost 4 months. In its current
 (Debian Live **lenny**) design Webconverger has reached maturity as a piece of
-software. Another reason to deploy it in a public space.
+software. Another reason to deploy Webconverger for conservative institutions.
 
 Download it from the [German mirror](http://download.webconverger.org/) or the [Webconverger download mirror in California](http://download.webconverger.com/).
 
