@@ -1,13 +1,15 @@
 [[!template id=note text="""
 <a href="http://www.flickr.com/photos/hendry/1403651984/" title="Photo Sharing"><img src="http://farm2.static.flickr.com/1169/1403651984_30fd52a678_m.jpg" width="180" height="240" alt="Webconverger on an HP" /></a>"""]]
 
-.img [downloadable](http://download.webconverger.com/) files are USB images to be copied onto a USB stick/key.
+.ISO [downloadable](http://download.webconverger.com/) files are [ISO-hybrid
+images to be copied onto a USB
+stick/key](http://webconverger.org/blog/entry/Webconverger_6.1_release_notes).
 
-# How to copy the .img file to a USB stick (under Windows):
+# How to copy the .iso file to a USB stick (under Windows):
 
 Please follow this [USB imaging guide from Ubuntu](https://help.ubuntu.com/community/Installation/FromImgFiles#Windows) or this one from [ArchLinux](http://wiki.archlinux.org/index.php/Install_from_a_USB_flash_drive).
 
-## Flashing an USB-Stick with v6.1 under Windows
+## Flashing an USB-Stick under Windows
 
 Since version 6.1 webconverger provides a hybrid.iso which can be burned to CD
 or flashed on an usb-stick.  In some scenarios flashing the hybrid-iso onto an
@@ -16,19 +18,19 @@ usb-stick with MS Windows won´t work out.
 Here are the steps which helped some people:
 
 1. Download and install [Fedora LiveUSB Creator](https://fedorahosted.org/releases/l/i/liveusb-creator/liveusb-creator-3.9.1-setup.exe)
-* Flash the hybrid-iso to your usb-stick
-* change the word isolinux to syslinux in syslinux/syslinux.cfg
-* old: default /*isolinux*/vesamenu.c32
-* new: default /*syslinux*/vesamenu.c32
-* plug in the usb-stick and boot from it
+1. Flash the hybrid-iso to your usb-stick
+1. change the word isolinux to syslinux in syslinux/syslinux.cfg
+1. old: default /*isolinux*/vesamenu.c32
+1. new: default /*syslinux*/vesamenu.c32
+1. plug in the usb-stick and boot from it
 
 These steps are taken from this post: [Webconverger 6.1 on USB flash drive - Michael Steinböck](http://groups.google.com/group/webc-users/browse_thread/thread/55b7717c5dfb2bc7/8c6e60148346e6fc#8c6e60148346e6fc)
 
-# How to copy .img to USB stick (under Linux):
+# How to copy .iso to USB stick (under Linux):
 
 `fdisk -l` will list your USB drive - usually /dev/sdx ("x" representing letter like sda, sdb etc.), double check with `dmesg`.
 
-	dd if=webconverger-image.img of=/dev/sdx
+	dd if=webc-6.2.iso of=/dev/sdx
 
 Detailed description on [Debian wiki](http://wiki.debian.org/DebianLive/Howto/USB).
 
@@ -39,12 +41,12 @@ Almost any cheap generic USB stick should be fine. Feel free to use the usb
 image also with embedded boards and Compact Flash cards (they behave like
 /dev/hda usually).
 
-# Install the USB .img to a hard drive
+# Install the USB .iso to a hard drive
 
 The same principle applies. You copy the "image" to you hard drive using `dd`.
 In order to do this you typically need to put the USB version of Webconverger
 into debug mode (remove `nosudo` from [[boot]]). Or boot with an Ubuntu Live CD
-and image from there to your hard drive (typically `dd if=webc.img
+and image from there to your hard drive (typically `dd if=webc.iso
 of=/dev/sda`). Apologies for not providing a GUI at this point in time.
 
 # Booting your USB stick
@@ -55,7 +57,7 @@ Different machines have different ways of **Entering the boot menu**. However it
 
 <a href="http://www.flickr.com/photos/hendry/2366474295/" title="French support added to USB boot by Kai Hendry, on Flickr"><img src="http://farm3.static.flickr.com/2110/2366474295_c089249bd5_m.jpg" width="240" height="180" alt="French support added to USB boot" /></a>
 
-When the bootloader (syslinux) initially loads, you'll have a few seconds to
+When the [[bootloader|boot]] initially loads, you'll have a few seconds to
 type in something at the toboot: prompt. For example to get boot with [[i18n]]
 French support simply add:
 
@@ -76,22 +78,3 @@ Unmount and boot up your system:
 	x61:/mnt/usb% cd
 	x61:~% sudo umount /mnt/usb
 
-You can edit the image without first flashing the physical drive using <http://wiki.debian.org/DebianLive/Howto/USB> as a guide:
-
-	sudo mount -o loop,offset=512 webconverger.2010-01-06.5.6-usb.img /mnt/myusb
-
-And from there you would typically edit `sudo vim /mnt/myusb/syslinux/live.cfg` to remove **nosudo** for debugging.
-
-# Developer notes
-
-In config/binary:
-
-	LH_BINARY_IMAGES="usb-hdd"
-
-And `grub` does not work, so you must use the `syslinux` bootloader.
-
-# Tests on various hardware
-
-USB image boots work on most hardware nowadays.
-
-* [lax contributed some information on this topic](http://groups.google.com/group/webc-users/browse_thread/thread/dac46b2093b27b78/0eb7a2ac12ab6c9c)
