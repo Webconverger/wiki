@@ -9,12 +9,6 @@ Test [[ISO]] image, like so:
 
 	qemu -cdrom binary.iso
 
-Qemu might be a little slow if you don't have the qemu kernel module running.
-
-Test [[USB]] image, like so:
-
-	qemu -hda webc-6.0.img
-
 # Proprietary VMware
 
 Windows or linux users can download [VMWARE player](http://www.vmware.com/download/player/download.html), which is free of cost.
@@ -47,13 +41,13 @@ Save the configuration below as a file named `webconverger.vmx` with webconverge
     usb.present = "TRUE"
 
 
-# Test videos proposal
+# Daily automated testing
 
-[Videos](http://video.google.co.uk/videoplay?docid=-4095341796996048842&hl=en-GB) with [Brendan's autotesting script](http://git.debian.org/?p=debian-live/autotesting.git).
+Thanks to Brendan Sleigh, a [daily Webconverger testing service](http://autotesting.livecd.org/autotesting/webconverger/daily/iso/) of the <http://build.webconverger.org/latest.iso> is in place.
 
-Problem is the process is quite CPU intensive.
+* [Brendan's autotesting script](http://git.debian.org/?p=debian-live/autotesting.git).
 
-# Elements to test
+# Important elements to test before delivery
 
 ## [[wireless]]
 
