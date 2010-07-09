@@ -11,3 +11,6 @@ contained in the images, in order to know which packages (and hence
 For example:
 
 * If the **cupsys** package is not included, you then know that particular version does not have any [[printing]] support.
+
+
+There is a service in the wiki which shows a [diff between each Webconverger release](http://webconverger.org/changes/), which uses the following [HTML diff script](http://stackoverflow.com/questions/2013091/coloured-diff-to-html).
