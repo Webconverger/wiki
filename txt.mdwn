@@ -1,12 +1,12 @@
 You may have noticed .txt (text files) like:
 
-    webc-2.29.en.txt
+<http://archive.webconverger.com/webc-6.2.txt>
 
-This is a package list of all the Debian packages contained in this version (2.29) of Webconverger.
+This is a package list of all the Debian packages contained in this version (6.2) of Webconverger.
 
-This is very useful to know the exact version number of individual packages contained in the images, ignoring [[upgrade]]s.
-
-Also it is good to know which packages (and hence [[features]]) are included.
+This is very useful to know the exact version number of individual packages
+contained in the images, in order to know which packages (and hence
+[[features]]) are included.
 
 For example:
 
