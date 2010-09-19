@@ -23,7 +23,8 @@
 
 # Types of [downloads](http://download.webconverger.com/)
 
-This ISO-hybrid available for [download](http://download.webconverger.com/) can be treated as either a [[ISO]] or [[USB]] image
+
+* This ISO-hybrid available for [download](http://download.webconverger.com/) can be treated as either a [[ISO]] or [[USB]] image
 * [[Package_listings|txt]]
 
 # Hardware
