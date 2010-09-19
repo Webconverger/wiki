@@ -1,4 +1,4 @@
-The serif [Gentium font](http://scripts.sil.org/Gentium) and the sans [DejaVu font](http://dejavu.sourceforge.net/) is included on every Webconverger distribution since version 2.21.
+The [sans-serif](http://en.wikipedia.org/wiki/Sans-serif) [DejaVu font](http://dejavu.sourceforge.net/) is included on every Webconverger distribution since version 2.21.
 
 # Installing the default Webconverger fonts on a Debian/Ubuntu machine:
 
@@ -7,7 +7,6 @@ The serif [Gentium font](http://scripts.sil.org/Gentium) and the sans [DejaVu fo
 
 # On other operating systems:
 
- * [Gentium download](http://scripts.sil.org/Gentium_download)
  * [DejaVu download](http://dejavu.sourceforge.net/wiki/index.php/Download)
 
 # Microsoft fonts

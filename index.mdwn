@@ -1,4 +1,4 @@
-# Welcome to the Webconverger Web kiosk project
+# Welcome to the Webconverger Web kiosk project wiki
 
 [Subscribe to the RSS feed](http://webconverger.org/blog/index.rss) of the [[blog]].
 
@@ -23,8 +23,7 @@
 
 # Types of [downloads](http://download.webconverger.com/)
 
-* [[ISO]]
-* [[USB]]
+This ISO-hybrid available for [download](http://download.webconverger.com/) can be treated as either a [[ISO]] or [[USB]] image
 * [[Package_listings|txt]]
 
 # Hardware
@@ -33,9 +32,6 @@ Webconverger works with **almost any standard x86 hardware** that meets
 [Firefox's minimum
 requirements](http://www.mozilla.com/en-US/firefox/system-requirements.html).
 However there are some interesting mini PC hardware options available, such as:
-
-* [[Koolu,_Linutop_and_interPC|mpc]]
-
 
 Customisation
 =============
