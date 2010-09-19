@@ -19,8 +19,6 @@
 * [[About_the_Opera_version|Opera]]
 * [[Testing_Webconverger|Testing]] - please join the QA effort
 * [[Content_filtering|Filtering]] and white listing are possible
-* [Bug Tracking Software](http://www.bontq.com)
-
 * [[Information_about_Fonts|Fonts]]
 
 # Types of [downloads](http://download.webconverger.com/)
