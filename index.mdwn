@@ -32,7 +32,7 @@
 Webconverger works with **almost any standard x86 hardware** that meets
 [Firefox's minimum
 requirements](http://www.mozilla.com/en-US/firefox/system-requirements.html).
-However there are some interesting mini PC hardware options available, such as:
+
 
 Customisation
 =============
