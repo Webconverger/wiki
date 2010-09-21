@@ -21,8 +21,7 @@
 * [[Content_filtering|Filtering]] and white listing are possible
 * [[Information_about_Fonts|Fonts]]
 
-# Types of [downloads](http://download.webconverger.com/)
-
+# Download Webconverger
 
 * This ISO-hybrid available for [download](http://download.webconverger.com/) can be treated as either a [[ISO]] or [[USB]] image
 * [[Package_listings|txt]]
