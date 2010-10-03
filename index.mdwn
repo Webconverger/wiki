@@ -16,7 +16,6 @@
 * [[Acknowledgements]] - thanks everyone!
 * [[Notes_on_Networking|Networking]]
 * [[Printing]] with [CUPS](http://www.cups.org/)
-* [[About_the_Opera_version|Opera]]
 * [[Testing_Webconverger|Testing]] - please join the QA effort
 * [[Content_filtering|Filtering]] and white listing are possible
 * [[Information_about_Fonts|Fonts]]
