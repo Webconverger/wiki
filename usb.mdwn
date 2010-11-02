@@ -9,22 +9,18 @@ stick/key](http://webconverger.org/blog/entry/Webconverger_6.1_release_notes).
 
 Please follow this [USB imaging guide from Ubuntu](https://help.ubuntu.com/community/Installation/FromImgFiles#Windows) or this one from [ArchLinux](http://wiki.archlinux.org/index.php/Install_from_a_USB_flash_drive).
 
-## Flashing an USB-Stick under Windows
+##Flashing an USB-Stick with v6.x under Windows Vista or 7
+Since version 6.1 webconverger provides a hybrid.iso which can be burned to CD or flashed on an usb-stick.
+In some scenarios flashing the hybrid-iso onto an usb-stick with MS Windows won´t work out.
 
-Since version 6.1 webconverger provides a hybrid.iso which can be burned to CD
-or flashed on an usb-stick.  In some scenarios flashing the hybrid-iso onto an
-usb-stick with MS Windows won´t work out.
-
-Here are the steps which helped some people:
-
-1. Download and install [Fedora LiveUSB Creator](https://fedorahosted.org/releases/l/i/liveusb-creator/liveusb-creator-3.9.1-setup.exe)
-1. Flash the hybrid-iso to your usb-stick
-1. change the word isolinux to syslinux in syslinux/syslinux.cfg
-1. old: default /*isolinux*/vesamenu.c32
-1. new: default /*syslinux*/vesamenu.c32
-1. plug in the usb-stick and boot from it
-
-These steps are taken from this post: [Webconverger 6.1 on USB flash drive - Michael Steinböck](http://groups.google.com/group/webc-users/browse_thread/thread/55b7717c5dfb2bc7/8c6e60148346e6fc#8c6e60148346e6fc)
+Here are the steps which helped some people:  
+1. Download [Roadkil's Disk Image](http://www.roadkil.net/program.php?ProgramID=12&Action=NewOSID&DownloadVersion=9&Installer=NO)  
+2. Download the iso-file  
+3. start 'Roadkil's Disk Image' as administrator (right click ...)  
+4. select the USB-Stick as target  
+5. select the iso-file as source  
+6. click start  
+7. plug in the usb-stick and boot from it
 
 # How to copy .iso to USB stick (under Linux):
 
