@@ -5,22 +5,18 @@
 images to be copied onto a USB
 stick/key](http://webconverger.org/blog/entry/Webconverger_6.1_release_notes).
 
-# How to copy the .iso file to a USB stick (under Windows):
-
-Please follow this [USB imaging guide from Ubuntu](https://help.ubuntu.com/community/Installation/FromImgFiles#Windows) or this one from [ArchLinux](http://wiki.archlinux.org/index.php/Install_from_a_USB_flash_drive).
-
-##Flashing an USB-Stick with v6.x under Windows Vista or 7
+# How to copy the .iso file to a USB stick using Windows
 Since version 6.1 webconverger provides a hybrid.iso which can be burned to CD or flashed on an usb-stick.
 In some scenarios flashing the hybrid-iso onto an usb-stick with MS Windows won´t work out.
 
-Here are the steps which helped some people:  
-1. Download [Roadkil's Disk Image](http://www.roadkil.net/program.php?ProgramID=12&Action=NewOSID&DownloadVersion=9&Installer=NO)  
-2. Download the iso-file  
-3. start 'Roadkil's Disk Image' as administrator (right click ...)  
-4. select the USB-Stick as target  
-5. select the iso-file as source  
-6. click start  
-7. plug in the usb-stick and boot from it
+You can follow [the USB imaging guide from Ubuntu](https://help.ubuntu.com/community/Installation/FromImgFiles#Windows), from [ArchLinux](http://wiki.archlinux.org/index.php/Install_from_a_USB_flash_drive), or follow the steps beneath. ([Roadkil's Disk Image](http://www.roadkil.net/program.php/P12/Disk%20Image) it is a more lightweight and flexible alternative to Win32 Disk Imager.)
+
+1. Download [Win32 Disk Imager](https://launchpad.net/win32-image-writer/+download) zip and unpack it.  
+1. Download the iso-file.  
+1. Start Win32DiskImager as administrator (right click …).  
+1. Select the iso-file as source (click the folder icon, and write *.iso in the path to be able to select the iso-file).  
+1. Select the USB-Stick as target device.  
+1. Click write.  
 
 # How to copy .iso to USB stick (under Linux):
 
