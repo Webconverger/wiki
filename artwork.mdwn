@@ -1,9 +1,3 @@
-[[!toc ]]
-
-# splashy (the bootup logo)
-
-Can you change the bootup logo? Short answer: **No**, not easily
-
 # The X windows centered background image on a white background
 
 `noxbg` [[boot]] option makes the X bootup screen blank.

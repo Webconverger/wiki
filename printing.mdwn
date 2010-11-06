@@ -1,3 +1,5 @@
+<a href="http://www.flickr.com/photos/hendry/5150959996/" title="CUPs by Kai Hendry, on Flickr"><img src="http://farm5.static.flickr.com/4006/5150959996_675ce18439.jpg" width="500" height="375" alt="CUPs" /></a>
+
 # [CTRL]+[p]
 
 Webconverger only prints to auto-detected CUPS **networked printers**.

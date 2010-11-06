@@ -1,8 +1,3 @@
-# Top browser issues
-
-* Debian problems [backporting FF](packages.qa.debian.org/i/iceweasel.html) 3.6 to lenny
-* [problems with extensions](http://groups.google.com/group/mozilla.dev.extensions/browse_thread/thread/1e42bdc1748d907a)
-
 ## BrowserLoadURL broken
 
 Overriding BrowserLoadURL in this kiosk extension was use to stop access to:
@@ -86,8 +81,8 @@ This will lock down the browser and you'll need to use the `firefox --safe-mode`
 
 The best way of installing and removing this extension is with:
 
-    deb http://debian.webconverger.com/ lenny/
-    deb-src http://debian.webconverger.com/ lenny/
+    deb http://debian.webconverger.com/ squeeze/
+    deb-src http://debian.webconverger.com/ squeeze/
 
 in your /etc/apt/sources.list and the `apt-get install iceweasel-webconverger` on a Debian machine.
 
