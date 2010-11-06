@@ -28,5 +28,5 @@ implemented by
 Google](http://code.google.com/p/chromium/issues/detail?id=23145). Firefox is
 still recommended, since it's more stable.
 
-A Paypal form optional is now available on the basic [Webconverger
-customisation purchase page](http://webconverger.com/buy/).
+A Google checkout alternative Paypal form is now available on the basic
+[Webconverger customisation purchase page](http://webconverger.com/buy/).
