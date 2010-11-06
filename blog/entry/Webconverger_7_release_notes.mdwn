@@ -1,0 +1,32 @@
+# Webconverger 7
+
+<a href="http://www.flickr.com/photos/hendry/5150959992/" title="Webconverger portal by Kai Hendry, on Flickr"><img src="http://farm2.static.flickr.com/1137/5150959992_3aea8ec435.jpg" width="500" height="375" alt="Webconverger portal" /></a>
+
+7.0 marks a huge milestone for Webconverger browser only operating system,
+since the Debian base system has upgraded from "lenny" to "squeeze".
+
+The [[6.2_to_7.0|changes/6.2-7.0]] has several highlights such as:
+
+* From Firefox 3.5.8 to [3.6.12](http://www.mozilla-europe.org/en/firefox/3.6.12/releasenotes/)
+* From the buggy [Splashy](http://packages.qa.debian.org/s/splashy.html) boot animation to [Plymouth](http://www.freedesktop.org/wiki/Software/Plymouth)
+* From [[Adobe]] Flash 10.1 to Flash 10.2
+* Faster booting thanks to [Debian Live](http://live.debian.net/)'s [live-boot](http://live.debian.net/devel/live-boot/) and [live-config](http://live.debian.net/devel/live-config/)
+
+There has been a [community discussed privacy
+change](http://groups.google.com/group/webc-users/browse_frm/thread/45d2483f1f983993),
+whereby Webconverger 7 reports its version to a [ping
+service](http://ping.webconverger.org/hgweb.cgi/file/tip/index.php).
+
+[Download now](http://download.webconverger.org) and [[burn to CD|iso]] or
+[[image to a USB stick|iso]] to boot your machine to just a browser.
+
+## New customisation services
+
+For those who offer their clients only a [[webcfullscreen|kiosk]] experience,
+Chrome can be used instead of Firefox. Further [chrome options are not yet
+implemented by
+Google](http://code.google.com/p/chromium/issues/detail?id=23145). Firefox is
+still recommended, since it's more stable.
+
+A Paypal form optional is now available on the basic [Webconverger
+customisation purchase page](http://webconverger.com/buy/).
