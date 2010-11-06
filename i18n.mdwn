@@ -1,48 +1,45 @@
 Webconverger has great support for worldwide cultures on boot. If you need to
-switch keyboard layouts, this is possible to configure using the `keyb=`
+switch keyboard layouts, this is possible to configure using the `keyboard-layouts=`
 switch. See the Russian example.
 
 # Setting up Webconverger for your locale
 
 Specify them on the [[boot]] parameter prompt.
 
-
 For example British English configurations:
 
-`live locale=uk` or `live locale=en_GB.UTF-8 keyb=uk`
+`live locales=uk` or `live locales=en_GB.UTF-8 keyboard-layouts=uk`
 
 For setting during a Debian-Live build option set **config/binary** like so:
 
-        LIVE_BOOTAPPEND="locale=en_GB.UTF-8 keyb=uk"
+        LIVE_BOOTAPPEND="locales=en_GB.UTF-8 keyboard-layouts=uk"
 
 or
 
-        LIVE_BOOTAPPEND="locale=uk"
+        LIVE_BOOTAPPEND="locales=uk"
 
 Sometimes a two letter shorthand for some locales (please test) may work for you.
 
 # Tested locales
 
 ### Swiss German
-locale=de_CH.UTF-8 keyb=ch kvariant=de
+locales=de_CH.UTF-8 keyboard-layouts=ch keyboard-variant=de
 ### Chinese
-locale=zh_CN.UTF-8 keyb=zh
+locales=zh_CN.UTF-8 keyboard-layouts=zh
 ### German
-locale=de keyb=de
+locales=de keyboard-layouts=de
 ### Spanish
-locale=es keyb=es
+locales=es keyboard-layouts=es
 ### French
-locale=fr
+locales=fr
 ### Italian
-locale=it
+locales=it
 ### Japanese
-locale=ja_JP.UTF-8
+locales=ja_JP.UTF-8
 ### Korean
-locale=ko_KR.UTF-8
-### Norwegian
-locale=no
+locales=ko_KR.UTF-8
 ### Finnish
-locale=fi keyb=fi
+locales=fi keyboard-layouts=fi
 
 # Testing
 
@@ -51,15 +48,15 @@ contribute that information to the wiki. :)
 
 ### Hungarian
 
-	locale=hu keyb=hu
+	locales=hu keyboard-layouts=hu
 
 ### Latvian
 
-	locale=lv_LV.UTF-8 keyb=lv,ru,us vga=773 koptions=grp:switch,grp:alt_shift_toggle,grp_led:scroll
+	locales=lv_LV.UTF-8 keyboard-layouts=lv,ru,us keyboard-options=grp:switch,grp:alt_shift_toggle,grp_led:scroll
 
 ### Russian
 
-	locale=ru_RU.UTF-8 keyb=us,ru koptions=grp:alt_shift_toggle
+	locales=ru_RU.UTF-8 keyboard-layouts=us,ru keyboard-options=grp:alt_shift_toggle
 
 Like Windows you press Alt+Shift to toggle between Cyrillic and Latin keyboard layouts.
 
@@ -69,12 +66,11 @@ Search for your code under 'Binaries' of [browser locale packages](http://packag
 
 # Chinese support example
 
-At the [[boot]] menu, entering `live locale=zh_CN.UTF-8 keyb=zh` as [this picture](http://www.flickr.com/photos/hendry/850230357) demonstrates, sets up Webconverger for the Chinese locale.
+At the [[boot]] menu, entering `live locales=zh_CN.UTF-8 keyboard-layouts=zh` as [this picture](http://www.flickr.com/photos/hendry/850230357) demonstrates, sets up Webconverger for the Chinese locale.
 
 <a href="http://www.flickr.com/photos/hendry/850230357/" title="Photo Sharing"><img src="http://farm2.static.flickr.com/1287/850230357_925f4a00c6_m.jpg" width="240" height="133" alt="Webconverger boot options for chinese support" /></a>
 
 Once booted in Chinese, or Japanese and Korean environments **CONTROL+SPACE** allows to switch between keyboard input modes via [scim](http://en.wikipedia.org/wiki/SCIM).
-
 
 <a href="http://www.flickr.com/photos/hendry/850230371/" title="Photo Sharing"><img src="http://farm2.static.flickr.com/1391/850230371_4ecbd13113_m.jpg" width="240" height="180" alt="Webconverger portal in Chinese" /></a>
 
@@ -111,7 +107,7 @@ Any suggestions to improve this locale support mechanism would be
 
 To look up the right codes, see:
 
-[/usr/share/i18n/SUPPORTED](http://static.natalian.org/2007-07-20/SUPPORTED) on an Debian system
+[/usr/share/i18n/SUPPORTED](/locales.txt) on an Debian system
 
 Lookup your country's codes at [ISO 3166](http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#MM).
 
