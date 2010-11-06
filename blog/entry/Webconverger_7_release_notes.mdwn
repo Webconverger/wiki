@@ -8,7 +8,7 @@ since the Debian base system has upgraded from "lenny" to "squeeze".
 The [[6.2_to_7.0|changes/6.2-7.0]] has several highlights such as:
 
 * From Firefox 3.5.8 to [3.6.12](http://www.mozilla-europe.org/en/firefox/3.6.12/releasenotes/)
-* From the buggy [Splashy](http://packages.qa.debian.org/s/splashy.html) boot animation to [Plymouth](http://www.freedesktop.org/wiki/Software/Plymouth)
+* From [Splashy](http://packages.qa.debian.org/s/splashy.html) boot animation to [Plymouth](http://www.freedesktop.org/wiki/Software/Plymouth)
 * From [[Adobe]] Flash 10.1 to Flash 10.2
 * Faster booting thanks to [Debian Live](http://live.debian.net/)'s [live-boot](http://live.debian.net/devel/live-boot/) and [live-config](http://live.debian.net/devel/live-config/)
 
