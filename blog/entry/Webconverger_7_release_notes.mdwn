@@ -5,7 +5,7 @@
 7.0 marks a huge milestone for the Webconverger browser only operating system,
 since the Debian base system has upgraded from "lenny" to "squeeze".
 
-The [[6.2_to_7.0|changes/6.2-7.0]] has several highlights such as:
+Between [[6.2_to_7.0|changes/6.2-7.0]] there are several highlights such as:
 
 * From Firefox 3.5.8 to [3.6.12](http://www.mozilla-europe.org/en/firefox/3.6.12/releasenotes/)
 * From [Splashy](http://packages.qa.debian.org/s/splashy.html) boot animation to [Plymouth](http://www.freedesktop.org/wiki/Software/Plymouth)
