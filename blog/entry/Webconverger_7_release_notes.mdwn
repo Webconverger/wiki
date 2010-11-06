@@ -18,7 +18,7 @@ whereby Webconverger 7 reports its version to a [ping
 service](http://ping.webconverger.org/hgweb.cgi/file/tip/index.php).
 
 [Download now](http://download.webconverger.org) and [[burn to CD|iso]] or
-[[image to a USB stick|iso]] to boot your machine to just a browser.
+[[image to a USB stick|usb]] to boot your machine to just a browser.
 
 ## New customisation services
 
