@@ -40,9 +40,12 @@ locales=ja_JP.UTF-8
 locales=ko_KR.UTF-8
 ### Finnish
 locales=fi keyboard-layouts=fi
+### Norwegian Bokmål
+locales=nb_NO.UTF-8 keyboard-layouts=no
+### Norwegian Nynorsk
+locales=nn_NO.UTF-8 keyboard-layouts=no
 
 # Testing
-
 Please check and test different locales. If they work (or don't!), please
 contribute that information to the wiki. :)
 
