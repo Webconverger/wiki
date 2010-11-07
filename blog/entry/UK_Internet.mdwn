@@ -39,12 +39,12 @@ channel gets full and doesn't properly handle ACKs.  The result is a long
 running ADSL  upload renders the Internet connection close to useless. So I
 usually have to upload overnight, which is a pain.
 
-There were connection errors and sadly the upload channel never seemed to 
-reach the first 2 mbit speeds which I had experienced when I first tried. Anyway I was quite happy with
-the BE connection, until the 8th of January when I came home to find the
-Internet connection wasn't working.
+There were connection errors and sadly the upload channel never seemed to reach
+the first 2 mbit speeds which I had experienced when I first tried. Anyway I
+was quite happy with the BE connection, until the 8th of January when I came
+home to find the Internet connection wasn't working.
 
-After an expensive  10 minute call to BE technical support in Siberia (ok,
+After an expensive 10 minute call to BE technical support in Siberia (ok,
 eastern Europe somewhere), they told me line is disconnected at the exchange.
 It would have been nice if they'd called me to tell me that BT had disconnected my
 line. Anyhoo, I call up BT residential.

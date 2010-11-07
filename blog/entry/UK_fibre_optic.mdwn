@@ -113,7 +113,6 @@ world. I can only think of:
 * USA, especially [Silicon Valley](http://en.wikipedia.org/wiki/Silicon_valley)
 * Japan
 * Korea
-* Bangalore, India
 * [Good list of FTTH countries from Wikipedia](http://en.wikipedia.org/wiki/Fiber_to_the_premises_by_country)
 
 It's a shame Britain can't seem to get its act together with respect to wired
@@ -121,3 +120,7 @@ fibre optic Internet links when we are such a small country. Attitudes must
 change. Fibre optics must come above ground. Britain must become better wired
 for new IT based economies to grow. Government should make this a national
 issue and nationalise the fibre optic network.
+
+Update: <http://www.bbc.co.uk/news/uk-england-cornwall-11441551> &
+<http://www.bbc.co.uk/news/technology-11435640>, though there are no details
+whether or not <http://prazefarm.co.uk/> will be able to enjoy those speeds. :(
