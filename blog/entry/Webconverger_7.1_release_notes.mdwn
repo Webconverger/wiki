@@ -1,0 +1,23 @@
+# Webconverger 7.1
+
+7.1 is a **security** update featuring [Firefox
+3.6.13](http://www.mozilla-europe.org/en/firefox/3.6.13/releasenotes/), with
+several other updates described in the [[7.0_to_7.1_changes|changes/7.0-7.1]].
+
+The [webc-7.1.iso](http://download.webconverger.org/webc-7.1.iso) `sha1sum` is
+db70cf1bda1a89ef5950f16d4244db392a5432e5 and ready for you to
+[download](http://download.webconverger.org) and image to a [[USB]] stick.
+
+I encourage you to all update and I will be
+[[monitoring_your_progress|privacy]] doing so.
+
+Please comment [on this webc-users
+thread](https://groups.google.com/d/topic/webc-users/dr23yXmxEg0/discussion) if
+you spot any issues.
+
+I would like to thank Daniel Bauman for making this release possible and for
+helping [me get more involved in Debian
+packaging](http://qa.debian.org/developer.php?login=hendry@iki.fi) (I think!).
+;)
+
+Happy holidays everyone and give the give of Webconverger!
