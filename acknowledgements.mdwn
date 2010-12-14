@@ -4,4 +4,4 @@ Andrei Popescu, Petter Reinholdtsen, Ben Armstrong, Guttorm Flatabø, Teemu Hukk
 
 Kai Hendry would also like to dedicate Webconverger to the memory of [Kimmo Raatikainen](http://www.cs.helsinki.fi/inmemoriam/Kimmo.Raatikainen/) who helped educate him.
 
-The Webconverger project founded in February 2007 at [Praze Farm, Cornwall](http://prazefarm.co.uk/) by Kai Hendry.
+The [Webconverger project](http://en.wikipedia.org/wiki/Webconverger) founded in February 2007 at [Praze Farm, Cornwall](http://prazefarm.co.uk/) by Kai Hendry.

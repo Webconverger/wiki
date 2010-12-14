@@ -20,4 +20,4 @@ release possible and for helping [me get more involved in Debian
 packaging](http://qa.debian.org/developer.php?login=hendry@iki.fi) (I think!).
 ;)
 
-Happy holidays everyone and give the give of Webconverger!
+Happy holidays everyone and give the gift of Webconverger!
