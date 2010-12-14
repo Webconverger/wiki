@@ -15,8 +15,8 @@ Please comment [on this webc-users
 thread](https://groups.google.com/d/topic/webc-users/dr23yXmxEg0/discussion) if
 you spot any issues.
 
-I would like to thank Daniel Bauman for making this release possible and for
-helping [me get more involved in Debian
+I would like to [[thank|acknowledgements]] Daniel Bauman for making this
+release possible and for helping [me get more involved in Debian
 packaging](http://qa.debian.org/developer.php?login=hendry@iki.fi) (I think!).
 ;)
 
