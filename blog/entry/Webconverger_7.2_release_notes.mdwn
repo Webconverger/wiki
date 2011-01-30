@@ -19,5 +19,5 @@ user base of Webconverger seems roughly _stable_ month by month at around
 
 My time on Webconverger is limited due to several other parallel projects I'm
 involved in, so if you can [help out](http://webconverger.com/work/), get in
-touch. Be good if someone could looking into [fixing the default language for
+touch. Be good if someone could [fix the default language for
 spelling](http://www.flickr.com/photos/hendry/5400400653/). :)
