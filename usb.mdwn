@@ -57,6 +57,8 @@ French support simply add:
 
 # Hacking the USB [[boot]]
 
+This only works on a `lh config -b usb-hdd` type **.img**. Iso-hybrid disks are unfortuantely **read only** once imaged to a disk.
+
 Plug your Webconverger USB stick in and mount the USB stick, for e.g.:
 
 	x61:~% sudo mount /dev/sdb1 /mnt/usb
