@@ -1,0 +1,7 @@
+Webconverger currently ships with the latest Web standards compliant [Firefox](http://en.www.mozilla.com/en/firefox/)/[Iceweasel](http://packages.qa.debian.org/i/iceweasel.html) 3 by default.
+
+## Reasons not use Internet Explorer (IE)
+
+* IE 7 is slow (couple of seconds to open a new tab)
+* IE 7 still has many many CSS errors
+* IE 7 still doesn't support the W3C DOM

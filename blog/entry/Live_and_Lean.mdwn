@@ -1,0 +1,19 @@
+<a href="http://www.flickr.com/photos/hendry/2510013812/" title="webc-3.0b2.mini with splashy by Kai Hendry, on Flickr"><img src="http://farm3.static.flickr.com/2115/2510013812_f48434924e.jpg" width="500" height="375" alt="webc-3.0b2.mini with splashy" /></a>
+
+Yesterday I was surprised to see a [Python](http://python.org/) in the [[packages_list|txt]]! A silly mistake is to use Python instead of simple shell when writing system scripts. You can even use [shell for Web stuff](http://dabase.com/e/04041/). :)
+
+I fealt very stupid when I found [webconverger-base depended on Python](http://git.webconverger.org/?p=webconverger-base.git;a=blob;f=debian/control). Woops! Fixed.
+
+Then I found out that [ALSA sound support depends on Python](http://packages.debian.org/lenny/alsa-utils). Doh. :/ How can I remove Python without killing the music?
+
+It gets worse. I had in mind to implement a [wpasupplicant](http://packages.qa.debian.org/w/wpasupplicant.html) Web interface with shell CGI with perhaps [mini-httpd](http://packages.qa.debian.org/m/mini-httpd.html). However wpasupplicant depends on [libpcsclite1](http://packages.debian.org/lenny/libpcsclite1) which in turns pulls in tons of dependencies with [pcscd](http://packages.debian.org/lenny/pcscd). A slipperly slope indeed.
+
+[Debian Live](http://debian-live.alioth.debian.org/) has a wonderful little hooks section `chroot_local-hooks` and a [stripped](http://git.debian.org/?p=debian-live/config-webc.git;a=blob;f=mini/config/chroot_local-hooks/stripped) example that helped Webconverger get on a diet.
+
+One of the most important software quality metrics is **less code**. One such movement is [suckless](http://www.suckless.org/wiki/) and armed with [sloccount](http://packages.qa.debian.org/s/sloccount.html) you go to work, add new features (maybe not) and **rework** the code. If you manage to have less lines of code than what you started with, then you're really following the principle of less code. :)
+
+So it feels particularly good to make Webconverger shed dependencies, [[packages|txt]] and lines of code from 3.0 beta 2 as you can see for yourself in either [[mini]] or [[maxi]] download sections.
+
+Update: I've since been pointed out many other packages in the [[list|txt]] that could be removed from Webcoverger like the legacy X driver packages. [Damn Small Linux](http://damnsmalllinux.org/packages.html) will be the guide to take Webconverger **sub-100 megs**.
+
+Update: [Small size image](http://wiki.debian.org/DebianLive/HowTo/SmallSizeImage) must be experimented with!

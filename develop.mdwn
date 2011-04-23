@@ -1,0 +1,49 @@
+* [[Core_concepts|design]]
+* [Webconverger live-helper configuration](http://git.debian.org/?p=debian-live/config-webc.git)
+* [Official Webconverger package repository](http://debian.webconverger.com)
+* [Webconverger git repositories](http://git.webconverger.org/)
+* [Webconverger daily builds](http://build.webconverger.org/) - [build script sources](http://git.webconverger.org/?p=build)
+* [[i18n]] - perhaps you could help translate the [portal](http://portal.webconverger.com/) into your local language?
+* [[Artwork]]
+* [[Firefox_extension_development|Kiosk]]
+* [Debian Live project](http://debian-live.alioth.debian.org/) and [Live helper packages](http://live.debian.net/)
+* [live-config lists the boot parameters](/live-config.txt) [src](http://live.debian.net/gitweb?p=live-config.git;a=blob;f=manpages/en/live-config.7). Also see [[boot]].
+
+If you are new to the project, **Welcome**! Please help by [[testing]]. Thank you!
+
+## Building on a Debian system:
+
+Building an image from scratch is usually only necessary if you need to
+customise the image's packages [[chrome|kiosk]] typically. You can use this <a
+href="http://webconverger.org/blog/entry/Webconverger_6.1_release_notes/">guide
+to persistently change [[boot]] options **without building**</a>.
+
+1. Download and install the **latest**
+[live-helper](http://live.debian.net/devel/live-helper/) from the Debian
+Live repository. Add the following lines to your `/etc/apt/sources.list`:
+
+	deb http://live.debian.net/ sid-snapshots main contrib non-free
+
+	deb-src http://live.debian.net/ sid-snapshots main contrib non-free
+
+1. `git clone git://git.debian.org/git/debian-live/config-webc.git`
+1. Take a long good look at [auto/config](http://git.debian.org/?p=debian-live/config-webc.git;a=blob;f=webconverger/auto/config)
+1. `lh config` to setup the configuration (this is the new live-helper 'autoconfig' style)
+1. `sudo lh build` in webconverger/ to kick off the long build process
+
+These steps are formalised in the daily build process's [build.sh](http://git.webconverger.org/?p=build;a=blob;f=build.sh).
+
+Next use this [[test_guide|testing]] on your freshly built image.
+
+1. [[todo]] has a list of bugs that need to be fixed. Please help Webconverger out and you will be [[acknowledged|acknowledgements]] for your contribution.
+1. Join the [Debian Live](http://debian-live.alioth.debian.org/) community. Peruse the [debian-live mailing list archives](http://lists.debian.org/debian-live/). :)
+
+## Debugging mode with the built Webconverger image
+
+Debugging in Webconverger simply involves removing `nosudo` from the [[boot]] options.
+
+## Commercial customizing service
+
+UK based Webconverger Limited offers a build service of the above at
+[Webconverger.com/buy](http://webconverger.com/buy/). We also test the image
+and offer a no-quibble money back guarantee.

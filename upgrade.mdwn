@@ -1,0 +1,8 @@
+* [upgrade](http://git.debian.org/?p=debian-live/config-webc.git;a=blob;f=webconverger/config/chroot_local-includes/etc/network/if-up.d/apt-upgrade) [[boot]] option
+
+# Future (proofing) stuff
+
+Static builds of Firefox with [Courgette](http://dev.chromium.org/developers/design-documents/software-updates-courgette) ?
+
+* <https://wiki.mozilla.org/Software_Update> and <https://bugzilla.mozilla.org/show_bug.cgi?id=508636>
+* [Binary diffs](http://blog.chromium.org/2009/07/smaller-is-faster-and-safer-too.html)

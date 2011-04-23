@@ -1,0 +1,91 @@
+body { font-family: "Dejavu Sans", Verdana, sans-serif; font-size: 90%; background-color: white;
+}
+
+#header h1 a:first-child {
+	background:transparent url(http://webconverger.com/logos/320x74webc.gif) no-repeat scroll left bottom;
+	display:block;
+	height:74px;
+	text-indent:-999px;
+	width:320px;
+}
+
+h1, h2, h3, h4, h5, h6  { font-family: Gentium, Georgia, serif; }
+h1                  { font-size: 2.5em; }
+h2                  { margin: 0em; }
+
+:link {
+	color: #164796;
+	outline-width: 0;
+	outline-offset: 0.1em;
+	-moz-border-radius: 0.5em;
+	-webkit-border-radius: 0.5em;
+	border-radius: 0.5em;
+	-webkit-transition-property: background-color, outline-width;
+	-webkit-transition-duration: 0.15s;
+	-webkit-transition-timing-function: ease-in-out;
+}
+:visited {
+	color: #831596;
+}
+:link:hover, :visited:hover {
+	background-color: #33FF33;
+	-moz-border-radius: 0.5em;
+	-webkit-border-radius: 0.5em;
+	border-radius: 0.5em;
+}
+:link:active {
+	color: #687996;
+	outline-color: #687996;
+}
+:visited:active {
+	color: #8f6796;
+	outline-color: #8f6796;
+}
+
+
+#nav                { float: left; width: 17em; }
+#main  { margin-left: 17em; border: thin #CCCCCC solid; padding: 1em;
+	-moz-border-radius: 0.5em;
+	-webkit-border-radius: 0.5em;
+	border-radius: 0.5em;
+}
+
+input[type=text], input[type=email], textarea { width: 90%; border: thin solid #33FF33; }
+input.homepage { width: 90%; font-size: 2.5em; border: thin solid #33FF33;}
+
+table { border-collapse: collapse; }
+td { padding: 0.1em 0.5em; }
+table td { border-left: 1px solid silver; border-right: 1px solid silver }
+
+
+td.yes, td.no, td.undecided { text-align: center; }
+td.no { background-color: #FF9999 }
+td.yes { background-color: #CCFF99 }
+
+p.tip { width: 18em; min-height: 2em; margin: 1em 2em; padding: 1em 1.4em; border: solid medium; text-align: center; float: right;
+	-moz-border-radius: 0.5em;
+	-webkit-border-radius: 0.5em;
+	border-radius: 0.5em;
+}
+
+
+
+p.tip :link, p.tip :visited { color: black; text-decoration: underline; }
+p.tip span { white-space: nowrap; }
+p.tip span :link, p.tip span :visited { text-decoration: underline; }
+
+p.tip { color: black; background: #FFFF99; border-color: #FFFF00; }
+
+form, .footer { text-align: center; }
+
+input:focus, textarea:focus, button:focus {
+	border: medium solid #33FF33;
+		}
+
+		img.screenshot { border: solid #CCCCCC thin;
+			-moz-border-radius: 0.5em;
+			-webkit-border-radius: 0.5em;
+			border-radius: 0.5em;
+}
+
+

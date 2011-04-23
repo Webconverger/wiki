@@ -1,0 +1,10 @@
+<a href="http://www.flickr.com/photos/hendry/3546424851/" title="Crashed ticket machine by Kai Hendry, on Flickr"><img src="http://farm4.static.flickr.com/3408/3546424851_f551c7a656.jpg" width="500" height="375" alt="Crashed ticket machine" /></a>
+
+A common [customisation request](http://webconverger.com/buy/) is to disable
+the [[boot_menu|boot]], in order to make this Web client tamper proof.
+
+You can edit `syslinux/syslinux.cfg` on the [[USB]] image to look something like this:
+
+	label linux
+		kernel /live/vmlinuz1
+		append initrd=/live/initrd1.img boot=live quiet homepage=http://portal.webconverger.com/ nonetworking splash vga=791 username=webc hostname=webconverger union=aufs

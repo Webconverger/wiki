@@ -1,0 +1,13 @@
+Webconverger provides the familiar browser interface without any costly extras.
+
+Webconverger argues that the browser navigation paradigm the most effective way to teach new and existing users, how to use the Internet.
+
+* Back button
+* Forward button
+* Reload button
+* Stop button
+* Home button
+* The **URL bar**
+* Search form
+* Tabs
+* Web applications

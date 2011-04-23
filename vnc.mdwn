@@ -1,0 +1,33 @@
+# Remote desktop
+
+Some customers require "remote desktop" functionality and this is accomplished
+with the "x11vnc - VNC server to allow remote access to an existing X session"
+package.
+
+Basically this allows the administrator to view the user's screen.
+
+The advantage is that the user can be guided remotely through an application.
+The disadvantage however is that the administrator could spy on what the user
+is doing, without the user's knowledge. Ideally the user would be warned that
+the administrator is now also viewing the screen, however this sort of
+warning/information dialogue does not exist in Webconverger.
+
+Therefore by default **x11vnc** will _not_ be in (uncustomised) versions of
+Webconverger as VNC inherently does not protect the privacy of users.
+
+# Howto connect to $client
+
+client=172.16.181.1 in my example.
+
+Connect to client with ssh and start VNC server
+
+	ssh 172.16.181.1
+	user@webconverger:~$ x11vnc -passwd CHANGEME
+
+Connect to VNC server
+
+	xvncviewer 172.16.181.128:5900
+
+[VNC](http://en.wikipedia.org/wiki/VNC) is not a secure protocol, however lets
+assume clients who require this feature are running Webconverger in some sort
+of secure intranet.

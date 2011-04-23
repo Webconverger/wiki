@@ -1,0 +1,73 @@
+Webconverger Limited (incorporated 11th September 2007 in England) is filing
+(or 'returning') its taxes for the first time (not to be confused with an
+[[Annual_Return]])! The dreaded corporation tax deadline is January 2009 and
+evidently you must **pay** before you submit the report in April. Confused?
+Join <a href="http://hendry.iki.fi/">me</a>!
+
+Armed with my [compromised UK Government
+Gateway](http://p10.hostingprod.com/@spyblog.org.uk/blog/2008/11/government-gateway-usb-memory-device-with-passwords-and-source-code-found-in-a-p.html)
+account details, I think I can pay [Corporation Tax via a Web
+application](https://online.hmrc.gov.uk/corporation-tax). There seem to be
+quite a few [third party tools](http://www.hmrc.gov.uk/efiling/ctsoft_dev.htm)
+to file taxes, though a quick peek doesn't excite me.
+
+The strategy for Webconverger I will adopt is this:
+
+1. Collect all bank statements and Google checkout orders
+* Give them to accountant (print and email)
+* Talk to accountant about how to pay the least tax possible
+* File taxes online using my Government Gateway account (not going to fiddle with agent access)
+
+Since I've never filed taxes before, I'm prepared to pay an accountant for
+advice as I would hate to be penalised for some novice mistake.
+
+Stumble to step one. There seems to be no sane way to print statements from the
+Barclays business account. I do not keep any statements as I shred them once I
+receive them. I've begged Barclays to stop killing trees and threatening my
+security by sending me statements, but they will not listen to me. Their
+business adviser doesn't return my calls. Oh, I loathe Barclays.
+
+Right, I'll export the data as
+[CSV](http://en.wikipedia.org/wiki/Comma-separated_values) which alarming
+Barclays thinks is Excel data. Rename data.csv as 2008.csv. [Data
+portabilty](http://www.dataportability.org/) is not hard! Oh wait, the Barclays
+CSV seems close to unreadable. Oh dear.
+
+	 ,15/10/2008,20-97-58 XXXXXXX,98.62,DIRECTDEP,GOOGLE CHECKOUT       WEBCONVERG         BGC
+
+Next, [Google checkout](http://checkout.google.com/). Ok, I have [complained to
+Google about frustrations exporting checkout
+data](http://groups.google.com/group/google-checkout-uk/browse_thread/thread/1049515cc972693f/e13d8b7ac7f56c2d?#e13d8b7ac7f56c2d)
+and hopefully it's now easy. Hmm, **no**, it still seems I can only [export my
+data a month at a time!](https://checkout.google.com/sell/orders) :(
+
+Oh man, [cloud
+computing](http://natalian.org/archives/2008/10/29/come-down-from-the-clouds/)
+sucks so bad. Ok, lets write a shell script:
+
+	#!/bin/sh
+	. ./secret.sh
+	for YEAR in 2007 2008
+	do
+	for MONTH in $(seq 1 12)
+	do
+	LASTDAY=$(echo $(cal $MONTH $YEAR) | awk '{print $NF}')
+	XML=$(cat << END
+	<order-list-request xmlns="http://checkout.google.com/schema/2" start-date="$YEAR-$MONTH-01T00:00:00" end-date="$YEAR-$MONTH-${LASTDAY}T23:59:59"></order-list-request>
+	END)
+	test $DEBUG && echo $XML
+	curl --data "$XML" https://$ID:$KEY@checkout.google.com/api/checkout/v2/reports/Merchant/$ID
+	done
+	done
+
+Phew, lucky I'm a computer science Masters graduate who knows how to workaround
+HORRIFIC XML APIS. Still I am missing all customer data from:
+
+	Google Order Number,Merchant Order Number,Order Creation Date,Currency of Transaction,Order Amount,Amount Charged,Financial Status,Fulfillment Status
+
+[CANIHAZALLMYDATAPLSGOOGLE?](http://groups.google.com/group/google-checkout-uk/browse_frm/thread/3ee23860164ea477/6b0794764f468872?lnk=gst&q=export+data#6b0794764f468872)
+
+Ok, next. How do I print CSV to study with my Pakistani accountant? This is
+what I bought a [[printer|blog/entry/Samsung_SCX-4200]] for! I can't just send
+the CSV text file to my accountant as an email attachment. That would be too
+easy. :)

@@ -1,0 +1,107 @@
+<a href="http://www.flickr.com/photos/hendry/4196706209/" title="HMRC formatting error by Kai Hendry, on Flickr"><img src="http://farm5.static.flickr.com/4044/4196706209_4437812bdf.jpg" width="464" height="500" alt="HMRC formatting error" /></a>
+
+As a UK VAT registered company you are obligated to file a 'VAT return' every three months.
+
+The <https://online.hmrc.gov.uk/vat-file> Web service from HM Revenue & Customs
+has improved slowly over the couple of years I've been using it. I've now signed up for Alerts, which tell me when a VAT return is due. Useful.
+
+There is now even an option to see View submitted returns, though it always
+says "There are no returns previously submitted available to view." on my
+account.
+
+Right now my procedure for submitting a VAT return goes something like this:
+
+
+1. Receive alert
+2. Procrastinate
+3. Swear to myself that are going to do it first thing this morning
+4. Get down to doing it a week before the due date
+5. Export my data as <abbr title="comma seperated value">CSV</abbr> from my Barclays bank business account
+6. Spend far too long putting it in the correct tables in the cash book in <http://docs.google.com/>
+7. Calculate VAT on the appropriate fields (only UK entries)
+
+Then I load up the [HMRC](http://en.wikipedia.org/wiki/HMRC) site and you get **9 boxes** to fill in:
+
+	1) VAT due in this period on sales and other outputs
+
+This is what you fill in if you charged VAT on a sale. For Webconverger this is
+only filled in for orders that originate in the United Kingdom.
+
+	2) VAT due in this period on acquisitions from other EC Member States
+
+Since Webconverger deals in
+[[electronic_goods|UK_VAT_return_on_Electronically_supplied_goods]], this
+field is always blank for the return.
+
+	3) Is automatically calculated (Sum of 1&2)
+	4) VAT reclaimed in this period on purchases and other inputs
+
+This is the important one, since Webconverger is VAT registered. The items you
+spend VAT on in the UK, you claim back. For example Webconverger claims VAT
+back on:
+
+* hardware purchases
+* ISP costs
+* [Google adwords](http://en.wikipedia.org/wiki/Adwords)
+
+And such and so forth. Once this is submitted, HMRC deposits this money back
+into Webconverger's bank account. Thanks very much.
+
+This is calculated on the Gross amount from the CSV import with a formula like
+`(C15-(C15/1.175))`. HOWEVER the VAT rate has been 15% in the UK between
+01/12/2008 - 31/12/2009 so you need to carefully check the formula is right for
+the particular date ranges. Otherwise you probably screwed up your return.
+
+	5) Net VAT to be paid to Customs or reclaimed by you (Difference between boxes 3 and 4)
+	6) Total value of sales and all other outputs excluding any VAT.
+
+Once painstakingly importing values from your bank statement into your cash
+book, you now need to calculate the **Net amounts** of payments without VAT.
+
+Thankfully most of Webconverger are not in the UK, so the gross amount is the
+net amount since I do not need to charge VAT for orders outside the UK.
+
+	7) Total value of purchases and all other inputs excluding any VAT.
+
+This is calculated in a spreadsheet with a formula like `=(C18-E18)`, I.e.
+Subtracting VAT (make sure you the correct value) from the Gross amount to get
+the Net amount (excluding VAT).
+
+	8) Total value of all supplies of goods and related costs, excluding any VAT, to other EC member states
+	9) Total value of acquisitions of goods and related costs excluding any VAT, from other EC member states
+
+I leave this blank, since software supplied over the Internet is not regarded
+as a "good".
+
+# Several ways to screw up the VAT return
+
+I assumed that the form somehow took all your UK (& outside UK) gross sales and
+calculated the VAT reclaim value for you for that particular period. For some
+bizarre reason **YOU** need to calculate this value manually and screw it up in
+a variety of ways. WHY HMRC? WHY?
+
+For example:
+
+* Getting the tax rate wrong (i.e. copy the wrong tax formula)
+* Submitting Gross values (with VAT) instead of Net values (ex VAT)
+* Accidentally filling in box 1 or 8/9 if you're a software company like Webconverger
+
+If you fill in 8/9, you are then obligated to fill in <abbr title="EC Sales
+lists">ECSL</abbr> returns. You don't want to go there.
+
+You could avoid all this hassle entirely if you are not VAT registered. However I think being VAT registered has a couple of advantages:
+
+* You can reclaim your VAT, which is important if you make a lot of local purchases and you do much more sales outside the UK
+* You can zero rate EU vat easier since companies in the EU expect you to be VAT registered, however since software is an electronic product EU companies should not need a EU VAT number. Unfortunately there seems to be a lot of confusion here.
+
+I want to see a system where my bank transactions are fed directly into the
+HMRC, so I don't have to worry about this. Currently exporting data from
+Barclays is a very manual task and then you need to sort out which transactions
+are UK based and which aren't. If Barclays had some extra meta data (TAX data,
+origin of payment/receipt) to their CSV exports, it would save a lot of time
+and money. If there was a standard CSV data interchange format, so I didn't
+have to convert the CSV into some braindead XML HMRC format, that would be even
+better.
+
+Again the <https://online.hmrc.gov.uk/vat-file> can be improved to easily amend
+recent returns.

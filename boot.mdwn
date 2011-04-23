@@ -1,0 +1,45 @@
+Webconverger adds a couple of extra boot parameters to [Debian Live's options](/live-config.txt), such as homepage, wlan, http_proxy, compose, [[noblank|blanking]].
+
+# A guide to editing the boot parameter
+
+Editing the `/proc/cmdline` can be done by hitting TAB on the boot screen.
+
+<a href="http://www.flickr.com/photos/hendry/4261594781/" title="Adding wireless arguments to Webconverger 6.0 by Kai Hendry, on Flickr"><img src="http://farm5.static.flickr.com/4065/4261594781_1dc14e7dde_m.jpg" width="240" height="180" alt="Adding wireless arguments to Webconverger 6.0" /></a>
+
+Please see [[USB]] about editing the syslinux kernel command line.
+
+### Your own homepage
+
+Edit `homepage=`
+
+See [[homepage]]
+
+(new) you can enter several homepages, which open in several tabs, e.g. `homepage=http://portal.webconverger.com/%20http://webconverger.com`
+
+### Use Webconverger in German, see [[i18n]] for more localisations
+
+append `locales=de`
+
+### Specify a HTTP proxy at 192.168.1.5 with port 8888
+
+append `http_proxy=http://192.168.1.5:8888`
+
+### To do some debugging
+
+remove `noroot`
+
+Once Webconverger is booted, the [dwm window manager](http://dwm.suckless.org/tutorial) defaults to shift+alt+enter for a Terminal. =)
+
+### To enable the Compose key
+
+Add `compose`
+
+### Setup to use [[wireless]] access point "san" with WPA password "francisco"
+
+Append `wlan=san,francisco,`
+
+### Force a (lower) screen resolution of 640x480
+
+append `xorg-resolution=640x480`
+
+### Want more? See [[develop]] and [[features]]

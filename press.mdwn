@@ -1,0 +1,67 @@
+Clients use Webconverger in:
+============================
+
+* [Sport relief 2008](http://flickr.com/photos/hendry/2315610422/) for taking donations
+* Banks for secure client Internet banking
+* Casinos
+* Car dealerships
+* Museum 'infopoints'
+* Retail shops for sales assistance
+* Bars
+* Clinics
+* In educational institutions
+* Libraries
+* Charities
+* Hotels
+* Tourist information infopoints
+* Waiting rooms
+
+
+Web feedback
+============
+
+
+* [Twitter](http://search.twitter.com/search?q=webconverger)
+* [Google blog search](http://blogsearch.google.com/blogsearch?hl=en&q=webconverger&btnG=Search+Blogs)
+* [Webconverger on Wikipedia](http://en.wikipedia.org/wiki/Webconverger)
+* [H-online](http://www.h-online.com/open/news/item/Webconverger-7-browser-only-OS-released-1132001.html)
+* [Technorati](http://www.technorati.com/search/webconverger.com)
+* [Freshmeat](http://freshmeat.net/projects/webconverger)
+* [Firefox facts](http://www.firefoxfacts.com/2007/04/05/webconverger-the-firefox-os/)
+* [Jure](http://www.kiberpipa.org/~gandalf/blog/?p=75) on [Planet LiveCD](http://planet.livecd.net/)
+* [Distrowatch Entry](http://distrowatch.com/table.php?distribution=webconverger)
+* [Current favourite for secure Internet banking - Webconverger](http://www.andrewpatrick.ca/security-and-privacy/quest-for-a-good-boot-cd-for-internet-banking/)
+* [Webconverger is a Winner: Very simply Internet kiosk](http://stefanomatic.wordpress.com/2008/09/03/internet-kiosk/)
+* [German tech site profiling USB linux distributions including Webconverger](http://www.tecchannel.de/pc_mobile/linux/1750236/)
+* [Google opensource talk](http://google-opensource.blogspot.com/2009/06/london-open-source-jam-13.html)
+
+Printed Media
+=============
+
+* [Linux Magazin](http://www.linux-magazin.de/news/webconverger_4_7_mit_firewall_und_adobe_reader)
+* [Linux Format #97](http://www.linuxformat.co.uk/modules.php?op=modload&name=NewArchives&issue=97) - "For surfers only"
+
+Foreign Language
+================
+
+
+* [ZoneFirefox ES](http://www.zonafirefox.net/2007/04/webconverger-el-sistema-operativo.html)
+* [Portuguese coverage](http://debuxos.blogspot.com/2007/04/ferramentas-informticas-gratuitas-on_19.html)
+* [Web 2.0 OS in Spanish](http://kernelsource.org/2007/04/18/webconverger-un-livecd-para-el-web-20/)
+
+Quoted positive feedback
+========================
+
+* I was looking for a Linux Live CD to do online banking and webc is the best solution out there. I'll suggest it to friends and forumers. Thank you. from M
+* "Thank you for what you have done so far. Of webkiosk livecds, yours is currently the best." from Larry
+* "I am looking for a boot CD to give to friends and relatives for safe Internet banking. Webconverger is the best I have found" from anonymous
+* "great work ! Really useful for safe and fast browsing. Very cool." from Marcel
+* 'Thanks for your support and this is a very useful "distribution".' from Christophe
+* 'That was my comment on how good it works! You are a good distro designer. Thanks for your response.' from Francis
+* "A fantastic OS/application-setup - thank you very much." from anonymous
+* I tested Webconverger mini in an ATOM based motherboard and works great. from Mauricio
+
+T-shirts
+========
+
+* [Visit the Webconverger spreadshirt shop](http://363362.spreadshirt.net/)

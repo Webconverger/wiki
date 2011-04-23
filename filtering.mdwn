@@ -1,0 +1,72 @@
+# Limiting users to your Website
+
+Firstly Webconverger needs to be [ordered](http://webconverger.com/) to be
+fixed to your homepage on startup.
+
+The problem: A common feature request is for whitelisting, content filtering and/or censorship.
+
+* Limit surfers to a domain (whitelisting)
+* Block pornography. The TLD .xxx would be a godsend!
+
+Recommended solution: To practically limit users to your Website, in your
+[customisation order](http://webconverger.com) please specify
+[[iceweasel-webcnoaddressbar|kiosk]]. This modifies the User Interface to
+remove the URL addressbar, so that users can't navigate away from your
+homepage.
+
+Alternatively these requirements could be implemented separately on the gateway
+or proxy in your network. Many good routers have blacklisting/whitelisting
+capabilities.
+
+You may also want to consider the [[kiosk_reset|blanking]] feature in order to
+reset Webconverger to your site every say, 3 minutes. This can help avoid
+Webconverger being set on a non-mandated Website for too long in public spaces.
+
+# Webconverger with OpenDNS
+
+[OpenDNS](http://www.opendns.com/) provide a filtering service.
+
+### Pros
+
+* Easy to implement (no cost)
+* Does not add any weight to Webconverger
+
+### Cons
+
+* Not really open :-)
+* Not using your ISP's DNS, so quite possibly slow
+* Only works on the Internet (so not good for Internal networks ... )
+
+# Using your WRT54G-L router
+
+As mentioned on <http://webconverger.org/blog/entry/Better_Routing_wanted>
+
+3rd party firmware like [dd-wrt](http://www.dd-wrt.com) provide options to
+limit WAN access under Access Restrictions to:
+
+* Website Blocking by URL Address
+* Website Blocking by Keyword
+
+# Webconverger and IPCop
+
+[IPCop](http://www.ipcop.org/) is a lfs-based firewall which can easily be tweaked up to an url-filter.
+
+### Pros
+
+* Easy to implement (no cost)
+* Does not add any weight to Webconverger
+* Secures your whole network from the Internet
+* Very user-friendly and task-based GUI
+* Great community behind the project
+
+### Cons
+
+* An additional PC must be installed
+* Networkinterfaces must be separated physically
+* No multi-WAN connections
+* AddOns can only be installed by using a shell
+
+Here are two links when you have questions about IPCop.
+
+* [English-Forum](http://www.ipcops.com/phpbb3/)
+* [German-Forum](http://www.ipcop-forum.de/)

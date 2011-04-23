@@ -1,0 +1,32 @@
+Below is my experiences of running a UK technology company and nothing really
+about Webconverger the super secure Web kiosk software.
+
+[Webconverger Limited](http://webconverger.com/) received an odd mail from
+[Companies House](http://www.companieshouse.gov.uk/) that the business was
+required to post an "Annual Return".
+
+At first I thought this was something to do with the annual Tax return which
+I've yet to do. After calling Company House, this hadn't anything to do with
+the Company Tax Return, it has to do with re-registering the company. A UK
+business ritual I was completely unaware of.
+
+Since forming the company with [Brighton
+formations](http://www.brightonformations.co.uk/) I assumed the company was
+registered. Though according to Company House the company needs to pay 15GBP a
+year, to keep registered.
+
+So I registered on their rather poor **Web filing** Web application and all the
+details that I expected Brighton formations to input weren't quite correct or
+just missing.  Crikey is this what you get for 50GBP from a formations company?
+
+So now I would not recommend forming a company with a "formation company". Just
+[register a company straight from Company
+house](http://www.companieshouse.gov.uk/infoAndGuide/companyRegistration.shtml)
+and save yourself 35GBP.
+
+Still paying [Companies House](http://en.wikipedia.org/wiki/Companies_House)
+15GBP just to confirm your records seems like some sort of "business listing"
+scam. What a lovely cash cow.
+
+I'm a little confused why Companies House seems complete separate from UK "The
+Government Gateway" from [HM Revenue & Customs](http://www.hmrc.gov.uk).

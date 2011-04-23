@@ -1,0 +1,57 @@
+Just for fun I compared [Ubuntu 8.04 Beta 'Hardy Heron'](http://www.ubuntu.com/testing/hardy/beta) to [[Webconverger_3]] (beta).
+
+I'm not sure if Ubuntu boots faster than Webconverger, but it certainly a lot
+slicker then the current text based boot of Webconverger.
+
+Ok, that bloated Gnome desktop loaded quicker than expected. I wondered what was behind that Mail icon.
+
+<a href="http://www.flickr.com/photos/hendry/2443396683/" title="Does not scale by Kai Hendry, on Flickr"><img src="http://farm4.static.flickr.com/3024/2443396683_53a683f16c_m.jpg" width="240" height="180" alt="Does not scale" /></a>
+
+Evolution... which I couldn't further trial as I couldn't figure out how to scale the window for the little screen I was testing Ubuntu on. :/
+
+Next I was amazed Ubuntu shipped Firefox 3b5. Earlier I was thinking I was being a bit risky with [[Webconverger_3]]!
+
+<a href="http://www.flickr.com/photos/hendry/2443396693/" title="ff3b5 by Kai Hendry, on Flickr"><img src="http://farm4.static.flickr.com/3256/2443396693_50ae0a0488_m.jpg" width="240" height="180" alt="ff3b5" /></a>
+
+I tried a couple of typical use cases in the browser environment.
+
+1. Opening a PDF
+* Watching a YouTube video
+
+Opening a PDF pops up an external window. In Webconverger [PDFs open inline the same browser window](http://www.flickr.com/photos/hendry/851173358/), which I think is much more usable.
+
+<a href="http://www.flickr.com/photos/hendry/2443396679/" title="PDF by Kai Hendry, on Flickr"><img src="http://farm4.static.flickr.com/3092/2443396679_2afc30fa95_m.jpg" width="240" height="180" alt="PDF" /></a>
+
+Next getting Youtube working was a 10 minute mission.
+
+1. [Choose your flash plugin](http://www.flickr.com/photos/hendry/2443396689/in/set-72157604743185232/)
+* [I chose the first option and waited for stuff to install](http://www.flickr.com/photos/hendry/2443396681/in/set-72157604743185232/)
+* [Er... I need a codec](http://www.flickr.com/photos/hendry/2444231600/in/set-72157604743185232/)
+* [And install the codec](http://www.flickr.com/photos/hendry/2443396691/in/set-72157604743185232/)
+* [Do some waiting](http://www.flickr.com/photos/hendry/2444231598/in/set-72157604743185232/)
+
+And finally after being very patient (or drunk) I managed to get a Youtube
+video to playback. Flash "just works" in Webconverger as the [non-free
+flash plugin](http://packages.qa.debian.org/f/flashplugin-nonfree.html) is preloaded.
+
+I did then try watch an [OGG video](http://en.wikipedia.org/wiki/Ogg_video) from Ubuntu's Firefox and it did manage to
+playback, which was impressive. However it was not [inline
+HTML](http://webkit.org/blog/140/html5-media-support/) of course.  I was unable
+to seek through the video and then I tried to watch the video again and it
+didn't seem to work at all. Sad. :/
+
+Worryingly I noticed [Canonical](http://canonical.com/) offer a [60GBP product
+to train people how to use their
+Desktop](https://shop.canonical.com/product_info.php?products_id=134). Most
+people I've observed miraculously don't require [[training]] with Webconverger.
+The typical question I get asked is howto shutdown the computer (A: the power
+button).
+
+Webconverger used to have quite a few versions, namely supporting different
+[[i18n]] locales. Now it's just [[mini]] and [[maxi]]. Ubuntu 8.10 has many
+flavours; "Ubuntu", JeOS, Edubuntu, Kubuntu, Xubuntu, UbuntuStudio, Mythbuntu and I think
+some more. Whatever happened to Debian's task selector with Ubuntu! ;)
+
+Anyway, I really think Ubuntu should endeavour to improve the user experience
+**via** the Web. The Web is the free software platform. Not these horrible
+Gnome/KDE "Windows" throwbacks. :)

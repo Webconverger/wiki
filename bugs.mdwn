@@ -1,0 +1,9 @@
+Link items to [[bugs/done]] when done.
+
+Also see the [[todo_list|todo]] and the [Webconverger Web forum](http://groups.google.com/group/webc-users).
+
+[[!inline pages="bugs/* and !bugs/done and !bugs/discussion and 
+!link(patch) and !link(bugs/done) and !bugs/*/*"
+feedpages="created_after(bugs/done)"
+actions=yes rootpage="bugs" postformtext="Add a new bug titled:" show=0]]
+

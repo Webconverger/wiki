@@ -1,0 +1,22 @@
+<a href="http://www.flickr.com/photos/hendry/4227750495/" title="Webconverger USB boot testing by Kai Hendry, on Flickr"><img src="http://farm5.static.flickr.com/4015/4227750495_a14214b431.jpg" width="500" height="375" alt="Webconverger USB boot testing" /></a>
+
+Seasons greetings! Apologies for the delayed security release, that is **5.9**.
+I have been enduring a cold and
+[BT](http://en.wikipedia.org/wiki/British_telecom) [20CN 'professional'
+broadband which limits me to 3GB of traffic between 9am-6pm for the
+MONTH](http://aaisp.net/broadband-units.html) in [Cornwall,
+UK](http://prazefarm.co.uk)! Yes, it's almost 2010! And that also means the
+feedback email address has been updated to &#102;&#101;&#101;&#100;&#098;&#097;&#099;&#107;&#050;&#048;&#049;&#048;&#064;&#119;&#101;&#098;&#099;&#111;&#110;&#118;&#101;&#114;&#103;&#101;&#114;&#046;&#099;&#111;&#109;
+
+So what has changed in **5.9** over [[5.8|5.8_release_notes]]?
+
+	vimdiff http://download.webconverger.org/webc-5.8.txt http://download.webconverger.org/webc-5.9.txt
+
+* hefty [flash security update](http://www.adobe.com/support/security/bulletins/apsb09-19.html)
+* Bloated [GNU grub](http://en.wikipedia.org/wiki/GNU_GRUB) is dropped on [[ISO]] which should mean wider hardware support
+* [[hetty]] has been upgraded meaning quicker builds and [order](http://webconverger.com/buy/) turnarounds
+* Unfortunately some bloat crept in (avahi, dbus, xorg-docs) -- will remove them later
+
+Please report any issues that are not in the [[todo_list|todo]] on the friendly [mailing list](http://groups.google.com/group/webc-users).
+
+Happy surfing!

@@ -1,0 +1,68 @@
+# Welcome to the Webconverger Web kiosk project wiki
+
+[Subscribe to the RSS feed](http://webconverger.org/blog/index.rss) of the [[blog]].
+
+### If you want to ask a question about Webconverger usage, try the [forum for Webc users](http://groups.google.com/group/webc-users/topics)!
+
+
+* [Twitter updates](http://twitter.com/Webconverger)
+* [Download Webconverger](http://download.webconverger.com/) - [German mirror](http://download.webconverger.org/)
+* [[Design_document|Design]]
+* [[TODO]] list
+* The [Debian-Live project](http://debian-live.alioth.debian.org/) and [[Debian]] is where Webconverger is derived from
+* [[Firefox_extension_development|Kiosk]]
+* [[Internationalisation_and_localisation|i18n]]
+* [[Developer_information|Develop]]
+* [[Acknowledgements]] - thanks everyone!
+* [[Notes_on_Networking|Networking]]
+* [[Printing]] with [CUPS](http://www.cups.org/)
+* [[Testing_Webconverger|Testing]] - please join the QA effort
+* [[Content_filtering|Filtering]] and white listing are possible
+* [[Information_about_Fonts|Fonts]]
+
+# Download Webconverger
+
+* This ISO-hybrid available for [download](http://download.webconverger.com/) can be treated as either a [[ISO]] or [[USB]] image
+* [[Package_listings|txt]]
+
+# Hardware
+
+Webconverger works with **almost any standard x86 hardware** that meets
+[Firefox's minimum
+requirements](http://www.mozilla.com/en-US/firefox/system-requirements.html).
+
+
+Customisation
+=============
+
+
+* [Purchase customisation and support](http://webconverger.com/buy/)
+* [[Homepage]] by default is the [Webconverger Portal](http://portal.webconverger.com/)
+* [[Features]] you could choose from
+* [[Artwork]] information
+* [[Boot_tutorial|boot]]
+
+Webconverger in the press
+=========================
+
+* [[What_people_are_saying_about_Webconverger|Press]]
+
+Reasons for using Webconverger
+==============================
+
+
+* [[Ideal_just_for_Web_applications]]
+* [[Free_&_open_software]]
+* [[Low_requirements|Requirements]] - can run on old/cheap hardware and can be ported to run on embedded devices
+* Good [[security]] features by [[design]]
+* [[Deployment]] options abound, though the most common by far is LiveCD
+* [[Web_Standards]] compliant
+* [[Cost_effective]] - try the [free version](http://download.webconverger.com/) or order a [customised version](http://webconverger.com/buy)
+* [[No_users_or_registration|Registration]]
+* [[Flash_and_PDF_viewer|Adobe]]
+* [[Easy_to_use|Training]]
+* [[Low_Maintenance|Maintenance]]
+* Commercial [[Support]] via [Webconverger.com](http://webconverger.com/) is available. Please enquire.
+* [[privacy]]
+
+[[!ping from="http://webconverger.org" to="http://hetty.webconverger.org/ikiwiki.cgi?do=ping"]]

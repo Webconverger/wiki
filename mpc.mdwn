@@ -1,0 +1,81 @@
+# Embedded hardare
+
+Update: These devices are becoming known as <a href="http://en.wikipedia.org/wiki/Nettop_(computer)">Net Tops</a>. The Atom based generation should fix some of the speed Cons listed below...
+
+Most of todays embedded boards are based on [AMD Geode](http://en.wikipedia.org/wiki/AMD_Geode) LX platform. Some of the [mini
+PCs](http://en.wikipedia.org/wiki/Template:Linux_mini_computers) are:
+
+* [Viglen](http://www.viglen.co.uk/webmail/pdfs/MPC-l.pdf)
+* [Linutop](http://www.linutop.com/)
+* [Koolu](http://www.koolu.com/)
+* [interPC](http://www.interpc.biz/)
+
+
+## Pros
+
+* Silent
+* Small physical footprint
+* Robust
+* Low energy consumption
+
+
+## Cons
+
+* Long order times
+* `acpi=off` to boot successfully
+* Needs some patches with the video drivers
+* You need to arrange the monitor, keyboard and mouse for the device
+* [Sluggish CPU](http://en.wikipedia.org/wiki/Amd_geode#AMD_Geode)
+* Very slow uncompressing LH_CHROOT_FILESYSTEM="squashfs"
+* Sometimes issues with large external monitors
+
+
+# Koolu
+
+## CPU
+
+        processor       : 0
+        vendor_id       : Geode by NSC
+        cpu family      : 5
+        model           : 5
+        model name      : Geode(TM) Integrated Processor by National Semi
+        stepping        : 2
+        cpu MHz         : 398.474
+        cache size      : 32 KB
+        fdiv_bug        : no
+        hlt_bug         : no
+        f00f_bug        : no
+        coma_bug        : no
+        fpu             : yes
+        fpu_exception   : yes
+        cpuid level     : 1
+        wp              : yes
+        flags           : fpu de pse tsc msr cx8 pge cmov mmx mmxext 3dnowext 3dnow
+        bogomips        : 798.25
+
+# Cost
+
+You don't need a hard drive for current versions of Webconverger. Future
+versions of Webconverger will hopefully utilise the hard drive, however best
+save money and don't buy an internal hard drive MPC for now.
+
+Koolu thin client: 179EUR (+30EUR shipping) from _info AT koolu.nl_ including vat
+compared to the [Linutop's
+280EUR](http://www.linutop.com/shop/product_info.php?products_id=28)
+
+# Hands on
+
+Phil Hands and Luke Leighton have done some [Koolu optimised packages.](http://ftp.hands.com/hands-deb/pool/koolu/)
+
+## Hard drive installation
+
+If you want to give is a try, boot any standard Debian Etch install media, and at
+the boot prompt, type:
+
+    auto url=hands.com classes=koolu acpi=off
+
+It's not Webconverger, though it's quite close! From here you should add the Webconverger `/etc/apt/sources.list` line:
+
+    deb http://debian.webconverger.com/lenny/
+
+And be able to install [[extensions|kiosk]] like iceweasel-webconverger. Good luck.

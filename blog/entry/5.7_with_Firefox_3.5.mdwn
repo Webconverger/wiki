@@ -1,0 +1,69 @@
+<a href="http://www.flickr.com/photos/hendry/4085980133/"><img src="http://farm3.static.flickr.com/2596/4085980133_d2a61f537e.jpg" width="500" height="375" alt="Webconverger 5.7 playing back HTML5 video" /></a>
+
+5.7 features a lenny backported [Firefox 3.5](http://www.mozilla.com/en-US/firefox/upgrade.html) build, finally!
+
+Overall I would consider this release as **experimental**.
+
+There is a couple new known bugs introduced with Firefox 3.5. Namely you can
+now non-persistently change configuration settings in the about: URL and browse
+the local filesystem.
+
+This introduces possibly some security issues and of course I would rather have
+the kiosk more locked down that this current state. Sadly Firefox is very
+difficult to modify into a sane kiosk deployment. I've written a kiosk
+extension myself and trying to implement `NsIContentPolicy` to control these
+local URLs and file downloads is proving to be beyond my ability.
+
+If you're a developer familiar with Firefox, please take a look at my notes on
+the [[kiosk]] wiki page.
+
+# Debian installer is disabled
+
+Yes, I've disabled the debian installer again. I am finding it far too complex
+and I am tempted to to write my own simpler installer based on `dd`.
+
+If you are tech-savvy you can simply install Webconverger to your hard drive by:
+
+	wget http://download.webconverger.org/webc-5.7.img
+	sudo dd if=webc-5.7.img of=/dev/sda
+
+This will **replace** the contents of your first hard drive (typically) with Webconverger.
+
+What I do in my deployments is use a "debug version" of Webconverger to perform these installs.
+
+# 5.7 release notes
+
+I've enabled FF3.5's [Private
+Browsing](http://support.mozilla.com/en-US/kb/Private+Browsing) feature by
+default. Strictly speaking since the `~/.mozilla` directory is purged between
+sessions, this enabling this "private browsing" feature is totally unneccessary
+and probably introduces problems. However I'm thinking "security in layers" and
+"lets give it go".
+
+Spelling does not seem to work. Something is wrong with the myspell
+dictionaries and FF3.5 backport. I need to fix this. On the plus side, you
+might find Webconverger quicker. :)
+
+If you notice a [SPLASHY
+ERROR](http://www.flickr.com/photos/hendry/4085980139/) on bootup, do not be
+alarmed, this is normal. I am looking to replace the horrible software used to
+simply not have linux print copious lines out to the screen, with another crazy
+like the 28k SLOC [Project
+Plymouth](http://www.freedesktop.org/wiki/Software/Plymouth). Ok, maybe not. :)
+If only linux `quiet` worked.
+
+# Download mirrors
+
+* [Germany](http://download.webconverger.org/)
+* [California](http://download.webconverger.com/)
+
+Questions? Please mail the [kiosk's public mailing list](http://groups.google.com/group/webc-users/topics)!
+
+# Do you use Webconverger in your business?
+
+You have every right to do so! Please take a picture of Webconveger in action
+and upload it Flickr with the tag "webconverger".
+
+<http://www.flickr.com/photos/tags/webconverger/>
+
+Please email private feedback to the email address at the bottom of <http://webconverger.com/>, thank you!

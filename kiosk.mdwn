@@ -1,0 +1,105 @@
+## BrowserLoadURL broken
+
+Overriding BrowserLoadURL in this kiosk extension was use to stop access to:
+
+* file://
+* about:
+* resource:
+
+File browsing is not really a security problem, though some people perceive it to be, therefore `file://` should be disallowed.
+
+[BrowserLoadURL does not work in Firefox
+3.5](http://git.webconverger.org/?p=iceweasel-webconverger.git;a=blob;f=src/webconverger.js;h=433c420ffccb70f065f15e36128f1d62e71c3619;hb=HEAD#l29)
+
+This [issue has been raised on
+mozillazine](http://forums.mozillazine.org/viewtopic.php?f=38&t=570826&start=15),
+however the fixes involve hacking browser.jar instead of overriding it with
+browser.xul, as what extensions should be doing. The final suggestion of fixing
+the local file browsing issue elegantly with CSS with:
+
+	@-moz-document url-prefix(file://) {
+	html > body { visibility: hidden !important;
+	}
+
+Does not work in my tests. :(
+
+<https://bugzilla.mozilla.org/show_bug.cgi?id=524951>
+
+## Stopping downloads
+
+Stopping downloads should just work with
+<http://git.webconverger.org/?p=iceweasel-webconverger.git;a=blob;f=content/unknownContentType.xul>,
+however Firefox just continues downloading the file with the `.part` extension.
+
+Setting the [download dir as /dev/null](http://git.webconverger.org/?p=iceweasel-webconverger.git;a=blob;f=defaults/preferences/prefs.js;h=88f7bdad1c8d3ea3671a82fffc130552f81e9d89;hb=HEAD#l9) does not work either btw.
+
+This must limit needs to be in place as an attacker could start downloading a
+large file e.g.  <http://download.webconverger.org/webc-5.5.tar.gz> and render
+an average Internet connection useless. Also in many countries "PAYG Internet"
+exists, so this hole can burn a hole in the pocket of Internet café operators.
+
+irc.mozilla.org's #extdev sez I should look at <https://developer.mozilla.org/en/nsIDownloadProgressListener> to disable downloads.
+
+<https://bugzilla.mozilla.org/show_bug.cgi?id=524949>
+
+TODO: Implement <https://developer.mozilla.org/en/NsIContentPolicy> by [building a XPCOM Component in Javascript](https://developer.mozilla.org/en/How_to_Build_an_XPCOM_Component_in_Javascript)
+
+# iceweasel-webconverger
+
+Default and most common.
+
+<a href="http://www.flickr.com/photos/hendry/845129157/" title="Photo Sharing"><img src="http://farm2.static.flickr.com/1188/845129157_824320ad82_m.jpg" width="240" height="180" alt="Webconverger booted" /></a>
+
+# iceweasel-webcnoaddressbar
+
+Customization option. For customers who want patrons to browse, but not enter
+in URLs.
+
+<a href="http://www.flickr.com/photos/hendry/2934652998/" title="Webconverger noaddressbar kiosk extension demo by Kai Hendry, on Flickr"><img src="http://farm4.static.flickr.com/3034/2934652998_462143ea42.jpg" width="500" height="375" alt="Webconverger noaddressbar kiosk extension demo" /></a>
+
+# iceweasel-webcfullscreen
+
+Customization option. For customers who want to do [Digital signage](http://en.wikipedia.org/wiki/Digital_Signage) or just [show off some pictures](http://www.subitophoto.net/slideshow/machupicchu/) somewhere.
+
+<a href="http://www.flickr.com/photos/hendry/903110103/" title="Photo Sharing"><img src="http://farm2.static.flickr.com/1351/903110103_3b82387709_m.jpg" width="240" height="180" alt="iceweasel-webcfullscreen" /></a>
+
+If you're concerned about the scroll bar, alter the **overflow** CSS element. Here is an [example of a Web application providing a digital sign](http://alephitv.com/webconverger.html).
+
+## Implementation
+
+We have forked rkiosk and created our own extension, (iceweasel-)webconverger.
+We had to do this as I had to modify some of upstream's packaging and
+functions.  Upstream was also a little un-cooperative.
+
+* [iceweasel-webconverger.git](http://git.webconverger.org/?p=iceweasel-webconverger.git).
+
+## Test the extension on your Firefox browser
+
+[http://webconverger.com/xpis](http://webconverger.com/xpis)
+
+This will lock down the browser and you'll need to use the `firefox --safe-mode` to remove it.
+
+The best way of installing and removing this extension is with:
+
+    deb http://debian.webconverger.com/ squeeze/
+    deb-src http://debian.webconverger.com/ squeeze/
+
+in your /etc/apt/sources.list and the `apt-get install iceweasel-webconverger` on a Debian machine.
+
+## Slideware
+
+"iceweasel-fullerscreen" is the name of the package of Daniel Glazman's
+[FullerScreen](https://addons.mozilla.org/en-US/firefox/addon/4650) extension.
+It is good particularly for slideshows, though not digital signage as
+'FullerScreen' does not allow [[Flash|adobe]] movies to go fullscreen.
+
+#### Further Links
+
+* [Ubufox](http://packages.ubuntu.com/search?keywords=ubufox) - Ubuntu's custom kiosk modifications
+* [Another kiosk wiki](http://stlouis-shopper.com/cgi-bin/mozdev-wiki/kiosk-wiki.pl)
+* [Kiosk browser extension](https://addons.mozilla.org/firefox/954/)
+* [Bugzilla kiosk related bugs](https://bugzilla.mozilla.org/buglist.cgi?quicksearch=kiosk)
+* [del.icio.us links](http://del.icio.us/search/?fr=del_icio_us&p=firefox+kiosk&type=all)
+* [GNU Kiosk](http://kiosk.mozdev.org/)
+* [rkiosk](https://addons.mozilla.org/firefox/1659/)
+* [public fox](https://addons.mozilla.org/en-US/firefox/addon/3911)

@@ -1,0 +1,27 @@
+# When Xorg 1.4.2 first boots it shows a squashed screen on a WinmateR15T63
+
+<img src="../squashedX1.jpg">
+
+# Workaround
+
+One workaround is start X attached to a <a
+href="../Dell1504FPaXorg.1.log">different Dell1504FP monitor</a>. Then switch
+back to the touchscreen. Now the display takes the full width. (?)
+
+<img src="../squashedX2.jpg">
+
+# Resolution detection bug?
+
+I assumed it had to do with the screen resolution being mis-detected by Xorg.
+However both images are reported being displayed by the monitor at 1024x768!
+
+<img src="../squashedX3.jpg">
+<img src="../squashedX4.jpg">
+
+However on closer inspection the <a href="../WinmateR15T630Xorg.1.log">Winmate T15 T630 Xorg.log</a> shows
+
+	(II) intel(0): Output VGA using initial mode 1280x768
+
+It seems like the monitor was lying and it really was a screen resolution detection problem!
+
+[[bugs/done]]

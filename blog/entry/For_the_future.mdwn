@@ -1,0 +1,18 @@
+<a href="http://www.flickr.com/photos/hendry/2327761930/" title="Webconverger logo by Kai Hendry, on Flickr"><img src="http://farm4.static.flickr.com/3282/2327761930_b38a15e610_m.jpg" width="240" height="180" alt="Webconverger logo" /></a>
+
+
+Customers have been asking for [customisations](http://webconverger.com/buy/) particularly without [[auto_updates|upgrade]]. Urm, obviously something is wrong.
+
+[[Automagic_upgrading|upgrade]] was supposed to be a [[feature|features]] you want, not that something you don't!
+
+My fear is that people will be using old versions of Webconverger and hence old browsers. I want to push the Web forward. Not lock my users into the present. Besides, old browsers can be a serious [[security]] risk [for example](http://www.debian.org/security/2008/dsa-1489).
+
+So many ideas have been buzzing around my head. How to make upgrades work. Work much better. Work long into the future...
+
+Currently using [Debian packages, when Firefox gets updated it requires about a 8 meg download](http://packages.debian.org/sid/iceweasel). That's _insane_ as usually the difference between 2.0.0.10 and say 2.0.0.11 can be just a few lines of code!
+
+So from **2.38** I've deployed [rsync](http://en.wikipedia.org/wiki/Rsync), which is configured at boot to just update Firefox. It's called **iceweaselupgrade** and it should be a **lot faster** than normal `apt-get update && apt-get dist-upgrade`.
+
+Still there is loads of room for improvement, as since the browser is dynamically linked, I doubt this upgrade strategy will be stable in the long term.
+
+Oh I hope you like the new logo. It's final! :)

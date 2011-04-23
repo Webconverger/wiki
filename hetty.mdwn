@@ -1,0 +1,17 @@
+Hetty is a [EQ4](http://www.hetzner.de/en/hosting/produkte_rootserver/eq4/) dedicated server supplied by [Hetzner online](http://www.hetzner.de) in Germany.
+
+* [Control panel](https://robot.your-server.de/)
+* [Hetzner status and fault reports](http://translate.google.com/translate?hl=de&langpair=de|en&u=http://www.hetzner-status.de)
+* [Hetzner wiki](http://wiki.hetzner.de/) with a [Debian section](http://wiki.hetzner.de/index.php/Debian)
+
+It is configured as a 32bit Debian "squeeze" system. It replaces an older machine at 88.198.3.35.
+
+There are two other machines that are used by Webconverger Limited:
+
+* jurupa - webconverger.com at [Dreamhost](http://www.dreamhost.com/r.cgi?104617) in California - 120USD (~75GBP) a year
+* webc (212.13.195.83) - webconverger.org hosted by a Xen VPS from [Bitfolk](http://bitfolk.com) based in London, England - ~200GBP year
+
+Hetty (88.198.64.227) is rented for the following functions:
+
+* Performing [builds](http://build.webconverger.org/)
+* Storage & [backup](http://hetty.webconverger.org/) -- webc only has 20G!

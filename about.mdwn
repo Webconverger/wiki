@@ -1,0 +1,98 @@
+[[!meta title="Webconverger Comparison Matrix"]]
+
+Webconverger is a simple and secure Web platform.
+
+# Introduction
+
+<p>Webconverger is an evolution of the <a
+href="http://en.wikipedia.org/wiki/Hybrid_client">hybrid client</a> for
+deployments in places like offices or Internet cafes where only <a
+href="http://en.wikipedia.org/wiki/Web_application">Web applications</a> are
+used.</p>
+
+<p>Unlike <a href="http://en.wikipedia.org/wiki/Thin_clients">thin</a> or <a
+href="http://en.wikipedia.org/wiki/Hybrid_client">hybrid</a> clients,
+Webconverger is faster and more responsive by providing a up-to-date Web
+browser that runs locally.</p>
+
+# Why Webconverger
+
+* Simple
+* Reliability
+* Sandboxed security
+* Better [[i18n]] support for difficult locales like Chinese, Korean and Japanese
+
+# Comparison with Microsoft Windows products
+
+Below are products that run on the Windows platform. Microsoft exert their
+monopoly on OEMs, hiding the true license cost of about 60GBP (XP Home) or
+190GBP (Vista Ultimate) from the average consumer.
+
+## Kioware
+
+* [KioWare](http://www.kioware.com)
+
+KioWare's [pricing](http://www.kioware.com/kw_pricing.asp) seems to be based on
+a tradional per seat licensing model. Webconverger customers are free to copy
+and install their [customised](http://webconverger.com/buy/) copy on *as many
+machines as they like*.
+
+So lets take a typical deployment of 10 machines (Pricing effective 9/7/2008 and subject to change):
+
+* Kioware License 135*10 = 1350 USD
+* Webconverger = ~200 USD (Webconverger saves customers more than 1000USD!)
+
+Support is free of cost with Webconverger for 30 days. Kioware would charge 10 machines:
+
+* Kioware support price 27*10 = 270 USD
+
+## SiteKiosk
+
+Please view [[blog/entry/SiteKiosk_versus_Webconverger]].
+
+## Microsoft Steady State
+
+[Microsoft Steady
+State](http://www.microsoft.com/windows/products/winfamily/sharedaccess/) is
+based on a vanilla Windows XP installation. If a malicous hacker is out to
+break it, he will as the image is not updated.  An AV-program (with certain
+scripts to write virus update signatures into the Steadystate cache, otherwise
+AV updates would be swept off after every reboot...) is still required as a
+virus could for example infect the MBR, corrupt the Steadystate cache partition
+and just mess up the system in general.
+
+A complete reboot is required to clean up the system after the user leaves the
+system, due to the nature of the system each reboot means that multiple
+gigabyte of data are being copied from one partition to the other. That takes a
+good 3-4 minutes on an average system and it's of course also pretty stressing
+for the HD.
+
+The good thing about Steadystate is that it allows me to offer a full Windows
+XP installation with MS office, Skype, Instant-messaging software and whatnot
+to the guests.  The downside is that it breaks continuously and is much more
+trouble than it's worth to maintain when most people really just want to check
+their webmail.  I could go on all day ranting about how something like Windows
+XP with Steadystate is inferior to a Webconverger for my usage scenario here.
+
+# Rationale
+
+Entrepreneurs are not developing for the Windows or the Linux desktop, they’re
+developing for the prevalent <a
+href="http://www.joelonsoftware.com/articles/APIWar.html">Web platform</a>.
+
+Likewise users are not checking their email with Outlook Express
+anymore, they’re using Web applications such as Gmail or Yahoo. This is
+Web convergence.
+
+That leads us onto a <strong>problem</strong>. How does an IT manager roll
+out the Web platform? We probably have to deal with fragile pre-installations
+of Windows and battle to get Firefox on each machine. Then the hopeless battle
+to maintain that system from viruses, spyware and the looming costs of a <a
+href="http://en.wikipedia.org/wiki/Microsoft_Vista">Vista</a> update.
+
+Webconverger is simply a Web kiosk/terminal, that is easy to deploy and
+secure. In most cases all you need to do is boot from a CD. That's it! A usable
+up to date Web browser that <strong>just works</strong>.
+
+<p><strong>Webconverger provides the Web, just the Web and only the
+Web.</strong></p>

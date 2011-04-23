@@ -1,0 +1,74 @@
+[[!template id=note text="""
+<a href="http://www.flickr.com/photos/hendry/1403651984/" title="Photo Sharing"><img src="http://farm2.static.flickr.com/1169/1403651984_30fd52a678_m.jpg" width="180" height="240" alt="Webconverger on an HP" /></a>"""]]
+
+.ISO [downloadable](http://download.webconverger.com/) files are [ISO-hybrid
+images to be copied onto a USB
+stick/key](http://webconverger.org/blog/entry/Webconverger_6.1_release_notes).
+
+# How to copy the .iso file to a USB stick using Windows
+Since version 6.1 webconverger provides a hybrid.iso which can be burned to CD or flashed on an usb-stick.
+In some scenarios flashing the hybrid-iso onto an usb-stick with MS Windows won´t work out.
+
+You can follow [the USB imaging guide from Ubuntu](https://help.ubuntu.com/community/Installation/FromImgFiles#Windows), from [ArchLinux](http://wiki.archlinux.org/index.php/Install_from_a_USB_flash_drive), or follow the steps beneath. ([Roadkil's Disk Image](http://www.roadkil.net/program.php/P12/Disk%20Image) it is a more lightweight and flexible alternative to Win32 Disk Imager.)
+
+1. Download [Win32 Disk Imager](https://launchpad.net/win32-image-writer/+download) zip and unpack it.  
+1. Download the iso-file.  
+1. Start Win32DiskImager as administrator (right click …).  
+1. Select the iso-file as source (click the folder icon, and write *.iso in the path to be able to select the iso-file).  
+1. Select the USB-Stick as target device.  
+1. Click write.  
+
+# How to copy .iso to USB stick (under Linux):
+
+`fdisk -l` will list your USB drive - usually /dev/sdx ("x" representing letter like sda, sdb etc.), double check with `dmesg`.
+
+	dd if=webc-6.2.iso of=/dev/sdx
+
+Detailed description on [Debian wiki](http://wiki.debian.org/DebianLive/Howto/USB).
+
+* Just as fast as a hard drive in many cases
+* USB boot works generally only with newer computers (since 2004)
+
+Almost any cheap generic USB stick should be fine. Feel free to use the usb
+image also with embedded boards and Compact Flash cards (they behave like
+/dev/hda usually).
+
+# Install the USB .iso to a hard drive
+
+The same principle applies. You copy the "image" to you hard drive using `dd`.
+In order to do this you typically need to put the USB version of Webconverger
+into debug mode (remove `nosudo` from [[boot]]). Or boot with an Ubuntu Live CD
+and image from there to your hard drive (typically `dd if=webc.iso
+of=/dev/sda`). Apologies for not providing a GUI at this point in time.
+
+# Booting your USB stick
+
+Different machines have different ways of **Entering the boot menu**. However it's usually the [Esc], [F8] or [F11] key or at least configurable in the BIOS menu.
+
+# Appending arguments to boot loader
+
+<a href="http://www.flickr.com/photos/hendry/2366474295/" title="French support added to USB boot by Kai Hendry, on Flickr"><img src="http://farm3.static.flickr.com/2110/2366474295_c089249bd5_m.jpg" width="240" height="180" alt="French support added to USB boot" /></a>
+
+When the [[bootloader|boot]] initially loads, you'll have a few seconds to
+type in something at the toboot: prompt. For example to get boot with [[i18n]]
+French support simply add:
+
+	live locale=fr
+
+# Hacking the USB [[boot]]
+
+This only works on a `lh config -b usb-hdd` type **.img**. Iso-hybrid disks are unfortuantely **read only** once imaged to a disk.
+
+Plug your Webconverger USB stick in and mount the USB stick, for e.g.:
+
+	x61:~% sudo mount /dev/sdb1 /mnt/usb
+
+Edit the live.cfg. Alter elements like the [[homepage]].
+
+	x61:/mnt/usb% sudo vim syslinux/live.cfg
+
+Unmount and boot up your system:
+
+	x61:/mnt/usb% cd
+	x61:~% sudo umount /mnt/usb
+

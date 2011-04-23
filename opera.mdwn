@@ -1,0 +1,26 @@
+ * [Download Opera Webconverger](http://download.webconverger.com/opera/)
+
+The Opera version is unsupported. It's just for testing.
+
+
+<a href="http://www.flickr.com/photos/hendry/860230512/" title="Photo Sharing"><img src="http://farm2.static.flickr.com/1195/860230512_8324f7e2e2.jpg" width="500" height="375" alt="Webconverger with Opera 2.26" /></a>
+
+Opera is run in a kiosk mode. These settings are set by the **webconverger-base** package and they might need some verification:
+
+    ; Put any settings here that are not overridable by users
+    [User Prefs]
+    Browser JavaScript=1
+    Enable Wand=0
+    Enable Gesture=0
+    No Local File=1
+    [State]
+    Accept License=1
+    [Install]
+    One Time Page=""
+    [Special]
+
+
+`/usr/bin/opera -k -noprint -kioskresetstation -kioskwindows -nomenu -nohotlist -resetonexit -nosave -e $GO`
+
+
+* [Another Opera kiosk configuration](http://clug.net.nz/index.php/KioskSystem)

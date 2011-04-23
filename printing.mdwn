@@ -1,0 +1,66 @@
+
+# [CTRL]+[p]
+
+Webconverger only prints to auto-detected CUPS **networked printers**.
+
+Supported network printers shared through [CUPS](http://www.cups.org) are automatically discovered and configured. No
+other printers (connected locally or networked) will be
+available.
+
+Holding down the [Control] and [p] keys on your keyboard gives you the printing dialog.
+
+If you do **not see your printer in that dialog** and you just see PostScript/default (or Print to File), _your_ print server is **not correctly configured**.
+
+[Little video of myself getting printing working](http://video.google.co.uk/videoplay?docid=6606767171581818715)
+
+# Debug
+
+Go to [localhost:631](http://localhost:631/) and view the **Manage printers** tab to try and diagnose the printer fault.
+
+<a href="http://www.flickr.com/photos/hendry/5150959996/" title="CUPs by Kai Hendry, on Flickr"><img src="http://farm5.static.flickr.com/4006/5150959996_675ce18439.jpg" width="500" height="375" alt="CUPs" /></a>
+
+`tail -f /var/log/cups/error_log`
+
+If you see for an example: `cupsdAuthorize: No authentication data provided.`,
+that means you are restricting access. Here is an [example of printing server
+which permits everything](http://static.natalian.org/2009-06-07/cupsd.conf).
+
+# Printing to [PDF](http://en.wikipedia.org/wiki/PDF) on your network
+
+<a href="http://www.flickr.com/photos/hendry/3605150186/" title="CUPS-PDF by Kai Hendry, on Flickr"><img src="http://farm4.static.flickr.com/3413/3605150186_3037f2b36f.jpg" width="500" height="375" alt="CUPS-PDF" /></a>
+
+The [cups-pdf](http://packages.qa.debian.org/c/cups-pdf.html) package allows
+you to setup a server (Debian lenny recommended for this task) on your network
+that basically dumps PDFs of printing material sent to it. Hence you do not
+require a printer!
+
+This is useful for debugging and allowing you to manually check what does and
+does not get printed.
+
+[PDF example of the Webconverger portal](http://static.natalian.org/2009-06-07/portal_webconverger.pdf)
+
+# Supported printers
+
+Check for support in [this list of
+printers](https://wiki.ubuntu.com/HardwareSupportComponentsPrinters). Otherwise
+since new Apple Macs with Mac OS X use [CUPS](http://en.wikipedia.org/wiki/CUPS), you will have fairly good chances with [Mac
+compatible
+printers](http://store.apple.com/us/browse/home/shop_mac/mac_accessories/printers?mco=MjUzMDM4OA).
+
+# Try [write a letter](http://letterly.com/) and print it in Webconverger!
+
+<a href="http://www.flickr.com/photos/hendry/463888132/" title="Photo Sharing"><img src="http://farm1.static.flickr.com/188/463888132_1cc46692cb_m.jpg" width="180" height="240" alt="Webconverger print out" /></a>
+
+# Setting up your [CUPS printer](http://cups.org/) on your network server
+
+You do **not** host a printer service on the machine running the Webconverger
+operating system.
+
+You host the printer on a server running another operating system like Ubuntu,
+Debian or Archlinux. On that server, the important elements to enable in
+`http://localhost:631/admin/` are:
+
+* Show printers share by other systems
+* Share published printers connect to this system
+
+These options basically set **Browsing On** and some Allow IP filters usually for your local network.

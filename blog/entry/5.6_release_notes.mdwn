@@ -1,0 +1,11 @@
+5.6 is a bugfix release.
+
+`vimdiff http://download.webconverger.org/webc-5.5.txt
+http://download.webconverger.org/webc-5.6.txt` reveals the usual browser
+updates.
+
+The change to [webconverger-base fixes the home button when more than one URL is specified](http://git.webconverger.org/?p=webconverger-base.git;a=commit;h=00af4186fe28b21df7787666609495862cacb61a) on the [[boot_command_line|boot]].
+
+Lately I have been exploring **static** Firefox builds, as I hope they may help
+make [[upgrading|upgrade]] manageable. Also if you are a bit of a browser geek,
+checkout the Webkit-based [surf](http://surf.suckless.org/) browser.

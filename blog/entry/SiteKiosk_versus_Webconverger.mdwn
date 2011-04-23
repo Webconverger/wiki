@@ -1,0 +1,25 @@
+<a href="http://www.flickr.com/photos/hendry/2483537791/" title="10c/min by Kai Hendry, on Flickr"><img src="http://farm3.static.flickr.com/2398/2483537791_c66155f446_m.jpg" width="180" height="240" alt="10c/min" /></a>
+
+Whilst in Dublin airport after the [Xtech2008](http://2008.xtech.org/) conference, I noticed a Web kiosk running the [SiteKiosk software](http://flickr.com/photos/hendry/sets/72157605012030608/).
+
+Time to do a [comparison](http://webconverger.com/about/) with the competition. :)
+
+Webconverger's current functionality seems to be roughly the same to SiteKiosk6 **basic version**. The [price](http://www.sitekiosk.com/Download/ENG-EUR-Pricing.pdf) of their basic version seems to be 149EUR, which is about the same as [Webconverger's current ~140EUR basic customisation charge](http://webconverger.com/buy/). That's if you're unable to customise Webconverger yourself with say the [[usb]] version.
+
+Far greater savings could be achieved if Microsoft Vista was not pre-installed by OEMs, as SiteKiosk seems to be based on the non-free Microsoft platform.
+
+SiteKiosk **Payment bundle** (260EUR) seems to have amazing support for [all these payment interfaces](http://www.sitekiosk.com/en-US/SiteKiosk/Devices.aspx). I need to purchase such a payment device to discover how they work. Several clients have asked for this, though none have come through to sponsor the work and send me the actual device they want Webconverger to support.
+
+SiteKiosk or rather [Provisio](https://www.provisio.com) seem charge the client 79EUR per [[upgrade]]. Webconverger is [[designed|design]] to [[upgrade_automatically|upgrade]], however recent versions have had this **feature disabled**. I did not explicitly have a policy for charging for upgrades yet, though I could quote a lower price as I keep copies of client's particular customisations and each should be fairly straight forward to refresh their copies.
+
+Provisio also seem to charge 72EUR a year per seat for support, which is "fair
+play" good business to get. Webconverger is so bloody good if it works on the
+client's chosen hardware, then it requires **no support** and it just seems to
+work!
+
+In order to achieve world domination, I am going to set a couple of development goals this year 2008 for Webconverger:
+
+1. Get [[free_and_automatic_upgrades|upgrade]] working satisfactorily again
+* Support at least one payment device
+
+Since I don't have commission hungry sales people hunting you down, please consider [simply supporting Webconverger](http://webconverger.com/buy/) with Google checkout.

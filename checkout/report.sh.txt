@@ -1,0 +1,16 @@
+#!/bin/sh
+#http://groups.google.com/group/google-checkout-uk/browse_thread/thread/1049515cc972693f/e13d8b7ac7f56c2d?#e13d8b7ac7f56c2d
+
+. ./secret.sh
+
+YEAR=2008
+MONTH=$1
+
+XML=$(cat << END
+<order-list-request xmlns="http://checkout.google.com/schema/2" start-date="$YEAR-$MONTH-01T00:00:00" end-date="$YEAR-$MONTH-30T23:59:59">
+</order-list-request>
+END)
+
+echo $XML
+
+curl --data "$XML" https://$ID:$KEY@checkout.google.com/api/checkout/v2/reports/Merchant/$ID

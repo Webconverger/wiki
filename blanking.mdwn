@@ -1,0 +1,30 @@
+# How Webconverger blanks
+
+Webconverger uses Xorg's default Energy saving and screen blanking features by default.
+
+`xset q` reveals:
+
+	Screen Saver:
+	  prefer blanking:  yes    allow exposures:  yes
+	  timeout:  600    cycle:  600
+
+So typically Webconverger will only blank after **10 minutes**. However monitor
+hardware can override this.
+
+Customers who don't want the screen to blank at all should use the boot option
+`noblank` (available from version 2.45 of webconverger-base). Note without
+blanking a typical (non-specialised) monitor's life span will be drastically
+shortened. Of course such a feature is an absolute must if Webconverger is
+acting as a [[digital_sign|kiosk]].
+
+# Kiosk reset
+
+The cmdline [[boot]] option `kioskresetstation` resets the Webconverger terminal after a specified number of minutes of inactivity.
+
+For example, appending `kioskresetstation=10` will reset the kiosk after ten minutes of inactivity.
+
+# Hiding the mouse cursor
+
+[Unclutter](http://packages.qa.debian.org/u/unclutter.html) is run by [default in Webconverger](http://git.webconverger.org/?p=webconverger-base;a=blob;f=home/webc/pb.sh;h=9e68e0ec2bdadf904f2af0a2974422f985ce5cfd;hb=HEAD#l17)
+
+To override, you can add the [[boot]] parameter `showcursor`.

@@ -1,0 +1,42 @@
+	ping -c 1 debian.virginmedia.com &> /dev/null || date --iso-8601=minutes >> /var/log/virgin_outage.log
+
+According to my [ping logs](http://ping.dabase.com/) from 2008-12-01T19:16+0000
+to 2008-12-02T08:49+0000 I endured a Virgin Media cable Internet outage.
+
+At first I called 0800 561 0061. Since I do not have a landline number I need
+to enter the telephone area code. For my area, I think it is 01483. Then 1 and
+1 to choose Internet broadband. This process takes a few minutes and on my
+T-mobile it costs 00:00:48 £0.09 (40p a minute on T-mobile). I'm fast. :)
+
+The service status number said there are no reports of an outage. Now I need to
+call customer services on 0845 454 1111. There are roughly 6 menus you need to
+navigate in order to report a fault.  Thankfully they are all 3, so 333333.
+Once through to an operator, you need to give the account number etc. They then
+probably put you on hold as if you are cable customer, as you will be
+transferred to a **NTL** department. This process last night costs 00:22:12
+£3.78 (40p a minute on T-mobile).
+
+After talking to an Indian NTL engineer on a terrible line for some time, we agreed the following:
+
+* Engineer visit on Wednesday afternoon. He would call me on the Wednesday to setup the time. Of course they expected me to take time off work to receive the engineer...
+* I was to be compensated for the Internet outage on my next bill for Monday, Tuesday & Wednesday. 5GBP.
+
+If I was not around to receive the engineer I would be fined 10GBP. If the
+Internet is working again, I must call customer services again. Bit confused
+about this, as surely Virgin Media know if my Internet is working or not?
+Virgin Media know how to waste your time.
+
+Since the Internet began working again the next morning, I reluctantly called
+customer services. The operator then says there **was an outage** last night. I
+said no one has contacted me to follow up on the case. She asked me if I wanted
+anything else, I said please **cancel the engineer** visit then!
+
+Virgin media, the 'state of the art' leading UK Internet supplier with **no way
+to address their service via the Internet**. I would of happily notified them
+of the outage via a Web page from my [Android G1
+device](http://dabase.com/g1/).
+
+T-mobile rant: I can not use my [T-mobile G1](http://dabase.com/g1/) as a
+[bluetooth dialup modem](http://flickr.com/photos/hendry/2278783255/) from my
+[Thinkpad X61](http://wiki.webvm.net/hardware/x61), like I did with my Nokia
+E65 with 3 in the past. It's got to get worse before it gets better, right? :(

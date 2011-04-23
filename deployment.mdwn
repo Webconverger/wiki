@@ -1,0 +1,36 @@
+Webconverger can be deployed by a live [[CD|iso]] in about two minutes depending on the
+machine. This is the primary method for deployment as it is the most common
+type.
+
+Though, there are also other [deployment methods such as a [[USB]]
+stick](http://video.google.com/videoplay?docid=7737229185629530129).
+
+Since Webconverger is [[designed|design]] for [for just Web
+applications](http://webconverger.org/ideal_just_for_web_applications/).
+Compressed [[mini]] images are typically about 200 megabytes in size.
+Webconverger aims to get _smaller_, not bigger.
+
+Webconverger has a very minimal "setup" and uses sensible defaults and
+[[features]], usually defined in a [[boot_menu|boot]].
+
+By default a deployed Webconverger has no preferences you can set and is
+designed to be "locked down" so users can't accidentally change things. This
+makes Webconverger much easier to
+[maintain](http://webconverger.org/maintenance/) compared to other operating
+systems. It also makes Webconverger an excellent choice for **sharing** amongst
+people.
+
+# Deployment options
+
+Since USB boot is poorly supported by older machines, CDROM images will probably be the main deployment medium.
+
+* [[usb]]
+* [[iso]]
+* netboot - currently unsupport by default, though a [customisation](http://webconverger.com/buy/) option nonetheless
+
+From either medium, an option to install Webconverger will be given in the near
+future.
+
+Notice Webconverger Web applications can leverage the rich capabilities of
+Firefox with SVG graphics and the default [[fonts]].
+

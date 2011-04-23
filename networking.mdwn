@@ -1,0 +1,44 @@
+# Also see [[Wireless_networking|wireless]]
+
+# Using `nonetworking` (static setups)
+
+Ideally Webconverger **should** be deployed in a **wired network** with a
+**DHCP server**.
+
+By default a Debian live distro should use
+[live-initramfs](http://git.debian.net/?p=debian-live/live-initramfs.git) to
+setup
+[networking](http://git.debian.net/?p=debian-live/live-initramfs.git;a=blob;f=scripts/live-bottom/23networking).
+However the same can be achieved by
+[interfaces](http://manpages.debian.net/cgi-bin/man.cgi?query=interfaces).
+
+In recent versions of [[mini]] [Webconverger the
+interfaces](http://git.debian.org/?p=debian-live/config-webc.git;a=blob;f=webconverger/config/chroot_local-includes/etc/network/interfaces)
+assumes the eth0 is the wired connection and the eth1 or wlan0 interface is a
+[[wireless]] interface. The wireless interface is configured by [wpa
+supplicant](http://git.debian.org/?p=debian-live/config-webc.git;a=blob;f=webconverger/config/chroot_local-includes/etc/wpa_supplicant/wpa_supplicant.conf).
+By default it has a convienant, though perhaps a dangerous feature to join any
+open wireless network.
+
+If users are frankly too silly not to use DHCP, they need to setup a network by
+the [interfaces](http://manpages.debian.net/cgi-bin/man.cgi?query=interfaces)
+rules and manipulate typically
+`webconverger/config/chroot_local-includes/etc/network/interfaces`. Let me
+remind you that you must have `nonetworking` on your `config/binary`
+`LH_BOOTAPPEND_LIVE` line for it to all work. For debugging an image with a
+static network setup, I suggest removing `nonetworking` to default to
+live-initramfs's sensible wired DHCP defaults.
+
+# Example of a static configuration customisation
+
+`webconverger/config/chroot_local-includes/etc/network/interfaces` would read:
+
+	iface eth0 inet static
+		   address 10.100.7.230
+		   netmask 255.255.255.0
+		   gateway 10.100.7.253
+
+And the DNS:
+
+	cat webconverger/config/chroot_local-includes/etc/resolv.conf
+	nameserver 10.100.7.253

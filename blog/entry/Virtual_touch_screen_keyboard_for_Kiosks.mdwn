@@ -1,0 +1,76 @@
+A popular requested feature on the [[todo_list|todo]] is a virtual keyboard.
+
+I'm not entirely sure if customers need a [virtual keyboard](http://en.wikipedia.org/wiki/Virtual_keyboard) for systems with a [touch
+screen](http://hardware.slashdot.org/article.pl?sid=08/12/15/1614205)
+interface, or meant for simpler kiosk configurations **without a keyboard**.
+
+[[Thanks|acknowledgements]] to a discussion with an old friend Teemu Hukkanen, I have some findings to share.
+
+Lets start with the [Debian
+packaged](http://packages.qa.debian.org/x/xvkbd.html)
+[xvkbd](http://freshmeat.net/projects/xvkbd/). I tried this with mine and
+Webc's [light window manager dwm](http://www.suckless.org/dwm/) and it simply
+wasn't able to send keyboard events to the next tiled window. I'm not sure how
+the keyboard is supposed to slide in and out either from the browser pane.
+
+[kvkbd](http://www.kde-apps.org/content/show.php/Kvkbd?content=56019) is the (sic) KDE
+version of this tool and since I hate KDE and Gnome and it's bloatware
+dependencies... that's not going in Webconverger no matter how great it is.
+
+[Maemo](http://en.wikipedia.org/wiki/Maemo_%28operating_system%29) is interesting as [Maemo should get a GSM stack soon with
+Fremantle](http://wiki.maemo.org/Task:Maemo_roadmap/Fremantle) and er... it has
+and onscreen keyboard called [Hildon Input
+Method](http://live.gnome.org/Hildon/HildonInputMethod). I think this may have
+been [incorporated into
+Ubuntu](https://code.launchpad.net/~mdamt/+junk/hildon-input-method-framework)...
+I'm not sure. Still the [Hildon
+framework](http://uk.youtube.com/watch?v=fSo5r9NuhCY) seems pretty complicated!
+
+Some [Brasilian dude cooked up a touch screen
+keyboard](http://blog.gustavobarbieri.com.br/2007/07/24/iphone-like-virtual-keyboard-for-n800/)
+which looks good and fast. I think he calls it
+[vkbd](http://barbieri-playground.googlecode.com/svn/efl-tests/vkbd/). On first
+glances it looks far too hildon **maemo** specific.
+
+<a href="http://www.flickr.com/photos/hendry/3110995865/" title="matchbox
+keyboard by Kai Hendry, on Flickr"><img
+src="http://farm4.static.flickr.com/3281/3110995865_a4864b4418.jpg" width="500"
+height="281" alt="matchbox keyboard" /></a>
+
+The [matchbox keyboard](http://packages.qa.debian.org/m/matchbox-keyboard.html)
+looks terrible in Debian (and didn't work in dwm like xvkbd above), though
+functioned great in Ubuntu. In Ubuntu it seems to be confused with [moblin
+keyboard
+manager](https://launchpad.net/ubuntu/+source/moblin-keyboard-manager).I need
+to look into [Ubuntu MID for Netbooks](http://www.ubuntu.com/products/mobile).
+
+[Florence Virtual Keyboard](http://florence.sourceforge.net/english.html) looks
+great, but sadly once again a crap load of crazy dependencies:
+
+* gtk >= 2.10
+* cspi >= 1.0
+* libgconf >= 2.0
+* libglade >= 2.0
+* libxml >= 2.0
+* cairo
+* librsvg
+* (optional) libgnome >=2.0
+
+Finally there is some talk of an Android virtual keyboard or Input method
+framework (IMF) as Google call it on their
+[roadmap](http://source.android.com/roadmap). I guess this will be implemented
+as a [Dalvik](http://en.wikipedia.org/wiki/Dalvik_virtual_machine) and/or as a non-X application so I don't think this will be of any use
+for Webconverger.
+
+* [OpenMoko have a promising Virtual keyboard based on E17 libraries](http://wiki.openmoko.org/wiki/Illume)
+* A work colleague has also pointed out [Cell writer](http://risujin.org/cellwriter/).
+
+I think the best solution is to implement the keyboard as a [Firefox
+addon](https://addons.mozilla.org) in Javascript. I swear there was such a
+onscreen keyboard addon project in the past.  So like [[kiosk]] I might write
+another Firefox addon to implement this feature sanely. Teemu also pointed me
+out to [Javascript
+VirtualKeyboard](http://www.codeproject.com/KB/scripting/jsvk.aspx) which may
+prove handy.
+
+Conclusion: Lets try accomplish stuff with Web technologies, not Gnome bloatware.

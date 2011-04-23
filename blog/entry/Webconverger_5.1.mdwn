@@ -1,0 +1,28 @@
+<a href="http://www.flickr.com/photos/aigarius/3757854052/">
+<img src="http://farm4.static.flickr.com/3434/3757854052_a7f3c85f7e.jpg" alt="At Debconf9" />
+</a>
+
+5.1 fixes the [keyboard layout problem](http://groups.google.com/group/webc-users/browse_thread/thread/aa62ef6614fa611c) present in 5.0.
+
+The bug came from a [bad change](http://lists.debian.org/debian-live/2009/07/msg00088.html) in a unstable version of live-initramfs from the otherwise fabulous [Debian Live project](http://debian-live.alioth.debian.org/).
+
+The [5.1 package list](http://download.webconverger.org/webc-5.1.txt) will show
+that Webconverger now utilises the 2.6.30 kernel, which means even better
+hardware compatibilty. The Firefox 3.0.x based browser has been also updated
+with a minor security fix.
+
+I've just come from [Debconf9](http://www.debconf.org/) in Spain, with the following bits of news:
+
+* Debian Installer has been [fixed on USB installs](http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=498143)
+* Some other interesting installer options are being worked on, so perhaps in future you can install Webconverger without requiring a reboot
+
+For debugging Webconverger or rather live-initramfs the [[boot]]
+option `break=top` is super useful. To speed up builds, try building on ram with
+`mount -t tmpfs -o size=1G tmpfs /path/to/mountpoint`.
+
+In not so good news Iceweasel 3.5.x is proving a pain to backport. I am
+seriously considering using the official static builds instead.
+
+For now please [download Webconverger 5.1](http://download.webconverger.org/)
+and please report any bugs to <feedback2009@webconverger.com> or the [mailing
+list](http://groups.google.com/group/webc-users). Enjoy!

@@ -1,0 +1,24 @@
+<a href="http://www.flickr.com/photos/hendry/3210823632/" title="Webconverger 4.2 by Kai Hendry, on Flickr"><img src="http://farm4.static.flickr.com/3424/3210823632_19bac69b72_m.jpg" width="240" height="180" alt="Webconverger 4.2" /></a>
+
+[Recently we've been made
+aware](http://groups.google.com/group/webc-users/browse_thread/thread/60d62ae72fcff707)
+that the [[extension|kiosk]] that locks down Webconverger can be removed by
+installing another extension. That's a security bug and thank you for
+the report!
+
+Hence the [4.2 security release](http://download.webconverger.com/mini) which [fixes this XPIinstallConfirm issue and
+also disables
+about:config](http://git.webconverger.org/?p=iceweasel-webconverger.git;a=commitdiff;h=3e5ca0b9212152ca55a693844e5d698d916ce8be).
+
+The packages are refreshed from Debian lenny, including an [important browser
+security update
+3.0.5](http://www.mozilla.com/en-US/firefox/3.0.5/releasenotes/). To find out
+which packages have been updated, try:
+
+	vimdiff http://download.webconverger.com/mini/webc-4.1.mini.txt http://download.webconverger.com/mini/webc-4.2.mini.txt
+
+Next week I hope to have some more improvements like the 'Compose key' and resolution setting `xvideomode=` working again.
+
+Webconverger takes security very seriously. You are welcome to mail the [user
+forum](http://groups.google.com/group/webc-users) or mail us privately on **security** at
+webconverger.com. Take care,
