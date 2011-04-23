@@ -21,9 +21,9 @@ srcdir: /home/b-webconverger-org/source
 # where to build the wiki
 destdir: /home/b-webconverger-org/public_html
 # base url to the wiki
-url: http://webconverger-org.branchable.com
+url: http://www.webconverger.org
 # url to the ikiwiki.cgi
-cgiurl: http://webconverger-org.branchable.com/ikiwiki.cgi
+cgiurl: http://www.webconverger.org/ikiwiki.cgi
 # filename of cgi wrapper to generate
 cgi_wrapper: /home/b-webconverger-org/public_html/ikiwiki.cgi
 # mode for cgi_wrapper (can safely be made suid)
@@ -122,7 +122,7 @@ allow_symlinks_before_srcdir: 0
 # Allow anyone to branch, check out, and copy this site?
 branchable: 1
 # Display "Branchable" link on action bar?
-#branchable_action: 1
+branchable_action: 1
 
 # git plugin
 # git hook to generate
@@ -140,9 +140,9 @@ historyurl: 'http://source.webconverger-org.branchable.com/?p=source.git;a=histo
 # gitweb url to show a diff ([[file]], [[sha1_to]], [[sha1_from]], [[sha1_commit]], and [[sha1_parent]] substituted)
 diffurl: 'http://source.webconverger-org.branchable.com/?p=source.git;a=blobdiff;f=[[file]];h=[[sha1_to]];hp=[[sha1_from]];hb=[[sha1_commit]];hpb=[[sha1_parent]]'
 # where to pull and push changes (set to empty string to disable)
-#gitorigin_branch: origin
+gitorigin_branch: origin
 # branch that the wiki is stored in
-#gitmaster_branch: master
+gitmaster_branch: master
 
 # htmlscrubber plugin
 # PageSpec specifying pages not to scrub
@@ -158,7 +158,7 @@ atom: 1
 # allow atom feeds to be used?
 #allowatom: 0
 # urls to ping (using XML-RPC) on feed update
-#pingurl: http://rpc.technorati.com/rpc/ping
+pingurl: []
 
 ######################################################################
 # auth plugins
@@ -214,9 +214,9 @@ openid_cgiurl: http://webconverger-org.branchable.com/ikiwiki.cgi
 # types of source files to syntax highlight
 tohighlight: .c .h .cpp .pl .py Makefile:make
 # location of highlight's filetypes.conf
-#filetypes_conf: /etc/highlight/filetypes.conf
+filetypes_conf: /etc/highlight/filetypes.conf
 # location of highlight's langDefs directory
-#langdefdir: /usr/share/highlight/langDefs
+langdefdir: /usr/share/highlight/langDefs
 
 # mdwn plugin
 # enable multimarkdown features?
@@ -277,12 +277,13 @@ virus_checker: clamdscan -
 
 # repolist plugin
 # URIs of repositories containing the wiki's source
-#repositories:
-#  - svn://svn.example.org/wiki/trunk
+repositories:
+  - ssh://b-webconverger-org@webconverger-org.branchable.com/
+  - git://webconverger-org.branchable.com/
 
 # search plugin
 # path to the omega cgi program
-#omega_cgi: /usr/lib/cgi-bin/omega/omega
+omega_cgi: /usr/lib/cgi-bin/omega/omega
 
 # theme plugin
 # name of theme to enable
@@ -324,7 +325,7 @@ websetup_show_unsafe: 0
 
 # listdirectives plugin
 # directory in srcdir that contains directive descriptions
-#directive_description_dir: ikiwiki/directive
+directive_description_dir: ikiwiki/directive
 
 # teximg plugin
 # Should teximg use dvipng to render, or dvips and convert?
@@ -374,7 +375,9 @@ websetup_show_unsafe: 0
 
 # ikiwikihosting plugin
 # list of urls that alias to the main url
-#urlalias: []
+urlalias:
+  - http://webconverger-org.branchable.com/
+  - http://www.www.webconverger.org/
 # openid of primary site owner
 owner: http://hendry.iki.fi/
 # optional hostname of site this one was branched from
@@ -386,7 +389,7 @@ created: 1303574330
 # how many days to retain logs
 #log_period: 7
 # disable IPv6?
-#ipv6_disabled: 1
+ipv6_disabled: 0
 
 # parked plugin
 # An optional message explaining why this site is parked.
@@ -402,9 +405,9 @@ created: 1303574330
 
 # recentchanges plugin
 # name of the recentchanges page
-#recentchangespage: recentchanges
+recentchangespage: recentchanges
 # number of changes to track
-#recentchangesnum: 100
+recentchangesnum: 100
 
 # rsync plugin
 # command to run to sync updated pages
@@ -420,7 +423,7 @@ created: 1303574330
 # autocreate new tag pages?
 #tag_autocreate: 1
 # commit autocreated tag pages
-#tag_autocreate_commit: 1
+tag_autocreate_commit: 1
 
 # typography plugin
 # Text::Typography attributes value
