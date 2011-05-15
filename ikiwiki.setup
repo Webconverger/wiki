@@ -102,7 +102,7 @@ libdir: /home/b-webconverger-org/.ikiwiki
 ENV:
   TMPDIR: /home/b-webconverger-org/tmp
 # time zone name
-timezone: JEST+4
+timezone: GMT
 # regexp of normally excluded files to include
 #include: '^\.htaccess$'
 # regexp of files that should be skipped
