@@ -25,9 +25,9 @@ url: http://www.webconverger.org
 # url to the ikiwiki.cgi
 cgiurl: http://www.webconverger.org/ikiwiki.cgi
 # filename of cgi wrapper to generate
-cgi_wrapper: /home/b-webconverger-org/public_html/ikiwiki.cgi
+cgi_wrapper: /var/www/b-webconverger-org/ikiwiki.cgi
 # mode for cgi_wrapper (can safely be made suid)
-cgi_wrappermode: 06755
+cgi_wrappermode: 0755
 # rcs backend to use
 rcs: git
 # plugins to add to the default configuration
@@ -102,7 +102,7 @@ libdir: /home/b-webconverger-org/.ikiwiki
 ENV:
   TMPDIR: /home/b-webconverger-org/tmp
 # time zone name
-#timezone: US/Eastern
+timezone: JEST+4
 # regexp of normally excluded files to include
 #include: '^\.htaccess$'
 # regexp of files that should be skipped
@@ -114,13 +114,15 @@ allow_symlinks_before_srcdir: 0
 
 ######################################################################
 # core plugins
-#   (branchable, editpage, git, htmlscrubber, inline, link, meta,
-#    parentlinks)
+#   (branchable, editpage, git, gitpush, htmlscrubber, ikiwikihosting,
+#    inline, link, meta, parentlinks)
 ######################################################################
 
 # branchable plugin
 # Allow anyone to branch, check out, and copy this site?
 branchable: 1
+# Allow anyone to git push verified changes to this site?
+#anonpush: 0
 # Display "Branchable" link on action bar?
 branchable_action: 1
 
@@ -134,7 +136,8 @@ git_wrapper: /home/b-webconverger-org/source.git/hooks/post-update
 # git pre-receive hook to generate
 #git_test_receive_wrapper: /git/wiki.git/hooks/pre-receive
 # unix users whose commits should be checked by the pre-receive hook
-#untrusted_committers: []
+untrusted_committers:
+  - ikiwiki-anon
 # gitweb url to show file history ([[file]] substituted)
 historyurl: 'http://source.webconverger-org.branchable.com/?p=source.git;a=history;f=[[file]];hb=HEAD'
 # gitweb url to show a diff ([[file]], [[sha1_to]], [[sha1_from]], [[sha1_commit]], and [[sha1_parent]] substituted)
@@ -144,9 +147,31 @@ gitorigin_branch: origin
 # branch that the wiki is stored in
 gitmaster_branch: master
 
+# gitpush plugin
+# git repository urls that changes are pushed to
+#git_push_to: []
+
 # htmlscrubber plugin
 # PageSpec specifying pages not to scrub
 #htmlscrubber_skip: '!*/Discussion'
+
+# ikiwikihosting plugin
+# list of urls that alias to the main url
+urlalias:
+  - http://webconverger-org.branchable.com/
+  - http://www.www.webconverger.org/
+# openid of primary site owner
+owner: http://hendry.iki.fi/
+# optional hostname of site this one was branched from
+#parent: ''
+# internal hostname of this site
+hostname: webconverger-org.branchable.com
+# site creation datestamp
+created: 1303574330
+# how many days to retain logs
+#log_period: 7
+# disable IPv6?
+ipv6_disabled: 0
 
 # inline plugin
 # enable rss feeds by default?
@@ -242,8 +267,9 @@ po_link_to: default
 
 ######################################################################
 # web plugins
-#   (404, attachment, comments, editdiff, edittemplate, google, goto,
-#    mirrorlist, remove, rename, repolist, search, theme, websetup, wmd)
+#   (404, attachment, comments, editdiff, edittemplate, getsource, google,
+#    goto, mirrorlist, remove, rename, repolist, search, theme, websetup,
+#    wmd)
 ######################################################################
 
 # attachment plugin
@@ -265,6 +291,10 @@ comments_pagename: comment_
 #comments_allowauthor: 0
 # commit comments to the VCS
 comments_commit: 1
+
+# getsource plugin
+# Mime type for returned source.
+#getsource_mimetype: text/plain; charset=utf-8
 
 # mirrorlist plugin
 # list of mirrors
@@ -340,11 +370,10 @@ directive_description_dir: ikiwiki/directive
 ######################################################################
 # other plugins
 #   (aggregate, autoindex, brokenlinks, camelcase, ddate, embed, favicon,
-#    flattr, goodstuff, htmlbalance, ikiwikihosting, localstyle,
-#    missingsite, pagetemplate, parked, pingee, pinger, prettydate,
-#    recentchanges, recentchangesdiff, relativedate, rsync, sidebar,
-#    smiley, sortnaturally, tag, testpagespec, transient, typography,
-#    underlay)
+#    flattr, goodstuff, htmlbalance, localstyle, missingsite, pagetemplate,
+#    parked, pingee, pinger, prettydate, recentchanges, recentchangesdiff,
+#    relativedate, rsync, sidebar, smiley, sortnaturally, tag,
+#    testpagespec, transient, typography, underlay)
 ######################################################################
 
 # aggregate plugin
@@ -367,24 +396,6 @@ autoindex_commit: 1
 # flattr plugin
 # userid or user name to use by default for Flattr buttons
 #flattr_userid: joeyh
-
-# ikiwikihosting plugin
-# list of urls that alias to the main url
-urlalias:
-  - http://webconverger-org.branchable.com/
-  - http://www.www.webconverger.org/
-# openid of primary site owner
-owner: http://hendry.iki.fi/
-# optional hostname of site this one was branched from
-#parent: ''
-# internal hostname of this site
-hostname: webconverger-org.branchable.com
-# site creation datestamp
-created: 1303574330
-# how many days to retain logs
-#log_period: 7
-# disable IPv6?
-ipv6_disabled: 0
 
 # parked plugin
 # An optional message explaining why this site is parked.
