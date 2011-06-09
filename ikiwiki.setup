@@ -54,6 +54,7 @@ add_plugins:
   - testpagespec
   - version
   - theme
+  - userlist
 # plugins to disable
 disable_plugins: []
 # additional directory to search for template files
@@ -212,7 +213,7 @@ pingurl: []
 
 # lockedit plugin
 # PageSpec controlling which pages are locked
-#locked_pages: '!*/Discussion'
+locked_pages: '!sandbox'
 
 # moderatedcomments plugin
 # PageSpec matching users or comment locations to moderate
@@ -268,9 +269,9 @@ po_link_to: default
 
 ######################################################################
 # web plugins
-#   (404, attachment, comments, editdiff, edittemplate, getsource, google,
-#    goto, mirrorlist, remove, rename, repolist, search, theme, websetup,
-#    wmd)
+#   (404, attachment, comments, editdiff, edittemplate, google, goto,
+#    mirrorlist, remove, rename, repolist, search, theme, userlist,
+#    websetup, wmd)
 ######################################################################
 
 # attachment plugin
@@ -292,10 +293,6 @@ comments_pagename: comment_
 #comments_allowauthor: 0
 # commit comments to the VCS
 comments_commit: 1
-
-# getsource plugin
-# Mime type for returned source.
-#getsource_mimetype: text/plain; charset=utf-8
 
 # mirrorlist plugin
 # list of mirrors
