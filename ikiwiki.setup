@@ -156,7 +156,7 @@ gitmaster_branch: master
 
 # htmlscrubber plugin
 # PageSpec specifying pages not to scrub
-#htmlscrubber_skip: '!*/Discussion'
+htmlscrubber_skip: changes/*
 
 # ikiwikihosting plugin
 # list of urls that alias to the main url
