@@ -8,6 +8,7 @@ environment. This release uses a lot of upto date Debian packages from
 [Progress Linux](http://progress-linux.org/).
 
 Between [[7.2_to_8.0|changes/7.2-8.0]] there are several highlights such as:
+
 * Firefox 4.0.1
 * Updated adobe flash to 10.3.181.26
 * 2.6.39 linux kernel
@@ -21,7 +22,7 @@ though there are probably ways of downloading 32bit terminals for execution
 that could be blocked.
 
 There is a known issue where sometimes Webconverger boots without loading the
-browser. There is a strange intermittent problem that needs debugging. If it
+browser. This is a strange intermittent problem that needs debugging. If it
 happens to you, please try booting again.
 
 I personally will have problems fulfilling Webconverger customisation orders
@@ -31,4 +32,4 @@ undertaking. Please consider [donating money to Mongolian
 kids](http://www.justgiving.com/teams/geekout/) I'm raising for and wish team
 [Geekout](http://geekout.org.uk) luck!
 
-However if you email sales@webconverger.com, Daniel should be able to help you.
+However if you email sales@webconverger.com, Daniel should be able to help you. :)
