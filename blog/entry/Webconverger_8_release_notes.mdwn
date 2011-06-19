@@ -1,0 +1,34 @@
+# Webconverger 8 based on Artax
+
+<a href="http://www.flickr.com/photos/hendry/5848600676/" title="Testing Webconverger 8"><img src="http://farm4.static.flickr.com/3055/5848600676_5d58accb69_z.jpg" width="640" height="478" alt="Testing Webconverger 8"></a>
+
+Webconverger 8 allows you to deploy [Firefox
+4.0.1](http://www.mozilla.com/en-US/firefox/4.0.1/releasenotes/) in a kiosk
+environment. This release uses a lot of upto date Debian packages from
+[Progress Linux](http://progress-linux.org/).
+
+Between [[7.2_to_8.0|changes/7.2-8.0]] there are several highlights such as:
+* Firefox 4.0.1
+* Updated adobe flash to 10.3.181.26
+* 2.6.39 linux kernel
+* A few extra locales, like South African English
+
+This ISO's md5sum is 66456a5a4dc0dcbf5024f849f59a6dc3.
+
+Security has been tightened up by removing
+[terminals](http://git.webconverger.org/?p=webconverger-base;a=blob;f=debian/webconverger.init#l46),
+though there are probably ways of downloading 32bit terminals for execution
+that could be blocked.
+
+There is a known issue where sometimes Webconverger boots without loading the
+browser. There is a strange intermittent problem that needs debugging. If it
+happens to you, please try booting again.
+
+I personally will have problems fulfilling Webconverger customisation orders
+between the 23rd of July and the beginning of October, due to the [Mongol
+rally](http://www.theadventurists.com/the-adventures/mongol-rally) I'm
+undertaking. Please consider [donating money to Mongolian
+kids](http://www.justgiving.com/teams/geekout/) I'm raising for and wish team
+[Geekout](http://geekout.org.uk) luck!
+
+However if you email sales@webconverger.com, Daniel should be able to help you.
