@@ -14,7 +14,7 @@ Between [[7.2_to_8.0|changes/7.2-8.0]] there are several highlights such as:
 * 2.6.39 linux kernel
 * A few extra locales, like South African English
 
-This ISO's md5sum is 66456a5a4dc0dcbf5024f849f59a6dc3.
+This ISO's md5sum is 66456a5a4dc0dcbf5024f849f59a6dc3. USA mirror: <http://download.webconverger.com/> Germany: <http://download.webconverger.org/>
 
 Security has been tightened up by removing
 [terminals](http://git.webconverger.org/?p=webconverger-base;a=blob;f=debian/webconverger.init#l46),
