@@ -17,9 +17,9 @@ Between [[7.2_to_8.0|changes/7.2-8.0]] there are several highlights such as:
 This ISO's md5sum is 66456a5a4dc0dcbf5024f849f59a6dc3. USA mirror: <http://download.webconverger.com/> Germany: <http://download.webconverger.org/>
 
 Security has been tightened up by removing
-[terminals](http://git.webconverger.org/?p=webconverger-base;a=blob;f=debian/webconverger.init#l46),
-though there are probably ways of downloading 32bit terminals for execution
-that could be blocked.
+[terminals](http://git.webconverger.org/?p=webconverger-base;a=blob;f=debian/webconverger.init#l46).
+If you can figure out how to download a terminal and break out of the browser,
+**please** email <security@webconverger.com>.
 
 There is a two known issues that might affect you.
 
