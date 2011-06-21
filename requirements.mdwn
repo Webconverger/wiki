@@ -1,6 +1,6 @@
 Microsoft Vista has very high system requirements and poor hardware compatibility.
 
-MacOSX require their own particular Apple hardware.
+MacOSX / Chromium require their own particular hardware.
 
 Webconverger can run on most PCs that meet [Firefox's minimum requirements](http://www.mozilla.com/en-US/firefox/system-requirements.html). In fact Webconverger does not require any hard drive (free disk space).
 
@@ -10,20 +10,4 @@ Webconverger does have issues with hardware that requires proprietary firmware, 
 
 In the future Webconverger aims to support other architectures and devices, besides the typical PC. Everything from TVs to mobile devices will converge to the Web. Please give some feedback if you have a particular device you want to see Webconverger on.
 
-
 * [Ubuntu HCL](http://www.ubuntuhcl.org/)
-
-# webc-user contributed
-
-In the thread [Video mode not supported](http://groups.google.com/group/webc-users/browse_thread/thread/cfdeef351706fc04/a37a31dbb479fdd2) "J" says:
-
-	Anyway, if you have 64 megs ram, Firefox might fail to load or take a
-	very long time to load (the screen only show static Webconverger
-	wallpaper, while the CD ROM drive LED blinking). Sometimes it appears
-	the X is restarted.
-
-	You can start it just fine with 96 megs of RAM! So, think this is the
-	lowest RAM requirement. But keep in mind that it might take a long
-	time to boot..
-
-	Anyway, I just noticed that my CPU actually a Pentium II 233 Mhz :-) 
