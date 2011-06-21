@@ -56,26 +56,18 @@ French support simply add:
 	live locale=fr
 
 # Hacking the USB [[boot]]
+The reason why [Webconverger has a commercial customisation
+service](http://webconverger.com/buy) is that it used to be very difficult to
+make trivial changes to the [[boot_command_line|boot]].
+
 The iso-hybrid format used on the newer releases makes the file system on your USB install read only, and is thus more cumbersome to modify. If you make your own build you can make it in the .img format which leaves the file system writable. This section has two parts, the first about modifying the standard iso-hybrid, the other about modifying the .img format.
 
 ## Customising [iso-hybrid](http://git.debian-maintainers.org/?p=syslinux/syslinux.git;a=blob;f=doc/isolinux.txt#l80)
 
-No need for separate [[img|usb]] and [[iso]] files. **One** ISO HYBRID file can
-do **both**. You can burn the ISO and also image the same file to a USB stick.
-
-The reason why [Webconverger has a commercial customisation
-service](http://webconverger.com/buy) is that it used to be very difficult to
-make trivial changes to the [[boot_command_line|boot]].
-[[Thanks|acknowledgements]] to
-[nils](http://groups.google.com/group/webc-users/msg/9379c3da15f08e6d) and to
-[Daniel Baumann](http://blog.daniel-baumann.ch) especially for his hard work on this
-[Debian Live](http://debian-live.alioth.debian.org/) feature, customisation has become
-a lot easier for you.
-
 The customisation steps are something like:
 
-	mount -o loop webc-6.1.iso /mnt/webc/
-	rsync -av /mnt/webc /mnt/custom
+	mount -o loop webc-8.iso /mnt/webc/
+	rsync -av /mnt/webc/ /mnt/custom/
 	chmod +w /mnt/custom/isolinux/live.cfg
 
 Now edit `/mnt/custom/isolinux/live.cfg` and change the [[boot]] command line
