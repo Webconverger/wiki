@@ -10,7 +10,7 @@ environment. This release uses a lot of upto date Debian packages from
 Between [[7.2_to_8.0|changes/7.2-8.0]] there are several highlights such as:
 
 * Firefox 4.0.1
-* Updated adobe flash to 10.3.181.26
+* Updated [[Adobe]] flash to 10.3.181.26
 * 2.6.39 linux kernel
 * A few extra locales, like South African English
 
