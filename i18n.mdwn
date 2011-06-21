@@ -16,6 +16,8 @@ Sometimes a two letter shorthand for some locales (please test) may work for you
 
 ### Swiss German
 locales=de_CH.UTF-8 keyboard-layouts=ch keyboard-variant=de
+### Denmark
+locales=da_DK.UTF-8 keyboard-layouts=dk
 ### Chinese
 locales=zh_CN.UTF-8 keyboard-layouts=zh
 ### German
