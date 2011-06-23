@@ -23,9 +23,10 @@ If you can figure out how to download a terminal and break out of the browser,
 
 There is a two known issues that might affect you.
 
-1) Very rarely Webconverger boots without loading the browser. I can't reproduce
-it, so if you can, please tell me how you did it. The work around is sadly to
-try booting again.
+1) Rarely [Webconverger boots without loading the
+browser](https://groups.google.com/d/msg/webc-users/zwBp964YQ_0/9QENUKFMOP4J).
+I can't reproduce it, so if you can, please tell me how you did it. The work
+around is sadly to try booting again.
 
 2) Sometimes Webconverger can time out loading
 <http://portal.webconverger.com/>. I think this is due to the network not being
@@ -35,7 +36,7 @@ refresh or use a homepage URL more local to you installation.
 If you notice any more issues **please** report them to the [mailing
 list](http://groups.google.com/group/webc-users).
 
-<br>
+<hr>
 
 I will personally have problems fulfilling Webconverger customisation orders
 between the 23rd of July and the beginning of October, due to the [Mongol
@@ -44,4 +45,5 @@ undertaking. Please consider [donating money to Mongolian
 kids](http://www.justgiving.com/teams/geekout/) I'm raising for and wish team
 [Geekout](http://geekout.org.uk) luck!
 
-However if you email <sales@webconverger.com>, Daniel should be able to help you. :)
+However if you email <sales@webconverger.com>, Daniel should be able to help
+you whilst I'm away. :)
