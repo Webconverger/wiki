@@ -86,6 +86,8 @@ Another [guide](http://www.debian-administration.org/articles/401).
 
 # Wireless router (recommended)
 
+<http://www.tp-link.com/en/products/prolist.aspx?mid=0103030101> -- latest greatest routers
+
 <a href="http://www.flickr.com/photos/hendry/1172361934/" title="Every home should have a WRT54G-L by Kai Hendry, on Flickr"><img src="http://farm2.static.flickr.com/1055/1172361934_fe1a77dc72_m.jpg" width="180" height="240" alt="Every home should have a WRT54G-L" /></a>
 
 A [Linksys WRT54G](http://en.wikipedia.org/wiki/WRT54G) in **Wireless Client
