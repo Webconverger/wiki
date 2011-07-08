@@ -75,8 +75,7 @@ with your homepage URL.
 
 Now rebuild the ISO like so:
 
-	mkisofs -o /tmp/custom-webc.iso -b -r -J -l -cache-inodes -allow-multidot -no-emul-boot -boot-load-size 4 -boot-info-table \
-	-b isolinux/isolinux.bin -c isolinux/boot.cat /mnt/custom
+	mkisofs -o /tmp/custom-webc.iso -b -r -J -l -cache-inodes -allow-multidot -no-emul-boot -boot-load-size 4 -boot-info-table -b isolinux/isolinux.bin -c isolinux/boot.cat /mnt/custom
 
 Finally:
 
