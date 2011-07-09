@@ -103,3 +103,13 @@ Unmount and boot up your system:
 
 	x61:/mnt/usb% cd
 	x61:~% sudo umount /mnt/usb
+
+# Disable boot menu entirely 
+A common [customisation request](http://webconverger.com/buy/) is to disable
+the [[boot_menu|boot]], in order to make this Web client tamper proof.
+
+You can edit `isolinux/isolinux.cfg` on the USB image to look something like this:
+	default linux
+	label linux
+		kernel /live/vmlinuz1
+		append initrd=/live/initrd1.img boot=live quiet homepage=http://portal.webconverger.com/ nonetworking splash vga=current username=webc hostname=webconverger union=aufs
