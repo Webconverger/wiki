@@ -13,6 +13,7 @@
 * [[Firefox_extension_development|Kiosk]]
 * [[Internationalisation_and_localisation|i18n]]
 * [[Developer_information|Develop]]
+* [[USB|Modifying boot]]
 * [[Acknowledgements]] - thanks everyone!
 * [[Notes_on_Networking|Networking]]
 * [[Printing]] with [CUPS](http://www.cups.org/)
