@@ -1,4 +1,4 @@
-# Webconverger 8.5 bring better old hardware and wireless support
+# Webconverger 8.5 brings better old hardware and wireless support
 
 <a href="http://www.flickr.com/photos/hendry/5932838315/" title="Webconverger 8.5 by Kai Hendry, on Flickr"><img src="http://farm7.static.flickr.com/6142/5932838315_bf642f7558.jpg" width="500" height="375" alt="Webconverger 8.5"></a>
 
