@@ -1,43 +1,6 @@
 From [[6.0_to_6.1|changes/6.0-6.1]] we have the usual updated browser, flash and excitingly iso-hybrid support.
 
-# Customising [iso-hybrid](http://git.debian-maintainers.org/?p=syslinux/syslinux.git;a=blob;f=doc/isolinux.txt#l80)
-
-No need for separate [[img|usb]] and [[iso]] files. **One** ISO HYBRID file can
-do **both**. You can burn the ISO and also image the same file to a USB stick.
-
-The reason why [Webconverger has a commercial customisation
-service](http://webconverger.com/buy) is that it used to be very difficult to
-make trivial changes to the [[boot_command_line|boot]].
-[[Thanks|acknowledgements]] to
-[nils](http://groups.google.com/group/webc-users/msg/9379c3da15f08e6d) and to
-[Daniel Baumann](http://blog.daniel-baumann.ch) especially for his hard work on this
-[Debian Live](http://debian-live.alioth.debian.org/) feature, customisation has become
-a lot easier for you.
-
-The customisation steps are something like:
-
-	mount -o loop webc-6.1.iso /mnt/webc/
-	rsync -av /mnt/webc /mnt/custom
-	chmod +w /mnt/custom/isolinux/live.cfg
-
-Now edit `/mnt/custom/isolinux/live.cfg` and change the [[boot]] command line
-with your homepage URL.
-
-Now rebuild the ISO like so:
-
-	mkisofs -o /tmp/custom-webc.iso -b -r -J -l -cache-inodes -allow-multidot -no-emul-boot -boot-load-size 4 -boot-info-table \
-	-b isolinux/isolinux.bin -c isolinux/boot.cat /mnt/custom
-
-Finally:
-
-	/usr/bin/isohybrid /tmp/custom-webc.iso
-
-`isohybrid` comes from a recent version of [syslinux](http://packages.debian.org/unstable/syslinux-common)
-
-The [customisation service](http://webconverger.com/buy) remains if you are unable to perform these commands.
-It's also difficult to edit the package listing, such as changing [[chrome|kiosk]]
-without the [service](http://webconverger.com/buy) still. For
-[[large_deployments|press]], please enquire with sales in how we can help you.
+[[Instructions_how_to_modify_the_ISO|customising_iso-hybrid]]
 
 # Migrate your video content to open [HTML5 video](http://www.whatwg.org/specs/web-apps/current-work/multipage/video.html#video) instead of [[Adobe_Flash|adobe]]
 

@@ -1,7 +1,11 @@
-Webconverger is [opensource](http://www.opensource.org/) software using official Debian packages, where the [Debian social contract](http://www.debian.org/social_contract) applies. Even the [[build_process|develop]] is free software. It does unfortunately include the non-free software [[Adobe]] Flash.
+Webconverger is [opensource](http://www.opensource.org/) software using Debian
+packages, where the [Debian social
+contract](http://www.debian.org/social_contract) applies. Even the
+[[build_process|develop]] is free software.
 
-# Download the source
+<http://anonscm.debian.org/gitweb/?p=debian-live/config-webc.git;a=blob;f=LICENSE>
 
-Currently Webconverger is not doing a fantastic job at this. Webc relies on users to use the [Debian package Web interface](http://www.debian.org/distrib/packages) and the [[package list|txt]]. Or better still [live helper](http://packages.debian.org/unstable/misc/live-helper)'s `lh_source` command.
+Webconverger does unfortunately include the non-free software [[Adobe]] Flash & non-free Wireless firmware.
 
-Apple MacOSX has some Free software under the hood and a free Web rendering engine Webkit. Well done Apple, though everything open source would be far better.
+# [Download Webconverger source](http://src.webconverger.com)
+
