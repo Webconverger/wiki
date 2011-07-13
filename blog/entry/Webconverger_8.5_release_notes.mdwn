@@ -11,10 +11,11 @@ Between [[8.0_and_8.5|changes/8.0-8.5]] there are several improvements such as:
 This ISO's md5sum is 357843174354d886d1d63a43daded81a. USA mirror: <http://download.webconverger.com/> Germany: <http://download.webconverger.org/>
 
 If you notice any more issues **please** report them to the [mailing
-list](http://groups.google.com/group/webc-users). I'll be especially interested
-in any detailed reports like the [browser fails to
-load](https://groups.google.com/d/topic/webc-users/zwBp964YQ_0/discussion).
-A browser [strace](http://en.wikipedia.org/wiki/Strace) & hardware details whilst in [[debug mode|boot]].
+list](http://groups.google.com/group/webc-users). I'd be especially interested
+in any detailed reports of the [browser failing to
+load](https://groups.google.com/d/topic/webc-users/zwBp964YQ_0/discussion).  A
+browser [strace](http://en.wikipedia.org/wiki/Strace) & hardware details whilst
+in [[debug mode|boot]] would be useful.
 
 Many thanks especially to [Daniel](http://blog.daniel-baumann.ch/),
 [Guttorm](https://groups.google.com/d/msg/webc-users/8m_DDHwNnRA/KzRyer93PUAJ),
