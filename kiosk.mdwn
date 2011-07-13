@@ -1,3 +1,32 @@
+# iceweasel-webconverger
+
+Default and most common.
+
+<a href="http://www.flickr.com/photos/hendry/845129157/" title="Photo Sharing"><img src="http://farm2.static.flickr.com/1188/845129157_824320ad82_m.jpg" width="240" height="180" alt="Webconverger booted" /></a>
+
+# iceweasel-webcnoaddressbar
+
+Customization option. For customers who want patrons to browse, but not enter
+in URLs.
+
+<a href="http://www.flickr.com/photos/hendry/2934652998/" title="Webconverger noaddressbar kiosk extension demo by Kai Hendry, on Flickr"><img src="http://farm4.static.flickr.com/3034/2934652998_462143ea42.jpg" width="500" height="375" alt="Webconverger noaddressbar kiosk extension demo" /></a>
+
+# iceweasel-webcfullscreen
+
+Customization option. For customers who want to do [Digital signage](http://en.wikipedia.org/wiki/Digital_Signage) or just [show off some pictures](http://www.subitophoto.net/slideshow/machupicchu/) somewhere.
+
+<a href="http://www.flickr.com/photos/hendry/903110103/" title="Photo Sharing"><img src="http://farm2.static.flickr.com/1351/903110103_3b82387709_m.jpg" width="240" height="180" alt="iceweasel-webcfullscreen" /></a>
+
+If you're concerned about the scroll bar, alter the **overflow** CSS element. Here is an [example of a Web application providing a digital sign](http://alephitv.com/webconverger.html).
+
+## Implementation
+
+We have forked rkiosk and created our own extension, (iceweasel-)webconverger.
+We had to do this as I had to modify some of upstream's packaging and
+functions.  Upstream was also a little un-cooperative.
+
+* [iceweasel-webconverger.git](http://git.webconverger.org/?p=iceweasel-webconverger.git).
+
 ## BrowserLoadURL broken
 
 Overriding BrowserLoadURL in this kiosk extension was use to stop access to:
@@ -44,34 +73,39 @@ irc.mozilla.org's #extdev sez I should look at <https://developer.mozilla.org/en
 
 TODO: Implement <https://developer.mozilla.org/en/NsIContentPolicy> by [building a XPCOM Component in Javascript](https://developer.mozilla.org/en/How_to_Build_an_XPCOM_Component_in_Javascript)
 
-# iceweasel-webconverger
+## Disabling keys
 
-Default and most common.
+Keys combinations like CTRL+G, CTRL+J, CTRL+K, CTRL+L, and ALT+D, can be used
+to get to Google in webcnoaddressbar & webcfullscreen.
 
-<a href="http://www.flickr.com/photos/hendry/845129157/" title="Photo Sharing"><img src="http://farm2.static.flickr.com/1188/845129157_824320ad82_m.jpg" width="240" height="180" alt="Webconverger booted" /></a>
+[Dorando](http://dorando.emuverse.com/html/email.html) proposes:
 
-# iceweasel-webcnoaddressbar
+	var keys = ["key_findAgain", "key_openDownloads", "key_search", "focusURLBar", "focusURLBar2"];
+	for(var i = 0; i < keys.length; i++) {
+		var key = document.getElementById(keys[i]);
+		if(!key)
+			continue;
 
-Customization option. For customers who want patrons to browse, but not enter
-in URLs.
+		key.setAttribute("key",""); key.removeAttribute("charcode"); key.removeAttribute("keycode");
 
-<a href="http://www.flickr.com/photos/hendry/2934652998/" title="Webconverger noaddressbar kiosk extension demo by Kai Hendry, on Flickr"><img src="http://farm4.static.flickr.com/3034/2934652998_462143ea42.jpg" width="500" height="375" alt="Webconverger noaddressbar kiosk extension demo" /></a>
+		var menuitems = document.getElementsByAttribute("key",key.id);
+		for(var j = 0; j < menuitems.length; j++) {
+			menuitems[j].setAttribute("acceltext","");
+			menuitems[j].removeAttribute("acceltext");
+		}
+	}
 
-# iceweasel-webcfullscreen
+	var keyset = document.getElementById("mainKeyset");
+	keyset.parentNode.insertBefore(keyset, keyset.nextSibling);
 
-Customization option. For customers who want to do [Digital signage](http://en.wikipedia.org/wiki/Digital_Signage) or just [show off some pictures](http://www.subitophoto.net/slideshow/machupicchu/) somewhere.
+You can also just set the disabled attribute on the <key>, but keyconfig wont
+consider those as disabled as that attribute is used to temporarily disable
+some <key>s (see
+<http://hg.mozilla.org/mozilla-central/diff/88952ceddd05/browser/base/content/tabbrowser.xml>
+for example).
 
-<a href="http://www.flickr.com/photos/hendry/903110103/" title="Photo Sharing"><img src="http://farm2.static.flickr.com/1351/903110103_3b82387709_m.jpg" width="240" height="180" alt="iceweasel-webcfullscreen" /></a>
+These patch needs to be introduced into <http://git.webconverger.org/?p=iceweasel-webconverger.git>
 
-If you're concerned about the scroll bar, alter the **overflow** CSS element. Here is an [example of a Web application providing a digital sign](http://alephitv.com/webconverger.html).
-
-## Implementation
-
-We have forked rkiosk and created our own extension, (iceweasel-)webconverger.
-We had to do this as I had to modify some of upstream's packaging and
-functions.  Upstream was also a little un-cooperative.
-
-* [iceweasel-webconverger.git](http://git.webconverger.org/?p=iceweasel-webconverger.git).
 
 ## Test the extension on your Firefox browser
 
