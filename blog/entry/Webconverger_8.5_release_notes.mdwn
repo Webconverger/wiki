@@ -16,8 +16,9 @@ in any detailed reports like the [browser fails to
 load](https://groups.google.com/d/topic/webc-users/zwBp964YQ_0/discussion).
 A browser [strace](http://en.wikipedia.org/wiki/Strace) & hardware details whilst in [[debug mode|boot]].
 
-Lastly please support my adventure from London to Mongolia over at
-<http://geekout.org.uk/>. Many thanks especially to
-[Daniel](http://blog.daniel-baumann.ch/),
+Many thanks especially to [Daniel](http://blog.daniel-baumann.ch/),
 [Guttorm](https://groups.google.com/d/msg/webc-users/8m_DDHwNnRA/KzRyer93PUAJ),
-Jamie & Ari.
+Jamie & Ari for making this "pre-Mongol Rally" release possible.
+
+Lastly please support my adventure from London to Mongolia over at
+<http://geekout.org.uk/> by donating and / or subscribing to the [news feed](http://geekout.org.uk/index.rss).
