@@ -18,7 +18,7 @@ A browser [strace](http://en.wikipedia.org/wiki/Strace) & hardware details whils
 
 Many thanks especially to [Daniel](http://blog.daniel-baumann.ch/),
 [Guttorm](https://groups.google.com/d/msg/webc-users/8m_DDHwNnRA/KzRyer93PUAJ),
-Jamie & Ari for making this "pre-Mongol Rally" release possible.
+Jamie & Ari for helping with this "pre-Mongol Rally" release.
 
 Lastly please support my adventure from London to Mongolia over at
 <http://geekout.org.uk/> by donating and / or subscribing to the [news feed](http://geekout.org.uk/index.rss).
