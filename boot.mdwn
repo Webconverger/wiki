@@ -24,7 +24,7 @@ append `locales=de`
 
 append `http_proxy=http://192.168.1.5:8888`
 
-### To do some debugging
+### DEBUG MODE
 
 remove `noroot`
 
