@@ -12,7 +12,7 @@ setup
 However the same can be achieved by
 [interfaces](http://manpages.debian.net/cgi-bin/man.cgi?query=interfaces).
 
-In recent versions of [[mini]] [Webconverger the
+In recent versions of [Webconverger the
 interfaces](http://git.debian.org/?p=debian-live/config-webc.git;a=blob;f=webconverger/config/chroot_local-includes/etc/network/interfaces)
 assumes the eth0 is the wired connection and the eth1 or wlan0 interface is a
 [[wireless]] interface. The wireless interface is configured by [wpa

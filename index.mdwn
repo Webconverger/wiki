@@ -65,5 +65,3 @@ Reasons for using Webconverger
 * [[Low_Maintenance|Maintenance]]
 * Commercial [[Support]] via [Webconverger.com](http://webconverger.com/) is available. Please enquire.
 * [[privacy]]
-
-[[!ping from="http://webconverger.org" to="http://hetty.webconverger.org/ikiwiki.cgi?do=ping"]]

@@ -1,4 +1,4 @@
-# Embedded hardare
+# Embedded hardware
 
 Update: These devices are becoming known as <a href="http://en.wikipedia.org/wiki/Nettop_(computer)">Net Tops</a>. The Atom based generation should fix some of the speed Cons listed below...
 

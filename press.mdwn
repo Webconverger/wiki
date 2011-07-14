@@ -52,6 +52,7 @@ Foreign Language
 Quoted positive feedback
 ========================
 
+* [Thank you very much for such a wonderful product](https://groups.google.com/d/msg/webc-users/8m_DDHwNnRA/7iG3U7gNTDkJ)
 * I was looking for a Linux Live CD to do online banking and webc is the best solution out there. I'll suggest it to friends and forumers. Thank you. from M
 * "Thank you for what you have done so far. Of webkiosk livecds, yours is currently the best." from Larry
 * "I am looking for a boot CD to give to friends and relatives for safe Internet banking. Webconverger is the best I have found" from anonymous

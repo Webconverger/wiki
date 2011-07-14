@@ -4,6 +4,9 @@ There are many Linux distributions based on Debian. However very few contribute
 back to Debian. Webconverger will contribute back to Debian, with a goal to
 become a "flavour" of Debian or at least Debian Live.
 
+Debian users looking to temporarily enable "kiosk features" may find
+[[blog/entry/Debian_Web_Kiosk/]] interesting.
+
 # Webconverger patches in Debian
 
 * dwm
@@ -34,7 +37,7 @@ The way Firefox/Iceweasel extensions are packaged in Debian, is that if a
 extension is installed it applies to all users and profiles. This may not be
 desirable!
 
-## The webc key
+## The webconverger archive key
 
 # Other general issues
 

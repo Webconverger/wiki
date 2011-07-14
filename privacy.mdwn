@@ -16,4 +16,4 @@ All *.webconverger.[com|org] sites have standard [Apache](http://apache.org/)
 logs, which will log when you visit that site. Logs are typically rotated
 (deleted) within a year.
 
-If you are concerned about your privacy, use Webconverger. :-)
+If you are concerned about your privacy, use Webconverger.

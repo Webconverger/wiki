@@ -1,4 +1,4 @@
-Webconverger adds a couple of extra boot parameters to [Debian Live's options](/live-config.txt), such as homepage, wlan, http_proxy, compose, [[noblank|blanking]].
+Webconverger adds a couple of extra boot parameters to [Debian Live's options](http://live.debian.net/gitweb?p=live-config.git;a=blob;f=manpages/en/live-config.7), such as homepage, wlan, http_proxy, compose, [[noblank|blanking]].
 
 # A guide to editing the boot parameter
 

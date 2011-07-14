@@ -25,10 +25,3 @@ platform... the Web!
 Please help and contribute by [[testing]] or [[building|develop]] and
 submitting to patches to the [mailing
 list](http://groups.google.com/group/webc-users/topics).
-
-
-# For releasing 7
-
-* Tidy up Plymouth
-* Update [[boot]] documentation in light of updated <http://webconverger.org/live-config.txt> boot parameters
-* PR & Marketing

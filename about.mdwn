@@ -1,6 +1,7 @@
 [[!meta title="Webconverger Comparison Matrix"]]
 
-Webconverger is a simple and secure Web platform.
+Webconverger provides a simple and secure Web platform as an operating system
+to boot from a USB stick or a CD-ROM.
 
 # Introduction
 
@@ -76,13 +77,12 @@ XP with Steadystate is inferior to a Webconverger for my usage scenario here.
 
 # Rationale
 
-Entrepreneurs are not developing for the Windows or the Linux desktop, they’re
+Entrepreneurs are not developing for the Windows or the Linux desktop, they are
 developing for the prevalent <a
 href="http://www.joelonsoftware.com/articles/APIWar.html">Web platform</a>.
 
-Likewise users are not checking their email with Outlook Express
-anymore, they’re using Web applications such as Gmail or Yahoo. This is
-Web convergence.
+Likewise users are not checking their email with Outlook Express anymore, they
+are using Web applications such as Gmail or Yahoo. This is Web convergence.
 
 That leads us onto a <strong>problem</strong>. How does an IT manager roll
 out the Web platform? We probably have to deal with fragile pre-installations

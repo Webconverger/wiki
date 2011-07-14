@@ -1,5 +1,7 @@
 Tracking the status of the Debian installer.
 
+# Debian installer is disabled on recent builds
+
 Webconverger has [sponsored
 work](http://lists.debian.org/debian-live/2009/08/msg00029.html) to allow
 Webconverger to be installed on the hard drive.

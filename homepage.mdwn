@@ -1,8 +1,6 @@
-<a href="http://www.flickr.com/photos/hendry/1620185957/" title="Photo Sharing"><img src="http://farm3.static.flickr.com/2332/1620185957_2fff99c6a5_m.jpg" width="240" height="180" alt="Editing homepage digital zoomed" /></a>
+<a href="http://www.flickr.com/photos/hendry/5856210910/" title="Edit boot menu by Kai Hendry, on Flickr"><img src="http://farm6.static.flickr.com/5157/5856210910_e0e47fb5bb.jpg" width="500" height="375" alt="Edit boot menu"></a>
 
-# Webconverger 2.30 CD versions and above
-
-From version 2.30, [CD](http://en.wikipedia.org/wiki/Compact_disc) ISOs have GRUB boot loaders. This allows you to modify the boot parameter line! See the [[boot_tutorial|boot]].
+You can edit the boot **cmdline** by pressing **TAB** on startup.
 
 # USB
 
@@ -10,6 +8,10 @@ Please see [[usb]].
 
 # Customised versions
 
-These versions of Webconverger have the homepage fixed on [http://portal.webconverger.com/](http://portal.webconverger.com/) or the URL of your choice if you [paid for customisation](http://webconverger.com/buy).
+These versions of Webconverger have the homepage fixed on
+[http://portal.webconverger.com/](http://portal.webconverger.com/) or the URL
+of your choice if you [paid for customisation](http://webconverger.com/buy).
 
-If you want to set your own Website, either [[build_Webconverger_yourself|develop]] or utilise the [Webconverger customization service](http://webconverger.com/buy).
+If you want to set your own Website, either
+[[build_Webconverger_yourself|develop]] or utilise the [Webconverger
+customization service](http://webconverger.com/buy).

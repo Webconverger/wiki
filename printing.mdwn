@@ -2,9 +2,9 @@
 
 Webconverger only prints to auto-detected **networked printers** shared through CUPS.
 
-Supported network printers shared through [CUPS](http://www.cups.org) are automatically discovered and configured. No
-other printers (connected locally or networked) will be
-available.
+Supported network printers shared through [CUPS](http://www.cups.org) are
+automatically discovered and configured. No other printers (connected locally
+or networked) will be available.
 
 Holding down the [Control] and [p] keys on your keyboard gives you the printing dialog.
 
