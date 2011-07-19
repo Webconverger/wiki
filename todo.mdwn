@@ -4,7 +4,8 @@ platform... the Web!
 
 * Allow USB mounts so people can upload pictures to Flickr (use case by Phil Waring)
 * do some sort of device API for attraction (screensaver advertisement) loop, perhaps it can be done with kioskresetstation? No, [this can be done with a Web application](http://groups.google.com/group/webc-users/browse_thread/thread/656f92ff84582535) -- write this up!
-* device API for USB coin slot
+* device API for USB coin slot / payment proxy?
+* Close tab "X" should be in the tab itself. 
 * Make a cooler portal
 * have a service to buy CDs? or USB keys? Many people seem to have problems imaging Webconverger on [[usb]] from Windows.
 * Look into advertising on the free version
