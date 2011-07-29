@@ -1,9 +1,9 @@
 [[!template id=note text="""
 <a href="http://www.flickr.com/photos/hendry/1403651984/" title="Photo Sharing"><img src="http://farm2.static.flickr.com/1169/1403651984_30fd52a678_m.jpg" width="180" height="240" alt="Webconverger on an HP" /></a>"""]]
 
-.ISO [downloadable](http://download.webconverger.com/) files are [ISO-hybrid
+.ISO [downloadable](http://download.webconverger.com/) files are ISO-hybrid
 images to be copied onto a USB
-stick/key](http://webconverger.org/blog/entry/Webconverger_6.1_release_notes).
+stick/key.
 
 # How to copy the .iso file to a USB stick using Windows
 Since version 6.1 webconverger provides a hybrid.iso which can be burned to CD or flashed on an usb-stick.
