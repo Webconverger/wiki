@@ -108,7 +108,8 @@ Unmount and boot up your system:
 A common [customisation request](http://webconverger.com/buy/) is to disable
 the [[boot_menu|boot]], in order to make this Web client tamper proof.
 
-You can edit `isolinux/isolinux.cfg` on the USB image to look something like this:
+You can edit `isolinux/isolinux.cfg` on the USB image to look something like:
+	
 	default linux
 	label linux
 		kernel /live/vmlinuz1
