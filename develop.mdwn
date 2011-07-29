@@ -15,9 +15,7 @@ If you are new to the project, **Welcome**! Please help by [[testing]]. Thank yo
 ## Building on a Debian system:
 
 Building an image from scratch is usually only necessary if you need to
-customise the image's packages [[chrome|kiosk]] typically. You can use this <a
-href="http://webconverger.org/blog/entry/Webconverger_6.1_release_notes/">guide
-to persistently change [[boot]] options **without building**</a>.
+customise the image's packages [[chrome|kiosk]] typically. You can use this [[guide to persistently change [[boot]] options **without building**|usb]].
 
 1. Download and install the **latest**
 [live-helper](http://live.debian.net/devel/live-helper/) from the Debian
