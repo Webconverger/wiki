@@ -2,7 +2,7 @@
 * [Webconverger live-helper configuration](http://git.debian.org/?p=debian-live/config-webc.git)
 * [Official Webconverger package repository](http://debian.webconverger.com)
 * [Webconverger git repositories](http://git.webconverger.org/)
-* [[Instructions_how_to_modify_the_ISO|customising_iso-hybrid]]
+* [[Instructions_how_to_modify_the_ISO|usb]]
 * [Webconverger daily builds](http://build.webconverger.org/) - [build script sources](http://git.webconverger.org/?p=build)
 * [[i18n]] - perhaps you could help translate the [portal](http://portal.webconverger.com/) into your local language?
 * [[Artwork]]
