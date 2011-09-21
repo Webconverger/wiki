@@ -4,9 +4,13 @@
 
 Otherwise the background logo is retrieved from $HOMEPAGE/bg.png
 
-Users see this as Webconverger loads the Web browser. So initially at bootup
-and between sessions. The amount of time this background is viewable depends on
-the speed of the computer. I.e. how long it takes to load the browser.
+Users see the artwork set in the the X background when the Web browser is reset
+and re-initialising. Not when Webconverger boots the ISO image. In practice
+users should not see Webconverger boot from cold start.
+
+Therefore the artwork can only be seen between sessions. The amount of time
+this background is viewable depends on the speed of the computer. I.e. how long
+it takes to load the browser.
 
 ### Example
 
