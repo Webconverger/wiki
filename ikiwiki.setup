@@ -17,6 +17,7 @@ adminuser:
   - http://hendry.iki.fi/
   - http://jamiek.it/
   - https://www.google.com/accounts/o8/id?id=AItOawlWhHF9A-23JLcWkpG3RQH6XtY-MNHv2YU
+  - https://www.google.com/accounts/o8/id?id=AItOawno3gZB3azVHoFD6P9WR1UTrOLasROgtf4
 # users who are banned from the wiki
 banned_users: []
 # where the source of the wiki is located
@@ -75,11 +76,11 @@ prefix_directives: 1
 # use page/index.mdwn source files
 indexpages: 0
 # enable Discussion pages?
-discussion: 1
+discussion: 0
 # name of Discussion pages
 discussionpage: Discussion
 # generate HTML5?
-html5: 0
+html5: 1
 # only send cookies over SSL connections?
 sslcookie: 0
 # extension to use for new pages
@@ -272,8 +273,8 @@ po_link_to: default
 
 ######################################################################
 # web plugins
-#   (404, attachment, comments, editdiff, edittemplate, getsource, google,
-#    goto, mirrorlist, remove, rename, repolist, search, theme, userlist,
+#   (404, attachment, comments, editdiff, edittemplate, google, goto,
+#    mirrorlist, remove, rename, repolist, search, theme, userlist,
 #    websetup, wmd)
 ######################################################################
 
@@ -296,10 +297,6 @@ comments_pagename: comment_
 #comments_allowauthor: 0
 # commit comments to the VCS
 comments_commit: 1
-
-# getsource plugin
-# Mime type for returned source.
-#getsource_mimetype: text/plain; charset=utf-8
 
 # mirrorlist plugin
 # list of mirrors
