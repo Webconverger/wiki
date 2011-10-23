@@ -16,7 +16,10 @@ If you are new to the project, **Welcome**! Please help by [[testing]]. Thank yo
 **These instructions are unfortunately out of date and incomplete, see [this mailing list post](http://groups.google.com/group/webc-users/browse_thread/thread/3b06d59af77e6d13?hl=en_US) for step-by-step instructions.**
 
 Building an image from scratch is usually only necessary if you need to
-customise the image's packages [[chrome|kiosk]] typically. You can use this [[guide to persistently change [[boot]] options **without building**|usb]].
+customise the image's packages [[chrome|kiosk]] typically. 
+
+You can use the [[guide|usb]] to persistently change [[boot]] options **without
+building**.
 
 1. Download and install the **latest**
 [live-helper](http://live.debian.net/devel/live-helper/) from the Debian
