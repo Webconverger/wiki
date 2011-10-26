@@ -1,9 +1,8 @@
 [[!template id=note text="""
 <a href="http://www.flickr.com/photos/hendry/1403651984/" title="Photo Sharing"><img src="http://farm2.static.flickr.com/1169/1403651984_30fd52a678_m.jpg" width="180" height="240" alt="Webconverger on an HP" /></a>"""]]
 
-.ISO [downloadable](http://download.webconverger.com/) files are ISO-hybrid
-images to be copied onto a USB
-stick/key.
+.ISO [downloadable](http://download.webconverger.com) files are ISO-hybrid
+images to be copied onto a USB stick/key.
 
 # How to copy the .iso file to a USB stick using Windows
 Since version 6.1 webconverger provides a hybrid.iso which can be burned to CD or flashed on an usb-stick.
@@ -11,18 +10,18 @@ In some scenarios flashing the hybrid-iso onto an usb-stick with MS Windows won�
 
 You can follow [the USB imaging guide from Ubuntu](https://help.ubuntu.com/community/Installation/FromImgFiles#Windows), from [ArchLinux](http://wiki.archlinux.org/index.php/Install_from_a_USB_flash_drive), or follow the steps beneath. ([Roadkil's Disk Image](http://www.roadkil.net/program.php/P12/Disk%20Image) it is a more lightweight and flexible alternative to Win32 Disk Imager.)
 
-1. Download [Win32 Disk Imager](https://launchpad.net/win32-image-writer/+download) zip and unpack it.  
-1. Download the iso-file.  
-1. Start Win32DiskImager as administrator (right click …).  
-1. Select the iso-file as source (click the folder icon, and write *.iso in the path to be able to select the iso-file).  
-1. Select the USB-Stick as target device.  
-1. Click write.  
+1. Download [Win32 Disk Imager](https://launchpad.net/win32-image-writer/+download) zip and unpack it.
+1. Download the iso-file.
+1. Start Win32DiskImager as administrator (right click …).
+1. Select the iso-file as source (click the folder icon, and write *.iso in the path to be able to select the iso-file).
+1. Select the USB-Stick as target device.
+1. Click write.
 
 # How to copy .iso to USB stick (under Linux):
 
 `fdisk -l` will list your USB drive - usually /dev/sdx ("x" representing letter like sda, sdb etc.), double check with `dmesg`.
 
-	dd if=webc-6.2.iso of=/dev/sdx
+	dd if=webc-9.0.iso of=/dev/sdx
 
 Detailed description on [Debian wiki](http://wiki.debian.org/DebianLive/Howto/USB).
 
@@ -62,11 +61,12 @@ make trivial changes to the [[boot_command_line|boot]].
 
 The iso-hybrid format used on the newer releases makes the file system on your USB install read only, and is thus more cumbersome to modify. If you make your own build you can make it in the .img format which leaves the file system writable. This section has two parts, the first about modifying the standard iso-hybrid, the other about modifying the .img format.
 
-## Customising [iso-hybrid](http://git.debian-maintainers.org/?p=syslinux/syslinux.git;a=blob;f=doc/isolinux.txt#l80)
+## Customising the ISO hybrid image
 
-The customisation steps are something like:
+Simple permanent boot customisation steps without building the ISO from scratch
+are:
 
-	mount -o loop webc-8.iso /mnt/webc/
+	mount -o loop webc-9.0.iso /mnt/webc/
 	rsync -av /mnt/webc/ /mnt/custom/
 	chmod +w /mnt/custom/isolinux/live.cfg
 
@@ -75,21 +75,23 @@ with your homepage URL.
 
 Now rebuild the ISO like so:
 
-	mkisofs -o /tmp/custom-webc.iso -b -r -J -l -cache-inodes -allow-multidot -no-emul-boot -boot-load-size 4 -boot-info-table -b isolinux/isolinux.bin -c isolinux/boot.cat /mnt/custom
+	genisoimage -J -l -cache-inodes -allow-multidot -p "live-build 3.0~a37-1; http://packages.qa.debian.org/live-build" -no-emul-boot -boot-load-size 4 -boot-info-table -r -b isolinux/isolinux.bin -c isolinux/boot.cat -o binary-hybrid.iso binary
 
 Finally:
 
-	/usr/bin/isohybrid /tmp/custom-webc.iso
+	isohybrid /tmp/custom-webc.iso
 
 `isohybrid` comes from a recent version of [syslinux](http://packages.debian.org/unstable/syslinux-common)
 
-The [customisation service](http://webconverger.com/buy) remains if you are unable to perform these commands.
-It's also difficult to edit the package listing, such as changing [[chrome|kiosk]]
-without the [service](http://webconverger.com/buy) still. For
-[[large_deployments|press]], please enquire with sales in how we can help you.
+The [customisation service](http://webconverger.com/buy) remains if you are
+unable to perform these commands.  It's also difficult to edit the package
+listing, such as changing [[chrome|kiosk]] without the
+[service](http://webconverger.com/buy) still. For [[large_deployments|press]],
+please enquire with sales in how we can help you.
 
 ## Customising .img-installs
-This only works on a `lh config -b usb-hdd` type **.img**.
+
+This only works on a `lb config -b usb-hdd` type **.img**.
 
 Plug your Webconverger USB stick in and mount the USB stick, for e.g.:
 
@@ -104,12 +106,15 @@ Unmount and boot up your system:
 	x61:/mnt/usb% cd
 	x61:~% sudo umount /mnt/usb
 
-# Disable boot menu entirely 
+# Disable boot menu entirely
+
 A common [customisation request](http://webconverger.com/buy/) is to disable
-the [[boot_menu|boot]], in order to make this Web client tamper proof.
+the [[boot_menu|boot]], in order to make this Web client tamper proof on boot
+up. However users should not be put infront of a booting Webconverger to begin
+with for best user experience.
 
 You can edit `isolinux/isolinux.cfg` on the USB image to look something like:
-	
+
 	default linux
 	label linux
 		kernel /live/vmlinuz1
