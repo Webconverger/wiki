@@ -64,7 +64,7 @@ The iso-hybrid format used on the newer releases makes the file system on your U
 ## Customising the ISO hybrid image
 
 Simple permanent boot customisation steps without building the ISO from scratch
-are:
+are the following root commands
 
 	mount -o loop webc-9.0.iso /mnt/webc/
 	rsync -av /mnt/webc/ /mnt/custom/
@@ -75,11 +75,13 @@ with your homepage URL.
 
 Now rebuild the ISO like so:
 
-	genisoimage -J -l -cache-inodes -allow-multidot -p "live-build 3.0~a37-1; http://packages.qa.debian.org/live-build" -no-emul-boot -boot-load-size 4 -boot-info-table -r -b isolinux/isolinux.bin -c isolinux/boot.cat -o binary-hybrid.iso binary
+	sudo genisoimage -J -l -cache-inodes -allow-multidot -no-emul-boot -boot-load-size 4 -boot-info-table -r -b isolinux/isolinux.bin -c isolinux/boot.cat -o custom.iso /mnt/custom/
+
+Hint: If you are an Archlinux user, `genisoimage` can be found in the `cdrkit` package.
 
 Finally:
 
-	isohybrid /tmp/custom-webc.iso
+	isohybrid custom.iso
 
 `isohybrid` comes from a recent version of [syslinux](http://packages.debian.org/unstable/syslinux-common)
 
