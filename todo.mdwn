@@ -2,11 +2,9 @@ Webconverger at its core is an opensource project reliant on
 [[your_contributions|acknowledgements]] to strengthen the most competitive open
 platform... the Web!
 
-* Allow USB mounts so people can upload pictures to Flickr (use case by Phil Waring) - drop in udev rule
 * do some sort of device API for attraction (screensaver advertisement) loop, perhaps it can be done with kioskresetstation? No, [this can be done with a Web application](http://groups.google.com/group/webc-users/browse_thread/thread/656f92ff84582535) -- write this up!
 * device API for USB coin slot / payment proxy?
-* Close tab "X" should be in the tab itself. 
-* Make a cooler portal
+* Close tab "X" should be in the tab itself.
 * have a service to buy CDs? or USB keys? Many people seem to have problems imaging Webconverger on [[usb]] from Windows.
 * Look into advertising on the free version
 * Virtual (on screen) keyboard [[blog/entry/Virtual_touch_screen_keyboard_for_Kiosks]]
@@ -15,12 +13,11 @@ platform... the Web!
 * Showcase Webconverger as a vehicle for online examinations
 * CJK scripts not working (network is not setup in time, sometimes)
 * Ability to change chrome [[kiosk]] options on [[boot]] (webcnoaddressbar, webcfullscreen) - [ref](http://groups.google.com/group/webc-users/browse_thread/thread/c6c8649feadbb8dc)
-* Can the home button be fixed for supporting two urls?
 * nolocales by default ?
 * [session timer](http://groups.google.com/group/webc-users/browse_thread/thread/39a3dcda1305a036) ?
-* integrate MACID changes
 * look into search bar & favicons not loading
-* fix [pinger](http://anonscm.debian.org/gitweb/?p=debian-live/config-webc.git;a=blob;f=webconverger/config/includes.chroot/etc/network/if-up.d/ping;) since interfaces are often not eth0
+* Restore Webconverger on <https://addons.mozilla.org/en-US/developers/addon/webconverger/edit>
+* Fix MACID if it can't quickly get an IP
 
 # [[Extension|kiosk]] improvements needed
 
