@@ -16,6 +16,16 @@ See [[homepage]]
 
 you can enter several homepages, which open in several tabs, separate each address with `%20` e.g. `homepage=http://portal.webconverger.com/%20http://webconverger.com`
 
+#### Homepage MACID query
+
+Some customers want a way of tracking which kiosks are logging in. These is best accomplished using a keyword **MACID**. For example the homepage:
+
+	homepage=http://webconverger.com/?mac=MACID
+
+Could be expanded to
+
+	homepage=http://webconverger.com/?mac=08:11:96:ae:2d:3c
+
 ### Use Webconverger in German, see [[i18n]] for more localisations
 
 append `locales=de`

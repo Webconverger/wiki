@@ -10,14 +10,13 @@ platform... the Web!
 * Virtual (on screen) keyboard [[blog/entry/Virtual_touch_screen_keyboard_for_Kiosks]]
 * A way of entering commands on boot [like to control specific hardware](http://groups.google.com/group/webc-users/browse_thread/thread/e8a36eccc4c78a56?hl=en) (hdparm, xrandr) -- drop things into rc2.d or somehow modulise <http://git.webconverger.org/?p=webconverger-base;a=blob;f=debian/webconverger.init;> with `webc.d/` or some other construct?
 * Initial spelling language priority [[issue|blog/entry/Webconverger_4.7_release_notes]] bug
-* Showcase Webconverger as a vehicle for online examinations
-* CJK scripts not working (network is not setup in time, sometimes)
+* Showcase Webconverger as a medium for online examinations
 * Ability to change chrome [[kiosk]] options on [[boot]] (webcnoaddressbar, webcfullscreen) - [ref](http://groups.google.com/group/webc-users/browse_thread/thread/c6c8649feadbb8dc)
 * nolocales by default ?
 * [session timer](http://groups.google.com/group/webc-users/browse_thread/thread/39a3dcda1305a036) ?
 * look into search bar & favicons not loading
 * Restore Webconverger on <https://addons.mozilla.org/en-US/developers/addon/webconverger/edit>
-* Fix MACID if it can't quickly get an IP
+* Hide wlan= info on startup webconverger.init
 
 # [[Extension|kiosk]] improvements needed
 
