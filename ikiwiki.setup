@@ -54,13 +54,14 @@ add_plugins:
   - poll
   - progress
   - relativedate
-  - search
   - testpagespec
   - version
   - theme
   - userlist
+  - google
 # plugins to disable
-disable_plugins: []
+disable_plugins:
+  - search
 # additional directory to search for template files
 templatedir: /usr/share/ikiwiki/templates
 # base wiki source location
@@ -97,8 +98,8 @@ userdir: ''
 numbacklinks: 10
 # attempt to hardlink source files? (optimisation for large files)
 hardlink: 1
-# force ikiwiki to use a particular umask
-#umask: 022
+# force ikiwiki to use a particular umask (keywords public, group or private, or a number)
+#umask: public
 # group for wrappers to run in
 #wrappergroup: ikiwiki
 # extra library and plugin directory
