@@ -2,8 +2,20 @@
 
 [Subscribe to the RSS feed](http://webconverger.org/blog/index.rss) of the [[blog]].
 
-### If you want to ask a question about Webconverger usage, try the [forum for Webc users](http://groups.google.com/group/webc-users/topics)!
-
+<table border=0 style="background-color: #fff; padding: 5px;" cellspacing=0>
+  <tr><td>
+  <img src="imgs/webconverger_org.png"
+         height=30 width=140 alt="Webconverger.org Google Groups">
+  </td></tr>
+  <tr><td style="padding-left: 5px"> <b>Subscribe to Webconverger Users</b> </td></tr>
+  <form action="http://groups.google.com/group/webc-users/boxsubscribe">
+  <input type=hidden name="hl" value="en-GB">
+  <tr><td style="padding-left: 5px;"> Email: <input type=text name=email>
+  <input type=submit name="sub" value="Subscribe">
+  </td></tr>
+</form>
+<tr><td align=right> <a href="http://groups.google.com/group/webc-users?hl=en-GB">Visit this group</a> </td></tr>
+</table>
 
 * [Twitter updates](http://twitter.com/Webconverger)
 * [Download Webconverger](http://download.webconverger.com/) - [German mirror](http://download.webconverger.org/)
