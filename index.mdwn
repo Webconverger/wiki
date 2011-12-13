@@ -1,11 +1,9 @@
-# Welcome to the Webconverger Web kiosk project wiki
-
-[Subscribe to the RSS feed](http://webconverger.org/blog/index.rss) of the [[blog]].
+# Welcome to the opensource Webconverger Web kiosk project wiki !
 
 <table border=0 style="background-color: #fff; padding: 5px;" cellspacing=0>
   <tr><td>
   <img src="imgs/webconverger_org.png"
-         height=30 width=140 alt="Webconverger.org Google Groups">
+         height=50 width=450 alt="Webconverger.org Google Groups">
   </td></tr>
   <tr><td style="padding-left: 5px"> <b>Subscribe to Webconverger Users</b> </td></tr>
   <form action="http://groups.google.com/group/webc-users/boxsubscribe">
@@ -17,10 +15,11 @@
 <tr><td align=right> <a href="http://groups.google.com/group/webc-users?hl=en-GB">Visit this group</a> </td></tr>
 </table>
 
+* [Subscribe to the RSS feed](http://webconverger.org/blog/index.rss) of the [[blog]].
 * [Twitter updates](http://twitter.com/Webconverger)
 * [Download Webconverger](http://download.webconverger.com/) - [German mirror](http://download.webconverger.org/)
 * [[Design_document|Design]]
-* [[TODO]] list
+* [[TODO]] & bug list
 * The [Debian-Live project](http://debian-live.alioth.debian.org/) and [[Debian]] is where Webconverger is derived from
 * [[Firefox_extension_development|Kiosk]]
 * [[Internationalisation_and_localisation|i18n]]
