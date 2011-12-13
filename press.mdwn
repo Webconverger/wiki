@@ -1,7 +1,6 @@
 Clients use Webconverger in:
 ============================
 
-* [Sport relief 2008](http://flickr.com/photos/hendry/2315610422/) for taking donations
 * Banks for secure client Internet banking
 * Casinos
 * Car dealerships
@@ -13,8 +12,9 @@ Clients use Webconverger in:
 * Libraries
 * Charities
 * Hotels
-* Tourist information infopoints
+* Tourist information information points
 * Waiting rooms
+* [Sport relief 2008](http://flickr.com/photos/hendry/2315610422/) for taking donations
 
 
 Web feedback
@@ -53,6 +53,7 @@ Foreign Language
 Quoted positive feedback
 ========================
 
+* ... your product is incredible.  We haven't rolled out many of our users with the CD -- but it works perfectly when we do. [Jackson from Pawpawmail.com](http://pawpawmail.com)
 * [Thank you very much for such a wonderful product](https://groups.google.com/d/msg/webc-users/8m_DDHwNnRA/7iG3U7gNTDkJ)
 * I was looking for a Linux Live CD to do online banking and webc is the best solution out there. I'll suggest it to friends and forumers. Thank you. from M
 * "Thank you for what you have done so far. Of webkiosk livecds, yours is currently the best." from Larry
