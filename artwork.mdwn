@@ -14,5 +14,5 @@ it takes to load the browser.
 
 ### Example
 
-So the default HOMEPAGE=http://portal.webconverger.com/
-So [view the current background](http://portal.webconverger.com/bg.png).
+So the default HOMEPAGE=http://webconverger.com/
+So [view the current background](http://webconverger.com/bg.png).

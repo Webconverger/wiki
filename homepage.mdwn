@@ -9,7 +9,7 @@ Please see [[usb]].
 # Customised versions
 
 These versions of Webconverger have the homepage fixed on
-[http://portal.webconverger.com/](http://portal.webconverger.com/) or the URL
+[http://webconverger.com/](http://webconverger.com/) or the URL
 of your choice if you [paid for customisation](http://webconverger.com/buy).
 
 If you want to set your own Website, either

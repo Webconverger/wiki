@@ -9,7 +9,7 @@ Default and most common.
 Customization option. For customers who want patrons to browse, but not enter
 in URLs.
 
-<a href="http://www.flickr.com/photos/hendry/2934652998/" title="Webconverger noaddressbar kiosk extension demo by Kai Hendry, on Flickr"><img src="http://farm4.static.flickr.com/3034/2934652998_462143ea42.jpg" width="500" height="375" alt="Webconverger noaddressbar kiosk extension demo" /></a>
+<a href="http://www.flickr.com/photos/hendry/2934652998/" title="Webconverger noaddressbar kiosk extension demo by Kai Hendry, on Flickr"><img src="http://farm4.static.flickr.com/3034/2934652998_462143ea42.jpg" width="240" height="180" alt="Webconverger noaddressbar kiosk extension demo" /></a>
 
 # iceweasel-webcfullscreen
 
@@ -17,7 +17,7 @@ Customization option. For customers who want to do [Digital signage](http://en.w
 
 <a href="http://www.flickr.com/photos/hendry/903110103/" title="Photo Sharing"><img src="http://farm2.static.flickr.com/1351/903110103_3b82387709_m.jpg" width="240" height="180" alt="iceweasel-webcfullscreen" /></a>
 
-If you're concerned about the scroll bar, alter the **overflow** CSS element. Here is an [example of a Web application providing a digital sign](http://alephitv.com/webconverger.html).
+If you're concerned about the scroll bar, alter the **overflow** CSS element.
 
 ## Implementation
 

@@ -15,7 +15,7 @@ further options:
 * [[ISO]] and/or [[USB]] image varieties for [download](http://download.webconverger.com/)
 * It is best to use Webconverger from an inexpensive [[USB]] stick, though you can install Webconverger to a hard drive
 * Latest [Firefox Web browser](http://en.wikipedia.org/wiki/Firefox) rebuild [Iceweasel](http://en.wikipedia.org/wiki/Iceweasel) by default in every Webconverger.
-* custom [[Artwork]] - your $HOMEPAGE/bg.png, default being [http://portal.webconverger.com/bg.png](http://portal.webconverger.com/bg.png).
+* custom [[Artwork]] - your $HOMEPAGE/bg.png
 * [[Kiosk_reset|blanking]] **timeout** with `kioskresetstation=<mins>`. Resets browser after user defined minutes of idleness/inactivity.
 * [[Networking]] **wired** works simply with DHCP. [[Wireless]] works too!
 * [[Adobe]] Flash & [PDF viewing](http://www.flickr.com/photos/hendry/3825411003/)

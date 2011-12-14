@@ -1,10 +1,11 @@
+[[!meta title="Develop Webconverger"]]
+
 * [[Core_concepts|design]]
 * [Webconverger live-helper configuration](http://git.debian.org/?p=debian-live/config-webc.git)
 * [Official Webconverger package repository](http://debian.webconverger.com)
 * [Webconverger git repositories](http://git.webconverger.org/)
-* [[Instructions_how_to_modify_the_ISO|usb]]
 * [Webconverger daily builds](http://build.webconverger.org/) - [build script sources](http://git.webconverger.org/?p=build)
-* [[i18n]] - perhaps you could help translate the [portal](http://portal.webconverger.com/) into your local language?
+* [[Webconverger_in_your_locale|i18n]]
 * [[Artwork]]
 * [[Firefox_extension_development|Kiosk]]
 * [Debian Live project](http://debian-live.alioth.debian.org/) and [Live helper packages](http://live.debian.net/)
@@ -42,7 +43,7 @@ Next use this [[test_guide|testing]] on your freshly built image.
 
 ## Debugging mode with the built Webconverger image
 
-Debugging in Webconverger simply involves removing `nosudo` from the [[boot]] options. The window manager is [dwm](http://dwm.suckless.org/tutorial).
+Debugging in Webconverger simply involves removing `noroot` from the [[boot]] options. The window manager is [dwm](http://dwm.suckless.org/tutorial).
 
 # Hacking the USB [[boot]]
 The reason why [Webconverger has a commercial customisation
@@ -112,9 +113,8 @@ You can edit `isolinux/isolinux.cfg` on the USB image to look something like:
 		kernel /live/vmlinuz1
 		append initrd=/live/initrd1.img boot=live quiet homepage=http://portal.webconverger.com/ nonetworking splash vga=current username=webc hostname=webconverger union=aufs
 
-
 ## Commercial customizing service
 
 UK based Webconverger Limited offers a build service of the above at
-[Webconverger.com/buy](http://webconverger.com/buy/). We also test the image
+[Webconverger.com/buy](http://webconverger.com/buy). We also test the image
 and offer a no-quibble money back guarantee.
