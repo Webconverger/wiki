@@ -3,56 +3,32 @@ images](http://build.webconverger.org). Report bugs on
 [webc-users](http://groups.google.com/group/webc-users/topics). Once verified,
 bugs are listed on the [[todo]] list.
 
-# [qemu](https://wiki.archlinux.org/index.php/QEMU)
+# [Virtualbox](https://www.virtualbox.org)
+
+<a href="http://www.flickr.com/photos/hendry/6509326697/" title="Webconverger Virtualbox by Kai Hendry, on Flickr"><img src="http://farm8.staticflickr.com/7166/6509326697_acce79b28f.jpg" width="500" height="281" alt="Webconverger Virtualbox"></a>
+
+* [Archlinux Virtualbox setup guide](https://wiki.archlinux.org/index.php/VirtualBox)
+
+Virtualbox is faster than Qemu.
+
+# [Qemu](http://wiki.qemu.org)
 
 <a href="http://www.flickr.com/photos/hendry/6508721087/" title="qemu kvm running Webconverger debug mode by Kai Hendry, on Flickr"><img src="http://farm8.staticflickr.com/7162/6508721087_e782798e46.jpg" width="500" height="281" alt="qemu kvm running Webconverger debug mode"></a>
+
+* [Archlinux Qemu setup guide](https://wiki.archlinux.org/index.php/QEMU)
 
 Test [latest](http://build.webconverger.org/latest.iso) [[ISO]] image, like so:
 
 	qemu -cdrom binary.iso
 
-# Proprietary VMware
-
-Windows or linux users can download [VMWARE player](http://www.vmware.com/download/player/download.html), which is free of cost.
-
-Save the configuration below as a file named `webconverger.vmx` with webconverger.iso in the same directory. Run with VMWARE's player.
-
-    # VM Machine Info
-    guestOS = "linux"
-    displayName = "Webconverger"
-    config.version = "7"
-    memsize = "128"
-
-    # CDROM Info
-    ide1:0.present = "TRUE"
-    ide1:0.fileName = "webconverger.iso"
-    ide1:0.deviceType = "cdrom-image"
-
-    #Floppy Info
-    floppy0.present = "FALSE"
-
-    #Ethernet Info
-    Ethernet0.present = "TRUE"
-    ethernet0.addressType = "generated"
-
-    # Audio Settings
-    sound.present = "TRUE"
-    sound.autodetect = "TRUE"
-
-    # Host USB
-    usb.present = "TRUE"
-
-
 # Important elements to test before delivery
 
-## [[wireless]]
+## [[wireless]] can only be realistically tested on physical hardware (i.e. not under virtualisation)
 
 ## [YouTube](http://youtube.com/)
 
 * [[Adobe]] Flash video
 * Sound
-
-NOTE: Flash & sound not work under virtualisation (qemu).
 
 ## [Letterly](http://letterly.com/)
 
