@@ -1,0 +1,19 @@
+I discourage the use of Java on the Web, however some legacy Web applications
+unfortunately require it. Such as [Norway's banking
+applications](http://no.wikipedia.org/wiki/BankID) which reminds me of the
+brain dead [SEED](http://en.wikipedia.org/wiki/SEED) system utilised by banks
+in Korea.
+
+Debian packages require you to explicitly accept the license. We override that
+in [Webconverger's
+configuration](http://anonscm.debian.org/gitweb/?p=debian-live/config-webc.git)
+like so:
+
+	config$ cat preseed/sun-java6-jre.preseed
+	sun-java6-jre   shared/accepted-sun-dlj-v1-1    boolean true
+
+Next we need both the Java JRE & Web plugin for it to work in Webconverger:
+
+	config$ tail -n2 package-lists/webc.list.chroot
+	sun-java6-jre
+	sun-java6-plugin
