@@ -82,4 +82,4 @@ Reasons for using Webconverger
 * [[Easy_to_use|Training]]
 * [[Low_Maintenance|Maintenance]]
 * Commercial [[Support]] via [Webconverger.com](http://webconverger.com/) is available. Please enquire.
-* [[privacy]]
+* [[Privacy_policy|privacy]]
