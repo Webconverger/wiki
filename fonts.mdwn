@@ -12,7 +12,7 @@ The [sans-serif](http://en.wikipedia.org/wiki/Sans-serif) [DejaVu font](http://d
 # Microsoft fonts
 
 The package [msttcorefonts](http://packages.qa.debian.org/m/msttcorefonts.html)
-contains the familiar Microsoft fonts like Arial, Verdana etc. 
+contains the familiar Microsoft fonts like Arial, Verdana etc.
 
 Since there are license and freedom issues shipping these proprietary fonts
 with Webconverger, they have been dropped.

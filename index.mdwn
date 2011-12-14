@@ -1,5 +1,8 @@
 # Welcome to the opensource Webconverger Web kiosk project wiki !
 
+<a href="https://twitter.com/webconverger" class="twitter-follow-button" data-show-count="true" data-lang="en" data-size="large">Follow @webconverger</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
 <table border=0 style="background-color: #fff; padding: 5px;" cellspacing=0>
   <tr><td>
   <img src="imgs/webconverger_org.png"
@@ -20,12 +23,11 @@ How to edit the Wiki? Due to SPAM, I need you first to login/register with the
 site and then I can give you the appropriate write/admin privileges. Sorry this
 is so awkward!
 
-* [Subscribe to the RSS feed](http://webconverger.org/blog/index.rss) of the [[blog]].
-* [Twitter updates](http://twitter.com/Webconverger)
+* [Subscribe to the RSS feed](http://webconverger.org/blog/index.rss) of the **[[blog]]**.
 * [Download Webconverger](http://download.webconverger.com/) - [German mirror](http://download.webconverger.org/)
 * [[Design_document|Design]]
-* [[TODO]] & bug list
-* The [Debian-Live project](http://debian-live.alioth.debian.org/) and [[Debian]] is where Webconverger is derived from
+* [[TODO]] a.k.a. bug list
+* The [Debian-Live project](http://live.debian.net) and [[Debian]] is where Webconverger is derived from
 * [[Firefox_extension_development|Kiosk]]
 * [[Internationalisation_and_localisation|i18n]]
 * [[Developer_information|Develop]]
