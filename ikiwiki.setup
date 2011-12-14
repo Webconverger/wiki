@@ -62,6 +62,7 @@ add_plugins:
 # plugins to disable
 disable_plugins:
   - search
+  - htmlscrubber
 # additional directory to search for template files
 templatedir: /usr/share/ikiwiki/templates
 # base wiki source location
