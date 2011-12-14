@@ -1,11 +1,13 @@
 Please help test the very latest [daily build
-images](http://build.webconverger.org/). Report bugs on
+images](http://build.webconverger.org). Report bugs on
 [webc-users](http://groups.google.com/group/webc-users/topics). Once verified,
 bugs are listed on the [[todo]] list.
 
-# qemu
+# [qemu](https://wiki.archlinux.org/index.php/QEMU)
 
-Test [[ISO]] image, like so:
+<a href="http://www.flickr.com/photos/hendry/6508721087/" title="qemu kvm running Webconverger debug mode by Kai Hendry, on Flickr"><img src="http://farm8.staticflickr.com/7162/6508721087_e782798e46.jpg" width="500" height="281" alt="qemu kvm running Webconverger debug mode"></a>
+
+Test [latest](http://build.webconverger.org/latest.iso) [[ISO]] image, like so:
 
 	qemu -cdrom binary.iso
 
@@ -41,19 +43,13 @@ Save the configuration below as a file named `webconverger.vmx` with webconverge
     usb.present = "TRUE"
 
 
-# Daily automated testing
-
-Thanks to Brendan Sleigh, a [daily Webconverger testing service](http://autotesting.livecd.org/autotesting/webconverger/daily/iso/) of the <http://build.webconverger.org/latest.iso> is in place.
-
-* [Brendan's autotesting script](http://git.debian.org/?p=debian-live/autotesting.git).
-
 # Important elements to test before delivery
 
 ## [[wireless]]
 
 ## [YouTube](http://youtube.com/)
 
-* Flash video
+* [[Adobe]] Flash video
 * Sound
 
 NOTE: Flash & sound not work under virtualisation (qemu).
