@@ -9,6 +9,7 @@
 * [[Firefox_extension_development|Kiosk]]
 * [Debian Live project](http://debian-live.alioth.debian.org/) and [Live helper packages](http://live.debian.net/)
 * [live-config lists the boot parameters](http://live.debian.net/gitweb?p=live-config.git;a=blob;f=manpages/en/live-config.7). Also see [[boot]].
+* [[Howto_add_Java|Java]]
 
 If you are new to the project, **Welcome**! Please help by [[testing]]. Thank you!
 
