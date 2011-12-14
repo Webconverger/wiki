@@ -15,6 +15,11 @@
 <tr><td align=right> <a href="http://groups.google.com/group/webc-users?hl=en-GB">Visit this group</a> </td></tr>
 </table>
 
+
+How to edit the Wiki? Due to SPAM, I need you first to login/register with the
+site and then I can give you the appropriate write/admin privileges. Sorry this
+is so awkward!
+
 * [Subscribe to the RSS feed](http://webconverger.org/blog/index.rss) of the [[blog]].
 * [Twitter updates](http://twitter.com/Webconverger)
 * [Download Webconverger](http://download.webconverger.com/) - [German mirror](http://download.webconverger.org/)
