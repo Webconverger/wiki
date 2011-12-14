@@ -11,7 +11,7 @@ Editing the `/proc/cmdline` can be done by hitting TAB on the boot screen.
 
 When the syslinux boot loader initially loads, you'll have a few seconds to
 type in something at the boot: prompt. For example to get boot with [[i18n]]
-French support simply append `locale=fr`.
+French support simply append `locales=fr`.
 
 Please see [[develop]] to make persistent changes.
 
