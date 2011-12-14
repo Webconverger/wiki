@@ -2,7 +2,7 @@ Webconverger can be deployed by a live by [[CD|iso]] or [[USB]] stick media in
 about two minutes depending on the machine.
 
 Since Webconverger is [[designed|design]] for [for just Web
-applications](http://webconverger.org/ideal_just_for_web_applications/).
+applications](http://webconverger.org/ideal_just_for_web_applications).
 
 Images are typically about 300 megabytes in size.
 
@@ -20,9 +20,9 @@ people.
 
 # Deployment options
 
-* [[usb]]
-* [[iso]]
-* netboot - currently unsupport by default, though a [customisation](http://webconverger.com/buy/) option nonetheless
+* [[usb]] - supported by ISOhybrid
+* [[iso]] - supported by ISOhybrid
+* netboot - currently **unsupported** by default, though a [customisation](http://webconverger.com/buy/) option nonetheless
 
 Notice Webconverger Web applications can leverage the rich capabilities of
 Firefox with HTML5 graphics and the default [[fonts]].
