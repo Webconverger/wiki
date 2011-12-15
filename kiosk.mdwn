@@ -25,7 +25,7 @@ We have forked rkiosk and created our own extension, (iceweasel-)webconverger.
 We had to do this as I had to modify some of upstream's packaging and
 functions.  Upstream was also a little un-cooperative.
 
-* [iceweasel-webconverger.git](http://git.webconverger.org/?p=iceweasel-webconverger.git).
+* [iceweasel-webconverger Git](https://github.com/kaihendry/iceweasel-webconverger)
 
 ## BrowserLoadURL broken
 
@@ -104,7 +104,7 @@ some <key>s (see
 <http://hg.mozilla.org/mozilla-central/diff/88952ceddd05/browser/base/content/tabbrowser.xml>
 for example).
 
-These patch needs to be introduced into <http://git.webconverger.org/?p=iceweasel-webconverger.git>
+These patch needs to be introduced into <https://github.com/kaihendry/iceweasel-webconverger>
 
 
 ## Test the extension on your Firefox browser

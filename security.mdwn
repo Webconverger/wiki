@@ -2,20 +2,18 @@ Webconverger unlike Windows for example does not require:
 
 * a Firewall
 * anti-spyware
+* anti-malware
 * anti-virus
-
-Security is complicated. Good security is about identifying the risks and
-mitigating the risks.
 
 Webconverger is [[designed|design]] for [[privacy]] and [[security]], based on:
 
 * opensource software
 * no super user
 * always clears private data once a session is ended
-* does not store local data (**live** session by default)
+* does not store local data (**live** read-only session by default) a.k.a. [defence in depth](http://en.wikipedia.org/wiki/Defence_in_depth)
 * does not require any signup or registration
 
-# Peers
+# Peer review
 
 Webconverger welcomes security review. Please email **security** AT wecbonverger.com with your findings.
 
