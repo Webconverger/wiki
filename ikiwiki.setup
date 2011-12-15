@@ -17,6 +17,7 @@ adminuser:
   - http://hendry.iki.fi/
   - http://jamiek.it/
   - https://www.google.com/accounts/o8/id?id=AItOawlWhHF9A-23JLcWkpG3RQH6XtY-MNHv2YU
+  - https://www.google.com/accounts/o8/id?id=AItOawmCMOBIqF8olr-4OmS9ZWGAj6ScSy4Z3_o
   - https://www.google.com/accounts/o8/id?id=AItOawno3gZB3azVHoFD6P9WR1UTrOLasROgtf4
 # users who are banned from the wiki
 banned_users: []
