@@ -11,5 +11,7 @@ a, a:visited {
 
 a:hover {
 	color: #339BB9;
-	font-style: underline;
+	text-decoration: underline;
 }
+
+.notebox { width: 0; }
