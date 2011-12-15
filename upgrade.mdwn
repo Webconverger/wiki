@@ -1,6 +1,6 @@
-* [upgrade](http://git.debian.org/?p=debian-live/config-webc.git;a=blob;f=webconverger/config/chroot_local-includes/etc/network/if-up.d/apt-upgrade) [[boot]] option
+* _defunct_ [upgrade](http://git.debian.org/?p=debian-live/config-webc.git;a=blob;f=webconverger/config/chroot_local-includes/etc/network/if-up.d/apt-upgrade) [[boot]] option
 
-# Future (proofing) stuff
+# Future (proofing) stuff [[todo]]
 
 Static builds of Firefox with [Courgette](http://dev.chromium.org/developers/design-documents/software-updates-courgette) ?
 

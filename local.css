@@ -1,9 +1,6 @@
 html, body {
 	font-family: 'Open Sans', sans-serif;
 	color:#666;
-	font-size:12px;
-	line-height:16px;
-	font-smooth: auto;
 }
 
 h1, h2, h3, h4, h5, h6 { font-family: 'Arvo', serif; }

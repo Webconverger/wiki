@@ -17,8 +17,11 @@ platform... the Web!
 * look into search bar & favicons not loading
 * Restore Webconverger on <https://addons.mozilla.org/en-US/developers/addon/webconverger/edit>
 * Hide wlan= info on startup webconverger.init
+* Publish public graphs of number and version of Webconverger users
 
-# [[Extension|kiosk]] improvements needed
+# [[Extension|kiosk]] improvements needed on the Mozilla webpage <https://addons.mozilla.org/en-US/firefox/users/login?to=/en-US/developers/addon/webconverger/edit>
+
+Join Mozilla Enterprise <https://wiki.mozilla.org/Enterprise/Firefox/ExtendedSupport:Proposal>
 
 * fix download [[kiosk_extension|kiosk]], not to download
 
