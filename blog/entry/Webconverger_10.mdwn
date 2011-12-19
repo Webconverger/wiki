@@ -20,7 +20,7 @@ the initial download a bit too bulky otherwise.
 [download it here](http://download.webconverger.org/).
 
 There are a couple of other additions in this release that warrant blog posts
-in the near year. 2011 has been a very busy year for me personally. The good
+in the new year. 2011 has been a very busy year for me personally. The good
 news is that I hope to spend much more time with Webconverger in 2012.
 
 Here is to a successful 2012 for you and Webconverger! Cheers :)
