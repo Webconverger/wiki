@@ -5,7 +5,7 @@ Without further delay may I present Webconverger 10 with an [accompanying site
 redesign](http://webconverger.com) by [Patric
 Schwarz](http://www.bureauschwarz.de/). If you notice any issues with the site
 or Webconverger, please use the feedback email address at the bottom of the
-[page](http://webconverger.com/)
+[page](http://webconverger.com/).
 
 <a href="http://www.flickr.com/photos/hendry/6536515073/" title="Webconverger 10 by Kai Hendry, on Flickr"><img src="http://farm8.staticflickr.com/7167/6536515073_308522ee6f.jpg" width="500" height="366" alt="Webconverger 10"></a>
 
@@ -14,10 +14,11 @@ At [[changes/9.0-10.2]] you will notice the usual flash update, [Firefox
 for ralink [[wireless]] and quite a few removed packages.
 
 The removed packages are mostly unnecessary for _trying_ Webconverger. I think
-it's better to customise Webconverger with your chosen locale than altering the
-boot menu and then choosing the appropriate dictionary once Webconverger is
-booted. Likewise printing is best left as a customisation option, as it makes
-the initial download a bit too bulky otherwise.
+it's better to [customise Webconverger](http://webconverger.com/buy) with your
+chosen locale than altering the boot menu and then choosing the appropriate
+dictionary once Webconverger is booted. Likewise printing is best left as a
+customisation option, as it makes the initial download a bit too bulky
+otherwise.
 
 10.2's sha1sum is `8f0770175c2b237814715ce7e4ccd99044502d10` and you can
 [download it here](http://download.webconverger.org/).
