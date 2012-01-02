@@ -1,6 +1,6 @@
 <a href="http://www.flickr.com/photos/hendry/6618701549/" title="USB tethering by Kai Hendry, on Flickr"><img src="http://farm8.staticflickr.com/7007/6618701549_6993752ac6.jpg" width="500" height="281" alt="USB tethering"></a>
 
-Happy new year 2012! As I prepare a Firefox 9 based release which is already
+Happy new year 2012! As I prepare a [Firefox 9 based release](https://www.mozilla.org/en-US/firefox/9.0/releasenotes/) which is already
 available in [daily builds](http://build.webconverger.org/) for [[testing]], I
 thought I should quickly document here a feature I failed to document, [USB
 tethering](http://en.wikipedia.org/wiki/Tethering) in a [10.2
