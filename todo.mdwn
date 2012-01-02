@@ -18,6 +18,7 @@ platform... the Web!
 * Restore Webconverger on <https://addons.mozilla.org/en-US/developers/addon/webconverger/edit>
 * Hide wlan= info on startup webconverger.init
 * Publish public graphs of number and version of Webconverger users
+* Fix kiosk extension to disable dragging of tabs
 
 # [[Extension|kiosk]] improvements needed on the Mozilla webpage <https://addons.mozilla.org/en-US/firefox/users/login?to=/en-US/developers/addon/webconverger/edit>
 
