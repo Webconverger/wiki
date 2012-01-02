@@ -10,10 +10,10 @@ If you plug in a suitable USB network device that comes up as **usb0** and has
 a simple dhcp mechanism, like the Android **USB Tethering** feature, you can
 can get on the net.
 
-This can unfortunately be a little fiddly with Android since it disables the
-feature if for example it doesn't detect the usb connection. Therefore on
-Android you need to turn on the tethering feature everytime on booting
-Webconverger. Other USB dongles might have a better experience.
+This can unfortunately be a little fiddly since Android disables the USB
+tethering if it doesn't detect the USB connection. Therefore on Android you
+need to turn on the tethering feature everytime on booting Webconverger. Other
+USB dongles might have a better experience.
 
 Nonetheless with a USB stick with Webconverger, a microUSB cable & an Android
 phone (with a data plan) you can setup a kiosk pretty much anywhere. Think
