@@ -12,5 +12,10 @@ can get on the net.
 
 This can unfortunately be a little fiddly with Android since it disables the
 feature if for example it doesn't detect the usb connection. Therefore on
-Android you need to turn on tethering everytime on boot. Other USB dongles
-might have a better experience.
+Android you need to turn on the tethering feature everytime on booting
+Webconverger. Other USB dongles might have a better experience.
+
+Nonetheless with a USB stick with Webconverger, a microUSB cable & an Android
+phone (with a data plan) you can setup a kiosk pretty much anywhere. Think
+outdoors during a public [fête](http://en.wikipedia.org/wiki/F%C3%AAte), a
+local community site could introduced.
