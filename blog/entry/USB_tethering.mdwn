@@ -1,12 +1,12 @@
 <a href="http://www.flickr.com/photos/hendry/6618701549/" title="USB tethering by Kai Hendry, on Flickr"><img src="http://farm8.staticflickr.com/7007/6618701549_6993752ac6.jpg" width="500" height="281" alt="USB tethering"></a>
 
 Happy new year 2012! As I prepare a Firefox 9 based release which is already
-available in [daily builds](http://build.webconverger.org/), I thought I should
-quickly document here a feature I failed to document, [usb
+available in [daily builds](http://build.webconverger.org/) for [[testing]], I
+thought I should quickly document here a feature I failed to document, [USB
 tethering](http://en.wikipedia.org/wiki/Tethering) in a [10.2
 change](http://anonscm.debian.org/gitweb/?p=debian-live/config-webc.git;a=blobdiff;f=webconverger/config/includes.chroot/etc/network/interfaces;h=3369f92e1a9902ea409dc295e33d0d0ed6f34fe1;hp=d8618a15db9f8ea8039a86df10df190164e5ed10;hb=2291c5f29dbfc7fd2c31c3eeb3e7ab0f8a9288ef;hpb=f32bb2dad13c095d4df93a99fa1b9827c3572d0f).
 
-If you plug in a suitable usb network device that comes up as **usb0** and has
+If you plug in a suitable USB network device that comes up as **usb0** and has
 a simple dhcp mechanism, like the Android **USB Tethering** feature, you can
 can get on the net.
 
