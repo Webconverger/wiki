@@ -4,27 +4,16 @@ platform... the Web!
 
 * do some sort of device API for attraction (screensaver advertisement) loop, perhaps it can be done with kioskresetstation? No, [this can be done with a Web application](http://groups.google.com/group/webc-users/browse_thread/thread/656f92ff84582535) -- write this up!
 * device API for USB coin slot / payment proxy?
-* Close tab "X" should be in the tab itself.
-* have a service to buy CDs? or USB keys? Many people seem to have problems imaging Webconverger on [[usb]] from Windows.
 * Look into advertising on the free version
 * Virtual (on screen) keyboard [[blog/entry/Virtual_touch_screen_keyboard_for_Kiosks]]
 * A way of entering commands on boot [like to control specific hardware](http://groups.google.com/group/webc-users/browse_thread/thread/e8a36eccc4c78a56?hl=en) (hdparm, xrandr) -- drop things into rc2.d or somehow modulise <http://git.webconverger.org/?p=webconverger-base;a=blob;f=debian/webconverger.init;> with `webc.d/` or some other construct?
-* Initial spelling language priority [[issue|blog/entry/Webconverger_4.7_release_notes]] bug
 * Showcase Webconverger as a medium for online examinations
-* Ability to change chrome [[kiosk]] options on [[boot]] (webcnoaddressbar, webcfullscreen) - [ref](http://groups.google.com/group/webc-users/browse_thread/thread/c6c8649feadbb8dc)
 * nolocales by default ?
 * [session timer](http://groups.google.com/group/webc-users/browse_thread/thread/39a3dcda1305a036) ?
-* look into search bar & favicons not loading
-* Restore Webconverger on <https://addons.mozilla.org/en-US/developers/addon/webconverger/edit>
-* Hide wlan= info on startup webconverger.init
-* Publish public graphs of number and version of Webconverger users
-* Fix kiosk extension to disable dragging of tabs
-
-# [[Extension|kiosk]] improvements needed on the Mozilla webpage <https://addons.mozilla.org/en-US/firefox/users/login?to=/en-US/developers/addon/webconverger/edit>
+* look into search bar icons & favicons not loading
+* Fix [[kiosk]] extension to disable dragging of tabs
 
 Join Mozilla Enterprise <https://wiki.mozilla.org/Enterprise/Firefox/ExtendedSupport:Proposal>
-
-* fix download [[kiosk_extension|kiosk]], not to download
 
 Please help and contribute by [[testing]] or [[building|develop]] and
 submitting to patches to the [mailing

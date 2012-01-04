@@ -51,6 +51,23 @@ Once Webconverger is booted, the [dwm window manager](http://dwm.suckless.org/tu
 
 Add `compose`
 
+### [Changing chrome](http://git.webconverger.org/?p=webconverger-base;a=blob;f=home/webc/iwchromeconfig.sh;)
+
+* webcchrome=nosearch - disable search bar
+* webcchrome=noaddress - disable URL bar and search bar (webcnoaddressbar)
+* webcchrome=fullscreen - fullscreen!
+
+### Changing [closeicon](http://git.webconverger.org/?p=webconverger-base;a=blob;f=home/webc/iwcloseconfig.sh;) behaviour
+
+This a bit nitpicky, but here goes:
+
+* closeicon=active
+* closeicon=activefix
+* closeicon=every
+* closeicon=everyfix
+* closeicon=none - ctrl+w closes tab
+* closeicon=strip - X on the far right
+
 ### Setup to use [[wireless]] access point "san" with WPA password "francisco"
 
 Append `wlan=san,francisco,`
