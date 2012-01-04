@@ -45,11 +45,13 @@ append `http_proxy=http://192.168.1.5:8888`
 
 remove `noroot`
 
-Once Webconverger is booted, the [dwm window manager](http://dwm.suckless.org/tutorial) defaults to shift+alt+enter for a Terminal. =)
+Once Webconverger is booted, the [dwm window
+manager](http://dwm.suckless.org/tutorial) defaults to shift+alt+enter for a
+Terminal. =)
 
 ### To enable the Compose key
 
-Add `compose`
+Add `compose`.
 
 ### [Changing chrome](http://git.webconverger.org/?p=webconverger-base;a=blob;f=home/webc/iwchromeconfig.sh;)
 
@@ -61,12 +63,12 @@ Add `compose`
 
 This a bit nitpicky, but here goes:
 
-* closeicon=active
-* closeicon=activefix
-* closeicon=every
-* closeicon=everyfix
-* closeicon=none - ctrl+w closes tab
-* closeicon=strip - X on the far right
+* closeicon=active - Close button only on the active tab, except when there is only one tab
+* closeicon=activefix - Close button only on the active tab, including the last tab
+* closeicon=every - Close button on every tab, except when there is only one tab
+* closeicon=everyfix - Close button on every tab, even when there is only one tab
+* closeicon=none - No close buttons
+* closeicon=strip - Close button on the end of the tab strip
 
 ### Setup to use [[wireless]] access point "san" with WPA password "francisco"
 
