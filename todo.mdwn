@@ -12,6 +12,7 @@ platform... the Web!
 * [session timer](http://groups.google.com/group/webc-users/browse_thread/thread/39a3dcda1305a036) ?
 * look into search bar icons & favicons not loading
 * Fix [[kiosk]] extension to disable dragging of tabs
+* Disable ctrl+p if cups is not installed
 
 Join Mozilla Enterprise <https://wiki.mozilla.org/Enterprise/Firefox/ExtendedSupport:Proposal>
 
