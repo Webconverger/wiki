@@ -1,3 +1,5 @@
+[[!meta title="Webconverger chrome UI options"]]
+
 # iceweasel-webconverger
 
 **Default** and most common.
