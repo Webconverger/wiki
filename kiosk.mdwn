@@ -1,6 +1,6 @@
 # iceweasel-webconverger
 
-Default and most common.
+**Default** and most common.
 
 <img src="/chrome/webc.png" alt="iceweasel-webconverger" />
 
@@ -11,6 +11,8 @@ in URLs.
 
 <img src="/chrome/noaddressbar.png" alt="iceweasel-webcnoaddressbar" />
 
+[[boot]] option `webcchrome=noaddress`
+
 # iceweasel-webcfullscreen
 
 Customization option. For customers who want to do [Digital
@@ -20,6 +22,8 @@ pictures](http://www.subitophoto.net/slideshow/machupicchu/) somewhere.
 <img src="/chrome/fullscreen.png" alt="iceweasel-webcfullscreen" />
 
 If you're concerned about the scroll bar, alter the **overflow** CSS element.
+
+[[boot]] option `webcchrome=fullscreen`
 
 ## Implementation
 
