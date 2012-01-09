@@ -1,10 +1,11 @@
-<a href="http://www.flickr.com/photos/hendry/3546424851/" title="Crashed ticket machine by Kai Hendry, on Flickr"><img src="http://farm4.static.flickr.com/3408/3546424851_f551c7a656.jpg" width="500" height="375" alt="Crashed ticket machine" /></a>
-
 A common [customisation request](http://webconverger.com/buy/) is to disable
-the [[boot_menu|boot]], in order to make this Web client tamper proof.
+the [[boot_menu|boot]] prompt, in order to:
 
-You can edit `syslinux/syslinux.cfg` on the [[USB]] image to look something like this:
+* Make boots quicker
+* Disallow any [[boot]] time altertions
 
-	label linux
-		kernel /live/vmlinuz1
-		append initrd=/live/initrd1.img boot=live quiet homepage=http://portal.webconverger.com/ nonetworking splash vga=791 username=webc hostname=webconverger union=aufs
+This is done by replacing the syslinux theme with `progress-appliance` in
+[auto/config](http://anonscm.debian.org/gitweb/?p=debian-live/config-webc.git;a=blob;f=webconverger/auto/config;)
+when [[building_Webconverger|developer]].
+
+	--syslinux-theme progress-appliance
