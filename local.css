@@ -15,9 +15,9 @@ html, body {
  	text-decoration: underline;
  }
  
- .notebox { width: auto; }
+.notebox { width: auto; }
  
- .page{
+.page{
  	width:960px;
  	margin: 0 auto;
  }
@@ -54,14 +54,21 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .inlinefooter{
-	background: #ccc;
+	background: none;
+	border-top: 1px solid #ccc;
 	padding: 5px;
 	font-size: 10px;
 	margin-bottom: 20px;
 }
 
+.inlinecontent img{
+	float:  left;
+	margin: 0 20px 10px 0;
+}
+
 h1 {
-  font-size: 160%;
+  font-size: 150%;
+  margin-bottom: 10px;
 }
 
 h2 {
@@ -70,6 +77,32 @@ h2 {
 
 h3, h4, h5, h6 {
   font-size: 110%; }
+  
+ul{
+	margin-left: 40px;
+}
+  
+li{
+	font-size: 14px;
+	margin: 0 0 5px 0;
+	line-height: 18px;
+
+}
+  
+.feedbutton {
+	background: #339BB9;
+	color: #fff;
+	margin: 0.2em;
+	padding: 0.2em;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+	border: 0;
+}
+
+.feedbutton:hover{
+background: #57b0b8;	
+}
 
 #searchform {
   position: absolute;
@@ -77,7 +110,7 @@ h3, h4, h5, h6 {
   right: 2em; }
 
 input#searchbox {
-  border: 1px solid #339BB9;;
+  border: 1px solid #339BB9;
   padding: .5em;
   -moz-border-radius: 4px;
   -webkit-border-radius: 4px;
@@ -98,20 +131,16 @@ input#searchbox {
   border-style: none; }
 
 .pageheader .actions ul li {
-  padding: 0;
+  padding: 0; margin: 0;
   border:none;
-}
-  
-.pageheader .actions ul li {
   background: none;
-  margin: 0;
 }
 
 .pageheader .actions ul li a, input[type="submit"] {
   background: #339BB9;
   color: #fff;
   margin: 0.2em;
-  padding: 0.2em;
+  padding: 0.1em 0.5em;
   -moz-border-radius: 4px;
   -webkit-border-radius: 4px;
   border-radius: 4px; }
@@ -141,26 +170,30 @@ pre {
   -moz-border-radius: 4px;
   -webkit-border-radius: 4px;
   border-radius: 4px;
-  -moz-box-shadow: 0px 0px 2px #1a1a1a;
-  -webkit-box-shadow: 0px 0px 2px #1a1a1a;
-  box-shadow: 0px 0px 2px #1a1a1a; }
+  -moz-box-shadow: 0 0 2px #1a1a1a;
+  -webkit-box-shadow: 0 0 2px #1a1a1a;
+  box-shadow: 0 0 2px #1a1a1a; }
 
 #content, #comments, #footer {
 	margin: 0;
 }
 
 #content {
-	width: 920px;
-	background: #eee;
-	-webkit-border-radius: 5px;
-	-moz-border-radius: 5px;
-	border-radius: 5px;
-	border: 1px solid #EBEBEB;
+	-webkit-border-radius: 0 0 5px 5px;
+	-moz-border-radius: 0 0 5px 5px;
+	border-radius: 0 0 5px 5px;
 	padding: 20px 10px 10px 10px;
 	margin-bottom: 20px;
-	background: -webkit-gradient(linear, left top, left bottom, from(#efefef), to(#ccc)); /* for webkit browsers */
-	background: -moz-linear-gradient(center top , #efefef, #ccc); /* for firefox 3.6+ */ 
-	border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);	
+	background: #efefef;
+	background: -webkit-gradient(linear, left top, left bottom, from(#efefef), to(#cccccc)); 
+	background: -webkit-linear-gradient(top, #efefef, #cccccc); 
+	background:    -moz-linear-gradient(top, #efefef, #cccccc); 
+	background:     -ms-linear-gradient(top, #efefef, #cccccc); 
+	background:      -o-linear-gradient(top, #efefef, #cccccc); 
+	background:         linear-gradient(top, #efefef, #cccccc);
+	-moz-box-shadow: 0 0 1px #000;
+	-webkit-box-shadow: 0 0 1px #000;
+	box-shadow: 0 0 1px #000;	
 }
 
 #pageinfo {
@@ -195,11 +228,11 @@ label[for="editmessage"] {
   margin: .4em 0;
   padding: .4em 0;
   border-style: none;
-  border-top: 0px solid gray; }
+  border-top: 0 solid gray; }
 
 .inlineheader {
   font-size: 1.1em;
-  border-top: 0px solid gray; }
+  border-top: 0 solid gray; }
 
 /* Smaller headings for inline pages */
 .inlinepage h1 {
@@ -216,7 +249,7 @@ div.recentchanges {
 
 /* recent change page */
 div.recentchanges {
-  background-color: white; }
+  background-color: transparent; }
   div.recentchanges div.metadata {
     margin-top: 1.5em;
     border-style: solid;
@@ -239,7 +272,7 @@ div.recentchanges div.metadata *, span.pagelinks a {
   display: block; }
 
 span.pagelinks {
-  width: inherit !important; }
+  width: inherit;}
 
 span.pagelinks a, span.tags a {
   margin: 0.2em;
@@ -269,10 +302,10 @@ div.recentchanges div.changelog {
   border-bottom-left-radius: 4px;
   border-bottom-right-radius: 4px;
   border-style: none solid solid solid;
-  background-color: #f2f2f2 !important; }
+  background-color: #f2f2f2;}
 
 span.desc br {
-  display: none !important; }
+  display: none;}
 
 div.titleandtags {
   border-style: solid;
@@ -291,7 +324,7 @@ div.titleandtags {
   div.titleandtags span.tags {
     line-height: 2em; }
   div.titleandtags div.lastmodified {
-    flaot: right; }
+    float: right; }
 
 thead th {
   color: white;
@@ -306,16 +339,3 @@ tr:nth-child(odd) {
 
 tr:nth-child(even) {
   background-color: #d9d9d9; }
-
-/* Don't know what these last two do but leaving those there just in case*/
-.pagecloud {
-  width: auto;
-  border-color: red; }
-
-.sidebar {
-  border-bottom: 0;
-  border-right: 0;
-  border-top: 0;
-  margin-top: 0.5em;
-  padding: 0 0 0 2ex;
-  border-color: red; }
