@@ -10,6 +10,7 @@
 * [[Firefox_extension_development|Kiosk]]
 * [Debian Live project](http://debian-live.alioth.debian.org/) and [Live helper packages](http://live.debian.net/)
 * [live-config lists the boot parameters](http://live.debian.net/gitweb?p=live-config.git;a=blob;f=manpages/en/live-config.7). Also see [[boot]].
+* [[blog/entry/cmdline_lock_down|Howto hide boot menu]]
 * [[Howto_add_Java|Java]]
 
 If you are new to the project, **Welcome**! Please help by [[testing]]. Thank you!
@@ -23,11 +24,8 @@ You can use the [[guide|usb]] to persistently change [[boot]] options **without
 building**.
 
 1. Download and install the **latest**
-[live-helper](http://live.debian.net/devel/live-helper/) from the Debian
-Live repository. Add the following lines to your `/etc/apt/sources.list`:
-
-	deb http://live.debian.net/ sid-snapshots main contrib non-free
-	deb-src http://live.debian.net/ sid-snapshots main contrib non-free
+[live-helper](http://live.debian.net/devel/live-helper/) from the [Debian
+Unstable repository](http://packages.qa.debian.org/l/live-build.html).
 
 1. `git clone git://git.debian.org/git/debian-live/config-webc.git`
 1. Take a long good look at [auto/config](http://git.debian.org/?p=debian-live/config-webc.git;a=blob;f=webconverger/auto/config)
@@ -44,13 +42,6 @@ Next use this [[test_guide|testing]] on your freshly built image.
 ## Debugging mode with the built Webconverger image
 
 Debugging in Webconverger simply involves removing `noroot` from the [[boot]] options. The window manager is [dwm](http://dwm.suckless.org/tutorial).
-
-# Hacking the USB [[boot]]
-The reason why [Webconverger has a commercial customisation
-service](http://webconverger.com/buy) is that it used to be very difficult to
-make trivial changes to the [[boot_command_line|boot]].
-
-The iso-hybrid format used on the newer releases makes the file system on your USB install read only, and is thus more cumbersome to modify. If you make your own build you can make it in the .img format which leaves the file system writable. This section has two parts, the first about modifying the standard iso-hybrid, the other about modifying the .img format.
 
 ## Customising the ISO hybrid image
 
@@ -81,40 +72,3 @@ unable to perform these commands.  It's also difficult to edit the package
 listing, such as changing [[chrome|kiosk]] without the
 [service](http://webconverger.com/buy) still. For [[large_deployments|press]],
 please enquire with sales in how we can help you.
-
-## Customising .img-installs
-
-This only works on a `lb config -b usb-hdd` type **.img**.
-
-Plug your Webconverger USB stick in and mount the USB stick, for e.g.:
-
-	x61:~% sudo mount /dev/sdb1 /mnt/usb
-
-Edit the live.cfg. Alter elements like the [[homepage]].
-
-	x61:/mnt/usb% sudo vim syslinux/live.cfg
-
-Unmount and boot up your system:
-
-	x61:/mnt/usb% cd
-	x61:~% sudo umount /mnt/usb
-
-# Disable boot menu entirely
-
-A common [customisation request](http://webconverger.com/buy/) is to disable
-the [[boot_menu|boot]], in order to make this Web client tamper proof on boot
-up. However users should not be put infront of a booting Webconverger to begin
-with for best user experience.
-
-You can edit `isolinux/isolinux.cfg` on the USB image to look something like:
-
-	default linux
-	label linux
-		kernel /live/vmlinuz1
-		append initrd=/live/initrd1.img boot=live quiet homepage=http://portal.webconverger.com/ nonetworking splash vga=current username=webc hostname=webconverger union=aufs
-
-## Commercial customizing service
-
-UK based Webconverger Limited offers a build service of the above at
-[Webconverger.com/buy](http://webconverger.com/buy). We also test the image
-and offer a no-quibble money back guarantee.
