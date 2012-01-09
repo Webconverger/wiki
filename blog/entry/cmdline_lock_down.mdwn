@@ -2,10 +2,13 @@ A common [customisation request](http://webconverger.com/buy/) is to disable
 the [[boot_menu|boot]] prompt, in order to:
 
 * Make boots quicker
-* Disallow any [[boot]] time altertions
+* Disallow any [[boot]] time alterations
 
 This is done by replacing the syslinux theme with `progress-appliance` in
 [auto/config](http://anonscm.debian.org/gitweb/?p=debian-live/config-webc.git;a=blob;f=webconverger/auto/config;)
-when [[building_Webconverger|developer]].
+when [[building_Webconverger|develop]].
 
 	--syslinux-theme progress-appliance
+
+[[Thanks|acknowledgements]] to [Daniel on
+Debian-Live](http://lists.debian.org/debian-live/2012/01/msg00027.html).
