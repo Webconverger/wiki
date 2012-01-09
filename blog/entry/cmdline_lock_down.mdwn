@@ -1,3 +1,5 @@
+[[!meta title="Hiding the boot menu"]]
+
 A common [customisation request](http://webconverger.com/buy/) is to disable
 the [[boot_menu|boot]] prompt, in order to:
 
