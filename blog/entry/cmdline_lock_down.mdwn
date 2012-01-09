@@ -14,3 +14,12 @@ when [[building_Webconverger|develop]].
 
 [[Thanks|acknowledgements]] to [Daniel on
 Debian-Live](http://lists.debian.org/debian-live/2012/01/msg00027.html).
+
+## Without rebuilding
+
+You can also try modify the ISO images as described in [[develop]] and change `isolinux/isolinux.cfg ` to values in your `live.cfg`.
+
+	default linux
+	label linux
+		kernel /live/vmlinuz1
+		append initrd=/live/initrd1.img boot=live quiet ...the rest of your options
