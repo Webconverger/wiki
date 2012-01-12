@@ -7,7 +7,7 @@ I'm very proud to announce Webconverger 11, with the following improvements:
 * Quieter logins
 * Several enhancements on the [Firefox Webconverger extension](https://github.com/kaihendry/iceweasel-webconverger), many thanks to [Mike Kaply](http://mike.kaply.com/)
 * Security tweaks to make the [control script](http://git.webconverger.org/?p=webconverger-base;a=blob;f=home/webc/pb.sh;) harder to override
-* New logo and site design, [[thanks|acknowledgements]] [Patric](http://www.bureauschwarz.de)!
+* New logo and [site design](http://webconverger.com/), [[thanks|acknowledgements]] [Patric](http://www.bureauschwarz.de)!
 * Networking interface naming bug spotted by [Stewart](https://groups.google.com/forum/#!msg/webc-users/DHZaaeRXvwc/CfdpSCGLzhkJ) and fixed by [Matthijs Kooijman](https://groups.google.com/forum/#!msg/webc-users/DHZaaeRXvwc/cH63UBwGQOwJ)
 
 [[11.0 package_changes|changes/10.2-11.0]], compared to the [[previous release|Webconverger_10]].
@@ -23,3 +23,6 @@ New users please [download](http://download.webconverger.com) Webconverger and
 We have a friendly [support
 group](https://groups.google.com/forum/#!forum/webc-users) if you have any
 questions!
+
+Commercial users, please place your order on the brand new, easier to use,
+[order form](http://webconverger.com/). Thank you,
