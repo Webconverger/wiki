@@ -18,5 +18,8 @@ I'm very proud to announce Webconverger 11, with the following improvements:
 Do have a look at our new public statistics site
 <http://ping.webconverger.org>, detailing Webconverger usage.
 
-[Download](http://download.webconverger.com) Webconverger and
-[[test_out|testing]] if it's a good solution for your community.
+New users please [download](http://download.webconverger.com) Webconverger and
+[[test_out|testing]] if it's a good public kiosk solution for your community.
+We have a friendly [support
+group](https://groups.google.com/forum/#!forum/webc-users) if you have any
+questions!

@@ -27,5 +27,6 @@ There are a couple of other additions in this release that warrant blog posts
 in the new year. 2011 has been a very busy year for me personally. The good
 news is that I hope to spend much more time with Webconverger in 2012.
 
-
 Here is to a successful 2012 for you and Webconverger! Cheers :)
+
+[H-online's coverage of this release milestone](http://www.h-online.com/open/news/item/Webconverger-10-browser-only-OS-released-1398452.html)
