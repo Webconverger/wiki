@@ -1,0 +1,22 @@
+<a href="http://www.flickr.com/photos/hendry/6683341277/" title="Webconverger 11 by Kai Hendry, on Flickr"><img src="http://farm8.staticflickr.com/7146/6683341277_4eeae0b724.jpg" width="500" height="375" alt="Webconverger 11"></a>
+
+I'm very proud to announce Webconverger 11, with the following improvements:
+
+* [Firefox 9](http://www.mozilla.org/en-US/firefox/9.0/releasenotes/)
+* Ability to change [[browser_chrome|kiosk]] options at [[boot_time|boot]]!
+* Quieter logins
+* Several enhancements on the [Firefox Webconverger extension](https://github.com/kaihendry/iceweasel-webconverger), many thanks to [Mike Kaply](http://mike.kaply.com/)
+* Security tweaks to make the [control script](http://git.webconverger.org/?p=webconverger-base;a=blob;f=home/webc/pb.sh;) harder to override
+* New logo and site design, [[acknowledgements|thanks]] [Patric](http://www.bureauschwarz.de)!
+* Networking interface naming bug spotted by [Stewart](https://groups.google.com/forum/#!msg/webc-users/DHZaaeRXvwc/CfdpSCGLzhkJ) and fixed by [Matthijs Kooijman](https://groups.google.com/forum/#!msg/webc-users/DHZaaeRXvwc/cH63UBwGQOwJ)
+
+[[11.0 package_changes|changes/10.2-11]], compared to the [[previous release|Webconverger_10]].
+
+	sha1sum: 1b709cac372bfdffb2893551e4fd92700cad037b  webc-11.0.iso
+	md5sum: 7d2984d03a7375b04af5f38859988636  webc-11.0.iso
+
+Do have a look at our new public statistics site
+<http://ping.webconverger.org>, detailing Webconverger usage.
+
+[Download](http://download.webconverger.com) Webconverger and
+[[test_out|testing]] if it's a good solution for your community.
