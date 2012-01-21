@@ -2,7 +2,7 @@
 
 [Subscribe to the RSS feed](http://webconverger.org/blog/index.rss) of the **[[blog]]**:
 
-[[!inline  pages="blog/entry/*" show="1" actions="no" feedshow="no" archive="yes"]]
+[[!inline  pages="blog/entry/*" show="1" actions="no" feeds="no" archive="yes"]]
 
 <a href="https://twitter.com/webconverger" class="twitter-follow-button" data-show-count="true" data-lang="en" data-size="large">Follow @webconverger</a>
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
