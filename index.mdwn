@@ -1,5 +1,7 @@
 # Welcome to the opensource Webconverger Web kiosk project wiki !
 
+[Subscribe to the RSS feed](http://webconverger.org/blog/index.rss) of the **[[blog]]**:
+
 [[!inline  pages="blog/entry/*" show="1" actions="no" feedshow="no" archive="yes"]]
 
 <a href="https://twitter.com/webconverger" class="twitter-follow-button" data-show-count="true" data-lang="en" data-size="large">Follow @webconverger</a>
@@ -21,7 +23,6 @@ How to edit the Wiki? Due to SPAM, I need you first to login/register with the
 site and then I can give you the appropriate write/admin privileges. Sorry this
 is so awkward!
 
-* [Subscribe to the RSS feed](http://webconverger.org/blog/index.rss) of the **[[blog]]**.
 * [Download Webconverger](http://download.webconverger.com/) - [German mirror](http://download.webconverger.org/)
 * [[Design_document|Design]]
 * [[TODO]] a.k.a. bug list
@@ -30,10 +31,10 @@ is so awkward!
 * [[Internationalisation_and_localisation|i18n]]
 * [[Developer_information|Develop]]
 * [[Modifying boot|USB]]
-* [[Acknowledgements]] - thanks everyone!
+* [[Acknowledgements]] - thanks everyone for your MIT licensed contributions!
 * [[Notes_on_Networking|Networking]]
-* [[Printing]] with [CUPS](http://www.cups.org/)
-* [[Testing_Webconverger|Testing]] - please join the QA effort
+* [[Printing]] with [CUPS](http://www.cups.org/) (printing is not enabled on the default builds)
+* [[Testing_Webconverger|Testing]] - please join the Quality Assurance(QA) effort
 * [[Content_filtering|Filtering]] and white listing are possible
 * [[Information_about_Fonts|Fonts]]
 
