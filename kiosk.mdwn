@@ -62,25 +62,6 @@ Does not work in my tests. :(
 
 <https://bugzilla.mozilla.org/show_bug.cgi?id=524951>
 
-## Stopping downloads
-
-Stopping downloads should just work with
-<http://git.webconverger.org/?p=iceweasel-webconverger.git;a=blob;f=content/unknownContentType.xul>,
-however Firefox just continues downloading the file with the `.part` extension.
-
-Setting the [download dir as /dev/null](http://git.webconverger.org/?p=iceweasel-webconverger.git;a=blob;f=defaults/preferences/prefs.js;h=88f7bdad1c8d3ea3671a82fffc130552f81e9d89;hb=HEAD#l9) does not work either btw.
-
-This must limit needs to be in place as an attacker could start downloading a
-large file e.g.  <http://download.webconverger.org/webc-5.5.tar.gz> and render
-an average Internet connection useless. Also in many countries "PAYG Internet"
-exists, so this hole can burn a hole in the pocket of Internet café operators.
-
-irc.mozilla.org's #extdev sez I should look at <https://developer.mozilla.org/en/nsIDownloadProgressListener> to disable downloads.
-
-<https://bugzilla.mozilla.org/show_bug.cgi?id=524949>
-
-TODO: Implement <https://developer.mozilla.org/en/NsIContentPolicy> by [building a XPCOM Component in Javascript](https://developer.mozilla.org/en/How_to_Build_an_XPCOM_Component_in_Javascript)
-
 ## Disabling keys
 
 Keys combinations like CTRL+G, CTRL+J, CTRL+K, CTRL+L, and ALT+D, can be used
