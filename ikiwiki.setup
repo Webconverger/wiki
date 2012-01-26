@@ -19,6 +19,7 @@ adminuser:
   - https://www.google.com/accounts/o8/id?id=AItOawlWhHF9A-23JLcWkpG3RQH6XtY-MNHv2YU
   - https://www.google.com/accounts/o8/id?id=AItOawmCMOBIqF8olr-4OmS9ZWGAj6ScSy4Z3_o
   - https://www.google.com/accounts/o8/id?id=AItOawno3gZB3azVHoFD6P9WR1UTrOLasROgtf4
+  - https://www.google.com/accounts/o8/id?id=AItOawnt7bdQG8Xf92zVARNgB07JZVYKqDoDgEU
 # users who are banned from the wiki
 banned_users: []
 # where the source of the wiki is located
@@ -255,6 +256,8 @@ langdefdir: /usr/share/highlight/langDefs
 # mdwn plugin
 # enable multimarkdown features?
 #multimarkdown: 0
+# disable use of markdown discount?
+#nodiscount: 0
 
 # po plugin
 # master language (non-PO files)
