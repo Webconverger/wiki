@@ -10,8 +10,12 @@ Allan Clements, Phil Waring, Henri Sivonen, Kimmo Heinäaro, Jure Cuhalev,
 Thomas Park, Antoine Delaunay, Marco Amadori, Ruth Chong, Joose Vettenranta, in
 fact the entire country of Finland and for everyone who provided feedback.
 
-The 2012 teal CSS design is by Patric Schwarz of <http://www.bureauschwarz.de>.
+The 2012 teal CSS design is designed by Patric Schwarz of
+<http://www.bureauschwarz.de>.  <http://webconverger.org/> is hosted by the
+fantastic <http://www.branchable.com/> using <http://ikiwiki.info/>.
 
-Kai Hendry would also like to dedicate Webconverger to the memory of [Kimmo Raatikainen](http://www.cs.helsinki.fi/inmemoriam/Kimmo.Raatikainen/) who helped educate him.
+Kai Hendry would also like to dedicate Webconverger to the memory of [Kimmo
+Raatikainen](http://www.cs.helsinki.fi/inmemoriam/Kimmo.Raatikainen/) who
+helped educate him.
 
 The [Webconverger project](http://en.wikipedia.org/wiki/Webconverger) founded in February 2007 at [Praze Farm, Cornwall](http://prazefarm.co.uk/) by Kai Hendry.
