@@ -1,7 +1,7 @@
 [[!meta title="Develop Webconverger"]]
 
 * [[Core_concepts|design]]
-* [Webconverger live-helper configuration](http://git.debian.org/?p=debian-live/config-webc.git)
+* [Webconverger Debian Live configuration](http://git.debian.org/?p=debian-live/config-webc.git)
 * [Official Webconverger package repository](http://debian.webconverger.com)
 * [Webconverger git repositories](http://git.webconverger.org/)
 * [Webconverger daily builds](http://build.webconverger.org/) - [build script sources](http://git.webconverger.org/?p=build)
@@ -24,13 +24,14 @@ You can use the [[guide|usb]] to persistently change [[boot]] options **without
 building**.
 
 1. Download and install the **latest**
-[live-helper](http://live.debian.net/devel/live-helper/) from the [Debian
+[live-build](http://packages.qa.debian.org/l/live-build.html) from the [Debian
 Unstable repository](http://packages.qa.debian.org/l/live-build.html).
 
 1. `git clone git://git.debian.org/git/debian-live/config-webc.git`
 1. Take a long good look at [auto/config](http://git.debian.org/?p=debian-live/config-webc.git;a=blob;f=webconverger/auto/config)
-1. `lh config` to setup the configuration (this is the new live-helper 'autoconfig' style)
-1. `sudo lh build` in webconverger/ to kick off the long build process
+1. `lb config` to setup the configuration
+1. `sudo lb build` in webconverger/ to kick off the long build process
+1. `sudo lb binary syslinux` might be needed to finish off the build (workaround)
 
 These steps are formalised in the daily build process's [build.sh](http://git.webconverger.org/?p=build;a=blob;f=build.sh).
 
