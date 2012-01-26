@@ -2,7 +2,7 @@ Unfortunately the Web is not a perfect place and a customer's Website might use
 abominations like popups and mixed SSL.
 
 You can work around these bad practices by using
-`config/chroot_local-includes/etc/iceweasel/profile/hostperm.1`:
+`config/includes.chroot/etc/iceweasel/profile/hostperm.1`:
 
 	# Permission File
 	# always allow popups and session cookies from example.com
@@ -13,7 +13,7 @@ You can work around these bad practices by using
 
 To deal with SSL warnings in Firefox, I've employed:
 
-	hendry@h2 webconverger$ grep security config/chroot_local-includes/etc/iceweasel/pref/iceweasel.js
+	hendry@h2 webconverger$ grep security config/includes.chroot/etc/iceweasel/pref/iceweasel.js
 	pref("security.warn_entering_secure", false);
 	pref("security.warn_leaving_secure", false);
 	pref("security.warn_submit_insecure", false);

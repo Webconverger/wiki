@@ -4,10 +4,10 @@ Hello everyone! 5.5 is a much delayed release which is not as polished as I
 would have liked. Instead of delaying any further, I would appreciate you
 giving these experimental features a try and giving feedback on them.
 
-* [Allow ICMP ping replies](http://git.debian.org/?p=debian-live/config-webc.git;a=blob;f=webconverger/config/chroot_local-includes/etc/iptables.conf) so that you can check the machine is up and running.
+* [Allow ICMP ping replies](http://git.debian.org/?p=debian-live/config-webc.git;a=blob;f=webconverger/config/includes.chroot/etc/iptables.conf) so that you can check the machine is up and running.
 * Allow for several homepages to be specified which get opened in separate tabs, e.g. `homepage=http://portal.webconverger.com/%20http://webconverger.com`
 * [noclutter](http://packages.qa.debian.org/u/unclutter.html) added, which hides the mouse cursor after a couple of seconds of inactivity
-* Several new [experimental hooks](http://git.debian.org/?p=debian-live/config-webc.git;a=tree;f=webconverger/config/chroot_local-includes/etc/network/if-up.d) to [[upgrade|boot]] and setup [[CJK_locales|i18n]]
+* Several new [experimental hooks](http://git.debian.org/?p=debian-live/config-webc.git;a=tree;f=webconverger/config/includes.chroot/etc/network/if-up.d) to [[upgrade|boot]] and setup [[CJK_locales|i18n]]
 * A new PDF viewer based on [epdfview](http://packages.qa.debian.org/e/epdfview.html), which unlike `xpdf` has a decent [[printing]] dialog!
 * Anything else? See `vimdiff http://download.webconverger.com/webc-5.2.txt http://download.webconverger.com/webc-5.5.txt`
 

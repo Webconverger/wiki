@@ -13,17 +13,17 @@ However the same can be achieved by
 [interfaces](http://manpages.debian.net/cgi-bin/man.cgi?query=interfaces).
 
 In recent versions of [Webconverger the
-interfaces](http://git.debian.org/?p=debian-live/config-webc.git;a=blob;f=webconverger/config/chroot_local-includes/etc/network/interfaces)
+interfaces](http://anonscm.debian.org/gitweb/?p=debian-live/config-webc.git;a=blob;f=webconverger/config/includes.chroot/etc/network/interfaces)
 assumes the eth0 is the wired connection and the eth1 or wlan0 interface is a
 [[wireless]] interface. The wireless interface is configured by [wpa
-supplicant](http://git.debian.org/?p=debian-live/config-webc.git;a=blob;f=webconverger/config/chroot_local-includes/etc/wpa_supplicant/wpa_supplicant.conf).
+supplicant](http://git.debian.org/?p=debian-live/config-webc.git;a=blob;f=webconverger/config/includes.chroot/etc/wpa_supplicant/wpa_supplicant.conf).
 By default it has a convienant, though perhaps a dangerous feature to join any
 open wireless network.
 
 If users are frankly too silly not to use DHCP, they need to setup a network by
 the [interfaces](http://manpages.debian.net/cgi-bin/man.cgi?query=interfaces)
 rules and manipulate typically
-`webconverger/config/chroot_local-includes/etc/network/interfaces`. Let me
+`webconverger/config/includes.chroot/etc/network/interfaces`. Let me
 remind you that you must have `nonetworking` on your `config/binary`
 `LH_BOOTAPPEND_LIVE` line for it to all work. For debugging an image with a
 static network setup, I suggest removing `nonetworking` to default to
@@ -31,7 +31,7 @@ live-initramfs's sensible wired DHCP defaults.
 
 # Example of a static configuration customisation
 
-`webconverger/config/chroot_local-includes/etc/network/interfaces` would read:
+`webconverger/config/includes.chroot/etc/network/interfaces` would read:
 
 	iface eth0 inet static
 		   address 10.100.7.230
@@ -40,5 +40,5 @@ live-initramfs's sensible wired DHCP defaults.
 
 And the DNS:
 
-	cat webconverger/config/chroot_local-includes/etc/resolv.conf
+	cat webconverger/config/includes.chroot/etc/resolv.conf
 	nameserver 10.100.7.253

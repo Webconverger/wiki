@@ -205,7 +205,7 @@
 
 	* Tweaked the webconverger extension
 	* Updated the fullerscreen extension
-	* config/chroot_local-includes is now empty
+	* config/includes.chroot is now empty
 	* Researching Chinese fonts
 
 2007-05-28  Kai Hendry

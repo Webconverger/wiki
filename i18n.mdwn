@@ -75,9 +75,9 @@ Please give feedback about anything. If you don't like the font or see some othe
 
 # How [CJK](http://en.wikipedia.org/wiki/CJK) support works
 
-* [Chinese](http://git.debian.org/?p=debian-live/config-webc.git;a=blob;f=webconverger/config/chroot_local-includes/etc/network/if-up.d/chinese)
-* [Japanese](http://git.debian.org/?p=debian-live/config-webc.git;a=blob;f=webconverger/config/chroot_local-includes/etc/network/if-up.d/japanese)
-* [Korean](http://git.debian.org/?p=debian-live/config-webc.git;a=blob;f=webconverger/config/chroot_local-includes/etc/network/if-up.d/korean)
+* [Chinese](http://git.debian.org/?p=debian-live/config-webc.git;a=blob;f=webconverger/config/includes.chroot/etc/network/if-up.d/chinese)
+* [Japanese](http://git.debian.org/?p=debian-live/config-webc.git;a=blob;f=webconverger/config/includes.chroot/etc/network/if-up.d/japanese)
+* [Korean](http://git.debian.org/?p=debian-live/config-webc.git;a=blob;f=webconverger/config/includes.chroot/etc/network/if-up.d/korean)
 
 CJK support requires a bunch of extra fonts and complex logic for the input
 system.  Since most Webconverger users currently are Western, it seems a little

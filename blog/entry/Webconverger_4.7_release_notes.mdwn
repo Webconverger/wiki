@@ -2,7 +2,7 @@
 
 <a href="http://www.flickr.com/photos/hendry/3476173455/" title="Adobe Acroread 8 on Webconverger 4.7 by Kai Hendry, on Flickr"><img src="http://farm4.static.flickr.com/3558/3476173455_00755c9052.jpg" width="500" height="375" alt="Adobe Acroread 8 on Webconverger 4.7" /></a>
 
-* Added [iptables](http://git.debian.org/?p=debian-live/config-webc.git;a=blob;f=webconverger/config/chroot_local-includes/etc/iptables.conf;) firewall
+* Added [iptables](http://git.debian.org/?p=debian-live/config-webc.git;a=blob;f=webconverger/config/includes.chroot/etc/iptables.conf;) firewall
 * [Fix UA string for Hotmail](http://groups.google.com/group/webc-users/browse_thread/thread/fc8171407b40a733)
 * [file:/// disabled](http://groups.google.com/group/webc-users/browse_thread/thread/60d62ae72fcff707) in the latest [[kiosk]] extension. Try it out from [here](http://webconverger.com/xpis/).
 * Remove previous [[wireless]] _default_ to join any open network.

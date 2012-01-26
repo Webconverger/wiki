@@ -1,4 +1,4 @@
-* _defunct_ [upgrade](http://git.debian.org/?p=debian-live/config-webc.git;a=blob;f=webconverger/config/chroot_local-includes/etc/network/if-up.d/apt-upgrade) [[boot]] option
+* _defunct_ [upgrade](http://git.debian.org/?p=debian-live/config-webc.git;a=blob;f=webconverger/config/includes.chroot/etc/network/if-up.d/apt-upgrade) [[boot]] option
 
 # Future (proofing) stuff [[todo]]
 
