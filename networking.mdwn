@@ -16,9 +16,8 @@ In recent versions of [Webconverger the
 interfaces](http://anonscm.debian.org/gitweb/?p=debian-live/config-webc.git;a=blob;f=webconverger/config/includes.chroot/etc/network/interfaces)
 assumes the eth0 is the wired connection and the eth1 or wlan0 interface is a
 [[wireless]] interface. The wireless interface is configured by [wpa
-supplicant](http://git.debian.org/?p=debian-live/config-webc.git;a=blob;f=webconverger/config/includes.chroot/etc/wpa_supplicant/wpa_supplicant.conf).
-By default it has a convienant, though perhaps a dangerous feature to join any
-open wireless network.
+supplicant](http://git.webconverger.org/?p=webconverger-base;a=blob;f=debian/webconverger.init;)
+during init.
 
 If users are frankly too silly not to use DHCP, they need to setup a network by
 the [interfaces](http://manpages.debian.net/cgi-bin/man.cgi?query=interfaces)
