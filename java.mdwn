@@ -17,3 +17,5 @@ Next we need both the Java JRE & Web plugin for it to work in Webconverger:
 	config$ tail -n2 package-lists/webc.list.chroot
 	sun-java6-jre
 	sun-java6-plugin
+
+[[Test|testing]] Java support by visiting: <http://java.com/en/download/testjava.jsp>
