@@ -35,7 +35,7 @@ live-initramfs](http://git.debian.net/?p=debian-live/live-initramfs.git).
 
 In not so good news, my [Thinkpad
 X40](http://flickr.com/photos/hendry/tags/X40) from my time at
-[Hannux](http://hannux.com/) in
+Hannux (a Korean linux distribution which peaked in 2005) in
 [Korea](http://flickr.com/photos/hendry/tags/korea/) has finally died. First it
 was the hard drive (er.. three times), then the USB subsystem and now it's a
 paper weight. That X40 unbelievably was the machine Webconverger was

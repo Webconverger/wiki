@@ -1,6 +1,6 @@
-Since I seriously began developing [operating systems](http://www.hannux.com/)
-when I lived in [Korea](http://flickr.com/photos/hendry/tags/korea/), I have
-had this idea for an operating system with an interface like:
+Since I seriously began developing operating systems when I lived in
+[Korea](http://flickr.com/photos/hendry/tags/korea/), I have had this idea for
+an operating system with an interface like:
 
 	http://localhost/halt
 	http://localhost/upgrade

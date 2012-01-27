@@ -2,13 +2,11 @@
 
 Update: These devices are becoming known as <a href="http://en.wikipedia.org/wiki/Nettop_(computer)">Net Tops</a>. The Atom based generation should fix some of the speed Cons listed below...
 
-Most of todays embedded boards are based on [AMD Geode](http://en.wikipedia.org/wiki/AMD_Geode) LX platform. Some of the [mini
+Most of todays embedded boards are based on [AMD
+Geode](http://en.wikipedia.org/wiki/AMD_Geode) LX platform. Some of the [mini
 PCs](http://en.wikipedia.org/wiki/Template:Linux_mini_computers) are:
 
-* [Viglen](http://www.viglen.co.uk/webmail/pdfs/MPC-l.pdf)
 * [Linutop](http://www.linutop.com/)
-* [Koolu](http://www.koolu.com/)
-* [interPC](http://www.interpc.biz/)
 
 
 ## Pros
