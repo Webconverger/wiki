@@ -1,0 +1,30 @@
+Instead in investing in a 5USD [time
+switch](http://en.wikipedia.org/wiki/Time_switch), you can statically configure
+Webconverger to shutdown at a set time.
+
+By default Webconverger boots into UTC time. Chances are you live in a
+different timezone, whereby you need to study
+<ftp://ftp.iana.org/tz/data/zone.tab> for the right string.
+
+Lets pretend I live in Durban, South Africa. Even though Johannesburg isn't the
+capital, I know it keeps the same time as my city, Durban.
+`Africa/Johannesburg` is hence the appropriate string for describing my local
+time zone.
+
+Now I need to append that to a Webconverger [[boot]] like so:
+
+	timezone=Africa/Johannesburg
+
+
+Next we need to override `/etc/crontab` in the build.
+
+The easiest way to do this is something like:
+
+	echo '00 23 * * * root halt' > config/includes.chroot/etc/crontab
+
+The second column's 23 means 11PM and combined with the earlier **timezone**
+configuration, it will mean 11PM in
+[SAST](http://en.wikipedia.org/wiki/South_African_Standard_Time).
+
+You can replace `halt` with `reboot`, though there really should not be a
+memory leak in Webconverger, so this is completely unnecessary.

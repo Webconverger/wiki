@@ -12,6 +12,7 @@
 * [live-config lists the boot parameters](http://live.debian.net/gitweb?p=live-config.git;a=blob;f=manpages/en/live-config.7). Also see [[boot]].
 * [[Howto_hide_boot_menu|blog/entry/cmdline_lock_down]]
 * [[Howto_add_Java|Java]]
+* [[Customising_cronjob|cronjob]]
 
 If you are new to the project, **Welcome**! Please help by [[testing]]. Thank you!
 
@@ -31,7 +32,6 @@ Unstable repository](http://packages.qa.debian.org/l/live-build.html).
 1. Take a long good look at [auto/config](http://git.debian.org/?p=debian-live/config-webc.git;a=blob;f=webconverger/auto/config)
 1. `lb config` to setup the configuration
 1. `sudo lb build` in webconverger/ to kick off the long build process
-1. If you see `E: Unable to locate package syslinux-themes-webc`, `sudo lb binary syslinux` might be needed to finish off the build (workaround)
 
 These steps are formalised in the daily build process's [build.sh](http://git.webconverger.org/?p=build;a=blob;f=build.sh).
 

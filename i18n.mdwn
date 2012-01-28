@@ -6,9 +6,9 @@ switch. See the Russian example.
 
 Specify them on the [[boot]] parameter prompt.
 
-For setting during a Debian-Live build option set **config/binary** like so:
+The Debian-Live build option is set **auto/config** like so:
 
-        LIVE_BOOTAPPEND="locales=en_GB.UTF-8 keyboard-layouts=gb"
+        --bootappend-live ".... locales=en_GB.UTF-8 keyboard-layouts=gb"
 
 Sometimes a two letter shorthand for some locales (please test) may work for you.
 
