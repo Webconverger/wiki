@@ -1,10 +1,10 @@
 Ideally Webconverger **should** be deployed in a **wired network** with a
 **DHCP server**, instead of a potentially unstable [[wireless]] connection.
 
-Webconverger's [network/interfaces](http://anonscm.debian.org/gitweb/?p=debian-live/config-webc.git;a=blob;f=webconverger/config/includes.chroot/etc/network/interfaces):
+Webconverger's [network/interfaces](https://github.com/Webconverger/Debian-Live-config/blob/master/webconverger/config/includes.chroot/etc/network/interfaces):
 
 * Allows hotplug of wired interfaces including [[USB_dongles|blog/entry/USB_tethering]]
-* Configures a firewall with this [iptables configuration](http://anonscm.debian.org/gitweb/?p=debian-live/config-webc.git;a=blob;f=webconverger/config/includes.chroot/etc/iptables.conf;)
+* Configures a firewall with this [iptables configuration](https://github.com/Webconverger/Debian-Live-config/blob/master/webconverger/config/includes.chroot/etc/iptables.conf)
 
 
 The wireless interface is configured by [wpa

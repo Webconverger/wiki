@@ -1,7 +1,7 @@
 [[!meta title="Develop Webconverger"]]
 
 * [[Core_concepts|design]]
-* [Webconverger Debian Live configuration](http://git.debian.org/?p=debian-live/config-webc.git)
+* [Webconverger Debian Live configuration](https://github.com/Webconverger/Debian-Live-config)
 * [Official Webconverger package repository](http://debian.webconverger.com)
 * [Webconverger git repositories](http://git.webconverger.org/)
 * [Webconverger daily builds](http://build.webconverger.org/) - [build script sources](http://git.webconverger.org/?p=build)

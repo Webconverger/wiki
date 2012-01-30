@@ -7,7 +7,7 @@ the [[boot_menu|boot]] prompt, in order to:
 * Disallow any [[boot]] time alterations
 
 This is done by replacing the syslinux theme with `progress-appliance` in
-[auto/config](http://anonscm.debian.org/gitweb/?p=debian-live/config-webc.git;a=blob;f=webconverger/auto/config;)
+[auto/config](https://github.com/Webconverger/Debian-Live-config/blob/master/webconverger/auto/config)
 when [[building_Webconverger|develop]].
 
 	--syslinux-theme progress-appliance
