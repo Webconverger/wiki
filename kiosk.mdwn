@@ -1,5 +1,7 @@
 [[!meta title="Webconverger chrome UI options"]]
 
+Note since Webconverger 11 you can switch these options from the [[boot]] command line.
+
 # iceweasel-webconverger
 
 **Default** and most common.
