@@ -15,7 +15,7 @@ Webconverger is [[designed|design]] for [[privacy]] and [[security]], based on:
 
 # Peer review
 
-Webconverger welcomes security review. Please email **security** AT wecbonverger.com with your findings.
+Webconverger welcomes security review. Please email **security** AT webconverger.com with your findings.
 
 Could reviewers please practice [responsible disclosure](http://www.google.com/corporate/security.html).
 
