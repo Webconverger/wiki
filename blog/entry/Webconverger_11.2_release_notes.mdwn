@@ -8,7 +8,7 @@
 * 10 second retry on [net Error](https://github.com/Webconverger/iceweasel-webconverger/blob/master/content/netError.xhtml#L410), for cases where network isn't quite ready
 * More (non-free) wireless firmware: realtek, libertas, brcm80211 & atheros, means your [[wireless]] kiosk will almost certainly work :)
 
-Check out [[11.2 package_changes|changes/11.0-11.2]], compared to the [[previous 11.0 release|Webconverger_11_release_notes]].
+Please check out the [[11.2 package_changes|changes/11.0-11.2]], compared to the [[previous 11.0 release|Webconverger_11_release_notes]].
 
 ## Making upgrading to the latest releases **easier**
 
@@ -32,7 +32,7 @@ upgrade process above and can't easily justify the full
 Firstly Webconverger will reduce the cost of an image update to _existing
 customers_ by 50%, providing there are no additional customisations and the
 customer is kind enough to provide a testimonial. So a photo of Webconverger
-(could be anonymous) is use in your institution and 50GBP if you have already
+(could be anonymous) in use in your institution and 50GBP if you have already
 had a customised image, based say on version 10, that you want today on 11.2.
 
 The [order form](http://webconverger.com/buy) will be updated soon to reflect
