@@ -57,8 +57,8 @@ Add `compose`.
 
 ### [Changing chrome](http://git.webconverger.org/?p=webconverger-base;a=blob;f=home/webc/iwchromeconfig.sh;)
 
-NOTE: these boot switches do bring the same level of polish as the individual
-Firefox extensions do in [[kiosk]].
+NOTE: these boot switches do *NOT* bring the same level of polish as the
+individual Firefox extensions do in [[kiosk]] atm.
 
 * webcchrome=nosearch - disable search bar
 * webcchrome=noaddress - disable URL bar and search bar (webcnoaddressbar)
