@@ -2,11 +2,11 @@
 
 * [Firefox 10](http://www.mozilla.org/en-US/firefox/10.0/releasenotes/)
 * Linux 3.2 with [TCP Proportional Rate Reduction](http://kernelnewbies.org/Linux_3.2#head-1c3e71416a9fdc2f59c1c251a97963f165302b6e)
-* Removal of confusing tab groups from Firefox (making things simpler)
-* Stop accidental downloads of unknown mimetypes (saving precious bandwidth)
-* Upgrade to [live build a42](http://packages.qa.debian.org/l/live-build/news/20120115T204939Z.html) from [Debian Live](http://live.debian.net)
+* Removal of confusing tab groups from Firefox, making things simpler
+* Stop accidental downloads of unknown mimetypes, therefore saving precious bandwidth
+* For developers: Build upgraded to [live build a42](http://packages.qa.debian.org/l/live-build/news/20120115T204939Z.html) from [Debian Live](http://live.debian.net) and [source has moved to Github](https://github.com/Webconverger/)
 * 10 second retry on [net Error](https://github.com/Webconverger/iceweasel-webconverger/blob/master/content/netError.xhtml#L410), for cases where network isn't quite ready
-* More (non-free) wireless firmware: realtek, libertas, brcm80211 & atheros
+* More (non-free) wireless firmware: realtek, libertas, brcm80211 & atheros, means your [[wireless]] kiosk will almost certainly work :)
 
 Check out [[11.2 package_changes|changes/11.0-11.2]], compared to the [[previous 11.0 release|Webconverger_11_release_notes]].
 
@@ -21,9 +21,9 @@ appreciate the better HTML5 support and speed improvements in Firefox.
 We know that [[upgrading|upgrade]] Webconverger is painful with these frequent
 releases & no automatic updating:
 
-1) Download latest ISO from <http://download.webconverger.com/>
-2) Re-imaging USB stick or burning entirely new CD
-3) Re-deploying to physical machines
+1. Download latest ISO from <http://download.webconverger.com/>
+2. Re-imaging USB stick or burning entirely new CD
+3. Re-deploying to physical machines
 
 Conservative customised users are often much less enthusiastic about the
 upgrade process above and can't easily justify the full
@@ -31,9 +31,9 @@ upgrade process above and can't easily justify the full
 
 Firstly Webconverger will reduce the cost of an image update to _existing
 customers_ by 50%, providing there are no additional customisations and the
-customer is kind enough to provide a testimonial. So a photo of Webconverger is
-use in your institution and 50GBP if you have already had a customised image,
-based say on version 10, that you want today on 11.2.
+customer is kind enough to provide a testimonial. So a photo of Webconverger
+(could be anonymous) is use in your institution and 50GBP if you have already
+had a customised image, based say on version 10, that you want today on 11.2.
 
 The [order form](http://webconverger.com/buy) will be updated soon to reflect
 this new strategy.
@@ -41,10 +41,12 @@ this new strategy.
 ## Moving to a subscription based model and to a sustainable future
 
 In the next weeks a new development project will kick off whereby we will
-enable some persistency in the [[USB]] images to enable efficient updates to
-the squashfs images of Webconverger. Here the business model will be a
-_subscription based_ one. Further details such as the price of such a
-convenient service has not been finalised.
+enable some persistence (saves the updates, i.e. not read only anymore) in the
+[[USB]] images to enable efficient updates to the squashfs images of
+Webconverger. Here the business model will be a _subscription based_ one.
+Further details such as the price of such a convenient service has not been
+finalised.
 
 Webconverger as a business needs a regular income and I hope you can understand
-and support this direction. Any questions or comments? Please email <feedback2012@webconverger.com>
+and support this direction. Any questions or comments? Please email
+<feedback2012@webconverger.com>
