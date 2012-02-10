@@ -1,12 +1,19 @@
 [[!meta title="Webconverger chrome UI options"]]
 
-Note since Webconverger 11 you can switch these options from the [[boot]] command line.
+Note since Webconverger 11 you can **trial** these options from the [[boot]]
+command line. **webcchrome=** options aren't quite as polished as the
+individual extension/packages.
 
 # iceweasel-webconverger
 
-**Default** and most common.
+**Default** and most common. The XPI is availbile at
+<https://addons.mozilla.org/en-US/firefox/addon/webconverger/> however it
+doesn't quite preserve your privacy as running it ontop of the Webconverger
+operating system.
 
 <img src="/chrome/webc.png" alt="iceweasel-webconverger" />
+
+<http://webconverger.com/xpis/webconverger.xpi>
 
 # iceweasel-webcnoaddressbar
 
@@ -14,6 +21,8 @@ Customization option. For customers who want patrons to browse, but not enter
 in URLs.
 
 <img src="/chrome/noaddressbar.png" alt="iceweasel-webcnoaddressbar" />
+
+<http://webconverger.com/xpis/webcnoaddressbar.xpi>
 
 [[boot]] option `webcchrome=noaddress`
 
@@ -24,6 +33,8 @@ signage](http://en.wikipedia.org/wiki/Digital_Signage) or just [show off some
 pictures](http://www.subitophoto.net/slideshow/machupicchu/) somewhere.
 
 <img src="/chrome/fullscreen.png" alt="iceweasel-webcfullscreen" />
+
+<http://webconverger.com/xpis/webcfullscreen.xpi>
 
 If you're concerned about the scroll bar, alter the **overflow** CSS element.
 
