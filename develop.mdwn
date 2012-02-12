@@ -18,9 +18,10 @@ If you are new to the project, **Welcome**! Please help by [[testing]]. Thank yo
 
 <div class="notebox"> The Webconverger distribution is <a
 href="http://src.webconverger.com/">opensource</a> (notable exceptions are
-non-free firmware and [[flash]]), but you **must** understand that the branding
-(logo and the name "Webconverger") are **proprietary**. Only Webconverger built
-images should display the logo and can be sold as "Webconverger".  </div>
+non-free firmware and [[flash|adobe]]), but you <b>must</b> understand that the
+branding (logo and the name "Webconverger") are <b>proprietary</b>. Only
+Webconverger built images should display the logo and can be sold as
+"Webconverger".  </div>
 
 ## Building on a Debian system:
 
