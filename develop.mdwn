@@ -1,5 +1,6 @@
 [[!meta title="Develop Webconverger"]]
 
+* [Report and view bugs](https://github.com/Webconverger/Debian-Live-config/issues)
 * [[Core_concepts|design]]
 * [Webconverger Debian Live configuration](https://github.com/Webconverger/Debian-Live-config)
 * [Official Webconverger package repository](http://debian.webconverger.com)
