@@ -11,7 +11,7 @@ Objective: clone a webconverger installation on a number of hard disks
 
 * Test your installation: you have now installed the base system to clone form.
 
-* Download Trinity Rescue Kit and burn it on a CD or USB-stick, whatever you can boot your base system from.
+* Download [Trinity Rescue Kit](http://trinityhome.org) and burn it on a CD or USB-stick, whatever you can boot your base system from.
 
 * Boot the base system machine from the Trinity Rescue Kit, start the Netboot server and start the mclone tool in server mode.
 
