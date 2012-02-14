@@ -1,0 +1,22 @@
+Mass cloning webconverger, using pxeboot
+========================================
+
+Objective: clone a webconverger installation on a number of hard disks
+
+* Change the boot parameters as desired, following the instructions on http://webconverger.org/develop/. Create the isohybrid using the -offset 1 option
+
+> Example: isohybrid -offset 1 custom.iso
+
+* Dump the iso on a harddisk using dd.
+
+* Test your installation: you have now installed the base system to clone form.
+
+* Download Trinity Rescue Kit and burn it on a CD or USB-stick, whatever you can boot your base system from.
+
+* Boot the base system machine from the Trinity Rescue Kit, start the Netboot server and start the mclone tool in server mode.
+
+* Boot all your other machines with pxeboot. This might be a little bit fiddling with the BIOS options. You'll see them registering on your netboot server.
+
+* Press enter on any machine and the multicast copy starts. 
+
+In about 35 seconds (network speed, not number of clients dependant) all your machines are ready to use with Webconverger.
