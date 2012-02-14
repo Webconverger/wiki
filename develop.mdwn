@@ -1,6 +1,5 @@
 [[!meta title="Develop Webconverger"]]
 
-Webconverger uses [Progress](http://progress-linux.org) backports <img src="http://progress-linux.org/project/logos/official-logo-100x126.png">
 
 * [Report and view bugs](https://github.com/Webconverger/Debian-Live-config/issues)
 * [[Core_concepts|design]]
@@ -16,6 +15,7 @@ Webconverger uses [Progress](http://progress-linux.org) backports <img src="http
 * [[Howto_hide_boot_menu|blog/entry/cmdline_lock_down]]
 * [[Howto_add_Java|Java]]
 * [[Customising_cronjob|cronjob]]
+* Webconverger uses [Progress](http://progress-linux.org) (Artax) backports
 
 If you are new to the project, **Welcome**! Please help by [[testing]]. Thank you!
 
