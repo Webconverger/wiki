@@ -15,6 +15,7 @@
 * [[Howto_hide_boot_menu|blog/entry/cmdline_lock_down]]
 * [[Howto_add_Java|Java]]
 * [[Customising_cronjob|cronjob]]
+* [[Using_PXEBOOT_for_deployment|pxeboot]]
 * Webconverger uses [Progress](http://progress-linux.org) (Artax) backports
 
 If you are new to the project, **Welcome**! Please help by [[testing]]. Thank you!

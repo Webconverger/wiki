@@ -1,15 +1,16 @@
-Mass cloning webconverger, using pxeboot
-========================================
+[[!meta title="Mass cloning Webconverger in a LAN"]]
 
-Objective: clone a webconverger installation on a number of hard disks
+# Mass cloning Webconverger, using [pxeboot](http://en.wikipedia.org/wiki/Preboot_Execution_Environment)
 
-* Change the boot parameters as desired, following the instructions on http://webconverger.org/develop/. Create the isohybrid using the -offset 1 option
+Objective: Clone a Webconverger installation on a number of hard disks in a controlled LAN environment
 
-> Example: isohybrid -offset 1 custom.iso
+* Change the boot parameters as desired, following the instructions on <http://webconverger.org/develop>. Create the isohybrid using the `offset` option:
 
-* Dump the iso on a harddisk using dd.
+	isohybrid -offset 1 custom.iso
 
-* Test your installation: you have now installed the base system to clone form.
+* Dump the ISO on a harddisk using dd, e.g. `sudo if=binary-hybrid.iso of=/dev/sda` (warning: WIPES HARD DRIVE CONTENTS)
+
+* Test your installation: you have now installed the base system to clone from.
 
 * Download [Trinity Rescue Kit](http://trinityhome.org) and burn it on a CD or USB-stick, whatever you can boot your base system from.
 
@@ -17,6 +18,10 @@ Objective: clone a webconverger installation on a number of hard disks
 
 * Boot all your other machines with pxeboot. This might be a little bit fiddling with the BIOS options. You'll see them registering on your netboot server.
 
-* Press enter on any machine and the multicast copy starts. 
+* Press enter on any machine and the multicast copy starts.
 
 In about 35 seconds (network speed, not number of clients dependant) all your machines are ready to use with Webconverger.
+
+
+
+[Thread on webc-users list](https://groups.google.com/forum/#!topic/webc-users/qT7KAssyxMY/discussion)

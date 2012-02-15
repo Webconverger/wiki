@@ -1,3 +1,5 @@
+[[!meta title="Deployment options"]]
+
 Webconverger can be deployed by a live by [[CD|iso]] or [[USB]] stick media in
 about two minutes depending on the machine.
 
@@ -20,9 +22,10 @@ people.
 
 # Deployment options
 
-* [[usb]] - supported by ISOhybrid
-* [[iso]] - supported by ISOhybrid
-* netboot - currently **unsupported** by default, though a [customisation](http://webconverger.com/buy/) option nonetheless
+* Booting [[USB_stick|usb]]
+* Booting [[CD|iso]]
+* Booting a Live CD and then imaging the Webconverger ISO to the hard drive, see [[usb]]
+* netboot - currently **unsupported** by default, consider cloning the image using this [[pxeboot]] guide
 
 Notice Webconverger Web applications can leverage the rich capabilities of
 Firefox with HTML5 graphics and the default [[fonts]].
