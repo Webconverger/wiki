@@ -4,11 +4,15 @@
 
 Objective: Clone a Webconverger installation on a number of hard disks in a controlled LAN environment
 
-* Change the boot parameters as desired, following the instructions on <http://webconverger.org/develop>. Create the isohybrid using the `offset` option:
+Change the boot parameters as desired, following the instructions on
+<http://webconverger.org/develop>. Create the isohybrid using the `offset`
+option:
+
 
 	isohybrid -offset 1 custom.iso
 
-* Dump the ISO on a harddisk using dd, e.g. `sudo if=binary-hybrid.iso of=/dev/sda` (warning: WIPES HARD DRIVE CONTENTS)
+
+1. Dump the ISO on a harddisk using dd, e.g. `sudo if=binary-hybrid.iso of=/dev/sda` (warning: WIPES HARD DRIVE CONTENTS)
 
 * Test your installation: you have now installed the base system to clone from.
 
