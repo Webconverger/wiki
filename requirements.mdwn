@@ -1,6 +1,6 @@
-	By the way Webconverger is really cool because we used SiteKiosk under windows
+	By the way Webconverger is really cool because we used SiteKiosk under Windows
 	and the performance on our old terminals was terrible since we got a new
-	homepage…there was to much unused operating system trash running in the
+	homepage... there was to much unused operating system trash running in the
 	background which slowed down our terminals.
 	-Stefan Schwann (Hi-Fi Video Majdic GmbH)
 
@@ -11,6 +11,9 @@ MacOSX / Chromium OS require their own particular hardware.
 Webconverger can run on most PCs that meet [Firefox's minimum
 requirements](http://www.mozilla.com/en-US/firefox/system-requirements.html).
 
-In fact Webconverger does not require any hard drive, if you boot from a [[USB]] stick.
+Webconverger has been even known to run on Pentium 3, though [[Adobe|Flash]]
+should be disabled in such daring [re-uses of old computers](http://en.wikipedia.org/wiki/Computer_recycling).
+
+In fact Webconverger **does not require any hard drive**, if you boot from a [[USB]] stick.
 
 Webconverger can run well on **older machines** that can USB boot. Give Webconverger a try!
