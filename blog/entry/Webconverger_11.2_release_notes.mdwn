@@ -1,3 +1,5 @@
+<img src="/img/tux+html5_webc.png" alt="Linux + HTML5 = Webconverger" />
+
 11.0 was a great & popular release. Thank you! 11.2 builds on that with:
 
 * [Firefox 10](http://www.mozilla.org/en-US/firefox/10.0/releasenotes/)
