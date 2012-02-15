@@ -1,5 +1,7 @@
 <a href="http://www.flickr.com/photos/hendry/2483537791/" title="10c/min by Kai Hendry, on Flickr"><img src="http://farm3.static.flickr.com/2398/2483537791_c66155f446_m.jpg" width="180" height="240" alt="10c/min" /></a>
 
+Update: Webconverger is **faster** than PROVISIO's SiteKiosk, see [[requirements]]
+
 Whilst in Dublin airport after the [Xtech2008](http://2008.xtech.org/) conference, I noticed a Web kiosk running the [SiteKiosk software](http://flickr.com/photos/hendry/sets/72157605012030608/).
 
 Time to do a [comparison](http://webconverger.com/about/) with the competition. :)

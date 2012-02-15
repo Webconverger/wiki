@@ -1,13 +1,16 @@
+	By the way Webconverger is really cool because we used SiteKiosk under windows
+	and the performance on our old terminals was terrible since we got a new
+	homepage…there was to much unused operating system trash running in the
+	background which slowed down our terminals.
+	-Stefan Schwann (Hi-Fi Video Majdic GmbH)
+
 Microsoft Vista has very high system requirements and poor hardware compatibility.
 
-MacOSX / Chromium require their own particular hardware.
+MacOSX / Chromium OS require their own particular hardware.
 
-Webconverger can run on most PCs that meet [Firefox's minimum requirements](http://www.mozilla.com/en-US/firefox/system-requirements.html). In fact Webconverger does not require any hard drive (free disk space).
+Webconverger can run on most PCs that meet [Firefox's minimum
+requirements](http://www.mozilla.com/en-US/firefox/system-requirements.html).
 
-Webconverger can run well on __recycled machines__. Pentium 3s with 128MB of RAM are quite suitable PCs for Webconverger.
+In fact Webconverger does not require any hard drive, if you boot from a [[USB]] stick.
 
-Webconverger does have issues with hardware that requires proprietary firmware, such as **wireless network interfaces**. See [[networking]] for advice.
-
-In the future Webconverger aims to support other architectures and devices, besides the typical PC. Everything from TVs to mobile devices will converge to the Web. Please give some feedback if you have a particular device you want to see Webconverger on.
-
-* [Ubuntu HCL](http://www.ubuntuhcl.org/)
+Webconverger can run well on **older machines** that can USB boot. Give Webconverger a try!
