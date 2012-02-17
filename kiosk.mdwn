@@ -40,10 +40,6 @@ If you're concerned about the scroll bar, alter the **overflow** CSS element.
 
 [[boot]] option `webcchrome=fullscreen`
 
-## Implementation
+# Source
 
-We have forked rkiosk and created our own extension, (iceweasel-)webconverger.
-We had to do this as I had to modify some of upstream's packaging and
-functions.  Upstream was also a little un-cooperative.
-
-* [iceweasel-webconverger Git](https://github.com/Webconverger/iceweasel-webconverger)
+* [Iceweasel-webconverger source code](https://github.com/Webconverger/iceweasel-webconverger)
