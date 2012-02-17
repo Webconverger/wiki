@@ -1,5 +1,3 @@
-If you have issues following the instructions below, you can purchase physical media with the free Webconverger imaged to the stick from [OSDisc](http://www.osdisc.com/cgi-bin/view.cgi/products/linux/webconverger?affiliate=webconverger).
-
 [[!template id=note text="""
 <a href="http://www.flickr.com/photos/hendry/1403651984/" title="Photo Sharing"><img src="http://farm2.static.flickr.com/1169/1403651984_30fd52a678_m.jpg" width="180" height="240" alt="Webconverger on an HP" /></a>"""]]
 
@@ -21,9 +19,9 @@ You can follow [the USB imaging guide from Ubuntu](https://help.ubuntu.com/commu
 
 # How to copy .iso to USB stick (under Linux):
 
-`fdisk -l` will list your USB drive - usually /dev/sdx ("x" representing letter like sda, sdb etc.), double check with `dmesg`.
+`dmesg` or `fdisk -l` will list your inserted USB drive - usually /dev/sdx ("x" representing letter like sda, sdb etc.), double check with `dmesg`.
 
-	dd if=webc-9.0.iso of=/dev/sdx
+	dd if=webc-12.0.iso of=/dev/sdx
 
 Detailed description on [Debian wiki](http://wiki.debian.org/DebianLive/Howto/USB).
 
