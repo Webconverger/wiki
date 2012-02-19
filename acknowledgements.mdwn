@@ -1,19 +1,20 @@
 In no order as yet:
 
-Koen Roggemans, Patrick Haller, Matthijs Kooijman, Mike Kaply, Stewart Willis,
-François Audirac, Andrei Popescu, Petter Reinholdtsen, Ben Armstrong, Guttorm
-Flatabø, Teemu Hukkanen, Jamie Kitson, Larry Dockery, Nicolas Spalinger, Daniel
-Glassey, Eric Dorland, Otavio Salvador, Heike Jurzik, Mike Hommey, Anselm R.
-Garbe, Alexis Hildebrandt, Chris Lamb, Christophe DAVID, Marcel Bensch, Henri
-David, Paul Sander Langeslag, Daniel Baumann, the Debian community, Ian
-Hickson, Tom Pike, Allan Clements, Phil Waring, Henri Sivonen, Kimmo Heinäaro,
-Jure Cuhalev, Thomas Park, Antoine Delaunay, Marco Amadori, Ruth Chong, Joose
-Vettenranta, in fact the entire country of Finland and for everyone who
-provided feedback.
+Paddy Byers, Koen Roggemans, Patrick Haller, Matthijs Kooijman, Mike Kaply,
+Stewart Willis, François Audirac, Andrei Popescu, Petter Reinholdtsen, Ben
+Armstrong, Guttorm Flatabø, Teemu Hukkanen, Jamie Kitson, Larry Dockery,
+Nicolas Spalinger, Daniel Glassey, Eric Dorland, Otavio Salvador, Heike Jurzik,
+Mike Hommey, Anselm Garbe, Alexis Hildebrandt, Chris Lamb, Christophe
+DAVID, Marcel Bensch, Henri David, Paul Sander Langeslag, Daniel Baumann, the
+Debian community, Ian Hickson, Tom Pike, Allan Clements, Phil Waring, Henri
+Sivonen, Kimmo Heinäaro, Jure Cuhalev, Thomas Park, Antoine Delaunay, Marco
+Amadori, Ruth Chong, Joose Vettenranta, in fact the entire country of Finland
+and for everyone who provided feedback.
 
-The 2012 teal CSS design is designed by Patric Schwarz of
-<http://www.bureauschwarz.de>.  <http://webconverger.org/> is [[hosted|servers]] by the
-fantastic <http://www.branchable.com/> using <http://ikiwiki.info/>.
+The 2012 teal CSS design is designed by [Patric
+Schwarz](http://www.bureauschwarz.de). <http://webconverger.org/> is
+[[hosted|servers]] by the esteemed Joey Hess and Lars Wirzenius of
+<http://www.branchable.com/> using <http://ikiwiki.info>.
 
 Kai Hendry would also like to dedicate Webconverger to the memory of [Kimmo
 Raatikainen](http://www.cs.helsinki.fi/inmemoriam/Kimmo.Raatikainen/) who
