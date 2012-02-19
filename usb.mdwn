@@ -21,7 +21,7 @@ You can follow [the USB imaging guide from Ubuntu](https://help.ubuntu.com/commu
 
 `dmesg` or `fdisk -l` will list your inserted USB drive - usually /dev/sdx ("x" representing letter like sda, sdb etc.), double check with `dmesg`.
 
-	dd if=webc-12.0.iso of=/dev/sdx
+	sudo dd if=webc-12.0.iso of=/dev/sdx
 
 Detailed description on [Debian wiki](http://wiki.debian.org/DebianLive/Howto/USB).
 
@@ -37,7 +37,7 @@ image also with embedded boards and Compact Flash cards (they behave like
 The same principle applies. You copy the "image" to you hard drive using `dd`.
 In order to do this you typically need to put the USB version of Webconverger
 into debug mode (remove `nosudo` from [[boot]]). Or boot with an Ubuntu Live CD
-and image from there to your hard drive (typically `dd if=webc.iso
+and image from there to your hard drive (typically `sudo dd if=webc.iso
 of=/dev/sda`). Apologies for not providing a GUI at this point in time.
 
 # Booting your USB stick
