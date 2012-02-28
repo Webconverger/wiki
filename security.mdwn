@@ -13,6 +13,16 @@ Webconverger is [[designed|design]] for [[privacy]] and [[security]], based on:
 * does not store local data (**live** read-only session by default) a.k.a. [defence in depth](http://en.wikipedia.org/wiki/Defence_in_depth)
 * does not require any signup or registration
 
+ISO-based releases are read-only and gain additional security since a reboot always returns
+the system to a known good state. 
+
+We are currently ( Feb-Mar 2012 ) working on an install to disk version which will require
+update capability to remain secure since the system disk is writable. However, adding updates
+means creating another vector of attack. We will be adopting the current best practices of 
+distributing only GnuPG-signed packages: each system will be able to independently verify
+that we authorized the updates. An attacker would have to compromise a distribution
+server, find a way to gain offline access to our GPG-keyrings, and crack the passwords.
+
 # Peer review
 
 Webconverger welcomes security review. Please email **security** AT webconverger.com with your findings.
