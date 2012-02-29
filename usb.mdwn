@@ -1,21 +1,19 @@
+[[!meta title="Preparing a USB stick with Webconverger"]]
+
 [[!template id=note text="""
-<a href="http://www.flickr.com/photos/hendry/1403651984/" title="Photo Sharing"><img src="http://farm2.static.flickr.com/1169/1403651984_30fd52a678_m.jpg" width="180" height="240" alt="Webconverger on an HP" /></a>"""]]
+<img src="http://webconverger/slides/02.jpg" alt="Booting Webconverger from a USB stick">
+"""]]
 
 .ISO [downloadable](http://download.webconverger.com) files are ISO-hybrid
 images to be copied onto a USB stick/key.
 
-# How to copy the .iso file to a USB stick using Windows
-Since version 6.1 webconverger provides a hybrid.iso which can be burned to CD or flashed on an usb-stick.
-In some scenarios flashing the hybrid-iso onto an usb-stick with MS Windows won´t work out.
+# How to copy the .iso file to a USB stick using Microsoft Windows
 
-You can follow [the USB imaging guide from Ubuntu](https://help.ubuntu.com/community/Installation/FromImgFiles#Windows), from [ArchLinux](http://wiki.archlinux.org/index.php/Install_from_a_USB_flash_drive), or follow the steps beneath. ([Roadkil's Disk Image](http://www.roadkil.net/program.php/P12/Disk%20Image) it is a more lightweight and flexible alternative to Win32 Disk Imager.)
-
-1. Download [Win32 Disk Imager](https://launchpad.net/win32-image-writer/+download) zip and unpack it.
-1. Download the iso-file.
-1. Start Win32DiskImager as administrator (right click …).
-1. Select the iso-file as source (click the folder icon, and write *.iso in the path to be able to select the iso-file).
-1. Select the USB-Stick as target device.
-1. Click write.
+After [downloading](http://download.webconverger.com/), you can follow [the USB
+imaging guide from
+Ubuntu](https://help.ubuntu.com/community/Installation/FromImgFiles#Windows) or
+from
+[ArchLinux](http://wiki.archlinux.org/index.php/Install_from_a_USB_flash_drive).
 
 # How to copy .iso to USB stick (under Linux):
 
@@ -42,4 +40,6 @@ of=/dev/sda`). Apologies for not providing a GUI at this point in time.
 
 # Booting your USB stick
 
-Different machines have different ways of **Entering the BIOS boot menu**. However it's usually the [Esc], [F8] or [F12] key or at least configurable in the BIOS menu.
+Different machines have different ways of **Entering the BIOS boot menu**.
+However it's usually the [Esc], [F8] or [F12] key or at least configurable in
+the BIOS menu.
