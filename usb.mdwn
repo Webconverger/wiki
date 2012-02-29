@@ -28,15 +28,6 @@ Almost any cheap generic USB stick should be fine. Feel free to use the usb
 image also with embedded boards and Compact Flash cards (they behave like
 /dev/hda usually).
 
-# Install the USB .iso to a hard drive
-
-The same principle under Linux applies. You copy the "image" to you hard drive
-using `dd`.  In order to do this you typically need to put the USB version of
-Webconverger into debug mode (remove `nosudo` from [[boot]]). Or boot with an
-Ubuntu Live CD and image from there to your hard drive (typically `sudo dd
-if=webc.iso of=/dev/sda`). Apologies for not providing a GUI at this point in
-time. We are working on it!
-
 # Booting your USB stick
 
 Different machines have different ways of **Entering the BIOS boot menu**.
