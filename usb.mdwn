@@ -15,9 +15,10 @@ Ubuntu](https://help.ubuntu.com/community/Installation/FromImgFiles#Windows) or
 from
 [ArchLinux](http://wiki.archlinux.org/index.php/Install_from_a_USB_flash_drive).
 
-# How to copy .iso to USB stick (under Linux):
+# How to copy .iso to USB stick under Linux
 
-`dmesg` or `fdisk -l` will list your inserted USB drive - usually /dev/sdx ("x" representing letter like sda, sdb etc.), double check with `dmesg`.
+`dmesg` or `fdisk -l` will list your inserted USB drive - usually /dev/sdx ("x"
+representing letter like sdb, sdc etc.), double check with `dmesg`.
 
 	sudo dd if=webc-12.0.iso of=/dev/sdx
 
@@ -32,11 +33,12 @@ image also with embedded boards and Compact Flash cards (they behave like
 
 # Install the USB .iso to a hard drive
 
-The same principle applies. You copy the "image" to you hard drive using `dd`.
-In order to do this you typically need to put the USB version of Webconverger
-into debug mode (remove `nosudo` from [[boot]]). Or boot with an Ubuntu Live CD
-and image from there to your hard drive (typically `sudo dd if=webc.iso
-of=/dev/sda`). Apologies for not providing a GUI at this point in time.
+The same principle under Linux applies. You copy the "image" to you hard drive
+using `dd`.  In order to do this you typically need to put the USB version of
+Webconverger into debug mode (remove `nosudo` from [[boot]]). Or boot with an
+Ubuntu Live CD and image from there to your hard drive (typically `sudo dd
+if=webc.iso of=/dev/sda`). Apologies for not providing a GUI at this point in
+time. We are working on it!
 
 # Booting your USB stick
 
