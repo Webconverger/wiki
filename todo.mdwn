@@ -6,7 +6,7 @@ platform... the Web!
 
 * device API for USB coin slot / payment proxy?
 * Virtual (on screen) keyboard [[blog/entry/Virtual_touch_screen_keyboard_for_Kiosks]]
-* A way of entering commands on boot [like to control specific hardware](http://groups.google.com/group/webc-users/browse_thread/thread/e8a36eccc4c78a56?hl=en) (hdparm, xrandr) -- drop things into rc2.d or somehow modulise <http://git.webconverger.org/?p=webconverger-base;a=blob;f=debian/webconverger.init;> with `webc.d/` or some other construct?
+* A way of entering commands on boot [like to control specific hardware](http://groups.google.com/group/webc-users/browse_thread/thread/e8a36eccc4c78a56?hl=en) (hdparm, xrandr) `curl $HOMEPAGE/xcommands.sh | sh` run as webc user in `~/.xinitrc`?
 * Showcase Webconverger as a medium for online examinations
 * [session timer](http://groups.google.com/group/webc-users/browse_thread/thread/39a3dcda1305a036) ?
 * Disable ctrl+p if cups is not installed
