@@ -25,18 +25,14 @@ is so awkward!
 
 * [Download Webconverger](http://download.webconverger.com/) - [German mirror](http://download.webconverger.org/)
 * [[Design_document|Design]]
-* [[TODO]] a.k.a. bug list
 * The [Debian-Live project](http://live.debian.net) and [[Debian]] is where Webconverger is derived from
 * [[Firefox_extension_development|Kiosk]]
 * [[Internationalisation_and_localisation|i18n]]
 * [[Developer_information|Develop]]
-* [[Modifying boot|USB]]
 * [[Acknowledgements]] - thanks everyone for your MIT licensed contributions!
 * [[Notes_on_Networking|Networking]]
-* [[Printing]] with [CUPS](http://www.cups.org/) (printing is not enabled on the default builds)
 * [[Testing_Webconverger|Testing]] - please join the Quality Assurance(QA) effort
 * [[Content_filtering|Filtering]] and white listing are possible
-* [[Information_about_Fonts|Fonts]]
 
 # Download Webconverger
 
@@ -49,31 +45,20 @@ Webconverger works with **almost any standard x86 hardware** that meets
 [Firefox's minimum
 requirements](http://www.mozilla.com/en-US/firefox/system-requirements.html).
 
+# Customisation
 
-Customisation
-=============
-
+Every sale helps us to improve the open source software that Webconverger is based upon.
 
 * [Purchase customisation and support](http://webconverger.com/buy/)
-* [[Homepage]] by default is the [Webconverger Portal](http://portal.webconverger.com/)
-* [[Features]] you could choose from
-* [[Artwork]] information
-* [[Boot_tutorial|boot]]
-
-Webconverger in the press
-=========================
-
+* [Purchase FAQ](http://webconverger.com/faq/)
 * [[What_people_are_saying_about_Webconverger|Press]]
 
-Reasons for using Webconverger
-==============================
-
+# Reasons for using Webconverger
 
 * [[Ideal_just_for_Web_applications]]
 * [[Free_&_open_software]]
 * [[Low_requirements|Requirements]] - can run on old/cheap hardware and can be ported to run on embedded devices
 * Good [[security]] features by [[design]]
-* [[Deployment]] options abound, though the most common by far is LiveCD
 * [[Web_Standards]] compliant
 * [[Cost_effective]] - try the [free version](http://download.webconverger.com/) or order a [customised version](http://webconverger.com/buy)
 * [[No_users_or_registration|Registration]]
