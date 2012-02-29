@@ -4,10 +4,7 @@
 <img src="http://webconverger/slides/02.jpg" alt="Booting Webconverger from a USB stick">
 """]]
 
-.ISO [downloadable](http://download.webconverger.com) files are ISO-hybrid
-images to be copied onto a USB stick/key.
-
-# How to copy the .iso file to a USB stick using Microsoft Windows
+# How to copy the ISO-hybrid file to a USB stick using Microsoft Windows
 
 After [downloading](http://download.webconverger.com/), you can follow [the USB
 imaging guide from
@@ -15,7 +12,7 @@ Ubuntu](https://help.ubuntu.com/community/Installation/FromImgFiles#Windows) or
 from
 [ArchLinux](http://wiki.archlinux.org/index.php/Install_from_a_USB_flash_drive).
 
-# How to copy .iso to USB stick under Linux
+# How to copy the ISO-hybrid to a USB stick under Linux
 
 `dmesg` or `fdisk -l` will list your inserted USB drive - usually /dev/sdx ("x"
 representing letter like sdb, sdc etc.), double check with `dmesg`.
