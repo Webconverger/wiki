@@ -62,9 +62,6 @@ entity encode it. Example ESSID "Hopstock Gjestenett", becomes:
 
 	wlan=Hopstock%20Gjestenett,
 
-Track developments in
-[webconverger.init](http://git.webconverger.org/?p=webconverger-base.git;a=blob;f=debian/webconverger.init).
-
 # Wireless router (recommended)
 
 <http://www.tp-link.com> make some excellent products like the TL-WR1043ND.

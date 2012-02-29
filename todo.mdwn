@@ -2,21 +2,11 @@ Webconverger at its core is an opensource project reliant on
 [[your_contributions|acknowledgements]] to strengthen the most competitive open
 platform... the Web!
 
-* do some sort of device API for attraction (screensaver advertisement) loop, perhaps it can be done with kioskresetstation? No, [this can be done with a Web application](http://groups.google.com/group/webc-users/browse_thread/thread/656f92ff84582535) -- write this up!
+# Please report [Webconverger issues on github](https://github.com/Webconverger/Debian-Live-config/issues)
+
 * device API for USB coin slot / payment proxy?
-* Look into advertising on the free version
 * Virtual (on screen) keyboard [[blog/entry/Virtual_touch_screen_keyboard_for_Kiosks]]
 * A way of entering commands on boot [like to control specific hardware](http://groups.google.com/group/webc-users/browse_thread/thread/e8a36eccc4c78a56?hl=en) (hdparm, xrandr) -- drop things into rc2.d or somehow modulise <http://git.webconverger.org/?p=webconverger-base;a=blob;f=debian/webconverger.init;> with `webc.d/` or some other construct?
 * Showcase Webconverger as a medium for online examinations
-* nolocales by default ?
 * [session timer](http://groups.google.com/group/webc-users/browse_thread/thread/39a3dcda1305a036) ?
-* Fix [[kiosk]] extension to disable dragging of tabs
 * Disable ctrl+p if cups is not installed
-* Update dwm to 6.0+
-* Squashfs repacking
-
-Join Mozilla Enterprise <https://wiki.mozilla.org/Enterprise/Firefox/ExtendedSupport:Proposal>
-
-Please help and contribute by [[testing]] or [[building|develop]] and
-submitting to patches to the [mailing
-list](http://groups.google.com/group/webc-users/topics).

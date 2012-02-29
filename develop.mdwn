@@ -30,7 +30,7 @@ Webconverger built images should display the logo and can be sold as
 ## Building on a Debian system:
 
 Building an image from scratch is usually only necessary if you need to
-customise the image's packages [[chrome|kiosk]] typically.
+customise the image's packages.
 
 You can use the [[guide|usb]] to persistently change [[boot]] options **without
 building**.
@@ -42,15 +42,11 @@ Unstable repository](http://packages.qa.debian.org/l/live-build.html).
 1. `git clone git://github.com/Webconverger/Debian-Live-config.git`
 1. `cd Debian-Live-config/webconverger/`
 1. Take a long good look at [auto/config](https://github.com/Webconverger/Debian-Live-config/blob/master/webconverger/auto/config)
-1. `lb config` to setup the configuration
-1. `sudo lb build` in to kick off the build process
+1. `make`
 
 These steps are formalised in the daily build process's [build.sh](http://git.webconverger.org/?p=build;a=blob;f=build.sh).
 
 Next use this [[test_guide|testing]] on your freshly built image.
-
-1. [[todo]] has a list of bugs that need to be fixed. Please help Webconverger out and you will be [[acknowledged|acknowledgements]] for your contribution.
-1. Join the [Debian Live](http://debian-live.alioth.debian.org/) community. Peruse the [debian-live mailing list archives](http://lists.debian.org/debian-live/). :)
 
 ## Debugging mode with the built Webconverger image
 
@@ -59,7 +55,7 @@ Debugging in Webconverger simply involves removing `noroot` from the [[boot]] op
 ## Customising the ISO hybrid image
 
 Simple permanent boot customisation steps without building the ISO from scratch
-are the following root commands
+are the following root commands:
 
 	mount -o loop webc-9.0.iso /mnt/webc/
 	rsync -av /mnt/webc/ /mnt/custom/

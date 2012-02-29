@@ -1,7 +1,7 @@
 Please help test the very latest [daily build
 images](http://build.webconverger.org). Report bugs on
-[webc-users](http://groups.google.com/group/webc-users/topics). Once verified,
-bugs are listed on the [[todo]] list.
+[webc-users](http://groups.google.com/group/webc-users/topics) or on
+[github](https://github.com/Webconverger/Debian-Live-config/issues).
 
 # [Virtualbox](https://www.virtualbox.org)
 

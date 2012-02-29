@@ -37,7 +37,7 @@ Could be expanded to
 
 ### Use Webconverger in German, see [[i18n]] for more localisations
 
-append `locales=de`
+append `locales=de` to setup locale and also append `keyboard-layouts=de` to setup the keyboard
 
 ### Specify a HTTP proxy at 192.168.1.5 with port 8888
 

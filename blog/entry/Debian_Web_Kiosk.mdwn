@@ -1,3 +1,6 @@
+# UPDATE: This "mode" is no longer supported and can be considered deprecated.
+# Please [download Webconverger](http://download.webconverger.com/) to use Debian as a Web kiosk.
+
 So you're a super smart Debian/Ubuntu geek. :)
 
 Here's a chance to **impress** when you have friends over. Hopefully your friends

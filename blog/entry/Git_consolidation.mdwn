@@ -1,3 +1,5 @@
+UPDATE: Latest state of Webconverger's custom Firefox extension is at <https://github.com/Webconverger/iceweasel-webconverger>
+
 The 'Iceweasel-webconverger' package has two small deviations webcnoaddressbar
 and webcfullscreen described in [[kiosk]]. Instead of having 3 seperate repositries, you
 can consolidate them nicely in one git repository as **branches**. 
