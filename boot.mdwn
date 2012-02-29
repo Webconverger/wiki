@@ -55,7 +55,7 @@ Terminal. =)
 
 Add `compose`.
 
-### [Changing chrome](http://git.webconverger.org/?p=webconverger-base;a=blob;f=home/webc/iwchromeconfig.sh;)
+### [Changing chrome](https://github.com/Webconverger/Debian-Live-config/blob/master/webconverger/config/includes.chroot/home/webc/iwchromeconfig.sh)
 
 NOTE: these boot switches do *NOT* bring the same level of polish as the
 individual Firefox extensions do in [[kiosk]] atm.
@@ -64,7 +64,7 @@ individual Firefox extensions do in [[kiosk]] atm.
 * webcchrome=noaddress - disable URL bar and search bar (webcnoaddressbar)
 * webcchrome=fullscreen - fullscreen
 
-### Changing [closeicon](http://git.webconverger.org/?p=webconverger-base;a=blob;f=home/webc/iwcloseconfig.sh;) behaviour
+### Changing [closeicon](https://github.com/Webconverger/Debian-Live-config/blob/master/webconverger/config/includes.chroot/home/webc/iwcloseconfig.sh)
 
 This a bit nitpicky, but here goes:
 
@@ -75,9 +75,11 @@ This a bit nitpicky, but here goes:
 * closeicon=none - No close buttons
 * closeicon=strip - Close button on the end of the tab strip
 
-### Setup to use [[wireless]] access point "san" with WPA password "francisco"
+### Wireless configuration
 
-Append `wlan=san,francisco,`
+Although wired connections are preferred, Webconverger does have
+comprehensive [[support_for_wireless_devices|wireless]] and
+[[blog/entry/USB_tethering]].
 
 ### Force a (lower) screen resolution of 640x480
 

@@ -23,8 +23,10 @@ The cmdline [[boot]] option `kioskresetstation` resets the Webconverger terminal
 
 For example, appending `kioskresetstation=10` will reset the kiosk after ten minutes of inactivity.
 
+* [Source of kioskresetstation](https://github.com/Webconverger/Debian-Live-config/blob/master/webconverger/config/includes.chroot/usr/bin/kioskresetstation)
+
 # Hiding the mouse cursor
 
-[Unclutter](http://packages.qa.debian.org/u/unclutter.html) is run by [default in Webconverger](http://git.webconverger.org/?p=webconverger-base;a=blob;f=home/webc/pb.sh;h=9e68e0ec2bdadf904f2af0a2974422f985ce5cfd;hb=HEAD#l17)
+[Unclutter](http://packages.qa.debian.org/u/unclutter.html) is run by [default in Webconverger](https://github.com/Webconverger/Debian-Live-config/blob/master/webconverger/config/includes.chroot/home/webc/pb.sh#L42)
 
 To override, you can add the [[boot]] parameter `showcursor`.
