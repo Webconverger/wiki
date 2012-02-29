@@ -7,7 +7,7 @@ Debian](http://anonscm.debian.org/viewvc/pkg-wpa/wpasupplicant/trunk/debian/READ
 
 ### Example 1, hidden essid 'home', no/disabled security
 
-Appending `wpa-ssid=home wpa-key-mgmt=NONE wpa-ap-scan=1 wpa-scan-ssid=1` will create the following configuration in [/etc/network/interface](https://github.com/Webconverger/Debian-Live-config/blob/master/webconverger/config/includes.chroot/etc/network/interfaces)
+Appending `wpa-ssid=home wpa-key-mgmt=NONE wpa-ap-scan=1 wpa-scan-ssid=1` will create the following configuration in [/etc/network/interfaces](https://github.com/Webconverger/Debian-Live-config/blob/master/webconverger/config/includes.chroot/etc/network/interfaces).
 
 	iface wlan0 inet dhcp
 		   pre-up iptables-restore < /etc/iptables.conf
@@ -29,12 +29,12 @@ WARNING: WEP is deprecated and insecure technology. Please use WPA instead.
 
 ### Example 3, broadcasting essid 'home', with WPA key uiopzxcv
 
-Append `wpa-ssid home wpa-psk=uiopzxcv`
+Append `wpa-ssid=home wpa-psk=uiopzxcv`
 
 ### Example 4 "Spaces in the ESSID", broadcasting essid 'Hopstock Gjestenett', with WPA key uiopzxcv
 
-Please avoid spaces in ESSIDs. In this case we workaround this using a `encodeURI('Hopstock
-Gjestenett')` encoding, to get the following [[boot]] recipe:
+Please avoid spaces in ESSIDs. In this case we workaround with a `encodeURI('Hopstock
+Gjestenett')`, to get the following [[boot]] recipe:
 
 	wpa-ssid=Hopstock%20Gjestenett wpa-psk=uiopzxcv
 
