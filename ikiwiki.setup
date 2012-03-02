@@ -63,6 +63,7 @@ add_plugins:
   - theme
   - userlist
   - google
+  - gitpush
 # plugins to disable
 disable_plugins:
   - search
@@ -160,7 +161,8 @@ gitmaster_branch: master
 
 # gitpush plugin
 # git repository urls that changes are pushed to
-#git_push_to: []
+git_push_to:
+  - git@github.com:Webconverger/wiki.git
 
 # htmlscrubber plugin
 # PageSpec specifying pages not to scrub
