@@ -1,4 +1,6 @@
-Webconverger has great support for worldwide cultures on boot. If you need to
+[[!meta title="Internationalization and localization"]]
+
+Webconverger has great support for worldwide language on boot. If you need to
 switch keyboard layouts, this is possible to configure using the `keyboard-layouts=`
 switch. See the Russian example.
 
@@ -8,36 +10,38 @@ Specify them on the [[boot]] parameter prompt.
 
 The Debian-Live build option is set **auto/config** like so:
 
-        --bootappend-live ".... locales=en_GB.UTF-8 keyboard-layouts=gb"
+	--bootappend-live ".... locales=en_GB keyboard-layouts=gb"
 
 Sometimes a two letter shorthand for some locales (please test) may work for you.
 
 # Tested locales
 
 ### Swiss German
-locales=de_CH.UTF-8 keyboard-layouts=ch keyboard-variant=de
+locales=de_CH keyboard-layouts=ch keyboard-variant=de
 ### Denmark / Danish
-locales=da_DK.UTF-8 keyboard-layouts=dk
+locales=da_DK keyboard-layouts=dk
 ### Chinese
-locales=zh_CN.UTF-8 keyboard-layouts=zh
+locales=zh_CN keyboard-layouts=zh
 ### German
 locales=de keyboard-layouts=de
 ### Spanish
 locales=es keyboard-layouts=es
 ### French
 locales=fr
+### Polish
+locales=pl keyboard-layouts=pl
 ### Italian
 locales=it
 ### Japanese
-locales=ja_JP.UTF-8
+locales=ja_JP
 ### Korean
-locales=ko_KR.UTF-8
+locales=ko_KR
 ### Finnish
 locales=fi keyboard-layouts=fi
 ### Norwegian Bokmål
-locales=nb_NO.UTF-8 keyboard-layouts=no
+locales=nb_NO keyboard-layouts=no
 ### Norwegian Nynorsk
-locales=nn_NO.UTF-8 keyboard-layouts=no
+locales=nn_NO keyboard-layouts=no
 
 # Testing
 Please check and test different locales. If they work (or don't!), please
@@ -49,11 +53,11 @@ contribute that information to the wiki. :)
 
 ### Latvian
 
-	locales=lv_LV.UTF-8 keyboard-layouts=lv,ru,us keyboard-options=grp:switch,grp:alt_shift_toggle,grp_led:scroll
+	locales=lv_LV keyboard-layouts=lv,ru,us keyboard-options=grp:switch,grp:alt_shift_toggle,grp_led:scroll
 
 ### Russian
 
-	locales=ru_RU.UTF-8 keyboard-layouts=us,ru keyboard-options=grp:alt_shift_toggle
+	locales=ru_RU keyboard-layouts=us,ru keyboard-options=grp:alt_shift_toggle
 
 Like Windows you press Alt+Shift to toggle between Cyrillic and Latin keyboard layouts.
 
@@ -61,54 +65,29 @@ Like Windows you press Alt+Shift to toggle between Cyrillic and Latin keyboard l
 
 Search for your code under 'Binaries' of [browser locale packages](http://packages.qa.debian.org/i/iceweasel-l10n.html).
 
-# Chinese support example
+# Webconverger and [CJK](http://en.wikipedia.org/wiki/CJK) support
 
-At the [[boot]] menu, entering `live locales=zh_CN.UTF-8 keyboard-layouts=zh` as [this picture](http://www.flickr.com/photos/hendry/850230357) demonstrates, sets up Webconverger for the Chinese locale.
-
-<a href="http://www.flickr.com/photos/hendry/850230357/" title="Photo Sharing"><img src="http://farm2.static.flickr.com/1287/850230357_925f4a00c6_m.jpg" width="240" height="133" alt="Webconverger boot options for chinese support" /></a>
-
-Once booted in Chinese, or Japanese and Korean environments **CONTROL+SPACE** allows to switch between keyboard input modes via [scim](http://en.wikipedia.org/wiki/SCIM).
+Webconverger **can support** Chinese, Japanese and Korean, however it is
+disabled by default since the extra font and input packages bulk the download
+by ~50%.
 
 <a href="http://www.flickr.com/photos/hendry/850230371/" title="Photo Sharing"><img src="http://farm2.static.flickr.com/1391/850230371_4ecbd13113_m.jpg" width="240" height="180" alt="Webconverger portal in Chinese" /></a>
 
-Please give feedback about anything. If you don't like the font or see some other rendering problem, I am very interested to solve these problems.
+Once booted in Chinese, or Japanese and Korean environments **CONTROL+SPACE**
+allows to switch between keyboard input modes via
+[scim](http://en.wikipedia.org/wiki/SCIM).
 
-# How [CJK](http://en.wikipedia.org/wiki/CJK) support works
-
-* [Chinese](http://git.debian.org/?p=debian-live/config-webc.git;a=blob;f=webconverger/config/includes.chroot/etc/network/if-up.d/chinese)
-* [Japanese](http://git.debian.org/?p=debian-live/config-webc.git;a=blob;f=webconverger/config/includes.chroot/etc/network/if-up.d/japanese)
-* [Korean](http://git.debian.org/?p=debian-live/config-webc.git;a=blob;f=webconverger/config/includes.chroot/etc/network/if-up.d/korean)
-
-CJK support requires a bunch of extra fonts and complex logic for the input
-system.  Since most Webconverger users currently are Western, it seems a little
-unfair to bloat the image by 100M+ for locale support rarely used Asian input
-methods.
-
-So CJK is currently supported by downloading the locale support packages on
-startup from <http://cdn.debian.net/debian/> with a **if-up.d** hook.
-
-Currently this "on network ready" hook is a little fragile. Sometimes the
-network isn't quite 100% ready on a if-up.d hook. Please help identify issues
-by [[testing]] and [reporting bugs](http://groups.google.com/group/webc-users).
-Please do not be embarrassed by your English language skills, the list is very
-friendly!
-
-Ideally place an order for a [customised copy of
-Webconverger](http://webconverger.com/buy) with these CJK support packages in
-an image for you.
-
-Any suggestions to improve this locale support mechanism would be
-[[acknowledged|acknowledgements]].
+Are you a Korean, Chinese or Japanese user? Please place an order for a
+[customised copy of Webconverger](http://webconverger.com/buy) with these CJK
+support packages in an image for you.
 
 # Reference
 
-To look up the right codes, see:
+Webconverger support 236 different locales:
 
-[/usr/share/i18n/SUPPORTED](/locales.txt) on an Debian system
+	aa_DJ aa_ER aa_ET af_ZA am_ET an_ES ar_AE ar_BH ar_DZ ar_EG ar_IN ar_IQ ar_JO ar_KW ar_LB ar_LY ar_MA ar_OM ar_QA ar_SA ar_SD ar_SY ar_TN ar_YE as_IN ast_ES az_AZ be_BY ber_DZ ber_MA bg_BG bn_BD bn_IN bo_CN bo_IN br_FR bs_BA byn_ER ca_AD ca_ES ca_FR ca_IT crh_UA csb_PL cs_CZ cy_GB da_DK de_AT de_BE de_CH de_DE de_LI de_LU dv_MV dz_BT el_CY el_GR en_AG en_AU en_BW en_CA en_DK en_GB en_HK en_IE en_IN en_NG en_NZ en_PH en_SG en_US en_ZA en_ZW eo es_AR es_BO es_CL es_CO es_CR es_DO es_EC es_ES es_GT es_HN es_MX es_NI es_PA es_PE es_PR es_PY es_SV es_US es_UY es_VE et_EE eu_ES eu_FR fa_IR fi_FI fil_PH fo_FO fr_BE fr_CA fr_CH fr_FR fr_LU fur_IT fy_DE fy_NL ga_IE gd_GB gez_ER gez_ET gl_ES gu_IN gv_GB ha_NG he_IL hi_IN hne_IN hr_HR hsb_DE ht_HT hu_HU hy_AM ia id_ID ig_NG ik_CA is_IS it_CH it_IT iu_CA iw_IL ja_JP ka_GE kk_KZ kl_GL km_KH kn_IN ko_KR ks_IN ku_TR kw_GB ky_KG lg_UG li_BE li_NL lo_LA lt_LT lv_LV mai_IN mg_MG mi_NZ mk_MK ml_IN mn_MN mr_IN ms_MY mt_MT my_MM nb_NO nds_DE nds_NL ne_NP nl_AW nl_BE nl_NL nn_NO nr_ZA nso_ZA oc_FR om_ET om_KE or_IN pa_IN pap_AN pa_PK pl_PL ps_AF pt_BR pt_PT ro_RO ru_RU ru_UA rw_RW sa_IN sc_IT sd_IN se_NO shs_CA sid_ET si_LK sk_SK sl_SI so_DJ so_ET so_KE so_SO sq_AL sr_ME sr_RS ss_ZA st_ZA sv_FI sv_SE ta_IN te_IN tg_TJ th_TH ti_ER ti_ET tig_ER tk_TM tl_PH tn_ZA tr_CY tr_TR ts_ZA tt_RU ug_CN uk_UA ur_PK uz_UZ ve_ZA vi_VN wa_BE wo_SN xh_ZA yi_US yo_NG zh_CN zh_HK zh_SG zh_TW zu_ZA 
 
 Lookup your country's codes at [ISO 3166](http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#MM).
-
-See the [Debian live manual on the topic of languages](http://live.debian.net/manual/html/language.html).
 
 # Furthermore
 
