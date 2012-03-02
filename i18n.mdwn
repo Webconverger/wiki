@@ -1,8 +1,11 @@
 [[!meta title="Internationalization and localization"]]
 
-Webconverger has great support for worldwide language on boot. If you need to
-switch keyboard layouts, this is possible to configure using the `keyboard-layouts=`
-switch. See the Russian example.
+Webconverger has great support for worldwide languages and
+[[time_zones|cronjob]] on boot. If you need to switch keyboard layouts, this is
+possible to configure using the `keyboard-layouts=` switch. See the Russian
+example.
+
+By default Webconverger will boot into **American English**.
 
 In Webconverger's live [[boot]] menu, there are some requested [languages in the
 menu](https://github.com/Webconverger/Debian-Live-config/blob/master/webconverger/config/bootloaders/isolinux/live.cfg.in).
