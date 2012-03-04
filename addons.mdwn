@@ -1,16 +1,17 @@
-[[!meta title="Howto add an Addon"]]
+[[!meta title="Adding an Addon to Webconverger"]]
 
-With `about:addons` you should be able to see but not install Firefox exenstions.
+With `about:addons` you should be able to see but not install Firefox [extensions/addons](https://addons.mozilla.org).
 
 To install an extension you need to ensure the extension is correctly named as
-it's install.rdf name and id, in the build configuration:
+its `install.rdf` name and id, in [the build configuration](https://github.com/Webconverger/Debian-Live-config/tree/master/webconverger/config/includes.chroot/usr/lib/iceweasel/extensions):
 
 	x220:~/webc/Debian-Live-config/webconverger/config/includes.chroot/usr/lib/iceweasel/extensions$
 	drwxrwxr-x 4 hendry users 4.0K Mar  4 13:28 touchkeyboard
 	drwxrwxr-x 5 hendry users 4.0K Feb 17 15:06 webconverger
 	lrwxrwxrwx 1 hendry users   12 Feb 17 15:02 {ee11fa88-036b-4661-bb04-d436f86bc06a} -> webconverger
 
-Webconverger extension works, touchkeyboard doesn't.
+Webconverger extension works, the extension directory **touchkeyboard** doesn't
+because it's not correctly named like the [Webconverger extension](https://addons.mozilla.org/en-US/firefox/addon/webconverger/).
 
 	x220:~/webc/Debian-Live-config/webconverger/config/includes.chroot/usr/lib/iceweasel/extensions$
 	grep name touchkeyboard/install.rdf
@@ -25,7 +26,7 @@ Lets correct the name.
 	<em:id>fxkeyboard@zabreznik.net</em:id>
 	 <em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id>
 
-`fxkeyboard@zabreznik.net` is this case is the id, however it's usually an UUID.
+`fxkeyboard@zabreznik.net` in this case is the **id** we need to symlink, however it's usually an UUID.
 
 	x220:~/webc/Debian-Live-config/webconverger/config/includes.chroot/usr/lib/iceweasel/extensions$
 	ln -s FxKeyboard fxkeyboard@zabreznik.net
@@ -39,4 +40,4 @@ Lets correct the name.
 	lrwxrwxrwx 1 hendry users   12 Feb 17 15:02 {ee11fa88-036b-4661-bb04-d436f86bc06a} -> webconverger
 	lrwxrwxrwx 1 hendry users   11 Mar  4 15:15 fxkeyboard@zabreznik.net -> FxKeyboard
 
-Customised!
+FxKeyboard added!
