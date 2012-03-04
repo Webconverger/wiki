@@ -1,0 +1,42 @@
+[[!meta title="Howto add an Addon"]]
+
+With `about:addons` you should be able to see but not install Firefox exenstions.
+
+To install an extension you need to ensure the extension is correctly named as
+it's install.rdf name and id, in the build configuration:
+
+	x220:~/webc/Debian-Live-config/webconverger/config/includes.chroot/usr/lib/iceweasel/extensions$
+	drwxrwxr-x 4 hendry users 4.0K Mar  4 13:28 touchkeyboard
+	drwxrwxr-x 5 hendry users 4.0K Feb 17 15:06 webconverger
+	lrwxrwxrwx 1 hendry users   12 Feb 17 15:02 {ee11fa88-036b-4661-bb04-d436f86bc06a} -> webconverger
+
+Webconverger extension works, touchkeyboard doesn't.
+
+	x220:~/webc/Debian-Live-config/webconverger/config/includes.chroot/usr/lib/iceweasel/extensions$
+	grep name touchkeyboard/install.rdf
+	<em:name>FxKeyboard</em:name>
+	x220:~/webc/Debian-Live-config/webconverger/config/includes.chroot/usr/lib/iceweasel/extensions$
+	mv touchkeyboard FxKeyboard
+
+Lets correct the name.
+
+	x220:~/webc/Debian-Live-config/webconverger/config/includes.chroot/usr/lib/iceweasel/extensions$
+	grep id FxKeyboard/install.rdf
+	<em:id>fxkeyboard@zabreznik.net</em:id>
+	 <em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id>
+
+`fxkeyboard@zabreznik.net` is this case is the id, however it's usually an UUID.
+
+	x220:~/webc/Debian-Live-config/webconverger/config/includes.chroot/usr/lib/iceweasel/extensions$
+	ln -s FxKeyboard fxkeyboard@zabreznik.net
+	x220:~/webc/Debian-Live-config/webconverger/config/includes.chroot/usr/lib/iceweasel/extensions$
+	ll
+	total 16K
+	drwxrwxr-x 4 hendry users 4.0K Mar  4 15:15 .
+	drwxrwxr-x 3 hendry users 4.0K Feb 17 15:02 ..
+	drwxrwxr-x 4 hendry users 4.0K Mar  4 13:28 FxKeyboard
+	drwxrwxr-x 5 hendry users 4.0K Feb 17 15:06 webconverger
+	lrwxrwxrwx 1 hendry users   12 Feb 17 15:02 {ee11fa88-036b-4661-bb04-d436f86bc06a} -> webconverger
+	lrwxrwxrwx 1 hendry users   11 Mar  4 15:15 fxkeyboard@zabreznik.net -> FxKeyboard
+
+Customised!
