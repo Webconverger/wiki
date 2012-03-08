@@ -34,11 +34,11 @@ locales=de keyboard-layouts=de
 ### Spanish
 locales=es keyboard-layouts=es
 ### French
-locales=fr
+locales=fr keyboard-layouts=fr
 ### Polish
 locales=pl keyboard-layouts=pl
 ### Italian
-locales=it
+locales=it keyboard-layouts=it
 ### Japanese
 locales=ja_JP
 ### Korean
@@ -51,6 +51,8 @@ locales=nb_NO keyboard-layouts=no
 locales=nn_NO keyboard-layouts=no
 ### Hungarian
 locales=hu keyboard-layouts=hu
+### Swedish
+locales=sv keyboard-layouts=se
 ### Latvian
 locales=lv_LV keyboard-layouts=lv,ru,us keyboard-options=grp:switch,grp:alt_shift_toggle,grp_led:scroll
 ### Russian

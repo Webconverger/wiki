@@ -25,7 +25,7 @@ configured machine for development, hosted in Singapore.
 # webconverger.com
 
 webconverger.com hosted by [Dreamhost](http://www.dreamhost.com/r.cgi?104617)
-in California - 120USD (~75GBP) a year responsible for achives and serving
+in California - 120USD (~75GBP) a year responsible for archives and serving
 <http://webconverger.com>
 
 # uk.webconverger.com
