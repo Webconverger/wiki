@@ -63,7 +63,7 @@ If enabled (**noupdates** is omitted) [updates.sh](https://github.com/Webconverg
 
 ## update logging
 
-We are logging script output to <http://log.webconverger.com>
+We are logging script output with <https://github.com/Webconverger/logs>
 
 We will make it so that only we can see the logs atm, however to be clear for [[privacy]], these logs will not contain any identifying or personal information.
 
