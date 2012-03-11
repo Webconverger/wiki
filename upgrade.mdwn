@@ -41,12 +41,14 @@ chroot** maintained publicly on github. Using git gives us several advantages:
 * We can easily check the integrity of the filesystem
 * Git is fast & efficient for upgrades
 
+## Fallback process
+
 1. The idea is once booting into A
-2. B is mounted in the background
-3. git pull is run, and lets assume there is an update
-4. extlinux on sda1 is updated to point to B
-5. On reboot, machine boots into updated chroot B
-6. Process repeats with A & B reversed
+1. B is mounted in the background
+1. git pull is run, and lets assume there is an update
+1. extlinux on sda1 is updated to point to B
+1. On reboot, machine boots into updated chroot B
+1. Process repeats with A & B reversed
 
 If the first step fails, i.e. freshly updated B fails to connect to the
 $HOMEPAGE after a period of time, we are developing some logic where it
@@ -59,7 +61,7 @@ If enabled (**noupdates** is omitted) `updates.sh` is a simple and powerful mech
 * run **signed** shell code as root as the machine boots (this should not be normally needed for _Community_ uses, however it will be enabled until we are happy with the install)
 * setup the machine with a [custom configuration](http://webconverger.com/buy), for paying users we plan to use the mechanism to maintain their configuration
 
-## update Logging
+## update logging
 
 We are logging script output to <http://log.webconverger.com>
 
