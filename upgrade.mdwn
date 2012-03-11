@@ -1,8 +1,80 @@
-* _defunct_ [upgrade](http://git.debian.org/?p=debian-live/config-webc.git;a=blob;f=webconverger/config/includes.chroot/etc/network/if-up.d/apt-upgrade) [[boot]] option
+We are designing the upgrade mechanism for:
 
-# Future (proofing) stuff [[todo]]
+* Efficiency -- We use _next level_ technology [git](http://git-scm.com/) to manage the entire root filesystem (this is awesome btw)
+* Allow Webconverger Limited the [business to move to a subscription model](http://webconverger.org/blog/entry/Webconverger_11.2_release_notes/)
 
-Static builds of Firefox with [Courgette](http://dev.chromium.org/developers/design-documents/software-updates-courgette) ?
+We are super sensitive to your [[privacy]], yet initially we need to collect
+some more information from daily build testers to **ensure this technique
+works**.  Ultimately we want to share our approach here to make the "chroot on
+git" idea take hold amongst Linux distributions. Therefore the hope is as a
+[[developer|develop]] in the near future you can use our technology to point to
+your own curated chroot.
 
-* <https://wiki.mozilla.org/Software_Update> and <https://bugzilla.mozilla.org/show_bug.cgi?id=508636>
-* [Binary diffs](http://blog.chromium.org/2009/07/smaller-is-faster-and-safer-too.html)
+# Upgrade requires a hard drive install
+
+Webconverger's install makes many several assumptions and uses its own lightweight
+[install
+script](https://github.com/Webconverger/Debian-Live-config/blob/master/webconverger/config/includes.chroot/etc/webc/install-to-disk.sh)
+to install onto a writable `/dev/sda`. This typically is the first hard drive in your PC.
+
+WARNING: Installing Webconverger will irrevocably replace your hard drive contents.
+
+The install creates a structure like so:
+
+* sda1 for kernels and extlinux configuration (**boot** partition)
+* sda2 for swap
+* sda3 for **A** partition
+* sda4 for **B** partition
+
+## Known issues
+
+* No wireless on installs, until configured (see updates.sh)
+
+# How upgrades might work (ALPHA)
+
+sda3/sda4 is setup from the `filesystem.squashfs` on the install ISO and on a
+fresh install they should be exactly the same.
+
+They both contain a **.git/** directory pointing to the same **Webconverger
+chroot** maintained publicly on github. Using git gives us several advantages:
+
+* We can easily check the integrity of the filesystem
+* Git is fast & efficient for upgrades
+
+1. The idea is once booting into A
+2. B is mounted in the background
+3. git pull is run, and lets assume there is an update
+4. extlinux on sda1 is updated to point to B
+5. On reboot, machine boots into updated chroot B
+6. Process repeats with A & B reversed
+
+If the first step fails, i.e. freshly updated B fails to connect to the
+$HOMEPAGE after a period of time, we are developing some logic where it
+recovers and points to the last known good partition, A in this example.
+
+# [updates.sh](https://github.com/Webconverger/Debian-Live-config/blob/master/webconverger/config/includes.chroot/etc/webc/updates.sh) and configuration
+
+If enabled (**noupdates** is omitted) `updates.sh` is a simple and powerful mechanism to:
+
+* run **signed** shell code as root as the machine boots (this should not be normally needed for _Community_ uses, however it will be enabled until we are happy with the install)
+* setup the machine with a [custom configuration](http://webconverger.com/buy), for paying users we plan to use the mechanism to maintain their configuration
+
+## update Logging
+
+We are logging script output to <http://log.webconverger.com>
+
+We will make it so that only we can see the logs atm, however to be clear for [[privacy]], these logs will not contain any identifying or personal information.
+
+Currently we plan to use a machine UUID and MAC to track individual machines.
+
+# Your feedback and support is much appreciated
+
+We believe we are doing something new and exciting in the operating system space.
+Over the Web we are hoping to configure and update customers kiosk devices,
+optionally offering logging and management services.
+
+For the community we will provide an unconfigured secure stock Web kiosk with
+the default homepage without the `updates.sh` script that is reliably upto date
+and publicly accountable to its chroot on github.
+
+If we missed something please kindly let us know: <feedback2012@webconverger.com> Thank you!

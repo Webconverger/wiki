@@ -5,4 +5,4 @@
 * Excellent [[internationalization_and_localization|i18n]] support
 * Committed to user's [[privacy]]
 * (Long term) Universal commitment to all devices - Webconverger focuses on 486 builds which should run on any PC, new or old.
-* Zero maintenance - Automatic [[upgrades|upgrade]] -- this has not been achieved yet :(
+* Zero maintenance - Automatic [[upgrades|upgrade]]
