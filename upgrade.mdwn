@@ -1,14 +1,14 @@
 We are designing the upgrade mechanism for:
 
-* Efficiency -- We use _next level_ technology [git](http://git-scm.com/) to manage the entire root filesystem (this is awesome btw)
+* Efficiency - We use _next level_ technology [git](http://git-scm.com/) to manage the entire root filesystem (this is awesome btw)
 * Allow Webconverger Limited the [business to move to a subscription model](http://webconverger.org/blog/entry/Webconverger_11.2_release_notes/)
 
-We are super sensitive to your [[privacy]], yet initially we need to collect
-some more information from daily build testers to **ensure this technique
-works**.  Ultimately we want to share our approach here to make the "chroot on
-git" idea take hold amongst Linux distributions. Therefore the hope is as a
-[[developer|develop]] in the near future you can use our technology to point to
-your own curated chroot.
+We are super sensitive about your [[privacy]], yet initially we need to collect
+some more information from [daily build](http://build.webconverger.org/)
+testers to **ensure this technique works**.  Ultimately we want to share our
+approach here to make the "chroot on git" idea take hold amongst Linux
+distributions. Therefore the hope is as a [[developer|develop]] in the near
+future you can use our technology to point to your own curated chroot.
 
 # Upgrade requires a hard drive install
 
