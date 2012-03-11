@@ -10,7 +10,7 @@ approach here to make the "chroot on git" idea take hold amongst Linux
 distributions. Therefore the hope is as a [[developer|develop]] in the near
 future you can use our technology to point to your own curated chroot.
 
-# Upgrade requires a hard drive install
+# The upgrade features requires a hard drive install
 
 Webconverger's install makes many several assumptions and uses its own lightweight
 [install
@@ -26,9 +26,7 @@ The install creates a structure like so:
 * sda3 for **A** partition
 * sda4 for **B** partition
 
-## Known issues
-
-* No wireless on installs, until configured (see updates.sh)
+Known issues: No wireless setup on installs, until configured (see updates.sh)
 
 # How upgrades might work (ALPHA)
 
@@ -65,7 +63,8 @@ If enabled (**noupdates** is omitted) [updates.sh](https://github.com/Webconverg
 
 We are logging script output with <https://github.com/Webconverger/logs>
 
-We will make it so that only we can see the logs atm, however to be clear for [[privacy]], these logs will not contain any identifying or personal information.
+We will make it so that only Webconverger can see the logs atm, however to be
+clear for [[privacy]], these logs will not contain any personal information.
 
 Currently we plan to use a machine UUID and MAC to track individual machines.
 
