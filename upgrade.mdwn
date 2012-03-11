@@ -36,7 +36,7 @@ chroot** maintained publicly on github. Using git gives us several advantages:
 1. On boot, the initrd can check everything is clean and then apply the updates
 1. Previous state is recorded in a magic file
 1. Then it pivots into root
-1. In case the system does not fully boot up with the new changes, you would rather write some failure value into the magic file and then reboot
+1. In case the system does not fully boot up with the new changes, Webconverger would write some failure value into the magic file and then reboot
 1. This in turn should be checked by your initrd based upgrade check and if detected then your upgrader could also perform a rollback and checkout the previous update tag in order to make the system stable again
 
 # [updates.sh](https://github.com/Webconverger/Debian-Live-config/blob/master/webconverger/config/includes.chroot/etc/webc/updates.sh) and configuration
