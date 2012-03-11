@@ -32,20 +32,20 @@ The install creates a structure like so:
 
 # How upgrades might work (ALPHA)
 
-sda3/sda4 is setup from the `filesystem.squashfs` on the install ISO and on a
-fresh install they should be exactly the same.
+sda3/sda4 (A&B) are setup from the `filesystem.squashfs` on the install ISO
+and on a fresh install they should be exactly the same.
 
-They both contain a **.git/** directory pointing to the same **Webconverger
+A&B both contain a **.git/** directory pointing to the same **Webconverger
 chroot** maintained publicly on github. Using git gives us several advantages:
 
-* We can easily check the integrity of the filesystem
-* Git is fast & efficient for upgrades
+* We can easily check the integrity of the filesystem, good for [[security]]
+* Git is fast & efficient for upgrades, also good for [[security]]
 
 ## Fallback process
 
 1. The idea is once booting into A
 1. B is mounted in the background
-1. git pull is run, and lets assume there is an update
+1. git pull is run on B, and lets assume there is an update/upgrade
 1. extlinux on sda1 is updated to point to B
 1. On reboot, machine boots into updated chroot B
 1. Process repeats with A & B reversed
