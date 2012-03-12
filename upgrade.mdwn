@@ -14,7 +14,7 @@ future you can use our technology to point to your own curated chroot.
 
 Webconverger's install makes many several assumptions and uses its own lightweight
 [install
-script](https://github.com/Webconverger/Debian-Live-config/blob/master/webconverger/config/includes.chroot/etc/webc/install-to-disk.sh)
+script](https://github.com/Webconverger/webc/blob/master/etc/webc/install-to-disk.sh)
 to install onto a writable `/dev/sda`. This typically is the first hard drive in your PC.
 
 WARNING: Installing Webconverger will irrevocably replace your hard drive contents.
@@ -37,9 +37,9 @@ chroot** maintained publicly on github. Using git gives us several advantages:
 1. On boot, the initrd can check everything is clean and then apply the updates, `git checkout`
 1. In case the system does not fully boot up with the new changes, role back to the previously working state
 
-# [updates.sh](https://github.com/Webconverger/Debian-Live-config/blob/master/webconverger/config/includes.chroot/etc/webc/updates.sh) and configuration
+# [updates.sh](https://github.com/Webconverger/webc/blob/master/etc/webc/updates.sh) and configuration
 
-If enabled (**noupdates** is omitted) [updates.sh](https://github.com/Webconverger/Debian-Live-config/blob/master/webconverger/config/includes.chroot/etc/webc/updates.sh) is a simple and powerful mechanism to:
+If enabled (**noupdates** is omitted) [updates.sh](https://github.com/Webconverger/webc/blob/master/etc/webc/updates.sh) is a simple and powerful mechanism to:
 
 * run **signed** shell code as root as the machine boots (this should not be normally needed for _Community_ uses, however it will be enabled until we are happy with the install)
 * setup the machine with a [custom configuration](http://webconverger.com/buy), for paying users we plan to use the mechanism to maintain their configuration
@@ -60,7 +60,7 @@ Over the Web we are hoping to configure and update customers kiosk devices,
 optionally offering logging and management services.
 
 For the community we will provide an unconfigured secure stock Web kiosk with
-the default homepage without the [updates.sh](https://github.com/Webconverger/Debian-Live-config/blob/master/webconverger/config/includes.chroot/etc/webc/updates.sh) script that is reliably upto date
+the default homepage without the [updates.sh](https://github.com/Webconverger/webc/blob/master/etc/webc/updates.sh) script that is reliably upto date
 and publicly accountable to its chroot on github.
 
 If we missed something please kindly let us know: <feedback2012@webconverger.com> Thank you!
