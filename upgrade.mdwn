@@ -34,8 +34,8 @@ chroot** maintained publicly on github. Using git gives us several advantages:
 The idea is:
 
 1. Boot from the hard disk
-1. Write a flag to some magic file whenever the boot is successful, i.e. connects to $HOMEPAGE successfully or some other test
-1. Updates are fetched periodically, say every hour
+1. `git tag booted-$(date --rfc-3339=seconds | tr ' ' T)` if boot is successful, i.e. connects to $HOMEPAGE successfully or some other test (TBD!)
+1. Updates are fetched periodically, say every 8 hrs * some randomness ?
 1. On boot, the initrd can check everything is clean and then apply the updates, `git checkout`
 1. If the system does not fully boot up with the new changes, roll back to the previously working state
 
