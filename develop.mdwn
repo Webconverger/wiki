@@ -42,7 +42,7 @@ Unstable repository](http://packages.qa.debian.org/l/live-build.html).
 1. `git clone git://github.com/Webconverger/Debian-Live-config.git`
 1. `cd Debian-Live-config/webconverger/`
 1. Take a long good look at [auto/config](https://github.com/Webconverger/Debian-Live-config/blob/master/webconverger/auto/config)
-1. `make`
+1. `make live`
 
 These steps are formalised in the daily build process's [build.sh](https://github.com/Webconverger/dailybuild/blob/master/build.sh).
 
