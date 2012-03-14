@@ -57,12 +57,8 @@ Add `compose`.
 
 ### [Changing chrome](https://github.com/Webconverger/Debian-Live-config/blob/master/webconverger/config/includes.chroot/home/webc/iwchromeconfig.sh)
 
-NOTE: these boot switches do *NOT* bring the same level of polish as the
-individual Firefox extensions do in [[kiosk]] atm.
-
-* webcchrome=nosearch - disable search bar
-* webcchrome=noaddress - disable URL bar and search bar (webcnoaddressbar)
-* webcchrome=fullscreen - fullscreen
+* webcchrome=webcnoaddressbar - disable URL bar and search bar
+* webcchrome=webcfullscreen - fullscreen
 
 ### Changing [closeicon](https://github.com/Webconverger/Debian-Live-config/blob/master/webconverger/config/includes.chroot/home/webc/iwcloseconfig.sh)
 

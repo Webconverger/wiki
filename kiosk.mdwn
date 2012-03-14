@@ -1,9 +1,5 @@
 [[!meta title="Webconverger chrome UI options"]]
 
-Since Webconverger 11 you can **trial** these options from the [[boot]]
-command line. **webcchrome=** options aren't quite as polished as the
-individual extension/packages.
-
 # iceweasel-webconverger
 
 **Default** and most common. The XPI is available at
@@ -24,8 +20,6 @@ in URLs.
 
 <http://webconverger.com/xpis/webcnoaddressbar.xpi>
 
-[[boot]] option `webcchrome=noaddress`
-
 # iceweasel-webcfullscreen
 
 Customization option. For customers who want to do [Digital
@@ -37,8 +31,6 @@ pictures](http://www.subitophoto.net/slideshow/machupicchu/) somewhere.
 <http://webconverger.com/xpis/webcfullscreen.xpi>
 
 If you're concerned about the scroll bar, alter the **overflow** CSS element.
-
-[[boot]] option `webcchrome=fullscreen`
 
 # Source
 
