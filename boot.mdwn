@@ -1,9 +1,10 @@
 [[!meta title="Webconverger boot options"]]
 
-Webconverger adds a couple of extra boot parameters to [Debian Live's options](http://live.debian.net/gitweb?p=live-config.git;a=blob;f=manpages/en/live-config.7), such as homepage, wlan, http_proxy, compose, [[noblank|blanking]].
+Webconverger adds a couple of extra boot parameters to [Debian Live's
+options](http://live.debian.net/gitweb?p=live-config.git;a=blob;f=manpages/en/live-config.7),
+such as homepage, wlan, http_proxy, compose, [[noblank|blanking]].
 
 # A guide to editing the boot parameter
-
 
 <a href="http://www.flickr.com/photos/hendry/4261594781/" title="Adding wireless arguments to Webconverger 6.0 by Kai Hendry, on Flickr"><img src="http://farm5.static.flickr.com/4065/4261594781_1dc14e7dde_m.jpg" width="240" height="180" alt="Adding wireless arguments to Webconverger 6.0" /></a>
 
@@ -12,10 +13,7 @@ Editing the `/proc/cmdline` can be done by hitting TAB on the boot screen.
 <a href="http://www.flickr.com/photos/hendry/2366474295/" title="French support added to USB boot by Kai Hendry, on Flickr"><img src="http://farm3.static.flickr.com/2110/2366474295_c089249bd5_m.jpg" width="240" height="180" alt="French support added to USB boot" /></a>
 
 When the syslinux boot loader initially loads, you'll have a few seconds to
-type in something at the boot: prompt. For example to get boot with [[i18n]]
-French support simply append `locales=fr`.
-
-Please see [[develop]] to make persistent changes.
+cancel the count down, and edit to boot command line.
 
 ### Your own homepage
 
@@ -55,14 +53,14 @@ Terminal. =)
 
 Add `compose`.
 
-### [Changing chrome](https://github.com/Webconverger/Debian-Live-config/blob/master/webconverger/config/includes.chroot/home/webc/iwchromeconfig.sh)
+### Changing [[browser_chrome|kiosk]]
 
-* webcchrome=webcnoaddressbar - disable URL bar and search bar
-* webcchrome=webcfullscreen - fullscreen
+* chrome=webcnoaddressbar - disable URL bar and search bar, good for [[controlled_access_setups|filtering]]
+* chrome=webcfullscreen - fullscreen
 
 ### Changing [closeicon](https://github.com/Webconverger/Debian-Live-config/blob/master/webconverger/config/includes.chroot/home/webc/iwcloseconfig.sh)
 
-This a bit nitpicky, but here goes:
+This a bit nitpicky and maybe dropped from the API, but here goes:
 
 * closeicon=active - Close button only on the active tab, except when there is only one tab
 * closeicon=activefix - Close button only on the active tab, including the last tab
