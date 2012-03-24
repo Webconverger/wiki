@@ -1,0 +1,27 @@
+# /etc/init.d/webconverger
+
+Only for persistent installs. This typically holds values related to network setup.
+
+* wireless
+* proxy
+
+Logged in /var/log/bootlog
+
+# /etc/webc/live-config.sh
+
+These are items that need to be run as root.
+
+This is not the place where things can be run as the user.
+
+The logs to logs() in /etc/webc/webc.conf
+
+	logs ()
+	{
+	logger -t $0 -p daemon.info "$@"
+	}
+
+# /home/webc/.xinitrc
+
+These are items that can run as the webc user
+
+Logged in /home/webc/.xerrors
