@@ -33,9 +33,9 @@ Could be expanded to
 
 	homepage=http://webconverger.com/?mac=08:11:96:ae:2d:3c
 
-### Use Webconverger in German, see [[i18n]] for more localisations
+### Use Webconverger in a different language to English
 
-append `locales=de` to setup locale and also append `keyboard-layouts=de` to setup the keyboard
+Please refer to [[i18n]]
 
 ### Specify a HTTP proxy at 192.168.1.5 with port 8888
 
@@ -48,10 +48,6 @@ remove `noroot`
 Once Webconverger is booted, the [dwm window
 manager](http://dwm.suckless.org/tutorial) defaults to shift+alt+enter for a
 Terminal. =)
-
-### To enable the Compose key
-
-Add `compose`.
 
 ### Changing [[browser_chrome|kiosk]]
 
