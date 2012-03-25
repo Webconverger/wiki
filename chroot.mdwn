@@ -1,6 +1,6 @@
 <a href="http://www.flickr.com/photos/hendry/6866760292/" title="Xephyr chroot by Kai Hendry, on Flickr"><img src="http://farm7.staticflickr.com/6035/6866760292_f85151bc5b.jpg" width="500" height="281" alt="Xephyr chroot"></a>
 
-# Developing without `make chroot`
+# Developing without building an ISO
 
 GOAL: make development iterations faster.
 
