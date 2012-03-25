@@ -1,4 +1,4 @@
-# /etc/init.d/webconverger
+# <https://github.com/Webconverger/webc/tree/master/etc/init.d/webconverger>
 
 Only for persistent installs. This typically holds values related to network setup.
 
@@ -7,7 +7,7 @@ Only for persistent installs. This typically holds values related to network set
 
 Logged in /var/log/bootlog
 
-# /etc/webc/live-config.sh
+# <https://github.com/Webconverger/webc/tree/master/etc/webc/live-config.sh>
 
 These are items that need to be run as root.
 
@@ -20,8 +20,11 @@ The logs to logs() in /etc/webc/webc.conf
 	logger -t $0 -p daemon.info "$@"
 	}
 
-# /home/webc/.xinitrc
+# <https://github.com/Webconverger/webc/tree/master/home/webc/.xinitrc>
 
 These are items that can run as the webc user
 
 Logged in /home/webc/.xerrors
+
+Note that only the bottom loop runs between browser sessions. For settings to
+take effect, it's best to reboot the machine.
