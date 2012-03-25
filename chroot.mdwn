@@ -1,0 +1,53 @@
+<a href="http://www.flickr.com/photos/hendry/6866760292/" title="Xephyr chroot by Kai Hendry, on Flickr"><img src="http://farm7.staticflickr.com/6035/6866760292_f85151bc5b.jpg" width="500" height="281" alt="Xephyr chroot"></a>
+
+# Developing without `make chroot`
+
+GOAL: make development iterations faster.
+
+Clone the repo <https://github.com/Webconverger/webc>
+
+Save the following script as `chroot.sh`
+
+	chroot=webc
+	mount -o bind /sys $chroot/sys
+	mount -o bind /proc $chroot/proc
+	mount -o bind /dev $chroot/dev # urandom et al
+	mount -o bind /tmp $chroot/tmp # socket communication
+	chroot $chroot
+	umount $chroot/sys
+	umount $chroot/proc
+	umount $chroot/dev
+	umount $chroot/tmp
+
+On the host, run:
+
+	Xephyr -ac :1
+
+Now `sudo ./chroot.sh`
+
+# Sanity check
+
+	export DISPLAY=:1
+
+As root, run `dwm`. And ctrl+c
+
+Running `xterm` will not work due to /dev/pts not being correctly populated. Not sure how to fix this.
+
+	Reason: get_pty: not enough ptys
+
+# Booting webc
+
+	export DISPLAY=:1
+
+Might need to create the webc user first.
+
+	cd /home/webc
+	./.xinitrc
+
+You might want to remove the trap from `.xinitrc` to make debugging easier.
+
+# Potential gotchas
+
+All sorts of wierd pollution can happen since you share /sys, /proc, /tmp and /dev
+
+When you exit the chroot, scripts are still left running in the chroot, see [[startup]] for potential culprits.
