@@ -6,16 +6,14 @@ values](http://stackoverflow.com/questions/993452/splitting-proc-cmdline-argumen
 need to be `encodeURI` in order not be considered keys themselves. For
 developers, [[startup]] might better explain how these are used.
 
-There are two ways to start using the API:
-
-1. by hitting TAB on the boot screen.
+There are two ways to start using the API, firstly by hitting TAB on the boot screen.
 
 <img src="/img/webc-boot.png" alt="Syslinux boot menu, press TAB" />
 
-2. By using the configuration service form which you need to take a
-subscription out with Webconverger. The service presents the various options
-below in a friendly Web form on boot, with added persistency so your values are
-retained between boots once subscribed.
+Or by using the [configuration service](http://config.webconverger.com/) form
+which you need to take a subscription out with Webconverger. The service
+presents the various options below in a friendly Web form on boot, with added
+persistency so your values are retained between boots once subscribed.
 
 ### Your own homepage
 
@@ -33,13 +31,13 @@ Some customers want a way of tracking which kiosks are logging in. These is best
 
 Could be expanded to
 
-	homepage=http://webconverger.com/?mac=08:11:96:ae:2d:3c
+	homepage=http://webconverger.com/?mac=081196ae2d3c
 
 ### Use Webconverger in a different language to English
 
 Please refer to [[i18n]]
 
-### How to change the branding?
+### How to change the Webconverger branding?
 
 Please see [[artwork]]
 
@@ -88,9 +86,5 @@ This a bit nitpicky and maybe dropped from the API, but here goes:
 Although wired connections are preferred, Webconverger does have
 comprehensive [[support_for_wireless_devices|wireless]] and
 [[blog/entry/USB_tethering]].
-
-### Force a (lower) screen resolution of 640x480
-
-append `xorg-resolution=640x480`
 
 ### Want more? See [[develop]] and [[features]]
