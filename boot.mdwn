@@ -37,6 +37,10 @@ Could be expanded to
 
 Please refer to [[i18n]]
 
+### How to change the branding?
+
+Please see [[artwork]]
+
 ### Specify a HTTP proxy at 192.168.1.5 with port 8888
 
 append `http_proxy=http://192.168.1.5:8888`

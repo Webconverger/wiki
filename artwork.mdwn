@@ -1,20 +1,14 @@
 **Boot artwork** is **not** customisable.
 
-# The X windows centered background image on a white background
+From Webconverger 12 the background image on a white background seen between
+browser restarts can be customised by:
 
-`noxbg` [[boot]] option makes the X bootup screen blank.
+1. Passing for example `bgurl=http://hendry.iki.fi/bg.png` at the syslinux boot menu
+2. By specifying your background image URL in the customisation form and purchasing a subscription
 
-Otherwise the background logo is retrieved from $HOMEPAGE/bg.png
+Using option 2 is the most convenient, as this ensures you have you background set every boot.
 
-Users see the artwork set in the the X background when the Web browser is reset
-and re-initialising. Not when Webconverger boots the ISO image. In practice
-users should not see Webconverger boot from cold start.
 
-Therefore the artwork can only be seen between sessions. The amount of time
-this background is viewable depends on the speed of the computer. I.e. how long
-it takes to load the browser.
+Currently the background image URL is checked after every browser session, here is the relevant code:
 
-### Example
-
-So the default HOMEPAGE=http://webconverger.com/
-So [view the current background](http://webconverger.com/bg.png).
+<https://github.com/Webconverger/webc/blob/master/home/webc/.xinitrc#L84>
