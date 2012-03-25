@@ -8,7 +8,6 @@ Change the boot parameters as desired, following the instructions on
 <http://webconverger.org/develop>. Create the isohybrid using the `offset`
 option:
 
-
 	isohybrid -offset 1 custom.iso
 
 

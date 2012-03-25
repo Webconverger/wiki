@@ -45,9 +45,21 @@ Please see [[artwork]]
 
 append `http_proxy=http://192.168.1.5:8888`
 
-### DEBUG MODE
+### Rotate the screen and maybe drop a resolution?
 
-remove `noroot`
+Study the [xrandr manpage](http://manpages.debian.net/cgi-bin/man.cgi?query=xrandr) to create powerful commands to setup your screen.
+
+For example, append `xrandr=-o%20right%20-s%20800x600`
+
+Which equates to running `xrandr -o right -s 800x600` in DEBUG mode.
+
+To encode your options, use encodeURI from your browser console:
+
+	encodeURI("-o right -s 800x600")
+
+### DEBUG MODE for developers
+
+Append `debug`
 
 Once Webconverger is booted, the [dwm window
 manager](http://dwm.suckless.org/tutorial) defaults to shift+alt+enter for a

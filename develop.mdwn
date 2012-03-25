@@ -5,18 +5,17 @@
 * [[Core_concepts|design]]
 * [Webconverger Debian Live configuration](https://github.com/Webconverger/Debian-Live-config)
 * [Official Webconverger package repository](http://debian.webconverger.com)
-* [Webconverger git repositories](http://git.webconverger.org/)
 * [Webconverger daily builds](http://build.webconverger.org/) - [build script sources](http://git.webconverger.org/?p=build)
 * [[Webconverger_in_your_locale|i18n]]
 * [[Artwork]]
 * [[Firefox_extension_development|Kiosk]]
 * [Debian Live project](http://debian-live.alioth.debian.org/) and [Live helper packages](http://live.debian.net/)
-* [live-config lists the boot parameters](http://live.debian.net/gitweb?p=live-config.git;a=blob;f=manpages/en/live-config.7). Also see [[boot]].
 * [[Howto_hide_boot_menu|blog/entry/cmdline_lock_down]]
 * [[Howto_add_Java|Java]]
 * [[Customising_cronjob|cronjob]]
 * [[Using_PXEBOOT_for_deployment|pxeboot]]
 * Webconverger uses [Progress](http://progress-linux.org) (Artax) backports
+* How we plan to do [[upgrades_with_git|upgrade]] **HOT**
 
 If you are new to the project, **Welcome**! Please help by [[testing]]. Thank you!
 
@@ -25,15 +24,13 @@ href="http://src.webconverger.com/">opensource</a> (notable exceptions are
 non-free firmware and [[flash|adobe]]), but you <b>must</b> understand that the
 branding (logo and the name "Webconverger") are <b>proprietary</b>. Only
 Webconverger built images should display the logo and can be sold as
-"Webconverger".  </div>
+"Webconverger". Thank you.</div>
 
 ## Building on a Debian system:
 
 Building an image from scratch is usually only necessary if you need to
-customise the image's packages.
-
-You can use the [[guide|usb]] to persistently change [[boot]] options **without
-building**.
+customise the image's packages. The [[boot_API|boot]] should be sufficient for
+most of your needs.
 
 1. Download and install the **latest**
 [live-build](http://packages.qa.debian.org/l/live-build.html) from the [Debian
@@ -42,7 +39,7 @@ Unstable repository](http://packages.qa.debian.org/l/live-build.html).
 1. `git clone git://github.com/Webconverger/Debian-Live-config.git`
 1. `cd Debian-Live-config/webconverger/`
 1. Take a long good look at [auto/config](https://github.com/Webconverger/Debian-Live-config/blob/master/webconverger/auto/config)
-1. `make live`
+1. `make`
 
 These steps are formalised in the daily build process's [build.sh](https://github.com/Webconverger/dailybuild/blob/master/build.sh).
 
@@ -54,7 +51,7 @@ Check with the latest [daily build](http://build.webconverger.org/) logs. Compar
 
 ## Debugging mode with the built Webconverger image
 
-Debugging in Webconverger simply involves removing `noroot` from the [[boot]] options. The window manager is [dwm](http://dwm.suckless.org/tutorial).
+Debugging in Webconverger simply involves appending `debug` to the [[boot]] options. The window manager is [dwm](http://dwm.suckless.org/tutorial).
 
 ## Customising the ISO hybrid image
 
@@ -81,7 +78,5 @@ Finally:
 `isohybrid` comes from a recent version of [syslinux](http://packages.debian.org/unstable/syslinux-common)
 
 The [customisation service](http://webconverger.com/buy) remains if you are
-unable to perform these commands.  It's also difficult to edit the package
-listing, such as changing [[chrome|kiosk]] without the
-[service](http://webconverger.com/buy) still. For [[large_deployments|press]],
-please enquire with sales in how we can help you.
+unable to perform these commands or you simply just want a painless
+configuration service whilst support this project. 
