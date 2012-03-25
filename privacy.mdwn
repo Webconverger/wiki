@@ -1,7 +1,12 @@
 # Privacy policy
 
 Webconverger is designed to ensure users privacy and [[security]] whilst
-surfing the Web.
+surfing the Web, primarily by wiping the slate clean between sessions.
+Therefore public users of a Webconverger kiosks do not have to fear they are
+leaving any private data behind.
+
+Webconverger does not record your search history or collect any data of your
+surfing habits.
 
 Webconverger limited from version 7 collects an anonymous "ping" with the
 version number of webconverger-base.
@@ -12,9 +17,16 @@ version number of webconverger-base.
 This "ping" is used to determine how many users Webconverger has to warrant
 further investment. [Public usage statistics are available](http://ping.webconverger.org/)
 
+From Webconverger 12, by default (unless opted out by changing the homepage),
+we direct you to our configuration service. This configuration service can see
+your machine UUID and MAC address. We use these machine identifiers (not
+personally identifying), to track subscriptions  made with our [configuration
+service](http://config.webconverger.com)
+
 All *.webconverger.[com|org] sites have standard [Apache](http://apache.org/)
 logs, which will log when you visit that site. Logs are typically rotated
 (deleted) within a year. [Google Analytics](http://www.google.com/analytics/)
 are also enabled.
 
-If you are concerned about your privacy, use Webconverger.
+We try to make the privacy policy as clear as possible. If you have any
+questions please just ask.
