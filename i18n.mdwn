@@ -26,7 +26,7 @@ and convienant access to
 
 <https://github.com/Webconverger/webc/blob/master/home/webc/.xinitrc#L39> is how Webconverger parses and runs the option to `setxkbmap`.
 
-For existing Linux users, this is how to setup a British keyboard and query its settings:
+In [[debug_mode|boot]], this is how to setup a British keyboard and query its settings:
 
 	$ setxkbmap -layout gb
 	$ setxkbmap -query
