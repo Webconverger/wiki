@@ -1,17 +1,1 @@
-<a href="http://www.flickr.com/photos/hendry/5856210910/" title="Edit boot menu by Kai Hendry, on Flickr"><img src="http://farm6.static.flickr.com/5157/5856210910_e0e47fb5bb.jpg" width="500" height="375" alt="Edit boot menu"></a>
-
-You can edit the boot **cmdline** by pressing **TAB** on startup.
-
-# USB
-
-Please see [[usb]].
-
-# Customised versions
-
-These versions of Webconverger have the homepage fixed on
-[http://webconverger.com/](http://webconverger.com/) or the URL
-of your choice if you [paid for customisation](http://webconverger.com/buy).
-
-If you want to set your own Website, either
-[[build_Webconverger_yourself|develop]] or utilise the [Webconverger
-customization service](http://webconverger.com/buy).
+'[[!meta redir=boot]]

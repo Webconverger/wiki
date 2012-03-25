@@ -19,9 +19,9 @@ persistency so your values are retained between boots once subscribed.
 
 Edit `homepage=`
 
-See [[homepage]]
-
-you can enter several homepages, which open in several tabs, separate each address with `%20` e.g. `homepage=http://portal.webconverger.com/%20http://webconverger.com`
+You can enter several homepages, which will open in several tabs, separate each
+address with `%20` e.g.
+`homepage=http://portal.webconverger.com/%20http://webconverger.com`
 
 #### Homepage MACID query
 
