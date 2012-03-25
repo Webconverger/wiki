@@ -11,6 +11,19 @@ images](http://build.webconverger.org). Report bugs on
 
 Virtualbox is faster than Qemu.
 
+## Testing network failure
+
+<a href="http://www.flickr.com/photos/hendry/7013543725/" title="Right click Network Adaptors by Kai Hendry, on Flickr"><img src="http://farm8.staticflickr.com/7278/7013543725_109efd128c_m.jpg" width="240" height="240" alt="Right click Network Adaptors"></a>
+
+<a href="http://www.flickr.com/photos/hendry/7013543723/" title="Cable connected togglebox by Kai Hendry, on Flickr"><img src="http://farm8.staticflickr.com/7053/7013543723_1f0be8a9f7_m.jpg" width="240" height="166" alt="Cable connected togglebox"></a>
+
+You should test all the scenarios, for instance:
+
+1. Boot with network
+2. Boot with network and later become disconnected (Cable connected toggled off)
+3. Boot without network (Cable connected toggled off)
+4. Boot without network and click Cable connected toggle to come back online
+
 # [Qemu](http://wiki.qemu.org)
 
 <a href="http://www.flickr.com/photos/hendry/6508721087/" title="qemu kvm running Webconverger debug mode by Kai Hendry, on Flickr"><img src="http://farm8.staticflickr.com/7162/6508721087_e782798e46.jpg" width="500" height="281" alt="qemu kvm running Webconverger debug mode"></a>
