@@ -1,19 +1,10 @@
+Please consider deploying Webconverger on a [[usb]] stick instead!
+
 # Howto burn the ISO CD image to a blank CD in Windows
 
-   1. Download the latest version of Webconverger by clicking the [webconverger.iso](http://download.webconverger.com) link and save to disk.
-   2. [Install isorecorder](http://isorecorder.alexfeinman.com/isorecorder.htm)
-   3. Pop in a blank CD-R (80min) into the CD writer
-   4. Right click on the downloaded webconverger.iso file and select Copy image to CD
-   5. Complete the wizard and boot any PC with the new Webconverger CD
-   6. Enjoy safely surfing the Web with Webconverger!
-
-
-# Debugging in Linux
-
-How to inspect an ISO:
-
-	sudo mount -o loop /tmp/webconverger.2009-09-13.5.5-iso.iso /mnt/live/
-
-Though you can't save the changes you make to `isolinux/live.cfg` ! That is why
-the [customisation service](http://webconverger.com/buy) exists and that is why you should use the [[USB]]
-version instead.
+1. Download the latest version of Webconverger by clicking the [webconverger.iso](http://download.webconverger.com) link and save to disk.
+2. [Install isorecorder](http://isorecorder.alexfeinman.com/isorecorder.htm)
+3. Pop in a blank CD-R (80min) into the CD writer
+4. Right click on the downloaded webconverger.iso file and select Copy image to CD
+5. Complete the wizard and boot any PC with the new Webconverger CD
+6. Enjoy safely surfing the Web with Webconverger!
