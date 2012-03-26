@@ -32,7 +32,7 @@ is so awkward!
 * [[Acknowledgements]] - thanks everyone for your MIT licensed contributions!
 * [[Notes_on_Networking|Networking]]
 * [[Testing_Webconverger|Testing]] - please join the Quality Assurance(QA) effort
-* [[Content_filtering|Filtering]] and white listing are possible
+* [[Content_filtering|Filtering]] is achieved by simply disabling the address bar
 
 # Download Webconverger
 
@@ -41,20 +41,26 @@ is so awkward!
 
 # Hardware
 
-Webconverger works with **almost any standard x86 hardware** that meets
+Webconverger works with **almost any standard x86 PC hardware** that meets
 [Firefox's minimum
 requirements](http://www.mozilla.com/en-US/firefox/system-requirements.html).
 
-# Customisation
+# Customisation BETA
 
-Every sale helps us to improve the open source software that Webconverger is based upon.
+<http://webconverger.com> is a UK registered company that powers this project.
+The money generated through customisations is the fuel.
 
-* [Purchase customisation and support](http://webconverger.com/buy/)
-* [Purchase FAQ](http://webconverger.com/faq/)
-* [[What_people_are_saying_about_Webconverger|Press]]
+In the past there were bepoke customisations where an ISO was generated and the
+turnaround was a day or two.
+
+Now there is a [new BETA customisation
+service](http://config.webconverger.com). From version 12, a downloaded
+Webconverger should boot into this service and allow customers an easy user
+experience to setup and subscribe.
 
 # Reasons for using Webconverger
 
+* [[What_people_are_saying_about_Webconverger|press]]
 * [[Ideal_just_for_Web_applications]]
 * [[Free_&_open_software]]
 * [[Low_requirements|Requirements]] - can run on old/cheap hardware and can be ported to run on embedded devices

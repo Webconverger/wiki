@@ -1,5 +1,6 @@
 # Wireless
 
+
 ## New method >= Webconverger 12
 
 The new method [directly maps wpa](https://github.com/Webconverger/Debian-Live-config/blob/master/webconverger/config/includes.chroot/etc/init.d/webconverger#L72) [[boot]] configuration names onto [wpasupplicant for
@@ -80,4 +81,3 @@ Also the blog entry on this topic: [[blog/entry/Better_Routing_wanted]]
 Recommended firmware:
 
 * [OpenWRT](https://openwrt.org)
-* [dd-wrt](http://www.dd-wrt.com)

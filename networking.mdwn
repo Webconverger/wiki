@@ -1,17 +1,17 @@
 Ideally Webconverger **should** be deployed in a **wired network** with a
 **DHCP server**, instead of a potentially unstable [[wireless]] connection.
 
-Webconverger's [network/interfaces](https://github.com/Webconverger/Debian-Live-config/blob/master/webconverger/config/includes.chroot/etc/network/interfaces):
+Webconverger's default  [network/interfaces](https://github.com/Webconverger/webc/blob/master/etc/network/interfaces)
 
 * Allows hotplug of wired interfaces including [[USB_dongles|blog/entry/USB_tethering]]
 * Configures a firewall with this [iptables configuration](https://github.com/Webconverger/Debian-Live-config/blob/master/webconverger/config/includes.chroot/etc/iptables.conf)
 
-Please see [[wireless]] for further information.
+Please also see [[wireless]] and [[testing]].
 
 # Example of a static configuration customisation
 
 If deployments are frankly too silly not to use DHCP, you can configure static
-IPs by configuring `webconverger/config/includes.chroot/etc/network/interfaces`
+IPs by configuring `/etc/network/interfaces`
 like so:
 
 	iface eth0 inet static
@@ -21,5 +21,5 @@ like so:
 
 And the DNS:
 
-	cat webconverger/config/includes.chroot/etc/resolv.conf
+	cat `/etc/resolv.conf
 	nameserver 10.100.7.253
