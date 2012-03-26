@@ -29,4 +29,4 @@ logs, which will log when you visit that site. Logs are typically rotated
 are also enabled on some of the sites.
 
 We try to make the privacy policy as clear as possible. If you have any
-questions please ask.
+questions please ask privacy AT webconverger.com.
