@@ -5,7 +5,7 @@
 """]]
 
 * Just as fast as a hard drive in many cases
-* Does not touch any existing disks on your computer, so great for trialling
+* Does not touch any existing disks on your computer when it boots so it's great for trialling. Remove thumb drive and the machine is back to how it was before.
 * USB boot works generally works with computers made since 2004
 
 Almost any cheap generic USB stick greater than 0.5G should be fine.
