@@ -22,7 +22,7 @@ representing letter like sdb, sdc etc.).
 You might find specifying the additional argument `bs=1M` makes it faster.
 
 * Just as fast as a hard drive in many cases
-* USB boot works generally only with newer computers (since 2004)
+* USB boot works generally only with computers since 2004
 
 Almost any cheap generic USB stick should be fine.
 
@@ -33,13 +33,16 @@ exercising your consumer choice, however this isn't straightforward as
 practically every peice of software preloaded into a PC (the BIOS) is
 different!
 
-Different machines have different ways of **Entering the BIOS boot menu**.  It
-can be [Del], [Esc], [F2] [F8] or [F12] key.
+There are different keys of **Entering the BIOS boot menu** depending on the
+BIOS, it could be [Del], [Esc], [F2], [F8] or [F12] key. The BIOS usually
+flashes which key option that allows you to access the BIOS setup for the
+briefest of moments as you turn your computer on.
 
-Then once you are in the BIOS menu, you need to find the boot menu and bubble
-up the USB disk where you copied Webconverger upon.
+Once you are in the BIOS menu, you need to find the boot menu and bubble up the
+USB disk where you copied Webconverger upon. Then Save & Exit, to boot
+Webconverger.
 
-<a href="http://www.flickr.com/photos/hendry/6869935304/" title="Untitled by Kai Hendry, on Flickr"><img src="http://farm8.staticflickr.com/7247/6869935304_610027e95b.jpg" width="500" height="375" alt=""></a>
+<a href="http://www.flickr.com/photos/hendry/6869935304/" title="Adjusting boot order on a American megatrends BIOS"><img src="http://farm8.staticflickr.com/7247/6869935304_610027e95b.jpg" width="500" height="375" alt=""></a>
 
 If you managed to configure your BIOS, please post pictures using the [webcboot
 tag](http://www.flickr.com/photos/tags/webcboot/). Thank you!
