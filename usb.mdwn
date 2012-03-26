@@ -1,8 +1,14 @@
-[[!meta title="Preparing a USB stick with Webconverger"]]
+[[!meta title="Preparing a USB stick to boot Webconverger"]]
 
 [[!template id=note text="""
 <img src="http://webconverger/slides/02.jpg" alt="Booting Webconverger from a USB stick">
 """]]
+
+* Just as fast as a hard drive in many cases
+* Does not touch any existing disks on your computer, so great for trialling
+* USB boot works generally only with computers since 2004
+
+Almost any cheap generic USB stick should be fine.
 
 # How to copy the ISO-hybrid file to a USB stick using Microsoft Windows
 
@@ -11,6 +17,8 @@ imaging guide from
 Ubuntu](https://help.ubuntu.com/community/Installation/FromImgFiles#Windows) or
 from
 [ArchLinux](http://wiki.archlinux.org/index.php/Install_from_a_USB_flash_drive).
+
+The tool people use is called the [Win32 disk imager](https://launchpad.net/win32-image-writer)
 
 # How to copy the ISO-hybrid to a USB stick under Linux
 
@@ -21,12 +29,14 @@ representing letter like sdb, sdc etc.).
 
 You might find specifying the additional argument `bs=1M` makes it faster.
 
-* Just as fast as a hard drive in many cases
-* USB boot works generally only with computers since 2004
+# From MacOSX
 
-Almost any cheap generic USB stick should be fine.
+Please follow the [Ubuntu MacOSX imaging
+guide](https://help.ubuntu.com/community/Installation/FromImgFiles#Mac_OS_X)
+but your case the ".img file" looks something like webc-12.0.iso in your
+Downloads directory.
 
-# Configuring your machine to boot the USB key instead of your hard drive
+# Configuring your PC to boot the USB key instead of your hard drive
 
 Please don't be daunted by adjusting the boot order of your machine. You are
 exercising your consumer choice, however this isn't straightforward as
