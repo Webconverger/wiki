@@ -8,7 +8,7 @@
 * Does not touch any existing disks on your computer, so great for trialling
 * USB boot works generally works with computers made since 2004
 
-Almost any cheap generic USB stick should be fine.
+Almost any cheap generic USB stick greater than 0.5G should be fine.
 
 # How to copy the ISO-hybrid file to a USB stick using Microsoft Windows
 
@@ -40,7 +40,7 @@ Downloads directory.
 
 Please don't be daunted by adjusting the boot order of your machine. You are
 exercising your consumer choice, however this isn't straightforward as
-practically every peice of software preloaded into a PC (the BIOS) is
+practically every software preloaded into a PC (the BIOS) is
 different!
 
 There are different keys of entering the BIOS boot menu depending on the BIOS,
