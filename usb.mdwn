@@ -15,21 +15,31 @@ from
 # How to copy the ISO-hybrid to a USB stick under Linux
 
 `dmesg` or `fdisk -l` will list your inserted USB drive - usually /dev/sdx ("x"
-representing letter like sdb, sdc etc.), double check with `dmesg`.
+representing letter like sdb, sdc etc.).
 
 	sudo dd if=webc-12.0.iso of=/dev/sdx
 
-Detailed description on [Debian wiki](http://wiki.debian.org/DebianLive/Howto/USB).
+You might find specifying the additional argument `bs=1M` makes it faster.
 
 * Just as fast as a hard drive in many cases
 * USB boot works generally only with newer computers (since 2004)
 
-Almost any cheap generic USB stick should be fine. Feel free to use the usb
-image also with embedded boards and Compact Flash cards (they behave like
-/dev/hda usually).
+Almost any cheap generic USB stick should be fine.
 
-# Booting your USB stick
+# Configuring your machine to boot the USB key instead of your hard drive
 
-Different machines have different ways of **Entering the BIOS boot menu**.
-However it's usually the [Esc], [F8] or [F12] key or at least configurable in
-the BIOS menu.
+Please don't be daunted by adjusting the boot order of your machine. You are
+exercising your consumer choice, however this isn't straightforward as
+practically every peice of software preloaded into a PC (the BIOS) is
+different!
+
+Different machines have different ways of **Entering the BIOS boot menu**.  It
+can be [Del], [Esc], [F2] [F8] or [F12] key.
+
+Then once you are in the BIOS menu, you need to find the boot menu and bubble
+up the USB disk where you copied Webconverger upon.
+
+<a href="http://www.flickr.com/photos/hendry/6869935304/" title="Untitled by Kai Hendry, on Flickr"><img src="http://farm8.staticflickr.com/7247/6869935304_610027e95b.jpg" width="500" height="375" alt=""></a>
+
+If you managed to configure your BIOS, please post pictures using the [webcboot
+tag](http://www.flickr.com/photos/tags/webcboot/). Thank you!
