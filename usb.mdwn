@@ -10,7 +10,7 @@
 
 Almost any cheap generic USB stick greater than 0.5G should be fine.
 
-# How to copy the ISO-hybrid file to a USB stick using Microsoft Windows
+# How to replace the contents of a USB stick with the Webconverger ISO-hybrid file using Microsoft Windows
 
 After [downloading](http://download.webconverger.com/), you can follow [the USB
 imaging guide from
