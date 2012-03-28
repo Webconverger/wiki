@@ -1,4 +1,4 @@
-<img src="/img/webc-12.0.png" alt="Webconverger 12.0 booted with default settings" />
+<img src="/img/webc-12.0.png" width=640 height=480 alt="Webconverger 12.0 booted with default settings" />
 
 Webconverger 12 is the biggest leap forward this project has ever made. Highlights:
 
