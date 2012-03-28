@@ -39,7 +39,7 @@ on Webconverger called [Neon](http://neon.webconverger.com/) that is on the
 be used at the [Olympic games](http://www.london2012.com/)! Open technologies
 FTW!
 
-# An operating system managed with <a href="http://en.wikipedia.org/wiki/Git_(software)">git</a>
+# A binary operating system in <a href="http://en.wikipedia.org/wiki/Git_(software)">git</a>
 
 We have now laid down the foundations for an operating system **entirely**
 managed in git. There is a lot more innovation to come in form of
