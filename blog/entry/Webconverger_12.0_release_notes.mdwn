@@ -11,7 +11,8 @@ Webconverger 12 is the biggest leap forward this project has ever made. Highligh
 * Much better network handling
 * Re-engineering of [[boot]] APIs like [[i18n]]
 * `kioskresetstation` works with [blanking](http://webconverger.org/blanking/)
-* Numerous bug fixes found on <https://github.com/Webconverger/>
+* Incredible amount of hard open sourced work documented on <https://github.com/Webconverger/>
+* [[12.0 package_changes|changes/11.2-12.0]]
 
 [Download from your closest mirror](http://download.webconverger.org) `43397697fcf1938c7631ede6959ecdd7  webc-12.0.iso`
 
