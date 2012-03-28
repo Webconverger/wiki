@@ -14,7 +14,7 @@ Webconverger 12 is the biggest leap forward this project has ever made. Highligh
 * Incredible amount of hard open sourced work documented on <https://github.com/Webconverger/>
 * [[12.0 package_changes|changes/11.2-12.0]]
 
-[Download from your closest mirror](http://download.webconverger.org) `43397697fcf1938c7631ede6959ecdd7  webc-12.0.iso`
+[Download from your closest mirror](http://download.webconverger.org) md5sum `43397697fcf1938c7631ede6959ecdd7  webc-12.0.iso`
 
 # New configuration service offering from Webconverger.com
 
@@ -29,9 +29,6 @@ on this Live version.
 To give you an idea of how painless it is now to subscribe to the service,
 please see this [video on subscribing](http://vid.ly/7w2p7e) and how easy it is
 to [unsubscribe](http://vid.ly/0o5w5f).
-
-Please checkout out the [FAQ about why your company should please purchase a
-subscription](http://config.webconverger.com/faq/#what-does-a-subscription-buy-exactly).
 
 Last but not least, <http://webconverger.com> now has a signage product based
 on Webconverger called [Neon](http://neon.webconverger.com/) that is on the
