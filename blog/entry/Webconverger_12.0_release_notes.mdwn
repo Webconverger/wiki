@@ -5,9 +5,9 @@ Webconverger 12 is the biggest leap forward this project has ever made. Highligh
 * Operating system innovation, [entire operating system is now maintained under git](https://github.com/Webconverger/webc) (we believe this is a first!)
 * [New configuration and subscription service](http://config.webconverger.com/faq) at making it much easier to customise your kiosk
 * [New boot menu](http://webconverger.org/boot/), with the ability to boot in a selection of different locales
-* [Firefox 10 Extended Support Release](http://blog.mozilla.com/blog/2012/01/10/delivering-a-mozilla-firefox-extended-support-release)
+* [Firefox 10 Extended Support Release](http://blog.mozilla.com/blog/2012/01/10/delivering-a-mozilla-firefox-extended-support-release) [10.0.3](http://www.mozilla.org/en-US/firefox/10.0.3/releasenotes/) included
 * A new **about:** page that shows the running version of Webconverger
-* Even better browser lock down in <https://github.com/Webconverger/iceweasel-webconverger/> and no more search bar
+* For added security please upgrade since we now have better browser lock down in the [Webconverger Firefox extension](https://github.com/Webconverger/iceweasel-webconverger) and [no more search bar](https://groups.google.com/forum/#!topic/webc-users/T4WIo2F0gYg/discussion)
 * Much better network handling
 * Re-engineering of [[boot]] APIs like [[i18n]]
 * `kioskresetstation` works with [blanking](http://webconverger.org/blanking/)
