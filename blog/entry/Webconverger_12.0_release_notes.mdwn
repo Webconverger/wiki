@@ -45,7 +45,7 @@ We have now laid down the foundations for an operating system **entirely**
 managed in git. There is a lot more innovation to come in form of
 [[upgrades|upgrade]] and getting the size down of the ISO down.  So we really
 need your feedback and support in future rounds of [[testing]] hard drive
-installs since is this is new territory.
+installs since this is **new** territory.
 
 Special thanks to Patrick Haller, Jamie Kitson, Guttorm Flatabø, Ruth Chong and
 Paul Craig for your help, duly [[acknowledged|acknowledgements]].
