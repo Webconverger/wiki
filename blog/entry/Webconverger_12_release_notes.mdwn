@@ -1,0 +1,48 @@
+<img src="/img/webc-12.0.png" width=640 height=480 alt="Webconverger 12.0 booted with default settings" />
+
+Webconverger 12 is the biggest leap forward this project has ever made. Highlights:
+
+* Operating system innovation, [entire operating system is now maintained under git](https://github.com/Webconverger/webc) (we believe this is a first!)
+* [New configuration and subscription service](http://config.webconverger.com/faq) at making it much easier to customise your kiosk
+* [New boot menu](http://webconverger.org/boot/), with the ability to boot in a selection of different locales
+* [Firefox 10 Extended Support Release](http://blog.mozilla.com/blog/2012/01/10/delivering-a-mozilla-firefox-extended-support-release) [10.0.3](http://www.mozilla.org/en-US/firefox/10.0.3/releasenotes/) included
+* A new **about:** page that shows the running version of Webconverger
+* For added security please upgrade since we now have better browser lock down in the [Webconverger Firefox extension](https://github.com/Webconverger/iceweasel-webconverger) and [no more search bar](https://groups.google.com/forum/#!topic/webc-users/T4WIo2F0gYg/discussion)
+* Much better network handling
+* Re-engineering of [[boot]] APIs like [[i18n]]
+* `kioskresetstation` works with [blanking](http://webconverger.org/blanking/)
+* Incredible amount of hard open sourced work documented on <https://github.com/Webconverger/>
+* [[12.0 package_changes|changes/11.2-12.0]]
+
+[Download from your closest mirror](http://download.webconverger.org) md5sum `c802d1f31f5dd6013a9648172000c6c5  /srv/www/download.webconverger.org/webc-12.1.iso`
+
+# New configuration service offering from Webconverger.com
+
+As we [[announced_earlier|Webconverger_11.2_release_notes]] this replaces
+<http://webconverger.com/buy> customisation service which simply wasn't
+scalable. There is an extensive [FAQ](http://config.webconverger.com/faq/)
+describing the service, though the biggest caveat is that it only works on
+[wired network
+connections](http://config.webconverger.com/faq/#how-do-i-configure-my-wireless-connection)
+on this Live version.
+
+To give you an idea of how painless it is now to subscribe to the service,
+please see this [video on subscribing](http://vid.ly/7w2p7e) and how easy it is
+to [unsubscribe](http://vid.ly/0o5w5f).
+
+Last but not least, <http://webconverger.com> now has a signage product based
+on Webconverger called [Neon](http://neon.webconverger.com/) that is on the
+[streets of the London](http://neon.webconverger.com/case-study/) now and will
+be used at the [Olympic games](http://www.london2012.com/)! Open technologies
+FTW!
+
+# A binary operating system in <a href="http://en.wikipedia.org/wiki/Git_(software)">git</a>
+
+We have now laid down the foundations for an operating system **entirely**
+managed in git. There is a lot more innovation to come in form of
+[[upgrades|upgrade]] and getting the size down of the ISO down.  So we really
+need your feedback and support in future rounds of [[testing]] hard drive
+installs since this is **new** territory.
+
+Special thanks to Patrick Haller, Jamie Kitson, Guttorm Flatabø, Ruth Chong and
+Paul Craig for your help, duly [[acknowledged|acknowledgements]].
