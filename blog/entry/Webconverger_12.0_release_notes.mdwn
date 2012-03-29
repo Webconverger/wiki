@@ -14,7 +14,7 @@ Webconverger 12 is the biggest leap forward this project has ever made. Highligh
 * Incredible amount of hard open sourced work documented on <https://github.com/Webconverger/>
 * [[12.0 package_changes|changes/11.2-12.0]]
 
-[Download from your closest mirror](http://download.webconverger.org) md5sum `43397697fcf1938c7631ede6959ecdd7  webc-12.0.iso`
+[Download from your closest mirror](http://download.webconverger.org) md5sum `c802d1f31f5dd6013a9648172000c6c5  /srv/www/download.webconverger.org/webc-12.1.iso`
 
 # New configuration service offering from Webconverger.com
 
