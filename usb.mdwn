@@ -1,7 +1,7 @@
 [[!meta title="Preparing a USB stick to boot Webconverger"]]
 
 [[!template id=note text="""
-<img src="http://webconverger/slides/02.jpg" alt="Booting Webconverger from a USB stick">
+<img src="http://webconverger.com/slides/02.jpg" alt="Booting Webconverger from a USB stick">
 """]]
 
 * Just as fast as a hard drive in many cases
