@@ -1,53 +1,83 @@
-<a href="http://www.flickr.com/photos/hendry/6866760292/" title="Xephyr chroot by Kai Hendry, on Flickr"><img src="http://farm7.staticflickr.com/6035/6866760292_f85151bc5b.jpg" width="500" height="281" alt="Xephyr chroot"></a>
+[[!meta title="Making rootfs development iterations faster"]]
 
-# Developing without building an ISO
 
-GOAL: make development iterations faster.
+Webconverger relies on Debian Live to put the ISO together. For the reason and
+others, please create an Unstable <abbr title="Still in
+Development">sid</abbr>-chroot like so in `~/debian`:
 
-Clone the repo <https://github.com/Webconverger/webc>
+	sudo debootstrap sid sid-root http://cdn.debian.net/debian/
 
-Save the following script as `chroot.sh`
+In `~/debian/sid-root/root/` I have a copy of <https://github.com/Webconverger/Debian-Live-config>
 
-	chroot=webc
-	mount -o bind /sys $chroot/sys
-	mount -o bind /proc $chroot/proc
-	mount -o bind /dev $chroot/dev # urandom et al
-	mount -o bind /tmp $chroot/tmp # socket communication
-	chroot $chroot
-	umount $chroot/sys
-	umount $chroot/proc
-	umount $chroot/dev
-	umount $chroot/tmp
+	x220:~$ grep Live debian/sid-root/root/.git/config 
+	url = git@github.com:Webconverger/Debian-Live-config.git
 
-On the host, run:
+And then:
 
-	Xephyr -ac :1
+	x220:~$ cat debian/sid-root/root/webconverger/chroot/.git/config 
+	[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+	[remote "origin"]
+	fetch = +refs/heads/*:refs/remotes/origin/*
+	url = git://github.com/Webconverger/webc.git
 
-Now `sudo ./chroot.sh`
+	[remote "up"]
+	fetch = +refs/heads/*:refs/remotes/origin/*
+	url = git@github.com:/Webconverger/webc.git
 
-# Sanity check
+	[branch "master"]
+	remote = origin
+	merge = refs/heads/master
+	x220:~$ 
 
-	export DISPLAY=:1
+Having a seperate remote **up** allows you to pull from the **chroot** from the
+un-authenticated url <git://github.com/Webconverger/webc.git>
 
-As root, run `dwm`. And ctrl+c
+Next I've created a few silly aliases to help me navigate around that structure:
 
-Running `xterm` will not work due to /dev/pts not being correctly populated. Not sure how to fix this.
+	alias c="sudo chroot /home/hendry/debian/sid-root/root/webconverger
+	/chroot"
+	alias b="sudo chroot /home/hendry/debian/sid-root"
+	alias i="cd /home/hendry/debian/sid-root/root/webconverger"
+	up() {
+	cd ~/debian/sid-root/root/webconverger/chroot
+	git push up
+}
 
-	Reason: get_pty: not enough ptys
+# Work flow
 
-# Booting webc
+If you can think of optimisations, please let me know! Lets assume for example I'm tweaking
+<https://github.com/Webconverger/webc/blob/master/etc/webc/webc.conf>.
 
-	export DISPLAY=:1
+First I go, `c` which chroots me into [webc
+rootfs](https://github.com/Webconverger/webc/blob/master/etc/webc). I make an
+edit. And exit the terminal.
 
-Might need to create the webc user first.
+Then I go `b` to get into the Debian sid-chroot with [Debian Live build
+script](https://github.com/Webconverger/Debian-Live-config). I run `make` and
+builds the ISO.
 
-	cd /home/webc
-	./.xinitrc
+Once the ISO is built I launch [[Virtualbox|testing]] and test the ISO
+filename, which should be described by its **last committed** git log hash. So if
+you made a change you are testing and your rootfs is "dirty", the filename does
+not change.
 
-You might want to remove the trap from `.xinitrc` to make debugging easier.
+Assuming the edit does as intended, you then need to commit the change by
+logging into the chroot with `c` and commiting it. Feel free to setup your [git
+user and
+email](http://help.github.com/set-your-user-name-email-and-github-token/). Exit
+the terminal and now you need to push the change back as the host's system
+user.
 
-# Potential gotchas
+Execute `up` which pushes the change to github using the authenticated URL.
 
-All sorts of wierd pollution can happen since you share /sys, /proc, /tmp and /dev
+To kick off a build with your change, I have a script, which kicks off a build in my home directory:
 
-When you exit the chroot, scripts are still left running in the chroot, see [[startup]] for potential culprits.
+	hb() {
+	ssh hetty "cd ~/Debian-Live-config/webconverger; sudo make -f ~/Debian-Live-config/webconverger/Makefile deploy"
+	}
+
+After running it the newly committed hash should appear as a daily build ISO at <http://build.webconverger.org/>
