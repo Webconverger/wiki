@@ -7,6 +7,8 @@ Development">sid</abbr>-chroot like so in `~/debian`:
 
 	sudo debootstrap sid sid-root http://cdn.debian.net/debian/
 
+Then `apt-get install live-build` etcetera.
+
 In `~/debian/sid-root/root/` I have a copy of <https://github.com/Webconverger/Debian-Live-config>
 
 	x220:~$ grep Live debian/sid-root/root/.git/config 
