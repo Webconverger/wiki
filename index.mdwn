@@ -50,7 +50,7 @@ requirements](http://www.mozilla.com/en-US/firefox/system-requirements.html).
 <http://webconverger.com> is a UK registered company that powers this project.
 The money generated through customisations is the fuel.
 
-In the past there were bepoke customisations where an ISO was generated and the
+In the past there were bespoke customisations where an ISO was generated and the
 turnaround was a day or two.
 
 Now there is a [new BETA customisation
