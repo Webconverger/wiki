@@ -10,6 +10,9 @@
 
 Almost any cheap generic USB stick greater than 0.5G should be fine.
 
+Alternatively you can order a preloaded [Webconverger stick at
+OSDisc](http://www.osdisc.com/cgi-bin/view.cgi/products/linux/webconverger).
+
 # How to replace the contents of a USB stick with the Webconverger ISO-hybrid file using Microsoft Windows
 
 After [downloading](http://download.webconverger.com/), you can follow [the USB
