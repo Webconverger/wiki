@@ -1,4 +1,4 @@
-<img src="/img/webc-12.0.png" width=640 height=480 alt="Webconverger 12.0 booted with default settings" />
+<img src="/img/webc-12.0.png" width=640 height=480 alt="Webconverger 12 booted with default settings" />
 
 Webconverger 12 is the biggest leap forward this project has made to date. Highlights:
 
@@ -14,9 +14,11 @@ Webconverger 12 is the biggest leap forward this project has made to date. Highl
 * Incredible amount of hard open sourced work documented on <https://github.com/Webconverger/>
 * [[12.0 package_changes|changes/11.2-12.0]]
 
-Update: [12.1 hotfix for bug in configuration fetching loop](https://github.com/Webconverger/webc/commit/87e53fb7f19371bda106e96d55603279846bcb5a)
+Update: 
+* [12.1 hotfix for bug in configuration fetching loop](https://github.com/Webconverger/webc/commit/87e53fb7f19371bda106e96d55603279846bcb5a)
+* 12.2 Critical [Flash security update](http://www.adobe.com/support/security/bulletins/apsb12-07.html) and [other fixes](https://github.com/Webconverger/webc/commits/master)
 
-[Download from your closest mirror](http://download.webconverger.org) md5sum `c802d1f31f5dd6013a9648172000c6c5  webc-12.1.iso`
+[Download from your closest mirror](http://download.webconverger.org) md5sum `83c1addc980455898c69165d05d3d7b0  webc-12.2.iso`
 
 # New configuration service offering from Webconverger.com
 
