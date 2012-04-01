@@ -14,7 +14,8 @@ Webconverger 12 is the biggest leap forward this project has made to date. Highl
 * Incredible amount of hard open sourced work documented on <https://github.com/Webconverger/>
 * [[12.0 package_changes|changes/11.2-12.0]]
 
-Update: 
+Update:
+
 * [12.1 hotfix for bug in configuration fetching loop](https://github.com/Webconverger/webc/commit/87e53fb7f19371bda106e96d55603279846bcb5a)
 * 12.2 Critical [Flash security update](http://www.adobe.com/support/security/bulletins/apsb12-07.html) and [other fixes](https://github.com/Webconverger/webc/commits/master)
 
