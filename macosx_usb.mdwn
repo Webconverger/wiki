@@ -1,0 +1,41 @@
+[[!meta title="Putting Webconverger on a USB stick from a MACOSX to boot a PC"]]
+
+1. Download the desired file. In this case, for e.g. is named
+<http://download.webconverger.com/latest.iso>
+
+2. Open a Terminal (in /Applications/Utilities/)
+
+3. Run "diskutil list" to get the current list of devices
+
+4. Insert your flash media
+
+5. Run "diskutil list" again and determine the device node assigned to
+your flash media (e.g. /dev/disk2)
+
+6. Run "diskutil unmountDisk /dev/diskN" (replace N with the disk
+number from the last command; in the previous example, N would be 2)
+*note: this will wipe all information you have on the selected disk.
+So be very careful to note the correct device node assigned to your
+thumbdrive
+
+7. Execute "sudo dd if=/path/to/downloaded.img of=/dev/rdiskN bs=1m"
+(replace "/path/to/downloaded.img" with the path where the desired
+file is located).
+
+A path is where the desired file is stored on your computer. To find the path
+to the downloaded file, open Finder to locate the file, select the file and
+right click. Then select "Get Info." In the pop-out window, you should be able
+to see a field called "Where." It should look something like
+"/Users/NameofAccount/Downloads"
+
+So for example, what you should type into Terminal, where the desired
+file is webc-12.2.iso, and the device node assigned to
+your thumbdrive is 2:
+
+	sudo dd if=/Users/NameofAccount/Downloads/webc-12.2.iso of=/dev/rdisk2 bs=1m
+
+If you see the error dd: Invalid number `1m', you are using GNU dd.
+Use the same command but replace "bs=1m" with "bs=1M".
+
+8. Run "diskutil eject /dev/diskN" and remove your flash media when
+the command completes
