@@ -34,10 +34,7 @@ You might find specifying the additional argument `bs=1M` makes it faster.
 
 # From MacOSX
 
-Please follow the [Ubuntu MacOSX imaging
-guide](https://help.ubuntu.com/community/Installation/FromImgFiles#Mac_OS_X)
-but your case the ".img file" looks something like `webc-12.0.iso` in your
-Downloads directory.
+Please follow our [[MacOSX_guide_with_pictures|macosx_usb]]
 
 # Configuring your PC to boot the USB key instead of your hard drive
 

@@ -1,21 +1,23 @@
 [[!meta title="Webconverger on a USB stick from MACOSX to boot a PC"]]
 
+Accompanying [Flickr set](http://flic.kr/s/aHsjyN4KF5)
+
 1. Download the latest official Webconverger from
 <http://download.webconverger.com/latest.iso> The download file will be
-renamed to the latest ISO, at the time of writing webc-12.2.iso.
+renamed to the latest ISO, at the time of writing `webc-12.2.iso`.
 
-2. Open a Terminal (in /Applications/Utilities/)
+2. Open a Terminal in `/Applications/Utilities/`
 
 3. Run "diskutil list" to get the current list of devices
 
 4. Insert your flash media
 
-5. Run "diskutil list" again and determine the device node assigned to
+5. Run `diskutil list` again and determine the device node assigned to
 your flash media (e.g. /dev/disk4)
 
 6. Run "diskutil unmountDisk /dev/diskN" (replace N with the disk
 number from the last command; in the previous example, N would be 4)
-*Note**: this will wipe all information you have on the selected disk.
+**Note**: this will wipe all information you have on the selected disk.
 So be very careful to note the correct device node assigned to your
 thumbdrive
 
