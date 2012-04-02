@@ -8,20 +8,20 @@ renamed to the latest ISO, at the time of writing `webc-12.2.iso`.
 
 2. Open a Terminal in `/Applications/Utilities/`
 
-3. Run "diskutil list" to get the current list of devices
+3. Run `diskutil list` to get the current list of devices
 
 4. Insert your flash media
 
 5. Run `diskutil list` again and determine the device node assigned to
 your flash media (e.g. /dev/disk4)
 
-6. Run "diskutil unmountDisk /dev/diskN" (replace N with the disk
+6. Run `diskutil unmountDisk /dev/diskN` (replace N with the disk
 number from the last command; in the previous example, N would be 4)
 **Note**: this will wipe all information you have on the selected disk.
 So be very careful to note the correct device node assigned to your
 thumbdrive
 
-7. Execute "sudo dd if=/path/to/downloaded.img of=/dev/rdiskN bs=1m"
+7. Execute `sudo dd if=/path/to/downloaded.img of=/dev/rdiskN bs=1m`
 (replace "/path/to/downloaded.img" with the path where the desired
 file is located).
 
@@ -35,7 +35,7 @@ So for example, what you should type into Terminal, where the desired
 file is webc-12.2.iso, and the device node assigned to your thumbdrive
 is 4:
 
-sudo dd if=/Users/NameofAccount/Downloads/webc-12.2.iso of=/dev/rdisk4 bs=1m
+`sudo dd if=/Users/NameofAccount/Downloads/webc-12.2.iso of=/dev/rdisk4 bs=1m`
 If you see the error dd: Invalid number `1m', you are using GNU dd.
 Use the same command but replace "bs=1m" with "bs=1M".
 
@@ -46,5 +46,5 @@ be careful to type it correctly once and hit enter.
 While copying, Terminal does not show any progress bar and looks like
 it's doing nothing. Wait until it displays the transfer message.
 
-8. Run "diskutil eject /dev/diskN" and remove your flash media when
+Finally **step 8** Run `diskutil eject /dev/diskN` and remove your flash media when
 the command completes
