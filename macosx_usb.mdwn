@@ -1,4 +1,4 @@
-[[!meta title="Webconverger on a USB stick from MACOSX to boot a PC"]]
+[[!meta title="Howto put Webconverger on a USB stick from MACOSX"]]
 
 Accompanying [Flickr set](http://flic.kr/s/aHsjyN4KF5)
 
@@ -36,15 +36,13 @@ file is webc-12.2.iso, and the device node assigned to your thumbdrive
 is 4:
 
 `sudo dd if=/Users/NameofAccount/Downloads/webc-12.2.iso of=/dev/rdisk4 bs=1m`
-If you see the error dd: Invalid number `1m', you are using GNU dd.
-Use the same command but replace "bs=1m" with "bs=1M".
 
-Terminal may prompt you for an admin password if you have set one up.
-When you key in your password, it does not show up on the Terminal, so
-be careful to type it correctly once and hit enter.
+Terminal may prompt you for an admin password if you have set one up.  When you
+key in your password, it does not show up on the Terminal, so be careful to
+type it correctly once and hit enter.
 
 While copying, Terminal does not show any progress bar and looks like
 it's doing nothing. Wait until it displays the transfer message.
 
 Finally **step 8** Run `diskutil eject /dev/diskN` and remove your flash media when
-the command completes
+the command completes.
