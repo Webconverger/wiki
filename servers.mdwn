@@ -20,7 +20,8 @@ Hetty (88.198.64.227) is rented for the following functions:
 A [GPLHOST VPS package 4](https://dtc.node6503.gplhost.com/dtc/affiliation.php?affiliate=kaihendry&return=/hosting-vps.html) Debian
 configured machine for development, hosted in Singapore.
 
-30USD a month
+* 30USD a month
+* [Control panel](https://dtc.node6503.gplhost.com/dtc/)
 
 # webconverger.com
 
