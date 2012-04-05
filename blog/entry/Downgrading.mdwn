@@ -11,10 +11,9 @@ forget about them and wonder why things don't properly upgrade from there.
 
 Just imagine a downgrade is as simple as a `git revert`... well it is with Webconverger!
 
-Take this particular [issue
-#16](https://github.com/Webconverger/webc/issues/16) as an example. I performed
+Take this particular <a href="https://github.com/Webconverger/webc/issues/16">issue #16</a> as an example. I performed
 an upgrade which was found to be the cause of font rendering problems, which
-incidentally corresponded to Debian bug
+incidentally corresponded to [Debian bug
 666736](http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=666736). I simply
 reverted that particular change and now we are back on track for a new release
 with another
