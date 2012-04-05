@@ -1,4 +1,4 @@
-[[!meta title="Downgrading a OS with git"]]
+[[!meta title="Downgrading an OS with git"]]
 
 In a series where I hope to get you excited about the innovations Webconverger
 are doing, I'm going to profile what possibilities a [git maintained
