@@ -7,6 +7,8 @@ Development">sid</abbr>-chroot like so in `~/debian`:
 
 	sudo debootstrap sid sid-root http://cdn.debian.net/debian/
 
+[debootstrap](http://aur.archlinux.org/packages.php?ID=2970) in available in other Linux distros like Archlinux.
+
 Then `apt-get install live-build` etcetera.
 
 In `~/debian/sid-root/root/` I have a copy of <https://github.com/Webconverger/Debian-Live-config>

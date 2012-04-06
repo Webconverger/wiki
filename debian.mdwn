@@ -1,47 +1,7 @@
-Webconverger is a Debian derivative.
-
-There are many Linux distributions based on Debian. However very few contribute
-back to Debian. Webconverger will contribute back to Debian, with a goal to
-become a "flavour" of Debian or at least Debian Live.
-
-Debian users looking to temporarily enable "kiosk features" may find
-[[blog/entry/Debian_Web_Kiosk/]] interesting.
+Webconverger is Debian "stable" derivative, which is based upon more uptodate
+backports from [Progress Linux](http://progress-linux.org/).
 
 # Webconverger patches in Debian
 
 * dwm
 * debian-live
-
-# Elements of Webconverger not in Debian yet
-
-## webconverger-base
-
-When a sysadmin installs webconverger-base on their system, their machine would
-become a locked down Web Kiosk. This may not be desirable!
-
-So perhaps a webc user should be created. Thereby a Debian user could switch
-into that user and temporarily create a Web kiosk. It's still quite a special
-use case.
-
-More specific issues:
-
-* Init script
-* Locking down X is done via a init script
-* Designed more for a live system
-
-## iceweasel-webconverger
-
-Not incredibly useful without the persistent-browser script from **webconverger-base**
-
-The way Firefox/Iceweasel extensions are packaged in Debian, is that if a
-extension is installed it applies to all users and profiles. This may not be
-desirable!
-
-## The webconverger archive key
-
-# Other general issues
-
-Sometimes customers want specific patches to Debian packages. How should that be rolled out?
-
-In the past "customised packages" have been deployed via the Webconverger
-repository. Authenticate packages require a webconverger key.
