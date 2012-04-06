@@ -27,7 +27,7 @@ un-authenticated url <git://github.com/Webconverger/webc.git>
 
 Next I've created a few silly aliases to help me navigate around that structure:
 
-	alias c="sudo chroot /home/hendry/debian/sid-root/root/webconverger /chroot"
+	alias c="sudo chroot /home/hendry/debian/sid-root/root/webconverger/chroot"
 	alias b="sudo chroot /home/hendry/debian/sid-root"
 	alias i="cd /home/hendry/debian/sid-root/root/webconverger"
 	up() {
