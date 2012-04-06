@@ -5,6 +5,7 @@ Webconverger relies on Debian Live to put the ISO together. For the reason and
 others, please create an Unstable <abbr title="Still in
 Development">sid</abbr>-chroot like so in `~/debian`:
 
+	cd ~/debian
 	sudo debootstrap sid sid-root http://cdn.debian.net/debian/
 
 [debootstrap](http://aur.archlinux.org/packages.php?ID=2970) in available in other Linux distros like Archlinux.
