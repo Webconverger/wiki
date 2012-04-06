@@ -9,47 +9,30 @@ Development">sid</abbr>-chroot like so in `~/debian`:
 
 [debootstrap](http://aur.archlinux.org/packages.php?ID=2970) in available in other Linux distros like Archlinux.
 
-Then `apt-get install live-build` etcetera.
+Then sudo chroot into the directory, and apt-get install as follows:
 
-In `~/debian/sid-root/root/` I have a copy of <https://github.com/Webconverger/Debian-Live-config>
+	sudo chroot ~/debian/sid-root
+	apt-get install live-build git
 
-	x220:~$ grep Live debian/sid-root/root/.git/config 
-	url = git@github.com:Webconverger/Debian-Live-config.git
+Install a copy of <https://github.com/Webconverger/Debian-Live-config>
+	
+	git clone git://github.com/Webconverger/Debian-Live-config.git /root/webc
+	cd /root/webc
+	git remote add up git@github.com:/Webconverger/webc.git
 
-And then:
-
-	x220:~$ cat debian/sid-root/root/webconverger/chroot/.git/config 
-	[core]
-	repositoryformatversion = 0
-	filemode = true
-	bare = false
-	logallrefupdates = true
-	[remote "origin"]
-	fetch = +refs/heads/*:refs/remotes/origin/*
-	url = git://github.com/Webconverger/webc.git
-
-	[remote "up"]
-	fetch = +refs/heads/*:refs/remotes/origin/*
-	url = git@github.com:/Webconverger/webc.git
-
-	[branch "master"]
-	remote = origin
-	merge = refs/heads/master
-	x220:~$ 
 
 Having a seperate remote **up** allows you to pull from the **chroot** from the
 un-authenticated url <git://github.com/Webconverger/webc.git>
 
 Next I've created a few silly aliases to help me navigate around that structure:
 
-	alias c="sudo chroot /home/hendry/debian/sid-root/root/webconverger
-	/chroot"
+	alias c="sudo chroot /home/hendry/debian/sid-root/root/webconverger /chroot"
 	alias b="sudo chroot /home/hendry/debian/sid-root"
 	alias i="cd /home/hendry/debian/sid-root/root/webconverger"
 	up() {
-	cd ~/debian/sid-root/root/webconverger/chroot
-	git push up
-}
+		cd ~/debian/sid-root/root/webconverger/chroot
+		git push up
+	}
 
 # Work flow
 
