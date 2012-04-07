@@ -1,14 +1,14 @@
 	405650a01f00fe9d37e6916065985e5a  webc-12.3.iso
 
-12.3 is deceptively another huge release for us. It introduces:
+12.3 is another hugely exciting release for us.
 
 # A [simple installer](https://github.com/Webconverger/webc/blob/master/etc/webc/install-to-disk.sh)
 
-The installer will **wipe the contents of your hard disk** and put Webconverger
-on it. This is fantastic for large installs. Since most machines come with a
-hard drive, you can go around armed with a USB key with 12.3 on it and get each
-machine converted to a public Web kiosk in 5 minutes. The speed is largely
-dependent on how fast the disk is.
+Selecting the new installer option from the boot menu will **wipe the contents
+of your hard disk** and put Webconverger on it. This is fantastic for large
+installs.  Since most machines come with a hard drive, you can go around armed
+with a USB key with 12.3 on it and get each machine converted to a public Web
+kiosk in 5 minutes. The speed is largely dependent on how fast the disk is.
 
 Note that once converted (Webconverger is installed), there is no undo switch,
 you need to re-install the operating system on there previously. Therefore if
