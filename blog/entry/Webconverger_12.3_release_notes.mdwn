@@ -1,0 +1,59 @@
+	405650a01f00fe9d37e6916065985e5a  webc-12.3.iso
+
+12.3 is deceptively another huge release for us. It introduces:
+
+# A [simple installer](https://github.com/Webconverger/webc/blob/master/etc/webc/install-to-disk.sh)
+
+The installer will **wipe the contents of your hard disk** and put Webconverger
+on it. This is fantastic for large installs. Since most machines come with a
+hard drive, you can go around armed with a USB key with 12.3 on it and get each
+machine converted to a public Web kiosk in 5 minutes. The speed is largely
+dependent on how fast the disk is.
+
+Note that once converted (Webconverger is installed), there is no undo switch,
+you need to re-install the operating system on their previously. Therefore if
+you have any doubt, **please** stick with the live version. It's designed not
+to touch your hard drive. The live version is perfect for deployments where you
+might just want to turn your PC into a kiosk temporarily.
+
+# Other changes
+
+We have fixed some important issues surrounding the configuration service and
+the way the client retrieves a configuration from us. If
+<http://config.webconverger.com/> is blocked on your network for example,
+Webconverger will now timeout after 15 seconds. Previously this would take much
+longer thanks to the `wget` default retry behaviour that took us off guard.
+
+There are no package changes between 12.2 & 12.3 hence there is no package
+diff. However there are
+[changes](https://github.com/Webconverger/webc/commits/master) in the
+[[kiosk_extension|kiosk]] to disable `about:home` which could potentially be a
+vector for attack and breaking out the lock down.
+
+# Risks to your [[privacy]]
+
+We enabled
+[updates.sh](https://github.com/Webconverger/webc/blob/master/etc/webc/updates.sh)
+which allows us to run arbitary **signed** code on the client. This let me
+remind you is true of any other update system in any other operating system.
+The difference here is we are being transparent about it.
+
+This script gives us flexibility for supporting customers, such as being able
+to collect logs to debug issues. Of course this is a [[privacy]] concern since
+we could "after the fact" install code to monitor a browsing session, which you
+will have to trust us, we won't do.
+
+* You can disable this by appending `noupdates` to [[boot]] command line
+* You could block <http://updates.webconverger.com>
+
+How do you know what we are doing to your machine? If you know your UUID, you
+can visit <http://updates.webconverger.com/YOUR_UUID/manifest> To see what code
+would be run on startup.
+
+We also added some [code to check if the signing keys have been
+revoked](https://github.com/Webconverger/webc/blob/master/etc/webc/updates.sh#L44),
+so that if something happens to the key, we can disable them to limit any
+potential "what is the keys fell in the wrong hands" scenarios.
+
+If you think we have made a mistake with our [[security]] approach, **please**
+let us know.
