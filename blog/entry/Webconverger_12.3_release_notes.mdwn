@@ -11,7 +11,7 @@ machine converted to a public Web kiosk in 5 minutes. The speed is largely
 dependent on how fast the disk is.
 
 Note that once converted (Webconverger is installed), there is no undo switch,
-you need to re-install the operating system on their previously. Therefore if
+you need to re-install the operating system on there previously. Therefore if
 you have any doubt, **please** stick with the live version. It's designed not
 to touch your hard drive. The live version is perfect for deployments where you
 might just want to turn your PC into a kiosk temporarily.
