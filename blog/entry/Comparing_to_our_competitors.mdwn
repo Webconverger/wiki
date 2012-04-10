@@ -7,7 +7,7 @@ Webconverger the product compare to its competitors?
 # Microsoft monopoly on PCs
 
 Webconverger supplies the complete stack. Webconverger has **no software
-dependencies**. Out competetiors like
+dependencies**. Out competitors like
 [KioWare](http://www.kioware.com/kwfws.aspx?c=kwfws_sysreq) and
 [SiteKiosk](https://www.provisio.com/en-US/sitekiosk/default.aspx#system)
 require Windows.
