@@ -46,7 +46,7 @@ Windows kiosk software were holding them back. Now they are using Webconverger
 and they are free to improve their customer experiences using the latest
 Firefox technologies.
 
-**Webconverger delivers better on PCs.**
+**Webconverger delivers the Web better on PCs.**
 
 # No Windows BSODs and proven stability
 
