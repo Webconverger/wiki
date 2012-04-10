@@ -85,6 +85,6 @@ transparent.
 
 # 5 reasons to support Webconverger
 
-Please [download Webconverger](http://download.webconverger.com) and give your
+Please [download Webconverger](http://download.webconverger.com) to give your
 users better access to the Web, whilst saving you time, money and giving you
 piece of mind that Webconverger is both opensource and competitive.
