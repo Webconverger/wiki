@@ -73,6 +73,11 @@ Once Webconverger is booted, the [dwm window
 manager](http://dwm.suckless.org/tutorial) defaults to shift+alt+enter for a
 Terminal. =)
 
+### Disabling updates
+
+Append `noupdates`. For more information about this service please see
+[[blog/entry/Webconverger_12.3_release_notes]] entry.
+
 ### Changing [[browser_chrome|kiosk]]
 
 * chrome=webcnoaddressbar - disable URL bar and search bar, good for [[controlled_access_setups|filtering]]
