@@ -39,7 +39,7 @@ CSV of your machine identifiers.
 
 # Performance
 
-Customers has said Windows plus competitor's software are resource hogs and
+Customers have said Windows plus competitor's software are resource hogs and
 this is no surprise to us. Webconverger runs far more efficiently on PCs. We've
 heard of customers not rolling out new HTML5 enabled sites because their
 Windows kiosk software were holding them back. Now they are using Webconverger
