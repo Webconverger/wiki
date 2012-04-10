@@ -77,7 +77,7 @@ review and our [[design]] is such that to facilitate security in layers. Our
 "install version" will introduce checks to verify the signed git tags.
 
 Our current upgrade process is straightforward (re-image the USB stick) however
-we plan to make it even easier with git based [[upgrades]]. This feature is not
+we plan to make it even easier with git based [[upgrades|upgrade]]. This feature is not
 ready yet, though our attitude to security and privacy is very proactive and
 transparent.
 
