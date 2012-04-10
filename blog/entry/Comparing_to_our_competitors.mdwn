@@ -1,8 +1,8 @@
 [[!meta title="5 reasons how Webconverger is competitive against its Windows based rivals"]]
 
-I'm living the dream of running a company supplying open source software.
-Though we need to be competitive outside the merits of open source. How does
-Webconverger the product compare to its competitors?
+I'm living the dream of running a company supplying open source software for
+kiosks and signage.  Though we need to be competitive outside the merits of
+open source. How does Webconverger the product compare to its competitors?
 
 # Microsoft monopoly on PCs
 
