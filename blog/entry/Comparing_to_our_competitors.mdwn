@@ -4,7 +4,7 @@ I'm living the dream of running a company supplying open source software for
 kiosks and signage.  Though we need to be competitive outside the merits of
 open source. How does Webconverger the product compare to its competitors?
 
-# Microsoft monopoly on PCs
+# Microsoft's monopoly on PCs
 
 Webconverger supplies the complete stack. Webconverger has **no software
 dependencies**. Our competitors such as
@@ -20,15 +20,15 @@ a competitor's software (~100USD) and compare that to Webconverger's base
 120USD a year. Though as I mentioned before, most system integrators are not
 going to notice the Windows license as its very hard to get that money back.
 
-Ignore the expense of Windows makes it difficult for us to undercut KioWare &
-SiteKiosk directly on price, though we do have more to offer.
+Ignoring the expense of Windows makes it difficult for us to undercut KioWare &
+SiteKiosk directly on price, although we do have more to offer.
 
 **Webconverger is cheaper if you count the real cost of Windows computing.**
 
 # Ease of install
 
 You can boot Webconverger and configure it with our new service in about 10
-minutes or less if you already have a Paypal account. (Re-)Installing Windows
+minutes, or less if you already have a Paypal account. (Re-)Installing Windows
 can take **hours**.
 
 We can even help you go faster here if you give us a
@@ -39,10 +39,10 @@ CSV of your machine identifiers.
 
 # Performance
 
-Customers have said Windows plus competitor's software are resource hogs and
+Customers have said Windows plus competitors' software are resource hogs and
 this is no surprise to us. Webconverger runs far more efficiently on PCs. We've
 heard of customers not rolling out new HTML5 enabled sites because their
-Windows kiosk software were holding them back. Now they are using Webconverger
+Windows kiosk software was holding them back. Now they are using Webconverger
 and they are free to improve their customer experiences using the latest
 Firefox technologies.
 
@@ -51,9 +51,9 @@ Firefox technologies.
 # No Windows BSODs and proven stability
 
 It's difficult to empirically prove that Linux powered Webconverger is more
-stable than Windows plus competitor's software, though bear in mind that our
+stable than Windows plus competitors' software, though bear in mind that our
 software stack is minimized to provide a great browsing experience on PCs.
-Windows plus competitors software is far bigger and complex stack for bugs to
+Windows plus competitors' software is far bigger and complex stack for bugs to
 bite.
 
 Our software is proven to be mission critical. Webconverger runs [24 hours a
@@ -65,7 +65,7 @@ London](http://neon.webconverger.com/case-study/).
 # Open source software security
 
 Indeed there is a debate raging on the merits of [Open source software security
-](http://en.wikipedia.org/wiki/Open_source_software_security). Window's fine
+](http://en.wikipedia.org/wiki/Open_source_software_security). Windows' fine
 grained security features leveraged by our competitors is undeniably good. And
 we must be careful to acknowledge that if an attacker has unchecked physical
 access to the machine, it can be "cracked". For example by resetting the BIOS
