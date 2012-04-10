@@ -56,11 +56,11 @@ software stack is minimized to provide a great browsing experience on PCs.
 Windows plus competitors software is far bigger and complex stack for bugs to
 bite.
 
-Our software is proven to mission critical and reliable. Webconverger runs [24
-hours a day 7 days a week in the city of
+Our software is proven to be mission critical. Webconverger runs [24 hours a
+day 7 days a week in the city of
 London](http://neon.webconverger.com/case-study/).
 
-**Webconverger is stable.**
+**Webconverger is reliable.**
 
 # Open source software security
 
