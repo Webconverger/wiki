@@ -67,9 +67,9 @@ London](http://neon.webconverger.com/case-study/).
 Indeed there is a debate raging on the merits of [Open source software security
 ](http://en.wikipedia.org/wiki/Open_source_software_security). Window's fine
 grained security features leveraged by our competitors is undeniably good. And
-we must be careful to acknowledge that if an attacker has physical access to
-the machine, it can be "cracked". For example by resetting the BIOS by removing
-the battery. Nonetheless Webconverger is competitive.
+we must be careful to acknowledge that if an attacker has unchecked physical
+access to the machine, it can be "cracked". For example by resetting the BIOS
+settings by removing the battery. Nonetheless Webconverger is competitive.
 
 Our [[security]] policy invites [security experts](http://ikat.ha.cked.net) for
 review and our [[design]] is such that to facilitate security in layers. Our
