@@ -51,9 +51,9 @@ Webconverger does have other
 [[advantages|blog/entry/Comparing_to_our_competitors]] that their table doesn't
 list. Webconverger does not need [antivirus
 software](http://www.kioware.com/faqs.aspx?id=-1691678748) that Kioware
-strongly recommends. And Webconverger doesn't need to extra lock down work like
-[disabling USB memory
-devices](http://www.kioware.com/faqs.aspx?id=1673344105&s=).
+strongly recommends. And Webconverger doesn't need extra fiddling to lock down
+the PC like [disabling USB memory
+devices](http://www.kioware.com/faqs.aspx?id=1673344105&s=) as they suggest.
 
 Webconverger is competitive when directly compared to a Kioware's Internet
 Explorer based product feature listing which is designed to promote their own
