@@ -1,7 +1,7 @@
 Kioware is a comparable competing product in the kiosk space with 5 products to
 choose from.
 
-Webconverger just has one kiosk product and lets check off [KioWare
+Webconverger just has one kiosk product and let's check off [KioWare
 features](http://www.kioware.com/comparison.aspx) we also do:
 
 * Browser Lockdown - yes
