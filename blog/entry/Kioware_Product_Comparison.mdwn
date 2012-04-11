@@ -1,8 +1,8 @@
 Kioware is a comparable competing product in the kiosk space with 5 products to
 choose from.
 
-Webconverger just has one kiosk product and let's check off [KioWare
-features](http://www.kioware.com/comparison.aspx) we also do:
+Webconverger has just one kiosk product. Let's compare against [KioWare
+features](http://www.kioware.com/comparison.aspx):
 
 * Browser Lockdown - yes
 * Popup Window Control - yes
@@ -41,7 +41,7 @@ features](http://www.kioware.com/comparison.aspx) we also do:
 * Manage Multiple Client Sites - this isn't applicable, we manage everything in the cloud, in one place
 * Host KioWare for Clients - We do offer methods of hosting your Webconverger kiosk network completely independently of us if that's your requirement
 
-Webconverger compares closest to [Kioware Lite which is
+Webconverger 12.3 compares closest to [Kioware Lite which is
 priced](http://www.kioware.com/kwl.aspx?c=kwl_pricing) at 84USD a year IIUC.
 Webconverger basic price is 120USD a year, 10USD per month. We plan to bring
 back [[printing]] and perhaps the Google Talk plugin which will be closer to
