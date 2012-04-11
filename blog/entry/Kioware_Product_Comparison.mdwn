@@ -7,8 +7,8 @@ features](http://www.kioware.com/comparison.aspx):
 * Browser Lockdown - yes
 * Popup Window Control - yes
 * Domain/Page List Blocking - we simply rely on no URL address bar chrome=webcnoaddressbar for [[controlled_access|filtering]]
-* Integrated Browser Error Handling - yes we can override the 404 IIUC
-* Custom Navigational Toolbar Skins - no we don't do skins
+* Integrated Browser Error Handling - yes, we can override the error page
+* Custom Navigational Toolbar Skins - no, we don't do skinning
 * File Download Blocking - yes
 * Remote XML Configuration - yes, we have a simpler line based API defined by [[boot]]
 * Citrix/Terminal Server Support - no
@@ -28,9 +28,9 @@ features](http://www.kioware.com/comparison.aspx):
 * Barcode/MSR/Prox Reader Support - no
 * Bill Acceptor/Card Dispenser Support - no
 * Multiple Monitor Support (up to 10) - doable
-* Phone Dialing through your Application - We can offer voice calling via the Google Talk plugin
-* Upload Usage Stats - if you have Google analytics enabled on your site, we can arrange to identify the kiosk via a MAC id
-* Remote Content Updating - yes, this is the same as the earlier "Remote XML Configuration" IIUC
+* Phone Dialing through your Application - yes, we can offer voice telephony via the Google Talk plugin
+* Upload Usage Stats - if you have Google analytics enabled on your site, we can arrange to identify the kiosk via a MAC identifier
+* Remote Content Updating - yes, this is the same as the earlier "Remote XML Configuration"
 * Server Side Kiosk Management - you can manage your kiosk in the cloud with Webconverger and achieve the same functionality
 * Server Side Statistics Analysis - no, though it's trivial to use Google Analytics on your site to monitor your kiosk use
 * Ad Hoc Grouping of kiosks - we identify machines by UUID and MAC ID and you are free to organise them as you wish
