@@ -61,3 +61,5 @@ product. That aside Webconverger is easier and quicker to deploy, safe from
 viruses and has better performance. [Download
 Webconverger](http://download.webconverger.com) and see for yourself with a
 free 1 week no risk trial.
+
+Want another product comparison? See [[SiteKiosk_versus_Webconverger]]
