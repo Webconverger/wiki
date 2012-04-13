@@ -11,8 +11,8 @@ surfing experience than Internet Explorer.
 SiteKiosk has [four versions](https://www.provisio.com/en-US/SiteKiosk/Default.aspx#version) to compare to:
 
 * Quality - Webconverger is opensource software based on quality peer reviewed Linux, Xorg & Mozilla code
-* Worldwide leader - Webconverger is used by [almost 3000 machines every month](http://ping.webconverger.org) and the no.1 opensource kiosk
-* Patented Technology - Webconverger is against software patents
+* Worldwide leader - Webconverger is used by [almost 3000 machines every month](http://ping.webconverger.org) and the #1 Opensource kiosk
+* Patented Technology - Webconverger is [against software patents](http://en.wikipedia.org/wiki/Software_patent_debate#Arguments_against_patentability)
 * 12 months free updates - yes, as long as you are subscribed you can easily upgrade
 * Configuration tool - yes, we have a basic configuration Web form to be filled in once Webconverger boots
 * OS & Browser lockdown - yes
@@ -24,7 +24,7 @@ SiteKiosk has [four versions](https://www.provisio.com/en-US/SiteKiosk/Default.a
 * Display in fullscreen mode - yes, this is an option with [[webcfullscreen|kiosk]]
 * SiteRemote Remote Monitoring - no, this looks like [[privacy]] concern to us. We encourage clients to use simple Analytics whereby you can identify this kiosk by mac ID
 * SiteCaster - yes, though in the [Neon](http://neon.webconverger.com/) product, not Webconverger
-* Large selection of browser skins - no, we don't do this. Skins are usually a performance killer
+* Large selection of browser skins - no, we don't do this. Skins are usually a performance killer, how we do offer [[bgurl=|artwork]] for simply branding the background
 * Customizable user interface - no, we don't do this, we are keen to maintain a stable familiar basic user experience
 * Logout (Clear history) - yes
 * Start page templates - no, we don't build or advise how to build your homepage
@@ -54,17 +54,15 @@ SiteKiosk has [four versions](https://www.provisio.com/en-US/SiteKiosk/Default.a
 * CD burning - no
 * Print station with PrinterOn - no, please refer to [[printing]]
 
-Webconverger seems most similar to SiteKiosk Basic priced at 149USD per year.
-Excluding the [[cost_of_Windows|Comparing_to_our_competitors]], Webconverger
-beats SiteKiosk on price at an annual cost of 120USD.
-
-What is more is that Webconverger is **faster** than Provisio's SiteKiosk,
-according to [[customer_feedback|requirements]]. Furthermore like
-[[Kioware|Kioware_Product_Comparison]], you need to fiddle with
-[anti-virus](http://www.provisio.com/CustomerSupportCenter/ArticleDetails.aspx?ArticleID=600)
-which is something you don't need to worry about with Webconverger.
+Webconverger seems most similar to SiteKiosk Basic priced at 149USD for 12
+months of free updates.  Excluding the
+[[cost_of_Windows|Comparing_to_our_competitors]], Webconverger beats SiteKiosk
+on that price for the first year with our 100USD annual fee. SiteKiosk allows
+customers to run without updates after the first year, though we feel
+continuous updates are vital for kiosk security and ensuring a continually
+improving Web user experience.
 
 Webconverger solves the same security for public access computers problem
-better, beats SiteKiosk on price, faster and easier to deploy.  [Download
-Webconverger](http://download.webconverger.com) and see for yourself with a
-free 1 week no risk trial.
+better, beats SiteKiosk on price, [[faster|requirements]] and easier to deploy.
+[Download Webconverger](http://download.webconverger.com) and see for yourself
+with a free 1 week no risk trial.
