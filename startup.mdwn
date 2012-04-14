@@ -5,26 +5,36 @@ Only for persistent installs. This typically holds values related to network set
 * wireless
 * proxy
 
-Logged in /var/log/bootlog
+Logged in `/var/log/bootlog`
 
-# <https://github.com/Webconverger/webc/tree/master/etc/webc/live-config.sh>
+Once the network is setup, on a Debian system **etc/network/if-up.d** is run,
+however in many cases in our experience only the interface is up and not the
+network neccessarily.
+
+Therefore we have:
+
+[/etc/network/if-up.d/after-network-up](https://github.com/Webconverger/webc/blob/master/etc/network/if-up.d/after-network-up)
+
+Which runs scripts in [/etc/webc/network-up.d](https://github.com/Webconverger/webc/tree/master/etc/webc/network-up.d)
+
+# [/etc/webc/live-config.sh](https://github.com/Webconverger/webc/tree/master/etc/webc/live-config.sh) controlled via [inittab](https://github.com/Webconverger/webc/blob/master/etc/inittab#L60)
 
 These are items that need to be run as root.
 
 This is not the place where things can be run as the user.
 
-The logs to logs() in /etc/webc/webc.conf
+logs() is defined in [/etc/webc/webc.conf](https://github.com/Webconverger/webc/blob/master/etc/webc/webc.conf)
 
 	logs ()
 	{
 	logger -t $0 -p daemon.info "$@"
 	}
 
-# <https://github.com/Webconverger/webc/tree/master/home/webc/.xinitrc>
+# [/home/webc/.xinitrc](https://github.com/Webconverger/webc/tree/master/home/webc/.xinitrc)
 
-These are items that can run as the webc user
+These are items that can run as the **webc** user
 
-Logged in /home/webc/.xerrors
+Logged in `/home/webc/.xerrors`
 
 Note that only the bottom loop runs between browser sessions. For settings to
 take effect, it's best to reboot the machine.
