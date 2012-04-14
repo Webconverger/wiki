@@ -1,13 +1,13 @@
-# <https://github.com/Webconverger/webc/tree/master/etc/init.d/webconverger>
+# [/etc/init.d/webconverger](https://github.com/Webconverger/webc/tree/master/etc/init.d/webconverger)
 
-Only for persistent installs. This typically holds values related to network setup.
+Only really used for persistent installs "install version". This typically holds values related to network setup.
 
 * wireless
 * proxy
 
 Logged in `/var/log/bootlog`
 
-Once the network is setup, on a Debian system **etc/network/if-up.d** is run,
+Once the network is setup, on a Debian system **/etc/network/if-up.d** is run,
 however in many cases in our experience only the interface is up and not the
 network neccessarily.
 
