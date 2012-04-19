@@ -33,6 +33,8 @@ Web feedback
 * [German tech site profiling USB linux distributions including Webconverger](http://www.tecchannel.de/pc_mobile/linux/1750236/)
 * [German linux magazine](http://www.linux-magazin.de/NEWS/Webconverger-8-bringt-Firefox-4)
 * [Google opensource talk](http://google-opensource.blogspot.com/2009/06/london-open-source-jam-13.html)
+* [French Web magazine](http://www.insidedaweb.com/informatique-libre-foss/distributions-gnu-linux/webconverger-distribution-linux-ideale-applications-web/)
+* [LWN article on Webconverger 12 on April 11, 2012](http://lwn.net/Articles/490871/)
 
 Printed Media
 =============
