@@ -17,7 +17,7 @@ the price is bundled in the price of a PC and most people don't see it.
 
 So I wish I could add the cost of Windows (~100USD) plus the cost of licencing
 a competitor's software (~100USD) and compare that to Webconverger's base
-120USD a year. Though as I mentioned before, most system integrators are not
+100USD a year. Though as I mentioned before, most system integrators are not
 going to notice the Windows license as its very hard to get that money back.
 
 Ignoring the expense of Windows makes it difficult for us to undercut KioWare &

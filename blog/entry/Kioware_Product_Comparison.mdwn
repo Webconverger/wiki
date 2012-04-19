@@ -43,7 +43,7 @@ features](http://www.kioware.com/comparison.aspx):
 
 Webconverger 12.3 compares closest to [Kioware
 Lite](http://www.kioware.com/kwl.aspx?c=kwl_pricing) which is priced at 84USD a
-year.  Webconverger's basic price is 120USD a year, 10USD per month. We plan to
+year.  Webconverger's basic price is 100USD a year or 10USD per month. We plan to
 bring back [[printing]] and perhaps the Google Talk plugin for telephony which
 will be closer to their "Kioware Kiosk Basic" product at 162USD a year.
 
