@@ -15,7 +15,7 @@ html, body {
  	text-decoration: underline;
  }
 
-.notebox { width: auto; margin: 1ex; }
+.notebox { width: auto; margin: 0; padding: 1ex; }
 
 .page{
  	width:960px;
