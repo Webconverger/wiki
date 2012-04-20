@@ -15,13 +15,27 @@ OSDisc](http://www.osdisc.com/cgi-bin/view.cgi/products/linux/webconverger).
 
 # How to replace the contents of a USB stick with the Webconverger ISO-hybrid file using Microsoft Windows
 
-After [downloading](http://download.webconverger.com/), you can follow [the USB
-imaging guide from
-Ubuntu](https://help.ubuntu.com/community/Installation/FromImgFiles#Windows) or
-from
-[ArchLinux](http://wiki.archlinux.org/index.php/Install_from_a_USB_flash_drive).
+1. Download the latest official Webconverger from
+<http://dl.webconverger.com/latest.iso> The download file will be renamed to
+the latest ISO, at the time of writing webc-12.3.iso.
 
-The tool to use is called the [Win32 disk imager](https://launchpad.net/win32-image-writer).
+2. Download Disk Imager from
+<https://launchpad.net/win32-image-writer/+download> (download binary version,
+not source version) It should download as a zip file. Extract all files to
+desired location
+
+3. Insert your USB stick
+
+4. Note the drive letter assigned to your USB stick
+
+5. Start Disk Imager (from your folder of extracted files)
+
+6. Select the downloaded file (webc-12.3.iso) and target device, and click
+"Write" (Note: this will wipe all information you have on the selected device.
+So be very careful to note the correct drive letter assigned to your USB stick
+at step.4)
+
+7. Remove your USB stick when the operation is complete
 
 # How to copy the ISO-hybrid to a USB stick under Linux
 
