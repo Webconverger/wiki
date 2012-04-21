@@ -6,11 +6,14 @@ Webconverger does not currently take active measures to sleep the PC hardware
 as it is assumed to be deployed on mains connected PCs. So when we talk about
 power saving and sleeping, we are referring to the screen monitor.
 
-However by default the screen monitor is set to [sleep after 10
+By default the screen monitor is set to [sleep after 10
 minutes](https://github.com/Webconverger/webc/blob/master/home/webc/.xinitrc#L38).
-Sleeping at best uses hardware level features of the monitor to power down to
-an idle state. At worse it sets the screen to a blank black screen to save
-monitor burn which is only really a problem with [older CRT monitors](http://en.wikipedia.org/wiki/Cathode_ray_tube).
+Sleeping at best uses hardware level
+[DPMS](http://en.wikipedia.org/wiki/VESA_Display_Power_Management_Signaling)
+features of the monitor to power down to an idle state. At worse it sets the
+screen to a blank black screen to save monitor burn which is only really a
+problem with [older CRT
+monitors](http://en.wikipedia.org/wiki/Cathode_ray_tube).
 
 Customers who don't want the screen to blank at all should use the boot option
 `noblank`.
@@ -25,7 +28,8 @@ screensaver](https://github.com/Webconverger/Screensaver) from their homepage.
 
 Breaking out of sleep simply involves a user pressing any key on the keyboard
 or moving the mouse. It certain environments a system may never go to sleep
-since the mouse keeps getting spurious wake events from its noisy environment.
+since a sensitive mouse keeps getting spurious wake events from its noisy
+environment.
 
 # Kiosk reset timer
 
@@ -40,7 +44,7 @@ For example, appending `kioskresetstation=10` will reset the kiosk after ten min
 
 * [Source of kioskresetstation](https://github.com/Webconverger/Debian-Live-config/blob/master/webconverger/config/includes.chroot/usr/bin/kioskresetstation)
 
-Your homepage must have a title for `kioskresetstation` to work currently. [Logged issue](https://github.com/Webconverger/webc/issues/24)
+Caveat: Your homepage must have a title for `kioskresetstation` to work currently. [Logged issue](https://github.com/Webconverger/webc/issues/24).
 
 # Webconverger hides the mouse cursor after a period of inactivity
 
