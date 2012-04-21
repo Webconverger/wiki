@@ -65,7 +65,7 @@ To encode your options, use encodeURI from your browser console:
 
 	encodeURI("-o right -s 800x600")
 
-Another approach to setting screen resolutions is using syntax like:
+Another approach to setting screen resolutions is using `xrandr` syntax like:
 
 	xrandr --output LVDS1 --mode 1366x768
 
@@ -75,11 +75,14 @@ could be LVDS1, HDMI1 or VGA1. Hence you need to figure this line out in the
 
 ### DEBUG MODE for developers
 
-Append `debug`
+Append `debug`.
 
 Once Webconverger is booted, the [dwm window
 manager](http://dwm.suckless.org/tutorial) defaults to shift+alt+enter for a
-Terminal. =)
+Terminal. Gain root with `sudo -i`.
+
+On the install version, you need to type `boot: l0 debug` to trigger debug
+mode.
 
 ### Disabling updates
 
