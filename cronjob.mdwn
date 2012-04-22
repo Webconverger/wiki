@@ -6,20 +6,21 @@ Instead in investing in a 5USD [time
 switch](http://en.wikipedia.org/wiki/Time_switch), you can configure
 Webconverger to shutdown at a set time.
 
-Use case: Museum closes at 6pm Tuesday to Sunday (closed Mondays).
-Machines are powered on manually by staff at opening time in order to be ready
-and waiting for the public. Though for the convenience of staff machines
-automatically turn off at 6pm sharp, closing time.
+Use case: Museum closes at 6pm Tuesday to Sunday (closed Mondays).  Kiosks are
+powered on manually by staff at opening time in order to be ready and waiting
+for the public. Though for the convenience of staff, kiosks automatically turn
+off at 6pm sharp, closing time.
 
 # Step 1, figure out your timezone else use UTC
 
 By default Webconverger boots into
 [synced](https://github.com/Webconverger/webc/blob/master/etc/webc/network-up.d/ntpdate)
-UTC time. Chances are you live in a timezone, whereby you need to study
-<ftp://ftp.iana.org/tz/data/zone.tab> for the right string.
+UTC time. Chances are you live in a different timezone, whereby you need to
+study <ftp://ftp.iana.org/tz/data/zone.tab> for the right string to describe
+it.
 
 Lets pretend the museum is in Durban, South Africa. Even though Johannesburg
-isn't the capital, I know it keeps the same time as my city, Durban.
+isn't the capital, I know it keeps the same time as Durban.
 `Africa/Johannesburg` is hence the appropriate string from
 [zone.tab](ftp://ftp.iana.org/tz/data/zone.tab) for describing my local time
 zone.
@@ -31,7 +32,7 @@ Now I need to append that to a Webconverger [[boot]] like so:
 # Step 2, set the schedule (cron job)
 
 The [cron](http://en.wikipedia.org/wiki/Cron) utility is the time-based job
-scheduler which unfortunately has a difficult API syntax which we make even
+scheduler which unfortunately has a awkward API syntax which we make even
 uglier by replacing spaces with `%20`.
 
 To honor the above use case a crontab entry would look like:
