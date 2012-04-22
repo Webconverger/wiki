@@ -1,24 +1,27 @@
 [[!meta title="Internationalization and localization"]]
 
-From Webconverger 12 there are several ways to setup the locale and keyboard.
+There are several ways to setup the locale and keyboard. We have good support
+for European languages and we will (re)address Asian requirements in the
+future.
 
 # At boot
 
-1. By using or modifying syslinux [[boot]] menu. There are already some [asked for choices](https://groups.google.com/forum/#!msg/webc-users/a-E98XTTAD8/wgeBRQUme4gJ) there for you to try
+1. By using or modifying syslinux [[boot]] menu. There are already some [requested choices](https://groups.google.com/forum/#!msg/webc-users/a-E98XTTAD8/wgeBRQUme4gJ) included
 2. Building you own ISO and appending the [[boot]] option to `--bootappend-live` in the [config](https://github.com/Webconverger/Debian-Live-config/blob/master/webconverger/auto/config)
 
 # Once booted
 
-3. By using the new [customisation service](http://config.webconverger.com), filling in a form and purchasing a subscription (beta)
+3. By using the [customisation service](http://config.webconverger.com), filling in a form and purchasing a subscription
 4. Using a locale switcher in the browser chrome (still under development)
 
 # i18n support falls into a couple of areas
 
 1. Setting up the browser UI using `locale=` and using a single [ISO 639 code](http://www.loc.gov/standards/iso639-2/php/code_list.php)
-2. Keyboard options using for example `xkb=-layout%20gb` options are simply URL encoded
-3. More complex CJK input methods, which we can support, though not atm
+2. Keyboard options using the `xkb=` mapping to **setxkbmap**, for example `xkb=-layout%20gb`. Spaces are URL encoded.
+3. More complex CJK input methods via [SCIM](http://en.wikipedia.org/wiki/Smart_Common_Input_Method), which we can support, though not because of current ISO size constraints
 
-The first locale setting is also set in the Accept languages in the browser. <https://github.com/Webconverger/webc/blob/master/etc/webc/live-config.sh#L39>
+The first locale setting is also set in the Accept languages in the browser.
+<https://github.com/Webconverger/webc/blob/master/etc/webc/live-config.sh#L39>
 
 `xkb` replaces `keyboard-layouts=` from Debian Live and now gives you direct
 and convienant access to
@@ -35,13 +38,45 @@ In [[debug_mode|boot]], this is how to setup a British keyboard and query its se
 	layout:     gb
 	options:    "grp:caps_toggle",grp:caps_toggle,ctrl:nocaps
 
-To encode the argument string, simply launch a browser console and use the Javascript function [encodeURI](https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/encodeURI).
+To encode the argument string, simply launch a browser console and use the
+Javascript function
+[encodeURI](https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/encodeURI).
+Or you can just replace spaces with `%20`.
 
 	encodeURI("-layout gb")
 	"-layout%20gb"
 
+Which becomes `xkb=-layout%20gb` in your Webconverger configuration.
+
+# Switching keyboard layouts
+
+You can switch keyboard layouts using a special key combination. For example,
+in debug mode or in any Linux Xorg terminal:
+
+	setxkbmap -layout us,th -option grp:shift_toggle
+
+Allows you to toggle between US and Thai keyboard layouts by pressing both left
+and right [SHIFT keys](http://en.wikipedia.org/wiki/Shift_key) together.
+
+To configure Webconverger with this preference, you append:
+
+	xkb=-layout%20us,th%20-option%20grp:shift_toggle
+
+Caveat: [Do not quote your commands](https://github.com/Webconverger/webc/issues/25).
+
+In the future we might add a
+[widget](http://awesome.naquadah.org/wiki/Change_keyboard_maps) to toggle
+inputs.
+
+# Fonts
+
+In the above example we can enable Thai input, however Webconverger does not
+currently ship a [Thai
+font](http://packages.qa.debian.org/t/thaifonts-scalable.html) because of size
+constraits in the default ISO.
+
+Over time we will include more fonts. It depends on demand, please contact us.
+
 # Tested examples
 
 * <https://github.com/Webconverger/Debian-Live-config/blob/master/webconverger/config/bootloaders/isolinux/live.cfg.in>
-
-Please add tested locales or setxkbmap tricks below:
