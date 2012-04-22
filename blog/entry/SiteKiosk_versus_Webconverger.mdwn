@@ -17,7 +17,7 @@ SiteKiosk has [four versions](https://www.provisio.com/en-US/SiteKiosk/Default.a
 * Configuration tool - yes, we have a basic configuration Web form to be filled in once Webconverger boots
 * OS & Browser lockdown - yes
 * Auto start + Shell replacement - yes, though this is really only applicable because they depend on Windows
-* Scheduled shutdown & restart - we've offered this in the past, though we are [working on a more general API](https://github.com/Webconverger/webc/issues/20)
+* Scheduled shutdown & restart - yes, in [[cronjob]]
 * System reset after idle time - yes, this is the same as [[kioskresetstation|blanking]] feature
 * Auto Recovery - yes
 * Folder/file access management - no, we don't offer file access

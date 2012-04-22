@@ -89,6 +89,14 @@ mode.
 Append `noupdates`. For more information about this service please see
 [[blog/entry/Webconverger_12.3_release_notes]] entry.
 
+### Disable configuration service
+
+Append `noconfig`
+
+### How do I make the machine turn off at a set time everyday?
+
+Set a [[cronjob]]
+
 ### Changing [[browser_chrome|kiosk]]
 
 * chrome=webcnoaddressbar - disable URL bar and search bar, good for [[controlled_access_setups|filtering]]

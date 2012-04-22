@@ -1,30 +1,49 @@
+[[!meta title="Scheduling a shutdown"]]
+
+Available from [674496903d](https://github.com/Webconverger/webc/commit/674496903d8ec9b4eb6d1e30c92f7f784d36cf2e)
+
 Instead in investing in a 5USD [time
-switch](http://en.wikipedia.org/wiki/Time_switch), you can statically configure
+switch](http://en.wikipedia.org/wiki/Time_switch), you can configure
 Webconverger to shutdown at a set time.
 
-By default Webconverger boots into UTC time. Chances are you live in a
-different timezone, whereby you need to study
+Use case: Museum closes at 6pm Tuesday to Sunday (closed Mondays).
+Machines are powered on manually by staff at opening time in order to be ready
+and waiting for the public. Though for the convenience of staff machines
+automatically turn off at 6pm sharp, closing time.
+
+# Step 1, figure out your timezone else use UTC
+
+By default Webconverger boots into
+[synced](https://github.com/Webconverger/webc/blob/master/etc/webc/network-up.d/ntpdate)
+UTC time. Chances are you live in a timezone, whereby you need to study
 <ftp://ftp.iana.org/tz/data/zone.tab> for the right string.
 
-Lets pretend I live in Durban, South Africa. Even though Johannesburg isn't the
-capital, I know it keeps the same time as my city, Durban.
-`Africa/Johannesburg` is hence the appropriate string for describing my local
-time zone.
+Lets pretend the museum is in Durban, South Africa. Even though Johannesburg
+isn't the capital, I know it keeps the same time as my city, Durban.
+`Africa/Johannesburg` is hence the appropriate string from
+[zone.tab](ftp://ftp.iana.org/tz/data/zone.tab) for describing my local time
+zone.
 
 Now I need to append that to a Webconverger [[boot]] like so:
 
 	timezone=Africa/Johannesburg
 
+# Step 2, set the schedule (cron job)
 
-Next we need to override `/etc/crontab` in the build.
+The [cron](http://en.wikipedia.org/wiki/Cron) utility is the time-based job
+scheduler which unfortunately has a difficult API syntax which we make even
+uglier by replacing spaces with `%20`.
 
-The easiest way to do this is something like:
+To honor the above use case a crontab entry would look like:
 
-	echo '00 23 * * * root halt' > config/includes.chroot/etc/crontab
+	00 18 * * * root halt
 
-The second column's 23 means 11PM and combined with the earlier **timezone**
-configuration, it will mean 11PM in
-[SAST](http://en.wikipedia.org/wiki/South_African_Standard_Time).
+At 6PM, as the "super user" root user, halt the machine. i.e. power down.
 
-You can replace `halt` with `reboot`, though there really should not be a
-memory leak in Webconverger, so this is completely unnecessary.
+To pass this as a configuration to Webconverger, it needs to be encoded on [[boot]] like so:
+
+	cron=00%2018%20*%20*%20*%20root%20halt
+
+The script
+[live-config](https://github.com/Webconverger/webc/commit/674496903d8ec9b4eb6d1e30c92f7f784d36cf2e#diff-5)
+writes the cronjob.
