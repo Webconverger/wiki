@@ -33,9 +33,9 @@ commit back the changes you make.
 
 Next I've created a few silly aliases to help me navigate around that structure:
 
-	alias c="sudo chroot /home/hendry/debian/sid-root/root/webconverger/chroot"
-	alias b="sudo chroot /home/hendry/debian/sid-root"
-	alias i="cd /home/hendry/debian/sid-root/root/webconverger"
+	alias c="sudo chroot ~/debian/sid-root/root/webconverger/chroot"
+	alias b="sudo chroot ~/debian/sid-root"
+	alias i="cd ~/debian/sid-root/root/webconverger"
 	up() {
 		cd ~/debian/sid-root/root/webconverger/chroot
 		git push up
