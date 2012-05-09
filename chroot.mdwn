@@ -2,20 +2,18 @@
 
 # chroot for building (running Debian Live)
 
-Webconverger relies on Debian Live to put the ISO together. For the reason and
-others, please create an Unstable <abbr title="Still in Development">sid</abbr>-chroot like so in `~/debian`:
+Webconverger relies on Debian Live to put the ISO together. Please create an Unstable <abbr title="Still in Development">sid</abbr>-chroot like so in `~/debian`:
 
 	cd ~/debian
 	sudo debootstrap sid sid-root http://cdn.debian.net/debian/
 
 [debootstrap](http://aur.archlinux.org/packages.php?ID=2970) in available in other Linux distros like Archlinux.
 
-Then sudo chroot into the directory, and apt-get install as follows:
+Then `sudo chroot ~/debian/sid-root`, and apt-get install as follows:
 
-	sudo chroot ~/debian/sid-root
 	apt-get install live-build git make sudo squashfs-tools syslinux genisoimage
 
-Clone a copy of <https://github.com/Webconverger/Debian-Live-config>
+Clone a copy of <https://github.com/Webconverger/Debian-Live-config> into root's home directory like so:
 
 	git clone git://github.com/Webconverger/Debian-Live-config.git /root
 	cd
@@ -23,11 +21,11 @@ Clone a copy of <https://github.com/Webconverger/Debian-Live-config>
 
 # the Webconverger chroot within the build chroot
 
-The Makefile should clone the [Webconverger
-chroot](https://github.com/Webconverger/webc) from a read only github URL.
+The [Makefile](https://github.com/Webconverger/Debian-Live-config/blob/master/webconverger/Makefile) should clone the [Webconverger
+chroot](https://github.com/Webconverger/webc) from a read only github URL set in the [Makefile](https://github.com/Webconverger/Debian-Live-config/blob/master/webconverger/Makefile)
 
-For a developer with write access, you need to add a **up** remote, so you can commit back the
-changes you make.
+For a developer with write access, you should add a **up** remote, so you can
+commit back the changes you make.
 
 	git remote add up git@github.com:/Webconverger/webc.git
 
