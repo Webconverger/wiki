@@ -1,9 +1,9 @@
-[[!meta title="Making rootfs development iterations faster"]]
+[[!meta title="Making git rootfs development iterations faster"]]
 
+# chroot for building (running Debian Live)
 
 Webconverger relies on Debian Live to put the ISO together. For the reason and
-others, please create an Unstable <abbr title="Still in
-Development">sid</abbr>-chroot like so in `~/debian`:
+others, please create an Unstable <abbr title="Still in Development">sid</abbr>-chroot like so in `~/debian`:
 
 	cd ~/debian
 	sudo debootstrap sid sid-root http://cdn.debian.net/debian/
@@ -15,15 +15,23 @@ Then sudo chroot into the directory, and apt-get install as follows:
 	sudo chroot ~/debian/sid-root
 	apt-get install live-build git make sudo squashfs-tools syslinux genisoimage
 
-Install a copy of <https://github.com/Webconverger/Debian-Live-config>
-	
-	git clone git://github.com/Webconverger/Debian-Live-config.git /root/webc
-	cd /root/webc
+Clone a copy of <https://github.com/Webconverger/Debian-Live-config>
+
+	git clone git://github.com/Webconverger/Debian-Live-config.git /root
+	cd
+	make
+
+# the Webconverger chroot within the build chroot
+
+The Makefile should clone the [Webconverger
+chroot](https://github.com/Webconverger/webc) from a read only github URL.
+
+For a developer with write access, you need to add a **up** remote, so you can commit back the
+changes you make.
+
 	git remote add up git@github.com:/Webconverger/webc.git
 
-
-Having a seperate remote **up** allows you to pull from the **chroot** from the
-un-authenticated url <git://github.com/Webconverger/webc.git>
+# Handy shortcuts
 
 Next I've created a few silly aliases to help me navigate around that structure:
 
