@@ -8,6 +8,11 @@ wpa](https://github.com/Webconverger/Debian-Live-config/blob/master/webconverger
 [[boot]] configuration names onto [wpasupplicant for
 Debian](http://anonscm.debian.org/viewvc/pkg-wpa/wpasupplicant/trunk/debian/README.Debian?view=markup).
 
+### Example 0, essid 'praze' with no security
+
+Simply appending `wpa-ssid=praze wpa-key-mgmt=NONE` to your [[boot]] command
+line should set your machine up for these wireless settings.
+
 ### Example 1, hidden essid 'home', no/disabled security
 
 Appending `wpa-ssid=home wpa-key-mgmt=NONE wpa-ap-scan=1 wpa-scan-ssid=1` will create the following configuration in [/etc/network/interfaces](https://github.com/Webconverger/Debian-Live-config/blob/master/webconverger/config/includes.chroot/etc/network/interfaces).
