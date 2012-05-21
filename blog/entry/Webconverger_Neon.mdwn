@@ -7,7 +7,7 @@ kiosks](http://webconverger.com/) and digital signage, which is known as
 
 Most digital signs you see today in your city are not online and are not on the
 Web. We hope to change that working together with
-[Renew](http://renewsolution.com/) who are really pushing the envelop with Web
+[Renew](http://renewsolution.com/) who are really pushing the envelope with Web
 signage. They aren't innovating just anywhere, they have Webconverger Neon
 deployments all over the very heart of <a
 href="http://en.wikipedia.org/wiki/City_of_London">London's square mile</a>!!
