@@ -1,7 +1,7 @@
 <a href="http://www.flickr.com/photos/hendry/7214909720/" title="Webconverger software in London #renew #amazing #websignage by Kai Hendry, on Flickr"><img src="http://farm8.staticflickr.com/7226/7214909720_c28d1a0bab.jpg" width="375" height="500" alt="Webconverger software in London #renew #amazing #websignage"></a>
 
 Webconverger is a community project funded by Webconverger Limited, which in
-turns powers are fledging commercial services for [Web
+turns powers are fledging outdoor commercial services for [Web
 kiosks](http://webconverger.com/) and digital signage, which is known as
 [Webconverger Neon](http://neon.webconverger.com/).
 
@@ -12,9 +12,9 @@ signage. They aren't innovating just anywhere, they have Webconverger Neon
 deployments all over the very heart of <a
 href="http://en.wikipedia.org/wiki/City_of_London">London's square mile</a>!!
 
-So in the picture above I was very excited to see them on the [streets of
-London](http://neon.webconverger.com/case-study/) and I hope to see this trend
-continue.
+So in the picture above I was very proud to see them on the [streets of
+London](http://neon.webconverger.com/case-study/) and I hope to see this
+informational "Web signage" trend continue.
 
 Community users of Webconverger could give yourself a slap on the back too.
 Since we know Webconverger is stable and reliable because we have nearly [3000
