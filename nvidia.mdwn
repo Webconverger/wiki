@@ -1,0 +1,75 @@
+There are two parts to integrating the proprietary nvidia driver:
+
+1) the [nvidia kernel](https://github.com/Webconverger/webc/commit/0babb4fd12ae83a0194076c9e3469cf5c6302a0c)
+2) the matching [nvidia driver component](https://github.com/Webconverger/webc/commit/2a5111c1498b9f117772b28cd4b5770ac996803a)
+
+# development environment on the target machine
+
+To update the drivers, it's best to work from a live chroot on the target
+machine, so boot into debug mode and `mount -o remount /tmp` in order to remove
+the "noexec" [[security]] flag.
+
+	# apt-get update
+	# mkdir -p /var/cache/apt/archives/ /var/lib/dpkg/info
+	# apt-get install linux-headers-3.2.0-2-artax1-486 build-essential
+
+Despite the numerous apt complaints, the files are installed. It's just that
+all the `/var/lib/dpkg/info` listings have [been removed in a
+commit](https://github.com/Webconverger/webc/commit/0d80e4cd9b9f38b3764281d642e451cde7fbff6e)
+to save space.
+
+Taking screenshots are pretty useful. I recommend `apt-get install scrot dmenu`
+
+# Dealing with Adobe issues
+and then taking a screen shot by using `alt+p` keystroke and typing `scrot
+/tmp/a-clever-name.png`.
+
+<a href="http://www.flickr.com/photos/hendry/7248667892/" title="nvidia FTP by Kai Hendry, on Flickr"><img src="http://farm9.staticflickr.com/8161/7248667892_2192349028_n.jpg" width="320" height="200" alt="nvidia FTP"></a>
+
+Next you need to download the latest nvidia driver package from their ftp site:
+`ftp://download.nvidia.com/XFree86/Linux-x86/`
+
+I usually copy the link and wget it into `/tmp`. This version should be later
+than `modinfo nvidia | grep version:`, else you are probably wasting your time.
+
+	/tmp# sh ./NVIDIA*.run -x
+
+And we are should be ready
+
+# building the nvidia kernel module
+
+Using the [Archlinux nvidia packaging](https://projects.archlinux.org/svntogit/packages.git/tree/trunk/PKGBUILD?h=packages/nvidia) as a guide.
+
+	/tmp/NVIDIA-whatever/kernel# make module
+	/tmp/NVIDIA-whatever/kernel# make install
+
+Should simply move the nvidia.ko to the right place in `/lib/modules/blah-blah/kernel/drivers/video/nvidia.ko as the [original commit did](https://github.com/Webconverger/webc/commit/0babb4fd12ae83a0194076c9e3469cf5c6302a0c).
+
+	/tmp/NVIDIA-whatever/kernel# git status
+
+To double check that there is a `modified: ..../nvidia.ko` line
+
+# installing the matching nvidia driver component
+
+Using
+[nvidia-installer.log](https://github.com/Webconverger/webc/blob/master/var/log/nvidia-installer.log)
+as a guide to running `./nvidia-installer`, install the accompanying drivers. Keep to the defaults with the dialog prompts.
+
+Now `pkill X` and X will fail to restart. Go to another tty like `ctrl+alt+f3`
+and login as root to gain a shell. Now `rmmod nvidia` should now cause the
+system to insert the replacement nvidia.ko and X should just boot up again.
+
+Confirm this is indeed the case with `modinfo nvidia | grep version:`
+
+# Dealing with Adobe issues
+
+<a href="http://www.flickr.com/photos/hendry/7240670226/" title="Red&amp;blue are indeed inverted on nvidia by Kai Hendry, on Flickr"><img src="http://farm8.staticflickr.com/7237/7240670226_031c5d187b_n.jpg" width="320" height="240" alt="Red&amp;blue are indeed inverted on nvidia"></a>
+
+As the [discussion](https://groups.google.com/forum/#!topic/webc-users/PI4tLA3xz_M/discussion) documents, you might notice [[adobe_flash|adobe]] with:
+
+1. [Blue instead of yellow colours](https://bugbase.adobe.com/index.cfm?event=bug&id=3109467)
+2. Instabilities
+
+## Solutions
+
+* <https://wiki.archlinux.org/index.php/Browser_Plugins#Blue_tint_on_videos_with_Flash_and_Nvidia>
