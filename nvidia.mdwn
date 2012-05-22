@@ -1,7 +1,7 @@
 There are two parts to integrating the proprietary nvidia driver:
 
-1) the [nvidia kernel](https://github.com/Webconverger/webc/commit/0babb4fd12ae83a0194076c9e3469cf5c6302a0c)
-2) the matching [nvidia driver component](https://github.com/Webconverger/webc/commit/2a5111c1498b9f117772b28cd4b5770ac996803a)
+1. the [nvidia kernel](https://github.com/Webconverger/webc/commit/0babb4fd12ae83a0194076c9e3469cf5c6302a0c)
+2. the matching [nvidia driver component](https://github.com/Webconverger/webc/commit/2a5111c1498b9f117772b28cd4b5770ac996803a)
 
 # development environment on the target machine
 
@@ -19,22 +19,20 @@ commit](https://github.com/Webconverger/webc/commit/0d80e4cd9b9f38b3764281d642e4
 to save space.
 
 Taking screenshots are pretty useful. I recommend `apt-get install scrot dmenu`
-
-# Dealing with Adobe issues
 and then taking a screen shot by using `alt+p` keystroke and typing `scrot
 /tmp/a-clever-name.png`.
+
+# Dealing with Adobe issues
 
 <a href="http://www.flickr.com/photos/hendry/7248667892/" title="nvidia FTP by Kai Hendry, on Flickr"><img src="http://farm9.staticflickr.com/8161/7248667892_2192349028_n.jpg" width="320" height="200" alt="nvidia FTP"></a>
 
 Next you need to download the latest nvidia driver package from their ftp site:
-`ftp://download.nvidia.com/XFree86/Linux-x86/`
+ftp://download.nvidia.com/XFree86/Linux-x86/
 
 I usually copy the link and wget it into `/tmp`. This version should be later
 than `modinfo nvidia | grep version:`, else you are probably wasting your time.
 
 	/tmp# sh ./NVIDIA*.run -x
-
-And we are should be ready
 
 # building the nvidia kernel module
 
@@ -43,7 +41,7 @@ Using the [Archlinux nvidia packaging](https://projects.archlinux.org/svntogit/p
 	/tmp/NVIDIA-whatever/kernel# make module
 	/tmp/NVIDIA-whatever/kernel# make install
 
-Should simply move the nvidia.ko to the right place in `/lib/modules/blah-blah/kernel/drivers/video/nvidia.ko as the [original commit did](https://github.com/Webconverger/webc/commit/0babb4fd12ae83a0194076c9e3469cf5c6302a0c).
+The `install` should  simply move the nvidia.ko to the right place in `/lib/modules/blah-blah/kernel/drivers/video/nvidia.ko` as the [original commit did](https://github.com/Webconverger/webc/commit/0babb4fd12ae83a0194076c9e3469cf5c6302a0c).
 
 	/tmp/NVIDIA-whatever/kernel# git status
 
@@ -67,9 +65,10 @@ Confirm this is indeed the case with `modinfo nvidia | grep version:`
 
 As the [discussion](https://groups.google.com/forum/#!topic/webc-users/PI4tLA3xz_M/discussion) documents, you might notice [[adobe_flash|adobe]] with:
 
-1. [Blue instead of yellow colours](https://bugbase.adobe.com/index.cfm?event=bug&id=3109467)
+1. [Blue instead of yellow colours](https://bugbase.adobe.com/index.cfm?event=bug&id=3109467) aka [smurfed](https://bugbase.adobe.com/index.cfm?event=bug&id=3109467)
 2. Instabilities
 
-## Solutions
+The solution is to [patch VDPAU](http://lists.freedesktop.org/archives/vdpau/2012-May/000022.html) or reference
+https://wiki.archlinux.org/index.php/Browser_Plugins#Blue_tint_on_videos_with_flash_and_Nvidia
 
-* <https://wiki.archlinux.org/index.php/Browser_Plugins#Blue_tint_on_videos_with_Flash_and_Nvidia>
+This is fixed in https://github.com/Webconverger/webc/commit/9eba0e05b1dc900a90b997ae4a25e68f5f02f499 for example.
