@@ -72,9 +72,11 @@ The fix is introduced in <https://github.com/Webconverger/webc/commit/9eba0e05b1
 
 # Contributing back
 
-Since the rootfs is under git, you can can create a commit and then run `git
-format-patch origin` to create a encapsulated patch. To send the patch to
-developers at Webconverger I recommend uploading it to your Web space and
-providiing a URL to it.
+Since the [rootfs](https://github.com/Webconverger/webc) is under git, you can
+can create a commit carefully by only adding files relevant to your change and
+then run `git format-patch origin` to create a encapsulated patch. To send the
+patch to developers at Webconverger I recommend uploading it to your Web space
+and providing a URL to it and posting to
+[webc-users](https://groups.google.com/forum/#!forum/webc-users) about it.
 
 Remember your contribution must be MIT licensed. [[Thank_you|acknowledgements]]!
