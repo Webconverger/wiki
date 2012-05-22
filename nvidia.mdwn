@@ -22,7 +22,7 @@ Taking screenshots are pretty useful. I recommend `apt-get install scrot dmenu`
 and then taking a screen shot by using `alt+p` keystroke and typing `scrot
 /tmp/a-clever-name.png`.
 
-# Dealing with Adobe issues
+# Setting up the development environment
 
 <a href="http://www.flickr.com/photos/hendry/7248667892/" title="nvidia FTP by Kai Hendry, on Flickr"><img src="http://farm9.staticflickr.com/8161/7248667892_2192349028_n.jpg" width="320" height="200" alt="nvidia FTP"></a>
 
@@ -34,7 +34,7 @@ than `modinfo nvidia | grep version:`, else you are probably wasting your time.
 
 	/tmp# sh ./NVIDIA*.run -x
 
-# building the nvidia kernel module
+# Building the nvidia kernel module
 
 Using the [Archlinux nvidia packaging](https://projects.archlinux.org/svntogit/packages.git/tree/trunk/PKGBUILD?h=packages/nvidia) as a guide.
 
@@ -47,7 +47,7 @@ The `install` should  simply move the nvidia.ko to the right place in `/lib/modu
 
 To double check that there is a `modified: ..../nvidia.ko` line
 
-# installing the matching nvidia driver component
+# Installing the matching nvidia driver component
 
 Using
 [nvidia-installer.log](https://github.com/Webconverger/webc/blob/master/var/log/nvidia-installer.log)
