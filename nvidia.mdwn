@@ -71,3 +71,12 @@ As the [discussion](https://groups.google.com/forum/#!topic/webc-users/PI4tLA3xz
 The solution is to [patch VDPAU](http://lists.freedesktop.org/archives/vdpau/2012-May/000022.html) or look at the wonderful [Archlinux wiki on browser plugins](https://wiki.archlinux.org/index.php/Browser_Plugins#Blue_tint_on_videos_with_flash_and_Nvidia)
 
 The fix is introduced in <https://github.com/Webconverger/webc/commit/9eba0e05b1dc900a90b997ae4a25e68f5f02f499> for example.
+
+# Contributing back
+
+Since the rootfs is under git, you can can create a commit and then run `git
+format-patch origin` to create a encapsulated patch. To send the patch to
+developers at Webconverger I recommend uploading it to your Web space and
+providiing a URL to it.
+
+Remember your contribution must be MIT licensed. [[Thank_you|acknowledgements]]!
