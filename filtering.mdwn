@@ -10,7 +10,7 @@ The problem: A common feature request is for whitelisting, content filtering and
 
 Recommended solution: To practically limit users to your Website, in your
 [customisation order](http://webconverger.com) please specify
-[[iceweasel-webcnoaddressbar|kiosk]]. This modifies the User Interface to
+[[no address bar|kiosk]]. This modifies the User Interface to
 remove the URL addressbar, so that users can't navigate away from your
 homepage.
 
@@ -22,20 +22,15 @@ You may also want to consider the [[kiosk_reset|blanking]] feature in order to
 reset Webconverger to your site every say, 3 minutes. This can help avoid
 Webconverger being set on a non-mandated Website for too long in public spaces.
 
-# Webconverger with OpenDNS
+# Using a 3rd party proxy
 
-[OpenDNS](http://www.opendns.com/) provide a filtering service.
+* <http://safesurf.com/> offers such a service and Webconverger can be made to work with it via the HTTP proxy API, for example:
 
-### Pros
+	http_proxy=http://webc.proxy.safesurf.com
 
-* Easy to implement (no cost)
-* Does not add any weight to Webconverger
+# Using a 3rd party DNS
 
-### Cons
-
-* Not really open :-)
-* Not using your ISP's DNS, so quite possibly slow
-* Only works on the Internet (so not good for Internal networks ... )
+[OpenDNS](http://www.opendns.com/) provide a [filtering service](http://www.opendns.com/web-filtering/).
 
 # Using your WRT54G-L router
 
