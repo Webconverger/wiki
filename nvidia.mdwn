@@ -1,3 +1,5 @@
+<a href="http://www.flickr.com/photos/hendry/7202592208/" title="Nvidia by Kai Hendry, on Flickr"><img src="http://farm8.staticflickr.com/7219/7202592208_0a47b7018b.jpg" width="500" height="375" alt="Nvidia"></a>
+
 There are two parts to integrating the proprietary nvidia driver:
 
 1. the [nvidia kernel](https://github.com/Webconverger/webc/commit/0babb4fd12ae83a0194076c9e3469cf5c6302a0c)

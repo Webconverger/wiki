@@ -14,11 +14,11 @@ Webconverger is [[designed|design]] for [[privacy]] and [[security]], based on:
 * does not require any signup or registration
 
 ISO-based releases are read-only and gain additional security since a reboot always returns
-the system to a known good state. 
+the system to a known good state.
 
 We are currently ( Feb-Mar 2012 ) working on an install to disk version which will require
 update capability to remain secure since the system disk is writable. However, adding updates
-means creating another vector of attack. We will be adopting the current best practices of 
+means creating another vector of attack. We will be adopting the current best practices of
 distributing only GnuPG-signed packages: each system will be able to independently verify
 that we authorized the updates. An attacker would have to compromise a distribution
 server, find a way to gain offline access to our GPG-keyrings, and crack the passwords.
@@ -40,32 +40,8 @@ intercepted.
 That's if the attacker can get inbetween you and your favourite Website. So who
 could be in between your connection and say this site Webconverger.org?
 
-	x61:~% traceroute webconverger.org
-	traceroute to webconverger.org (67.207.129.245), 30 hops max, 40 byte packets
-	 1  devil (192.168.1.1)  0.951 ms  1.783 ms  2.090 ms
-	 2  10.129.244.1 (10.129.244.1)  12.823 ms  12.822 ms  13.069 ms
-	 3  glfd-t2cam1-a-v112.inet.ntl.com (80.4.30.97)  13.400 ms  13.697 ms  13.680 ms
-	 4  glfd-t2core-a-ge-wan64.inet.ntl.com (195.182.175.245)  14.217 ms  14.487 ms  14.470 ms
-	 5  gfd-bb-a-so-730-0.inet.ntl.com (213.105.174.153)  17.817 ms  17.813 ms  18.015 ms
-	 6  nth-bb-b-so-230-0.inet.ntl.com (213.105.175.138)  20.336 ms  13.944 ms  21.395 ms
-	 7  tele-ic-1-as0-0.inet.ntl.com (62.253.184.2)  21.944 ms  15.239 ms  15.188 ms
-	 8  te4-3.mpd01.lon02.atlas.cogentco.com (130.117.14.141)  34.749 ms  34.746 ms  34.967 ms
-	 9  te8-3.mpd02.lon01.atlas.cogentco.com (130.117.1.201)  190.184 ms te9-3.mpd02.lon01.atlas.cogentco.com (130.117.1.17)  190.507 ms  190.486 ms
-	10  gi6-0-0.core01.lon01.atlas.cogentco.com (130.117.1.73)  38.202 ms te2-2.ccr04.jfk02.atlas.cogentco.com (154.54.5.122)  114.572 ms gi6-0-0.core01.lon01.atlas.cogentco.com (130.117.1.73)  38.165 ms
-	11  gi13-0-0.core02.jfk02.atlas.cogentco.com (154.54.5.233)  114.297 ms  110.782 ms po3-0.core02.jfk02.atlas.cogentco.com (66.28.4.189)  114.233 ms
-	12  po1-0.core01.bos01.atlas.cogentco.com (154.54.7.77)  158.998 ms  158.090 ms  158.102 ms
-	13  po5-0.core01.alb02.atlas.cogentco.com (66.28.4.110)  306.326 ms  274.968 ms  275.196 ms
-	14  po5-0.core01.ord01.atlas.cogentco.com (154.54.1.58)  127.402 ms  126.776 ms  127.346 ms
-	15  po14-0.core01.stl03.atlas.cogentco.com (154.54.3.66)  135.341 ms  136.632 ms  131.855 ms
-	16  vl3802.na21.b016110-1.stl03.atlas.cogentco.com (66.28.5.246)  136.744 ms  136.473 ms  136.116 ms
-	17  38.104.162.22 (38.104.162.22)  133.132 ms  142.316 ms  135.659 ms
-	18  au (67.207.129.245)  117.989 ms  115.103 ms  116.748 ms
-
 Eavesdropping is most common with unsecured Wireless. This attack typically
-occurs at the very first stage.  devil (192.168.1.1) is the wireless access
-point I am using. The later points of the route (2-17) are much bigger routers
-which are too busy routing huge amounts of network traffic to isolate and sniff
-yours.
+occurs at the very first stage on your access point.
 
 To mitigate this risk use
 [SSL](http://en.wikipedia.org/wiki/Secure_Sockets_Layer).  An encrypted SSL
@@ -84,6 +60,7 @@ the "clear" network messages of the much more common
 
 # Secure Tempfiles
 
-Malware present on hacked sites has increasingly become an issue. To close one vector
-of attack, we have set up Webconverger's temporary files to not be executable by creating a
-new filesystem just for tempfiles and optioned with noexec. 
+Malware present on hacked sites has increasingly become an issue. To close one
+vector of attack, we have set up Webconverger's temporary files to not be
+executable by creating a new filesystem just for tempfiles and optioned with
+noexec.
