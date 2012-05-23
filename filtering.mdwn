@@ -31,7 +31,6 @@ work with it via the HTTP proxy API, for example:
 # Using a 3rd party DNS
 
 * [OpenDNS](http://www.opendns.com/) provide a [filtering service](http://www.opendns.com/web-filtering/).
-* [Scrub IT](http://www.scrubit.com/)
 
 # Further unsupported options
 
