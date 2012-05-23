@@ -81,3 +81,9 @@ A more secure & simple way to protect from eavesdropping is to visit instead:
 Notice the difference? [https](http://en.wikipedia.org/wiki/Https) instead of
 the "clear" network messages of the much more common
 [http](http://en.wikipedia.org/wiki/Http).
+
+# Secure Tempfiles
+
+Malware present on hacked sites has increasingly become an issue. To close one vector
+of attack, we have set up Webconverger's temporary files to not be executable by creating a
+new filesystem just for tempfiles and optioned with noexec. 
