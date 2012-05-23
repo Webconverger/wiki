@@ -31,9 +31,11 @@ work with it via the HTTP proxy API, for example:
 # Using a 3rd party DNS
 
 * [OpenDNS](http://www.opendns.com/) provide a [filtering service](http://www.opendns.com/web-filtering/).
-* [Scub IT](http://www.scrubit.com/)
+* [Scrub IT](http://www.scrubit.com/)
 
-# Using your WRT54G-L router
+# Further unsupported options
+
+## Using your WRT54G-L router
 
 As mentioned on <http://webconverger.org/blog/entry/Better_Routing_wanted>
 
@@ -43,7 +45,7 @@ limit WAN access under Access Restrictions to:
 * Website Blocking by URL Address
 * Website Blocking by Keyword
 
-# Webconverger and IPCop
+## Webconverger and IPCop
 
 [IPCop](http://www.ipcop.org/) is a lfs-based firewall which can easily be tweaked up to an url-filter.
 
