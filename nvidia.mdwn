@@ -1,5 +1,28 @@
 <a href="http://www.flickr.com/photos/hendry/7202592208/" title="Nvidia by Kai Hendry, on Flickr"><img src="http://farm8.staticflickr.com/7219/7202592208_0a47b7018b.jpg" width="500" height="375" alt="Nvidia"></a>
 
+The nvidia "unified" driver unfortunately doesn't have support for "legacy"
+nvidia hardware. In this case, with some luck, Xorg will default to the nouveau
+driver. I would be ideal if someone could confirm their old legacy nvidia
+hardware does indeed correctly fall back to the nouveau driver, because I can't
+test this.
+
+It's not reasonable for me to support proprietary acceleration on
+"legacy" nvidia cards since:
+
+1. I don't have any such hardware to develop with
+2. New Xorg 1.12 have a new API I've been told, which the legacy drivers will not be ported to
+
+You can tell if your nvidia is considered a legacy device by looking
+up the ids on: <https://github.com/Webconverger/webc/tree/master/usr/share/nvidia>
+
+The nvidia hardware detection happens in
+<https://github.com/Webconverger/webc/blob/master/etc/webc/startx.sh> because
+`nvidia-xconfig` is unfortunately very stupid. I must also credit Andreas
+Beckmann since his and other Debian contributors helped a lot with
+<http://anonscm.debian.org/viewvc/pkg-nvidia/packages/nvidia-graphics-drivers/trunk/debian/>
+
+# nvidia integration guide
+
 There are two parts to integrating the proprietary nvidia driver:
 
 1. the [nvidia kernel](https://github.com/Webconverger/webc/commit/0babb4fd12ae83a0194076c9e3469cf5c6302a0c)
