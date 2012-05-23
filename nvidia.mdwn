@@ -6,11 +6,11 @@ driver. I would be ideal if someone could confirm their old legacy nvidia
 hardware does indeed correctly fall back to the nouveau driver, because I can't
 test this.
 
-It's not reasonable for me to support proprietary acceleration on
-"legacy" nvidia cards since:
+It's not reasonable for Webconverger developers to support proprietary
+acceleration on "legacy" nvidia cards since:
 
 1. I don't have any such hardware to develop with
-2. New Xorg 1.12 have a new API I've been told, which the legacy drivers will not be ported to
+2. New Xorg 1.12 have a new API, which the legacy drivers will not be ported to
 
 You can tell if your nvidia is considered a legacy device by looking
 up the ids on: <https://github.com/Webconverger/webc/tree/master/usr/share/nvidia>
@@ -21,7 +21,7 @@ The nvidia hardware detection happens in
 Beckmann since his and other Debian contributors helped a lot with
 <http://anonscm.debian.org/viewvc/pkg-nvidia/packages/nvidia-graphics-drivers/trunk/debian/>
 
-# nvidia integration guide
+# nVidia integration guide
 
 There are two parts to integrating the proprietary nvidia driver:
 
