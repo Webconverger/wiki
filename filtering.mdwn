@@ -30,7 +30,8 @@ work with it via the HTTP proxy API, for example:
 
 # Using a 3rd party DNS
 
-[OpenDNS](http://www.opendns.com/) provide a [filtering service](http://www.opendns.com/web-filtering/).
+* [OpenDNS](http://www.opendns.com/) provide a [filtering service](http://www.opendns.com/web-filtering/).
+* [Scub IT](http://www.scrubit.com/)
 
 # Using your WRT54G-L router
 
