@@ -3,25 +3,25 @@ html, body {
  	color:#666;
  	background: url(img/bg_body.png) repeat-x;
  }
- 
+
  h1, h2, h3, h4, h5, h6 { font-family: 'Arvo', serif; }
- 
+
  a, a:visited {
  	color: #339BB9;
  }
- 
+
  a:hover {
  	color: #339BB9;
  	text-decoration: underline;
  }
- 
-.notebox { width: auto; }
- 
+
+.notebox { width: auto; margin: 0; padding: 0; }
+
 .page{
  	width:960px;
  	margin: 0 auto;
  }
- 
+
 .pageheader {
   margin: 20px 0 20px 0;
   padding: 10px 0 10px 0;
@@ -76,18 +76,18 @@ h2 {
 
 h3, h4, h5, h6 {
   font-size: 110%; }
-  
+
 ul{
 	margin-left: 40px;
 }
-  
+
 li{
 	font-size: 14px;
 	margin: 0 0 5px 0;
 	line-height: 18px;
 
 }
-  
+
 .feedbutton {
 	background: #339BB9;
 	color: #fff;
@@ -100,7 +100,7 @@ li{
 }
 
 .feedbutton:hover{
-background: #57b0b8;	
+background: #57b0b8;
 }
 
 #searchform {
@@ -143,7 +143,7 @@ input#searchbox {
   -moz-border-radius: 4px;
   -webkit-border-radius: 4px;
   border-radius: 4px; }
-  
+
 .pageheader .actions ul li a:hover, input[type="submit"]:hover {
     background: #fff;
     color: #339BB9; }
@@ -184,15 +184,15 @@ pre {
 	padding: 20px 10px 10px 10px;
 	margin-bottom: 20px;
 	background: #efefef;
-	background: -webkit-gradient(linear, left top, left bottom, from(#efefef), to(#cccccc)); 
-	background: -webkit-linear-gradient(top, #efefef, #cccccc); 
-	background:    -moz-linear-gradient(top, #efefef, #cccccc); 
-	background:     -ms-linear-gradient(top, #efefef, #cccccc); 
-	background:      -o-linear-gradient(top, #efefef, #cccccc); 
+	background: -webkit-gradient(linear, left top, left bottom, from(#efefef), to(#cccccc));
+	background: -webkit-linear-gradient(top, #efefef, #cccccc);
+	background:    -moz-linear-gradient(top, #efefef, #cccccc);
+	background:     -ms-linear-gradient(top, #efefef, #cccccc);
+	background:      -o-linear-gradient(top, #efefef, #cccccc);
 	background:         linear-gradient(top, #efefef, #cccccc);
 	-moz-box-shadow: 0 0 1px #000;
 	-webkit-box-shadow: 0 0 1px #000;
-	box-shadow: 0 0 1px #000;	
+	box-shadow: 0 0 1px #000;
 }
 
 #pageinfo {
@@ -210,7 +210,7 @@ pre {
   -moz-border-radius: 4px;
   -webkit-border-radius: 4px;
   border-radius: 4px; }
-  
+
 #editcontent:hover, #editmessage:hover {
     background: white; }
 
@@ -285,7 +285,7 @@ span.pagelinks a, span.tags a {
   -moz-border-radius: 4px;
   -webkit-border-radius: 4px;
   border-radius: 4px; }
-  
+
 span.pagelinks a:hover, span.tags a:hover {
     background: #cccccc;
     color: black; }

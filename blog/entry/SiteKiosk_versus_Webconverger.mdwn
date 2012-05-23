@@ -1,27 +1,68 @@
-<a href="http://www.flickr.com/photos/hendry/2483537791/" title="10c/min by Kai Hendry, on Flickr"><img src="http://farm3.static.flickr.com/2398/2483537791_c66155f446_m.jpg" width="180" height="240" alt="10c/min" /></a>
+As we did with the [[Kioware_Product_Comparison]], let's compare Webconverger
+against [Provisio's SiteKiosk](https://www.provisio.com/en-US/SiteKiosk).
 
-Update: Webconverger is **faster** than PROVISIO's SiteKiosk, see [[requirements]]
+Like [[Kioware|Kioware_Product_Comparison]]
+[SiteKiosk](https://www.provisio.com/en-US/SiteKiosk/Default.aspx#system) is a
+Windows based solution based on Internet Explorer. Webconverger is an operating
+system, so you don't need Windows and we ship a [Firefox
+based](http://en.wikipedia.org/wiki/Iceweasel) Web browser that offers a better
+surfing experience than Internet Explorer.
 
-Whilst in Dublin airport after the [Xtech2008](http://2008.xtech.org/) conference, I noticed a Web kiosk running the [SiteKiosk software](http://flickr.com/photos/hendry/sets/72157605012030608/).
+SiteKiosk has [four versions](https://www.provisio.com/en-US/SiteKiosk/Default.aspx#version) to compare to:
 
-Time to do a [comparison](http://webconverger.com/about/) with the competition. :)
+* Quality - Webconverger is opensource software based on quality peer reviewed Linux, Xorg & Mozilla code
+* Worldwide leader - Webconverger is used by [almost 3000 machines every month](http://ping.webconverger.org) and the #1 Opensource kiosk
+* Patented Technology - Webconverger is [against software patents](http://en.wikipedia.org/wiki/Software_patent_debate#Arguments_against_patentability)
+* 12 months free updates - yes, as long as you are subscribed you can easily upgrade
+* Configuration tool - yes, we have a basic configuration Web form to be filled in once Webconverger boots
+* OS & Browser lockdown - yes
+* Auto start + Shell replacement - yes, though this is really only applicable because they depend on Windows
+* Scheduled shutdown & restart - yes, in [[cronjob]]
+* System reset after idle time - yes, this is the same as [[kioskresetstation|blanking]] feature
+* Auto Recovery - yes
+* Folder/file access management - no, we don't offer file access
+* Display in fullscreen mode - yes, this is an option with [[webcfullscreen|kiosk]]
+* SiteRemote Remote Monitoring - no, this looks like [[privacy]] concern to us. We encourage clients to use simple Analytics whereby you can identify this kiosk by mac ID
+* SiteCaster - yes, though in the [Neon](http://neon.webconverger.com/) product, not Webconverger
+* Large selection of browser skins - no, we don't do this. Skins are usually a performance killer, how we do offer [[bgurl=|artwork]] for simply branding the background
+* Customizable user interface - no, we don't do this, we are keen to maintain a stable familiar basic user experience
+* Logout (Clear history) - yes
+* Start page templates - no, we don't build or advise how to build your homepage
+* URL access restricting - yes, with `chrome=webcnoaddressbar`, see [[filtering]]
+* Execute programs you specified - no
+* Printing - yes, though [[printing]] is not currently enabled
+* Support of connected devices - no, except [[printing]] as above
+* On-screen keyboard - [yes, though not currently enabled in default builds](http://config.webconverger.com/faq/#does-webconverger-support-touch-screens)
+* Video & photo email - no, this is could be realised with the embedded [[flash|adobe]]
+* Internet content filter - this is the same as [[URL_access_restricting|filtering]]
+* VoIP phone support - this is possible via the Google talk plugin which is disabled by default
+* Charging for PC usage - no
+* Payment device support - no
+* Internet cafe billing (SiteCafe) - no
+* Silent installation - unattended installations are possible, we recommend our installer or you could try [[pxeboot]]
+* XML configuration file - yes, we use a simpler flat file to [configure terminals](http://config.webconverger.com/)
+* Remap keyboard layouts - yes, via the xkb= [[API|boot]]
+* Dialog window blocking - yes
+* Debug output window - no
+* Log files - no, we can supply log files if you really need this
+* Pop-up blocker - yes
+* Support of multiple languages - yes
+* Favorites - you can customise more than one startup page which is equivalent
+* Download manager - yes, we disable all downloads
+* Web messenger - yes
+* File manager - no, we deny access to files
+* CD burning - no
+* Print station with PrinterOn - no, please refer to [[printing]]
 
-Webconverger's current functionality seems to be roughly the same to SiteKiosk6 **basic version**. The [price](http://www.sitekiosk.com/Download/ENG-EUR-Pricing.pdf) of their basic version seems to be 149EUR, which is about the same as [Webconverger's current ~140EUR basic customisation charge](http://webconverger.com/buy/). That's if you're unable to customise Webconverger yourself with say the [[usb]] version.
+Webconverger seems most similar to SiteKiosk Basic priced at 149USD for 12
+months of free updates.  Excluding the
+[[cost_of_Windows|Comparing_to_our_competitors]], Webconverger beats SiteKiosk
+on that price for the first year with our 100USD annual fee. SiteKiosk allows
+customers to run without updates after the first year, though we feel
+continuous updates are vital for kiosk security and ensuring a continually
+improving Web user experience.
 
-Far greater savings could be achieved if Microsoft Vista was not pre-installed by OEMs, as SiteKiosk seems to be based on the non-free Microsoft platform.
-
-SiteKiosk **Payment bundle** (260EUR) seems to have amazing support for [all these payment interfaces](http://www.sitekiosk.com/en-US/SiteKiosk/Devices.aspx). I need to purchase such a payment device to discover how they work. Several clients have asked for this, though none have come through to sponsor the work and send me the actual device they want Webconverger to support.
-
-SiteKiosk or rather [Provisio](https://www.provisio.com) seem charge the client 79EUR per [[upgrade]]. Webconverger is [[designed|design]] to [[upgrade_automatically|upgrade]], however recent versions have had this **feature disabled**. I did not explicitly have a policy for charging for upgrades yet, though I could quote a lower price as I keep copies of client's particular customisations and each should be fairly straight forward to refresh their copies.
-
-Provisio also seem to charge 72EUR a year per seat for support, which is "fair
-play" good business to get. Webconverger is so bloody good if it works on the
-client's chosen hardware, then it requires **no support** and it just seems to
-work!
-
-In order to achieve world domination, I am going to set a couple of development goals this year 2008 for Webconverger:
-
-1. Get [[free_and_automatic_upgrades|upgrade]] working satisfactorily again
-* Support at least one payment device
-
-Since I don't have commission hungry sales people hunting you down, please consider [simply supporting Webconverger](http://webconverger.com/buy/) with Google checkout.
+Webconverger solves the same security for public access computers problem
+better, beats SiteKiosk on price, [[faster|requirements]] and easier to deploy.
+[Download Webconverger](http://download.webconverger.com) and see for yourself
+with a free 1 week no risk trial.

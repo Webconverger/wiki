@@ -65,13 +65,37 @@ To encode your options, use encodeURI from your browser console:
 
 	encodeURI("-o right -s 800x600")
 
+Another approach to setting screen resolutions is using `xrandr` syntax like:
+
+	xrandr --output LVDS1 --mode 1366x768
+
+However using this approach requires some knowledge of the display name. It
+could be LVDS1, HDMI1 or VGA1. Hence you need to figure this line out in the
+**debug** mode.
+
 ### DEBUG MODE for developers
 
-Append `debug`
+Append `debug`.
 
 Once Webconverger is booted, the [dwm window
 manager](http://dwm.suckless.org/tutorial) defaults to shift+alt+enter for a
-Terminal. =)
+Terminal. Gain root with `sudo -i`.
+
+On the install version, you need to type `boot: l0 debug` to trigger debug
+mode.
+
+### Disabling updates
+
+Append `noupdates`. For more information about this service please see
+[[blog/entry/Webconverger_12.3_release_notes]] entry.
+
+### Disable configuration service
+
+Append `noconfig`
+
+### How do I make the machine turn off at a set time everyday?
+
+Set a [[cronjob]]
 
 ### Changing [[browser_chrome|kiosk]]
 
@@ -94,5 +118,3 @@ This a bit nitpicky and maybe dropped from the API, but here goes:
 Although wired connections are preferred, Webconverger does have
 comprehensive [[support_for_wireless_devices|wireless]] and
 [[blog/entry/USB_tethering]].
-
-### Want more? See [[develop]] and [[features]]

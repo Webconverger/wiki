@@ -31,21 +31,7 @@ monopoly on OEMs, hiding the true license cost of about 60GBP (XP Home) or
 
 ## Kioware
 
-* [KioWare](http://www.kioware.com)
-
-KioWare's [pricing](http://www.kioware.com/kw_pricing.asp) seems to be based on
-a tradional per seat licensing model. Webconverger customers are free to copy
-and install their [customised](http://webconverger.com/buy/) copy on *as many
-machines as they like*.
-
-So lets take a typical deployment of 10 machines (Pricing effective 9/7/2008 and subject to change):
-
-* Kioware License 135*10 = 1350 USD
-* Webconverger = ~200 USD (Webconverger saves customers more than 1000USD!)
-
-Support is free of cost with Webconverger for 30 days. Kioware would charge 10 machines:
-
-* Kioware support price 27*10 = 270 USD
+Please view [[blog/entry/Kioware_Product_Comparison]].
 
 ## SiteKiosk
 

@@ -12,6 +12,7 @@
 * [Debian Live project](http://debian-live.alioth.debian.org/) and [Live helper packages](http://live.debian.net/)
 * [[Howto_hide_boot_menu|blog/entry/cmdline_lock_down]]
 * [[Howto_add_Java|Java]]
+* [[Howto_integrate_nvidia_drivers|nvidia]]
 * [[Customising_cronjob|cronjob]]
 * [[Using_PXEBOOT_for_deployment|pxeboot]]
 * Webconverger uses [Progress](http://progress-linux.org) (Artax) backports

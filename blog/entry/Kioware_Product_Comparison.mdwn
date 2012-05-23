@@ -1,0 +1,65 @@
+Kioware is a comparable competing product in the kiosk space with 5 products to
+choose from.
+
+Webconverger has just one kiosk product. Let's compare against [KioWare
+features](http://www.kioware.com/comparison.aspx):
+
+* Browser Lockdown - yes
+* Popup Window Control - yes
+* Domain/Page List Blocking - we simply rely on no URL address bar chrome=webcnoaddressbar for [[controlled_access|filtering]]
+* Integrated Browser Error Handling - yes, we can override the error page
+* Custom Navigational Toolbar Skins - no, we don't do skinning
+* File Download Blocking - yes
+* Remote XML Configuration - yes, we have a simpler line based API defined by [[boot]]
+* Citrix/Terminal Server Support - no
+* OS/Desktop Lockdown - yes
+* Clear Cookies and Cache - yes
+* Keyboard Filtering - yes
+* Attract Screen Management - this can be done using a piece of [Javascript in your own Webpage](https://github.com/Webconverger/Screensaver/)
+* Application Resetting - yes
+* User Session Management - no, we don't warn users they are taking too much time
+* Virtual Keyboard - [an option at the moment](http://config.webconverger.com/faq/#does-webconverger-support-touch-screens)
+* Automatically Run Logoff Script - this is like [[kioskresetstation|blanking]]
+* Replace Windows Explorer Shell - yes, though this is Windows specific
+* Dialog Blocking - we do block popups by default, though I might have misunderstood this
+* Hardware/Software Watchdog - we don't have this, but we do plan to develop something comparable
+* Automatic Printer Retraction - no, I doubt this works in practice
+* Security Mat/Proximity Switch - no, we rely on users closing the last tab or a [[kioskresetstation_timeout|blanking]], but though we can integrate this hardware if a customer chooses
+* Barcode/MSR/Prox Reader Support - no
+* Bill Acceptor/Card Dispenser Support - no
+* Multiple Monitor Support (up to 10) - doable
+* Phone Dialing through your Application - yes, we can offer voice telephony via the Google Talk plugin
+* Upload Usage Stats - if you have Google analytics enabled on your site, we can arrange to identify the kiosk via a MAC identifier
+* Remote Content Updating - yes, this is the same as the earlier "Remote XML Configuration"
+* Server Side Kiosk Management - you can manage your kiosk in the cloud with Webconverger and achieve the same functionality
+* Server Side Statistics Analysis - no, though it's trivial to use Google Analytics on your site to monitor your kiosk use
+* Ad Hoc Grouping of kiosks - we identify machines by UUID and MAC ID and you are free to organise them as you wish
+* Remote Monitoring - you simply monitor them by checking your logs if the kiosk if accessing your homepage. We do have a more proactive monitoring option, though that's only offered via [Neon](http://neon.webconverger.com/)
+* Flexible User Accounts - no, though we do have "debug mode" for full access you can toggle on [[boot]]
+* Store Custom Data on Individual Kiosks - we simply manage machines in a flat file which a spreadsheet can be exported to
+* API to Enable 3rd party add-ons - we can extend Webconverger with [Mozilla Addons](http://addons.mozilla.org), though this an extra you need to be quoted for
+* Manage Multiple Client Sites - this isn't applicable, we manage everything in the cloud, in one place
+* Host KioWare for Clients - We do offer methods of hosting your Webconverger kiosk network completely independently of us if that's your requirement
+
+Webconverger 12.3 compares closest to [Kioware
+Lite](http://www.kioware.com/kwl.aspx?c=kwl_pricing) which is priced at 84USD a
+year.  Webconverger's basic price is 100USD a year or 10USD per month. We plan to
+bring back [[printing]] and perhaps the Google Talk plugin for telephony which
+will be closer to their "Kioware Kiosk Basic" product at 162USD a year.
+
+Webconverger does have other
+[[advantages|blog/entry/Comparing_to_our_competitors]] that their table doesn't
+list. Webconverger does not need [antivirus
+software](http://www.kioware.com/faqs.aspx?id=-1691678748) that Kioware
+strongly recommends. And Webconverger doesn't need extra fiddling to lock down
+the PC like [disabling USB memory
+devices](http://www.kioware.com/faqs.aspx?id=1673344105&s=) as they suggest.
+
+Webconverger is competitive when directly compared to a Kioware's Internet
+Explorer based product feature listing which is designed to promote their own
+product. That aside Webconverger is easier and quicker to deploy, safe from
+viruses and has better performance. [Download
+Webconverger](http://download.webconverger.com) and see for yourself with a
+free 1 week no risk trial.
+
+Want another product comparison? See [[SiteKiosk_versus_Webconverger]]

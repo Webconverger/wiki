@@ -1,10 +1,17 @@
 # Wireless
 
+Note only the subscribed "install version" of Webconverger can persistently
+keep your wireless configuration between reboots.
 
-## New method >= Webconverger 12
-
-The new method [directly maps wpa](https://github.com/Webconverger/Debian-Live-config/blob/master/webconverger/config/includes.chroot/etc/init.d/webconverger#L72) [[boot]] configuration names onto [wpasupplicant for
+Wireless setup works by [directly mapping
+wpa](https://github.com/Webconverger/Debian-Live-config/blob/master/webconverger/config/includes.chroot/etc/init.d/webconverger#L72)
+[[boot]] configuration names onto [wpasupplicant for
 Debian](http://anonscm.debian.org/viewvc/pkg-wpa/wpasupplicant/trunk/debian/README.Debian?view=markup).
+
+### Example 0, essid 'home' with no security
+
+Simply appending `wpa-ssid=home wpa-key-mgmt=NONE` to your [[boot]] command
+line should set your machine up for these wireless settings.
 
 ### Example 1, hidden essid 'home', no/disabled security
 
@@ -38,30 +45,6 @@ Please avoid spaces in ESSIDs. In this case we workaround with a `encodeURI('Hop
 Gjestenett')`, to get the following [[boot]] recipe:
 
 	wpa-ssid=Hopstock%20Gjestenett wpa-psk=uiopzxcv
-
-## Old method, pre Webconverger 12
-
-	wlan=essid,key
-
-To join a [secured wireless
-network](http://en.wikipedia.org/wiki/Wi-Fi_Protected_Access) with ESSID 'foo'
-and password 'francisco' append `wlan=foo,francisco`
-
-Webconverger supports both WEP and WPA, though your Wireless access point
-should be using WPA for your security.
-
-To join an unsecured network called 'w', append `wlan=w,`. Notice the
-**trailing comma**, this is because some ESSIDs have spaces.
-
-To join any open network, append `wlan=,` to the [[boot]] options. This relies
-on some wpa-supplicant magic that needs [[testing]]. If you do join an
-unsecured wireless network, do remember you have **little security** until you
-connect with **https**/SSL !!
-
-To join an [ESSID](http://en.wikipedia.org/wiki/ESSID) with spaces, you need to
-entity encode it. Example ESSID "Hopstock Gjestenett", becomes:
-
-	wlan=Hopstock%20Gjestenett,
 
 # Wireless router (recommended)
 

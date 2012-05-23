@@ -1,0 +1,78 @@
+[Download](http://download.webconverger.com/) `405650a01f00fe9d37e6916065985e5a  webc-12.3.iso`
+
+12.3 is another hugely exciting release for us.
+
+# A [simple installer](https://github.com/Webconverger/webc/blob/master/etc/webc/install-to-disk.sh) to enable the "install version"
+
+Selecting the new installer option from the boot menu will **wipe the contents
+of your hard disk** and put Webconverger on it. This is fantastic for large
+installs.  Since most machines come with a hard drive, you can go around armed
+with a USB key with 12.3 on it and get each machine converted to a public Web
+kiosk in 5 minutes. The speed is largely dependent on how fast the disk is.
+
+Note that once converted (Webconverger is installed), there is no undo switch,
+you need to re-install the operating system on there previously. Therefore if
+you have any doubt, **please** stick with the [live version](http://config.webconverger.com/faq/#what-do-you-mean-by-live-version-and-install-version). It's designed not
+to touch your hard drive. The live version is perfect for deployments where you
+might just want to turn your PC into a kiosk temporarily.
+
+The "install version" is what version of Webconverger you get when you boot
+from the hard disk instead of say a USB stick or CD-ROM. The "install version"
+can save the configuration which now enables [wireless
+configurations](http://config.webconverger.com/faq/#how-do-i-configure-my-wireless-connection)
+in your subscription!
+
+# If the configuration service goes down you will still be able to surf quickly
+
+We have fixed some important issues surrounding the configuration service and
+the way the client retrieves a configuration from us. If
+<http://config.webconverger.com/> is blocked on your network for example,
+Webconverger will now timeout after 15 seconds. Previously this would take much
+longer thanks to the `wget` default retry behaviour that took us off guard.
+
+We do have further [issues](https://github.com/Webconverger/webc/issues/19) to
+resolve here to make sure if our service goes down for whatever reason, it can
+bring up your configuration at a later stage. An install version however will
+have the configuration saved making it far more resilient than the live
+version.
+
+There are no package changes between 12.2 & 12.3 hence there is no package
+diff. Though we did manage to shed almost 200M from the previous 12.2
+(containing a .git/ with all objects) release and there are
+[changes](https://github.com/Webconverger/webc/commits/master) in the
+[[kiosk_extension|kiosk]] to disable `about:home` which could potentially be a
+vector for attack and breaking out the lock down.
+
+# Being aware of risks to your [[privacy]] which we care a LOT about
+
+We enabled
+[updates.sh](https://github.com/Webconverger/webc/blob/master/etc/webc/updates.sh)
+which allows us to run arbitary **signed** code on the client. This let me
+remind you is true of any other update system in any other operating system.
+The difference here is we are being transparent about it.
+
+This script gives us flexibility for supporting customers, such as being able
+to collect logs to debug issues. Of course this is a [[privacy]] concern since
+we could "after the fact" install code to monitor a browsing session, which you
+will have to trust us, we won't do.
+
+* You can disable this by appending `noupdates` to [[boot]] command line
+* You could block <http://updates.webconverger.com>
+
+How do you know what we are doing to your machine? If you know your UUID, you
+can visit <http://updates.webconverger.com/YOUR_UUID/manifest> To see what code
+would be run on startup.
+
+We also added some [code to check if the signing keys have been
+revoked](https://github.com/Webconverger/webc/blob/master/etc/webc/updates.sh#L44),
+so that if something happens to the key, we can disable them to limit any
+potential "what if these keys fell in the wrong hands" scenarios.
+
+If you think we have made a mistake with our [[security]] approach or it can be
+better, **please** let us know.
+
+# The significance of the "install version"
+
+The "install version" means we can write to your disk, save configurations and
+in the future keep you better [[updated|upgrade]], making your users happier
+and safer.

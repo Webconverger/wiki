@@ -1,5 +1,9 @@
 [[!meta title="Downgrading an OS with git"]]
 
+<a href="http://git-scm.herokuapp.com/downloads/logos">
+<img src="/img/2color-lightbg.png">
+</a>
+
 In a series where I hope to get you excited about the innovations Webconverger
 are doing, I'm going to profile what possibilities a [git maintained
 rootfs](https://github.com/Webconverger/webc/commits/master) can realise.
