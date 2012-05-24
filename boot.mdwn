@@ -94,8 +94,8 @@ Set a [[cronjob]]
 
 ### Overriding DNS
 
-Preferably you set this in your DHCPD, however you can overide for example for
-[[filtering]] the DNS servers are:
+Preferably you set this in your DHCPD, however you can override DNS for example for
+[[filtering]] like so:
 
 	dns=8.8.8.8,8.8.4.4
 
