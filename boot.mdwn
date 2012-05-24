@@ -84,11 +84,6 @@ Terminal. Gain root with `sudo -i`.
 On the install version, you need to type `boot: l0 debug` to trigger debug
 mode.
 
-### Disabling updates
-
-Append `noupdates`. For more information about this service please see
-[[blog/entry/Webconverger_12.3_release_notes]] entry.
-
 ### Disable configuration service
 
 Append `noconfig`
@@ -96,6 +91,15 @@ Append `noconfig`
 ### How do I make the machine turn off at a set time everyday?
 
 Set a [[cronjob]]
+
+### Overriding DNS
+
+Preferably you set this in your DHCPD, however you can overide for example for
+[[filtering]] the DNS servers are:
+
+	dns=8.8.8.8,8.8.4.4
+
+This is implemented by [resolvconf script](https://github.com/Webconverger/webc/blob/master/etc/webc/network-up.d/resolvconf)
 
 ### Changing [[browser_chrome|kiosk]]
 

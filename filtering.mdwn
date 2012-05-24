@@ -32,6 +32,8 @@ work with it via the HTTP proxy API, for example:
 
 * [OpenDNS](http://www.opendns.com/) provide a [filtering service](http://www.opendns.com/web-filtering/).
 
+Using the `dns=` [[boot]] API
+
 # Further unsupported options
 
 ## Using your WRT54G-L router

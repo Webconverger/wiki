@@ -17,16 +17,14 @@ number of webconverger-base.
 This "ping" is used to determine how many users Webconverger has to warrant
 further investment. [Public usage statistics are available](http://ping.webconverger.org/)
 
-From [[12.3|blog/entry/Webconverger_12.3_release_notes]] Webconverger has an
-update system in place which can be disabled by appending `noupdates` to the
-[[boot]] command line. This service allows us as a last resort to fix and
-collect diagnostic information from machines.
-
-From Webconverger 12, by default (unless opted out by changing the homepage),
-we direct you to our configuration service. This configuration service can see
+From Webconverger 12, by default (unless opted by specifying `noconfig`), we
+direct you to our configuration service. This configuration service can see
 your machine UUID and MAC address. We use these machine identifiers (not
 personally identifying), to track subscriptions made with our [configuration
-service](http://config.webconverger.com)
+service](http://config.webconverger.com). Furthermore the configuration system
+can specify `updates` which will trigger the [updates
+script](https://github.com/Webconverger/webc/blob/master/etc/webc/updates.sh)
+that allows us to effectively run arbitary script remotely.
 
 All *.webconverger.[com|org] sites have standard [Apache](http://apache.org/)
 logs, which will log when you visit that site. Logs are typically rotated

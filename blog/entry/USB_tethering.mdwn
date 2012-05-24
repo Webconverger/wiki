@@ -8,6 +8,8 @@ already available in [daily builds](http://build.webconverger.org/) for
 this [10.2
 change](http://anonscm.debian.org/gitweb/?p=debian-live/config-webc.git;a=blobdiff;f=webconverger/config/includes.chroot/etc/network/interfaces;h=3369f92e1a9902ea409dc295e33d0d0ed6f34fe1;hp=d8618a15db9f8ea8039a86df10df190164e5ed10;hb=2291c5f29dbfc7fd2c31c3eeb3e7ab0f8a9288ef;hpb=f32bb2dad13c095d4df93a99fa1b9827c3572d0f).
 
+<iframe width="560" height="315" src="http://www.youtube.com/embed/1A6G-l68ZEs" frameborder="0" allowfullscreen></iframe>
+
 When you plug in a suitable USB network device that comes up as **usb0** and
 has a simple dhcp mechanism, like the Android **USB Tethering** feature,
 Webconverger will detect and use this network interface.
