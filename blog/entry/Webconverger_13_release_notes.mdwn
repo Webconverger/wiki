@@ -14,3 +14,6 @@ maintained [rootfs](https://github.com/Webconverger/webc) gives you a detailed
 picture of all the hard work and fixes then went into this release over 6
 weeks. If you like to see more statistics, do checkout [github's
 graphs](https://github.com/Webconverger/webc/graphs).
+
+	md5sum: 0a1808e75bb0759cfc0dc8122a883edb  webc-13.0.iso
+	sha1sum: 7ffa4c02f1481f108298c6811ce40aec0beb47d2  webc-13.0.iso
