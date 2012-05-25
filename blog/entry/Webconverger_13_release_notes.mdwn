@@ -17,3 +17,6 @@ graphs](https://github.com/Webconverger/webc/graphs).
 
 	md5sum: 0a1808e75bb0759cfc0dc8122a883edb  webc-13.0.iso
 	sha1sum: 7ffa4c02f1481f108298c6811ce40aec0beb47d2  webc-13.0.iso
+
+Please [download from Webconverger.com](http://webconverger.com/) which should
+redirect you to our closest download mirror. Enjoy!
