@@ -1,5 +1,5 @@
-The major release Webconverger 13 excitingly has support for [[nvidia]]
-hardware and [[security]] enhancements, as well as:
+The major release Webconverger 13 excitingly has WebGL 3D accelerated support
+for [[nvidia]] hardware and [[security]] enhancements, as well as:
 
 * Search engine changed to [DuckDuckGo](http://duckduckgo.com/) from Google after signing a revenue share deal on sponsored links like [Linux Mint](http://blog.linuxmint.com/?p=1884)
 * New [[boot]] API to override DNS
