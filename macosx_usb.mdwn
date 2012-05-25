@@ -1,10 +1,10 @@
-[[!meta title="Howto put Webconverger on a USB stick from MACOSX"]]
+[[!meta title="How to put Webconverger on a USB stick from MACOSX"]]
 
 Accompanying [Flickr set](http://flic.kr/s/aHsjyN4KF5)
 
 1. Download the latest official Webconverger from
 <http://download.webconverger.com/latest.iso> The download file will be
-renamed to the latest ISO, at the time of writing `webc-12.2.iso`.
+renamed to the latest ISO, at the time of writing `webc-13.0.iso`.
 
 2. Open a Terminal in `/Applications/Utilities/`
 
@@ -32,10 +32,10 @@ pop-out window, you should be able to see a field called "Where." It
 should look something like "/Users/NameofAccount/Downloads"
 
 So for example, what you should type into Terminal, where the desired
-file is webc-12.2.iso, and the device node assigned to your thumbdrive
+file is webc-13.0.iso, and the device node assigned to your thumbdrive
 is 4:
 
-`sudo dd if=/Users/NameofAccount/Downloads/webc-12.2.iso of=/dev/rdisk4 bs=1m`
+`sudo dd if=/Users/NameofAccount/Downloads/webc-13.0.iso of=/dev/rdisk4 bs=1m`
 
 Terminal may prompt you for an admin password if you have set one up.  When you
 key in your password, it does not show up on the Terminal, so be careful to
