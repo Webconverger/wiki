@@ -4,9 +4,11 @@ show users around Webconverger.
 <a href="http://www.flickr.com/photos/hendry/7272704214/" title="Tripof with Iphone mount by Kai Hendry, on Flickr"><img src="http://farm8.staticflickr.com/7102/7272704214_402ce1f037.jpg" width="500" height="375" alt="Tripof with Iphone mount"></a>
 
 Our video camera is a Iphone 4S with a generic plastic iphone4 and tripod to
-keep the "video camera" steady.
+keep the "video camera" steady. The [tripod was
+18GBP](http://www.flickr.com/photos/hendry/7181199520) from ALDI and the iphone
+mount was ~5GBP from Ebay.
 
-For editing we are using Imovie '11 (9.0.4) on a MBP.
+For editing we are using iMovie '11 (9.0.4) on a [MBP](http://buyersguide.macrumors.com/#MacBook_Pro), which came with it.
 
 # Screencasting
 
@@ -14,13 +16,15 @@ Surprisingly screencasting is a dark art.
 
 # MacOSX
 
-Although [vlc](http://www.videolan.org/vlc/) can capture screen:// we found it
+Although [vlc](http://www.videolan.org/vlc/) can capture `screen://` we found it
 unstable, so we forked out 20USD for <http://shinywhitebox.com/ishowu-v1/>
 
 The tricky thing here was setting up the preset as the same size as the full
 size screen.
 
 # Windows
+
+Unfortunately [vlc](http://www.videolan.org/vlc/) was also unstable when capturing `screen://`.
 
 I did try [CamStudio](http://camstudio.org) but it had some bugs like not being
 able to stop a record once minimised and not detecting that I dropped to a
@@ -33,20 +37,20 @@ found [Active Presenter Free edition](http://atomisystems.com/) and downloaded i
 "Smart Capture" looks cool, but it did some weird things so I ended with Full
 Motion with 1024x768.
 
-Next problem is importing the Exported AVI file to Imovie. By default the
+Next problem is importing the Exported AVI file to iMovie. By default the
 exported ActivePresenter MP4/AVI files are greyed out, since they are not in
-the correct format. Here I copied the file to my Linux machine and ran
-[HandBrake](http://handbrake.fr/):
+the correct format, whatever that is. Workaround here was to copy the exported
+file to my Linux machine and run [HandBrake](http://handbrake.fr/) over it:
 
-	HandBrakeCLI -i windows-usb.avi -o windows-usb-able-to-be-imported.mp4
+	HandBrakeCLI -i export.avi -o export-able-to-be-imported.mp4
 
-Now the resulting file can be imported into Imovie on the MBP. A Windows, Linux
-& Mac effort!
+Now the resulting file can be imported into iMovie on the MBP. A joint Windows,
+Linux & Mac effort!
 
-# Imovie
+# iMovie
 
 When importing videos, the Inspector tool's Normalize Clip Volume in the Audio
 tab and Enhance to reduce background noise are its killer features.
 
-Initial video placement: Fit in frame
-Initial photo placement: Fit in frame
+	Initial video placement: Fit in frame
+	Initial photo placement: Fit in frame
