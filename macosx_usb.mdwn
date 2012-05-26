@@ -1,5 +1,7 @@
 [[!meta title="How to put Webconverger on a USB stick from MACOSX"]]
 
+<iframe width="560" height="315" src="http://www.youtube.com/embed/DUN2UXiMYH8" frameborder="0" allowfullscreen></iframe>
+
 Accompanying [Flickr set](http://flic.kr/s/aHsjyN4KF5)
 
 1. Download the latest official Webconverger from
