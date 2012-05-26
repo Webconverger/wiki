@@ -3,7 +3,6 @@
 
 * [Report and view bugs](https://github.com/Webconverger/Debian-Live-config/issues)
 * [[Core_concepts|design]]
-* [http://www.youtube.com/webconverger/](Webconverger videos) and [[how_they_are_made|screencasting]]
 * [Webconverger Debian Live configuration](https://github.com/Webconverger/Debian-Live-config)
 * [Official Webconverger package repository](http://debian.webconverger.com)
 * [Webconverger daily builds](http://build.webconverger.org/) - [build script sources](http://git.webconverger.org/?p=build)
