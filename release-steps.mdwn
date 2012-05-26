@@ -1,0 +1,18 @@
+1. [[Test|testing]] version
+2. Just debug.log ping, check clients config fetch
+3. `git tag -s 13.0 && git push --tags`
+4. On hetty, run `download.webconverger.org$ cp /srv/www/build.webconverger.org/output/webc-13.0.* .`
+5. Sync `www$ ./download-mirror.sh`
+6. Download text files for diff
+	git diff --color-words --no-index  webc-12.3.txt webc-13.0.txt | ansi2html > ~/wikis/webconverger-org.branchable.com/changes/12.3-13.0.mdwn
+7. Blog release notes, for [example](http://webconverger.org/blog/entry/Webconverger_13_release_notes/)
+
+I usually put in a md5sum here because it's seperate to the download servers.
+Link the package changes, but avoid linking the package list explicitly as a URL like http://download.webconverger.com/webc-13.0.txt will **break**
+
+8. Mail webc-users, linking blog entry, for [example](https://groups.google.com/forum/#!topic/webc-users/6rDiV-Sjhf8/discussion)
+9. Log into [twitter](http://twitter.com/#!/webconverger) and tweet linking the release notes, for [example](http://twitter.com/webconverger/status/205963007925301248)
+10. Email distrowatch distro@distrowatch.com with release notes
+11. [Update wikipedia](http://en.wikipedia.org/wiki/Webconverger)
+12. Update freecode http://freecode.com/projects/webconverger/releases/345043
+13. Send [Webconverger newsletter](https://panel.dreamhost.com/index.cgi?tree=mail.list&current_step=Index&next_step=ShowArchive&address=news&domain=webconverger.com)
