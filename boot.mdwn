@@ -53,7 +53,7 @@ Append `noblank`, see [[blanking]] for more.
 
 Use `kioskresetstation`, see [[blanking]] for more information
 
-### Rotate the screen and maybe drop a resolution?
+### Rotate the screen?
 
 Study the [xrandr
 manpage](http://manpages.debian.net/cgi-bin/man.cgi?query=xrandr) for commands
@@ -61,7 +61,11 @@ to setup your screen.
 
 For example, append `xrandr=--rotate%20right`
 
-Which equates to running `xrandr --output [CONNECTED_DEVICE](https://github.com/Webconverger/webc/blob/master/home/webc/.xinitrc#L71) --rotate right` in DEBUG mode.
+Which equates to running `xrandr --output CONNECTED_DEVICE --rotate right` in DEBUG mode.
+
+All video displays that xrandr sees via
+[CONNECTED_DEVICE](https://github.com/Webconverger/webc/blob/master/home/webc/.xinitrc#L71)
+are setup the same way.
 
 ### DEBUG MODE for developers
 
