@@ -55,23 +55,13 @@ Use `kioskresetstation`, see [[blanking]] for more information
 
 ### Rotate the screen and maybe drop a resolution?
 
-Study the [xrandr manpage](http://manpages.debian.net/cgi-bin/man.cgi?query=xrandr) to create powerful commands to setup your screen.
+Study the [xrandr
+manpage](http://manpages.debian.net/cgi-bin/man.cgi?query=xrandr) for commands
+to setup your screen.
 
-For example, append `xrandr=-o%20right%20-s%20800x600`
+For example, append `xrandr=--rotate%20right`
 
-Which equates to running `xrandr -o right -s 800x600` in DEBUG mode.
-
-To encode your options, use encodeURI from your browser console:
-
-	encodeURI("-o right -s 800x600")
-
-Another approach to setting screen resolutions is using `xrandr` syntax like:
-
-	xrandr --output LVDS1 --mode 1366x768
-
-However using this approach requires some knowledge of the display name. It
-could be LVDS1, HDMI1 or VGA1. Hence you need to figure this line out in the
-**debug** mode.
+Which equates to running `xrandr --output [CONNECTED_DEVICE](https://github.com/Webconverger/webc/blob/master/home/webc/.xinitrc#L71) --rotate right` in DEBUG mode.
 
 ### DEBUG MODE for developers
 
