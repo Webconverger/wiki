@@ -46,7 +46,7 @@ Webconverger works with **almost any standard x86 PC hardware** that meets
 [Firefox's minimum
 requirements](http://www.mozilla.com/en-US/firefox/system-requirements.html).
 
-# Customisation BETA
+# Customisation
 
 <http://webconverger.com> is a UK registered company that powers this project.
 The money generated through customisations is the fuel.
@@ -54,8 +54,8 @@ The money generated through customisations is the fuel.
 In the past there were bespoke customisations where an ISO was generated and the
 turnaround was a day or two.
 
-Now there is a [new BETA customisation
-service](http://config.webconverger.com). From version 12, a downloaded
+Now there is a [new customisation
+service](http://config.webconverger.com/faq). From version 12, a downloaded
 Webconverger should boot into this service and allow customers an easy user
 experience to setup and subscribe.
 
