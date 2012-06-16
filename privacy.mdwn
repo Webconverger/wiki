@@ -11,7 +11,7 @@ surfing habits.
 Webconverger from version 7 collects an anonymous "ping" with the version
 number of webconverger-base.
 
-* [ping client source](https://github.com/Webconverger/webc/blob/master/etc/network/if-up.d/ping)
+* [ping client source](https://github.com/Webconverger/webc/blob/master/etc/webc/network-up.d/ping)
 * [ping receiver source](https://github.com/Webconverger/ping/blob/master/index.php)
 
 This "ping" is used to determine how many users Webconverger has to warrant
