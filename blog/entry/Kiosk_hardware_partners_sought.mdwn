@@ -8,20 +8,22 @@ not pre-installed with it.
 We at Webconverger would love to see our software pre-installed on machines
 designed for public kiosk applications.
 
-It's hard enough for folks to simply ready a USB stick with Webconverger.
+It's hard enough for folks to simply ready a [[USB]] stick with Webconverger.
 Despite [third parties who offer USB keys with
 Webconverger](http://www.osdisc.com/cgi-bin/view.cgi/products/linux/webconverger)
 and our great [tutorial videos](http://www.youtube.com/webconverger/)
 to guide you.
 
 The PC vendors need to wake up and innovate. PC hardware innovation compared to
-Apple has been disbolically bad in the last 10 years. See the demise of the
-Lenovo Thinkpad as a prime example. Microsoft's monopoly is threatening to
-further tighten under the [guise of Trusted
-Compting](http://en.wikipedia.org/wiki/Trusted_computing).
+[Apple](http://www.apple.com/) has been diabolically bad in the last 10 years.
+See the demise of the [Lenovo](http://www.lenovo.com)
+[Thinkpad](http://en.wikipedia.org/wiki/ThinkPad) as a prime example.
+Microsoft's monopoly is threatening to further tighten under the [guise of
+Trusted Computing](http://en.wikipedia.org/wiki/Trusted_computing).
 
-I predict PCs will see their market share further wiped out by ARM and embedded
-Android devices that can basically fufill use cases, historically done by PCs.
-With ARM, they certainly cannot compete on price, so we need to see innovation.
-Give customers better solutions. Embed Webconverger for public access computing
-and give your customers less headaches!
+We predict PCs will see their market share further wiped out by ARM and embedded
+Android devices that can basically fulfil use cases, historically done by PCs.
+Webconverger will embark on an Android based solution too.  With ARM, they
+certainly cannot compete on price, so we need to see innovation.  Give
+customers better solutions. Embed Webconverger for public access computing and
+give your customers less headaches!
