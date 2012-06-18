@@ -5,9 +5,9 @@ to help you.
 <iframe width="560" height="315" src="http://www.youtube.com/embed/-EaYTPbfuhI" frameborder="0" allowfullscreen></iframe>
 
 In this video, I demonstrate how to change the boot order in order to boot from
-the USB stick, instead of the hard drive. In this scenario you can keep
+the [[USB]] stick, instead of the hard drive. In this scenario you can keep
 whatever is installed on the hard drive and use Webconverger as long as there
-is a USB stick with Webconverger on it, inserted into the PC.
+is a [[USB]] stick with Webconverger on it, inserted into the PC.
 
 If you like the videos, please let us know. We are keen to hear from you how we
 can improve them. For example here are our [[production_notes|screencasting]].
