@@ -21,9 +21,9 @@ See the demise of the [Lenovo](http://www.lenovo.com)
 Microsoft's monopoly is threatening to further tighten under the [guise of
 Trusted Computing](http://en.wikipedia.org/wiki/Trusted_computing).
 
-We predict PCs will see their market share further wiped out by ARM and embedded
-Android devices that can basically fulfil use cases, historically done by PCs.
-Webconverger will embark on an Android based solution too.  With ARM, they
-certainly cannot compete on price, so we need to see innovation.  Give
-customers better solutions. Embed Webconverger for public access computing and
-give your customers less headaches!
+We predict PCs will see their market share further wiped out by ARM and
+embedded Android devices that can basically fulfil use cases, historically done
+by PCs.  Webconverger will embark on an Android based solution too.  With ARM,
+PC vendors certainly cannot compete on price, so we need to see innovation from
+you. Give customers better solutions. Embed Webconverger for public access
+computing and give your customers less headaches!
