@@ -47,7 +47,7 @@ representing letter like sdb, sdc etc.).
 
 You might find specifying the additional argument `bs=1M` makes it faster.
 
-# How to replace the contents of a USB stick with the Webconverger ISO-hybrid downloaded file using MacOSX
+## How to replace the contents of a USB stick with the Webconverger ISO-hybrid downloaded file using MacOSX
 
 Please follow our [[MacOSX_guide_with_pictures|macosx_usb]]
 
