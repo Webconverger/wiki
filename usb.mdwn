@@ -8,12 +8,11 @@
 * Does not touch any existing disks on your computer when it Live boots so it's great for trialling. Remove thumb drive and the machine is back to how it was before
 * USB boot works generally works with computers made since 2004
 
-Almost any cheap generic USB stick greater than 0.5G should be fine.
-
-Alternatively you can order a preloaded [Webconverger stick at
+Any generic USB stick greater than 0.5G should be fine.  Alternatively you can
+order a preloaded [Webconverger stick at
 OSDisc](http://www.osdisc.com/cgi-bin/view.cgi/products/linux/webconverger).
 
-# How to replace the contents of a USB stick with the Webconverger ISO-hybrid file using Microsoft Windows
+## How to replace the contents of a USB stick with the Webconverger ISO-hybrid downloaded file using Microsoft Windows
 
 <iframe width="560" height="315" src="http://www.youtube.com/embed/ji2JADVf694" frameborder="0" allowfullscreen></iframe>
 
@@ -39,7 +38,7 @@ at step.4)
 
 7. Remove your USB stick when the operation is complete
 
-# How to copy the ISO-hybrid to a USB stick under Linux
+## How to replace the contents of a USB stick with the Webconverger ISO-hybrid downloaded file using Linux
 
 `dmesg` or `fdisk -l` will list your inserted USB drive - usually /dev/sdx ("x"
 representing letter like sdb, sdc etc.).
@@ -48,11 +47,13 @@ representing letter like sdb, sdc etc.).
 
 You might find specifying the additional argument `bs=1M` makes it faster.
 
-# From MacOSX
+# How to replace the contents of a USB stick with the Webconverger ISO-hybrid downloaded file using MacOSX
 
 Please follow our [[MacOSX_guide_with_pictures|macosx_usb]]
 
 # Configuring your PC to boot the USB key instead of your hard drive
+
+<iframe width="560" height="315" src="http://www.youtube.com/embed/-EaYTPbfuhI" frameborder="0" allowfullscreen></iframe>
 
 Please don't be daunted by adjusting the boot order of your machine. You are
 exercising your consumer choice, however this isn't straightforward as
