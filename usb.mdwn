@@ -17,23 +17,17 @@ OSDisc](http://www.osdisc.com/cgi-bin/view.cgi/products/linux/webconverger).
 1. Download the latest official Webconverger from
 <http://dl.webconverger.com/latest.iso> The download file will be renamed to
 the latest ISO, at the time of writing webc-13.0.iso.
-
 2. Download Disk Imager from
 <https://launchpad.net/win32-image-writer/+download> (download binary version,
 not source version) It should download as a zip file. Extract all files to
 desired location
-
 3. Insert your USB stick
-
 4. Note the drive letter assigned to your USB stick
-
 5. Start Disk Imager (from your folder of extracted files)
-
 6. Select the downloaded file (webc-13.0.iso) and target device, and click
 "Write" (Note: this will wipe all information you have on the selected device.
 So be very careful to note the correct drive letter assigned to your USB stick
 at step.4)
-
 7. Remove your USB stick when the operation is complete
 
 ## How to replace the contents of a USB stick with the Webconverger ISO-hybrid downloaded file using Linux
@@ -41,13 +35,13 @@ at step.4)
 `dmesg` or `fdisk -l` will list your inserted USB drive - usually /dev/sdx ("x"
 representing letter like sdb, sdc etc.).
 
-	sudo dd if=webc-12.0.iso of=/dev/sdx
+	sudo dd if=webc-13.0.iso of=/dev/sdx
 
 You might find specifying the additional argument `bs=1M` makes it faster.
 
 ## How to replace the contents of a USB stick with the Webconverger ISO-hybrid downloaded file using MacOSX
 
-Please follow our [[MacOSX_guide_with_pictures|macosx_usb]]
+Please follow our step-by-step [[MacOSX_guide_with_pictures|macosx_usb]].
 
 # Configuring your PC to boot the USB key instead of your hard drive
 
