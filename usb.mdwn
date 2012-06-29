@@ -1,8 +1,6 @@
 [[!meta title="Preparing a USB stick to boot Webconverger"]]
 
-[[!template id=note text="""
-<img width=260 height=180 src="http://webconverger.com/slides/2.png" alt="Booting Webconverger from a USB stick">
-"""]]
+Why USB stick boot?
 
 * Just as fast as a hard drive in many cases
 * Does not touch any existing disks on your computer when it Live boots so it's great for trialling. Remove thumb drive and the machine is back to how it was before
