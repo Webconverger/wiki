@@ -1,0 +1,30 @@
+<img src="/img/neon-boot.png" alt="Neon boot screen">
+
+[Webconverger Neon](http://neon.webconverger.com), Webconverger's spin off Web
+signage operating system product was introduced [[earlier on this
+blog|Webconverger_Neon]], however there wasn't a version for you try, until
+now.
+
+[Download Webconverger Neon](http://neon.webconverger.com/neon.iso) for
+evaluation. Please follow the [Webconverger USB install instructions with the
+downloaded ISO](http://webconverger.org/usb/).
+
+The current version is `neon-eval-dd361e0.iso` with the `sha1sum`
+`dfca9ee0434486569e8c2a3897e7cd51a1dde0bc`. The package listing is at
+<http://neon.webconverger.com/neon.txt>.
+
+The remote monitoring features have been disabled. The evaluation product is
+free to try for one week providing you have a
+[Paypal](http://en.wikipedia.org/wiki/PayPal) account.
+
+Next we are looking for tighter integration with [[hardware
+vendors|Kiosk_hardware_partners_sought]] and Web signage vendors like [Rise
+Vision](http://www.risevision.com/partners/) to better solve client deployment
+problems.
+
+Though for now, I hope you are as excited as we are about the potential of the
+Web on digital signs in public places. The [interest in Web
+signage](http://www.w3.org/2012/06/signage/minutes.html) of late has been
+fantastic. The Web offers powerful open way to inform people on the go and
+Webconverger aims to be the software service company to deliver it on your
+hardware.
