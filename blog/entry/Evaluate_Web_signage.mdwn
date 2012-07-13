@@ -18,7 +18,8 @@ free to try for one week providing you have a
 [Paypal](http://en.wikipedia.org/wiki/PayPal) account.
 
 Next we are looking for tighter integration with [[hardware
-vendors|Kiosk_hardware_partners_sought]] and Web signage vendors like [Rise
+vendors|Kiosk_hardware_partners_sought]] and Web signage platform (for
+authoring the HTML of a sign) vendors like [Rise
 Vision](http://www.risevision.com/partners/) to better solve client deployment
 problems.
 
@@ -26,5 +27,5 @@ Though for now, I hope you are as excited as we are about the potential of the
 Web on digital signs in public places. The [interest in Web
 signage](http://www.w3.org/2012/06/signage/minutes.html) of late has been
 fantastic. The Web offers powerful open way to inform people on the go and
-Webconverger aims to be the software service company to deliver it on your
+Webconverger aims to be the software service company to deliver it on your PC
 hardware.
