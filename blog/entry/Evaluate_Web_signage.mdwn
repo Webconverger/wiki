@@ -2,7 +2,7 @@
 
 [Webconverger Neon](http://neon.webconverger.com), Webconverger's spin off Web
 signage operating system product was introduced [[earlier on this
-blog|Webconverger_Neon]], however there wasn't a version for you try, until
+blog|Webconverger_Neon]], however there wasn't a version for you to try, until
 now.
 
 [Download Webconverger Neon](http://neon.webconverger.com/neon.iso) for
