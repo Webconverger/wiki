@@ -37,7 +37,7 @@ WHY OVERRIDE DEFAULT BOOT OPTIONS?
 
 # Which port ?!?
 
-Oh btw, there is a million ways
+Oh btw, there seems to be a million ways
 [Wake-on-LAN](http://en.wikipedia.org/wiki/Wake_on_lan) is
 implemented/triggered. I've chosen the sanest [Magic
 Packet](http://en.wikipedia.org/wiki/Magic_packet#Magic_packet) flavour which
@@ -66,20 +66,22 @@ Not many people know "255" is a broadcast address. _Sigh_
 
 In "Enterprise" environments having timed shutdowns and ways to wake the
 machines in the morning seems like the "old" approach for Energy saving. Timed
-shutdowns for example are obviously very desirable if you actually working on a
+shutdowns for example are obviously **NOT** very desirable if you actually working on a
 Webconverger machine after hours.
 
 For example Apple Mac machines agressively save power at all times unless for example
 you are using the machines or prefix commands with
 [caffeinate](http://opensource.apple.com/source/PowerManagement/PowerManagement-271.1/caffeinate/caffeinate.c).
 
-This "sleep always until actually used" approach seems better approach for real
-energy savings for kiosks to me.  Nonetheless lots of clients want `noblank`
+This "sleep always until actually used" approach seems better for _real_ energy
+savings for kiosks.  Nonetheless lots of Webconverger customers want `noblank`
 option so that their kiosk users see and know the machines are ready for use.
-Just imagine walking up to a blank screened library kiosk? Would you know that
+Just imagine walking up to a blank screened library kiosk. Would you know that
 pressing the keyboard would wake it up? Not everyone would know this without a
-sign or something.
+sign...
 
-For [Web signage](http://neon.webconverger.com/) however, I think a different
-approach needs to be taken again. In our deployment we dim the screens from
-midnight to morning and the machine is **never halted**.
+For [Web signage](http://neon.webconverger.com/), a different use case, a
+different approach needs to be taken again to keep the sign visible at all
+times. In our deployment we dim the screens from midnight to morning and the
+machine is **never halted** and currently this is controlled on a hardware
+level.
