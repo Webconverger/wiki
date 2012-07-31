@@ -6,17 +6,19 @@ at least 3 days worth of man hours of development time.
 
 Why isn't wake-on-lan, simply not just the default?
 
-I think it is the default on some machines but not others. I think Webconverger
+I think it is the default on some machines but not others. Webconverger
 shipping
 [ethtool](https://github.com/Webconverger/webc/blob/d678eed4e9b2024b41eb1e28a5fdb7d034cec252/etc/network/interfaces#L9)
-is just a **waste of space**, to configure silly machines to flip that bit.
+seems like just a **waste of space**, to configure silly machines to flip that
+bit.
 
-For example I've installed ethtool for the first time I'm my X220 and I get on a `sudo ethtool eth0` invocation:
+For example after installing ethtool for the first time on a Lenovo Thinkpad
+X220 and I get on a `sudo ethtool eth0` invocation:
 
 	Supports Wake-on: pumbg
 	Wake-on: g
 
-So we are fine. So by default my X201 was "Wake-on-Lan" ready.
+So we are fine. So by default my X201 was "Wake-on-Lan" _ready_, if there is such terminology.
 
 # BIOS override
 
