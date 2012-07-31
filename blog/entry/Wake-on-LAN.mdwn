@@ -49,6 +49,8 @@ Is it port 40000 or port 9? I can't find a definitive answer for [Magic
 Packet](http://en.wikipedia.org/wiki/Wake-on-LAN) since the normal `wol`
 utility goes on port 40000 by default for whatever reason.
 
+Update: Port doesn't matter, the hardware just looks for _any_ packet with the magic sequence
+
 # And security?
 
 Tbh in Enterprise network level security is usually well done, so I really
@@ -71,7 +73,7 @@ machines in the morning seems like the "old" approach for Energy saving. Timed
 shutdowns for example are obviously **NOT** very desirable if you actually working on a
 Webconverger machine after hours.
 
-For example Apple Mac machines agressively save power at all times unless for example
+For example Apple Mac machines aggressively save power at all times unless for example
 you are using the machines or prefix commands with
 [caffeinate](http://opensource.apple.com/source/PowerManagement/PowerManagement-271.1/caffeinate/caffeinate.c).
 
