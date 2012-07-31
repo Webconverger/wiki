@@ -86,14 +86,9 @@ Append `noconfig`
 
 Set a [[cronjob]]
 
-### Overriding DNS
+### Changing DNS or statically configuring the network?
 
-Preferably you set this in your DHCPD, however you can override DNS for example for
-[[filtering]] like so:
-
-	dns=8.8.8.8,8.8.4.4
-
-This is implemented by [resolvconf script](https://github.com/Webconverger/webc/blob/master/etc/webc/network-up.d/resolvconf)
+Please refer to [[networking]]
 
 ### Changing [[browser_chrome|kiosk]]
 
