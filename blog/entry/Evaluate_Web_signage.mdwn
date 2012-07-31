@@ -1,4 +1,4 @@
-<img src="/img/neon-boot.png" alt="Neon boot screen">
+<a href="http://www.flickr.com/photos/hendry/7683529348/" title="Congatec by Kai Hendry, on Flickr"><img src="http://farm9.staticflickr.com/8151/7683529348_e5734f0f08.jpg" width="375" height="500" alt="Congatec"></a>
 
 [Webconverger Neon](http://neon.webconverger.com), Webconverger's spin off Web
 signage operating system product was introduced [[earlier on this
