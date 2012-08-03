@@ -10,7 +10,12 @@ approach here to make the "chroot on git" idea take hold amongst Linux
 distributions. Therefore the hope is as a [[developer|develop]] in the near
 future you can use our technology to point to your own curated chroot.
 
-# The upgrade features requires a hard drive install
+# The upgrade features requires persistently
+
+In future we will have a:
+
+* USB-HDD version which can upgrade itself or do a HD install
+* ISO version which can ONLY do a  HD Install
 
 Webconverger's install makes several assumptions and uses its own lightweight
 [install
@@ -18,8 +23,6 @@ script](https://github.com/Webconverger/webc/blob/master/etc/webc/install-to-dis
 to install onto a writable `/dev/sda`. This typically is the first hard drive in your PC.
 
 WARNING: Installing Webconverger will irrevocably replace your hard drive contents.
-
-Known issues: No wireless setup on installs, until configured (see updates.sh)
 
 # How upgrades might work (ALPHA)
 

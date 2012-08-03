@@ -18,6 +18,7 @@
 <tr><td align=right> <a href="http://groups.google.com/group/webc-users?hl=en-GB">Visit this group</a> </td></tr>
 </table>
 
+## New: We have established a \#webconverger IRC channel on the http://freenode.net/ IRC network. Join!
 
 How to edit the Wiki? Due to SPAM, I need you first to login/register with the
 site and then I can give you the appropriate write/admin privileges. Sorry this
