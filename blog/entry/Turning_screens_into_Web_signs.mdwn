@@ -1,3 +1,5 @@
 Here is a short "pitch" for Web signage with [Webconverger Neon](http://neon.webconverger.com/) at an event in Berlin, with Q&A session after.
 
 <iframe width="560" height="315" src="http://www.youtube.com/embed/TMv2pRxBIPc" frameborder="0" allowfullscreen></iframe>
+
+Many thanks to the [organisers](http://startlean.de/9-great-pitches-mvp-pitch-day/).
