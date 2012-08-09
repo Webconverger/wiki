@@ -78,6 +78,14 @@ Terminal. Gain root with `sudo -i`.
 On the install version, you need to type `boot: l0 debug` to trigger debug
 mode.
 
+### Position mouse pointer (from 14.0)
+
+	swarp=0,0
+
+Moves the mouse cursor to the top left of the screen. This is useful when the
+default cursor in the middle of the screen might accidentally trigger some
+mouse over event in the Web application.
+
 ### Disable configuration service
 
 Append `noconfig`
