@@ -37,7 +37,7 @@ Could be expanded to
 
 Please refer to [[i18n]]
 
-### How to change the Webconverger branding?
+### How do I change the Webconverger branding?
 
 Please see [[artwork]]
 
@@ -49,23 +49,26 @@ append `http_proxy=http://192.168.1.5:8888`
 
 Append `noblank`, see [[blanking]] for more.
 
-### How do I make the screen reset after being used?
+### How do I make the terminal reset / timeout after being used?
 
 Use `kioskresetstation`, see [[blanking]] for more information
 
+### How do I prevent Webconverger from cleaning up after each session? (From 14.0)
+
+Add `noclean`. This is **not recommended** for deployments, however if some
+cases where the machine is used by just one person, this is very convenient for
+day to day usage.
+
 ### Rotate the screen?
 
-Study the [xrandr
-manpage](http://manpages.debian.net/cgi-bin/man.cgi?query=xrandr) for commands
-to setup your screen.
+To rotate right on all connected screens:
 
-For example, append `xrandr=--rotate%20right`
+	xrandr-all=--rotate%20right
 
-Which equates to running `xrandr --output CONNECTED_DEVICE --rotate right` in DEBUG mode.
+This is [computed](https://github.com/Webconverger/webc/blob/master/home/webc/webc.sh#L74) as running `xrandr --output CONNECTED_DEVICE --rotate right`.
 
-All video displays that xrandr sees via
-[CONNECTED_DEVICE](https://github.com/Webconverger/webc/blob/master/home/webc/.xinitrc#L71)
-are setup the same way.
+For finer control you can use `xrandr=`, but then you must specify the output
+device, which varies machine to machine.
 
 ### DEBUG MODE for developers
 
@@ -75,8 +78,8 @@ Once Webconverger is booted, the [dwm window
 manager](http://dwm.suckless.org/tutorial) defaults to shift+alt+enter for a
 Terminal. Gain root with `sudo -i`.
 
-On the install version, you need to type `boot: l0 debug` to trigger debug
-mode.
+On the install version, you can sometimes escape extlinux and then you need to
+type `boot: l0 debug` to trigger debug mode.
 
 ### Position mouse pointer (from 14.0)
 
@@ -101,18 +104,7 @@ Please refer to [[networking]]
 ### Changing [[browser_chrome|kiosk]]
 
 * chrome=webcnoaddressbar - disable URL bar and search bar, good for [[controlled_access_setups|filtering]]
-* chrome=webcfullscreen - fullscreen
-
-### Changing [closeicon](https://github.com/Webconverger/Debian-Live-config/blob/master/webconverger/config/includes.chroot/home/webc/iwcloseconfig.sh)
-
-This a bit nitpicky and maybe dropped from the API, but here goes:
-
-* closeicon=active - Close button only on the active tab, except when there is only one tab
-* closeicon=activefix - Close button only on the active tab, including the last tab
-* closeicon=every - Close button on every tab, except when there is only one tab
-* closeicon=everyfix - Close button on every tab, even when there is only one tab
-* closeicon=none - No close buttons
-* closeicon=strip - Close button on the end of the tab strip
+* chrome=webcfullscreen - fullscreen, used typically with [Neon](http://neon.webconverger.com/)
 
 ### Wireless configuration
 
