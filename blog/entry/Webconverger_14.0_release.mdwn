@@ -5,17 +5,23 @@ We have been hard at work this summer and 14.0 marks several major enhancements:
 * New: 686 kernel, which should show better performance on multi-core hardware
 * New: nVidia 302.17 support via [bumblebee](https://github.com/Bumblebee-Project) & [VirtualGL](http://www.virtualgl.org) for easing deployment
 * New: [Mozilla Firefox 14.0.1](http://www.mozilla.org/en-US/firefox/14.0.1/releasenotes/), using the **official** distribution
-* New: `noclean` option for deployments where the default clean slate is not desirable (e.g. Granny's bungalow)
-* New: `swarp` API for mouse positioning, many thanks to the [suckless community](http://suckless.org)
+* New: `noclean` [[API|boot]] option for deployments where the default clean slate is not desirable (e.g. Granny's bungalow)
+* New: `swarp` [[API|boot]] for mouse positioning, many thanks to the [suckless community](http://suckless.org)
 * Update: [Critical Flash update](https://www.adobe.com/support/security/bulletins/apsb12-18.html) [11.2.202.238](https://github.com/Webconverger/webc/commit/b9fc0cf7e6f25c962f17e2f28bc3bc171b160e7e)
-* Fixes: Better `xrandr` screen handling, try for portrait `xrandr-all=--rotate%20right`
+* Fixes: Better `xrandr` screen handling, for portrait orientation try `xrandr-all=--rotate%20right`
 * Fixes: [[Time synchronization|cronjob]] doesn't alter the BIOS clock
 * Fixes: Logging tweaks to increase signal over noise
+* Fixes: Better lock down
 
-For the full changelog: `git log --oneline --decorate 13.0..14.0` and here are the [[package changes|changes/13.0-14.0]].
+For the full changelog: `git log --oneline --decorate 13.0..14.0` on the [git
+maintained rootfs](https://github.com/Webconverger/webc) and here are the
+[[package changes|changes/13.0-14.0]].
 
 	md5sum: e3abd1fbbcd43f3d8465e1c42f9bfebd  webc-14.0.iso
 	sha1sum: 3afbe5823c54c0e7e5855b0b180f3ae082e247ba  webc-14.0.iso
+
+Please [download from Webconverger.com](http://webconverger.com/) who supply
+commercial services around this opensource project!
 
 Many [[thanks|acknowledgements]] to [Matthijs Kooijman](http://www.stderr.nl)
 who has earnt his commit rights and helped with this release and the next to
