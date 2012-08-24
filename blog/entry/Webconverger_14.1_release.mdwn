@@ -10,11 +10,11 @@ there is no need to upgrade from 14.0.
 
 Some of you might notice the size of image 209M is much smaller than the 459M
 of webc-14.0.iso. The `.git` folder present in the last releases was removed in
-the release for two reasons:
+this 14.1 release for two reasons:
 
-* It was bloating the final image
+* It was bloating the size of the final image
 * You can't reasonably upgrade to the upcoming version 15.0 from 14.x, so there is no point in having this extra baggage
 
-Please help [[testing]] the **future** [[upgradable|upgrades]] version, that
+Please help [[testing]] the **future** [[upgradable|upgrade]] version, that
 uses own home grown [git-fs technology](https://github.com/Webconverger/git-fs)
 from the [daily build site](http://build.webconverger.org).
