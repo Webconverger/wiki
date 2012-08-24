@@ -1,0 +1,20 @@
+14.1 fixes a [very embarrassing
+problem](https://github.com/Webconverger/webc/issues/65) with the installer,
+whereby `unsquashfs` was accidentally removed. If you don't install
+Webconverger to disk and use the [Live
+version](http://config.webconverger.com/faq/#what-do-you-mean-by-live-version-and-install-version),
+there is no need to upgrade from 14.0.
+
+	md5sum: 6d6fa0fc0de193a50e9145277f2ba254  webc-14.1.iso
+	sha1sum: 9f7d92464cad2a6d5dcd9b691e9fb57b720f2f08  webc-14.1.iso
+
+Some of you might notice the size of image 209M is much smaller than the 459M
+of webc-14.0.iso. The `.git` folder present in the last releases was removed in
+the release for two reasons:
+
+* It was bloating the final image
+* You can't reasonably upgrade to the upcoming version 15.0 from 14.x, so there is no point in having this extra baggage
+
+Please help [[testing]] the **future** [[upgradable|upgrades]] version, that
+uses own home grown [git-fs technology](https://github.com/Webconverger/git-fs)
+from the [daily build site](http://build.webconverger.org).
