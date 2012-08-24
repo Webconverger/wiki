@@ -10,13 +10,22 @@ there is no need to upgrade from 14.0.
 	md5sum: 6d6fa0fc0de193a50e9145277f2ba254  webc-14.1.iso
 	sha1sum: 9f7d92464cad2a6d5dcd9b691e9fb57b720f2f08  webc-14.1.iso
 
-Some of you might notice the size of image 209M is much smaller than the 459M
-of webc-14.0.iso. The `.git` folder present in the last releases was removed in
-this 14.1 release for two reasons:
+Some of you might notice the size of image weighs in at just 209M which is much
+smaller than the 459M of webc-14.0.iso. This is good news for those on a all
+too common slow connection!
+
+The `.git` folder present in the last releases was removed in this 14.1 release
+for two reasons:
 
 * It was bloating the size of the final image
-* You can't reasonably automagically upgrade to the upcoming git-fs based version 15.0 from 14.x, so there is no point in having this extra baggage
+* You can't reasonably automagically upgrade to the upcoming [git-fs](https://github.com/Webconverger/git-fs) based version 15.0 from 14.x, so there is no point in having this extra baggage
+
+Obviously the `.git` directory returns in the upcoming
+[git-fs](https://github.com/Webconverger/git-fs) based 15.0, and judging by our
+current git-fs based [dailies](http://build.webconverger.org), it only
+increases the size by 40M. Fantastic!
 
 Please help [[testing]] the **future** [[upgradable|upgrade]] version, that
 uses own home grown [git-fs technology](https://github.com/Webconverger/git-fs)
-from the [daily build site](http://build.webconverger.org).
+from the [daily build site](http://build.webconverger.org). Webconverger is
+innovating here with git like no other distribution.
