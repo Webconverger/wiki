@@ -1,0 +1,55 @@
+Years ago [CJK](http://en.wikipedia.org/wiki/CJK) was simply supported by the
+appropriate [SCIM](http://en.wikipedia.org/wiki/Smart_Common_Input_Method)
+based packages in Linux distributions.
+
+For **old** versions of Webconverger, one needed to simply add the packages:
+
+	ttf-vlgothic scim-anthy scim-uim scim-skk scim-prime scim-canna scim-tables-ja
+
+And it worked amazingly, considering SCIM was written in a billion lines of
+bonkers C++. Unsurprisingly it became unmaintained.
+
+Now we have [ibus](http://code.google.com/p/ibus/) with replaces the
+functionaliy of the unmaintained SCIM porject and allows input method switching
+in Xorg.
+
+However [Japanese users I'm told do not like basic
+ibus](http://twitter.com/nikkei_linux/status/228138085928534016) and want
+[mozc](http://code.google.com/p/mozc/) too.
+
+So after serveral hours of
+[moaning](http://twitter.com/kaihendry/status/238609063565475840) in in the new
+Webconverger the [[development|develop]] process requires to tweak the existing
+chroot. We need to add the following packages
+
+	ibus-mozc mozc-utils-gui ttf-vlgothic ibus-gtk
+
+Building these and their dependencies would take a LOT of time, so I am
+thankful Webconverger is still based upon [Debian
+packaging](http://packages.qa.debian.org/m/mozc.html) .
+
+To get the ibus daemon running you need to add into `~/.xinitrc`:
+
+	export GTK_IM_MODULE=ibus
+	export XMODIFIERS=@im=ibus
+	export QT_IM_MODULE=ibus
+	ibus-daemon -x -d
+
+And you need to `ibus-setup` in advance with by extracting in the ~webc:
+
+	curl -s http://archive.webconverger.com/japanese-mozc-gconf.tar.gz  |  tar zxvf -
+
+Finally outside the chroot, you need to append `locale=ja` on the
+`--bootappend-live` line of `auto/config`.
+
+Here is my [complete work log](http://archive.webconverger.com/ja-build.log) to
+guide you through the currently cumbersome process.
+
+1. The packages
+2. ibus environment details for .xinitrc
+3. bonkers gconf configuration preload
+4. locale=ja on the boot parameter
+
+Hopefully in the future with Japanese developer support, we can have Japanese
+support by default in Webconverger. If you don't manage to build it, [try
+this](http://archive.webconverger.com/webc-14.1-ja.iso).
