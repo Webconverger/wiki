@@ -1,13 +1,22 @@
-Years ago [CJK](http://en.wikipedia.org/wiki/CJK) was simply supported by the
-appropriate [SCIM](http://en.wikipedia.org/wiki/Smart_Common_Input_Method)
-based packages in Linux distributions.
+This post was prompted by
+[nikkei_linux](http://greptweet.com/u/kaihendry/#nikkei_Linux) [magazine in
+Japan](http://itpro.nikkeibp.co.jp/linux/). Since I'm a fan of Japanese people
+and culture, it was time to work on restoring at least the **J** of CJK
+support.
+
+Years ago [CJK](http://en.wikipedia.org/wiki/CJK) was simply supported in
+Webconverger by the appropriate
+[SCIM](http://en.wikipedia.org/wiki/Smart_Common_Input_Method) based packages
+in Linux distributions. I am well versed in this after working on a Korean
+distribution called Hannux in another life.
 
 For **old** versions of Webconverger, one needed to simply add the packages:
 
 	ttf-vlgothic scim-anthy scim-uim scim-skk scim-prime scim-canna scim-tables-ja
 
 And it worked amazingly, considering SCIM was written in a billion lines of
-bonkers C++. Unsurprisingly it became unmaintained.
+bonkers C++. Unsurprisingly SCIM became unmaintained and I removed the CJK
+support because it was bulking the image too much.
 
 Now we have [ibus](http://code.google.com/p/ibus/) with replaces the
 functionaliy of the unmaintained SCIM porject and allows input method switching
