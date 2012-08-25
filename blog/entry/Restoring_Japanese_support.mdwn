@@ -27,9 +27,9 @@ ibus](http://twitter.com/nikkei_linux/status/228138085928534016) and want
 [mozc](http://code.google.com/p/mozc/) too.
 
 So after serveral hours of
-[moaning](http://twitter.com/kaihendry/status/238609063565475840) in in the new
+[moaning](http://twitter.com/kaihendry/status/238609063565475840), the new
 Webconverger the [[development|develop]] process requires to tweak the existing
-chroot. We need to add the following packages
+chroot. We need to add the following packages:
 
 	ibus-mozc mozc-utils-gui ttf-vlgothic ibus-gtk
 
@@ -44,7 +44,7 @@ To get the ibus daemon running you need to add into `~/.xinitrc`:
 	export QT_IM_MODULE=ibus
 	ibus-daemon -x -d
 
-And you need to `ibus-setup` in advance with by extracting in the ~webc:
+And you need to `ibus-setup` in advance with by extracting in ~webc:
 
 	curl -s http://archive.webconverger.com/japanese-mozc-gconf.tar.gz  |  tar zxvf -
 
@@ -54,11 +54,15 @@ Finally outside the chroot, you need to append `locale=ja` on the
 Here is my [complete work log](http://archive.webconverger.com/ja-build.log) to
 guide you through the currently cumbersome process.
 
-1. The packages
+1. Installing the relevant packages and dependencies
 2. ibus environment details for .xinitrc
-3. bonkers gconf configuration preload
-4. locale=ja on the boot parameter
+3. the bonkers gconf configuration preload
+4. `locale=ja` on the boot parameter
 
-Hopefully in the future with Japanese developer support, we can have Japanese
-support by default in Webconverger. If you don't manage to build it, [try
+At this stage with our unstable git-fs work on trunk, dbus doesn't work. So
+work from the 14.1 tag.
+
+Hopefully this gave you some insight to a Webconverger [[build|develop]] and
+with Japanese developer support, we can have Japanese support by default in
+Webconverger. If you don't manage to build it, [try
 this](http://archive.webconverger.com/webc-14.1-ja.iso).
