@@ -18,8 +18,8 @@ And it worked amazingly, considering SCIM was written in a billion lines of
 bonkers C++. Unsurprisingly SCIM became unmaintained and I removed the CJK
 support because it was bulking the image too much.
 
-Now we have [ibus](http://code.google.com/p/ibus/) with replaces the
-functionaliy of the unmaintained SCIM porject and allows input method switching
+Now we have [ibus](http://code.google.com/p/ibus/) which replaces the
+functionaliy of the unmaintained SCIM project and allows input method switching
 in Xorg.
 
 However [Japanese users I'm told do not like basic
