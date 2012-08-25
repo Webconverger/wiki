@@ -24,6 +24,22 @@ You should test all the scenarios, for instance:
 3. Boot without network (Cable connected toggled off)
 4. Boot without network and click Cable connected toggle to come back online
 
+## PAE in 14.x
+
+	21:32 <Talasar> How do I get webconverger to boot using virtual box?
+	21:32 <Talasar> Just downloaded 14.1 and it stops loading when I have the choice to select "live" or "install"
+	21:33 <Talasar> It does the 10 sec count down then nothing
+	21:33 <blathijs> weird
+	21:34 <blathijs> You should be able to select live and it should start booting
+	21:34 <blathijs> You do need to enable "PAE/NX" in Settings -> System -> Processor
+	21:34 <blathijs> but I'd say that would only be a problem later on
+	21:34 <Talasar> It never leaves that menu screen.  the countdown stops at 1
+	21:35 <Talasar> if I hit enter sooner it has the same effect.  It just stops
+	21:35 <blathijs> Perhaps it tries to boot and then the kernel crashes because of no PAE (and the quiet option supresses the error mesage)
+	21:36 <Talasar> hey your good!!  That did the trick clicking the pae/nx box
+	21:36 <Talasar> Thanks!!
+	21:37 <Talasar> Off to play with it.  Thanks again
+
 # [Qemu](http://wiki.qemu.org)
 
 <a href="http://www.flickr.com/photos/hendry/6508721087/" title="qemu kvm running Webconverger debug mode by Kai Hendry, on Flickr"><img src="http://farm8.staticflickr.com/7162/6508721087_e782798e46.jpg" width="500" height="281" alt="qemu kvm running Webconverger debug mode"></a>
