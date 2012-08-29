@@ -1,3 +1,5 @@
+<img src="img/webc-ja-14.1-mozc.png" alt="Demonstrating mozc with Webconverger" />
+
 This post was prompted by
 [nikkei_linux](http://greptweet.com/u/kaihendry/#nikkei_Linux) [magazine in
 Japan](http://itpro.nikkeibp.co.jp/linux/). Since I'm a fan of Japanese people
