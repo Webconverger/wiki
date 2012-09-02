@@ -5,7 +5,7 @@ problem](https://github.com/Webconverger/webc/issues/65) with the installer,
 whereby `unsquashfs` was accidentally removed. If you don't install
 Webconverger to disk and use the [Live
 version](http://config.webconverger.com/faq/#what-do-you-mean-by-live-version-and-install-version),
-there is no need to upgrade from 14.0.
+there is no need to upgrade from [[14.0|blog/entry/Webconverger_14.0_release]].
 
 	md5sum: 6d6fa0fc0de193a50e9145277f2ba254  webc-14.1.iso
 	sha1sum: 9f7d92464cad2a6d5dcd9b691e9fb57b720f2f08  webc-14.1.iso
