@@ -1,0 +1,32 @@
+sudo mv firefox/ /home/hendry/debian/sid-root/root/webconverger/chroot/tmp
+
+	root@x220:/opt# mv firefox/ firefox-old
+	root@x220:/opt# mv /tmp/firefox/ .
+	root@x220:/opt# ls -l
+	total 12
+	drwxr-xr-x 5 root root  4096 Aug  7 10:11 VirtualGL
+	drwxr-xr-x 9 webc users 4096 Aug 24 23:55 firefox
+	drwxr-xr-x 9 root root  4096 Aug 21 15:39 firefox-old
+	root@x220:/opt# 
+
+Using the firefox-i18n packaging from Archlinux:
+
+/tmp/firefox-i18n$ for i in *.xpi; do unzip -d /tmp/exts/$(basename $i .  xpi) $i; done
+
+Copy in the extension directories to /opt/firefox/extensions/
+
+	ln -s /etc/webc/extensions/webconverger/ kiosk@webconverger.com
+
+For major version updates of the browsers, check the [Webconverger extension](https://github.com/Webconverger/iceweasel-webconverger) is uptodate.
+
+	git clone git@github.com:Webconverger/iceweasel-webconverger.git
+	git branch -b deploy origin/deploy
+	sudo make deploy
+
+Make sure you carry over the defaults, for the search engine to al.
+
+	x220:~/debian/sid-root/root/webconverger/chroot/opt/firefox-old$ sudo rsync -a defaults/ ../firefox/defaults
+
+Ensure Crash Reporter is disabled, for e.g. <https://github.com/Webconverger/webc/commit/171c1e6c634dbb7cd794e0cd82a3e6946f691d76>
+
+Example of an [update to 15.0](https://github.com/Webconverger/webc/commit/3f073fcc99472cc31514689ef8271f23c7e09069)
