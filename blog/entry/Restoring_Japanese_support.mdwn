@@ -61,8 +61,8 @@ guide you through the currently cumbersome process.
 3. the bonkers gconf configuration preload
 4. `locale=ja` on the boot parameter
 
-At this stage with our unstable git-fs work on trunk, dbus doesn't work. So
-work from the 14.1 tag.
+At this stage with our unstable git-fs work on trunk, [[dbus]] needs to be
+installed. So work from the 14.1 tag to be sure.
 
 Hopefully this gave you some insight to a Webconverger [[build|develop]] and
 with Japanese developer support, we can have Japanese support by default in
