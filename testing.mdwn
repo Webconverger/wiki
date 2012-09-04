@@ -17,12 +17,18 @@ Virtualbox is faster than Qemu.
 
 <a href="http://www.flickr.com/photos/hendry/7013543723/" title="Cable connected togglebox by Kai Hendry, on Flickr"><img src="http://farm8.staticflickr.com/7053/7013543723_1f0be8a9f7_m.jpg" width="240" height="166" alt="Cable connected togglebox"></a>
 
-You should test all the scenarios, for instance:
+Network use cases:
 
-1. Boot with network
-2. Boot with network and later become disconnected (Cable connected toggled off)
-3. Boot without network (Cable connected toggled off)
-4. Boot without network and click Cable connected toggle to come back online
+1. Boot with network - should work normally
+* Boot with network and later become disconnected - [should retry](https://github.com/Webconverger/iceweasel-webconverger/blob/master/content/netError.xhtml#L415)
+* Boot without network - should show no-net.png
+* Boot without network and become connected - should come back online
+* Boot connected to router, but router has no internet connectivity - should show no-net.png
+* Boot connected to router, with router regaining internet connectivity after 2 minutes
+
+Think of cases where network comes online but configuration is failed to be fetched.
+
+"debug mode" will bypass no-net.png
 
 ## PAE in 14.x
 
