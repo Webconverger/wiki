@@ -1,43 +1,13 @@
-[[!meta title="Adding an Addon to Webconverger"]]
+[[!meta title="Adding a Firefox Addon to Webconverger"]]
 
-With `about:addons` you should be able to see but not install Firefox [extensions/addons](https://addons.mozilla.org).
+To install an extension you need to:
 
-To install an extension you need to ensure the extension is correctly named as
-its `install.rdf` name and id, in [the build configuration](https://github.com/Webconverger/Debian-Live-config/tree/master/webconverger/config/includes.chroot/usr/lib/iceweasel/extensions):
+1) Place the extracted extension directory into the [[chroot]], such as [/opt/firefox/extensions](https://github.com/Webconverger/webc/tree/master/opt/firefox/extensions)
+2) Ensure the extension is correctly named as its `install.rdf` **id**
 
-	x220:~/webc/Debian-Live-config/webconverger/config/includes.chroot/usr/lib/iceweasel/extensions$
-	drwxrwxr-x 4 hendry users 4.0K Mar  4 13:28 touchkeyboard
-	drwxrwxr-x 5 hendry users 4.0K Feb 17 15:06 webconverger
-	lrwxrwxrwx 1 hendry users   12 Feb 17 15:02 {ee11fa88-036b-4661-bb04-d436f86bc06a} -> webconverger
+	root@x220:/opt/firefox/extensions# grep 'kiosk@webconverger.com' kiosk\@webconverger.com/install.rdf
+	em:id="kiosk@webconverger.com"
 
-Webconverger extension works, the extension directory **touchkeyboard** doesn't
-because it's not correctly named like the [Webconverger extension](https://addons.mozilla.org/en-US/firefox/addon/webconverger/).
+You can verify this manually with something like:
 
-	x220:~/webc/Debian-Live-config/webconverger/config/includes.chroot/usr/lib/iceweasel/extensions$
-	grep name touchkeyboard/install.rdf
-	<em:name>FxKeyboard</em:name>
-	x220:~/webc/Debian-Live-config/webconverger/config/includes.chroot/usr/lib/iceweasel/extensions$
-	mv touchkeyboard FxKeyboard
-
-Lets correct the name.
-
-	x220:~/webc/Debian-Live-config/webconverger/config/includes.chroot/usr/lib/iceweasel/extensions$
-	grep id FxKeyboard/install.rdf
-	<em:id>fxkeyboard@zabreznik.net</em:id>
-	 <em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id>
-
-`fxkeyboard@zabreznik.net` in this case is the **id** we need to symlink, however it's usually an UUID.
-
-	x220:~/webc/Debian-Live-config/webconverger/config/includes.chroot/usr/lib/iceweasel/extensions$
-	ln -s FxKeyboard fxkeyboard@zabreznik.net
-	x220:~/webc/Debian-Live-config/webconverger/config/includes.chroot/usr/lib/iceweasel/extensions$
-	ll
-	total 16K
-	drwxrwxr-x 4 hendry users 4.0K Mar  4 15:15 .
-	drwxrwxr-x 3 hendry users 4.0K Feb 17 15:02 ..
-	drwxrwxr-x 4 hendry users 4.0K Mar  4 13:28 FxKeyboard
-	drwxrwxr-x 5 hendry users 4.0K Feb 17 15:06 webconverger
-	lrwxrwxrwx 1 hendry users   12 Feb 17 15:02 {ee11fa88-036b-4661-bb04-d436f86bc06a} -> webconverger
-	lrwxrwxrwx 1 hendry users   11 Mar  4 15:15 fxkeyboard@zabreznik.net -> FxKeyboard
-
-FxKeyboard added!
+	for i in */; do grep -m 1 -H em:id "${i}install.rdf"; done

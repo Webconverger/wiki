@@ -38,7 +38,7 @@ Next I've created a few silly aliases to help me navigate around that structure:
 	alias i="cd ~/debian/sid-root/root/webconverger"
 	up() {
 		cd ~/debian/sid-root/root/webconverger/chroot
-		git push up
+		git push
 	}
 
 # Work flow
