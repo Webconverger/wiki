@@ -40,7 +40,7 @@ So you can make an authenticated push outside the chroot from the host system.
 
 Next I've created a few aliases to help me navigate around that structure:
 
-To enter the chroot and add/remove packages for example. `c; apt-get install something`
+To enter the chroot and add/remove packages for example. `c; apt-get update && apt-get install something`
 
 	alias c="sudo chroot ~/debian/sid-root/root/webconverger/chroot"
 
@@ -48,7 +48,7 @@ To build the ISO, I enter: `b; make`
 
 	alias b="sudo chroot ~/debian/sid-root"
 
-This gets me to the top level directory so I can do work from my host system.
+`i` gets me to the top level directory so I can do work from my host system.
 
 	alias i="cd ~/debian/sid-root/root/webconverger"
 
@@ -59,7 +59,9 @@ Whenever I drop out of the chroot, I run `up` to push the change [up to github](
 		git push
 	}
 
-# Keeping you git user once entering the chroot
+Sidenote: Isn't it silly how you can write shortcuts using `alias` or a function in bash?
+
+# Keeping your git user configuration in the the chroot
 
 	x220:~$ grep GIT ~/.bashrc
 	export GIT_AUTHOR_NAME="Your Name"
@@ -93,5 +95,5 @@ Once the ISO is built I launch [[Virtualbox|testing]] and test
 
 # Making a release
 
-We use the <http://build.webconverger.org/> servers on [[hetty|servers]] which
-`git clone --depth 1` the chroot for a minimal distribution.
+We use the <http://build.webconverger.org/> service on [[hetty|servers]] which
+`git clone --depth 1` the chroot for a the smallest size distribution.
