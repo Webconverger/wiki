@@ -2,7 +2,9 @@
 
 # chroot for building (running Debian Live)
 
-Webconverger relies on Debian Live to put the ISO together. Please create an Unstable <abbr title="Still in Development">sid</abbr>-chroot like so in `~/debian`:
+Webconverger relies on Debian Live to put the ISO together. Please create an
+Unstable <abbr title="Still in Development">sid</abbr>-chroot like so in
+`~/debian`:
 
 	cd ~/debian
 	sudo debootstrap sid sid-root http://cdn.debian.net/debian/
@@ -21,57 +23,75 @@ Clone a copy of <https://github.com/Webconverger/Debian-Live-config> into root's
 
 # the Webconverger chroot within the build chroot
 
-The [Makefile](https://github.com/Webconverger/Debian-Live-config/blob/master/webconverger/Makefile) should clone the [Webconverger
-chroot](https://github.com/Webconverger/webc) from a read only github URL set in the [Makefile](https://github.com/Webconverger/Debian-Live-config/blob/master/webconverger/Makefile)
+The
+[Makefile](https://github.com/Webconverger/Debian-Live-config/blob/master/webconverger/Makefile)
+should clone the [Webconverger chroot](https://github.com/Webconverger/webc)
+from a read only github URL set in the
+[Makefile](https://github.com/Webconverger/Debian-Live-config/blob/master/webconverger/Makefile)
 
-For a developer with write access, you should add a **up** remote, so you can
-commit back the changes you make.
+Your remotes should look like:
 
-	git remote add up git@github.com:/Webconverger/webc.git
+	origin git://github.com/Webconverger/webc.git (fetch)
+	origin git@github.com:Webconverger/webc.git (push)
+
+So you can make an authenticated push outside the chroot from the host system.
 
 # Handy shortcuts
 
-Next I've created a few silly aliases to help me navigate around that structure:
+Next I've created a few aliases to help me navigate around that structure:
+
+To enter the chroot and add/remove packages for example. `c; apt-get install something`
 
 	alias c="sudo chroot ~/debian/sid-root/root/webconverger/chroot"
+
+To build the ISO, I enter: `b; make`
+
 	alias b="sudo chroot ~/debian/sid-root"
+
+This gets me to the top level directory so I can do work from my host system.
+
 	alias i="cd ~/debian/sid-root/root/webconverger"
+
+Whenever I drop out of the chroot, I run `up` to push the change [up to github](https://github.com/Webconverger/webc/commits/master).
+
 	up() {
 		cd ~/debian/sid-root/root/webconverger/chroot
 		git push
 	}
 
+# Keeping you git user once entering the chroot
+
+	x220:~$ grep GIT ~/.bashrc
+	export GIT_AUTHOR_NAME="Your Name"
+	export GIT_COMMITTER_NAME="Your Name"
+	export GIT_COMMITTER_EMAIL=you@example.com
+	export GIT_AUTHOR_EMAIL=you@example.com
+
+Have a link like this in your `/etc/sudoers`
+
+	Defaults    env_keep+=SSH_AUTH_SOCK,env_keep+=GIT_*
+
+So when you run `sudo chroot`, it should have your basic git settings.
+
 # Work flow
 
-If you can think of optimisations, please let me know! Lets assume for example I'm tweaking
+If you can think of optimisations, please let me know! Lets assume for example
+I'm tweaking
 <https://github.com/Webconverger/webc/blob/master/etc/webc/webc.conf>.
 
 First I go, `c` which chroots me into [webc
 rootfs](https://github.com/Webconverger/webc/blob/master/etc/webc). I make an
-edit. And exit the terminal.
+edit. I add and commit than change, otherwise git-fs will not pick up that
+change. Then I exit the terminal and drop back in the host system.
 
 Then I go `b` to get into the Debian sid-chroot with [Debian Live build
 script](https://github.com/Webconverger/Debian-Live-config). I run `make` and
 builds the ISO.
 
-Once the ISO is built I launch [[Virtualbox|testing]] and test the ISO
-filename, which should be described by its **last committed** git log hash. So if
-you made a change you are testing and your rootfs is "dirty", the filename does
-not change.
+Once the ISO is built I launch [[Virtualbox|testing]] and test
+`binary.hybrid.iso`.
 
-Assuming the edit does as intended, you then need to commit the change by
-logging into the chroot with `c` and commiting it. Feel free to setup your [git
-user and
-email](http://help.github.com/set-your-user-name-email-and-github-token/). Exit
-the terminal and now you need to push the change back as the host's system
-user.
+# Making a release
 
-Execute `up` which pushes the change to github using the authenticated URL.
-
-To kick off a build with your change, I have a script, which kicks off a build in my home directory:
-
-	hb() {
-	ssh hetty "cd ~/Debian-Live-config/webconverger; sudo make -f ~/Debian-Live-config/webconverger/Makefile deploy"
-	}
-
-After running it the newly committed hash should appear as a daily build ISO at <http://build.webconverger.org/>
+We use the <http://build.webconverger.org/> servers on [[hetty|servers]] which
+`git clone --depth 1` the chroot for a minimal distribution.
