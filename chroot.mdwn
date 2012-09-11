@@ -9,7 +9,7 @@ Unstable <abbr title="Still in Development">sid</abbr>-chroot like so in
 	cd ~/debian
 	sudo debootstrap sid sid-root http://cdn.debian.net/debian/
 
-[debootstrap](http://aur.archlinux.org/packages.php?ID=2970) in available in other Linux distros like Archlinux.
+[debootstrap](http://aur.archlinux.org/packages.php?ID=2970) is available in other Linux distros like Archlinux.
 
 Then `sudo chroot ~/debian/sid-root`, and apt-get install as follows:
 
