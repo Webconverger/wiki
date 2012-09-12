@@ -9,7 +9,7 @@ support.
 Years ago [CJK](http://en.wikipedia.org/wiki/CJK) was simply supported in
 Webconverger by the appropriate
 [SCIM](http://en.wikipedia.org/wiki/Smart_Common_Input_Method) based packages
-in Linux distributions. I am well versed in this after working on a Korean
+in Linux distributions. I am well versed in this after [working](http://hendry.iki.fi/cv/resume.html) on a Korean
 distribution called Hannux in another life.
 
 For **old** versions of Webconverger, one needed to simply add the packages:
@@ -21,14 +21,14 @@ bonkers C++. Unsurprisingly SCIM became unmaintained and I removed the CJK
 support because it was bulking the image too much.
 
 Now we have [ibus](http://code.google.com/p/ibus/) which replaces the
-functionaliy of the unmaintained SCIM project and allows input method switching
+functionally of the unmaintained SCIM project and allows input method switching
 in Xorg.
 
 However [Japanese users I'm told do not like basic
 ibus](http://twitter.com/nikkei_linux/status/228138085928534016) and want
 [mozc](http://code.google.com/p/mozc/) too.
 
-So after serveral hours of
+So after several hours of
 [moaning](http://twitter.com/kaihendry/status/238609063565475840), the new
 Webconverger the [[development|develop]] process requires to tweak the existing
 chroot. We need to add the following packages:
@@ -58,7 +58,7 @@ guide you through the currently cumbersome process.
 
 1. Installing the relevant packages and dependencies
 2. ibus environment details for .xinitrc
-3. the bonkers gconf configuration preload
+3. the bonkers [gconf configuration preset](http://archive.webconverger.com/japanese-mozc-gconf.tar.gz)
 4. `locale=ja` on the boot parameter
 
 At this stage with our unstable git-fs work on trunk, [[dbus]] needs to be
@@ -66,5 +66,4 @@ installed. So work from the 14.1 tag to be sure.
 
 Hopefully this gave you some insight to a Webconverger [[build|develop]] and
 with Japanese developer support, we can have Japanese support by default in
-Webconverger. If you don't manage to build it, [try
-this](http://archive.webconverger.com/webc-14.1-ja.iso).
+Webconverger. If you don't manage to build it, [try this demo](http://archive.webconverger.com/webc-14.1-ja.iso).
