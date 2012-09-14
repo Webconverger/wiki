@@ -1,0 +1,23 @@
+1. Boot a [Live Linux Ubuntu](http://www.ubuntu.com/download)
+2. Make sure your machine is connected to the internet (LAN)
+3. Open an terminal (In Ubuntu 12.04 LTS hit the windows key an search for "terminal" or "xterm" in the dash)
+4. Make sure your touch screen uses the correct axes (if not you will hit in the right top corner and the mouse pointer is in the left bottom corner). To correct this do the following:
+	1. Run in the terminal: `xinput list`
+	2. Note the ID of the touch screen pointer/controller (I will use in example ID 9)
+	3. Now you can swap the axes with this command in terminal: `xinput set-prop 9 "Evdev Axes Swap" 1`
+	4. Check the axes with touch on your screen
+	5. If does not work, check the properties of your device with: `xinput list-props 9`
+5. [Get the right coordinates of your touch device](http://thefanclub.co.za/how-to/how-ubuntu-1204-touchscreen-calibration):
+	1. Open the Ubuntu software center (In Ubuntu 12.04 LTS hit the windows key an search for "software" in the dash.)
+	2. Search for "calibrate"
+	3. Install "Calibrate Touchscreen" (maybe you must first hit "use this source" ['universe' package repository] than hit "install")
+	4. Run the program and calibrate the touchscreen
+	5. Note the **calibration data**
+6. Run in the terminal (use your data!): `xinput set-prop 9 "Evdev Axis Calibration" 0 4132 0 4135`
+7. Read more for this here: <http://ubuntuforums.org/showthread.php?t=1493407>
+8. If the mouse works fine you can now shutdown the (Ubuntu) Live image on the target machine
+
+# Example configuration
+
+	xinput set-prop 9 "Evdev Axis Calibration" 0 4132 0 4135
+	xinput set-prop 9 "Evdev Axes Swap" 1
