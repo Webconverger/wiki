@@ -1,5 +1,7 @@
 <a href="http://www.flickr.com/photos/hendry/7202592208/" title="Nvidia by Kai Hendry, on Flickr"><img src="http://farm8.staticflickr.com/7219/7202592208_0a47b7018b.jpg" width="500" height="375" alt="Nvidia"></a>
 
+# Legacy nvidia hardware not supported
+
 The nvidia "unified" driver unfortunately doesn't have support for "legacy"
 nvidia hardware. In this case, with some luck, Xorg will default to the nouveau
 driver. I would be ideal if someone could confirm their old legacy nvidia
@@ -15,11 +17,30 @@ acceleration on "legacy" nvidia cards since:
 You can tell if your nvidia is considered a legacy device by looking
 up the ids on: <https://github.com/Webconverger/webc/tree/master/usr/share/nvidia>
 
-The nvidia hardware detection happens in
-<https://github.com/Webconverger/webc/blob/master/etc/webc/startx.sh> because
-`nvidia-xconfig` is unfortunately very stupid. I must also credit Andreas
-Beckmann since his and other Debian contributors helped a lot with
-<http://anonscm.debian.org/viewvc/pkg-nvidia/packages/nvidia-graphics-drivers/trunk/debian/>
+# nvidia sanity testing on linux
+
+These files should be in use:
+
+	/dev/nvidia0
+	/usr/lib/libnvidia-glcore.so.302.17
+	/usr/lib/nvidia/current/libGL.so.302.17
+	/usr/lib/nvidia/current/libglx.so.302.17
+	/usr/lib/nvidia/current/nvidia_drv.so
+	/usr/lib/nvidia/diversions/libglx.so
+	/usr/lib/tls/libnvidia-tls.so.302.17
+
+<http://static.dabase.com/fps> is a simple WebGL FPS test
+
+# Hardware setups
+
+1. Plugged directly into nvidia card - rare on desktop kiosk deployments, should not happen on laptops equipped with nvidia acceleration in "optimus" setups
+2. Optimus type setups, display connected by VGA and not directly into nvidia card
+
+Currently from 14.1 only case 2 is supported.
+
+Typical issues:
+* <https://github.com/Webconverger/webc/issues/67>
+* Issue covering case 1 <https://github.com/Webconverger/webc/issues/76>
 
 # nVidia integration guide
 
