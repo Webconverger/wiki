@@ -11,4 +11,4 @@ Using option 2 is the most convenient, as this ensures you have you background s
 
 Currently the background image URL is checked after every browser session, here is the relevant code:
 
-<https://github.com/Webconverger/webc/blob/master/home/webc/.xinitrc#L84>
+<https://github.com/Webconverger/webc/blob/master/home/webc/webc.sh#L138>
