@@ -1,7 +1,5 @@
 [[!meta title="Scheduling a shutdown"]]
 
-Available from [674496903d](https://github.com/Webconverger/webc/commit/674496903d8ec9b4eb6d1e30c92f7f784d36cf2e)
-
 Instead in investing in a 5USD [time
 switch](http://en.wikipedia.org/wiki/Time_switch), you can configure
 Webconverger to shutdown at a set time.
@@ -10,6 +8,12 @@ Use case: Museum closes at 6pm Tuesday to Sunday (closed Mondays).  Kiosks are
 powered on manually by staff at opening time in order to be ready and waiting
 for the public. Though for the convenience of staff, kiosks automatically turn
 off at 6pm sharp, closing time.
+
+Note on booting automatically in the morning. This can be done
+[Wake-on-LAN](http://en.wikipedia.org/wiki/Wake-on-LAN) but it's fairly complex
+to setup and unfortunately there is nothing Webconverger can do remotely.
+
+**Update**: [Sleep is the future](https://github.com/Webconverger/webc/issues/81).  Cron won't be used to turn off machines, once the new **sleep** after a period of inactivity feature is realised.
 
 # Step 1, figure out your timezone else use UTC
 
@@ -35,16 +39,14 @@ The [cron](http://en.wikipedia.org/wiki/Cron) utility is the time-based job
 scheduler which unfortunately has a awkward API syntax which we make even
 uglier by replacing spaces with `%20`.
 
-To honor the above use case a crontab entry would look like:
+To realise the above use case a crontab entry would look like:
 
 	00 18 * * * root halt
 
 At 6PM, as the "super user" root user, halt the machine. i.e. power down.
 
-To pass this as a configuration to Webconverger, it needs to be encoded on [[boot]] like so:
+To pass this as a configuration to Webconverger, it needs to be `encodeURI` on [[boot]] like so:
 
 	cron=00%2018%20*%20*%20*%20root%20halt
 
-The script
-[live-config](https://github.com/Webconverger/webc/commit/674496903d8ec9b4eb6d1e30c92f7f784d36cf2e#diff-5)
-writes the cronjob.
+Hint for developers: The script [live-config](https://github.com/Webconverger/webc/blob/master/etc/webc/live-config.sh) writes out the cronjob.
