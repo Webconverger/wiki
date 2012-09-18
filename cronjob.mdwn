@@ -9,9 +9,9 @@ powered on manually by staff at opening time in order to be ready and waiting
 for the public. Though for the convenience of staff, kiosks automatically turn
 off at 6pm sharp, closing time.
 
-Note on booting automatically in the morning. This can be done
+Note on booting automatically in the morning: This can be done
 [Wake-on-LAN](http://en.wikipedia.org/wiki/Wake-on-LAN) but it's fairly complex
-to setup and unfortunately there is nothing Webconverger can do remotely.
+to setup locally and unfortunately there is nothing Webconverger can do remotely.
 
 **Update**: [Sleep is the future](https://github.com/Webconverger/webc/issues/81).  Cron won't be used to turn off machines, once the new **sleep** after a period of inactivity feature is realised.
 
