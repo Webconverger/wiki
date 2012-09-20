@@ -47,6 +47,13 @@ file to my Linux machine and run [HandBrake](http://handbrake.fr/) over it:
 Now the resulting file can be imported into iMovie on the MBP. A joint Windows,
 Linux & Mac effort!
 
+# recordmydesktop
+
+`recordmydesktop` has been a reliable tool for creating screencasts in OGG
+video format. Unfortunately uploading a OGG video to Youtube results in a green
+mess (no kidding), so you need to convert it to AVI using
+<https://github.com/kaihendry/recordmydesktop-youtube>
+
 # iMovie
 
 When importing videos, the Inspector tool's Normalize Clip Volume in the Audio
