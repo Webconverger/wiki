@@ -1,25 +1,8 @@
 [[!meta title="Hiding the boot menu"]]
 
-A common [customisation request](http://webconverger.com/buy/) is to disable
-the [[boot_menu|boot]] prompt, in order to:
+In deployments where it is desired to hide the boot menu, it is recommended you
+simply **install** Webconverger to disk.
 
-* Make boots quicker
-* Disallow any [[boot]] time alterations
-
-This is done by replacing the syslinux theme with `progress-appliance` in
-[auto/config](https://github.com/Webconverger/Debian-Live-config/blob/master/webconverger/auto/config)
-when [[building_Webconverger|develop]].
-
-	--syslinux-theme progress-appliance
-
-[[Thanks|acknowledgements]] to [Daniel on
-Debian-Live](http://lists.debian.org/debian-live/2012/01/msg00027.html).
-
-## Without rebuilding
-
-You can also try modify the ISO images as described in [[develop]] and change `isolinux/isolinux.cfg ` to values in your `live.cfg`.
-
-	default linux
-	label linux
-		kernel /live/vmlinuz1
-		append initrd=/live/initrd1.img boot=live quiet ...the rest of your options
+Subsequent boots will then boot straight into Webconverger without prompt,
+making Webconverger effectively locked to its
+[remote](http://config.webconverger.com) or preset configuration.
