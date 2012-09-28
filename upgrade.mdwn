@@ -1,91 +1,47 @@
 We are designing the upgrade mechanism for:
 
-* Efficiency - We use _next level_ technology [git](http://git-scm.com/) to manage the entire root filesystem (this is awesome btw)
-* Allow Webconverger Limited the business [to move to a subscription model](http://webconverger.org/blog/entry/Webconverger_11.2_release_notes/)
-
-We are super sensitive about your [[privacy]], yet initially we need to collect
-some more information from [daily build](http://build.webconverger.org/)
-testers to **ensure this technique works**.  Ultimately we want to share our
-approach here to make the "chroot on git" idea take hold amongst Linux
-distributions. Therefore the hope is as a [[developer|develop]] in the near
-future you can use our technology to point to your own curated chroot.
-
-# The upgrade features requires persistently
-
-In future we will have a:
-
-* USB-HDD version which can upgrade itself or do a HD install
-* ISO version which can ONLY do a  HD Install
-
-Webconverger's install makes several assumptions and uses its own lightweight
-[install
-script](https://github.com/Webconverger/webc/blob/master/etc/webc/install-to-disk.sh)
-to install onto a writable `/dev/sda`. This typically is the first hard drive in your PC.
-
-WARNING: Installing Webconverger will irrevocably replace your hard drive contents.
-
-# How upgrades might work (ALPHA)
-
-The partition has a **/.git/** directory pointing to the same **Webconverger
-chroot** maintained publicly on github. Using git gives us several advantages:
-
+* Efficiency - We use _next level_ technology [git](http://git-scm.com/) to manage the entire root filesystem
+* Help Webconverger Limited the business [to move effectively to a subscription model](http://webconverger.org/blog/entry/Webconverger_11.2_release_notes/)
 * We can easily check the integrity of the filesystem, good for [[security]]
 * Git is fast & efficient for upgrades, also good for [[security]]
 
+# The upgrade features requires persistently
+
+* USB-HDD (.img) version which can upgrade itself or do a HD install
+* ISO (.iso) version which can ONLY do a HD Install
+
 ## Upgrade process
 
-Webconverger uses git to maintain the installed filesystem.
+Webconverger uses git to maintain the [filesystem](https://github.com/Webconverger/webc).
 
-Commits tagged with the following format list the known working git refs
+1. Webconverger downloads a config and looks for `fetch-revision=BRANCH`, otherwise defaults to <https://github.com/Webconverger/webc/tree/master>
+2. On boot it fetches upto that branch, unless `update_revision=SHA` is specified, which is used for debugging
+3. If there is an update, the kernels upon /live/image/live are updated and a new git-revision based on the fetch branch is applied
+4. On **REBOOT** the script `/usr/share/initramfs-tools/scripts/live` in the initrd [git-fs](https://github.com/Webconverger/git-fs) mounts the git-revision SHA1 set upon the `/proc/cmdline`
 
-* booted-$(date --rfc-3339=seconds | tr ' ' T)
+In future we hope to utilise the boot-once option in extlinux, where by if the
+machine failed to boot from a kernel error, a subsequent boot will revert to
+the previous "known working" git-revision and kernel.
 
-The update service must:
+# Two reboots for an update, ~48hr delay
 
-	track the remote branch
-	while true; do
-		sleep 8+rand hours
-		if working commit not tagged
-			create tag
-		if is in sync with remote
-			continue
-		git fetch updates
-		reboot
-	done
+Webconverger only fetches on boot, so if an update is pushed, an already
+running system needs effectively **two** boots, one to fetch, and one to apply
+the changes to come up on the revision.
 
-the booting initrd must:
+In practice a lot of machines are shutdown overnight. So for example an update
+that is pushed on a Monday afternoon, would be downloaded on the Tuesday boot
+and applied on the Wednesday boot.
 
-	merge those updates into the filesystem
-	run the scripts in /.git-fixups/*
-	validate the new filesystem
-	pivot to the new filesystem
+We want to get this time down. For example an option that syncronously checks
+for updates and reboots immediately for security concious deployments.
 
-# [updates.sh](https://github.com/Webconverger/webc/blob/master/etc/webc/updates.sh) and configuration
+# no_updates disables upgrades
 
-If enabled (**noupdates** is omitted) [updates.sh](https://github.com/Webconverger/webc/blob/master/etc/webc/updates.sh) is a simple and powerful mechanism to:
+Disabling upgrades will disable Webconverger from doing a `git fetch` on boot.
 
-* run **signed** shell code as root as the machine boots (this should not be normally needed for _Community_ uses, however it will be enabled until we are happy with the install)
-* setup the machine with a [custom configuration](http://webconverger.com/buy), for paying users we plan to use the mechanism to maintain their configuration
+# Notes on validation
 
-## update logging
-
-We are logging script output with <https://github.com/Webconverger/logs>
-
-We will make it so that only Webconverger can see the logs atm, however to be
-clear for [[privacy]], these logs will not contain any personal information.
-
-Currently we plan to use a machine UUID and MAC to track individual machines.
-
-# Your feedback and support is much appreciated
-
-We believe we are doing something new and exciting in the operating system space.
-Over the Web we are hoping to configure and update customers kiosk devices,
-optionally offering logging and management services.
-
-For the community we will provide an unconfigured secure stock Web kiosk with
-the default homepage without the [updates.sh](https://github.com/Webconverger/webc/blob/master/etc/webc/updates.sh) script that is reliably upto date
-and publicly accountable to its chroot on github.
-
-If we missed something please kindly let us know: <feedback2012@webconverger.com> Thank you!
-
-Many thanks to [Anselm Garbe](http://garbe.us/) for his comments.
+* using hashes as update_revision, you'll do a sort of implicit validation
+* signed tags might be useful, but we'll have to have some way to circumvent that so we can push debug revisions without having to tag all of them
+* use https:// instead of git://
