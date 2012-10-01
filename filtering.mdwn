@@ -1,6 +1,6 @@
 # Limiting users to your Website
 
-<img src="/chrome/noaddressbar.png" alt="iceweasel-webcnoaddressbar" />
+<img src="/chrome/webcnoaddressbar.png" alt="No addressbar" />
 
 The problem: A common feature request is for whitelisting, content filtering and/or censorship.
 
@@ -9,7 +9,7 @@ The problem: A common feature request is for whitelisting, content filtering and
 
 Recommended solution: To practically limit users to your Website, in your
 [customisation order](http://webconverger.com) please specify
-[[no address bar|kiosk]]. This modifies the User Interface to
+[[chrome=webcnoaddressbar|kiosk]]. This modifies the User Interface to
 remove the URL addressbar, so that users can't navigate away from your
 homepage.
 
@@ -32,9 +32,9 @@ work with it via the HTTP proxy API, for example:
 
 * [OpenDNS](http://www.opendns.com/) provide a [filtering service](http://www.opendns.com/web-filtering/).
 
-Using the `dns=` [[boot]] API
+Using the `dns=` [[API]]
 
-# Further unsupported options
+# Further un-supported options
 
 ## Using your WRT54G-L router
 
