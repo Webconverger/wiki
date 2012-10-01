@@ -17,7 +17,7 @@
 7. Read more for this here: <http://ubuntuforums.org/showthread.php?t=1493407>
 8. If the mouse works fine you can now shutdown the (Ubuntu) Live image on the target machine
 
-# Example configuration using the xinput= API introduced from version 15
+# Example configuration using the xinput= API introduced from version 15 [#79](https://github.com/Webconverger/webc/issues/79)
 
 	xinput set-prop 9 "Evdev Axis Calibration" 0 4132 0 4135
 	xinput set-prop 9 "Evdev Axes Swap" 1
