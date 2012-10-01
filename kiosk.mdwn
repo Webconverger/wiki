@@ -15,7 +15,7 @@ interface for using the Web.
 
 # No address bar
 
-	chrome=webconverger
+	chrome=webcnoaddressbar
 
 Customization option, perfect for [[filtered|filtering]] setups. For customers
 who want patrons to browse, but not enter in URLs to navigate away.
@@ -24,7 +24,7 @@ who want patrons to browse, but not enter in URLs to navigate away.
 
 # Fullscreen
 
-	chrome=webcnoaddressbar
+	chrome=webcfullscreen
 
 Customization option. For customers who want to do basic [Digital
 signage](http://en.wikipedia.org/wiki/Digital_Signage) or just [show off some
