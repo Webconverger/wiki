@@ -1,14 +1,22 @@
 [[!meta title="Webconverger chrome UI options"]]
 
+Webconverger has its in house Firefox extension to tweak the user interface
+elements such as the URL bar and icons.
+
 # Default
 
+	chrome=webconverger
+
 **Default** and most common. The XPI is available at
-<https://addons.mozilla.org/en-US/firefox/addon/webconverger/> however it
-doesn't quite preserve your privacy unless you use it in conjunction with the Webconverger OS.
+<https://addons.mozilla.org/en-US/firefox/addon/webconverger/> however it does
+not preserve your privacy unless you use it in conjunction with the
+Webconverger OS.
 
 <img src="/chrome/webconverger.png" alt="webconverger" />
 
 # No address bar
+
+	chrome=webconverger
 
 Customization option, perfect for [[filtered|filtering]] setups. For customers
 who want patrons to browse, but not enter in URLs to navigate away.
@@ -16,6 +24,8 @@ who want patrons to browse, but not enter in URLs to navigate away.
 <img src="/chrome/webcnoaddressbar.png" alt="webcnoaddressbar" />
 
 # Fullscreen
+
+	chrome=webcnoaddressbar
 
 Customization option. For customers who want to do basic [Digital
 signage](http://en.wikipedia.org/wiki/Digital_Signage) or just [show off some
@@ -28,6 +38,6 @@ proprietary extension for the digital signage use case.
 
 If you're concerned about the scroll bar, alter the **overflow** CSS element.
 
-# Source
+# Source code
 
 * [Webconverger extension source code](https://github.com/Webconverger/iceweasel-webconverger)
