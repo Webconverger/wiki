@@ -17,7 +17,14 @@
 7. Read more for this here: <http://ubuntuforums.org/showthread.php?t=1493407>
 8. If the mouse works fine you can now shutdown the (Ubuntu) Live image on the target machine
 
-# Example configuration
+# Example configuration using the xinput= API introduced from version 15
 
 	xinput set-prop 9 "Evdev Axis Calibration" 0 4132 0 4135
 	xinput set-prop 9 "Evdev Axes Swap" 1
+
+<img src="/img/encodeURI.png">
+
+Which when `encodeURI`-ed, becomes:
+
+	xinput=set-prop%209%20%22Evdev%20Axis%20Calibration%22%200%204132%200%204135
+	xinput=set-prop%209%20%22Evdev%20Axes%20Swap%22%201
