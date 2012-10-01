@@ -59,4 +59,4 @@ take effect, it's best to reboot the machine.
 
 # Debugging
 
-Append `debug` on cmdline and view `/var/log/syslog`
+Append `debug` on cmdline and view `/var/log/syslog`. You can export logs using the `log=` [[API|boot]]
