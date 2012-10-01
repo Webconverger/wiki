@@ -1,16 +1,15 @@
 [[!meta title="Webconverger chrome UI options"]]
 
-Webconverger has its in house Firefox extension to tweak the user interface
-elements such as the URL bar and icons.
+Webconverger has its own [Firefox kiosk
+extension](https://addons.mozilla.org/en-US/firefox/addon/webconverger) to
+tweak the **user interface** elements such as the URL bar and icons.
 
 # Default
 
 	chrome=webconverger
 
-**Default** and most common. The XPI is available at
-<https://addons.mozilla.org/en-US/firefox/addon/webconverger/> however it does
-not preserve your privacy unless you use it in conjunction with the
-Webconverger OS.
+The goal with this default to have a **stable**, simple & familiar user
+interface for using the Web.
 
 <img src="/chrome/webconverger.png" alt="webconverger" />
 
