@@ -49,13 +49,13 @@ requirements](http://www.mozilla.com/en-US/firefox/system-requirements.html).
 
 # Customisation
 
-<http://webconverger.com> is a UK registered company that powers this project.
-The money generated through customisations is the fuel.
+<http://webconverger.com> is a UK & Singapore registered company that powers
+this project.  The money generated through customisations is the fuel.
 
 In the past there were bespoke customisations where an ISO was generated and the
 turnaround was a day or two.
 
-Now there is a [new customisation
+Now there is a [customisation
 service](http://config.webconverger.com/faq). From version 12, a downloaded
 Webconverger should boot into this service and allow customers an easy user
 experience to setup and subscribe.

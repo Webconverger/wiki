@@ -8,7 +8,7 @@ Webconverger's default  [network/interfaces](https://github.com/Webconverger/web
 
 Please also see [[wireless]] and [[testing]].
 
-### Overriding DNS via [[boot]]
+### Overriding DNS via [[API]]
 
 Preferably you set this in your DHCPD, however you can override DNS for example for
 [[filtering]] like so:
