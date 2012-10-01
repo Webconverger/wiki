@@ -103,8 +103,12 @@ Please refer to [[networking]]
 
 ### Changing [[browser_chrome|kiosk]]
 
+<https://github.com/Webconverger/webc/tree/master/etc/webc/extensions>
+
+* chrome=webconverger - this is the default
 * chrome=webcnoaddressbar - disable URL bar and search bar, good for [[controlled_access_setups|filtering]]
 * chrome=webcfullscreen - fullscreen, used typically with [Neon](http://neon.webconverger.com/)
+* chrome=debug - nightly testing tools
 
 ### Wireless configuration
 

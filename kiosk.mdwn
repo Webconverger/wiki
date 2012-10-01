@@ -1,37 +1,33 @@
 [[!meta title="Webconverger chrome UI options"]]
 
-# iceweasel-webconverger
+# Default
 
 **Default** and most common. The XPI is available at
 <https://addons.mozilla.org/en-US/firefox/addon/webconverger/> however it
-doesn't quite preserve your privacy as running it ontop of the Webconverger
-operating system.
+doesn't quite preserve your privacy unless you use it in conjunction with the Webconverger OS.
 
-<img src="/chrome/webc.png" alt="iceweasel-webconverger" />
+<img src="/chrome/webc.png" alt="webconverger" />
 
-<http://webconverger.com/xpis/webconverger.xpi>
+# No address bar
 
-# iceweasel-webcnoaddressbar
+Customization option, perfect for [[filtered|filtering]] setups. For customers
+who want patrons to browse, but not enter in URLs to navigate away.
 
-Customization option. For customers who want patrons to browse, but not enter
-in URLs.
+<img src="/chrome/noaddressbar.png" alt="webcnoaddressbar" />
 
-<img src="/chrome/noaddressbar.png" alt="iceweasel-webcnoaddressbar" />
+# Fullscreen
 
-<http://webconverger.com/xpis/webcnoaddressbar.xpi>
-
-# iceweasel-webcfullscreen
-
-Customization option. For customers who want to do [Digital
+Customization option. For customers who want to do basic [Digital
 signage](http://en.wikipedia.org/wiki/Digital_Signage) or just [show off some
 pictures](http://www.subitophoto.net/slideshow/machupicchu/) somewhere.
 
-<img src="/chrome/fullscreen.png" alt="iceweasel-webcfullscreen" />
+[Neon](http://neon.webconverger.com/) has further tweaks and currently
+proprietary extension for the digital signage use case.
 
-<http://webconverger.com/xpis/webcfullscreen.xpi>
+<img src="/chrome/fullscreen.png" alt="webcfullscreen" />
 
 If you're concerned about the scroll bar, alter the **overflow** CSS element.
 
 # Source
 
-* [Iceweasel-webconverger source code](https://github.com/Webconverger/iceweasel-webconverger)
+* [Webconverger extension source code](https://github.com/Webconverger/iceweasel-webconverger)
