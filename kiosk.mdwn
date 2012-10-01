@@ -6,14 +6,14 @@
 <https://addons.mozilla.org/en-US/firefox/addon/webconverger/> however it
 doesn't quite preserve your privacy unless you use it in conjunction with the Webconverger OS.
 
-<img src="/chrome/webc.png" alt="webconverger" />
+<img src="/chrome/webconverger.png" alt="webconverger" />
 
 # No address bar
 
 Customization option, perfect for [[filtered|filtering]] setups. For customers
 who want patrons to browse, but not enter in URLs to navigate away.
 
-<img src="/chrome/noaddressbar.png" alt="webcnoaddressbar" />
+<img src="/chrome/webcnoaddressbar.png" alt="webcnoaddressbar" />
 
 # Fullscreen
 
@@ -24,7 +24,7 @@ pictures](http://www.subitophoto.net/slideshow/machupicchu/) somewhere.
 [Neon](http://neon.webconverger.com/) has further tweaks and currently
 proprietary extension for the digital signage use case.
 
-<img src="/chrome/fullscreen.png" alt="webcfullscreen" />
+<img src="/chrome/webcfullscreen.png" alt="webcfullscreen" />
 
 If you're concerned about the scroll bar, alter the **overflow** CSS element.
 
