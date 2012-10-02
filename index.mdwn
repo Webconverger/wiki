@@ -34,7 +34,7 @@ is so awkward!
 * [[Acknowledgements]] - thanks everyone for your MIT licensed contributions!
 * [[Notes_on_Networking|Networking]]
 * [[Testing_Webconverger|Testing]] - please join the Quality Assurance(QA) effort
-* [[Content_filtering|Filtering]] is achieved by simply disabling the address bar
+* [[Content_filtering|Filtering]] is achieved by simply disabling the address bar in most cases
 
 # Download Webconverger
 

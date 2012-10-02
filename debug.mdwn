@@ -1,0 +1,10 @@
+[[!meta title="Tips for debugging"]]
+
+Append `debug` on the boot command line, in order to access a default instance
+of the [dwm](http://dwm.suckless.org/tutorial) window manager.
+
+`about:support` on the URL bar.
+
+As root user, use the p function to export your clipboard to a URL.
+
+Use the `log=` API however this only comes online during live-config atm.
