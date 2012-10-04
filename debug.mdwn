@@ -8,3 +8,13 @@ of the [dwm](http://dwm.suckless.org/tutorial) window manager.
 As root user, use the p function to export your clipboard to a URL.
 
 Use the `log=` API however this only comes online during live-config atm.
+
+# Breaking install boot
+
+Hold Alt+Shift keys on boot to get `boot:` prompt
+
+# Disable upgrades
+
+Booting Webconverger by default will forcefully fast forward to <https://github.com/Webconverger/webc/commits/master>
+
+You probably don't want this behaviour if you are testing a change, so append `noupgrade`.

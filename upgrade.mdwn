@@ -46,9 +46,10 @@ that is pushed on a Monday afternoon, would be downloaded on the Tuesday boot
 and applied on the Wednesday boot.
 
 We want to get this time down. For example an option that syncronously checks
-for updates and reboots immediately for security concious deployments.
+for new commits upon <https://github.com/Webconverger/webc/commits/master>,
+fetches and reboots immediately for security concious deployments.
 
-# no_updates disables upgrades
+# noupgrade disables upgrades
 
 Disabling upgrades will disable Webconverger from doing a `git fetch` on boot.
 
@@ -67,5 +68,6 @@ Disabling upgrades will disable Webconverger from doing a `git fetch` on boot.
 * Cleanup of the .git directory needs to be investigated
 * failover bootloader stuff
 * make fetch happen periodically from /etc/inittab to reduce upgrade delay
+* [use https:// for firewalled deployments](https://github.com/blog/1270-easier-builds-and-deployments-using-git-over-https-and-oauth) ?
 
 For more background, see these [[gitupgrades]] notes.
