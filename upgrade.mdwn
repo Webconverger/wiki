@@ -14,10 +14,15 @@ We are designing the upgrade mechanism for:
 
 Webconverger uses git to maintain the [filesystem](https://github.com/Webconverger/webc).
 
-1. Webconverger downloads a config and looks for `fetch-revision=BRANCH`, otherwise defaults to <https://github.com/Webconverger/webc/tree/master>
+1. Webconverger downloads a config and looks for `fetch-revision=BRANCH`, otherwise defaults to [master](https://github.com/Webconverger/webc/tree/master)
 2. On boot it fetches upto that branch, unless `update_revision=SHA` is specified, which is used for debugging
 3. If there is an update, the kernels upon /live/image/live are updated and a new git-revision based on the fetch branch is applied
 4. On **REBOOT** the script [/usr/share/initramfs-tools/scripts/live](https://github.com/Webconverger/webc/blob/master/usr/share/initramfs-tools/scripts/live) in the initrd [git-fs](https://github.com/Webconverger/git-fs) mounts the git-revision SHA1 set upon the `/proc/cmdline`
+
+Note: After changing anything in `/usr/share/initramfs-tools/`, re-generate the initrd and commit them like so:
+
+	update-initramfs -u
+	update-initramfs -u -k 3.2.0-3artax1-486
 
 In future we hope to utilise the boot-once option in extlinux, where by if the
 machine failed to boot from a kernel error, a subsequent boot will revert to
@@ -25,19 +30,19 @@ the previous "known working" git-revision and kernel.
 
 # How do I roll back ?
 
-This is largely for [[debugging|debug]], using `update_revision=`.
+This is largely for [[debugging|debug]], using `update_revision=`. Generally clients will "fast forward" out of trouble.
 
 # No upgrades on Live version since it isn't a writable disk
 
 If the logs say [Not a writable boot
-medium](https://github.com/Webconverger/webc/blob/master/etc/webc/live-config.sh#L179),
+medium](https://github.com/Webconverger/webc/blob/master/etc/webc/upgrade.sh#L26),
 then you are in [Live
 mode](http://config.webconverger.com/faq/#what-do-you-mean-by-live-version-and-install-version)
 and you cannot upgrade until you've installed to a writable disk.
 
 # Two reboots for an update, <48hr delay
 
-Webconverger only fetches on boot, so if an update is pushed, an already
+Webconverger currently only fetches on boot, so if an update is pushed, an already
 running system needs effectively **two** boots, one to fetch, and one to apply
 the changes to come up on the revision.
 
@@ -49,7 +54,7 @@ We want to get this time down. For example an option that syncronously checks
 for new commits upon <https://github.com/Webconverger/webc/commits/master>,
 fetches and reboots immediately for security concious deployments.
 
-# noupgrade disables upgrades
+# `noupgrade` boot API disables upgrades
 
 Disabling upgrades will disable Webconverger from doing a `git fetch` on boot.
 

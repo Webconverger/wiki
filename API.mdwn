@@ -89,6 +89,10 @@ Moves the mouse cursor to the top left of the screen. This is useful when the
 default cursor in the middle of the screen might accidentally trigger some
 mouse over event in the Web application.
 
+### Disable automatic upgrades with git
+
+Append `noupgrade`. See [[upgrades]] for more details.
+
 ### Disable configuration service
 
 Append `noconfig`
