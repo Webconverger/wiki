@@ -6,6 +6,7 @@ We are designing the upgrade mechanism for:
 * Help Webconverger Limited the business [to move effectively to a subscription model](http://webconverger.org/blog/entry/Webconverger_11.2_release_notes/)
 * We can easily check the integrity of the filesystem, good for [[security]]
 * Git is fast & efficient for upgrades, also good for [[security]]
+* Every [commit](https://github.com/Webconverger/webc/commits/master) accountable and transparent
 
 # The upgrade features requires persistently
 
