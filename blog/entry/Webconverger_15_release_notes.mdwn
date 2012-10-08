@@ -20,7 +20,7 @@ What else has changed?
 * `log=` [[debug]] [[API]]
 * Restored 486 support for old PC hardware
 * `chrome=debug` for browser debugging & testing
-* Fix PDF support which was accidentally broken in 14.1
+* Fix [[PDF|adobe]] support which was accidentally broken in 14.1 
 * Restore [[printing]] support with CUPS
 * Did I mention Webconverger is the first git upgradable Linux distro?
 
