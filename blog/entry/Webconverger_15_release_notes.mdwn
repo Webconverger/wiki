@@ -25,9 +25,11 @@ What else has changed?
 * Did I mention Webconverger is the first git upgradable Linux distro?
 
 Full log can be found with the command: `git log --oneline --decorate
-14.1..15.0` from the [[chroot]](https://github.com/Webconverger/webc).
+14.1..15.0` from the [chroot](https://github.com/Webconverger/webc).
 
 # More on Webconverger's unique feature: painless upgrades
+
+<img src="/img/Git-Logo-2Color-smaller.png" alt="Webconverger uses git" />
 
 Firstly I want to [[thank|acknowledgements]] Patrick Haller and Matthijs
 Kooijman for hacking upon Webconverger's
