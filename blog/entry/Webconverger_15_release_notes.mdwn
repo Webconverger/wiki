@@ -15,7 +15,7 @@ automatic.
 
 What else has changed?
 
-* Firefox 15.1
+* [Firefox 15.0.1](http://www.mozilla.org/en-US/firefox/15.0/releasenotes/)
 * `xinput=` [[touch screen calibration]] [[API]]
 * `log=` [[debug]] [[API]]
 * Restored 486 support for old PC hardware
@@ -31,13 +31,16 @@ Full log can be found with the command: `git log --oneline --decorate
 
 Firstly I want to [[thank|acknowledgements]] Patrick Haller and Matthijs
 Kooijman for hacking upon Webconverger's
-[git-fs](https://github.com/Webconverger/git-fs) and OS integration.
+[git-fs](https://github.com/Webconverger/git-fs) and OS integration. For
+developers interested in what we are doing, please join us on
+<http://webconverger.org>.
 
 Now if you install Webconverger onto a disk, you won't have to touch it again.
-Zero maintenance. It will efficiently [[upgrade]] between boots without prompt
-from [github](https://github.com/Webconverger/webc/commits/master).
+Zero maintenance. An upto date browser to surf the Web safely and privately! It
+will efficiently [[upgrade]] between boots without prompt from
+[github](https://github.com/Webconverger/webc/commits/master).
 
 Download 15.0 from <http://webconverger.com/> and contact
 sales@webconverger.com about our commercial [configuration
-service](http://config.webconverger.com/) which makes large deployments with
-your settings simple.
+service](http://config.webconverger.com/) which makes large deployments in
+libraries and waiting areas with your settings simple.
