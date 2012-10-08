@@ -1,0 +1,40 @@
+Webconverger 15 realises a [[design]] goal to seamlessly [[upgrade]]. A feature
+that no other Linux distribution has.
+
+Currently [[upgrades|upgrade]] only works on the writable [install
+version](http://config.webconverger.com/faq/#what-do-you-mean-by-live-version-and-install-version-?),
+not the **Live** / read-only version that you will try at first.
+
+<img src="/img/webc-15.png" alt="15.0 boot menu">
+
+You might be wondering what the hell does **486:** and **686-pae:** mean. You
+should be safe with the default 686-pae kernel Live version, though if it
+doesn't work on ancient hardware, that is what the 486 kernel is for. In the
+future we will endeavour to _reduce_ these options and make the kernel choice
+automatic.
+
+What else has changed? 
+* Firefox 15.1
+* `xinput=` [[touch screen calibration]] [[API]]
+* `log=` [[debug]] [[API]]
+* Restored 486 support for old PC hardware
+* `chrome=debug` for browser debugging & testing
+* Fix PDF support which was accidentally broken in 14.1
+* Restore [[printing]] support with CUPS
+* Did I mention Webconverger is the first git upgradable Linux distro?
+
+Full log can be found with the command: `git log --oneline --decorate 14.1..15.0`
+
+# More on Webconverger's unique feature: painless upgrades
+
+Firstly I want to [[thank|acknowledgements]] Patrick Haller and Matthijs
+Kooijman for working upon Webconverger's
+[git-fs](https://github.com/Webconverger/git-fs) and integration.
+
+Now if you install Webconverger onto a disk, you won't have to touch it again.
+Zero maintenance. It will efficiently upgrade between boots without prompt.
+
+Download 15.0 from <http://webconverger.com/> and contact
+sales@webconverger.com about our commercial [configuration
+service](http://config.webconverger.com/) which makes large deployments with
+your settings painless.
