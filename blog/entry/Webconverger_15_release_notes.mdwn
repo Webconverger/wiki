@@ -24,8 +24,9 @@ What else has changed?
 * Restore [[printing]] support with CUPS
 * Did I mention Webconverger is the first git upgradable Linux distro?
 
-Full log can be found with the command: `git log --oneline --decorate
-14.1..15.0` from the [chroot](https://github.com/Webconverger/webc).
+Full log from the [[Webconverger_14.1_release]] can be found with the command:
+`git log --oneline --decorate 14.1..15.0` from the
+[chroot](https://github.com/Webconverger/webc).
 
 # More on Webconverger's unique feature: painless upgrades
 
@@ -43,6 +44,6 @@ will efficiently [[upgrade]] between boots without prompt from
 [github](https://github.com/Webconverger/webc/commits/master).
 
 Download 15.0 from <http://webconverger.com/> and contact
-sales@webconverger.com about our commercial [configuration
+sales@webconverger.com about our commercial **Web Kiosk** [configuration
 service](http://config.webconverger.com/) which makes large deployments in
 libraries and waiting areas with your settings simple.
