@@ -1,5 +1,6 @@
-Webconverger 15 realises a [[design]] goal to seamlessly [[upgrade]]. A feature
-that no other Linux distribution has.
+Webconverger 15 is our most significant release yet, which realises a
+[[design]] goal to seamlessly [[upgrade]] with [git](http://git-scm.com/). A
+feature that no other Linux distribution quite has.
 
 Currently [[upgrades|upgrade]] only works on the writable [install
 version](http://config.webconverger.com/faq/#what-do-you-mean-by-live-version-and-install-version-?),
@@ -13,22 +14,22 @@ doesn't work on ancient hardware, that is what the 486 kernel is for. In the
 future we will endeavour to _reduce_ these options and make the kernel choice
 automatic.
 
-What else has changed?
+What else do you start with?
 
 * [Firefox 15.0.1](http://www.mozilla.org/en-US/firefox/15.0/releasenotes/)
 * `xinput=` [[touch screen calibration]] [[API]]
 * `log=` [[debug]] [[API]]
 * Restored 486 support for old PC hardware
 * `chrome=debug` for browser debugging & testing
-* Fix [[PDF|adobe]] support which was accidentally broken in 14.1 
+* Fix [[PDF|adobe]] support which was accidentally broken in 14.1
 * Restore [[printing]] support with CUPS
-* Did I mention Webconverger is the first git upgradable Linux distro?
+* Did I mention Webconverger is the first git upgradable Linux distro? So expect to get FF16 update soon if you've installed Webconverger 15!
 
 Full log from the [[Webconverger_14.1_release]] can be found with the command:
 `git log --oneline --decorate 14.1..15.0` from the
 [chroot](https://github.com/Webconverger/webc).
 
-# More on Webconverger's unique feature: painless upgrades
+# More on Webconverger's unique feature: painless upgrades with git
 
 <img src="/img/Git-Logo-2Color-smaller.png" alt="Webconverger uses git" />
 
