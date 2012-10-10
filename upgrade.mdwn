@@ -67,6 +67,19 @@ Disabling upgrades will disable Webconverger from doing a `git fetch` on boot.
 * signed tags might be useful, but we'll have to have some way to circumvent that so we can push debug revisions without having to tag all of them
 * use https:// instead of git://
 
+# Quick notes on testing before a push
+
+1. Commit to master, make a note of sha1
+* `git push origin master:test` before pushing to master, push to a remote branch **test**
+* Append `fetch-revision=test debug` to your test instance of Webconverger
+* Ensure sha1 was fetched
+* Reboot and check the update was applied
+* Test the update one more time
+* `git push` the [[chroot]] to master to let everyone else enjoy the update
+* Perhaps [tweet the change](https://twitter.com/webconverger/status/255965341203697664)
+
+Note one should probably work from a branch, e.g. `git branch flashtest; git push origin flashtest -u` and then merge to master for a push
+
 # TODOs and [issues](https://github.com/Webconverger/webc/issues)
 
 * auto reboot
