@@ -20,7 +20,7 @@ Clients use Webconverger in:
 Web feedback
 ============
 
-
+* [Slashdot](http://tech.slashdot.org/story/12/10/09/163210/os-upgrades-powered-by-git)
 * [Twitter](http://search.twitter.com/search?q=webconverger)
 * [Google blog search](http://blogsearch.google.com/blogsearch?hl=en&q=webconverger&btnG=Search+Blogs)
 * [Webconverger on Wikipedia](http://en.wikipedia.org/wiki/Webconverger)
