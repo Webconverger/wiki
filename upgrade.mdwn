@@ -70,13 +70,14 @@ Disabling upgrades will disable Webconverger from doing a `git fetch` on boot.
 # Quick notes on testing before a push
 
 1. Commit to master, make a note of sha1
-* `git push origin master:test` before pushing to master, push to a remote branch **test**
+* `git push origin master:test` before pushing to master, push to a remote branch [test](https://github.com/Webconverger/webc/commits/test)
 * Append `fetch-revision=test debug` to your test instance of Webconverger
 * Ensure sha1 was fetched
 * Reboot and check the update was applied
 * Test the update one more time
 * `git push` the [[chroot]] to master to let everyone else enjoy the update
 * Perhaps [tweet the change](https://twitter.com/webconverger/status/255965341203697664)
+* Clean up `git push origin :test` and delete remote branch on <https://github.com/Webconverger/webc>
 
 Note one should probably work from a branch, e.g. `git branch flashtest; git push origin flashtest -u` and then merge to master for a push
 
