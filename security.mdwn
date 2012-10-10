@@ -13,15 +13,21 @@ Webconverger is [[designed|design]] for [[privacy]] and [[security]], based on:
 * does not store local data (**live** read-only session by default) a.k.a. [defence in depth](http://en.wikipedia.org/wiki/Defence_in_depth)
 * does not require any signup or registration
 
-ISO-based releases are read-only and gain additional security since a reboot always returns
-the system to a known good state.
+ISO-based releases are read-only and gain additional security since a reboot
+always returns the system to a known good state.
 
-We are currently ( Feb-Mar 2012 ) working on an install to disk version which will require
-update capability to remain secure since the system disk is writable. However, adding updates
-means creating another vector of attack. We will be adopting the current best practices of
-distributing only GnuPG-signed packages: each system will be able to independently verify
-that we authorized the updates. An attacker would have to compromise a distribution
-server, find a way to gain offline access to our GPG-keyrings, and crack the passwords.
+From [[blog/entry/Webconverger_15_release_notes]] Webconverger has the new
+ability to stay automatically upto date and patched on installed versions. We
+are working to make [[upgrades|upgrade]] apply quicker than the typical two boot
+cycle it requires currently.
+
+* Update pushed on [Wednesday](https://github.com/Webconverger/webc/commit/edd97ee47345e44a22a9dbf18cca48669e2694d4) morning GMT
+* A machine that has booted after that push, fetches that update, for a example a machine in the states
+* A subsequent reboot of that machine (assuming it's turned off at night) will apply that patch, typically Thursday PDT morning
+* `about:` in the URL bar can verify which git revision that client is running
+
+We can support Enterprise IT administrators looking to finely tune updates and test updates
+before rolling them out.
 
 # Peer review
 
