@@ -77,14 +77,14 @@ review and our [[design]] is such that to facilitate security in layers. Our
 "install version" will introduce checks to verify the signed git tags.
 
 Our current upgrade process is straightforward (re-image the USB stick) however
-we plan to make it even easier with git based [[upgrades|upgrade]]. This feature is not
-ready yet, though our attitude to security and privacy is very proactive and
-transparent.
+installed instances (from version 15.0) make it even easier with git based
+[[upgrades|upgrade]] which happen automatically in the background. Zero
+maintenance for you and an up to date secure experience for the user.
 
 **Webconverger is security concious.**
 
 # 5 reasons to support Webconverger
 
-Please [download Webconverger](http://download.webconverger.com) to give your
+Please [download Webconverger](http://webconverger.com) to give your
 users better access to the Web, whilst saving you time, money and giving you
 piece of mind that Webconverger is both opensource and competitive.
