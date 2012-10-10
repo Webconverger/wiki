@@ -2,7 +2,7 @@ Webconverger 15 is our most significant release yet, which realises a
 [[design]] goal to seamlessly [[upgrade]] with [git](http://git-scm.com/). A
 feature that no other Linux distribution quite has.
 
-Currently [[upgrades|upgrade]] only works on the writable [install
+Currently [[upgrades|upgrade]] only work on the writeable [install
 version](http://config.webconverger.com/faq/#what-do-you-mean-by-live-version-and-install-version-?),
 not the **Live** / read-only version that you will try at first.
 
@@ -40,11 +40,11 @@ developers interested in what we are doing, please join us on
 <http://webconverger.org>.
 
 Now if you install Webconverger onto a disk, you won't have to touch it again.
-Zero maintenance. An upto date browser to surf the Web safely and privately! It
+Zero maintenance. An up to date browser to surf the Web safely and privately! It
 will efficiently [[upgrade]] between boots without prompt from
 [github](https://github.com/Webconverger/webc/commits/master).
 
 Download 15.0 from <http://webconverger.com/> and contact
-sales@webconverger.com about our commercial **Web Kiosk** [configuration
+<sales@webconverger.com> about our commercial **Web Kiosk** [configuration
 service](http://config.webconverger.com/) which makes large deployments in
 libraries and waiting areas with your settings simple.
