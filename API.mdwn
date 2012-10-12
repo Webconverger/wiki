@@ -23,19 +23,31 @@ You can enter several homepages, which will open in several tabs, separate each
 address with `%20` e.g.
 `homepage=http://portal.webconverger.com/%20http://webconverger.com`
 
+### Changing [[browser_chrome|kiosk]]
+
+<https://github.com/Webconverger/webc/tree/master/etc/webc/extensions>
+
+* chrome=webconverger - this is the default
+* chrome=webcnoaddressbar - disable URL bar and search bar, good for [[controlled_access_setups|filtering]]
+* chrome=webcfullscreen - fullscreen, used typically with [Neon](http://neon.webconverger.com/)
+* chrome=debug - nightly testing tools, for [[testing]] crash recovery etc.
+
+See [[kiosk]] for screenshots of the options.
+
+### Use Webconverger in a different language to English
+
+Please refer to [[i18n]]
+
 #### Homepage MACID query
 
-Some customers want a way of tracking which kiosks are logging in. These is best accomplished using a keyword **MACID**. For example the homepage:
+Some customers want a way of tracking which kiosks are logging in. These is
+best accomplished using a keyword **MACID**. For example the homepage:
 
 	homepage=http://webconverger.com/?mac=MACID
 
 Could be expanded to
 
 	homepage=http://webconverger.com/?mac=081196ae2d3c
-
-### Use Webconverger in a different language to English
-
-Please refer to [[i18n]]
 
 ### How do I change the Webconverger branding?
 
@@ -91,7 +103,7 @@ mouse over event in the Web application.
 
 ### Disable automatic upgrades with git
 
-Append `noupgrade`. See [[upgrades]] for more details.
+Append `noupgrade`. See [[upgrade]] for more details.
 
 ### Disable configuration service
 
@@ -116,15 +128,6 @@ Sign up for an account with [Papertrail](https://papertrailapp.com/?thank=97e900
 	log=logs.papertrailapp.com:XXXXX
 
 Replace XXXXX with the port number assocaited with your account.
-
-### Changing [[browser_chrome|kiosk]]
-
-<https://github.com/Webconverger/webc/tree/master/etc/webc/extensions>
-
-* chrome=webconverger - this is the default
-* chrome=webcnoaddressbar - disable URL bar and search bar, good for [[controlled_access_setups|filtering]]
-* chrome=webcfullscreen - fullscreen, used typically with [Neon](http://neon.webconverger.com/)
-* chrome=debug - nightly testing tools, for [[testing]] crash recovery etc.
 
 ### Wireless configuration
 
