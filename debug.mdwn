@@ -18,3 +18,13 @@ Hold Alt+Shift keys on boot to get `boot:` prompt
 Booting Webconverger by default will forcefully fast forward to <https://github.com/Webconverger/webc/commits/master>
 
 You probably don't want this behaviour if you are testing a change, so append `noupgrade`.
+
+# Taking a screenshot
+
+Boot with `debug` in cmdline and as root `sudo -i`.
+
+	apt-get update && apt-get install scrot suckless-tools
+
+Using dwm's default dmenu shortcut, `^p` and choosing scrot and append the filename, like `/tmp/test-rendering.png`
+
+From there you can use <http://imgur.com/> to upload the PNG file and get the URL to paste into a bug report.
