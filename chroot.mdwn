@@ -2,7 +2,7 @@
 
 # chroot for building (running Debian Live)
 
-Webconverger relies on Debian Live to put the ISO together. Please create an
+Webconverger relies on [Debian Live](http://live.debian.net/) to put the ISO together. Please create an
 Unstable <abbr title="Still in Development">sid</abbr>-chroot like so in
 `~/debian`:
 
@@ -36,9 +36,23 @@ Your remotes should look like:
 
 So you can make an authenticated push outside the chroot from the host system.
 
+If you are not yet a **Trusted Contributor** to the opensource project, please
+publish your work via a github fork of
+[webc](https://github.com/Webconverger/webc). Once forking you need to setup
+the pushurl, like so:
+
+	git remote set-url --push origin git@github.com:YOUR_USERNAME/webc.git
+
+Please try contribute your changes back to
+[webc](https://github.com/Webconverger/webc/commits/master) by doing a **Pull
+Request**. All contributions become copyrighted Webconverger and [MIT
+licensed](http://en.wikipedia.org/wiki/MIT_License) and
+[[thanked|acknowledgements]]. :)
+
 # Handy shortcuts
 
-Next I've created a few aliases to help me navigate around that structure:
+Next I've created a few aliases to help me navigate around that structure.
+These binds are of course personal preferences like Quake or Starcraft hotkeys.
 
 To enter the chroot and add/remove packages for example. `c; apt-get update && apt-get install something`
 
@@ -59,7 +73,9 @@ Whenever I drop out of the chroot, I run `up` to push the change [up to github](
 		git push
 	}
 
-Sidenote: Isn't it silly how you can write shortcuts using `alias` or a function in bash?
+Update: With [[upgrade]] the flow is to push to a branch before merging to
+master, since master is automatically used by install users and it's extremely
+important that it remains stable.
 
 # Keeping your git user configuration in the the chroot
 
@@ -77,8 +93,8 @@ So when you run `sudo chroot`, it should have your basic git settings.
 
 # Work flow
 
-If you can think of optimisations, please let me know! Lets assume for example
-I'm tweaking
+If you can think of optimisations, please let
+[me](https://twitter.com/kaihendry) know! Lets assume for example I'm tweaking
 <https://github.com/Webconverger/webc/blob/master/etc/webc/webc.conf>.
 
 First I go, `c` which chroots me into [webc
@@ -92,8 +108,3 @@ builds the ISO.
 
 Once the ISO is built I launch [[Virtualbox|testing]] and test
 `binary.hybrid.iso`.
-
-# Making a release
-
-We use the <http://build.webconverger.org/> service on [[hetty|servers]] which
-`git clone --depth 1` the chroot for a the smallest size distribution.
