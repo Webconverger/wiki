@@ -13,7 +13,7 @@ Unstable <abbr title="Still in Development">sid</abbr>-chroot like so in
 
 Then `sudo chroot ~/debian/sid-root`, and apt-get install as follows:
 
-	apt-get install live-build git make sudo squashfs-tools syslinux genisoimage
+	apt-get install live-build git make sudo squashfs-tools syslinux genisoimage librsvg2-bin
 
 Clone a copy of <https://github.com/Webconverger/Debian-Live-config> into root's home directory like so:
 
