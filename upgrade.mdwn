@@ -8,7 +8,7 @@ We are designing the upgrade mechanism for:
 * Git is fast & efficient for upgrades, also good for [[security]]
 * Every [commit](https://github.com/Webconverger/webc/commits/master) accountable and transparent
 
-# The upgrade features requires persistently
+# The upgrade features requires persistency, i.e. install to a writable medium
 
 * USB-HDD (.img) version which can upgrade itself or do a install - [related issue](https://github.com/Webconverger/webc/issues/86)
 * ISO (.iso) version which can live boot and a install
@@ -18,7 +18,7 @@ We are designing the upgrade mechanism for:
 Webconverger uses git to maintain the [filesystem](https://github.com/Webconverger/webc).
 
 1. Webconverger downloads a config and looks for `fetch-revision=BRANCH`, otherwise defaults to [master](https://github.com/Webconverger/webc/tree/master)
-2. On boot it fetches upto that branch, unless `update_revision=SHA` is specified, which is used for debugging
+2. On boot it fetches upto that branch, unless `update-revision=SHA` is specified, which is used for mounting exact commits
 3. If there is an update, the kernels upon /live/image/live are updated and a new git-revision based on the fetch branch is applied
 4. On **REBOOT** the script [/usr/share/initramfs-tools/scripts/live](https://github.com/Webconverger/webc/blob/master/usr/share/initramfs-tools/scripts/live) in the initrd [git-fs](https://github.com/Webconverger/git-fs) mounts the git-revision SHA1 set upon the `/proc/cmdline`
 
@@ -33,7 +33,7 @@ the previous "known working" git-revision and kernel.
 
 # How do I roll back ?
 
-This is largely for [[debugging|debug]], using `update_revision=`. Generally clients will "fast forward" out of trouble.
+This is largely for [[debugging|debug]], using `update-revision=`. Supported clients will "fast forward" out of trouble.
 
 # No upgrades on Live version since it isn't a writable disk
 
@@ -63,7 +63,7 @@ Disabling upgrades will disable Webconverger from doing a `git fetch` on boot.
 
 # Notes on validation
 
-* using hashes as update_revision, you'll do a sort of implicit validation
+* using hashes as update-revision, you'll do a sort of implicit validation
 * signed tags might be useful, but we'll have to have some way to circumvent that so we can push debug revisions without having to tag all of them
 * use https:// instead of git://
 
