@@ -11,7 +11,7 @@ Use the `log=` API however this only comes online during live-config atm.
 
 # Breaking install boot
 
-Hold Alt+Shift keys on boot to get `boot:` prompt
+Hold Alt or Shift keys on boot to get `boot:` prompt
 
 # Disable upgrades
 
