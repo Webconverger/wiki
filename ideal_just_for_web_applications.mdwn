@@ -1,5 +1,7 @@
-Webconverger is designed to support **only** Web applications.
+Webconverger is designed to support **only** Web applications. Converging your
+IT operations upon the Web frees you from [vendor
+lock-in](http://en.wikipedia.org/wiki/Vendor_lock-in).
 
-Other operating systems often provide extra legacy software that simply is not required for modern day pervasive Web computing. This extra unnecessary bloat makes operating systems slow and harder to maintain.
-
-Webconverger believes _less is more_.
+Other operating systems often provide extra legacy software that simply is not
+required for modern day pervasive Web computing. This extra unnecessary bloat
+makes operating systems slow and harder to maintain.
