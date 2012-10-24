@@ -18,7 +18,7 @@
 <tr><td align=right> <a href="http://groups.google.com/group/webc-users?hl=en-GB">Visit this group</a> </td></tr>
 </table>
 
-## New: We have established a \#webconverger IRC channel on the http://freenode.net/ IRC network. Join!
+## We have established a \#webconverger IRC channel on the http://freenode.net/ IRC network. Join!
 
 How to edit the Wiki? Due to SPAM, I need you first to login/register with the
 site and then I can give you the appropriate write/admin privileges. Sorry this
@@ -27,12 +27,8 @@ is so awkward!
 * [Download Webconverger](http://download.webconverger.com/) - [German mirror](http://download.webconverger.org/)
 * [Webconverger videos](http://www.youtube.com/webconverger/) and [[how_they_are_made|screencasting]]
 * [[Design_document|Design]]
-* The [Debian-Live project](http://live.debian.net) and [[Debian]] is where Webconverger is derived from
-* [[Firefox_extension_development|Kiosk]]
-* [[Internationalisation_and_localisation|i18n]]
 * [[Developer_information|Develop]]
 * [[Acknowledgements]] - thanks everyone for your MIT licensed contributions!
-* [[Notes_on_Networking|Networking]]
 * [[Testing_Webconverger|Testing]] - please join the Quality Assurance(QA) effort
 * [[Content_filtering|Filtering]] is achieved by simply disabling the address bar in most cases
 
@@ -43,22 +39,16 @@ is so awkward!
 
 # Hardware
 
-Webconverger works with **almost any standard x86 PC hardware** that meets
-[Firefox's minimum
-requirements](http://www.mozilla.com/en-US/firefox/system-requirements.html).
+Webconverger works with **almost any standard x86 PC hardware** with at least 1G of RAM.
 
 # Customisation
 
 <http://webconverger.com> is a UK & Singapore registered company that powers
 this project.  The money generated through customisations is the fuel.
 
-In the past there were bespoke customisations where an ISO was generated and the
-turnaround was a day or two.
-
-Now there is a [customisation
-service](http://config.webconverger.com/faq). From version 12, a downloaded
-Webconverger should boot into this service and allow customers an easy user
-experience to setup and subscribe.
+There is a [customisation service](http://config.webconverger.com/faq) and
+email support service to help you get your PCs up and running with
+Webconverger.
 
 # Reasons for using Webconverger
 
