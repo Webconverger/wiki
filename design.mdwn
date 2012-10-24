@@ -4,5 +4,5 @@
 * Less is more - Minimal packages for just the Web experience (though that includes [[Adobe]] flash and PDF support)
 * Excellent [[internationalization_and_localization|i18n]] support
 * Committed to user's [[privacy]]
-* (Long term) Universal commitment to all devices - Webconverger focuses currently runs on PCs, though with our [[API|boot]] we hope to support Android & other platforms
 * Zero maintenance - Automatic [[upgrades|upgrade]] using git
+* (Long term) Universal commitment to all devices - Webconverger focuses currently runs on PCs, though with our [[API|boot]] we hope to support Android & other platforms
