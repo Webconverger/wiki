@@ -54,7 +54,7 @@ It is recommend you build from a [[chroot]] and invest some time to setup your d
 
 Next use this [[testing_guide|testing]] on your freshly built image.
 
-Please share your forks on github! :)
+Please share your forks on github! :) Contributions must be [MIT licensed](http://en.wikipedia.org/wiki/MIT_License).
 
 ## If your build doesn't work
 
