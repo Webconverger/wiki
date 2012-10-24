@@ -19,7 +19,7 @@
 If you are new to the project, **Welcome**!! Please start out by [[testing]].
 
 We like to think we are pretty innovative how we use [git](http://git-scm.com/)
-for [[upgrades|upgade]] and managing just about everything we do.
+for [[upgrades|upgrade]] and managing just about everything we do. :)
 
 <div class="notebox"> The Webconverger distribution is <a
 href="http://src.webconverger.com/">opensource</a> (notable exceptions are
