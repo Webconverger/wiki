@@ -33,7 +33,7 @@ customise the image's packages. The [[boot_API|boot]] should be sufficient for
 most of your needs.
 
 This is the developer supported way of building the Webconverger image.
-**Please do not ask** [webc-users](http://config.webconverger.com) how to
+**Please do not ask** [webc-users](https://groups.google.com/forum/#!forum/webc-users) how to
 customise Webconverger any other way to avoid paying for the [configuration
 service](http://config.webconverger.com) that funds this project. Thank you!
 
@@ -46,7 +46,7 @@ Unstable repository](http://packages.qa.debian.org/l/live-build.html).
 1. Take a long good look at [auto/config](https://github.com/Webconverger/Debian-Live-config/blob/master/webconverger/auto/config)
 1. `make`
 
-These steps are formalised in the daily build process's [build.sh](https://github.com/Webconverger/dailybuild/blob/master/build.sh).
+These steps are formalised in the [daily build](http://build.webconverger.org/) process's [build.sh](https://github.com/Webconverger/dailybuild/blob/master/build.sh).
 
 It is recommend you build from a [[chroot]] and invest some time to setup your development environment.
 
