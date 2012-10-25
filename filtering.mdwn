@@ -21,22 +21,21 @@ You may also want to consider the [[kiosk_reset|blanking]] feature in order to
 reset Webconverger to your site every say, 3 minutes. This can help avoid
 Webconverger being set on a non-mandated Website for too long in public spaces.
 
-# Using a 3rd party proxy
-
-<http://safesurf.com/> offers such a service and Webconverger can be made to
-work with it via the HTTP proxy API, for example:
-
-	http_proxy=http://webc.proxy.safesurf.com
-
 # Using a 3rd party DNS
 
-* [OpenDNS](http://www.opendns.com/) provide a [filtering service](http://www.opendns.com/web-filtering/).
+[OpenDNS](http://www.opendns.com/) provide a comprehensive [filtering service](http://www.opendns.com/web-filtering/).
+
+[Case studies](http://www.opendns.com/resources/customer-showcase/#tab=case-study)
+
+You can open an account with them directly or go through Webconverger.com's
+sales who are resellers of the product. They can generally get a better deal
+for you per seat because we buy OpenDNS services in blocks.
 
 Using the `dns=` [[API]]
 
 # Further un-supported options
 
-## Using your WRT54G-L router
+## Using your router or wireless access point
 
 As mentioned on <http://webconverger.org/blog/entry/Better_Routing_wanted>
 
