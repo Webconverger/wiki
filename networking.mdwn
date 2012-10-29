@@ -17,39 +17,14 @@ Preferably you set this in your DHCPD, however you can override DNS for example 
 
 This is implemented by [resolvconf script](https://github.com/Webconverger/webc/blob/master/etc/webc/network-up.d/resolvconf)
 
-### Overriding IP via [[boot]] command line
+This is required for setting up [[filtering]] services like OpenDNS.
 
-We defer to using [live-boot](http://manpages.debian.net/cgi-bin/man.cgi?query=live-boot) in this case.
+### Static IP networking via [[boot]] command line on the Live version
 
-	$ cat /proc/cmdline
-	initrd=/live/initrd.img boot=live vga=771 video=vesa nomodeset splash quiet debug ip=eth0:10.0.0.1:10.0.0.254:255.255.255.0 BOOT_IMAGE=/live/vmlinuz
+We defer to using
+[live-boot](http://manpages.debian.net/cgi-bin/man.cgi?query=live-boot) in this
+case. This is unsupported on the Install version currently.
 
-Notice `skipconfig` is removed and the `ip=` API is a little tricky.
+	boot=live ip=10.0.0.1::10.0.0.254:255.255.255.0::
 
-	$ cat /etc/network/interfaces
-	auto lo
-	iface lo inet loopback
-
-	allow-hotplug eth0
-	iface eth0 inet static
-		address 10.0.0.1
-		netmask 10.0.0.254
-		gateway 255.255.255.0
-
-# Example of a static configuration customisation, for a [[build|develop]]
-
-If deployments are frankly too silly not to use DHCP, you can configure static
-IPs by configuring `/etc/network/interfaces`
-like so:
-
-	iface eth0 inet static
-		   address 10.100.7.230
-		   netmask 255.255.255.0
-		   gateway 10.100.7.253
-
-And the DNS:
-
-	cat `/etc/resolv.conf
-	nameserver 10.100.7.253
-
-
+Notice `skipconfig` is removed and the `ip=` API is a little tricky(!)
