@@ -58,7 +58,7 @@ Webconverger.
 * [[Low_requirements|Requirements]] - can run on old/cheap hardware and can be ported to run on embedded devices
 * Good [[security]] features by [[design]]
 * [[Web_Standards]] compliant
-* [[Cost_effective]] - try the [free version](http://download.webconverger.com/) or order a [customised version](http://webconverger.com/buy)
+* [[Cost_effective]] - try the [free version](http://download.webconverger.com/) or order a [customised version](http://custom.webconverger.com)
 * [[No_users_or_registration|Registration]]
 * [[Flash_and_PDF_viewer|Adobe]]
 * [[Easy_to_use|Training]]

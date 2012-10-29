@@ -27,5 +27,5 @@ Internet.
 
 If Webconverger became unsuitable, then you could swap it out for [Chromium
 OS](http://en.wikipedia.org/wiki/Chromium_OS), Ubuntu or even Windows running
-Opera for example. Choosing the Web & Webconverger, get you out of an [vendor
+Opera for example. Choosing the Web & Webconverger, gets you out of an [vendor
 lock-in](http://en.wikipedia.org/wiki/Vendor_lock-in).

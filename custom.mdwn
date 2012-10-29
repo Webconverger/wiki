@@ -1,5 +1,3 @@
 # custom.webconverger.com
 
-This is where customized images are deployed. Directory listing is forbidden.
-If you are having troubles finding or downloading your image, contact us
-please.
+This is where the customisation service is based.

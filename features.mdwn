@@ -5,7 +5,7 @@ want their [[homepage]] customised, however there are further options:
 * Automatic [[upgrades|upgrade]]
 * A choice of [[kiosk]] browser chrome, which helps limit Webconverger to the your customised homepage:
 * [[ISO]]-hybrid image for burning to a CD or USB stick
-* Latest [Firefox Web browser](http://en.wikipedia.org/wiki/Firefox) by default in every Webconverger.
+* Latest [Firefox Web browser](http://en.wikipedia.org/wiki/Firefox) with [HTML5 webm video](https://developer.mozilla.org/en-US/docs/Media_formats_supported_by_the_audio_and_video_elements)
 * custom [[background|artwork]] seen between sessions
 * [[Kiosk_reset|blanking]] **timeout** with `kioskresetstation=<mins>`. Resets browser after user defined minutes of idleness/inactivity.
 * [[Networking]] **wired** works simply with DHCP. [[Wireless]] works too!
