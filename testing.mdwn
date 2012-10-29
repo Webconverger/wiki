@@ -9,6 +9,8 @@ images](http://build.webconverger.org). Report bugs on
 
 <a href="http://www.flickr.com/photos/hendry/6509326697/" title="Webconverger Virtualbox by Kai Hendry, on Flickr"><img src="http://farm8.staticflickr.com/7166/6509326697_acce79b28f.jpg" width="500" height="281" alt="Webconverger Virtualbox"></a>
 
+**NOTE**: You need to set at least 1G of RAM
+
 * [Archlinux Virtualbox setup guide](https://wiki.archlinux.org/index.php/VirtualBox)
 
 Setting a bridged network interface is straightforward, you just need to ensure:
