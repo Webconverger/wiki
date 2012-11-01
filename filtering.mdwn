@@ -11,11 +11,11 @@ the URL addressbar, so that users can't navigate away from your homepage.
 
 Using <a href="http://en.wikipedia.org/wiki/Hosts_(file)">the hosts file</a> is
 a very simple way of filtering Web access of your Webconverger deployments.
-It's by no names means fool-proof, and you need to be able to create the file
+It's by no means fool-proof, and you need to be able to create the file
 yourself for the time being.
 
 This feature was introduced in
-<https://github.com/Webconverger/webc/commit/839dde7388bbf1a466191ca28d72b4419d17ad39>
+[839dde](https://github.com/Webconverger/webc/commit/839dde7388bbf1a466191ca28d72b4419d17ad39)
 and if you are using the install version, you will automatically just get this.
 
 ## Blacklist
@@ -25,6 +25,11 @@ Specifying `hosts=http://example.webconverger.com/blacklist` will replace <a hre
 To blacklist for example reddit.com, you would add a line in this format:
 
 	255.255.255.255 reddit.com
+	255.255.255.255 www.reddit.com
+
+Therefore the machine should unable to surf to reddit.com, however's reddit's
+content might be available through other websites or subdomains so this method
+is not fool-proof. However for simple filtering, it may just suffice.
 
 ## Whitelist
 
@@ -32,14 +37,15 @@ To setup a simple whitelist your `hosts=` value must contain the word "whitelist
 
 For example: hosts=http://example.webconverger.com/whitelist
 
-<http://example.webconverger.com/whitelist> is a whitelist that contains the
-sites you explicitly want to resolve.
+<http://example.webconverger.com/whitelist> contains the
+sites you explicitly want to resolve/allow.
 
-# How to prevent users leaving kiosks in a "bad state"
+# How to prevent users leaving public kiosks in a "bad state"
 
 You will want to consider the [[kiosk_reset|blanking]] options in order to
-reset Webconverger to your site every say, 3 minutes. This can help avoid
-Webconverger being set on a non-mandated Website for too long in public spaces.
+reset Webconverger to your site every say, 3 minutes. This can help avoid an
+unsupervised Webconverger kiosk being set on a non-mandated Website for too
+long in public spaces.
 
 # Using a 3rd party DNS
 

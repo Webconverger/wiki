@@ -34,6 +34,11 @@ address with `%20` e.g.
 
 See [[kiosk]] for screenshots of the options.
 
+### How to limit access with a blacklist or a whitelist?
+
+Please see [[filtering]] how to use the `hosts=` API and advice on other more
+comprehensive solutions.
+
 ### Use Webconverger in a different language to English
 
 Please refer to [[i18n]]
