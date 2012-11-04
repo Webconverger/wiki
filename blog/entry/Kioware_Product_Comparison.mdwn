@@ -8,7 +8,7 @@ features](http://www.kioware.com/comparison.aspx):
 * Popup Window Control - yes
 * Domain/Page List Blocking - we simply rely on no URL address bar chrome=webcnoaddressbar for [[controlled_access|filtering]]
 * Integrated Browser Error Handling - yes, we can override the error page
-* Custom Navigational Toolbar Skins - no, we don't do skinning
+* Custom Navigational Toolbar Skins - we don't do skinning, though we do have <a href="http://webconverger.org/kiosk/">"skin" options</a>
 * File Download Blocking - yes
 * Remote XML Configuration - yes, we have a simpler line based API defined by [[boot]]
 * Citrix/Terminal Server Support - no
@@ -32,7 +32,7 @@ features](http://www.kioware.com/comparison.aspx):
 * Upload Usage Stats - if you have Google analytics enabled on your site, we can arrange to identify the kiosk via a MAC identifier
 * Remote Content Updating - yes, this is the same as the earlier "Remote XML Configuration"
 * Server Side Kiosk Management - you can manage your kiosk in the cloud with Webconverger and achieve the same functionality
-* Server Side Statistics Analysis - no, though it's trivial to use Google Analytics on your site to monitor your kiosk use
+* Server Side Statistics Analysis - no, though it's trivial to use Google Analytics on your site to monitor your kiosk use via MACID
 * Ad Hoc Grouping of kiosks - we identify machines by UUID and MAC ID and you are free to organise them as you wish
 * Remote Monitoring - you simply monitor them by checking your logs if the kiosk if accessing your homepage. We do have a more proactive monitoring option, though that's only offered via [Neon](http://neon.webconverger.com/)
 * Flexible User Accounts - no, though we do have "debug mode" for full access you can toggle on [[boot]]

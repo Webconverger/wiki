@@ -4,9 +4,8 @@ against [Provisio's SiteKiosk](https://www.provisio.com/en-US/SiteKiosk).
 Like [[Kioware|Kioware_Product_Comparison]]
 [SiteKiosk](https://www.provisio.com/en-US/SiteKiosk/Default.aspx#system) is a
 Windows based solution based on Internet Explorer. Webconverger is an operating
-system, so you don't need Windows and we ship a [Firefox
-based](http://en.wikipedia.org/wiki/Iceweasel) Web browser that offers a better
-surfing experience than Internet Explorer.
+system, so you don't need Windows and we ship the Firefox Web browser that
+offers a better surfing experience than Internet Explorer.
 
 SiteKiosk has [four versions](https://www.provisio.com/en-US/SiteKiosk/Default.aspx#version) to compare to:
 
@@ -25,7 +24,7 @@ SiteKiosk has [four versions](https://www.provisio.com/en-US/SiteKiosk/Default.a
 * SiteRemote Remote Monitoring - no, this looks like [[privacy]] concern to us. We encourage clients to use simple Analytics whereby you can identify this kiosk by mac ID
 * SiteCaster - yes, though in the [Neon](http://neon.webconverger.com/) product, not Webconverger
 * Large selection of browser skins - no, we don't do this. Skins are usually a performance killer, how we do offer [[bgurl=|artwork]] for simply branding the background
-* Customizable user interface - no, we don't do this, we are keen to maintain a stable familiar basic user experience
+* Customizable user interface - yes, see our [user interface options](http://webconverger.org/kiosk/)
 * Logout (Clear history) - yes
 * Start page templates - no, we don't build or advise how to build your homepage
 * URL access restricting - yes, with `chrome=webcnoaddressbar`, see [[filtering]]
@@ -44,14 +43,14 @@ SiteKiosk has [four versions](https://www.provisio.com/en-US/SiteKiosk/Default.a
 * Remap keyboard layouts - yes, via the xkb= [[API|boot]]
 * Dialog window blocking - yes
 * Debug output window - no
-* Log files - no, we can supply log files if you really need this
+* Log files - yes, using the log= API and [papertrail](https://papertrailapp.com/) for example
 * Pop-up blocker - yes
 * Support of multiple languages - yes
 * Favorites - you can customise more than one startup page which is equivalent
 * Download manager - yes, we disable all downloads
 * Web messenger - yes
 * File manager - no, we deny access to files
-* CD burning - no
+* CD burning - no, you can't burn a CD from Webconverger
 * Print station with PrinterOn - no, please refer to [[printing]]
 
 Webconverger seems most similar to SiteKiosk Basic priced at 149USD for 12
