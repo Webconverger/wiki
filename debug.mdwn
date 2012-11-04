@@ -13,11 +13,11 @@ of the [dwm](http://dwm.suckless.org/tutorial) window manager.
 
 # Remote logging
 
-Use the `log=` [[API]]
+Use the `log=` [[API]] and grab an account with [Papertrail](https://papertrailapp.com/?thank=97e900) for a nice Web interface
 
 # Breaking install boot
 
-Hold Alt or Shift keys on boot to get `boot:` prompt
+Hold Alt or Shift keys on the install boot to get `boot:` prompt
 
 # Pastebin
 
