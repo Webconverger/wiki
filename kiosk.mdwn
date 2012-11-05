@@ -40,3 +40,4 @@ If you're concerned about the scroll bar, alter the **overflow** CSS element.
 # Source code
 
 * [Webconverger extension source code](https://github.com/Webconverger/iceweasel-webconverger)
+* [Sample debugging session of the extension in Webconverger](http://r2d2.webconverger.org/2012-11-05/debug.html)

@@ -17,6 +17,12 @@ Setting a bridged network interface is straightforward, you just need to ensure:
 
 	sudo modprobe -a vboxnetadp vboxnetflt
 
+## Testing branches
+
+With `fetch-revision=` from [[upgrade]] we can test experimental [branches](https://github.com/Webconverger/webc/branches), before they are merged to master.
+
+Here is a [video explaining how to make Webconverger switch branches for testing](http://r2d2.webconverger.org/2012-11-05/branches.html).
+
 ## Testing network failure
 
 <a href="http://www.flickr.com/photos/hendry/7013543725/" title="Right click Network Adaptors by Kai Hendry, on Flickr"><img src="http://farm8.staticflickr.com/7278/7013543725_109efd128c_m.jpg" width="240" height="240" alt="Right click Network Adaptors"></a>
