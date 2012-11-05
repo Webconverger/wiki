@@ -1,4 +1,4 @@
-<img width=640 height=360 src="/img/webc-15.1.png" alt="15.1 about:">
+<img width=640 height=480 src="/img/webc-15.1.png" alt="15.1 about:">
 
 Our new automatic [[upgrade]] feature released in [version
 15](http://webconverger.org/blog/entry/Webconverger_15_release_notes/) works
