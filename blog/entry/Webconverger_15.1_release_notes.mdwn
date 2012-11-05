@@ -1,0 +1,31 @@
+<img src="/img/webc-15.1.png" alt="15.1 about:">
+
+Our new automatic [[upgrade]] feature released in [version
+15](http://webconverger.org/blog/entry/Webconverger_15_release_notes/) works
+well. [Git-FS](https://github.com/Webconverger/git-fs) has helped us
+[[develop]], [[debug]] and [[test|testing]] better, and deliver to you an
+experience that improves every day. Just like the Web does.
+
+Install users don't have to do anything to get these new features. Live users
+should [download](http://webconverger.com) 15.1 and ideally switch to the install version by installing it
+to your hard drive.
+
+What's new:
+
+* New `hosts=` feature for simple internet blacklist/whitelist [[filtering]]
+* [Font hinting](http://en.wikipedia.org/wiki/Font_hinting) for smoother page renders
+* Faster browser boot times
+* Feature and security updates to [Firefox to 16.0.2](http://www.mozilla.org/en-US/firefox/16.0.2/releasenotes/)
+* Security update to [Adobe Flash player 11.2.202.243](http://www.adobe.com/support/security/bulletins/apsb12-22.html)
+* Various updates to the underlying [Progress Linux](http://progress-linux.org/) system
+
+For more details, `git log --oneline --decorate 15.0..15.1` on the [chroot](http://www.mozilla.org/en-US/firefox/16.0.2/releasenotes/).
+
+## Commercial customised ISOs service with your embedded configurations return
+
+Webconverger Limited's commercial service to have the ISO pre-configured is
+back and is hosted at <http://custom.webconverger.com>. This is a very
+convenient way to deploy on machines with wireless only network connections, or
+on a large number of machines. Please contact sales to learn more.
+
+Thank you for the support and we'd love to hear your feedback! feedback2012@webconverger.com
