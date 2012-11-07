@@ -1,3 +1,4 @@
+[[!meta title="Privacy policy"]]
 # Privacy policy
 
 Webconverger is designed to ensure users privacy and [[security]] whilst
