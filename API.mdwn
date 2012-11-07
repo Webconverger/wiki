@@ -87,6 +87,10 @@ This is [computed](https://github.com/Webconverger/webc/blob/master/home/webc/we
 For finer control you can use `xrandr=`, but then you must specify the output
 device, which varies machine to machine.
 
+### Force the screen resolution to 1024x768
+
+	xrandr-all=--mode%201024x768
+
 ### DEBUG MODE for developers
 
 Append `debug`.
@@ -96,7 +100,9 @@ manager](http://dwm.suckless.org/tutorial) defaults to shift+alt+enter for a
 Terminal. Gain root with `sudo -i`.
 
 On the install version, you can sometimes escape extlinux and then you need to
-type `boot: l0 debug` to trigger debug mode.
+type `boot: linux debug` to trigger debug mode.
+
+See [[debug]] for more.
 
 ### Position mouse pointer
 
