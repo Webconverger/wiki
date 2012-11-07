@@ -54,9 +54,9 @@ Could be expanded to
 
 	homepage=http://webconverger.com/?mac=081196ae2d3c
 
-### How do I change the Webconverger branding?
+### Is it possible to change desktop background image ?
 
-Please see [[artwork]]
+Please see [[artwork]] for details how to use `bgurl=`
 
 ### Specify a HTTP proxy at 192.168.1.5 with port 8888
 
