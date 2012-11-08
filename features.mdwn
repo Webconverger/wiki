@@ -1,19 +1,19 @@
 [[!meta title="Webconverger features"]]
 
-Latest [Firefox Web browser](http://en.wikipedia.org/wiki/Firefox) with [HTML5
+* Latest "Tamper-proof" [Firefox Web browser](http://en.wikipedia.org/wiki/Firefox) with [HTML5
 webm
 video](https://developer.mozilla.org/en-US/docs/Media_formats_supported_by_the_audio_and_video_elements)
 by default.
+* [[Network_printing|printing]]
+* Latest [[Adobe]] Flash & support for inline PDF viewing
 
 Most customers just need their [[homepage]] customised, however there are
 further options:
 
-* A choice of [[kiosk]] browser chrome, which helps Webconverger to the your customised homepage. There are more [[filtering]] options
+* [[Browser_user_interface_options|kiosk]], which can help limit users to the your customised homepage. There are more [[filtering]] options.
 * Custom [[background|artwork]] seen between sessions
 * [[Kiosk_reset|blanking]] **timeout** options that reset the browser after user defined minutes of idleness/inactivity.
-* [[Network_printing|printing]]
 * Wired [[networking]] options such as fixing your DNS and [[wireless]] support
-* [[Adobe]] Flash & PDF viewing
 * [[Extensive_internationalization_support|i18n]] -  Many types of keyboard setups, such as Swiss German. Spelling support with dictionaries in many languages.
 * Screen rotation and sizing options
 
