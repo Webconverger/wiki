@@ -1,16 +1,20 @@
-Customize Webconverger with your own **homepage** like banks, museums, car
-dealerships, libraries and many other customers have done. Most customers just
-want their [[homepage]] customised, however there are further options:
+[[!meta title="Webconverger features"]]
 
-* Automatic [[upgrades|upgrade]]
-* A choice of [[kiosk]] browser chrome, which helps limit Webconverger to the your customised homepage
-* Latest [Firefox Web browser](http://en.wikipedia.org/wiki/Firefox) with [HTML5 webm video](https://developer.mozilla.org/en-US/docs/Media_formats_supported_by_the_audio_and_video_elements)
+Latest [Firefox Web browser](http://en.wikipedia.org/wiki/Firefox) with [HTML5
+webm
+video](https://developer.mozilla.org/en-US/docs/Media_formats_supported_by_the_audio_and_video_elements)
+by default.
+
+Most customers just need their [[homepage]] customised, however there are
+further options:
+
+* A choice of [[kiosk]] browser chrome, which helps Webconverger to the your customised homepage. There are more [[filtering]] options
 * Custom [[background|artwork]] seen between sessions
-* [[Kiosk_reset|blanking]] **timeout** with `kioskresetstation=<mins>`. Resets browser after user defined minutes of idleness/inactivity.
+* [[Kiosk_reset|blanking]] **timeout** options that reset the browser after user defined minutes of idleness/inactivity.
 * [[Network_printing|printing]]
-* [[Networking]] **wired** works simply with DHCP. [[Wireless]] works too!
-* [[Adobe]] Flash & [PDF viewing](http://www.flickr.com/photos/hendry/3825411003/)
+* Wired [[networking]] options such as fixing your DNS and [[wireless]] support
+* [[Adobe]] Flash & PDF viewing
 * [[Extensive_internationalization_support|i18n]] -  Many types of keyboard setups, such as Swiss German. Spelling support with dictionaries in many languages.
 * Screen rotation and sizing options
 
-See the [[API]] for a complete list of features.
+Please see the [[API]] for a complete list of features.
