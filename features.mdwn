@@ -3,15 +3,14 @@ dealerships, libraries and many other customers have done. Most customers just
 want their [[homepage]] customised, however there are further options:
 
 * Automatic [[upgrades|upgrade]]
-* A choice of [[kiosk]] browser chrome, which helps limit Webconverger to the your customised homepage:
-* [[ISO]]-hybrid image for burning to a CD or USB stick
+* A choice of [[kiosk]] browser chrome, which helps limit Webconverger to the your customised homepage
 * Latest [Firefox Web browser](http://en.wikipedia.org/wiki/Firefox) with [HTML5 webm video](https://developer.mozilla.org/en-US/docs/Media_formats_supported_by_the_audio_and_video_elements)
-* custom [[background|artwork]] seen between sessions
+* Custom [[background|artwork]] seen between sessions
 * [[Kiosk_reset|blanking]] **timeout** with `kioskresetstation=<mins>`. Resets browser after user defined minutes of idleness/inactivity.
+* [[Network_printing|printing]]
 * [[Networking]] **wired** works simply with DHCP. [[Wireless]] works too!
 * [[Adobe]] Flash & [PDF viewing](http://www.flickr.com/photos/hendry/3825411003/)
 * [[Extensive_internationalization_support|i18n]] -  Many types of keyboard setups, such as Swiss German. Spelling support with dictionaries in many languages.
-* Screen [[blanking]] options and setting the resolution to a fixed sized (displays are autodetected by default)
-* [[Locking down the bootloader|blog/entry/cmdline_lock_down]] so [[boot]] options cannot be altered by users on machine boot
+* Screen rotation and sizing options
 
 See the [[API]] for a complete list of features.
