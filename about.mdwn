@@ -1,13 +1,12 @@
 [[!meta title="Webconverger Comparison Matrix"]]
 
-Webconverger provides a simple and secure Web platform as an operating system
-to boot from a USB stick or a CD-ROM.
+Webconverger provides a simple and secure operating system to get you onto the Web.
 
 # Introduction
 
 <p>Webconverger is an evolution of the <a
 href="http://en.wikipedia.org/wiki/Hybrid_client">hybrid client</a> for
-deployments in places like offices or Internet cafes where only <a
+deployments in **public places** where only <a
 href="http://en.wikipedia.org/wiki/Web_application">Web applications</a> are
 used.</p>
 
@@ -19,8 +18,10 @@ browser that runs locally.</p>
 # Why Webconverger
 
 * Simple
-* Reliability
-* Sandboxed security
+* Reliable
+* Good performance
+* Current
+* Excellent [[security]]
 * Better [[i18n]] support for difficult locales like Chinese, Korean and Japanese
 
 # Comparison with Microsoft Windows products
@@ -37,29 +38,23 @@ Please view [[blog/entry/Kioware_Product_Comparison]].
 
 Please view [[blog/entry/SiteKiosk_versus_Webconverger]].
 
-## Microsoft Steady State
+## Windows "Freezing" approaches
 
-[Microsoft Steady
-State](http://www.microsoft.com/windows/products/winfamily/sharedaccess/) is
-based on a vanilla Windows XP installation. If a malicous hacker is out to
-break it, he will as the image is not updated.  An AV-program (with certain
-scripts to write virus update signatures into the Steadystate cache, otherwise
-AV updates would be swept off after every reboot...) is still required as a
-virus could for example infect the MBR, corrupt the Steadystate cache partition
-and just mess up the system in general.
+[Microsoft Steady State](http://en.wikipedia.org/wiki/Windows_SteadyState) has been **discontinued**.
 
-A complete reboot is required to clean up the system after the user leaves the
-system, due to the nature of the system each reboot means that multiple
-gigabyte of data are being copied from one partition to the other. That takes a
-good 3-4 minutes on an average system and it's of course also pretty stressing
-for the HD.
+[Faronics](http://www.faronics.com/en-uk/) offers a comparable solution to
+"freeze" the Windows machine. However "freezing" is not a good strategy for
+providing users an uptodate and current browser experience like Webconverger
+install users enjoy. "Deep Freeze" is comparable to <a
+href="http://config.webconverger.com/faq/#what-do-you-mean-by-live-version-and-install-version-?">Webconverger's
+Live version</a> which we plan to phase out over time in favour of the
+"automatically uptodate" install version.
 
-The good thing about Steadystate is that it allows me to offer a full Windows
-XP installation with MS office, Skype, Instant-messaging software and whatnot
-to the guests.  The downside is that it breaks continuously and is much more
-trouble than it's worth to maintain when most people really just want to check
-their webmail.  I could go on all day ranting about how something like Windows
-XP with Steadystate is inferior to a Webconverger for my usage scenario here.
+"Freezing" also does not guarantee any security for you users. For example a
+vulnerable flash in a "frozen" Windows could be exploited each and every
+browsing session, if the surfer unfortunately browses to the exploited every
+session. If Webconverger discovers an exploit, it is quickly patched and
+installs [[upgrade]] so that surfers are safe.
 
 # Rationale
 
@@ -70,15 +65,13 @@ href="http://www.joelonsoftware.com/articles/APIWar.html">Web platform</a>.
 Likewise users are not checking their email with Outlook Express anymore, they
 are using Web applications such as Gmail or Yahoo. This is Web convergence.
 
-That leads us onto a <strong>problem</strong>. How does an IT manager roll
-out the Web platform? We probably have to deal with fragile pre-installations
-of Windows and battle to get Firefox on each machine. Then the hopeless battle
-to maintain that system from viruses, spyware and the looming costs of a <a
-href="http://en.wikipedia.org/wiki/Microsoft_Vista">Vista</a> update.
+That leads us onto a <strong>problem</strong>. How does an IT manager roll out
+the Web platform? We probably have to deal with fragile pre-installations of
+Windows and battle to get Firefox on each machine. Then the hopeless battle to
+maintain that system from viruses, malware and the looming costs of a <a
+href="http://en.wikipedia.org/wiki/Microsoft_Vista">Vista</a> (or worse)
+update.
 
 Webconverger is simply a Web kiosk/terminal, that is easy to deploy and
-secure. In most cases all you need to do is boot from a CD. That's it! A usable
-up to date Web browser that <strong>just works</strong>.
-
-<p><strong>Webconverger provides the Web, just the Web and only the
-Web.</strong></p>
+maintenance free. In most cases all you need to do is boot from a CD. That's
+it! A usable up to date Web browser that <strong>just works</strong>.
