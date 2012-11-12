@@ -20,15 +20,14 @@ browser that runs locally.</p>
 * Simple
 * Reliable
 * Good performance
-* Current
+* Current, supporting the latest Web features
 * Excellent [[security]]
 * Better [[i18n]] support for difficult locales like Chinese, Korean and Japanese
 
-# Comparison with Microsoft Windows products
+# Webconverger compared with Microsoft Windows based products
 
-Below are products that run on the Windows platform. Microsoft exert their
-monopoly on OEMs, hiding the true license cost of about 60GBP (XP Home) or
-190GBP (Vista Ultimate) from the average consumer.
+Below are products that run on the Windows platform. Microsoft exert their PC
+monopoly on OEMs.
 
 ## Kioware
 
