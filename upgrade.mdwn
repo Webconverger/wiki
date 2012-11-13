@@ -24,8 +24,7 @@ Webconverger uses git to maintain the [filesystem](https://github.com/Webconverg
 
 Note: After changing anything in `/usr/share/initramfs-tools/`, re-generate the initrd and commit them like so:
 
-	update-initramfs -u
-	update-initramfs -u -k 3.2.0-3artax1-486
+	update-initramfs -u -k all
 
 In future we hope to utilise the boot-once option in extlinux, where by if the
 machine failed to boot from a kernel error, a subsequent boot will revert to
