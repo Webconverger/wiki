@@ -102,9 +102,6 @@ Once Webconverger is booted, the [dwm window
 manager](http://dwm.suckless.org/tutorial) defaults to shift+alt+enter for a
 Terminal. Gain root with `sudo -i`.
 
-On the install version, you can sometimes escape extlinux and then you need to
-type `boot: linux debug` to trigger debug mode.
-
 See [[debug]] for more.
 
 ### Position mouse pointer
