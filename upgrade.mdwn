@@ -92,3 +92,7 @@ Note one should probably work from a branch, e.g. `git branch flashtest; git pus
 * [use https:// for firewalled deployments](https://github.com/blog/1270-easier-builds-and-deployments-using-git-over-https-and-oauth) ?
 
 For more background, see these [[gitupgrades]] notes.
+
+# Does git-fs use a lot of RAM?
+
+Our memory requirements have gone up and by our calculations, it's about 200M of memory usage for git-fs, which isn't a lot.
