@@ -21,12 +21,18 @@ Use the `log=` [[API]] and grab an account with [Papertrail](https://papertraila
 
 Hold Alt or Shift keys on the install boot to get `boot:` prompt
 
+Also see: <https://github.com/Webconverger/webc/issues/107>
+
 # Pastebin
 
 As the root _super-user_ `sudo -i`, utilise the `p` tool to paste you logs into.
 
 * Implented in <https://github.com/Webconverger/webc/blob/master/root/.bashrc>
 * Example: `grep upgrade.sh /var/log/daemon.log | p`
+
+# Describing the video hardware
+
+<http://r2d2.webconverger.org/2012-11-19/graphics-cards.html>
 
 # Disable upgrades
 
