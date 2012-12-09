@@ -30,3 +30,17 @@ Ensure Crash Reporter binary `crashreporter`, `webapprt*`, `updater` is not incl
 
 * [Example update for 16.x](https://github.com/Webconverger/webc/commit/4083bfa460be5e1c1469468ac5b4abf69acb5f76)
 * [Example update for 17.x](https://github.com/Webconverger/webc/commit/28d255eabbfe325a06a0d887a2b9a20f29cd066b)
+
+# Doing an update
+
+	/opt# cp -r firefox-old/langpacks/ firefox/
+	/opt# cp -r firefox-old/defaults/ firefox
+	/opt# cp -ra firefox-old/extensions/ firefox
+
+Remove crash reporter
+
+	vim firefox/application.ini
+
+Make sure nothing is deleted / missing
+
+	git checkout firefox/mozilla.cfg
