@@ -1,0 +1,33 @@
+<img width=640 height=480 src="/img/neon.png" alt="neon boots">
+
+16.0 provides the proven <abbr title="Digital Out of Home">DOOH</abbr> Web
+signage platform, under the new `chrome=neon` switch to Webconverger users.
+The only difference now really between the
+[Neon](http://neon.webconverger.com/pricing/) and
+[Webconverger](http://webconverger.com/pricing/) products, is the extra
+monitoring offered in Neon, which would not be appropriate in Webconverger.
+
+Neon's pricing model at 30USD a month, works out at just 1USD a day per screen.
+You hopefully can generate at least 1USD of revenue on your screen per day by
+advertising a service or product!
+
+What's new:
+
+* `chrome=neon` and black background Neon theme
+* [Firefox 17.0.1](http://www.mozilla.org/en-US/firefox/17.0.1/releasenotes) and flash update
+* New homepage= expansions for WEBCID, WEBCVERSION & finally USBID for simple physical authentication in <abbr title="Point of Sale">POS</abbr> use cases
+* New `noescape` option for further locking down of install boot
+* Bug fixes for http_proxy, [[xinput|touch_screen_calibration]] and [disabling addons](https://github.com/Webconverger/webc/issues/112)
+
+Those using the install version, your will enjoy safely and silently
+[[upgrading|upgrade]] to these new features and fixes.  Verify the update if
+you like by cross referencing the version with the [latest
+commits](https://github.com/Webconverger/webc/commits/master).
+
+# Roadmap
+
+There is lots of exciting things to come, where we could do with your help and support!
+
+* squeeze &rarr; wheezy upgrade
+* including [CJK](http://en.wikipedia.org/wiki/CJK_characters) fonts and input methods
+* blogs about Web signage
