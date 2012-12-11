@@ -1,9 +1,9 @@
 <img width=640 height=480 src="/img/neon.png" alt="neon boots">
 
-16.0 provides the proven <abbr title="Digital Out of Home">DOOH</abbr> Web
-signage platform, under the new `chrome=neon` switch to Webconverger users.
-The only difference now really between the
-[Neon](http://neon.webconverger.com/pricing/) and
+16.0 showcases the proven <abbr title="Digital Out of Home">DOOH</abbr>
+[Neon](http://neon.webconverger.com/) Web signage platform, under the new
+`chrome=neon` switch to Webconverger users.  The only difference now really
+between the [Neon](http://neon.webconverger.com/pricing/) and
 [Webconverger](http://webconverger.com/pricing/) products, is the extra
 monitoring offered in Neon, which would not be appropriate in Webconverger for
 [[privacy]] reasons.
