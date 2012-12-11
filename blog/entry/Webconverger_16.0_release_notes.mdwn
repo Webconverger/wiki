@@ -5,7 +5,8 @@ signage platform, under the new `chrome=neon` switch to Webconverger users.
 The only difference now really between the
 [Neon](http://neon.webconverger.com/pricing/) and
 [Webconverger](http://webconverger.com/pricing/) products, is the extra
-monitoring offered in Neon, which would not be appropriate in Webconverger.
+monitoring offered in Neon, which would not be appropriate in Webconverger for
+[[privacy]] reasons.
 
 Neon's pricing model at 30USD a month, works out at just 1USD a day per screen.
 You hopefully can generate at least 1USD of revenue on your screen per day by
