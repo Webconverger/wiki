@@ -22,7 +22,7 @@ By default (unless opted by specifying `noconfig`), we direct you to our
 configuration service. This configuration service can see your machine UUID and
 MAC address. We use these machine identifiers (not personally identifying), to
 track and apply subscriptions made with our [configuration
-service](http://config.webconverger.com). This how the company generates
+service](http://config.webconverger.com). This is how the company generates
 revenue in order to support the opensource project.
 
 All *.webconverger.[com|org] sites have standard [Apache](http://apache.org/)
