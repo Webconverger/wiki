@@ -140,9 +140,15 @@ Use `noescape`, which disallows [[debugging|debug]] of installed Webconverger
 
 ### Hiding and showing the cursor
 
-Hiding:
+Hiding the cursor is often used with touch screens:
 
-	nocursor
+	hidecursor
+
+Caveat: Since
+[hidecursor](https://github.com/Webconverger/webc/blob/master/home/webc/.xserverrc)
+can only be applied when starting X, you cannot use this option in the [Live
+mode](http://config.webconverger.com/faq/#what-do-you-mean-by-live-version-and-install-version-?)
+with the [configuration service](http://config.webconverger.com/).
 
 Showing:
 
