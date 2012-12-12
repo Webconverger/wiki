@@ -26,7 +26,7 @@ address with `%20` e.g.
 ##### Expansions
 
 * MACID expands to your network [MAC address](http://en.wikipedia.org/wiki/MAC_address)
-* USBID expands to USB serial, for identifying which USB stick was booted (you could conceivably make different USB sticks for a lightweight (but not very secure) physical authentication)
+* USBID expands to USB serial, for identifying which USB stick was booted - you could conceivably use different USB sticks for a lightweight (but not secure) physical authentication
 * WEBCID expands to <a href="http://config.webconverger.com/faq/#how-do-i-identify-my-machine(s)?">Webconverger's identifier</a>
 * WEBCVERSION expands to use `git describe` the running instance's version
 
