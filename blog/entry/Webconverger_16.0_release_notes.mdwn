@@ -26,6 +26,8 @@ Those using the install version, your will enjoy safely and silently
 you like by cross referencing the `about:` version with the [latest
 commits](https://github.com/Webconverger/webc/commits/master).
 
+Please download from <http://webconverger.com/> and update!
+
 # Roadmap
 
 There is lots of exciting things to come, where we could do with your help and support!
