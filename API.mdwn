@@ -25,10 +25,10 @@ address with `%20` e.g.
 
 ##### Expansions
 
-* MACID expands to macid
-* USBID expands to USB serial
-* WEBCID expands to Webconverger ID
-* WEBCVERSION expands to `git describe` the running instance
+* MACID expands to your network [MAC address](http://en.wikipedia.org/wiki/MAC_address)
+* USBID expands to USB serial, for identifying which USB stick was booted (you could conceivably make different USB sticks for a lightweight (but not very secure) physical authentication)
+* WEBCID expands to <a href="http://config.webconverger.com/faq/#how-do-i-identify-my-machine(s)?">Webconverger's identifier</a>
+* WEBCVERSION expands to use `git describe` the running instance's version
 
 For example Some customers want a way of tracking which kiosks are logging in.
 These is best accomplished using a keyword **MACID**. For example the homepage:
