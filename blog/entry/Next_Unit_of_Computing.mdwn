@@ -3,11 +3,11 @@
 A very common question asked about Webconverger is whether we support the
 [Rasbperry PI](http://www.raspberrypi.org/)? The answer is no, because I've
 tried it and I think sadly the PI is too slow for Web browsing to justify the
-man hours needed to making the port. [Webconverger is Free
+man hours needed in making and maintaining the port. [Webconverger is Free
 software](https://github.com/Webconverger), so I would love you to prove me
 wrong.
 
-The other most common question I get asked is what specific PC hardware
+Another common question I get asked is what specific PC hardware
 Webconverger runs on. Webconverger should run on **any PC**. However it would
 be good to point customers to a particular reference...
 
@@ -17,7 +17,7 @@ the <abbr title="Next Unit of Computing">NUC</abbr>, not to be confused with
 the [Nook reader](http://en.wikipedia.org/wiki/Barnes_%26_Noble_Nook). I
 purchased one yesterday for 450SGD with 4G of RAM from
 [Video-Pro](http://www.videopro.com.sg/products/product_info.php?products_id=12330).
-What I loved about this purchase is that I wasn't forced to buy Microsoft
+What I loved about this PC purchase is that I wasn't forced to buy Microsoft
 Windows 7/8.
 
 The NUC works right out of the box with [Webconverger
@@ -36,7 +36,7 @@ For [Web signage](http://neon.webconverger.com/) deployments, where the screen
 should be mounted ideally flat against the wall... well this is tricky. Be
 great to hear if you have solved this problem. Unfortunately the NUC isn't
 passively cooled, so once needs to be a little careful how it's installed.
-Nonetheless comparying the bueatifully small NUC to other signage hardware I've
+Nonetheless comparing the beautifully small NUC to other signage hardware I've
 worked with, including Intel's own [OPS
 standard](http://www.intel.com/p/en_US/embedded/applications/digital-signage/ops),
 the NUC looks like a God send.
