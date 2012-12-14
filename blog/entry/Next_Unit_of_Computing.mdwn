@@ -1,7 +1,7 @@
 <a href="http://www.flickr.com/photos/hendry/8270649161/" title="Intel NUC runs Webconverger 16.0! by Kai Hendry, on Flickr"><img src="http://farm9.staticflickr.com/8200/8270649161_8b6b1390a8.jpg" width="500" height="375" alt="Intel NUC runs Webconverger 16.0!"></a>
 
-A very common question asked about Webconverger is whether we support the
-[Rasbperry PI](http://www.raspberrypi.org/)? The answer is no, because I've
+A very common question asked to <sales@webconverger.com> is whether we support
+the [Rasbperry PI](http://www.raspberrypi.org/)? The answer is no, because I've
 tried it and I think sadly the PI is too slow for Web browsing to justify the
 man hours needed in making and maintaining the port. [Webconverger is Free
 software](https://github.com/Webconverger), so I would love you to prove me
@@ -41,6 +41,8 @@ Nonetheless comparing the beautifully small NUC to other signage hardware I've
 worked with, including Intel's own [OPS
 standard](http://www.intel.com/p/en_US/embedded/applications/digital-signage/ops),
 the NUC looks like a God send.
+
+<a href="http://www.flickr.com/photos/hendry/8271716336/" title="Webconverger on an Intel NUC by Kai Hendry, on Flickr"><img src="http://farm9.staticflickr.com/8217/8271716336_f1840a8ff1.jpg" width="500" height="375" alt="Webconverger on an Intel NUC"></a>
 
 Really looking forward to supporting Intel NUC based deployments with
 Webconverger. The NUC is what I'll be recommending to customers for new
