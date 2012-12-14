@@ -24,7 +24,8 @@ The NUC works right out of the box with [Webconverger
 16](http://webconverger.org/blog/entry/Webconverger_16.0_release_notes/) which
 is **fantastic**. There is still some further tweaks that can done, for example
 getting WebGL working and [ensuring it can
-suspend](https://github.com/Webconverger/webc/issues/81).
+suspend](https://github.com/Webconverger/webc/issues/81) efficiently to save
+power.
 
 <a href="http://www.flickr.com/photos/hendry/8271710280/" title="Typical NUC deployment by Kai Hendry, on Flickr"><img src="http://farm9.staticflickr.com/8084/8271710280_5041697340.jpg" width="500" height="375" alt="Typical NUC deployment"></a>
 
