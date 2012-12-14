@@ -17,8 +17,9 @@ the <abbr title="Next Unit of Computing">NUC</abbr>, not to be confused with
 the [Nook reader](http://en.wikipedia.org/wiki/Barnes_%26_Noble_Nook). I
 purchased one yesterday for 450SGD with 4G of RAM from
 [Video-Pro](http://www.videopro.com.sg/products/product_info.php?products_id=12330).
-What I loved about this PC purchase is that I wasn't forced to buy Microsoft
-Windows 7/8.
+What I loved about this PC purchase is that I **was not forced to buy
+Microsoft** Windows 7/8. Therefore saving 120SGD on Windows 7 OEM & hilariously
+buying a 45SGD CD drive just to install Windows.
 
 The NUC works right out of the box with [Webconverger
 16](http://webconverger.org/blog/entry/Webconverger_16.0_release_notes/) which
