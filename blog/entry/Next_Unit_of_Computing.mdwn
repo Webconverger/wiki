@@ -37,7 +37,7 @@ easy to mount behind a screen that shares the interface. Making it great for kio
 For [Web signage](http://neon.webconverger.com/) deployments, where the screen
 should be mounted ideally flat against the wall... well this is tricky. Be
 great to hear if you have solved this problem. Unfortunately the NUC isn't
-passively cooled, so once needs to be a little careful how it's installed.
+passively cooled, so one needs to be a little careful how it's installed.
 Nonetheless comparing the beautifully small NUC to other signage hardware I've
 worked with, including Intel's own [OPS
 standard](http://www.intel.com/p/en_US/embedded/applications/digital-signage/ops),
