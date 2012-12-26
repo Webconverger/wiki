@@ -31,8 +31,8 @@ in California - 120USD (~75GBP) a year responsible for archives and serving
 
 # uk.webconverger.com
 
-Aka webc (85.119.83.83) is hosted by [Bitfolk](http://bitfolk.com) based in
-London, England - ~200GBP year
+Our VPS name is **webc** (85.119.83.83), which is hosted by
+[Bitfolk](http://bitfolk.com) based in London, England - ~200GBP year
 
 # webconverger.org
 
