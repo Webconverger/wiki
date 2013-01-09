@@ -2,13 +2,13 @@
 
 <a href="http://www.flickr.com/photos/hendry/5150959998/" title="Flash playback by Kai Hendry, on Flickr"><img src="http://farm5.static.flickr.com/4060/5150959998_37a097ced2.jpg" width="500" height="375" alt="Flash playback" /></a>
 
-Sadly (from a purist POV), Webconverger chose to provide Flash viewer due to the fact several **compelling** Web applications employ Flash technologies.
-
 Despite that [Flash](http://www.adobe.com/products/flash/) is not free, a black hole binary blob and not supportive of [Web standards](http://www.whatwg.org/).
 
 In an **office** or vertical market environments you probably do not require Flash & noisy multimedia.
 
-I do defend the inclusion of Flash in the main trunk of Webconverger because I think for the most part it makes the Web more compelling.
+I do defend the inclusion of [Flash in the rootfs of
+Webconverger](https://github.com/Webconverger/webc/tree/master/usr/lib/adobe/flash-player)
+because it makes the Web more compelling.
 
 During the [browser wars](http://en.wikipedia.org/wiki/Browser_Wars) Microsoft
 made the Web compelling. Thanks Microsoft. :) One has to look at the big
