@@ -1,11 +1,11 @@
 <a href="http://www.flickr.com/photos/hendry/8270649161/" title="Intel NUC runs Webconverger 16.0! by Kai Hendry, on Flickr"><img src="http://farm9.staticflickr.com/8200/8270649161_8b6b1390a8.jpg" width="500" height="375" alt="Intel NUC runs Webconverger 16.0!"></a>
 
 A very common question asked to <sales@webconverger.com> is whether we support
-the [Rasbperry PI](http://www.raspberrypi.org/)? The answer is no, because I've
-tried it and I think sadly the PI is too slow for Web browsing to justify the
-man hours needed in making and maintaining the port. [Webconverger is Free
-software](https://github.com/Webconverger), so I would love you to prove me
-wrong.
+the [Rasbperry PI](http://www.raspberrypi.org/)? The answer is **not yet**,
+because we've tried it and the PI (Model B rev 2) is too slow for Web browsing
+to justify the man hours needed in making and maintaining the port.
+[Webconverger is Free software](https://github.com/Webconverger), so I would
+love you to prove me wrong.
 
 Another common question I get asked is what specific PC hardware
 Webconverger runs on. Webconverger should run on **any PC**. However it would
