@@ -3,9 +3,16 @@
 For want of a better place, I thought it would be prude to outline our ".COM"
 business activities on the ".ORG" blog.
 
+Ultimately our business activities make this body of free software better and
+help spread it. We do offer educational / non-profit discounts and recently we
+are working with [Techsoup](http://www.techsoup.org/) to help us spread
+Webconverger for use in libraries. We are still [under
+trial](https://twitter.com/TechSoup4Libs/status/281512991550230529) though we
+hope to ramp up our efforts in February.
+
 Normally this was done by our newsletter which you can subscribe on
-<http://webconverger.com/>. You can think of the newsletter as abbreviated
-edition of this blog in your inbox. So you don't have to employ as RSS
+<http://webconverger.com/>. You can think of the newsletter as an abbreviated
+edition of this blog in your inbox. So you don't have to employ an RSS
 feedreader, hawkishly watch our [Twitter
 stream](https://twitter.com/webconverger) or visit this page all the time.
 We've written our [own newsletter
