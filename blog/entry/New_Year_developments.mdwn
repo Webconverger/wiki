@@ -3,9 +3,19 @@
 For want of a better place, I thought it would be prude to outline our ".COM"
 business activities on the ".ORG" blog.
 
+Please let me welcome [Mike Kaply](http://mike.kaply.com/) in Austin Texas to
+our sales list. Since Patrick and I are based in Singapore, we have honestly
+found supporting US customers difficult due to the time differences. Mike has
+been helping out with the [Webconverger Firefox
+addon](https://github.com/Webconverger/iceweasel-webconverger) and an amazing
+outside contributor to the [Mozilla Enterprise
+list](https://mail.mozilla.org/listinfo/enterprise). Mike has helped a LOT of
+businesses roll out Firefox to their users and by being a part of Webconverger,
+I hope he help people even further.
+
 Ultimately our business activities make this body of free software better and
 help spread it. We do offer educational / non-profit discounts and recently we
-are working with [Techsoup](http://www.techsoup.org/) to help us spread
+are working with [Techsoup](http://www.techsoup.org/) to help spread
 Webconverger for use in libraries. We are still [under
 trial](https://twitter.com/TechSoup4Libs/status/281512991550230529) though we
 hope to ramp up our efforts in February.
