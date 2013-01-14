@@ -18,7 +18,7 @@ help spread it. We do offer educational / non-profit discounts and recently we
 are working with [Techsoup](http://www.techsoup.org/) to help spread
 Webconverger for use in libraries. We are still [under
 trial](https://twitter.com/TechSoup4Libs/status/281512991550230529) though we
-hope to ramp up our efforts in February.
+hope to ramp up our distribution in February.
 
 Previously our "business communication" was solely done by our email newsletter
 (with no Web archive) subscribed upon at
@@ -34,9 +34,9 @@ So what's happening technically? We are upgrading the base of Webconverger to
 [wheezy/baureo-backports](https://gist.github.com/4442085) based on work by
 [Progress Linux](http://progress-linux.org/). This should help us better
 support newer video hardware. We are also working on migrating our boot process
-to [systemd](http://en.wikipedia.org/wiki/Systemd). This hopefully should
-simplify our init process and make it faster. We also expect to employ a newer
-kernel shortly. Hopefully within a week from now we will be open for testing.
+to [systemd](http://en.wikipedia.org/wiki/Systemd). This should simplify our
+init process and make it faster. We also expect to employ a newer kernel
+shortly. Hopefully within a week from now we will be open for testing.
 
 Our objective is to support the [[Intel NUC|Next_Unit_of_Computing]]
 **perfectly**. Including Linux/Web [hardware
