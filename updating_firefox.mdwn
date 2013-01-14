@@ -22,7 +22,7 @@ Copy in the extension directories to /opt/firefox/extensions/
 
 For major version updates of the browsers, check the [Webconverger extension](https://github.com/Webconverger/iceweasel-webconverger) is uptodate.
 
-Make sure you carry over the defaults, for the search engine to al.
+Make sure you carry over the defaults, for the search engine "DuckDuckGo".
 
 	x220:~/debian/sid-root/root/webconverger/chroot/opt/firefox-old$ sudo rsync -a defaults/ ../firefox/defaults
 

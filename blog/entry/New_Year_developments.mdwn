@@ -1,0 +1,55 @@
+<iframe width="560" height="315" src="http://www.youtube.com/embed/nla5SsWCSyQ" frameborder="0" allowfullscreen></iframe>
+
+For want of a better place, I thought it would be prude to outline our ".COM"
+business activities on the ".ORG" blog.
+
+Normally this was done by our newsletter which you can subscribe on
+<http://webconverger.com/>. You can think of the newsletter as abbreviated
+edition of this blog in your inbox. So you don't have to employ as RSS
+feedreader, hawkishly watch our [Twitter
+stream](https://twitter.com/webconverger) or visit this page all the time.
+We've written our [own newsletter
+software](https://github.com/kaihendry/sg-hackandtell/tree/master/list) to
+basically turn these blogs into email newsletters.
+
+So what's happening? We are upgrading the base of Webconverger to
+[wheezy/baureo-backports](https://gist.github.com/4442085) based on work by
+[Progress Linux](http://progress-linux.org/). This should help us better
+support newer video hardware. We are also working on migrating our boot process
+to [systemd](http://en.wikipedia.org/wiki/Systemd). This hopefully should
+simplify our init process and make it faster. We also expect to running with a
+newer kernel shortly. Hopefully within a week from now we will be open for
+testing.
+
+The objective is to support the Intel NUC **perfectly**. Including Linux/Web
+[hardware acceleration](https://bugzilla.mozilla.org/show_bug.cgi?id=828799).
+
+In parallel we are working on some Web signage demos and contributing to the
+[W3C Web signage](http://lists.w3.org/Archives/Public/public-websignage/)
+forum, advocating Web technologies. We have had several meetings with Media
+Owners, who are very keen to move to a networked signage solution though there
+are a few things stopping them. For example:
+
+In Singapore it can cost as much as 100SGD a month to keep a single device
+connected to an Internet connection per month. That's roughly 3 times as much
+as we charge for our software.
+
+There is a lot of embedded Android devices being advertised for signage use
+case. For basic things though do a good job on the face of it. However the
+Android solutions are **not Web based** and the typical Android hardware is
+**not yet powerful enough to drive a large Web rendering**. Explaining this
+subtle differences is surprisingly difficult.
+
+In other news you might be thinking, where is [Firefox
+18.0](http://www.mozilla.org/en-US/firefox/18.0/releasenotes/)? It has a bug
+that makes the [langpacks fail to
+load](https://twitter.com/webconverger/status/289276669267673089) and we are
+waiting for Mozilla to fix this.
+
+Many of our customers have asked for a "one off" payment, since they don't find
+the subscriptions attractive. We are about to introduce a new price offering of
+double the annual fee, 200USD, which will give said PC unlimited upgrades for
+as long as this project survives. I hope you find that interesting. We will be
+implementing it in the near future via Paypal.
+
+[[!meta title="com"]]
