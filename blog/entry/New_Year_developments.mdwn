@@ -38,7 +38,7 @@ to [systemd](http://en.wikipedia.org/wiki/Systemd). This hopefully should
 simplify our init process and make it faster. We also expect to employ a newer
 kernel shortly. Hopefully within a week from now we will be open for testing.
 
-The objective is to support the [[Intel NUC|Next_Unit_of_Computing]]
+Our objective is to support the [[Intel NUC|Next_Unit_of_Computing]]
 **perfectly**. Including Linux/Web [hardware
 acceleration](https://bugzilla.mozilla.org/show_bug.cgi?id=828799).
 
