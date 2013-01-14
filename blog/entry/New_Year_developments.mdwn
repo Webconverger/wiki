@@ -52,4 +52,4 @@ double the annual fee, 200USD, which will give said PC unlimited upgrades for
 as long as this project survives. I hope you find that interesting. We will be
 implementing it in the near future via Paypal.
 
-[[!meta title="com"]]
+[[!tag com]]
