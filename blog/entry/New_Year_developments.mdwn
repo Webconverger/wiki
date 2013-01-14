@@ -52,12 +52,15 @@ connected to an Internet connection per month. That's roughly 3 times as much
 as we charge for our more expensive [Neon Web signage software](http://neon.webconverger.com/), since it has monitoring.
 
 There is a lot of embedded Android devices being advertised for signage use
-case. For basic things though do a good job on the face of it. However the
+case. For basic things they do a good job on the face of it. However the
 Android solutions are **not Web based** and the typical Android hardware is
 **not yet powerful enough to drive a large Web rendering**. Explaining this
-subtle differences is surprisingly difficult.
+subtle differences to "Media Owners" is surprisingly difficult. Our approach
+for the short term is to encourage Media Owners to become versed with small
+deployments in Web Signage using our Neon software and Intel NUC PC hardware,
+which is a much more affordable option than a year ago.
 
-In other news you might be thinking, where is [Firefox
+In other news you might be thinking, where is the faster [Firefox
 18.0](http://www.mozilla.org/en-US/firefox/18.0/releasenotes/)? It has a bug
 that makes the [langpacks fail to
 load](https://twitter.com/webconverger/status/289276669267673089) and we are
