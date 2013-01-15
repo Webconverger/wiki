@@ -38,8 +38,8 @@ to [systemd](http://en.wikipedia.org/wiki/Systemd). This should simplify our
 init process and make it faster. We also expect to employ a newer kernel
 shortly. Hopefully within a week from now we will be open for testing.
 
-Our objective is to support the [[Intel NUC|Next_Unit_of_Computing]]
-**perfectly**. Including Linux/Web [hardware
+Our objective is to support the ultra small factor [[Intel
+NUC|Next_Unit_of_Computing]] **perfectly**. Including Linux/Web [hardware
 acceleration](https://bugzilla.mozilla.org/show_bug.cgi?id=828799).
 
 In parallel we are working on some Web signage demos and contributing to the
@@ -55,12 +55,12 @@ software](http://neon.webconverger.com/), since it has monitoring.
 
 There is a lot of embedded Android devices being advertised for signage use
 case. For basic things they do a good job on the face of it. However the
-Android solutions are **not Web based** and the typical Android hardware is
-**not yet powerful enough to drive a large Web rendering**. Explaining this
-subtle differences to "Media Owners" is surprisingly difficult. Our approach
-for the short term is to encourage Media Owners to become familiar with small
-Web signage deployments using our Neon software and Intel NUC PC hardware,
-which is a much more affordable option than a year ago.
+Android solutions are typically **not Web based** and the typical Android
+hardware is **not yet powerful enough to drive a large Web rendering**.
+Explaining this subtle differences to "Media Owners" is surprisingly difficult.
+Our approach for the short term is to encourage Media Owners to become familiar
+with small Web signage deployments using our Neon software and "game changer"
+Intel NUC PC hardware, which is a much more affordable option than a year ago.
 
 In other news you might be thinking, where is the faster [Firefox
 18.0](http://www.mozilla.org/en-US/firefox/18.0/releasenotes/)? It has a bug
