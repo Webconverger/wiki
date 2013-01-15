@@ -51,7 +51,7 @@ are a few things stopping them. For example:
 In Singapore it can cost as much as 100SGD a month to keep a single device
 connected to an Internet connection. That's roughly 3 times as much as we
 charge for our more expensive [Neon Web signage
-software](http://neon.webconverger.com/), since it has monitoring.
+software](http://neon.webconverger.com/) (Neon has monitoring over Webconverger).
 
 There is a lot of embedded Android devices being advertised for signage use
 case. For basic things they do a good job on the face of it. However the
