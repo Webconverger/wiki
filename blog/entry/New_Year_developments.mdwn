@@ -4,8 +4,8 @@ For want of a better place, I thought it would be prude to outline our ".COM"
 business activities on the ".ORG" blog.
 
 Please let me welcome [Mike Kaply](http://mike.kaply.com) in Austin, Texas to
-our sales list. Since Patrick and I are based in Singapore, we have honestly
-found supporting US customers difficult due to the time differences. Mike has
+our sales list. Since Patrick and I are based in Singapore(+8 UTC), we have honestly
+found supporting US (~-6 UTC) customers difficult due to the time differences. Mike has
 been helping out with the [Webconverger Firefox
 addon](https://github.com/Webconverger/iceweasel-webconverger) and an amazing
 outside contributor to the [Mozilla Enterprise
