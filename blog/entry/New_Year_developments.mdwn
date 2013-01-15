@@ -49,16 +49,17 @@ Owners, who are very keen to move to a networked signage solution though there
 are a few things stopping them. For example:
 
 In Singapore it can cost as much as 100SGD a month to keep a single device
-connected to an Internet connection per month. That's roughly 3 times as much
-as we charge for our more expensive [Neon Web signage software](http://neon.webconverger.com/), since it has monitoring.
+connected to an Internet connection. That's roughly 3 times as much as we
+charge for our more expensive [Neon Web signage
+software](http://neon.webconverger.com/), since it has monitoring.
 
 There is a lot of embedded Android devices being advertised for signage use
 case. For basic things they do a good job on the face of it. However the
 Android solutions are **not Web based** and the typical Android hardware is
 **not yet powerful enough to drive a large Web rendering**. Explaining this
 subtle differences to "Media Owners" is surprisingly difficult. Our approach
-for the short term is to encourage Media Owners to become versed with small
-deployments in Web Signage using our Neon software and Intel NUC PC hardware,
+for the short term is to encourage Media Owners to become familiar with small
+Web signage deployments using our Neon software and Intel NUC PC hardware,
 which is a much more affordable option than a year ago.
 
 In other news you might be thinking, where is the faster [Firefox
@@ -68,9 +69,11 @@ load](https://twitter.com/webconverger/status/289276669267673089) and we are
 waiting for Mozilla to fix this.
 
 Many of our customers have asked for a "one off" payment, since they don't find
-the subscriptions attractive. We are about to introduce a new price offering of
-double the annual fee, 200USD, which will give said PC unlimited upgrades for
-as long as this project survives. I hope you find that interesting. We will be
-implementing it in the near future via Paypal.
+the ongoing subscriptions attractive, which can be an administrative burden. We
+are about to introduce a new "one off subscription" price offering of double
+the annual fee, 200USD, which will give said PC unlimited upgrades for as long
+as this project survives. We hope you find that an appealing way to support our
+work. We will be implementing this payment option in the near future via Paypal
+and quoting accordingly.
 
 [[!tag com]]
