@@ -56,6 +56,23 @@ Next use this [[testing_guide|testing]] on your freshly built image.
 
 Please share your forks on github! :) Contributions must be [MIT licensed](http://en.wikipedia.org/wiki/MIT_License).
 
+## Tips for getting your patch out
+
+In debug mode:
+
+	root@webconverger:/etc/systemd/system# git status | less
+	root@webconverger:/etc/systemd/system# git commit
+	[systemd fa18ba0] Upgrade service
+	 create mode 120000 etc/systemd/system/multi-user.target.wants/upgrade.service
+	 create mode 120000 etc/systemd/system/upgrade.service
+	 create mode 100644 lib/systemd/system/upgrade.service
+	root@webconverger:~# git format-patch HEAD~1
+	0001-Upgrade-service.patch
+	root@webconverger:~# cat 0001-Upgrade-service.patch | p
+	http://ix.io/41O
+
+And provide http://ix.io/41O in a bug report! :)
+
 ## If your build doesn't work
 
 * Check with the latest [daily build](http://build.webconverger.org/) logs. Compare them.
