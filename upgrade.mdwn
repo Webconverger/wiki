@@ -24,6 +24,8 @@ Webconverger uses git to maintain the [filesystem](https://github.com/Webconverg
 3. If there is an update, the kernels upon /live/image/live are updated and a new git-revision based on the fetch branch is applied
 4. On **REBOOT** the script [/usr/share/initramfs-tools/scripts/live](https://github.com/Webconverger/webc/blob/master/usr/share/initramfs-tools/scripts/live) in the initrd [git-fs](https://github.com/Webconverger/git-fs) mounts the git-revision SHA1 set upon the `/proc/cmdline`
 
+17.x UPDATE: Mounting scripts move to [/lib/live/boot](https://github.com/Webconverger/webc/commit/184d89921a91d8af90bc507b3b46f16e6a7078c1) and `/usr/share/initramfs-tools/hooks` is how they are included.
+
 Note: After changing anything in `/usr/share/initramfs-tools/`, re-generate the initrd and commit them like so:
 
 	update-initramfs -u -k all
