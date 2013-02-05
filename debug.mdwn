@@ -40,6 +40,12 @@ Booting Webconverger by default will forcefully fast forward to <https://github.
 
 You probably don't want this behaviour if you are testing a change, so append `noupgrade`.
 
+# Monitoring network bandwidth
+
+	# cat /proc/net/netstat | p
+
+Useful for calculating rough sizes of upgrades.
+
 # Taking a screenshot
 
 Boot with `debug` in cmdline and as root `sudo -i`.
