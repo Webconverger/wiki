@@ -23,6 +23,10 @@ Hold Alt or Shift keys on the install boot to get `boot:` prompt
 
 Also see: <https://github.com/Webconverger/webc/issues/107>
 
+# Doing compiles
+
+You need to remove `/etc/dpkg/dpkg.cfg.d/exclude-files` to get your headers, before installing `build-essential` et al.
+
 # Pastebin
 
 As the root _super-user_ `sudo -i`, utilise the `p` tool to paste you logs into.
