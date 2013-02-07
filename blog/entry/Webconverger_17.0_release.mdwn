@@ -19,7 +19,7 @@ When you follow the [[USB_guide|USB]] you are:
 The new installer allows you to partition (tricky bit solved) the USB stick and
 use it as a read/write store. This is powerful because now a **Webconverger
 installed USB stick can download updates to itself**, as long as there is space
-on the disk. You don't need to install to hard drive to enjoy the zero
+on the disk. You don't need to install to a hard drive to enjoy the zero
 maintenance joys of an always uptodate installation.
 
 So the steps are now for an USB **installed Webconverger**:
@@ -35,8 +35,9 @@ So the steps are now for an USB **installed Webconverger**:
 
 For those who are already using the [installed version of
 Webconverger](http://config.webconverger.com/faq/#what-do-you-mean-by-live-version-and-install-version-?)
-upon their hard drive, you have just moved ~2 years into the future. Absolutely
-seamlessly thanks to a our innovative home grown gitfs [[upgrade]] technology.
+upon their hard drive, you have just leaped ~2 years into the future.
+Absolutely seamlessly thanks to a our innovative home grown gitfs [[upgrade]]
+technology.
 
 You can see the extent of the upgrade from
 [[16.0|Webconverger_16.0_release_notes]] here upon [[17.0
