@@ -5,7 +5,7 @@ Webconverger 17.0 is exciting for two reasons:
 
 # Installing to a USB stick, a "Keyosk"
 
-<img src="img/17.0-install.jpg" alt="Webconverger 17.0 Install options">
+<img src="/img/17.0-install.jpg" alt="Webconverger 17.0 Install options">
 
 Admittedly this is a little confusing but please bear with, since the "install"
 term can be mis-interpreted as a straight copy or image. [Install in
