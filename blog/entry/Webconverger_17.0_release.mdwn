@@ -39,7 +39,7 @@ upon their hard drive, you have just moved ~2 years into the future. Absolutely
 seamlessly thanks to a our innovative home grown gitfs [[upgrade]] technology.
 
 You can see the extent of the upgrade from
-[[Webconverger_16.0_release_notes|16.0]] here upon [[17.0
+[[16.0|Webconverger_16.0_release_notes]] here upon [[17.0
 package_changes|changes/16.0-17.0]]. Introducing a 3.7.x Linux kernel and new
 technologies such as
 [systemd](http://www.freedesktop.org/wiki/Software/systemd).
