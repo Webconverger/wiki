@@ -24,7 +24,7 @@ maintenance joys of an always uptodate installation.
 So the steps are now for an **USB installed Webconverger**:
 
 1. Downloading the ISO
-2. dd-ing, that is plonking the image upon the USB stick A
+2. dd-ing, that is plonking the image upon the USB stick A - see the [[USB_guide|usb]]
 3. Boot stick A, and choose "Install Webconverger"
 4. Insert stick B (2G+ recommended)
 5. Choose to install to stick B
