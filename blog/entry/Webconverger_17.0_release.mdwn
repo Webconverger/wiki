@@ -22,7 +22,7 @@ installed USB stick can download updates to itself**, as long as there is space
 on the disk. You don't need to install to a hard drive to enjoy the zero
 maintenance joys of an always uptodate installation.
 
-So the steps are now for an USB **installed Webconverger**:
+So the steps are now for an USB **installed Webconverger** (using two USB memory sticks A&B):
 
 1. Downloading the ISO
 2. Plonking the image upon the USB stick A - see the [[USB_guide|usb]]
