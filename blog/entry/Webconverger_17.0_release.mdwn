@@ -10,7 +10,7 @@ term can be mis-interpreted as a straight copy or image. [Install in
 Webconverger parlance means you are creating a read/write
 store](http://config.webconverger.com/faq/#what-do-you-mean-by-live-version-and-install-version-?).
 
-When you follow the [[USB]] guide you are basically:
+When you follow the [[USB_guide|USB]] you are:
 
 1. Downloading the ISO
 2. dd-ing, that is plonking the image upon the USB stick, without partitioning the USB stick (this is tricky)
@@ -21,14 +21,14 @@ powerful because now a **Webconverger installed USB stick can download updates
 to itself**. You don't need to install to hard drive to enjoy the zero
 maintenance joys of an always uptodate installation.
 
-So the steps are now for an **USB installed Webconverger**:
+So the steps are now for an USB **installed Webconverger**:
 
 1. Downloading the ISO
 2. dd-ing, that is plonking the image upon the USB stick A - see the [[USB_guide|usb]]
 3. Boot stick A, and choose "Install Webconverger"
 4. Insert stick B (2G+ recommended)
 5. Choose to install to stick B
-6. Now boot from **installed** stick B, which is now able to update itself
+6. Now boot from **installed** stick B, which is now able to update itself!
 
 # Major base upgrade
 
