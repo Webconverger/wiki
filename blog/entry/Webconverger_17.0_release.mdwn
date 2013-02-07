@@ -61,6 +61,6 @@ md5 is `677f7f5ba00a45f3b641fabf1e6ffa93` and the sha1sum is
 
 Update: Firefox
 [18.0.2](http://www.mozilla.org/en-US/firefox/18.0.2/releasenotes/) with this
-[JS stability bug](https://bugzilla.mozilla.org/show_bug.cgi?id=831626) will be
+[JS stability bug fix](https://bugzilla.mozilla.org/show_bug.cgi?id=831626) will be
 incorporated into Webconverger after testing, hopefully tomorrow. Install users
 will upgrade to this efficiently and automatically.
