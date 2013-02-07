@@ -17,10 +17,10 @@ When you follow the [[USB_guide|USB]] you are:
 1. Downloading the ISO
 2. dd-ing, that is plonking the image upon the USB stick, without partitioning the USB stick (this is tricky)
 
-The new installer allows you to **format** the USB stick, take up the entire
-partition (tricky bit solved) and use it as a read/write store. This is
-powerful because now a **Webconverger installed USB stick can download updates
-to itself**. You don't need to install to hard drive to enjoy the zero
+The new installer allows you to partition (tricky bit solved) the USB stick and
+use it as a read/write store. This is powerful because now a **Webconverger
+installed USB stick can download updates to itself**, as long as there is space
+on the disk. You don't need to install to hard drive to enjoy the zero
 maintenance joys of an always uptodate installation.
 
 So the steps are now for an USB **installed Webconverger**:
@@ -39,9 +39,11 @@ Webconverger](http://config.webconverger.com/faq/#what-do-you-mean-by-live-versi
 upon their hard drive, you have just moved ~2 years into the future. Absolutely
 seamlessly thanks to a our innovative home grown gitfs [[upgrade]] technology.
 
-You can see the extent of the upgrade from 16.0 here upon [[17.0
+You can see the extent of the upgrade from
+[[Webconverger_16.0_release_notes|16.0]] here upon [[17.0
 package_changes|changes/16.0-17.0]]. Introducing a 3.7.x Linux kernel and new
-technologies such as [systemd](http://www.freedesktop.org/wiki/Software/systemd).
+technologies such as
+[systemd](http://www.freedesktop.org/wiki/Software/systemd).
 
 What does this mean? This means newer hardware will be far better supported.
 Previous issues with the [[NUC|Next_Unit_of_Computing]]'s video rotation and
