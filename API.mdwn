@@ -6,7 +6,7 @@ values](http://stackoverflow.com/questions/993452/splitting-proc-cmdline-argumen
 need to be `encodeURI` in order not be considered keys themselves. For
 developers, [[startup]] might better explain how these are used.
 
-There are two ways to start using the API, firstly by hitting TAB on the boot screen.
+There are two ways to start using the API, firstly by hitting [TAB](http://en.wikipedia.org/wiki/Tab_key) on the boot screen.
 
 <img src="/img/webc-boot.png" alt="Syslinux boot menu, press TAB" />
 
