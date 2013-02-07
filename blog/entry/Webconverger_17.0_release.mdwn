@@ -1,0 +1,52 @@
+Webconverger 17.0 is exciting for two reasons:
+
+1. New installer, allowing you to install to a USB (more on this)
+* Whole base is upgraded. squeeze/artax &rarr; wheezy/baureo
+
+# Installing to a USB stick, a "Keyosk"
+
+Admittedly this is a little confusing but please bear with, since the "install"
+term can be mis-interpreted as a straight copy or image. [Install in
+Webconverger parlance means you are creating a read/write
+store](http://config.webconverger.com/faq/#what-do-you-mean-by-live-version-and-install-version-?).
+
+When you follow the [[USB]] guide you are basically:
+
+1. Downloading the ISO
+2. dd-ing, that is plonking the image upon the USB stick, without partitioning the USB stick (this is tricky)
+
+The new installer allows you to **format** the USB stick, take up the entire
+partition (tricky bit solved) and use it as a read/write store. This is
+powerful because now a **Webconverger installed USB stick can download updates
+to itself**. You don't need to install to hard drive to enjoy the zero
+maintenance joys of an always uptodate installation.
+
+So the steps are now for an **USB installed Webconverger**:
+
+1. Downloading the ISO
+2. dd-ing, that is plonking the image upon the USB stick A
+3. Boot stick A, and choose "Install Webconverger"
+4. Insert stick B (2G+ recommended)
+5. Choose to install to stick B
+6. Now boot from **installed** stick B, which is now able to update itself
+
+# Major base upgrade
+
+For those who are already using the [installed version of
+Webconverger](http://config.webconverger.com/faq/#what-do-you-mean-by-live-version-and-install-version-?)
+upon their hard drive, you have just moved ~2 years into the future. Absolutely
+seamlessly thanks to a our innovative home grown gitfs [[upgrade]] technology.
+
+You can see the extent of the upgrade from 16.0 here upon [[17.0
+package_changes|changes/16.0-17.0]]. Introducing a 3.7.x Linux kernel and new
+technologies such as [systemd](http://www.freedesktop.org/wiki/Software/systemd).
+
+What does this mean? This means newer hardware will be far better supported.
+Previous issues with the [[NUC|Next_Unit_of_Computing]]'s video rotation and
+sound are now fixed and it works great. Many of you will notice [WebGL working
+in
+Webconverger](https://www.khronos.org/registry/webgl/sdk/demos/google/shiny-teapot/index.html)
+across many different types of hardware.
+
+To see a detailed list of changes run `git log --oneline --decorate 16.0..17.0`
+upon the [curated chroot](https://github.com/Webconverger/webc).

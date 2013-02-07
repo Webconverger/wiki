@@ -1,0 +1,958 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<style type="text/css">
+.ef0,.f0 { color: #000000; } .eb0,.b0 { background-color: #000000; }
+.ef1,.f1 { color: #AA0000; } .eb1,.b1 { background-color: #AA0000; }
+.ef2,.f2 { color: #00AA00; } .eb2,.b2 { background-color: #00AA00; }
+.ef3,.f3 { color: #AA5500; } .eb3,.b3 { background-color: #AA5500; }
+.ef4,.f4 { color: #0000AA; } .eb4,.b4 { background-color: #0000AA; }
+.ef5,.f5 { color: #AA00AA; } .eb5,.b5 { background-color: #AA00AA; }
+.ef6,.f6 { color: #00AAAA; } .eb6,.b6 { background-color: #00AAAA; }
+.ef7,.f7 { color: #AAAAAA; } .eb7,.b7 { background-color: #AAAAAA; }
+.ef8, .f0 > .bold,.bold > .f0 { color: #555555; font-weight: normal; }
+.ef9, .f1 > .bold,.bold > .f1 { color: #FF5555; font-weight: normal; }
+.ef10,.f2 > .bold,.bold > .f2 { color: #55FF55; font-weight: normal; }
+.ef11,.f3 > .bold,.bold > .f3 { color: #FFFF55; font-weight: normal; }
+.ef12,.f4 > .bold,.bold > .f4 { color: #5555FF; font-weight: normal; }
+.ef13,.f5 > .bold,.bold > .f5 { color: #FF55FF; font-weight: normal; }
+.ef14,.f6 > .bold,.bold > .f6 { color: #55FFFF; font-weight: normal; }
+.ef15,.f7 > .bold,.bold > .f7 { color: #FFFFFF; font-weight: normal; }
+.eb8  { background-color: #555555; }
+.eb9  { background-color: #FF5555; }
+.eb10 { background-color: #55FF55; }
+.eb11 { background-color: #FFFF55; }
+.eb12 { background-color: #5555FF; }
+.eb13 { background-color: #FF55FF; }
+.eb14 { background-color: #55FFFF; }
+.eb15 { background-color: #FFFFFF; }
+.ef16 { color: #000000; } .eb16 { background-color: #000000; }
+.ef17 { color: #00005f; } .eb17 { background-color: #00005f; }
+.ef18 { color: #000087; } .eb18 { background-color: #000087; }
+.ef19 { color: #0000af; } .eb19 { background-color: #0000af; }
+.ef20 { color: #0000d7; } .eb20 { background-color: #0000d7; }
+.ef21 { color: #0000ff; } .eb21 { background-color: #0000ff; }
+.ef22 { color: #005f00; } .eb22 { background-color: #005f00; }
+.ef23 { color: #005f5f; } .eb23 { background-color: #005f5f; }
+.ef24 { color: #005f87; } .eb24 { background-color: #005f87; }
+.ef25 { color: #005faf; } .eb25 { background-color: #005faf; }
+.ef26 { color: #005fd7; } .eb26 { background-color: #005fd7; }
+.ef27 { color: #005fff; } .eb27 { background-color: #005fff; }
+.ef28 { color: #008700; } .eb28 { background-color: #008700; }
+.ef29 { color: #00875f; } .eb29 { background-color: #00875f; }
+.ef30 { color: #008787; } .eb30 { background-color: #008787; }
+.ef31 { color: #0087af; } .eb31 { background-color: #0087af; }
+.ef32 { color: #0087d7; } .eb32 { background-color: #0087d7; }
+.ef33 { color: #0087ff; } .eb33 { background-color: #0087ff; }
+.ef34 { color: #00af00; } .eb34 { background-color: #00af00; }
+.ef35 { color: #00af5f; } .eb35 { background-color: #00af5f; }
+.ef36 { color: #00af87; } .eb36 { background-color: #00af87; }
+.ef37 { color: #00afaf; } .eb37 { background-color: #00afaf; }
+.ef38 { color: #00afd7; } .eb38 { background-color: #00afd7; }
+.ef39 { color: #00afff; } .eb39 { background-color: #00afff; }
+.ef40 { color: #00d700; } .eb40 { background-color: #00d700; }
+.ef41 { color: #00d75f; } .eb41 { background-color: #00d75f; }
+.ef42 { color: #00d787; } .eb42 { background-color: #00d787; }
+.ef43 { color: #00d7af; } .eb43 { background-color: #00d7af; }
+.ef44 { color: #00d7d7; } .eb44 { background-color: #00d7d7; }
+.ef45 { color: #00d7ff; } .eb45 { background-color: #00d7ff; }
+.ef46 { color: #00ff00; } .eb46 { background-color: #00ff00; }
+.ef47 { color: #00ff5f; } .eb47 { background-color: #00ff5f; }
+.ef48 { color: #00ff87; } .eb48 { background-color: #00ff87; }
+.ef49 { color: #00ffaf; } .eb49 { background-color: #00ffaf; }
+.ef50 { color: #00ffd7; } .eb50 { background-color: #00ffd7; }
+.ef51 { color: #00ffff; } .eb51 { background-color: #00ffff; }
+.ef52 { color: #5f0000; } .eb52 { background-color: #5f0000; }
+.ef53 { color: #5f005f; } .eb53 { background-color: #5f005f; }
+.ef54 { color: #5f0087; } .eb54 { background-color: #5f0087; }
+.ef55 { color: #5f00af; } .eb55 { background-color: #5f00af; }
+.ef56 { color: #5f00d7; } .eb56 { background-color: #5f00d7; }
+.ef57 { color: #5f00ff; } .eb57 { background-color: #5f00ff; }
+.ef58 { color: #5f5f00; } .eb58 { background-color: #5f5f00; }
+.ef59 { color: #5f5f5f; } .eb59 { background-color: #5f5f5f; }
+.ef60 { color: #5f5f87; } .eb60 { background-color: #5f5f87; }
+.ef61 { color: #5f5faf; } .eb61 { background-color: #5f5faf; }
+.ef62 { color: #5f5fd7; } .eb62 { background-color: #5f5fd7; }
+.ef63 { color: #5f5fff; } .eb63 { background-color: #5f5fff; }
+.ef64 { color: #5f8700; } .eb64 { background-color: #5f8700; }
+.ef65 { color: #5f875f; } .eb65 { background-color: #5f875f; }
+.ef66 { color: #5f8787; } .eb66 { background-color: #5f8787; }
+.ef67 { color: #5f87af; } .eb67 { background-color: #5f87af; }
+.ef68 { color: #5f87d7; } .eb68 { background-color: #5f87d7; }
+.ef69 { color: #5f87ff; } .eb69 { background-color: #5f87ff; }
+.ef70 { color: #5faf00; } .eb70 { background-color: #5faf00; }
+.ef71 { color: #5faf5f; } .eb71 { background-color: #5faf5f; }
+.ef72 { color: #5faf87; } .eb72 { background-color: #5faf87; }
+.ef73 { color: #5fafaf; } .eb73 { background-color: #5fafaf; }
+.ef74 { color: #5fafd7; } .eb74 { background-color: #5fafd7; }
+.ef75 { color: #5fafff; } .eb75 { background-color: #5fafff; }
+.ef76 { color: #5fd700; } .eb76 { background-color: #5fd700; }
+.ef77 { color: #5fd75f; } .eb77 { background-color: #5fd75f; }
+.ef78 { color: #5fd787; } .eb78 { background-color: #5fd787; }
+.ef79 { color: #5fd7af; } .eb79 { background-color: #5fd7af; }
+.ef80 { color: #5fd7d7; } .eb80 { background-color: #5fd7d7; }
+.ef81 { color: #5fd7ff; } .eb81 { background-color: #5fd7ff; }
+.ef82 { color: #5fff00; } .eb82 { background-color: #5fff00; }
+.ef83 { color: #5fff5f; } .eb83 { background-color: #5fff5f; }
+.ef84 { color: #5fff87; } .eb84 { background-color: #5fff87; }
+.ef85 { color: #5fffaf; } .eb85 { background-color: #5fffaf; }
+.ef86 { color: #5fffd7; } .eb86 { background-color: #5fffd7; }
+.ef87 { color: #5fffff; } .eb87 { background-color: #5fffff; }
+.ef88 { color: #870000; } .eb88 { background-color: #870000; }
+.ef89 { color: #87005f; } .eb89 { background-color: #87005f; }
+.ef90 { color: #870087; } .eb90 { background-color: #870087; }
+.ef91 { color: #8700af; } .eb91 { background-color: #8700af; }
+.ef92 { color: #8700d7; } .eb92 { background-color: #8700d7; }
+.ef93 { color: #8700ff; } .eb93 { background-color: #8700ff; }
+.ef94 { color: #875f00; } .eb94 { background-color: #875f00; }
+.ef95 { color: #875f5f; } .eb95 { background-color: #875f5f; }
+.ef96 { color: #875f87; } .eb96 { background-color: #875f87; }
+.ef97 { color: #875faf; } .eb97 { background-color: #875faf; }
+.ef98 { color: #875fd7; } .eb98 { background-color: #875fd7; }
+.ef99 { color: #875fff; } .eb99 { background-color: #875fff; }
+.ef100 { color: #878700; } .eb100 { background-color: #878700; }
+.ef101 { color: #87875f; } .eb101 { background-color: #87875f; }
+.ef102 { color: #878787; } .eb102 { background-color: #878787; }
+.ef103 { color: #8787af; } .eb103 { background-color: #8787af; }
+.ef104 { color: #8787d7; } .eb104 { background-color: #8787d7; }
+.ef105 { color: #8787ff; } .eb105 { background-color: #8787ff; }
+.ef106 { color: #87af00; } .eb106 { background-color: #87af00; }
+.ef107 { color: #87af5f; } .eb107 { background-color: #87af5f; }
+.ef108 { color: #87af87; } .eb108 { background-color: #87af87; }
+.ef109 { color: #87afaf; } .eb109 { background-color: #87afaf; }
+.ef110 { color: #87afd7; } .eb110 { background-color: #87afd7; }
+.ef111 { color: #87afff; } .eb111 { background-color: #87afff; }
+.ef112 { color: #87d700; } .eb112 { background-color: #87d700; }
+.ef113 { color: #87d75f; } .eb113 { background-color: #87d75f; }
+.ef114 { color: #87d787; } .eb114 { background-color: #87d787; }
+.ef115 { color: #87d7af; } .eb115 { background-color: #87d7af; }
+.ef116 { color: #87d7d7; } .eb116 { background-color: #87d7d7; }
+.ef117 { color: #87d7ff; } .eb117 { background-color: #87d7ff; }
+.ef118 { color: #87ff00; } .eb118 { background-color: #87ff00; }
+.ef119 { color: #87ff5f; } .eb119 { background-color: #87ff5f; }
+.ef120 { color: #87ff87; } .eb120 { background-color: #87ff87; }
+.ef121 { color: #87ffaf; } .eb121 { background-color: #87ffaf; }
+.ef122 { color: #87ffd7; } .eb122 { background-color: #87ffd7; }
+.ef123 { color: #87ffff; } .eb123 { background-color: #87ffff; }
+.ef124 { color: #af0000; } .eb124 { background-color: #af0000; }
+.ef125 { color: #af005f; } .eb125 { background-color: #af005f; }
+.ef126 { color: #af0087; } .eb126 { background-color: #af0087; }
+.ef127 { color: #af00af; } .eb127 { background-color: #af00af; }
+.ef128 { color: #af00d7; } .eb128 { background-color: #af00d7; }
+.ef129 { color: #af00ff; } .eb129 { background-color: #af00ff; }
+.ef130 { color: #af5f00; } .eb130 { background-color: #af5f00; }
+.ef131 { color: #af5f5f; } .eb131 { background-color: #af5f5f; }
+.ef132 { color: #af5f87; } .eb132 { background-color: #af5f87; }
+.ef133 { color: #af5faf; } .eb133 { background-color: #af5faf; }
+.ef134 { color: #af5fd7; } .eb134 { background-color: #af5fd7; }
+.ef135 { color: #af5fff; } .eb135 { background-color: #af5fff; }
+.ef136 { color: #af8700; } .eb136 { background-color: #af8700; }
+.ef137 { color: #af875f; } .eb137 { background-color: #af875f; }
+.ef138 { color: #af8787; } .eb138 { background-color: #af8787; }
+.ef139 { color: #af87af; } .eb139 { background-color: #af87af; }
+.ef140 { color: #af87d7; } .eb140 { background-color: #af87d7; }
+.ef141 { color: #af87ff; } .eb141 { background-color: #af87ff; }
+.ef142 { color: #afaf00; } .eb142 { background-color: #afaf00; }
+.ef143 { color: #afaf5f; } .eb143 { background-color: #afaf5f; }
+.ef144 { color: #afaf87; } .eb144 { background-color: #afaf87; }
+.ef145 { color: #afafaf; } .eb145 { background-color: #afafaf; }
+.ef146 { color: #afafd7; } .eb146 { background-color: #afafd7; }
+.ef147 { color: #afafff; } .eb147 { background-color: #afafff; }
+.ef148 { color: #afd700; } .eb148 { background-color: #afd700; }
+.ef149 { color: #afd75f; } .eb149 { background-color: #afd75f; }
+.ef150 { color: #afd787; } .eb150 { background-color: #afd787; }
+.ef151 { color: #afd7af; } .eb151 { background-color: #afd7af; }
+.ef152 { color: #afd7d7; } .eb152 { background-color: #afd7d7; }
+.ef153 { color: #afd7ff; } .eb153 { background-color: #afd7ff; }
+.ef154 { color: #afff00; } .eb154 { background-color: #afff00; }
+.ef155 { color: #afff5f; } .eb155 { background-color: #afff5f; }
+.ef156 { color: #afff87; } .eb156 { background-color: #afff87; }
+.ef157 { color: #afffaf; } .eb157 { background-color: #afffaf; }
+.ef158 { color: #afffd7; } .eb158 { background-color: #afffd7; }
+.ef159 { color: #afffff; } .eb159 { background-color: #afffff; }
+.ef160 { color: #d70000; } .eb160 { background-color: #d70000; }
+.ef161 { color: #d7005f; } .eb161 { background-color: #d7005f; }
+.ef162 { color: #d70087; } .eb162 { background-color: #d70087; }
+.ef163 { color: #d700af; } .eb163 { background-color: #d700af; }
+.ef164 { color: #d700d7; } .eb164 { background-color: #d700d7; }
+.ef165 { color: #d700ff; } .eb165 { background-color: #d700ff; }
+.ef166 { color: #d75f00; } .eb166 { background-color: #d75f00; }
+.ef167 { color: #d75f5f; } .eb167 { background-color: #d75f5f; }
+.ef168 { color: #d75f87; } .eb168 { background-color: #d75f87; }
+.ef169 { color: #d75faf; } .eb169 { background-color: #d75faf; }
+.ef170 { color: #d75fd7; } .eb170 { background-color: #d75fd7; }
+.ef171 { color: #d75fff; } .eb171 { background-color: #d75fff; }
+.ef172 { color: #d78700; } .eb172 { background-color: #d78700; }
+.ef173 { color: #d7875f; } .eb173 { background-color: #d7875f; }
+.ef174 { color: #d78787; } .eb174 { background-color: #d78787; }
+.ef175 { color: #d787af; } .eb175 { background-color: #d787af; }
+.ef176 { color: #d787d7; } .eb176 { background-color: #d787d7; }
+.ef177 { color: #d787ff; } .eb177 { background-color: #d787ff; }
+.ef178 { color: #d7af00; } .eb178 { background-color: #d7af00; }
+.ef179 { color: #d7af5f; } .eb179 { background-color: #d7af5f; }
+.ef180 { color: #d7af87; } .eb180 { background-color: #d7af87; }
+.ef181 { color: #d7afaf; } .eb181 { background-color: #d7afaf; }
+.ef182 { color: #d7afd7; } .eb182 { background-color: #d7afd7; }
+.ef183 { color: #d7afff; } .eb183 { background-color: #d7afff; }
+.ef184 { color: #d7d700; } .eb184 { background-color: #d7d700; }
+.ef185 { color: #d7d75f; } .eb185 { background-color: #d7d75f; }
+.ef186 { color: #d7d787; } .eb186 { background-color: #d7d787; }
+.ef187 { color: #d7d7af; } .eb187 { background-color: #d7d7af; }
+.ef188 { color: #d7d7d7; } .eb188 { background-color: #d7d7d7; }
+.ef189 { color: #d7d7ff; } .eb189 { background-color: #d7d7ff; }
+.ef190 { color: #d7ff00; } .eb190 { background-color: #d7ff00; }
+.ef191 { color: #d7ff5f; } .eb191 { background-color: #d7ff5f; }
+.ef192 { color: #d7ff87; } .eb192 { background-color: #d7ff87; }
+.ef193 { color: #d7ffaf; } .eb193 { background-color: #d7ffaf; }
+.ef194 { color: #d7ffd7; } .eb194 { background-color: #d7ffd7; }
+.ef195 { color: #d7ffff; } .eb195 { background-color: #d7ffff; }
+.ef196 { color: #ff0000; } .eb196 { background-color: #ff0000; }
+.ef197 { color: #ff005f; } .eb197 { background-color: #ff005f; }
+.ef198 { color: #ff0087; } .eb198 { background-color: #ff0087; }
+.ef199 { color: #ff00af; } .eb199 { background-color: #ff00af; }
+.ef200 { color: #ff00d7; } .eb200 { background-color: #ff00d7; }
+.ef201 { color: #ff00ff; } .eb201 { background-color: #ff00ff; }
+.ef202 { color: #ff5f00; } .eb202 { background-color: #ff5f00; }
+.ef203 { color: #ff5f5f; } .eb203 { background-color: #ff5f5f; }
+.ef204 { color: #ff5f87; } .eb204 { background-color: #ff5f87; }
+.ef205 { color: #ff5faf; } .eb205 { background-color: #ff5faf; }
+.ef206 { color: #ff5fd7; } .eb206 { background-color: #ff5fd7; }
+.ef207 { color: #ff5fff; } .eb207 { background-color: #ff5fff; }
+.ef208 { color: #ff8700; } .eb208 { background-color: #ff8700; }
+.ef209 { color: #ff875f; } .eb209 { background-color: #ff875f; }
+.ef210 { color: #ff8787; } .eb210 { background-color: #ff8787; }
+.ef211 { color: #ff87af; } .eb211 { background-color: #ff87af; }
+.ef212 { color: #ff87d7; } .eb212 { background-color: #ff87d7; }
+.ef213 { color: #ff87ff; } .eb213 { background-color: #ff87ff; }
+.ef214 { color: #ffaf00; } .eb214 { background-color: #ffaf00; }
+.ef215 { color: #ffaf5f; } .eb215 { background-color: #ffaf5f; }
+.ef216 { color: #ffaf87; } .eb216 { background-color: #ffaf87; }
+.ef217 { color: #ffafaf; } .eb217 { background-color: #ffafaf; }
+.ef218 { color: #ffafd7; } .eb218 { background-color: #ffafd7; }
+.ef219 { color: #ffafff; } .eb219 { background-color: #ffafff; }
+.ef220 { color: #ffd700; } .eb220 { background-color: #ffd700; }
+.ef221 { color: #ffd75f; } .eb221 { background-color: #ffd75f; }
+.ef222 { color: #ffd787; } .eb222 { background-color: #ffd787; }
+.ef223 { color: #ffd7af; } .eb223 { background-color: #ffd7af; }
+.ef224 { color: #ffd7d7; } .eb224 { background-color: #ffd7d7; }
+.ef225 { color: #ffd7ff; } .eb225 { background-color: #ffd7ff; }
+.ef226 { color: #ffff00; } .eb226 { background-color: #ffff00; }
+.ef227 { color: #ffff5f; } .eb227 { background-color: #ffff5f; }
+.ef228 { color: #ffff87; } .eb228 { background-color: #ffff87; }
+.ef229 { color: #ffffaf; } .eb229 { background-color: #ffffaf; }
+.ef230 { color: #ffffd7; } .eb230 { background-color: #ffffd7; }
+.ef231 { color: #ffffff; } .eb231 { background-color: #ffffff; }
+.ef232 { color: #080808; } .eb232 { background-color: #080808; }
+.ef233 { color: #121212; } .eb233 { background-color: #121212; }
+.ef234 { color: #1c1c1c; } .eb234 { background-color: #1c1c1c; }
+.ef235 { color: #262626; } .eb235 { background-color: #262626; }
+.ef236 { color: #303030; } .eb236 { background-color: #303030; }
+.ef237 { color: #3a3a3a; } .eb237 { background-color: #3a3a3a; }
+.ef238 { color: #444444; } .eb238 { background-color: #444444; }
+.ef239 { color: #4e4e4e; } .eb239 { background-color: #4e4e4e; }
+.ef240 { color: #585858; } .eb240 { background-color: #585858; }
+.ef241 { color: #626262; } .eb241 { background-color: #626262; }
+.ef242 { color: #6c6c6c; } .eb242 { background-color: #6c6c6c; }
+.ef243 { color: #767676; } .eb243 { background-color: #767676; }
+.ef244 { color: #808080; } .eb244 { background-color: #808080; }
+.ef245 { color: #8a8a8a; } .eb245 { background-color: #8a8a8a; }
+.ef246 { color: #949494; } .eb246 { background-color: #949494; }
+.ef247 { color: #9e9e9e; } .eb247 { background-color: #9e9e9e; }
+.ef248 { color: #a8a8a8; } .eb248 { background-color: #a8a8a8; }
+.ef249 { color: #b2b2b2; } .eb249 { background-color: #b2b2b2; }
+.ef250 { color: #bcbcbc; } .eb250 { background-color: #bcbcbc; }
+.ef251 { color: #c6c6c6; } .eb251 { background-color: #c6c6c6; }
+.ef252 { color: #d0d0d0; } .eb252 { background-color: #d0d0d0; }
+.ef253 { color: #dadada; } .eb253 { background-color: #dadada; }
+.ef254 { color: #e4e4e4; } .eb254 { background-color: #e4e4e4; }
+.ef255 { color: #eeeeee; } .eb255 { background-color: #eeeeee; }
+
+.f9 { color: #000000; }
+.b9 { background-color: #FFFFFF; }
+.f9 > .bold,.bold > .f9, body.f9 > pre > .bold {
+  /* Bold is heavy black on white, or bright white
+     depending on the default background */
+  color: #000000;
+  font-weight: bold;
+}
+.reverse {
+  /* CSS doesnt support swapping fg and bg colours unfortunately,
+     so just hardcode something that will look OK on all backgrounds. */
+  color: #000000; background-color: #AAAAAA;
+}
+.underline { text-decoration: underline; }
+.line-through { text-decoration: line-through; }
+.blink { text-decoration: blink; }
+
+</style>
+</head>
+
+<body class="f9 b9">
+<pre>
+<span class="bold">diff --git a/webc-16.0.txt b/webc-17.0.txt</span>
+<span class="bold">index 0164bc7..d7cdd7e 100644</span>
+<span class="bold">--- a/webc-16.0.txt</span>
+<span class="bold">+++ b/webc-17.0.txt</span>
+<span class="f6">@@ -1,422 +1,536 @@</span>
+acpi-support-base	<span class="f1">0.137-5</span><span class="f2">0.140-5</span>
+acpid	<span class="f1">1:2.0.7-1squeeze4</span><span class="f2">1:2.0.16-1</span>
+adduser	<span class="f1">3.112+nmu2</span><span class="f2">3.113+nmu3</span>
+alsa-base	<span class="f1">1.0.23+dfsg-2</span><span class="f2">1.0.25+2+nmu2</span>
+alsa-oss	<span class="f1">1.0.17-4</span><span class="f2">1.0.25-1</span>
+alsa-utils	<span class="f1">1.0.23-3</span><span class="f2">1.0.25-4</span>
+apt	<span class="f1">0.8.10.3+squeeze1</span><span class="f2">0.9.7.7</span>
+apt-utils	<span class="f1">0.8.10.3+squeeze1</span><span class="f2">0.9.7.7</span>
+aptitude	0.6.3-3.2+squeeze1
+b43-fwcutter	<span class="f1">1:013-2</span><span class="f2">1:015-14</span>
+base-files	<span class="f1">6.12~artax1</span><span class="f2">7.1-1baureo1</span>
+base-passwd	<span class="f1">3.5.22</span><span class="f2">3.5.26</span>
+bash	<span class="f1">4.1-3</span><span class="f2">4.2+dfsg-0.1</span>
+bc	1.06.95-2
+<span class="f1">browser-plugin-adobe-flash	1:11.2.202.251</span>bsdmainutils	<span class="f1">8.0.13</span><span class="f2">9.0.3</span>
+bsdutils	<span class="f1">1:2.20.1-4~artax1</span><span class="f2">1:2.20.1-5.3</span>
+busybox	<span class="f1">1:1.17.1-8</span><span class="f2">1:1.20.0-7</span>
+bzip2	<span class="f1">1.0.5-6+squeeze1</span><span class="f2">1.0.6-4</span>
+ca-certificates	<span class="f1">20090814+nmu3squeeze1</span><span class="f2">20120623</span>
+console-common	<span class="f1">0.7.85</span><span class="f2">0.7.87</span>
+console-data	<span class="f1">2:1.10-9</span><span class="f2">2:1.12-2</span>
+console-setup	<span class="f1">1.68+squeeze2</span>
+<span class="f1">console-terminus	4.30-2</span><span class="f2">1.88</span>
+<span class="f2">console-setup-linux	1.88</span>
+<span class="f2">consolekit	0.4.5-3.1</span>
+coreutils	<span class="f1">8.5-1</span><span class="f2">8.13-3.5</span>
+cpio	<span class="f1">2.11-4</span><span class="f2">2.11+dfsg-0.1</span>
+cpp	<span class="f1">4:4.4.5-1</span><span class="f2">4:4.7.2-1</span>
+cpp-4.4	<span class="f1">4.4.5-8</span><span class="f2">4.4.7-2</span>
+<span class="f2">cpp-4.7	4.7.2-5</span>
+crda	<span class="f1">1.1.2-1~artax1</span><span class="f2">1.1.2-1</span>
+cron	<span class="f1">3.0pl1-116</span><span class="f2">3.0pl1-124</span>
+cups	<span class="f1">1.4.4-7+squeeze1</span><span class="f2">1.5.3-2.13</span>
+cups-client	<span class="f1">1.4.4-7+squeeze1</span><span class="f2">1.5.3-2.13</span>
+cups-common	<span class="f1">1.4.4-7+squeeze1</span><span class="f2">1.5.3-2.13</span>
+<span class="f2">cups-filters	1.0.18-2.1</span>
+cups-ppdc	<span class="f1">1.4.4-7+squeeze1</span><span class="f2">1.5.3-2.13</span>
+curl	<span class="f1">7.21.0-2.1+squeeze2</span><span class="f2">7.26.0-1</span>
+dash	<span class="f1">0.5.5.1-7.4</span><span class="f2">0.5.7-3</span>
+<span class="f2">dbus	1.6.8-1</span>
+debconf	<span class="f1">1.5.36.1</span><span class="f2">1.5.49</span>
+debconf-i18n	<span class="f1">1.5.36.1</span><span class="f2">1.5.49</span>
+debian-archive-keyring	<span class="f1">2010.08.28+squeeze1</span><span class="f2">2012.4baureo1</span>
+debianutils	<span class="f1">3.4</span><span class="f2">4.3.2</span>
+defoma	0.11.11
+<span class="f2">dialog	1.1-20120215-2</span>
+dictionaries-common	<span class="f1">1.12.5~artax1</span><span class="f2">1.12.10</span>
+diffutils	<span class="f1">1:3.0-1</span><span class="f2">1:3.2-6</span>
+dmidecode	<span class="f1">2.11-9~artax1</span><span class="f2">2.11-9</span>
+dmsetup	<span class="f1">2:1.02.48-5</span><span class="f2">2:1.02.74-4</span>
+dpkg	<span class="f1">1.15.8.13-0artax1</span><span class="f2">1.16.9baureo1</span>
+dwm	6.1-1
+<span class="f1">e2fslibs	1.42.2-2~artax1</span><span class="f2">e2fslibs:i386	1.42.5-1</span>
+e2fsprogs	<span class="f1">1.42.2-2~artax1</span><span class="f2">1.42.5-1</span>
+eject	<span class="f1">2.1.5+deb1+cvs20081104-7.1</span><span class="f2">2.1.5+deb1+cvs20081104-13</span>
+epdfview	<span class="f1">0.1.8-1.1</span><span class="f2">0.1.8-3</span>
+ethtool	<span class="f1">1:2.6.34-3</span><span class="f2">1:3.4.2-1</span>
+extlinux	<span class="f1">2:4.05+dfsg-6~artax1</span><span class="f2">2:4.05+dfsg-6+deb7u1</span>
+file	<span class="f1">5.04-5+squeeze2</span><span class="f2">5.11-2</span>
+findutils	<span class="f1">4.4.2-1+b1</span><span class="f2">4.4.2-4</span>
+firefox	<span class="f1">15.0.0</span><span class="f2">17.0.1</span>
+firmware-atheros	<span class="f1">0.36~artax1</span><span class="f2">0.36+wheezy.1</span>
+firmware-b43-installer	<span class="f1">4.150.10.5-4</span><span class="f2">1:015-14</span>
+firmware-brcm80211	<span class="f1">0.36~artax1</span><span class="f2">0.36+wheezy.1</span>
+firmware-ipw2x00	<span class="f1">0.36~artax1</span><span class="f2">0.36+wheezy.1</span>
+firmware-iwlwifi	<span class="f1">0.36~artax1</span><span class="f2">0.36+wheezy.1</span>
+firmware-libertas	<span class="f1">0.36~artax1</span><span class="f2">0.36+wheezy.1</span>
+firmware-linux-free	<span class="f1">3.1~artax1</span><span class="f2">3.2</span>
+firmware-linux-nonfree	<span class="f1">0.36~artax1</span><span class="f2">0.36+wheezy.1</span>
+firmware-ralink	<span class="f1">0.36~artax1</span><span class="f2">0.36+wheezy.1</span>
+firmware-realtek	<span class="f1">0.36~artax1</span><span class="f2">0.36+wheezy.1</span>
+fontconfig	<span class="f1">2.8.0-2.1</span><span class="f2">2.9.0-7.1</span>
+fontconfig-config	<span class="f1">2.8.0-2.1</span>
+<span class="f1">gcc-4.4-base	4.4.5-8</span><span class="f2">2.9.0-7.1</span>
+<span class="f2">fonts-freefont-ttf	20120503-1</span>
+<span class="f2">gcc-4.4-base:i386	4.4.7-2</span>
+<span class="f2">gcc-4.7-base:i386	4.7.2-5</span>
+ghostscript	<span class="f1">8.71~dfsg2-9</span><span class="f2">9.05~dfsg-6.3</span>
+git	<span class="f1">1:1.7.10.4-2~artax1</span><span class="f2">1:1.8.1.1-1~baureo1</span>
+git-man	<span class="f1">1:1.7.10.4-2~artax1</span><span class="f2">1:1.8.1.1-1~baureo1</span>
+gnupg	<span class="f1">1.4.10-4</span><span class="f2">1.4.12-7</span>
+gpgv	<span class="f1">1.4.10-4</span><span class="f2">1.4.12-7</span>
+grep	<span class="f1">2.6.3-3</span><span class="f2">2.12-2</span>
+gsfonts	1:8.11+urwcyr1.0.7~pre44-4.2
+gzip	<span class="f1">1.3.12-9</span><span class="f2">1.5-1.1</span>
+hostname	<span class="f1">3.04</span><span class="f2">3.11</span>
+ifupdown	<span class="f1">0.6.10artax5</span><span class="f2">0.7.5</span>
+initramfs-tools	<span class="f1">0.107~artax1</span><span class="f2">0.109baureo1</span>
+initscripts	<span class="f1">2.88dsf-13.1+squeeze1artax2</span><span class="f2">2.88dsf-34</span>
+inotify-tools	<span class="f1">3.13-3</span><span class="f2">3.14-1</span>
+insserv	<span class="f1">1.14.0-2.2~bpo60+1</span><span class="f2">1.14.0-5</span>
+install-info	<span class="f1">4.13a.dfsg.1-6</span><span class="f2">4.13a.dfsg.1-10</span>
+iproute	<span class="f1">20100519-3</span><span class="f2">20120521-3</span>
+iptables	<span class="f1">1.4.8-3</span><span class="f2">1.4.14-3</span>
+iputils-ping	<span class="f1">3:20100418-3</span><span class="f2">3:20101006-1+b1</span>
+isc-dhcp-client	<span class="f1">4.1.1-P1-15+squeeze8</span><span class="f2">4.2.2.dfsg.1-5+deb70u2</span>
+isc-dhcp-common	<span class="f1">4.1.1-P1-15+squeeze8</span><span class="f2">4.2.2.dfsg.1-5+deb70u2</span>
+kbd	<span class="f1">1.15.2-2</span><span class="f2">1.15.3-9</span>
+keyboard-configuration	<span class="f1">1.68+squeeze2</span><span class="f2">1.88</span>
+klibc-utils	<span class="f1">2.0.1-3~artax1</span><span class="f2">2.0.1-3.1</span>
+<span class="f2">kmod	9-2</span>
+less	<span class="f1">436-1</span>
+<span class="f1">libacl1	2.2.49-4</span>
+<span class="f1">libasound2	1.0.23-2.1</span>
+<span class="f1">libatk1.0-0	1.30.0-1</span>
+<span class="f1">libattr1	1:2.4.44-2</span>
+<span class="f1">libaudio2	1.9.2-4</span><span class="f2">444-4</span>
+<span class="f2">libacl1:i386	2.2.51-8</span>
+<span class="f2">libapt-inst1.5:i386	0.9.7.7</span>
+<span class="f2">libapt-pkg4.12:i386	0.9.7.7</span>
+<span class="f2">libasound2:i386	1.0.25-4</span>
+<span class="f2">libasound2-plugins:i386	1.0.25-2</span>
+<span class="f2">libasyncns0:i386	0.8-4</span>
+<span class="f2">libatk1.0-0:i386	2.4.0-2</span>
+<span class="f2">libatk1.0-data	2.4.0-2</span>
+<span class="f2">libattica0	0.2.0-1</span>
+<span class="f2">libattr1:i386	1:2.4.46-8</span>
+<span class="f2">libaudio2:i386	1.9.3-5</span>
+libaudit0	<span class="f1">1.7.13-1+b2</span>
+<span class="f1">libavahi-client3	0.6.27-2+squeeze1</span>
+<span class="f1">libavahi-common-data	0.6.27-2+squeeze1</span>
+<span class="f1">libavahi-common3	0.6.27-2+squeeze1</span>
+<span class="f1">libblkid1	2.20.1-4~artax1</span><span class="f2">1:1.7.18-1.1</span>
+<span class="f2">libavahi-client3:i386	0.6.31-1</span>
+<span class="f2">libavahi-common-data:i386	0.6.31-1</span>
+<span class="f2">libavahi-common3:i386	0.6.31-1</span>
+<span class="f2">libavcodec53:i386	6:0.8.5-1</span>
+<span class="f2">libavformat53:i386	6:0.8.5-1</span>
+<span class="f2">libavutil51:i386	6:0.8.5-1</span>
+<span class="f2">libblkid1:i386	2.20.1-5.3</span>
+libboost-iostreams1.42.0	1.42.0-4
+<span class="f1">libbz2-1.0	1.0.5-6+squeeze1</span><span class="f2">libbz2-1.0:i386	1.0.6-4</span>
+libc-bin	<span class="f1">2.11.3-4artax1</span>
+<span class="f1">libc6	2.11.3-4artax1</span>
+<span class="f1">libcairo2	1.12.2-2~artax1</span>
+<span class="f1">libcap2	1:2.19-3</span><span class="f2">2.13-37</span>
+<span class="f2">libc6:i386	2.13-37</span>
+<span class="f2">libcairo2:i386	1.12.2-2</span>
+<span class="f2">libcap2:i386	1:2.22-1.2</span>
+<span class="f2">libck-connector0:i386	0.4.5-3.1</span>
+<span class="f2">libclass-isa-perl	0.36-3</span>
+libclucene0ldbl	0.9.21b-2+b1
+<span class="f1">libcomerr2	1.42.2-2~artax1</span>
+<span class="f1">libcups2	1.4.4-7+squeeze1</span>
+<span class="f1">libcupscgi1	1.4.4-7+squeeze1</span>
+<span class="f1">libcupsdriver1	1.4.4-7+squeeze1</span>
+<span class="f1">libcupsimage2	1.4.4-7+squeeze1</span>
+<span class="f1">libcupsmime1	1.4.4-7+squeeze1</span>
+<span class="f1">libcupsppdc1	1.4.4-7+squeeze1</span>
+<span class="f1">libcurl3	7.21.0-2.1+squeeze2</span>
+<span class="f1">libcurl3-gnutls	7.21.0-2.1+squeeze2</span><span class="f2">libcomerr2:i386	1.42.5-1</span>
+<span class="f2">libcryptsetup4	2:1.4.3-4</span>
+<span class="f2">libcups2:i386	1.5.3-2.13</span>
+<span class="f2">libcupscgi1:i386	1.5.3-2.13</span>
+<span class="f2">libcupsdriver1:i386	1.5.3-2.13</span>
+<span class="f2">libcupsfilters1:i386	1.0.18-2.1</span>
+<span class="f2">libcupsimage2:i386	1.5.3-2.13</span>
+<span class="f2">libcupsmime1:i386	1.5.3-2.13</span>
+<span class="f2">libcupsppdc1:i386	1.5.3-2.13</span>
+<span class="f2">libcurl3:i386	7.26.0-1</span>
+<span class="f2">libcurl3-gnutls:i386	7.26.0-1</span>
+libcwidget3	<span class="f1">0.5.16-3</span>
+<span class="f1">libdatrie1	0.2.4-1</span><span class="f2">0.5.16-3.4</span>
+<span class="f2">libdatrie1:i386	0.2.5-3</span>
+libdb4.7	4.7.25-9
+libdb4.8	4.8.30-2
+<span class="f1">libdbus-1-3	1.2.24-4+squeeze1</span>
+<span class="f1">libdbus-glib-1-2	0.88-2.1</span>
+<span class="f1">libdevmapper1.02.1	2:1.02.48-5</span>
+<span class="f1">libdrm-intel1	2.4.26-1~bpo60+1</span>
+<span class="f1">libdrm-nouveau1a	2.4.26-1~bpo60+1</span>
+<span class="f1">libdrm-radeon1	2.4.26-1~bpo60+1</span>
+<span class="f1">libdrm2	2.4.26-1~bpo60+1</span><span class="f2">libdb5.1:i386	5.1.29-5</span>
+<span class="f2">libdbus-1-3:i386	1.6.8-1</span>
+<span class="f2">libdbus-glib-1-2:i386	0.100-1</span>
+<span class="f2">libdbusmenu-qt2	0.9.0-1</span>
+<span class="f2">libdevmapper1.02.1:i386	2:1.02.74-4</span>
+<span class="f2">libdirac-encoder0:i386	1.0.2-6</span>
+<span class="f2">libdlrestrictions1	0.15.3</span>
+<span class="f2">libdrm-intel1:i386	2.4.40-1~deb7u2</span>
+<span class="f2">libdrm-nouveau1a:i386	2.4.40-1~deb7u2</span>
+<span class="f2">libdrm-radeon1:i386	2.4.40-1~deb7u2</span>
+<span class="f2">libdrm2:i386	2.4.40-1~deb7u2</span>
+libept1	1.0.4
+liberror-perl	0.17-1
+libevent-1.4-2	1.4.13-stable-1
+<span class="f2">libexiv2-12	0.23-1</span>
+libexiv2-9	0.20-2
+<span class="f1">libexpat1	2.0.1-7+squeeze1</span><span class="f2">libexpat1:i386	2.1.0-1</span>
+libfam0	2.7.0-17
+<span class="f1">libffi5	3.0.9-3</span>
+<span class="f1">libfontconfig1	2.8.0-2.1</span>
+<span class="f1">libfontenc1	1:1.0.5-2</span>
+<span class="f1">libfreetype6	2.4.9-1~bpo60+1</span>
+<span class="f1">libfs6	2:1.0.2-1</span>
+<span class="f1">libgcc1	1:4.4.5-8</span>
+<span class="f1">libgcrypt11	1.4.5-2</span>
+<span class="f1">libgdbm3	1.8.3-9</span>
+<span class="f1">libgl1-mesa-dri	7.10.3-4~bpo60+1</span>
+<span class="f1">libgl1-mesa-glx	7.10.3-4~bpo60+1</span>
+<span class="f1">libglib2.0-0	2.24.2-1</span>
+<span class="f1">libglu1-mesa	7.10.3-4~bpo60+1</span><span class="f2">libffi5:i386	3.0.10-3</span>
+<span class="f2">libfftw3-3:i386	3.3.2-3.1</span>
+<span class="f2">libflac8:i386	1.2.1-6</span>
+<span class="f2">libfontconfig1:i386	2.9.0-7.1</span>
+<span class="f2">libfontenc1:i386	1:1.1.1-1</span>
+<span class="f2">libfreetype6:i386	2.4.9-1.1</span>
+<span class="f2">libfs6:i386	2:1.0.4-1</span>
+<span class="f2">libgcc1:i386	1:4.7.2-5</span>
+<span class="f2">libgcrypt11:i386	1.5.0-3</span>
+<span class="f2">libgdbm3:i386	1.8.3-11</span>
+<span class="f2">libgdk-pixbuf2.0-0:i386	2.26.1-1</span>
+<span class="f2">libgdk-pixbuf2.0-common	2.26.1-1</span>
+<span class="f2">libgl1-mesa-dri:i386	8.0.5-3</span>
+<span class="f2">libgl1-mesa-glx:i386	8.0.5-3</span>
+<span class="f2">libglapi-mesa:i386	8.0.5-3</span>
+<span class="f2">libglib2.0-0:i386	2.33.12+really2.32.4-3</span>
+<span class="f2">libglu1-mesa:i386	8.0.5-3</span>
+libglx-nvidia-alternatives	195.36.31-6squeeze2
+<span class="f2">libgmp10:i386	2:5.0.5+dfsg-2</span>
+libgmp3c2	2:4.3.2+dfsg-1
+<span class="f1">libgnutls26	2.8.6-1+squeeze2</span>
+<span class="f1">libgpg-error0	1.6-1</span><span class="f2">libgnutls26:i386	2.12.20-2</span>
+<span class="f2">libgomp1:i386	4.7.2-5</span>
+<span class="f2">libgpg-error0:i386	1.10-3.1</span>
+libgs8	8.71~dfsg2-9
+<span class="f1">libgssapi-krb5-2	1.8.3+dfsg-4squeeze6</span>
+<span class="f1">libgtk2.0-0	2.20.1-2</span><span class="f2">libgs9	9.05~dfsg-6.3</span>
+<span class="f2">libgs9-common	9.05~dfsg-6.3</span>
+<span class="f2">libgsm1:i386	1.0.13-4</span>
+<span class="f2">libgssapi-krb5-2:i386	1.10.1+dfsg-3</span>
+<span class="f2">libgtk2.0-0:i386	2.24.10-2</span>
+libgtk2.0-common	<span class="f1">2.20.1-2</span><span class="f2">2.24.10-2</span>
+libhunspell-1.2-0	1.2.11-1
+<span class="f1">libice6	2:1.0.6-2</span>
+<span class="f1">libidn11	1.15-2</span><span class="f2">libice6:i386	2:1.0.8-2</span>
+<span class="f2">libidn11:i386	1.25-2</span>
+libijs-0.35	<span class="f1">0.35-7</span><span class="f2">0.35-8</span>
+libinotifytools0	<span class="f1">3.13-3</span>
+<span class="f1">libiw30	30~pre9-5</span>
+<span class="f1">libjasper1	1.900.1-7+squeeze1</span><span class="f2">3.14-1</span>
+<span class="f2">libiodbc2	3.52.7-2</span>
+<span class="f2">libiw30:i386	30~pre9-8</span>
+<span class="f2">libjack-jackd2-0:i386	1.9.8~dfsg.4+20120529git007cdc37-5</span>
+<span class="f2">libjasper1:i386	1.900.1-13</span>
+<span class="f2">libjbig0:i386	2.0-2</span>
+libjbig2dec0	<span class="f1">0.11-1</span>
+<span class="f1">libjpeg62	6b1-1</span>
+<span class="f1">libk5crypto3	1.8.3+dfsg-4squeeze6</span><span class="f2">0.11+20120125-1</span>
+<span class="f2">libjpeg62:i386	6b1-3</span>
+<span class="f2">libjpeg8:i386	8d-1</span>
+<span class="f2">libjson0:i386	0.9-1.1</span>
+<span class="f2">libk5crypto3:i386	1.10.1+dfsg-3</span>
+<span class="f2">libkcmutils4	4:4.8.4-4</span>
+libkdecore5	<span class="f1">4:4.4.5-2+squeeze3</span><span class="f2">4:4.8.4-4</span>
+libkdeui5	<span class="f1">4:4.4.5-2+squeeze3</span>
+<span class="f1">libkeyutils1	1.5.2-2~bpo60+1</span><span class="f2">4:4.8.4-4</span>
+<span class="f2">libkemoticons4	4:4.8.4-4</span>
+<span class="f2">libkeyutils1:i386	1.5.5-3</span>
+<span class="f2">libkidletime4	4:4.8.4-4</span>
+libkio5	<span class="f1">4:4.4.5-2+squeeze3</span><span class="f2">4:4.8.4-4</span>
+libklibc	<span class="f1">2.0.1-3~artax1</span><span class="f2">2.0.1-3.1</span>
+<span class="f2">libkmod2:i386	9-2</span>
+<span class="f2">libkms1:i386	2.4.40-1~deb7u2</span>
+libkparts4	<span class="f1">4:4.4.5-2+squeeze3</span>
+<span class="f1">libkrb5-3	1.8.3+dfsg-4squeeze6</span>
+<span class="f1">libkrb5support0	1.8.3+dfsg-4squeeze6</span><span class="f2">4:4.8.4-4</span>
+<span class="f2">libkprintutils4	4:4.8.4-4</span>
+<span class="f2">libkrb5-3:i386	1.10.1+dfsg-3</span>
+<span class="f2">libkrb5support0:i386	1.10.1+dfsg-3</span>
+libkutils4	<span class="f1">4:4.4.5-2+squeeze3</span>
+<span class="f1">liblcms1	1.18.dfsg-1.2+b3</span>
+<span class="f1">libldap-2.4-2	2.4.23-7.2</span><span class="f2">4:4.8.4-4</span>
+<span class="f2">liblcms1:i386	1.19.dfsg-1.2</span>
+<span class="f2">liblcms2-2:i386	2.2+git20110628-2.2</span>
+<span class="f2">libldap-2.4-2:i386	2.4.31-1</span>
+liblocale-gettext-perl	<span class="f1">1.05-6</span>
+<span class="f1">liblockfile1	1.08-4</span><span class="f2">1.05-7+b1</span>
+<span class="f2">liblockfile-bin	1.09-5</span>
+<span class="f2">liblockfile1:i386	1.09-5</span>
+<span class="f2">libltdl7:i386	2.4.2-1.1</span>
+liblzma2	5.0.0-2
+<span class="f1">liblzo2-2	2.03-2</span>
+<span class="f1">libmagic1	5.04-5+squeeze2</span>
+<span class="f1">libmng1	1.0.10-1+b1</span><span class="f2">liblzma5:i386	5.1.1alpha+20120614-2</span>
+<span class="f2">liblzo2-2:i386	2.06-1</span>
+<span class="f2">libmagic1:i386	5.11-2</span>
+<span class="f2">libmhash2	0.9.9.9-1.1</span>
+<span class="f2">libmng1:i386	1.0.10-3</span>
+libmount1	<span class="f1">2.20.1-4~artax1</span>
+<span class="f1">libmpfr4	3.0.0-2</span>
+<span class="f1">libncurses5	5.7+20100313-5</span>
+<span class="f1">libncursesw5	5.7+20100313-5</span><span class="f2">2.20.1-5.3</span>
+<span class="f2">libmp3lame0:i386	3.99.5+repack1-3</span>
+<span class="f2">libmpc2:i386	0.9-4</span>
+<span class="f2">libmpfr4:i386	3.1.0-5</span>
+<span class="f2">libmtdev1:i386	1.1.2-1</span>
+<span class="f2">libncurses5:i386	5.9-10</span>
+<span class="f2">libncursesw5:i386	5.9-10</span>
+<span class="f2">libnepomuk4	4:4.8.4-4</span>
+<span class="f2">libnepomukquery4a	4:4.8.4-4</span>
+<span class="f2">libnepomukutils4	4:4.8.4-4</span>
+libnewt0.52	<span class="f1">0.52.11-1</span><span class="f2">0.52.14-10</span>
+libnfnetlink0	<span class="f1">1.0.0-1</span>
+<span class="f1">libnl1	1.1-6</span><span class="f2">1.0.0-1.1</span>
+<span class="f2">libnl-3-200:i386	3.2.7-4</span>
+<span class="f2">libnl-genl-3-200:i386	3.2.7-4</span>
+<span class="f2">libnl1:i386	1.1-7</span>
+libnl2	1.99+git20091216-2
+libnotify1	0.5.0-2
+<span class="f1">libnspr4	2:4.9.2-1~artax1</span>
+<span class="f1">libnspr4-0d	2:4.9.2-1~artax1</span><span class="f2">libnspr4:i386	2:4.9.2-1</span>
+<span class="f2">libnspr4-0d:i386	2:4.9.2-1</span>
+libnss3-1d	3.13.4-1~artax1
+<span class="f1">libopenjpeg2	1.3+dfsg-4</span>
+<span class="f1">libpam-modules	1.1.1-6.1+squeeze1</span><span class="f2">libogg0:i386	1.3.0-4</span>
+<span class="f2">libopenjpeg2:i386	1.3+dfsg-4.6</span>
+<span class="f2">liborc-0.4-0:i386	1:0.4.16-2</span>
+<span class="f2">libp11-kit0:i386	0.12-3</span>
+<span class="f2">libpam-modules:i386	1.1.3-7.1</span>
+<span class="f2">libpam-modules-bin	1.1.3-7.1</span>
+libpam-runtime	<span class="f1">1.1.1-6.1+squeeze1</span>
+<span class="f1">libpam0g	1.1.1-6.1+squeeze1</span>
+<span class="f1">libpango1.0-0	1.28.3-1+squeeze2</span><span class="f2">1.1.3-7.1</span>
+<span class="f2">libpam0g:i386	1.1.3-7.1</span>
+<span class="f2">libpango1.0-0:i386	1.30.0-1</span>
+libpango1.0-common	1.28.3-1+squeeze2
+<span class="f1">libpaper1	1.1.24</span>
+<span class="f1">libpci3	1:3.1.7-6</span>
+<span class="f1">libpciaccess0	0.12.0-1</span>
+<span class="f1">libpcre3	8.02-1.1</span>
+<span class="f1">libpcsclite1	1.8.4-1~bpo60+1</span>
+<span class="f1">libpixman-1-0	0.26.0-3~artax1</span>
+<span class="f1">libpng12-0	1.2.44-1+squeeze4</span><span class="f2">libpaper1:i386	1.1.24+nmu2</span>
+<span class="f2">libpci3:i386	1:3.1.9-6</span>
+<span class="f2">libpciaccess0:i386	0.13.1-2</span>
+<span class="f2">libpcre3:i386	1:8.30-5</span>
+<span class="f2">libpcsclite1:i386	1.8.4-1</span>
+<span class="f2">libpixman-1-0:i386	0.26.0-3</span>
+<span class="f2">libpng12-0:i386	1.2.49-1</span>
+<span class="f2">libpolkit-gobject-1-0:i386	0.105-3</span>
+libpoppler-glib4	0.12.4-1.2artax2
+<span class="f2">libpoppler-glib8:i386	0.18.4-4</span>
+<span class="f2">libpoppler19:i386	0.18.4-4</span>
+libpoppler5	0.12.4-1.2artax2
+<span class="f1">libpopt0	1.16-1</span>
+<span class="f1">libqt4-dbus	4:4.6.3-4+squeeze1</span>
+<span class="f1">libqt4-network	4:4.6.3-4+squeeze1</span>
+<span class="f1">libqt4-svg	4:4.6.3-4+squeeze1</span>
+<span class="f1">libqt4-xml	4:4.6.3-4+squeeze1</span>
+<span class="f1">libqtcore4	4:4.6.3-4+squeeze1</span>
+<span class="f1">libqtgui4	4:4.6.3-4+squeeze1</span>
+<span class="f1">libreadline6	6.1-3artax1</span>
+<span class="f1">libsasl2-2	2.1.23.dfsg1-7</span>
+<span class="f1">libselinux1	2.0.96-1</span>
+<span class="f1">libsepol1	2.0.41-1</span>
+<span class="f1">libsigc++-2.0-0c2a	2.2.4.2-1</span>
+<span class="f1">libslang2	2.2.2-4</span><span class="f2">libpopt0:i386	1.16-7</span>
+<span class="f2">libprocps0:i386	1:3.3.3-2</span>
+<span class="f2">libpulse0:i386	2.0-6</span>
+<span class="f2">libqt4-dbus:i386	4:4.8.2+dfsg-6</span>
+<span class="f2">libqt4-network:i386	4:4.8.2+dfsg-6</span>
+<span class="f2">libqt4-svg:i386	4:4.8.2+dfsg-6</span>
+<span class="f2">libqt4-xml:i386	4:4.8.2+dfsg-6</span>
+<span class="f2">libqtcore4:i386	4:4.8.2+dfsg-6</span>
+<span class="f2">libqtgui4:i386	4:4.8.2+dfsg-6</span>
+<span class="f2">libraptor2-0	2.0.8-2</span>
+<span class="f2">librasqal3	0.9.29-1</span>
+<span class="f2">librdf0	1.0.15-1+b1</span>
+<span class="f2">libreadline5:i386	5.2+dfsg-1</span>
+<span class="f2">libreadline6:i386	6.2+dfsg-0.1</span>
+<span class="f2">librtmp0:i386	2.4+20111222.git4e06e21-1</span>
+<span class="f2">libsamplerate0:i386	0.1.8-5</span>
+<span class="f2">libsasl2-2:i386	2.1.25.dfsg1-6</span>
+<span class="f2">libschroedinger-1.0-0:i386	1.0.11-2</span>
+<span class="f2">libselinux1:i386	2.1.9-5</span>
+<span class="f2">libsemanage-common	2.1.6-6</span>
+<span class="f2">libsemanage1:i386	2.1.6-6</span>
+<span class="f2">libsepol1:i386	2.1.4-3</span>
+<span class="f2">libsigc++-2.0-0c2a:i386	2.2.10-0.2</span>
+<span class="f2">libslang2:i386	2.2.4-15</span>
+libslp1	<span class="f1">1.2.1-7.8</span>
+<span class="f1">libsm6	2:1.1.1-1</span><span class="f2">1.2.1-9</span>
+<span class="f2">libsm6:i386	2:1.2.1-2</span>
+<span class="f2">libsndfile1:i386	1.0.25-5</span>
+libsolid4	<span class="f1">4:4.4.5-2+squeeze3</span><span class="f2">4:4.8.4-4</span>
+<span class="f2">libsoprano4	2.7.6+dfsg.1-2</span>
+<span class="f2">libspeex1:i386	1.2~rc1-7</span>
+<span class="f2">libspeexdsp1:i386	1.2~rc1-7</span>
+libsqlite3-0	3.7.12.1-1~artax1
+<span class="f1">libss2	1.42.2-2~artax1</span>
+<span class="f1">libssh2-1	1.2.6-1</span><span class="f2">libss2:i386	1.42.5-1</span>
+<span class="f2">libssh2-1:i386	1.4.2-1.1</span>
+libssl0.9.8	0.9.8o-4squeeze13
+<span class="f2">libssl1.0.0:i386	1.0.1c-4</span>
+libstartup-notification0	<span class="f1">0.10-1</span>
+<span class="f1">libstdc++6	4.4.5-8</span><span class="f2">0.12-1</span>
+<span class="f2">libstdc++6:i386	4.7.2-5</span>
+libstreamanalyzer0	<span class="f1">0.7.2-1+b1</span><span class="f2">0.7.7-3</span>
+libstreams0	<span class="f1">0.7.2-1+b1</span>
+<span class="f1">libtasn1-3	2.7-1+squeeze+1</span><span class="f2">0.7.7-3</span>
+<span class="f2">libswitch-perl	2.16-2</span>
+<span class="f2">libswscale2:i386	6:0.8.5-1</span>
+<span class="f2">libsystemd-daemon0:i386	44-7</span>
+<span class="f2">libsystemd-id128-0:i386	44-7</span>
+<span class="f2">libsystemd-journal0:i386	44-7</span>
+<span class="f2">libsystemd-login0:i386	44-7</span>
+<span class="f2">libtasn1-3:i386	2.13-2</span>
+<span class="f2">libtdb1:i386	1.2.10-2</span>
+libtext-charwidth-perl	<span class="f1">0.04-6</span><span class="f2">0.04-7+b1</span>
+libtext-iconv-perl	<span class="f1">1.7-2</span><span class="f2">1.7-5</span>
+libtext-wrapi18n-perl	0.06-7
+libthai-data	<span class="f1">0.1.14-2</span>
+<span class="f1">libthai0	0.1.14-2</span>
+<span class="f1">libtiff4	3.9.4-5+squeeze7</span>
+<span class="f1">libudev0	164-3artax5</span>
+<span class="f1">libusb-0.1-4	2:0.1.12-16</span>
+<span class="f1">libusb-1.0-0	2:1.0.8-2</span><span class="f2">0.1.18-2</span>
+<span class="f2">libthai0:i386	0.1.18-2</span>
+<span class="f2">libtheora0:i386	1.1.1+dfsg.1-3.1</span>
+<span class="f2">libtiff4:i386	3.9.6-11</span>
+<span class="f2">libtinfo5:i386	5.9-10</span>
+<span class="f2">libudev0:i386	175-7</span>
+<span class="f2">libusb-0.1-4:i386	2:0.1.12-20+nmu1</span>
+<span class="f2">libusb-1.0-0:i386	2:1.0.11-1</span>
+<span class="f2">libustr-1.0-1:i386	1.0.4-3</span>
+libutempter0	<span class="f1">1.1.5-3</span><span class="f2">1.1.5-4</span>
+libuuid-perl	<span class="f1">0.02-4</span>
+<span class="f1">libuuid1	2.20.1-4~artax1</span>
+<span class="f1">libvpx1	1.1.0-1~artax1</span>
+<span class="f1">libx11-6	2:1.3.3-4</span><span class="f2">0.02-5</span>
+<span class="f2">libuuid1:i386	2.20.1-5.3</span>
+<span class="f2">libva1:i386	1.0.15-4</span>
+<span class="f2">libvorbis0a:i386	1.3.2-1.3</span>
+<span class="f2">libvorbisenc2:i386	1.3.2-1.3</span>
+<span class="f2">libvpx1:i386	1.1.0-1</span>
+<span class="f2">libwebrtc-audio-processing-0:i386	0.1-2</span>
+<span class="f2">libwrap0:i386	7.6.q-24</span>
+<span class="f2">libx11-6:i386	2:1.5.0-1</span>
+libx11-data	<span class="f1">2:1.3.3-4</span>
+<span class="f1">libx11-xcb1	2:1.3.3-4</span><span class="f2">2:1.5.0-1</span>
+<span class="f2">libx11-xcb1:i386	2:1.5.0-1</span>
+<span class="f2">libx264-123:i386	2:0.123.2189+git35cf912-1</span>
+libxapian22	<span class="f1">1.2.7-1~bpo60+3</span>
+<span class="f1">libxau6	1:1.0.6-1</span>
+<span class="f1">libxaw7	2:1.0.7-1</span><span class="f2">1.2.12-2</span>
+<span class="f2">libxau6:i386	1:1.0.7-1</span>
+<span class="f2">libxaw7:i386	2:1.0.10-2</span>
+libxcb-atom1	0.3.6-1
+libxcb-aux0	0.3.6-1
+<span class="f1">libxcb-dri2-0	1.6-1</span><span class="f2">libxcb-dri2-0:i386	1.8.1-2</span>
+libxcb-event1	0.3.6-1
+<span class="f1">libxcb-render0	1.6-1</span>
+<span class="f1">libxcb-shm0	1.6-1</span>
+<span class="f1">libxcb1	1.6-1</span>
+<span class="f1">libxcomposite1	1:0.4.2-1</span>
+<span class="f1">libxcursor1	1:1.1.10-2</span>
+<span class="f1">libxdamage1	1:1.1.3-1</span>
+<span class="f1">libxdmcp6	1:1.0.3-2</span>
+<span class="f1">libxext6	2:1.1.2-1</span>
+<span class="f1">libxfixes3	1:4.0.5-1</span><span class="f2">libxcb-glx0:i386	1.8.1-2</span>
+<span class="f2">libxcb-render0:i386	1.8.1-2</span>
+<span class="f2">libxcb-shape0:i386	1.8.1-2</span>
+<span class="f2">libxcb-shm0:i386	1.8.1-2</span>
+<span class="f2">libxcb-util0:i386	0.3.8-2</span>
+<span class="f2">libxcb1:i386	1.8.1-2</span>
+<span class="f2">libxcomposite1:i386	1:0.4.3-2</span>
+<span class="f2">libxcursor1:i386	1:1.1.13-1</span>
+<span class="f2">libxdamage1:i386	1:1.1.3-2</span>
+<span class="f2">libxdmcp6:i386	1:1.1.1-1</span>
+<span class="f2">libxext6:i386	2:1.3.1-2</span>
+<span class="f2">libxfixes3:i386	1:5.0-4</span>
+libxfont1	<span class="f1">1:1.4.4-1~bpo60+1</span>
+<span class="f1">libxft2	2.1.14-2</span>
+<span class="f1">libxi6	2:1.3-7</span>
+<span class="f1">libxinerama1	2:1.1-3</span>
+<span class="f1">libxkbfile1	1:1.0.6-2</span>
+<span class="f1">libxml2	2.7.8.dfsg-2+squeeze6</span>
+<span class="f1">libxmu6	2:1.0.5-2</span>
+<span class="f1">libxmuu1	2:1.0.5-2</span>
+<span class="f1">libxpm4	1:3.5.8-1</span>
+<span class="f1">libxrandr2	2:1.3.0-3</span>
+<span class="f1">libxrender1	1:0.9.6-1</span>
+<span class="f1">libxss1	1:1.2.0-2</span>
+<span class="f1">libxt6	1:1.0.7-1</span>
+<span class="f1">libxtst6	2:1.1.0-3</span>
+<span class="f1">libxv1	2:1.0.5-1</span><span class="f2">1:1.4.5-2</span>
+<span class="f2">libxft2:i386	2.3.1-1</span>
+<span class="f2">libxi6:i386	2:1.6.1-1</span>
+<span class="f2">libxinerama1:i386	2:1.1.2-1</span>
+<span class="f2">libxkbfile1:i386	1:1.0.8-1</span>
+<span class="f2">libxml2:i386	2.8.0+dfsg1-7</span>
+<span class="f2">libxmu6:i386	2:1.1.1-1</span>
+<span class="f2">libxmuu1:i386	2:1.1.1-1</span>
+<span class="f2">libxpm4:i386	1:3.5.10-1</span>
+<span class="f2">libxrandr2:i386	2:1.3.2-2</span>
+<span class="f2">libxrender1:i386	1:0.9.7-1</span>
+<span class="f2">libxslt1.1:i386	1.1.26-14</span>
+<span class="f2">libxss1:i386	1:1.2.2-1</span>
+<span class="f2">libxt6:i386	1:1.1.3-1</span>
+<span class="f2">libxtst6:i386	2:1.2.1-1</span>
+<span class="f2">libxv1:i386	2:1.0.7-1</span>
+<span class="f2">libxvidcore4:i386	2:1.3.2-9</span>
+libxvmc1	<span class="f1">2:1.0.5-1</span>
+<span class="f1">libxxf86dga1	2:1.1.1-2</span>
+<span class="f1">libxxf86vm1	1:1.1.0-2</span><span class="f2">2:1.0.7-1</span>
+<span class="f2">libxxf86dga1:i386	2:1.1.3-2</span>
+<span class="f2">libxxf86vm1:i386	1:1.1.2-1</span>
+<span class="f2">libyajl2	2.0.4-2</span>
+linux-base	<span class="f1">3.5~artax1</span><span class="f2">3.5</span>
+linux-image-2.6.32-5-686	2.6.32-45
+linux-image-3.2.0-2artax1-486	3.2.20-1~artax1
+linux-image-3.2.0-3artax1-486	3.2.23-1~artax1
+linux-image-3.2.0-3artax1-686-pae	3.2.23-1~artax1
+linux-image-3.2.0-4artax1-686-pae	3.2.32-1~artax1
+<span class="f2">linux-image-3.2.0-4baureo1-486	3.2.32-1baureo1</span>
+<span class="f2">linux-image-3.2.0-4baureo1-686-pae	3.2.32-1baureo1</span>
+<span class="f2">linux-image-3.7-0baureo1-486	3.7.3-1~experimental.1~baureo1</span>
+<span class="f2">linux-image-3.7-0baureo1-686-pae	3.7.3-1~experimental.1~baureo1</span>
+linux-image-686	<span class="f1">3.2+46~artax1</span>
+<span class="f1">linux-image-686-pae	3.2+46~artax1</span><span class="f2">3.2+46baureo1</span>
+linux-sound-base	1.0.23+dfsg-2
+live-boot	<span class="f1">2.0.15-1</span><span class="f2">3.0~a35-1</span>
+live-boot-initramfs-tools	<span class="f1">2.0.15-1</span><span class="f2">3.0~a35-1</span>
+live-config	<span class="f1">2.0.15-1artax2</span><span class="f2">3.0.14-1baureo1</span>
+<span class="f2">live-config-systemd	3.0.14-1baureo1</span>
+live-config-sysvinit	<span class="f1">2.0.15-1artax2</span><span class="f2">3.0.14-1baureo1</span>
+<span class="f2">locales	2.13-37</span>
+lockfile-progs	<span class="f1">0.1.15+squeeze1</span><span class="f2">0.1.17</span>
+login	<span class="f1">1:4.1.4.2+svn3283-2+squeeze1</span><span class="f2">1:4.1.5.1-1</span>
+logrotate	<span class="f1">3.7.8-6</span><span class="f2">3.8.1-4</span>
+lsb-base	<span class="f1">3.2-23.2squeeze1</span><span class="f2">4.1+Debian8</span>
+lsof	<span class="f1">4.81.dfsg.1-1</span><span class="f2">4.86+dfsg-1</span>
+lzip	<span class="f1">1.13-3~artax1</span><span class="f2">1.13-3</span>
+lzma	<span class="f1">4.43-14</span><span class="f2">9.22-2</span>
+m4	<span class="f1">1.4.14-3</span><span class="f2">1.4.16-3</span>
+mawk	<span class="f1">1.3.3-15</span><span class="f2">1.3.3-17</span>
+module-init-tools	<span class="f1">3.16-1~artax1</span><span class="f2">9-2</span>
+mount	<span class="f1">2.20.1-4~artax1</span><span class="f2">2.20.1-5.3</span>
+mozplugger	<span class="f1">1.14.1-1</span><span class="f2">1.14.5-1</span>
+<span class="f2">multiarch-support	2.13-37</span>
+myspell-en-us	<span class="f1">1:3.3.0-3~artax1</span><span class="f2">1:3.3.0-4</span>
+nano	<span class="f1">2.2.4-1</span><span class="f2">2.2.6-1+b1</span>
+ncurses-base	<span class="f1">5.7+20100313-5</span><span class="f2">5.9-10</span>
+ncurses-bin	<span class="f1">5.7+20100313-5</span><span class="f2">5.9-10</span>
+net-tools	<span class="f1">1.60-23</span><span class="f2">1.60-24.2</span>
+netbase	<span class="f1">4.45</span><span class="f2">5.0</span>
+netcat-traditional	<span class="f1">1.10-38</span><span class="f2">1.10-40</span>
+ntpdate	<span class="f1">1:4.2.6.p2+dfsg-1+b1</span><span class="f2">1:4.2.6.p5+dfsg-2</span>
+nvidia-detect	<span class="f1">295.40-1</span><span class="f2">304.64-4</span>
+openssl	<span class="f1">0.9.8o-4squeeze13</span><span class="f2">1.0.1c-4</span>
+passwd	<span class="f1">1:4.1.4.2+svn3283-2+squeeze1</span><span class="f2">1:4.1.5.1-1</span>
+pciutils	<span class="f1">1:3.1.7-6</span><span class="f2">1:3.1.9-6</span>
+perl	<span class="f1">5.10.1-17squeeze3</span><span class="f2">5.14.2-16</span>
+perl-base	<span class="f1">5.10.1-17squeeze3</span><span class="f2">5.14.2-16</span>
+perl-modules	<span class="f1">5.10.1-17squeeze3</span><span class="f2">5.14.2-16</span>
+plymouth	<span class="f1">0.8.3-17webconverger2</span><span class="f2">0.8.8-4~baureo1</span>
+<span class="f2">plymouth-drm	0.8.5.1-5baureo1</span>
+<span class="f2">poppler-data	0.4.5-10</span>
+poppler-utils	<span class="f1">0.12.4-1.2artax2</span><span class="f2">0.18.4-4</span>
+procps	<span class="f1">1:3.2.8-9squeeze1</span><span class="f2">1:3.3.3-2</span>
+<span class="f2">pulseaudio	2.0-6</span>
+readline-common	<span class="f1">6.1-3artax1</span><span class="f2">6.2+dfsg-0.1</span>
+rsyslog	<span class="f1">5.8.11-1~bpo60+2</span><span class="f2">5.8.11-2</span>
+sed	<span class="f1">4.2.1-7</span><span class="f2">4.2.1-10</span>
+sensible-utils	<span class="f1">0.0.4</span><span class="f2">0.0.7</span>
+shared-mime-info	<span class="f1">0.71-4</span><span class="f2">1.0-1+b1</span>
+ssl-cert	<span class="f1">1.0.32~artax1</span><span class="f2">1.0.32</span>
+sudo	<span class="f1">1.8.5p2-1~bpo60+1</span><span class="f2">1.8.5p2-1baureo1</span>
+syslinux	<span class="f1">2:4.05+dfsg-6~artax1</span><span class="f2">2:4.05+dfsg-6+deb7u1</span>
+syslinux-common	<span class="f1">2:4.05+dfsg-6~artax1</span><span class="f2">2:4.05+dfsg-6+deb7u1</span>
+<span class="f2">systemd	44-7</span>
+<span class="f2">systemd-sysv	44-7</span>
+sysv-rc	<span class="f1">2.88dsf-13.1+squeeze1artax2</span>
+<span class="f1">sysvinit	2.88dsf-13.1+squeeze1artax2</span><span class="f2">2.88dsf-34</span>
+sysvinit-utils	<span class="f1">2.88dsf-13.1+squeeze1artax2</span><span class="f2">2.88dsf-34</span>
+tar	<span class="f1">1.23-3</span><span class="f2">1.26+dfsg-0.1</span>
+tasksel	2.88
+traceroute	<span class="f1">1:2.0.15-1</span><span class="f2">1:2.0.18-3</span>
+ttf-dejavu	<span class="f1">2.31-1</span><span class="f2">2.33-3</span>
+ttf-dejavu-core	<span class="f1">2.31-1</span><span class="f2">2.33-3</span>
+ttf-dejavu-extra	<span class="f1">2.31-1</span><span class="f2">2.33-3</span>
+ttf-freefont	<span class="f1">20090104-7</span><span class="f2">20120503-1</span>
+tzdata	<span class="f1">2012c-0squeeze1</span><span class="f2">2012j-1</span>
+ucf	<span class="f1">3.0025+nmu1</span><span class="f2">3.0025+nmu3</span>
+udev	<span class="f1">164-3artax5</span><span class="f2">175-7</span>
+unclutter	<span class="f1">8-14</span><span class="f2">8-18</span>
+usbutils	<span class="f1">0.87-5squeeze1</span><span class="f2">1:005-3</span>
+user-setup	<span class="f1">1.38artax1</span><span class="f2">1.48</span>
+util-linux	<span class="f1">2.20.1-4~artax1</span><span class="f2">2.20.1-5.3</span>
+vim-common	<span class="f1">2:7.2.445+hg~cb94c42c0e1a-1artax1</span><span class="f2">2:7.3.547-6</span>
+vim-tiny	<span class="f1">2:7.2.445+hg~cb94c42c0e1a-1artax1</span><span class="f2">2:7.3.547-6</span>
+webconverger-archive-keyring	20110416-1
+wget	<span class="f1">1.12-2.1</span><span class="f2">1.13.4-3</span>
+whiptail	<span class="f1">0.52.11-1</span><span class="f2">0.52.14-10</span>
+wireless-regdb	<span class="f1">2011.04.28-1~artax1</span><span class="f2">2011.04.28-1</span>
+wireless-tools	<span class="f1">30~pre9-5</span><span class="f2">30~pre9-8</span>
+wpasupplicant	<span class="f1">0.6.10-2.1</span><span class="f2">1.0-3+b1</span>
+x11-apps	<span class="f1">7.5+5</span><span class="f2">7.7~2</span>
+x11-common	<span class="f1">1:7.6+8~bpo60+1</span><span class="f2">1:7.7+1</span>
+x11-session-utils	<span class="f1">7.5+1</span><span class="f2">7.6+2</span>
+x11-utils	<span class="f1">7.5+4</span><span class="f2">7.7~1</span>
+x11-xfs-utils	<span class="f1">7.4+1</span><span class="f2">7.7~1</span>
+x11-xkb-utils	<span class="f1">7.5+5</span><span class="f2">7.7~1</span>
+x11-xserver-utils	<span class="f1">7.5+3</span><span class="f2">7.7~3</span>
+xauth	<span class="f1">1:1.0.4-1</span><span class="f2">1:1.0.7-1</span>
+xbitmaps	<span class="f1">1.1.0-1</span><span class="f2">1.1.1-1</span>
+xfonts-100dpi	<span class="f1">1:1.0.1</span><span class="f2">1:1.0.3</span>
+xfonts-75dpi	<span class="f1">1:1.0.1</span><span class="f2">1:1.0.3</span>
+xfonts-base	<span class="f1">1:1.0.1</span><span class="f2">1:1.0.3</span>
+xfonts-encodings	<span class="f1">1:1.0.3-1</span><span class="f2">1:1.0.4-1</span>
+xfonts-scalable	<span class="f1">1:1.0.1-1</span><span class="f2">1:1.0.3-1</span>
+xfonts-utils	<span class="f1">1:7.5+2</span><span class="f2">1:7.7~1</span>
+xinit	<span class="f1">1.2.0-2</span><span class="f2">1.3.2-1</span>
+xinput	<span class="f1">1.5.2-1</span><span class="f2">1.6.0-1</span>
+xkb-data	<span class="f1">1.8-2</span><span class="f2">2.5.1-3</span>
+xloadimage	<span class="f1">4.1-16.1+b1</span><span class="f2">4.1-19</span>
+xorg	<span class="f1">1:7.6+8~bpo60+1</span><span class="f2">1:7.7+1</span>
+xorg-docs-core	<span class="f1">1:1.5-1</span><span class="f2">1:1.6-1</span>
+xserver-common	<span class="f1">2:1.10.4-1~bpo60+1</span><span class="f2">2:1.12.4-4</span>
+xserver-xorg	<span class="f1">1:7.6+8~bpo60+1</span><span class="f2">1:7.7+1</span>
+xserver-xorg-core	<span class="f1">2:1.10.4-1~bpo60+1</span><span class="f2">2:1.12.4-4</span>
+xserver-xorg-input-all	<span class="f1">1:7.6+8~bpo60+1</span><span class="f2">1:7.7+1</span>
+xserver-xorg-input-evdev	<span class="f1">1:2.6.0-2~bpo60+1</span><span class="f2">1:2.7.0-1+b1</span>
+xserver-xorg-input-synaptics	<span class="f1">1.4.1-1~bpo60+1</span><span class="f2">1.6.2-2</span>
+xserver-xorg-video-all	<span class="f1">1:7.6+8~bpo60+1</span><span class="f2">1:7.7+1</span>
+xserver-xorg-video-apm	<span class="f1">1:1.2.3-2~bpo60+1</span><span class="f2">1:1.2.3-3</span>
+xserver-xorg-video-ark	<span class="f1">1:0.7.3-2~bpo60+1</span><span class="f2">1:0.7.4-1+b1</span>
+xserver-xorg-video-ati	<span class="f1">1:6.14.2-1~bpo60+1</span><span class="f2">1:6.14.4-6</span>
+xserver-xorg-video-chips	<span class="f1">1:1.2.4-1~bpo60+1</span><span class="f2">1:1.2.4-2</span>
+xserver-xorg-video-cirrus	<span class="f1">1:1.3.2-4~bpo60+1</span><span class="f2">1:1.4.0-2</span>
+xserver-xorg-video-fbdev	<span class="f1">1:0.4.2-4~bpo60+1</span><span class="f2">1:0.4.2-4+b3</span>
+xserver-xorg-video-i128	<span class="f1">1:1.3.4-2~bpo60+1</span><span class="f2">1:1.3.5-1+b1</span>
+xserver-xorg-video-i740	<span class="f1">1:1.3.2-4~bpo60+1</span><span class="f2">1:1.3.2-4+b3</span>
+xserver-xorg-video-intel	<span class="f1">2:2.15.0-3~bpo60+2</span><span class="f2">2:2.19.0-6</span>
+xserver-xorg-video-mach64	<span class="f1">6.9.0-1~bpo60+1</span><span class="f2">6.9.1-2</span>
+xserver-xorg-video-mga	<span class="f1">1:1.4.13.dfsg-3~bpo60+1</span><span class="f2">1:1.5.0-3</span>
+xserver-xorg-video-neomagic	<span class="f1">1:1.2.5-2~bpo60+1</span><span class="f2">1:1.2.6-1</span>
+xserver-xorg-video-nouveau	<span class="f1">1:0.0.16+git20110411+8378443-1~bpo60+1</span><span class="f2">1:1.0.1-4</span>
+xserver-xorg-video-openchrome	<span class="f1">1:0.2.904+svn920-1~bpo60+1</span><span class="f2">1:0.2.906-2</span>
+xserver-xorg-video-r128	<span class="f1">6.8.1-5~bpo60+1</span><span class="f2">6.8.2-1</span>
+xserver-xorg-video-radeon	<span class="f1">1:6.14.2-1~bpo60+1</span><span class="f2">1:6.14.4-6</span>
+xserver-xorg-video-rendition	<span class="f1">1:4.2.4-2~bpo60+1</span><span class="f2">1:4.2.4-3</span>
+xserver-xorg-video-s3	<span class="f1">1:0.6.3-4~bpo60+1</span><span class="f2">1:0.6.3-4+b3</span>
+xserver-xorg-video-s3virge	<span class="f1">1:1.10.4-4~bpo60+1</span><span class="f2">1:1.10.4-5</span>
+xserver-xorg-video-savage	<span class="f1">1:2.3.2-3~bpo60+1</span><span class="f2">1:2.3.4-1</span>
+xserver-xorg-video-siliconmotion	<span class="f1">1:1.7.5-1~bpo60+1</span><span class="f2">1:1.7.6-1</span>
+xserver-xorg-video-sis	<span class="f1">1:0.10.3-3~bpo60+1</span><span class="f2">1:0.10.4-1</span>
+xserver-xorg-video-sisusb	<span class="f1">1:0.9.4-2~bpo60+1</span><span class="f2">1:0.9.4-3</span>
+xserver-xorg-video-tdfx	<span class="f1">1:1.4.3-4~bpo60+1</span><span class="f2">1:1.4.4-1</span>
+xserver-xorg-video-trident	<span class="f1">1:1.3.4-2~bpo60+1</span><span class="f2">1:1.3.5-1</span>
+xserver-xorg-video-tseng	<span class="f1">1:1.2.4-2~bpo60+1</span><span class="f2">1:1.2.4-3</span>
+xserver-xorg-video-vesa	<span class="f1">1:2.3.0-7~bpo60+1</span><span class="f2">1:2.3.1-1+b1</span>
+xserver-xorg-video-vmware	<span class="f1">1:11.0.3-2~bpo60+1</span><span class="f2">1:12.0.2-1+b1</span>
+xserver-xorg-video-voodoo	<span class="f1">1:1.2.4-2~bpo60+1</span><span class="f2">1:1.2.4-2+b3</span>
+xterm	<span class="f1">261-1</span><span class="f2">278-4</span>
+xz-utils	<span class="f1">5.0.0-2</span>
+<span class="f1">zlib1g	1:1.2.3.4.dfsg-3</span><span class="f2">5.1.1alpha+20120614-2</span>
+<span class="f2">zlib1g:i386	1:1.2.7.dfsg-13</span>
+</pre>
+</body>
+</html>
