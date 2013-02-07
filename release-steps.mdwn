@@ -18,5 +18,5 @@ Link the package changes, but avoid linking the package list explicitly as a URL
 * Log into [twitter](http://twitter.com/#!/webconverger) and tweet linking the release notes, for [example](http://twitter.com/webconverger/status/205963007925301248)
 * Email distrowatch distro@distrowatch.com with release notes
 * [Update Wikipedia](http://en.wikipedia.org/wiki/Webconverger)
-* Update Freecode http://freecode.com/projects/webconverger/releases/345043
+* Update Freecode <http://freecode.com/projects/webconverger/releases/345043>
 * Send [Webconverger newsletter](https://github.com/Webconverger/dotCom/blob/master/list/maillist)
