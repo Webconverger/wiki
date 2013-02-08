@@ -59,8 +59,8 @@ upon the [curated chroot](https://github.com/Webconverger/webc).
 md5 is `677f7f5ba00a45f3b641fabf1e6ffa93` and the sha1sum is
 `67e1adfa7010e46c1ff3220636d751a1d9ad6190`.
 
-Update: Firefox
+Update: [Install users will efficiently upgrade to
+Firefox](https://twitter.com/webconverger/status/299752325986258944)
 [18.0.2](http://www.mozilla.org/en-US/firefox/18.0.2/releasenotes/) with this
-[JS stability bug fix](https://bugzilla.mozilla.org/show_bug.cgi?id=831626) will be
-incorporated into Webconverger after testing, hopefully tomorrow. Install users
-will upgrade to this efficiently and automatically.
+[JS stability bug fix](https://bugzilla.mozilla.org/show_bug.cgi?id=831626),
+which came out to close to our 17.0 release.
