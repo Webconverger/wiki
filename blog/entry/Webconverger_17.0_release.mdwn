@@ -63,4 +63,4 @@ Update: [Install users will efficiently upgrade to
 Firefox](https://twitter.com/webconverger/status/299752325986258944)
 [18.0.2](http://www.mozilla.org/en-US/firefox/18.0.2/releasenotes/) with this
 [JS stability bug fix](https://bugzilla.mozilla.org/show_bug.cgi?id=831626),
-which came out to close to our 17.0 release.
+which didn't make the cut of the 17.0 release.
