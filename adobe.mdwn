@@ -1,30 +1,22 @@
-# Flash
+# Flash is included
 
 <a href="http://www.flickr.com/photos/hendry/5150959998/" title="Flash playback by Kai Hendry, on Flickr"><img src="http://farm5.static.flickr.com/4060/5150959998_37a097ced2.jpg" width="500" height="375" alt="Flash playback" /></a>
 
-Despite that [Flash](http://www.adobe.com/products/flash/) is not free, a black hole binary blob and not supportive of [Web standards](http://www.whatwg.org/).
+Despite [Flash](http://www.adobe.com/products/flash/) being non free, having a
+poor security track record and not supportive of [Web
+standards](http://www.whatwg.org/).
 
-In an **office** or vertical market environments you probably do not require Flash & noisy multimedia.
+## Developer notes
 
-I do defend the inclusion of [Flash in the rootfs of
-Webconverger](https://github.com/Webconverger/webc/tree/master/usr/lib/adobe/flash-player)
-because it makes the Web more compelling.
-
-During the [browser wars](http://en.wikipedia.org/wiki/Browser_Wars) Microsoft
-made the Web compelling. Thanks Microsoft. :) One has to look at the big
-picture sometimes. The [Web
-API](http://www.joelonsoftware.com/articles/APIWar.html) is the **key** to
-unlocking the potential of Free & Open source software to the world.
-
-Download Flash updates from <http://get.adobe.com/flashplayer/otherversions/>.
+We download Flash updates from <http://get.adobe.com/flashplayer/otherversions/>.
 Linux 32 bit, .tar.gz version and [commit like
 so](https://github.com/Webconverger/webc/commit/edd97ee47345e44a22a9dbf18cca48669e2694d4).
 
 Flash from 17.x lives in /usr/lib/mozilla/plugins/
 
-# PDF
+# PDF support is included
 
 <a href="http://www.flickr.com/photos/hendry/5150959994/" title="epdfview in Webconverger by Kai Hendry, on Flickr"><img src="http://farm2.static.flickr.com/1184/5150959994_32c8bb7b7f.jpg" width="500" height="375" alt="epdfview in Webconverger" /></a>
 
-Though please think twice about using PDF on the Web! [HTML is the best format
+However please think twice about using PDF on the Web! [HTML is the best format
 to store your documents](http://dabase.com/blog/PDF-A_versus_HTML/).
