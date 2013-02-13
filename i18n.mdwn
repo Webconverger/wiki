@@ -68,6 +68,8 @@ In the future we might add a
 [widget](http://awesome.naquadah.org/wiki/Change_keyboard_maps) to toggle
 inputs.
 
+There are setxkbmap aliases which can be found in [/usr/share/X11/xkb/rules](https://github.com/Webconverger/webc/blob/master/usr/share/X11/xkb/rules/base.lst)
+
 # Fonts
 
 In the above example we can enable Thai input, however Webconverger does not
