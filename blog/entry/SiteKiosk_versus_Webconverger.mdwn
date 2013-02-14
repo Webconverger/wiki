@@ -26,10 +26,10 @@ SiteKiosk has [four versions](https://www.provisio.com/en-US/SiteKiosk/Default.a
 * Large selection of browser skins - no, we don't do this. Skins are usually a performance killer, how we do offer [[bgurl=|artwork]] for simply branding the background
 * Customizable user interface - yes, see our [user interface options](http://webconverger.org/kiosk/)
 * Logout (Clear history) - yes
-* Start page templates - no, we don't build or advise how to build your homepage
+* Start page templates - no, we don't build or prescribe how to build your homepage
 * URL access restricting - yes, with `chrome=webcnoaddressbar`, see [[filtering]]
 * Execute programs you specified - no
-* Printing - yes, though [[printing]] is not currently enabled
+* Printing - yes, please see [[printing]]
 * Support of connected devices - no, except [[printing]] as above
 * On-screen keyboard - [yes, though not currently enabled in default builds](http://config.webconverger.com/faq/#does-webconverger-support-touch-screens)
 * Video & photo email - no, this is could be realised with the embedded [[flash|adobe]]
