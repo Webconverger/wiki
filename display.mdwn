@@ -26,6 +26,7 @@ To force a given resolution to a video output, we need to:
 * set the video mode for the given video output
 
 ### Create the given resolution mode
+#
 First, it's good to check the resolutions available:
 
     xrandr

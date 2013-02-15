@@ -98,9 +98,9 @@ which can vary machine to machine.
 
 [Video explaining how to use debug mode to discover the properties of your connected displays](http://r2d2.webconverger.org/2012-11-13/xrandr.html)
 
-### Force the screen resolution to 1024x768 on all connected displays
+### Need to setup up a higher than detected resolution?
 
-	xrandr-all=--mode%201024x768
+Please follow this [[display]] guide.
 
 ### DEBUG MODE for developers
 
