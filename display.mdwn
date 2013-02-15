@@ -20,3 +20,12 @@ First, it's good to check the resolutions available:
 
 Sample output:
 
+    Screen 0: minimum 320 x 200, current 1024 x 768, maximum 8192 x 8192
+    DVI-0 disconnected (normal left inverted right x axis y axis)
+    HDMI-0 disconnected (normal left inverted right x axis y axis)
+    VGA-0 connected 1024x768+0+0 (normal left inverted right x axis y axis) 0mm x 0mm
+       1024x768       60.0* 
+       800x600        60.3     56.2  
+       848x480        60.0  
+       640x480        59.9  
+
