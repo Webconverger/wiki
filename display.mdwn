@@ -3,21 +3,29 @@
 Sometimes
 [EDID](http://en.wikipedia.org/wiki/Extended_display_identification_data) is
 not transmitted or is incorrect. Then you need to override the lack of EDID
-information from the monitor and set the resolution accordingly.  This may occur, for example, when using video extenders, splitters and the like, that don't pass the [DDC](https://en.wikipedia.org/wiki/Display_Data_Channel) out-of-band electrical signals that provide the EDID.  Removing pin 12 from one of the ends of the VGA cable will achieve this as well.
+information from the monitor and set the resolution accordingly.  This may
+occur, for example, when using video extenders, splitters and the like, that
+don't pass the [DDC](https://en.wikipedia.org/wiki/Display_Data_Channel)
+out-of-band electrical signals that provide the EDID.  Removing pin 12 from one
+of the ends of the VGA cable will achieve this as well.
 
-When EDID is not received, the OS defaults to lower resolutions, such as 1024x768 and higer resolution modes are not available.  As a result, the `xrandr-all` of the boot [[API]] is ineffective at setting resolutions.
+When EDID is not received, the OS defaults to lower resolutions, such as
+1024x768 and higher resolution modes are not available.  As a result, the
+`xrandr-all` of the boot [[API]] is ineffective at setting resolutions.
 
-Instead, we can use `xrandr` from the boot [[API]], but we need to do some investigation in debug mode to get the video output names and the like and to test things out.
+Instead, we can use `xrandr` from the boot [[API]], but we need to do some
+investigation in [[debug_mode|debug]] to get the video output names and the like and to
+test things out.
 
 ## Manually adding the resolution and testing
 
 To force a given resolution to a video output, we need to:
 
-* create the given resolution mode
+1. create the given resolution mode
 * assign the resolution mode to the desired video output
 * set the video mode for the given video output
 
-###Create the given resolution mode
+### Create the given resolution mode
 First, it's good to check the resolutions available:
 
     xrandr
@@ -28,16 +36,18 @@ Sample output:
     DVI-0 disconnected (normal left inverted right x axis y axis)
     HDMI-0 disconnected (normal left inverted right x axis y axis)
     VGA-0 connected 1024x768+0+0 (normal left inverted right x axis y axis) 0mm x 0mm
-       1024x768       60.0* 
-       800x600        60.3     56.2  
-       848x480        60.0  
-       640x480        59.9  
+       1024x768       60.0*
+       800x600        60.3     56.2
+       848x480        60.0
+       640x480        59.9
 
 The computer in this example has three video outputs: `VGA-0`, `HDMI-0` and `DVI-0`, but only `VGA-0` is connected.  Make a note of the name of the video output name specific to your machine.
 
-Let's say we want to add 720p resolution to the output `VGA-0` as we know that the display device supports it.  The resolution that we need (i.e. 1280x720) is not listed for the output `VGA-0` so we add it using `xrandr --newmode <Modeline>`.  We use `cvt` to obtain the necessary modeline as follows:
+Let's say we want to add 720p resolution to the output `VGA-0` as we know that the display device supports it.  The resolution that we need (i.e. 1280x720) is not listed for the output `VGA-0` so we add it using `xrandr --newmode <Modeline>`.  We use [cvt](http://cvt.webconverger.com) to obtain the necessary modeline as follows:
 
     cvt 1280 720 60
+
+or use the Web application version here: <http://cvt.webconverger.com/?x=1280&y=720&r=60>
 
 Output:
 
@@ -60,10 +70,10 @@ Sample output:
     DVI-0 disconnected (normal left inverted right x axis y axis)
     HDMI-0 disconnected (normal left inverted right x axis y axis)
     VGA-0 connected 1024x768+0+0 (normal left inverted right x axis y axis) 0mm x 0mm
-       1024x768       60.0* 
-       800x600        60.3     56.2  
-       848x480        60.0  
-       640x480        59.9  
+       1024x768       60.0*
+       800x600        60.3     56.2
+       848x480        60.0
+       640x480        59.9
       1280x720 (0x14f)   74.5MHz
             h: width  1280 start 1344 end 1472 total 1664 skew    0 clock   44.8KHz
             v: height  720 start  723 end  728 total  748           clock   59.9Hz
@@ -72,9 +82,7 @@ Sample output:
 
     xrandr --addmode VGA-0 1280x720
 
-Verify
-
-    xrandr
+Verify by running `xrandr`
 
 Sample output:
 
@@ -82,25 +90,27 @@ Sample output:
     DVI-0 disconnected (normal left inverted right x axis y axis)
     HDMI-0 disconnected (normal left inverted right x axis y axis)
     VGA-0 connected 1024x768+0+0 (normal left inverted right x axis y axis) 0mm x 0mm
-       1024x768       60.0* 
-       800x600        60.3     56.2  
-       848x480        60.0  
-       640x480        59.9  
-       1280x720       59.9  
+       1024x768       60.0*
+       800x600        60.3     56.2
+       848x480        60.0
+       640x480        59.9
+       1280x720       59.9
 
 ### Set the video mode to the desired resolution on the given output
 
     xrandr --output VGA-0 --mode 1280x720
 
-## Using the boot API to force a given resolution
+## Using the Webconverger xrandr [[API]] to force a given resolution
 
 The same steps as above need to be accomplished, so we pass three `xrandr` parameters at boot **in the correct order**:
 
 720p resolution example:
 
-    xrandr=--newmode%201280x720%2074.50%201280%201344%201472%201664%20720%20723%20728%20748%20-hsync%20%2Bvsync 
-    xrandr=--addmode%20VGA-0%201280x720 
+    xrandr=--newmode%201280x720%2074.50%201280%201344%201472%201664%20720%20723%20728%20748%20-hsync%20%2Bvsync
+    xrandr=--addmode%20VGA-0%201280x720
     xrandr=--output%20VGA-0%20--mode%201280x720
+
+Notice: You can use <http://cvt.webconverger.com/?x=1280&y=720&r=60> to help calculate the first line.
 
 1080p resolution example:
 
