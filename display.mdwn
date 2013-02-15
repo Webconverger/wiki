@@ -29,3 +29,19 @@ Sample output:
        848x480        60.0  
        640x480        59.9  
 
+Let's say we want to add 720p resolution to the output `VGA-0` as we know that the display device supports it.  The resolution that we need (i.e. 1280x720) is not listed for the output `VGA-0` so we add it using `xrandr --newmode <Modeline>`.  We use `cvt` to obtain the necessary modeline as follows:
+
+    cvt 1280 720 60
+
+Output:
+
+    # 1280x720 59.86 Hz (CVT 0.92M9) hsync: 44.77 kHz; pclk: 74.50 MHz
+    Modeline "1280x720_60.00"   74.50  1280 1344 1472 1664  720 723 728 748 -hsync +vsync
+
+For the sake of consistency with existing modes, and to avoid the double quotes that may cause some problems parsing, I will substitute the mode name `"1280x720_60.00"` with `1280x720`.
+
+Thus, to create a new resolution mode:
+
+    xrandr --newmode 1280x720 74.50  1280 1344 1472 1664  720 723 728 748 -hsync +vsync
+
+
