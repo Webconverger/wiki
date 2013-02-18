@@ -65,3 +65,7 @@ This is useful for debugging and allowing you to manually check what does and
 does not get printed.
 
 [PDF example of the Webconverger portal](http://static.natalian.org/2009-06-07/portal_webconverger.pdf)
+
+# Showing a print icon
+
+The [[API]] keyword "showprintbutton" adds a print button to the browser chrome in [this change](https://github.com/Webconverger/webc/commit/2b691b2f8854659eaa0f73731aa275f2e337523c).
