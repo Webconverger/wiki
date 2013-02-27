@@ -18,6 +18,9 @@ device:
 This "ping" is used to determine how many users Webconverger has to warrant
 further investment. [Public usage statistics](http://ping.webconverger.org/).
 
+You can opt out by appending `noping` to the command line from Webconverger
+18.0.
+
 By default (unless opted by specifying `noconfig`), we direct you to our
 configuration service. This configuration service can see your machine UUID and
 MAC address. We use these machine identifiers (not personally identifying), to

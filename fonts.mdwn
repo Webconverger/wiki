@@ -1,18 +1,4 @@
-The [sans-serif](http://en.wikipedia.org/wiki/Sans-serif) [DejaVu font](http://dejavu.sourceforge.net/) is included on every Webconverger distribution since version 2.21.
-
 # Installing the default Webconverger fonts on a Debian/Ubuntu machine:
 
-  1. `monty:~% sudo apt-get install ttf-dejavu`
+  1. `# apt-get install fonts-droid`
   2. Restart your browser
-
-# On other operating systems:
-
- * [DejaVu download](http://dejavu.sourceforge.net/wiki/index.php/Download)
-
-# Microsoft fonts
-
-The package [msttcorefonts](http://packages.qa.debian.org/m/msttcorefonts.html)
-contains the familiar Microsoft fonts like Arial, Verdana etc.
-
-Since there are license and freedom issues shipping these proprietary fonts
-with Webconverger, they have been dropped.
