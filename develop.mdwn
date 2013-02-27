@@ -48,7 +48,9 @@ Unstable repository](http://packages.qa.debian.org/l/live-build.html).
 1. Take a long good look at [auto/config](https://github.com/Webconverger/Debian-Live-config/blob/master/webconverger/auto/config)
 1. `make`
 
-These steps are formalised in the [daily build](http://build.webconverger.org/) process's [build.sh](https://github.com/Webconverger/dailybuild/blob/master/build.sh).
+These steps are formalised in the [daily build](http://build.webconverger.org/)
+process's
+[webc-build.sh](https://github.com/Webconverger/dailybuild/blob/master/webc-build.sh).
 
 It is recommend you build from a [[chroot]] and invest some time to setup your development environment.
 
@@ -75,6 +77,6 @@ And provide http://ix.io/41O in a bug report! :)
 
 ## If your build doesn't work
 
-* Check with the latest [daily build](http://build.webconverger.org/) logs. Compare them.
+1. Check with the latest [daily build](http://build.webconverger.org/) logs. Compare them.
 * Check for bugs with [Debian Live](http://bugs.debian.org/cgi-bin/pkgreport.cgi?repeatmerged=no&src=live-build)
 * [Submit a bug report](https://github.com/Webconverger/webc/issues)
