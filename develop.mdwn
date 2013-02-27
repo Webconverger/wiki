@@ -4,11 +4,11 @@
 * [[Core_concepts|design]]
 * [Webconverger Debian Live configuration](https://github.com/Webconverger/Debian-Live-config)
 * [Official Webconverger package repository](http://debian.webconverger.com)
-* [Webconverger daily builds](http://build.webconverger.org/) - [build script sources](http://git.webconverger.org/?p=build)
+* [Webconverger daily builds](http://build.webconverger.org/) - [build script sources](https://github.com/Webconverger/dailybuild)
 * [[Webconverger_in_your_locale|i18n]]
 * [[Artwork]]
 * [[Firefox_extension_development|Kiosk]]
-* [Debian Live project](http://debian-live.alioth.debian.org/) and [Live helper packages](http://live.debian.net/)
+* [Debian Live project](http://live.debian.net/) and [Live helper packages](http://live.debian.net/)
 * [[Howto_add_Java|Java]]
 * [[Howto_integrate_nvidia_drivers|nvidia]]
 * [[Customising_cronjob|cronjob]]

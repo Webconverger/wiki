@@ -1,4 +1,4 @@
-**Boot artwork** is **not** customisable.
+**Boot artwork** (the yellow tricolour progress bar) is **not** customisable.
 
 From Webconverger 12 the background image on a white background seen between
 browser restarts can be customised by:
