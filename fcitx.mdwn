@@ -556,3 +556,7 @@ Using my Archlinux Hangul setup as a refrence, this is the required file list, t
 	fcitx-hangul /usr/share/locale/zh_TW/
 	fcitx-hangul /usr/share/locale/zh_TW/LC_MESSAGES/
 	fcitx-hangul /usr/share/locale/zh_TW/LC_MESSAGES/fcitx-hangul.mo
+
+# Bug
+
+/usr/lib/gtk-2.0/2.10.0/immodules/im-fcitx.so is not run
