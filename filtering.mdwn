@@ -1,3 +1,5 @@
+[[!meta title="Network filtering options"]]
+
 # Limiting users to your Website
 
 <img src="/chrome/webcnoaddressbar.png" alt="No addressbar" />
@@ -25,6 +27,18 @@ you need to reboot the machine for it to take affect of any modified rules.
 WARNING: If the hosts file fails to retrieve, the machine can be left
 unprotected. We will make this feature more failsafe, i.e. if the hosts file
 fails to download, it will show a graphic to that affect and halt.
+
+## iptables API
+
+From Webconverger 18 there is a simple [iptables API](https://github.com/Webconverger/webc/commit/68b8445a0e919641d7ecdf24eca7352d47bdb77e).
+
+[Iptables man page](http://manpages.debian.net/cgi-bin/man.cgi?query=iptables)
+
+E.g. to block the IP 8.8.8.8
+
+	iptables=-I%20INPUT%20-s%208.8.8.8%20-j%20DROP
+
+You can have multiple iptables= commands and they will be processed in order.
 
 ## Blacklist
 
