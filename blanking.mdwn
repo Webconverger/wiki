@@ -1,6 +1,6 @@
 [[!meta title="When Webconverger idles"]]
 
-# How Webconverger clients blanks
+# How Webconverger clients "blank" (save monitor power, by turning off or going black)
 
 Webconverger does not currently take active measures to sleep the PC hardware
 as it is assumed to be deployed on mains connected PCs. So when we talk about
@@ -19,8 +19,8 @@ Customers who don't want the screen to blank at all should use the boot option
 `noblank`.
 
 Customers who want to adjust the default 10 minutes, can use `blank=` API to
-set the minutes. E.g. a configuration with `blank=60` will only blank to
-monitors after 1 hour of non-use.
+set the minutes. E.g. a configuration with `blank=60` will only blank a monitor
+after 1 hour of non-use.
 
 Use case: Client may want to show an "attraction loop" when kiosks are not in
 use. To realise this set `noblank` in the configuration and setup a [Web based
@@ -42,7 +42,7 @@ specified number of minutes of inactivity.
 
 For example, appending `kioskresetstation=10` will reset the kiosk after ten minutes of inactivity.
 
-* [Source of kioskresetstation](https://github.com/Webconverger/Debian-Live-config/blob/master/webconverger/config/includes.chroot/usr/bin/kioskresetstation)
+* [Source of kioskresetstation](https://github.com/Webconverger/webc/blob/master/usr/bin/kioskresetstation)
 
 Caveat: Your homepage must have a title for `kioskresetstation` to work currently. [Logged issue](https://github.com/Webconverger/webc/issues/24).
 

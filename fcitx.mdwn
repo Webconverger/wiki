@@ -559,4 +559,10 @@ Using my Archlinux Hangul setup as a refrence, this is the required file list, t
 
 # Bug
 
-/usr/lib/gtk-2.0/2.10.0/immodules/im-fcitx.so is not run
+/usr/lib/gtk-2.0/2.10.0/immodules/im-fcitx.so is not run. gtk.immodules the culprit
+
+
+# Arch versus Debian
+
+Debian's libhangul-data & libhangul1 is Arch's libhangul
+fcitx-hangul depends on libhangul.
