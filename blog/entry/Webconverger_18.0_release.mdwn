@@ -15,7 +15,7 @@ To see the details from [[Webconveger 17|Webconverger_17.0_release]], you can cl
 	md5sum: 96ea1567db980ce1b200dd9e8881dd79 webc-18.0.iso
 	sha1sum: 6c54fcf2d34e29766b4f480c673105b88392c326 webc-18.0.iso
 
-Live users, please download from <http://webconverger.com> and install Webconverger.
+Live users, please download the update from <http://webconverger.com> and install Webconverger 18.0.
 
 [Installed users of
 Webconverger](http://config.webconverger.com/faq/#what-do-you-mean-by-live-version-and-install-version-?)
