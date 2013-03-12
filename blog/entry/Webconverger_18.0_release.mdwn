@@ -1,14 +1,14 @@
 <img src="/img/google-talkplugin.png" alt="Google talkplugin under Webconverger 18.0">
 
-Webconverger is git signed and tagged "18.0" with the highlights:
+Webconverger is git signed and tagged "18.0" with the following new features:
 
-* Provisioned the proprietary Google talk plugin, which will make us more applicable in Internet cafes
-* New fonts, you shouldn't see a missing Unicode glyph for your language, thanks to the newly integrated Droid font coverage
-* Arabic & Russian [[i18n]] support via the default [Alt+shift] key bind
+* Provisioned the proprietary Google talk plugin, which will make us more applicable in Internet cafes. With a Google account you can make voice and video calls!
+* New fonts, you shouldn't see a missing Unicode glyph for your language, thanks to the newly integrated [Droid font](http://en.wikipedia.org/wiki/Droid_fonts) coverage
+* Arabic & Russian [[i18n]] support via the default [Alt+shift] key bind, through the boot Languages menu
 * [Firefox 19](http://www.mozilla.org/en-US/firefox/19.0.2/releasenotes/)
 * `iptables=` API described in [[filtering]]
 * `showprintbutton` API described in [[printing]]
-* 3.8.2 Linux kernel
+* 3.8.2 Linux kernel with better hardware support
 
 To see the details from [[Webconveger 17|Webconverger_17.0_release]], you can clone our [curated chroot](https://github.com/Webconverger/webc/commits/master) and run `git log --oneline --decorate 17.0..18.0`.
 
