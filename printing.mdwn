@@ -1,7 +1,7 @@
 # [CTRL]+[p]
 
 Webconverger auto-detects CUPS <1.6 servers using "BrowsePoll" for CUPS
-Browsing for sharing and discover, which is deprecated in CUPS 1.6.
+Browsing for sharing and discovery, which is deprecated in CUPS 1.6.
 
 Holding down the [Control] and [p] keys on your keyboard gives you the printing
 dialog. Or you can use the `showprintbutton` [[API]] to show a print icon to
@@ -10,22 +10,43 @@ your users.
 If you do **not see your printer in that dialog** and you just see "Print to
 File", _your_ print server is **not correctly configured**.
 
-Coming soon: [the printer= API](https://github.com/Webconverger/webc/issues/145)
+In BETA: [the printer= API](https://github.com/Webconverger/webc/issues/145)
 
-# Using a network printer
+	printer=printer name,device URI,driver URI
+
+For example a Ricoh Aficio SP 4310N with [PPD](http://en.wikipedia.org/wiki/PostScript_Printer_Description) on IP 192.168.1.5 might be setup like so:
+
+	printer=lab1,http://192.168.1.5/printer,http://s.natalian.org/2013-03-18/Ricoh-Aficio_SP_4310N-Postscript-Ricoh.ppd
+
+Instead of specifying a remote [PPD](http://en.wikipedia.org/wiki/PostScript_Printer_Description), you could use the internal (generic) drivers [list](http://ix.io/4Mf).
+
+For example a network printer 192.168.1.10 named "helpdesk" with dns name
+printer is very likely to have "Laser printer" [PCL](http://en.wikipedia.org/wiki/Printer_Command_Language) support:
+
+	printer=helpdesk,socket://printer,drv:///sample.drv/generpcl.ppd
+
+However if your printer supports PostScript, you might find using the "Generic
+PostScript Printer" driver `drv:///sample.drv/generic.ppd` result in better
+quality prints.
+
+# Two typical printing configurations
+
+## Using a network printer
 
 Buy a printer with a **network port**. These printers are generally more
 expensive and _generally_ have IPP support built in. Some do not have an IPP
-print server built in so make sure you purchase it with a good exchange /
-refund policy.
+print server or are simply buggy. So make sure you purchase it with a good
+exchange / refund policy.
+
+<http://www.cups.org/documentation.php/network.html>
 
 Discovering the "device URI" can be alarmingly difficult. As a last resort,
-socket://$IP_ADDRESS should work.
+socket://$IP_ADDRESS might work.
 
-# Using a CUPS server with (attached) printer shared upon it
+## Using a CUPS server with (attached) printer shared upon it
 
 Buy any printer and attach it to a MacOSX / Ubuntu / Windows PC. Proceed to
-install drivers and most importantly an the [CUPS print server
+install drivers and most importantly the [CUPS print server
 software](http://cups.org/).  Then configure it to be shared upon the network.
 
 On a CUPS server, important elements to enable are:
@@ -35,7 +56,7 @@ On a CUPS server, important elements to enable are:
 
 These options basically set **Browsing On** and some Allow IP filters usually for your local network.
 
-# Debugging from Webconverger
+# Debugging
 
 Generally it's better to [[debug]] from the print server, not the client
 Webconverger.
