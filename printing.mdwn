@@ -16,7 +16,7 @@ In BETA: [the printer= API](https://github.com/Webconverger/webc/issues/145)
 
 For example a Ricoh Aficio SP 4310N with [PPD](http://en.wikipedia.org/wiki/PostScript_Printer_Description) on IP 192.168.1.5 might be setup like so:
 
-	printer=lab1,http://192.168.1.5/printer,http://s.natalian.org/2013-03-18/Ricoh-Aficio_SP_4310N-Postscript-Ricoh.ppd
+	printer=lab1,http://192.168.1.5/printer,http://ppd.webconverger.com/ricoh.ppd
 
 Instead of specifying a remote [PPD](http://en.wikipedia.org/wiki/PostScript_Printer_Description), you could use the internal (generic) drivers [list](http://ix.io/4Mf).
 
