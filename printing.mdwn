@@ -1,34 +1,32 @@
 # [CTRL]+[p]
 
-Webconverger only prints to auto-detected **networked printers** and **not
-locally connected** printers.
+Webconverger auto-detects CUPS <1.6 servers using "BrowsePoll" for CUPS
+Browsing for sharing and discover, which is deprecated in CUPS 1.6.
 
-Supported network printers shared through [CUPS](http://www.cups.org)
-[IPP](http://en.wikipedia.org/wiki/Internet_Printing_Protocol) protocol are
-automatically discovered and configured.
+Holding down the [Control] and [p] keys on your keyboard gives you the printing
+dialog. Or you can use the `showprintbutton` [[API]] to show a print icon to
+your users.
 
-Holding down the [Control] and [p] keys on your keyboard gives you the printing dialog.
+If you do **not see your printer in that dialog** and you just see "Print to
+File", _your_ print server is **not correctly configured**.
 
-If you do **not see your printer in that dialog** and you just see PostScript/default (or Print to File), _your_ print server is **not correctly configured**.
+Coming soon: [the printer= API](https://github.com/Webconverger/webc/issues/145)
 
-[Video of of printing working](http://video.google.co.uk/videoplay?docid=6606767171581818715)
-
-# Which printer hardware?
-
-We cannot advise on specific models, though for guidance you have two options; the easy way or the hard way.
-
-## Easy way
+# Using a network printer
 
 Buy a printer with a **network port**. These printers are generally more
 expensive and _generally_ have IPP support built in. Some do not have an IPP
 print server built in so make sure you purchase it with a good exchange /
 refund policy.
 
-## Hard way
+Discovering the "device URI" can be alarmingly difficult. As a last resort,
+socket://$IP_ADDRESS should work.
+
+# Using a CUPS server with (attached) printer shared upon it
 
 Buy any printer and attach it to a MacOSX / Ubuntu / Windows PC. Proceed to
-install drivers and most importantly an IPP print server software like CUPS.
-Then configure it to be shared upon the network.
+install drivers and most importantly an the [CUPS print server
+software](http://cups.org/).  Then configure it to be shared upon the network.
 
 On a CUPS server, important elements to enable are:
 
@@ -42,9 +40,6 @@ These options basically set **Browsing On** and some Allow IP filters usually fo
 Generally it's better to [[debug]] from the print server, not the client
 Webconverger.
 
-Go to [localhost:631](http://localhost:631/) and view the **Manage printers**
-tab to try and diagnose the network printer fault.
-
 <a href="http://www.flickr.com/photos/hendry/5150959996/" title="CUPs by Kai Hendry, on Flickr"><img src="http://farm5.static.flickr.com/4006/5150959996_675ce18439.jpg" width="500" height="375" alt="CUPs" /></a>
 
 `tail -f /var/log/cups/error_log`
@@ -53,7 +48,7 @@ If you see for an example: `cupsdAuthorize: No authentication data provided.`,
 that means you are restricting access. Here is an [example of printing server
 which permits everything](http://static.natalian.org/2009-06-07/cupsd.conf).
 
-# Printing to [PDF](http://en.wikipedia.org/wiki/PDF) on your network
+# Printing to a [PDF file](http://en.wikipedia.org/wiki/PDF) on your network
 
 <a href="http://www.flickr.com/photos/hendry/3605150186/" title="CUPS-PDF by Kai Hendry, on Flickr"><img src="http://farm4.static.flickr.com/3413/3605150186_3037f2b36f.jpg" width="500" height="375" alt="CUPS-PDF" /></a>
 
@@ -65,7 +60,3 @@ This is useful for debugging and allowing you to manually check what does and
 does not get printed.
 
 [PDF example of the Webconverger portal](http://static.natalian.org/2009-06-07/portal_webconverger.pdf)
-
-# Showing a print icon
-
-The [[API]] keyword "showprintbutton" adds a print button to the browser chrome in [this change](https://github.com/Webconverger/webc/commit/2b691b2f8854659eaa0f73731aa275f2e337523c).
