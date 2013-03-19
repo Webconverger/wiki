@@ -1,14 +1,22 @@
 # [CTRL]+[p]
 
 Webconverger auto-detects CUPS <1.6 servers using "BrowsePoll" for CUPS
-Browsing for sharing and discovery, which is deprecated in CUPS 1.6.
+Browsing for sharing and discovery, which is [removed in CUPS 1.6](http://cups.org/newsgroups.php?s25812+gcups.general+v25830+T0).
 
 Holding down the [Control] and [p] keys on your keyboard gives you the printing
 dialog. Or you can use the `showprintbutton` [[API]] to show a print icon to
 your users.
 
+[Mozilla Firefox printing guidelines.](https://support.mozilla.org/en-US/kb/how-print-websites)
+
 If you do **not see your printer in that dialog** and you just see "Print to
-File", _your_ print server is **not correctly configured**.
+File", _your_ print server is **not correctly configured**. <https://github.com/Webconverger/webc/issues/135>
+
+So unfortunately [the user experience of just using detected printers is not
+supported in
+CUPS](http://cups.org/newsgroups.php?s25831+gcups.general+v25832+T1). You now
+need to "Add printer..." up front, and hence we have introduced the `printer=`
+API.
 
 In BETA: [the printer= API](https://github.com/Webconverger/webc/issues/145)
 
@@ -35,13 +43,14 @@ quality prints.
 
 Buy a printer with a **network port**. These printers are generally more
 expensive and _generally_ have IPP support built in. Some do not have an IPP
-print server or are simply buggy. So make sure you purchase it with a good
-exchange / refund policy.
+print server or [are simply
+buggy](http://cups.org/newsgroups.php?s25812+gcups.general+v25827+T1). So make
+sure you purchase it with a good exchange / refund policy.
 
 <http://www.cups.org/documentation.php/network.html>
 
 Discovering the "device URI" can be alarmingly difficult. As a last resort,
-socket://$IP_ADDRESS might work.
+socket://$PRINTER_IP_ADDRESS will probably work.
 
 ## Using a CUPS server with (attached) printer shared upon it
 
@@ -55,6 +64,13 @@ On a CUPS server, important elements to enable are:
 * Share published printers connect to this system
 
 These options basically set **Browsing On** and some Allow IP filters usually for your local network.
+
+If you are using a [CUPS 1.6 printer
+server](http://s.natalian.org/2013-03-19/cupsd.conf), you can workaround the
+lack of Browse polling by configuring your clients with a
+`/etc/cups/client.conf` with a: 
+
+	Servername Your_CUPS_server_IP
 
 # Debugging
 
