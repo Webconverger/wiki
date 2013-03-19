@@ -10,9 +10,9 @@ your users.
 [Mozilla Firefox printing guidelines.](https://support.mozilla.org/en-US/kb/how-print-websites)
 
 If you do **not see your printer in that dialog** and you just see "Print to
-File", _your_ print server is **not correctly configured**. <https://github.com/Webconverger/webc/issues/135>
+File", _your_ print server is **not correctly configured**. [Sorry about the Print to File, we know it is mis-leading and we are trying to remove it](https://github.com/Webconverger/webc/issues/135).
 
-So unfortunately [the user experience of just using detected printers is not
+So unfortunately [the user experience of just using detected printers is no longer
 supported in
 CUPS](http://cups.org/newsgroups.php?s25831+gcups.general+v25832+T1). You now
 need to "Add printer..." up front, and hence we have introduced the `printer=`
@@ -26,10 +26,11 @@ For example a Ricoh Aficio SP 4310N with [PPD](http://en.wikipedia.org/wiki/Post
 
 	printer=lab1,http://192.168.1.5/printer,http://ppd.webconverger.com/ricoh.ppd
 
-Instead of specifying a remote [PPD](http://en.wikipedia.org/wiki/PostScript_Printer_Description), you could use the internal (generic) drivers [list](http://ix.io/4Mf).
+Instead of specifying a remote [PPD](http://en.wikipedia.org/wiki/PostScript_Printer_Description), you could use the internal (generic) drivers `lpinfo -m` [list](http://ix.io/4Mf).
 
 For example a network printer 192.168.1.10 named "helpdesk" with dns name
-printer is very likely to have "Laser printer" [PCL](http://en.wikipedia.org/wiki/Printer_Command_Language) support:
+printer is very likely to have "Laser printer"
+[PCL](http://en.wikipedia.org/wiki/Printer_Command_Language) support:
 
 	printer=helpdesk,socket://printer,drv:///sample.drv/generpcl.ppd
 
@@ -54,7 +55,7 @@ socket://$PRINTER_IP_ADDRESS will probably work.
 
 ## Using a CUPS server with (attached) printer shared upon it
 
-Buy any printer and attach it to a MacOSX / Ubuntu / Windows PC. Proceed to
+Buy a printer and attach it to a MacOSX / Ubuntu / Windows PC. Proceed to
 install drivers and most importantly the [CUPS print server
 software](http://cups.org/).  Then configure it to be shared upon the network.
 
@@ -85,7 +86,7 @@ If you see for an example: `cupsdAuthorize: No authentication data provided.`,
 that means you are restricting access. Here is an [example of printing server
 which permits everything](http://static.natalian.org/2009-06-07/cupsd.conf).
 
-# Printing to a [PDF file](http://en.wikipedia.org/wiki/PDF) on your network
+# Printing to a [PDF file](http://en.wikipedia.org/wiki/PDF) to a remote machine on your network
 
 <a href="http://www.flickr.com/photos/hendry/3605150186/" title="CUPS-PDF by Kai Hendry, on Flickr"><img src="http://farm4.static.flickr.com/3413/3605150186_3037f2b36f.jpg" width="500" height="375" alt="CUPS-PDF" /></a>
 
@@ -95,5 +96,3 @@ material sent to it. Hence you do not require a printer!
 
 This is useful for debugging and allowing you to manually check what does and
 does not get printed.
-
-[PDF example of the Webconverger portal](http://static.natalian.org/2009-06-07/portal_webconverger.pdf)
