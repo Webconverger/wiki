@@ -41,12 +41,12 @@ uglier by replacing spaces with `%20`.
 
 To realise the above use case a crontab entry would look like:
 
-	00 18 * * * root halt
+	00 18 * * * root poweroff
 
-At 6PM, as the "super user" root user, halt the machine. i.e. power down.
+At 6PM, as the "super user" root user, the machine will power off.
 
 To pass this as a configuration to Webconverger, it needs to be `encodeURI` on [[boot]] like so:
 
-	cron=00%2018%20*%20*%20*%20root%20halt
+	cron=00%2018%20*%20*%20*%20root%20poweroff
 
 Hint for developers: The script [live-config](https://github.com/Webconverger/webc/blob/master/etc/webc/live-config.sh) writes out the cronjob.
