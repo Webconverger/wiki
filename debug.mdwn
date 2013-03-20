@@ -13,6 +13,10 @@ of the [dwm](http://dwm.suckless.org/tutorial) window manager.
 
 	chrome=debug
 
+# Setting root password
+
+<http://r2d2.webconverger.org/2013-03-15/setting-root-password-guide.html>
+
 # Remote logging
 
 Use the `log=` [[API]] and grab an account with [Papertrail](https://papertrailapp.com/?thank=97e900) for a nice Web interface
