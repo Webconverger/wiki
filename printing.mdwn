@@ -1,7 +1,9 @@
 # [CTRL]+[p]
 
-Webconverger auto-detects CUPS <1.6 servers using "BrowsePoll" for CUPS
-Browsing for sharing and discovery, which is [removed in CUPS 1.6](http://cups.org/newsgroups.php?s25812+gcups.general+v25830+T0).
+Webconverger utilises CUPS 1.5 which auto-detects CUPS <1.6 servers using
+"BrowsePoll" for CUPS Browsing for sharing and discovery. This "auto setup"
+feature is [removed in CUPS
+1.6](http://cups.org/newsgroups.php?s25812+gcups.general+v25830+T0).
 
 Holding down the [Control] and [p] keys on your keyboard gives you the printing
 dialog. Or you can use the `showprintbutton` [[API]] to show a print icon to
@@ -12,11 +14,11 @@ your users.
 If you do **not see your printer in that dialog** and you just see "Print to
 File", _your_ print server is **not correctly configured**. [Sorry about the Print to File, we know it is mis-leading and we are trying to remove it](https://github.com/Webconverger/webc/issues/135).
 
-So unfortunately [the user experience of just using detected printers is no longer
+So unfortunately [the user experience of just using detected "auto setup" printers is no longer
 supported in
 CUPS](http://cups.org/newsgroups.php?s25831+gcups.general+v25832+T1). You now
 need to "Add printer..." up front, and hence we have introduced the `printer=`
-API.
+API for you to do this.
 
 In BETA: [the printer= API](https://github.com/Webconverger/webc/issues/145)
 
@@ -57,7 +59,8 @@ socket://$PRINTER_IP_ADDRESS will probably work.
 
 Buy a printer and attach it to a MacOSX / Ubuntu / Windows PC. Proceed to
 install drivers and most importantly the [CUPS print server
-software](http://cups.org/).  Then configure it to be shared upon the network.
+software](http://cups.org/).  Then configure the CUPS server to be shared upon
+the network.
 
 On a CUPS server, important elements to enable are:
 
@@ -94,5 +97,5 @@ The [cups-pdf](http://packages.qa.debian.org/c/cups-pdf.html) package allows
 you to setup a server on your network that basically dumps PDFs of printing
 material sent to it. Hence you do not require a printer!
 
-This is useful for debugging and allowing you to manually check what does and
-does not get printed.
+This is useful for archiving, debugging and allowing you to manually check what
+does and does not get printed.
