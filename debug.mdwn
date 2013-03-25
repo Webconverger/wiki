@@ -54,6 +54,15 @@ You probably don't want this behaviour if you are testing a change, so append `n
 
 Useful for calculating rough sizes of upgrades.
 
+# Debugging shell scripts
+
+Putting at the top of your script
+
+	exec >/tmp/${0}$$.log 2>&1
+	set -x
+
+Creates a complete log file in /tmp
+
 # Taking a screenshot
 
 Boot with `debug` in cmdline and as root `sudo -i`.
