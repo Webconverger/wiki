@@ -22,6 +22,8 @@ configured machine for development, hosted in Singapore.
 
 * 30USD a month
 * [Control panel](https://dtc.node6503.gplhost.com/dtc/)
+* <http://ppd.webconverger.com/> hosting
+* [Nagios](https://github.com/Webconverger/nagios)
 
 # webconverger.com
 
@@ -34,6 +36,9 @@ in California - 120USD (~75GBP) a year responsible for archives and serving
 Our VPS name is **webc** (85.119.83.83), which is hosted by
 [Bitfolk](http://bitfolk.com) based in London, England - ~200GBP year
 
+* <http://uk.webconverger.com/>
+* [Nagios](https://github.com/Webconverger/nagios)
+
 # webconverger.org
 
 <http://webconverger.org> is expertly curated by <http://www.branchable.com>
@@ -43,4 +48,4 @@ for the public wiki.
 
 # [Webconverger Github](https://github.com/Webconverger)
 
-On a bronze package at 25USD a month
+On a bronze package at 25USD a month.
