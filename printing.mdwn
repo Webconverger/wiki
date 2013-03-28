@@ -117,7 +117,7 @@ does and does not get printed.
 
 Assuming you have a [permissive configured
 CUPS](http://s.natalian.org/2013-03-19/cupsd.conf) with cups-pdf installed, you
-need to figure the IP address or name of your print server, that can be
+need to figure the IP address or name (e.g. 192.168.0.1) of your print server, that can be
 accessed by your clients. To find the device URI of your CUPS printer, it's the
 "Queue Name" URL in the Administration Tab &rarr; Manage Printers, see the
 [highlighted device URI screenshot](/img/highlighted-printer-device-uri.png).
