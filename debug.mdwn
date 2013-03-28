@@ -78,6 +78,20 @@ From there you can use <http://imgur.com/> to upload the PNG file and get the UR
 
 You can edit things and restart X by running `pkill X` as root.
 
+# Debugging configuration caching
+
+Assuming you have a configuration like so <http://dabase.com/blog/Sharing_an_Internet_connection_in_Archlinux/>
+
+Setup Virtualbox with the Bridged Adaptor **eth0**.
+
+To disable access to the configuration server:
+
+	iptables -I FORWARD 1 -d config.webconverger.com -j REJECT
+
+To clear the above rule:
+
+	iptables -F FORWARD
+
 # Any other ideas how to make debugging easier?
 
 Please contribute !

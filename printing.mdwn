@@ -109,8 +109,23 @@ Assuming you are running a Virtualbox instance, sharing a bridged adaptor. On th
 <a href="http://www.flickr.com/photos/hendry/3605150186/" title="CUPS-PDF by Kai Hendry, on Flickr"><img src="http://farm4.static.flickr.com/3413/3605150186_3037f2b36f.jpg" width="500" height="375" alt="CUPS-PDF" /></a>
 
 The [cups-pdf](http://packages.qa.debian.org/c/cups-pdf.html) package allows
-you to setup a server on your network that basically dumps PDFs of printing
-material sent to it. Hence you do not require a printer!
+you to setup a "Virtual Print" server on your network that write out PDFs on
+your server's spool directory.
 
 This is useful for archiving, debugging and allowing you to manually check what
 does and does not get printed.
+
+Assuming you have a [permissive configured
+CUPS](http://s.natalian.org/2013-03-19/cupsd.conf) with cups-pdf installed, you
+need to figure the IP address or name of your print server, that can be
+accessed by your clients. To find the device URI of your CUPS printer, it's the
+"Queue Name" URL in the Administration Tab &rarr; Manage Printers, see the
+[[screenshot|/img/highlighted-printer-device-uri.png]].
+
+Once you know the printer's device URI, you then setup your Webconverger
+clients like so:
+
+	printer=PDF,http://192.168.0.1:631/printers/Virtual_PDF_Printer,drv:///sample.drv/generic.ppd
+
+On the print server, you should be able to see "Send-Document successful-ok"
+whilst examing the log like so `tail -f /var/log/cups/access_log`.
