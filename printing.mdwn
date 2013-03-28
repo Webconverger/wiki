@@ -69,19 +69,8 @@ install drivers and most importantly the [CUPS print server
 software](http://cups.org/).  Then configure the CUPS server to be shared upon
 the network.
 
-On a CUPS server, important elements to enable are:
-
-* Show printers share by other systems
-* Share published printers connect to this system
-
-These options basically set **Browsing On** and some Allow IP filters usually for your local network.
-
-If you are using a [CUPS 1.6 printer
-server](http://s.natalian.org/2013-03-19/cupsd.conf), you can workaround the
-lack of Browse polling by configuring your clients with a
-`/etc/cups/client.conf` with a:
-
-	Servername Your_CUPS_server_IP
+Add your printer to the client using the printer= API, using the an
+[appropriate device URI](/img/highlighted-printer-device-uri.png).
 
 # prefs= API to remove default header and footer
 
