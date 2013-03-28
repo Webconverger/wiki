@@ -44,6 +44,9 @@ However if your printer supports PostScript, you might find using the "Generic
 PostScript Printer" driver `drv:///sample.drv/generic.ppd` result in better
 quality prints.
 
+You can have multiple `printer=` lines and hence give your users several
+printers to print to.
+
 # Two typical printing configurations
 
 ## Using a network printer
