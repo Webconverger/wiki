@@ -9,10 +9,12 @@ Holding down the [Control] and [p] keys on your keyboard gives you the printing
 dialog. Or you can use the `showprintbutton` [[API]] to show a print icon to
 your users.
 
-[Mozilla Firefox printing guidelines.](https://support.mozilla.org/en-US/kb/how-print-websites)
+[Mozilla Firefox printing
+guidelines](https://support.mozilla.org/en-US/kb/how-print-websites) can help
+you improve prints.
 
 If you do **not see your printer in that dialog** and you just see "Print to
-File", _your_ print server is **not correctly configured**. [Sorry about the Print to File, we know it is mis-leading and we are trying to remove it](https://github.com/Webconverger/webc/issues/135).
+File", _your_ print server is **not correctly configured**. [Sorry about the 'Print to File', we know it is mis-leading and we are trying to remove it](https://github.com/Webconverger/webc/issues/135).
 
 So unfortunately [the user experience of just using detected "auto setup" printers is no longer
 supported in
@@ -20,7 +22,9 @@ CUPS](http://cups.org/newsgroups.php?s25831+gcups.general+v25832+T1). You now
 need to "Add printer..." up front, and hence we have introduced the `printer=`
 API for you to do this.
 
-In BETA: [the printer= API](https://github.com/Webconverger/webc/issues/145)
+# printer= API
+
+[the printer= API](https://github.com/Webconverger/webc/issues/145) has syntax like so:
 
 	printer=printer name,device URI,driver URI
 
@@ -52,7 +56,7 @@ sure you purchase it with a good exchange / refund policy.
 
 <http://www.cups.org/documentation.php/network.html>
 
-Discovering the "device URI" can be alarmingly difficult. As a last resort,
+Discovering the "device URI" can be alarmingly difficult. Usually
 socket://$PRINTER_IP_ADDRESS will probably work.
 
 ## Using a CUPS server with (attached) printer shared upon it
@@ -86,27 +90,14 @@ A pref such as:
 
 	pref("pdfjs.disabled", true);
 
-Disables the default pdfjs PDF viewer.
+Disables the default [Mozilla PDF](https://mozillalabs.com/en-US/pdfjs/) viewer, which should default to epdfview viewer. PDFJS has issues like:
 
-# Debugging
-
-<https://fedoraproject.org/wiki/How_to_debug_printing_problems>
-
-<a href="http://www.flickr.com/photos/hendry/5150959996/" title="CUPs by Kai Hendry, on Flickr"><img src="http://farm5.static.flickr.com/4006/5150959996_675ce18439.jpg" width="500" height="375" alt="CUPs" /></a>
-
-If you see for an example: `cupsdAuthorize: No authentication data provided.`,
-that means you are restricting access. Here is an [example of printing server
-which permits everything](http://static.natalian.org/2009-06-07/cupsd.conf).
-
-Assuming you are running a Virtualbox instance, sharing a bridged adaptor. On the host 192.168.1.3 with the Virtualbox on 192.168.1.136:
-
-	sudo tcpdump -w /tmp/foo.pcap -s 0 -n -i wlan0 dst 192.168.1.136 and not port 53
-
-	wireshark -r /tmp/foo.pcap
+* <https://bugzilla.mozilla.org/show_bug.cgi?id=811002>
+* <https://bugzilla.mozilla.org/show_bug.cgi?id=844090> also see [#146](https://github.com/Webconverger/webc/issues/146)
 
 # Printing to a [PDF file](http://en.wikipedia.org/wiki/PDF) to a remote machine on your network
 
-<a href="http://www.flickr.com/photos/hendry/3605150186/" title="CUPS-PDF by Kai Hendry, on Flickr"><img src="http://farm4.static.flickr.com/3413/3605150186_3037f2b36f.jpg" width="500" height="375" alt="CUPS-PDF" /></a>
+<a href="http://www.flickr.com/photos/hendry/8596195071/" title="2013-03-28_12.44.21 by Kai Hendry, on Flickr"><img src="http://farm9.staticflickr.com/8226/8596195071_bfea8255c9_z.jpg" width="640" height="480" alt="2013-03-28_12.44.21"></a>
 
 The [cups-pdf](http://packages.qa.debian.org/c/cups-pdf.html) package allows
 you to setup a "Virtual Print" server on your network that write out PDFs on
@@ -115,8 +106,8 @@ your server's spool directory.
 This is useful for archiving, debugging and allowing you to manually check what
 does and does not get printed.
 
-Assuming you have a [permissive configured
-CUPS](http://s.natalian.org/2013-03-19/cupsd.conf) with cups-pdf installed, you
+Assuming you have a [permissively configured
+CUPS](http://s.natalian.org/2013-03-19/cupsd.conf) server (not Webconverger, an Ubuntu install for example) with cups-pdf installed, you
 need to figure the IP address or name (e.g. 192.168.0.1) of your print server, that can be
 accessed by your clients. To find the device URI of your CUPS printer, it's the
 "Queue Name" URL in the Administration Tab &rarr; Manage Printers, see the
@@ -128,4 +119,13 @@ clients like so:
 	printer=PDF,http://192.168.0.1:631/printers/Virtual_PDF_Printer,drv:///sample.drv/generic.ppd
 
 On the print server, you should be able to see "Send-Document successful-ok"
-whilst examing the log like so `tail -f /var/log/cups/access_log`.
+whilst viewing the log like so `tail -f /var/log/cups/access_log`.
+
+# Advanced debugging
+
+<https://fedoraproject.org/wiki/How_to_debug_printing_problems>
+
+Assuming you are running a Virtualbox instance, sharing a bridged adaptor. On the host 192.168.1.3 with the Virtualbox on 192.168.1.136:
+
+	sudo tcpdump -w /tmp/foo.pcap -s 0 -n -i wlan0 dst 192.168.1.136 and not port 53
+	wireshark -r /tmp/foo.pcap
