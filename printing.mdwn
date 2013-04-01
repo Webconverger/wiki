@@ -13,8 +13,8 @@ your users.
 guidelines](https://support.mozilla.org/en-US/kb/how-print-websites) can help
 you improve prints.
 
-If you do **not see your printer in that dialog** and you just see "Print to
-File", _your_ print server is **not correctly configured**. [Sorry about the 'Print to File', we know it is mis-leading and we are trying to remove it](https://github.com/Webconverger/webc/issues/135).
+If you do **not see your printer in that dialog** or you just see "Print to
+File", _your_ print server is **not correctly configured**.
 
 So unfortunately [the user experience of just using detected "auto setup" printers is no longer
 supported in
