@@ -1,0 +1,41 @@
+[[!meta title="Webconverger service level"]]
+
+Email: support@webconverger.com
+
+Customers will must register with us at least one contact with us for
+whitelisting.
+
+Our current support hours are 9-5 (+8) and we endeavour to respond to your
+request within four working hours. For example an email sent to us at 1PM
+NZDT(+12) would reach us at 9AM (+8), and we would respond at the latest by 5PM
+NZDT(+12). An email sent to us at 9AM NZDT(+12), would be received at 5AM (+8),
+and would have a response by 5PM NZDT(+12).
+
+# Deployment support
+
+Please verify you can reach <http://config.webconverger.com> which is the configuration server your Webconverger will pull its configuration from. An installed webconverger will cache its configuration, so once deployed, it will not need further access to config.webconverger.com. However if you change the configuration, your Webconverger will need to access <http://config.webconverger.com> in order to receive the new configuration.
+
+Typical steps to rectify problems. If a step fails to fix the problem, them move to the next.
+
+1. Reboot the machine
+2. Re-install the machine with the [Latest update](http://build.webconverger.org/latest.iso)
+3. If that fails, try the older [release](http://dl.webconverger.com/latest.iso), since you might be suffering with a regression
+4. Log machine identity and try to reproduce the problem. Our bug tracking is transparent (we don't name customers) and is here https://github.com/Webconverger/webc/issues
+5. Email support@webconverger.com with the machine identity and problem description
+
+To provide us extra debugging information, we also ask you to please append the
+keyword "support" to your configuration and reboot the machine.
+http://support.webconverger.com/[MACHINE_ID]
+
+# Long term support
+
+Once a Webconverger is setup and working the two classes of issue you will eventually see are:
+
+1. Hardware fault - you need to replace the hardware
+2. Update regression - we can roll you back to an earlier version or help you resolve any issue
+
+Hardware faults are likely to be straightforward to identify if you are using the same hardware across your deployment. In this case replacing the hardware (with ideally exactly the same hardware) and re-installing Webconverger is the solution.
+
+Since Webconverger installs will by default update to the latest version with the latest browser, it is possible you might see a regression. For example the Web browser's page layout behaviour might change, since a new browser update might remove or change some feature. This is very rare and we actively support legacy applications by having a policy of avoiding any changes to the default browsing experience, so you can expect to have a consistent conservative Webconverger experience.
+
+If browser updates become a problem, one option is to use the [Update API](http://webconverger.org/upgrade/) to pin your Webconverger to a previous release which has been established to work reliably with your deployment hardware and websites.
