@@ -21,11 +21,11 @@ of the [dwm](http://dwm.suckless.org/tutorial) window manager.
 
 Use the `log=` [[API]] and grab an account with [Papertrail](https://papertrailapp.com/?thank=97e900) for a nice Web interface
 
-# Breaking install boot
+# Debugging an installed version of Webconverger
 
 Hold Alt or Shift keys on the install boot to get `boot:` prompt
 
-Also see: <https://github.com/Webconverger/webc/issues/107>
+This will not work if `noescape` is being used beforehand.
 
 # Doing compiles
 
@@ -95,3 +95,7 @@ To clear the above rule:
 # Any other ideas how to make debugging easier?
 
 Please contribute !
+
+# Debug systemd
+
+	systemd.confirm_spawn=1
