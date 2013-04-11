@@ -10,7 +10,7 @@ Webconverger 19 brings you in terms of effort put in:
 * [Firefox 20](http://www.mozilla.org/en-US/firefox/20.0/releasenotes/) updates and Flash security updates
 * Tweaks to our Firefox kiosk extension (version 45)
 
-## Printing properly supported
+## Printing properly provisioned
 
 Thanks to a government client, who needs to print off Ricoh printers, we have
 greatly improved our [[printing]] offering.
@@ -23,7 +23,7 @@ I would like to thanks Wiemin Zhang and Sam Hon for hosting me there. I look
 forward to working together to improve printing support for enterprise
 deployments of Webconverger.
 
-## Printing to PDF file server possible
+## Printing to a PDF file server possible
 
 If you are need to archive Webpages to PDF (for evidence for example), our
 [[printing]] page has a tutorial telling you how to setup a "cups-pdf" service.
@@ -37,7 +37,7 @@ Here is a [sample PDF](/img/printing.pdf), printed using Firefox 20 and a
 CUPS-PDF version 2.6.1 service.
 
 For all the details `git log --oneline --decorate 18.0..19.1` on our unique
-[[upgradable|upgrade]] [git maintained
+[[upgrading|upgrade]] [git maintained
 chroot](https://github.com/Webconverger/webc).
 
 	md5sum: 4b0072e39bae8f9b1fe213509ac04367  webc-19.1.iso
