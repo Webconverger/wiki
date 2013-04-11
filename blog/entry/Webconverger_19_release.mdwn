@@ -25,8 +25,9 @@ deployments of Webconverger.
 
 ## Printing to a PDF file server possible
 
-If you are need to archive Webpages to PDF (for evidence for example), our
-[[printing]] page has a tutorial telling you how to setup a "cups-pdf" service.
+If you need to archive Webpages to PDF (for evidence for example), our
+[[printing]] page has a tutorial describing how to setup a "cups-pdf" service
+on a seperate (non-Webconverger) Linux machine.
 
 This mechanism could also be used to review a PDF before printing it. So a
 Internet cafe user could print to PDF to an administrator's machine and then
