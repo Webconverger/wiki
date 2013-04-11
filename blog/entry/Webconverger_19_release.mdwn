@@ -1,0 +1,41 @@
+<img src="/img/ricoh-printing.jpg" alt="Webconverger printing with Ricoh printers">
+
+Webconverger 19 brings you in terms of effort put in:
+
+* [[Printing]] support completely **overhauled** with a new `printer=` API
+* Restored nvidia WebGL acceleration using driver version 313.30
+* New `support` API which allows customers to send us their complete (non-browsing) logs for study to http://support.webconverger.com/[MACHINE_IDENTITY]
+* Raft of package upgrades
+* New `prefs=` API, to override Firefox preferences, typically used for omitting print headers
+* [Firefox 20](http://www.mozilla.org/en-US/firefox/20.0/releasenotes/) updates and Flash security updates
+* Tweaks to our Firefox kiosk extension (version 45)
+
+## Printing properly supported
+
+Thanks to a government client, who needs to print off Ricoh printers, we have
+greatly improved our [[printing]] offering.
+
+[Ricoh Singapore](http://www.ricoh.sg/contact.aspx) kindly helped us improve
+support by giving us access to their smart "Printer Innovation Center", where
+we tested several of their printers with Webconverger successfully.
+
+I would like to thanks Wiemin Zhang and Sam Hon for hosting me there. I look
+forward to working together to improve printing support for enterprise
+deployments of Webconverger.
+
+## Printing to PDF file server possible
+
+If you are need to archive Webpages to PDF (for evidence for example), our
+[[printing]] page has a tutorial telling you how to setup a "cups-pdf" service.
+
+This mechanism could also be used to review a PDF before printing it. So a
+Internet cafe user could print to PDF to a Administrator's service and then
+proceed to pay the administrator before printing it out. It also allows you to
+accurately preview a Web page as a PDF.
+
+Here is a [sample PDF](/img/printing.pdf).
+
+For all the details `git log --oneline --decorate 18.0..19.1`.
+
+	md5sum: 4b0072e39bae8f9b1fe213509ac04367  webc-19.1.iso
+	sha1sum: d7973471923f691034b355e9be0af610fb9c3147  webc-19.1.iso
