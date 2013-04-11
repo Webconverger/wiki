@@ -36,7 +36,9 @@ you to accurately preview a the PDF before printing it.
 Here is a [sample PDF](/img/printing.pdf), printed using Firefox 20 and a
 CUPS-PDF version 2.6.1 service.
 
-For all the details `git log --oneline --decorate 18.0..19.1`.
+For all the details `git log --oneline --decorate 18.0..19.1` on our unique
+[[upgradable|upgrade]] [git maintained
+chroot](https://github.com/Webconverger/webc).
 
 	md5sum: 4b0072e39bae8f9b1fe213509ac04367  webc-19.1.iso
 	sha1sum: d7973471923f691034b355e9be0af610fb9c3147  webc-19.1.iso
