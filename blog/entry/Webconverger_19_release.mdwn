@@ -42,3 +42,6 @@ chroot](https://github.com/Webconverger/webc).
 
 	md5sum: 4b0072e39bae8f9b1fe213509ac04367  webc-19.1.iso
 	sha1sum: d7973471923f691034b355e9be0af610fb9c3147  webc-19.1.iso
+
+Download now from <http://www.webconverger.com/> and enjoy the very best PC
+kiosk experience.
