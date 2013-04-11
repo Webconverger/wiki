@@ -12,8 +12,9 @@ Webconverger 19 brings you in terms of effort put in:
 
 ## Printing properly provisioned
 
-Thanks to a government client, who needs to print off Ricoh printers, we have
-greatly improved our [[printing]] offering.
+Thanks to a government client, who needs to print off
+[Ricoh](http://en.wikipedia.org/wiki/Ricoh) printers, we have greatly improved
+our [[printing]] offering.
 
 [Ricoh Singapore](http://www.ricoh.sg/contact.aspx) kindly helped us improve
 support by giving us access to their smart "Printer Innovation Center", where
