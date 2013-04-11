@@ -20,7 +20,7 @@ our [[printing]] offering.
 support by giving us access to their smart "Printer Innovation Center", where
 we tested several of their printers with Webconverger successfully.
 
-I would like to thanks Wiemin Zhang and Sam Hon for hosting me there. I look
+I would like to thank Wiemin Zhang and Sam Hon for hosting me there. I look
 forward to working together to improve printing support for enterprise
 deployments of Webconverger.
 
@@ -28,12 +28,12 @@ deployments of Webconverger.
 
 If you need to archive Webpages to PDF (for evidence for example), our
 [[printing]] page has a tutorial describing how to setup a "cups-pdf" service
-on a seperate (non-Webconverger) Linux machine.
+on a separate (non-Webconverger) Linux machine.
 
 This mechanism could also be used to review a PDF before printing it. So a
 Internet cafe user could print to PDF to an administrator's machine and then
 proceed to pay the administrator before printing it out. This workflow allows
-you to accurately preview a the PDF before printing it.
+you to accurately preview the PDF before printing it.
 
 Here is a [sample PDF](/img/printing.pdf), printed using Firefox 20 and a
 CUPS-PDF version 2.6.1 service.
