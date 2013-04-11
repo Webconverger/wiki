@@ -46,7 +46,7 @@ chroot](https://github.com/Webconverger/webc).
 	sha1sum: d7973471923f691034b355e9be0af610fb9c3147  webc-19.1.iso
 
 Download now from <http://www.webconverger.com/> and enjoy the very best PC
-kiosk experience. We are proudly opensouce and there is no [vendor
+kiosk experience. We are proudly opensource and there is no [vendor
 lockin](http://en.wikipedia.org/wiki/Vendor_lock-in) like our competitors.
 Please consider [purchasing a
 subscription](http://www.webconverger.com/pricing/) to support us and enjoy our [[friendly_service|sla]].
