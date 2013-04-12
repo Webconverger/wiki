@@ -138,7 +138,9 @@ Please refer to [[networking]]
 
 ### Locking down boot
 
-Use `noescape`, which disallows [[debugging|debug]] of installed Webconverger
+Use `noescape`, which disallows [[debugging|debug]] of installed Webconverger.
+However it only kicks in after the boot configuration is rewritten after a
+successful upgrade.
 
 ### Hiding and showing the cursor
 
@@ -176,7 +178,9 @@ Sign up for an account with [Papertrail](https://papertrailapp.com/?thank=97e900
 
 	log=logs.papertrailapp.com:XXXXX
 
-Replace XXXXX with the port number assocaited with your account.
+Replace XXXXX with the port number associated with your account.
+
+Alternatively, you can use the `support` command to send us your logs to the <http://support.webconverger.com/> service.
 
 ### Wireless configuration
 
