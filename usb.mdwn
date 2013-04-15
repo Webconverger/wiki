@@ -5,6 +5,7 @@ Why USB stick boot?
 * Just as fast as a hard drive in many cases
 * Does not touch any existing disks on your computer when it Live boots so it's great for trialling. Remove thumb drive and the machine is back to how it was before
 * USB boot works generally works with computers made since 2004
+* Advanced: You can actually install from a USB stick, to another USB stick, so that it's read/write formatted and [has the ability to upgrade from 17.0](http://webconverger.org/blog/entry/Webconverger_17.0_release/)
 
 Any generic USB stick greater than 0.5G should be fine.  Alternatively you can
 order a preloaded [Webconverger stick at
@@ -16,26 +17,30 @@ OSDisc](http://www.osdisc.com/cgi-bin/view.cgi/products/linux/webconverger).
 
 1. Download the latest official Webconverger from
 <http://dl.webconverger.com/latest.iso> The download file will be renamed to
-the latest ISO, at the time of writing webc-13.0.iso.
+the latest ISO, webc-VERSION.iso
 2. Download Disk Imager from
-<https://launchpad.net/win32-image-writer/+download> (download binary version,
-not source version) It should download as a zip file. Extract all files to
+<http://sourceforge.net/projects/win32diskimager/files/latest/download>
+3. It should download as a zip file. Extract all files to
 desired location
-3. Insert your USB stick
-4. Note the drive letter assigned to your USB stick
-5. Start Disk Imager (from your folder of extracted files)
-6. Select the downloaded file (webc-13.0.iso) and target device, and click
+4. Insert your USB stick
+5. Note the drive letter assigned to your USB stick
+6. Start Disk Imager (from your folder of extracted files)
+7. Select the downloaded file webc-VERSION.iso and target device, and click
 "Write" (Note: this will wipe all information you have on the selected device.
 So be very careful to note the correct drive letter assigned to your USB stick
 at step.4)
-7. Remove your USB stick when the operation is complete
+8. Remove your USB stick when the operation is complete
+
+If you re-insert the USB key once specially formatted with Webconverger,
+Windows may ask if it should format the USB stick. Ignore this, it's because
+Windows doesn't understand the filesystem now on your USB stick.
 
 ## How to replace the contents of a USB stick with the Webconverger ISO-hybrid downloaded file using Linux
 
 `dmesg` or `fdisk -l` will list your inserted USB drive - usually /dev/sdx ("x"
 representing letter like sdb, sdc etc.).
 
-	sudo dd if=webc-13.0.iso of=/dev/sdx
+	sudo dd if=webc-VERSION.iso of=/dev/sdx
 
 You might find specifying the additional argument `bs=1M` makes it faster.
 
@@ -52,7 +57,7 @@ exercising your consumer choice, however this isn't straightforward as
 practically every software preloaded into a PC (the BIOS) is
 different!
 
-There are different keys of entering the BIOS boot menu depending on the BIOS,
+There are different keys of entering the BIOS **boot menu** depending on the BIOS,
 it could be [Del], [Esc], [F2], [F8] or [F12] key. The BIOS usually flashes
 which key to press on your keyboard that allows you to access the BIOS setup
 for the briefest of moments as you turn your PC computer on.
