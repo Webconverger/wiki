@@ -20,13 +20,12 @@ OSDisc](http://www.osdisc.com/cgi-bin/view.cgi/products/linux/webconverger).
 the latest ISO, webc-VERSION.iso
 2. Download Disk Imager from
 <http://sourceforge.net/projects/win32diskimager/files/latest/download>
-3. It should download as a zip file. Extract all files to
-desired location
+3. The 'win32diskimager' binary should download as a zip file. Extract all files to a folder on the Desktop
 4. Insert your USB stick
 5. Note the drive letter assigned to your USB stick
-6. Start Disk Imager (from your folder of extracted files)
-7. Select the downloaded file webc-VERSION.iso and target device, and click
-"Write" (Note: this will wipe all information you have on the selected device.
+6. Start Disk Imager from your folder of extracted files on the Desktop
+7. Select the downloaded file webc-VERSION.iso (you need to change the file filter to *.*) and target device, and click
+"Write" (Note: this will wipe all information you have on the selected USB stick.
 So be very careful to note the correct drive letter assigned to your USB stick
 at step.4)
 8. Remove your USB stick when the operation is complete
