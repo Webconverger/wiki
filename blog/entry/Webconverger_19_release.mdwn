@@ -3,7 +3,7 @@
 Webconverger 19 brings you in terms of effort put in:
 
 * [[Printing]] support completely **overhauled** with a new `printer=` API
-* Restored nvidia WebGL acceleration using driver version 313.30
+* Restored nvidia (ion) WebGL acceleration using driver version 313.30
 * New `support` API which allows customers to send us their complete (non-browsing) logs for study to http://support.webconverger.com/[MACHINE_IDENTITY]
 * Raft of package upgrades
 * New `prefs=` API, to override Firefox preferences, typically used for omitting print headers
