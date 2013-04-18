@@ -5,6 +5,10 @@ of the [dwm](http://dwm.suckless.org/tutorial) window manager.
 
 * [Debug example of the Live version](http://r2d2.webconverger.org/2012-11-05/debug.html)
 
+If your machine fails to boot X (video driver issue), you can get a terminal
+usually by Alt+Right Arrow, and logging in as root with no password in **debug
+mode**.
+
 # Details about the browser build
 
 `about:support` on the URL bar.
@@ -39,6 +43,8 @@ As the root _super-user_ `sudo -i`, utilise the `p` tool to paste you logs into.
 * Example: `grep upgrade.sh /var/log/daemon.log | p`
 
 # Describing the video hardware
+
+TODO: Somehow automate this?
 
 <http://r2d2.webconverger.org/2012-11-19/graphics-cards.html>
 
@@ -92,10 +98,21 @@ To clear the above rule:
 
 	iptables -F FORWARD
 
-# Any other ideas how to make debugging easier?
+# Getting support
 
-Please contribute !
+By typing
+[support](https://github.com/Webconverger/webc/blob/master/sbin/support) as
+root, you will send your `/var/log` contents to our [support
+service](http://support.webconverger.com/), which is for customers.
 
-# Debug systemd
+# Failsafe booting
+
+Boot without "vga=771 quiet splash"
+
+Then... you're not going to like this. Try all of these kernel cmdline options:
+
+	memtest noapic noapm nodma nomce nolapic nomodeset nosmp nosplash vga=normal
+
+# Debugging systemd
 
 	systemd.confirm_spawn=1
