@@ -8,6 +8,7 @@ We are designing the upgrade mechanism for:
 * Help Webconverger Limited the business [to move effectively to a subscription model](http://webconverger.org/blog/entry/Webconverger_11.2_release_notes/)
 * We can easily check the integrity of the filesystem, good for [[security]]
 * Git is fast & efficient for upgrades, also good for [[security]]
+* We can safely [downgrade](http://en.wikipedia.org/wiki/Downgrade) and roll back to an earlier version
 * Every [commit](https://github.com/Webconverger/webc/commits/master) accountable and transparent
 
 # The upgrade features requires persistency, i.e. install to a writable medium
@@ -34,7 +35,7 @@ In future we hope to utilise the boot-once option in extlinux, where by if the
 machine failed to boot from a kernel error, a subsequent boot will revert to
 the previous "known working" git-revision and kernel.
 
-# How do I roll back ?
+# How do I roll back / downgrade ?
 
 This is largely for [[debugging|debug]], using `update-revision=`. Supported clients will "fast forward" out of trouble.
 
