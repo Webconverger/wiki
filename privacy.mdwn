@@ -9,8 +9,13 @@ leaving any private data behind.
 Webconverger does not record your search history or collect any data of your
 surfing habits.
 
-Webconverger collects an anonymous "ping" with the version number and boot
-device:
+Webconverger send to our servers on boot:
+
+* Machine identity, your machine UUID + MAC address
+* IP address from where you sent it from
+* Version of Webconverger you use
+
+## Ping
 
 * [ping client source](https://github.com/Webconverger/webc/blob/master/etc/webc/network-up.d/ping)
 * [ping receiver source](https://github.com/Webconverger/ping/blob/master/index.php)
@@ -18,15 +23,16 @@ device:
 This "ping" is used to determine how many users Webconverger has to warrant
 further investment. [Public usage statistics](http://ping.webconverger.org/).
 
-You can opt out by appending `noping` to the command line from Webconverger
-18.0.
+You can opt out by appending `noping` to the command line.
+
+## Configuration service
 
 By default (unless opted by specifying `noconfig`), we direct you to our
-configuration service. This configuration service can see your machine UUID and
-MAC address. We use these machine identifiers (not personally identifying), to
-track and apply subscriptions made with our [configuration
-service](http://config.webconverger.com). This is how the company generates
-revenue in order to support the opensource project.
+[configuration service](http://config.webconverger.com). This configuration
+service can see your machine UUID and MAC address. We use these machine
+identifiers (not personally identifying), to track and apply subscriptions made
+with our [configuration service](http://config.webconverger.com). This is how
+the company generates revenue in order to support the opensource project.
 
 All *.webconverger.[com|org] sites have standard [Apache](http://apache.org/)
 logs, which will log when you visit that site. Logs are typically rotated
