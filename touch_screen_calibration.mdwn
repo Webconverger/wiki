@@ -31,6 +31,12 @@ Which when `encodeURI`-ed, becomes:
 
 # Wide scrollbars
 
+Append to your configuration:
+
+	widescrollbars
+
+This is introduced from <https://github.com/Webconverger/webc/commit/45ca9e9e3a51f5bcd16f850b22c6de1e8368c881>
+
 Related bug: <https://github.com/Webconverger/webc/issues/152>
 
 <a href=http://s.natalian.org/2013-04-18/1366310154_1366x768.png>
