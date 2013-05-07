@@ -21,6 +21,7 @@ Web feedback
 ============
 
 * [reddit](http://www.reddit.com/r/linux/comments/117uuj/webconverger_a_gnulinux_distribution_for_kiosks/)
+* [Czech article](http://www.linuxexpres.cz/distro/webconverger-linux-pro-internetovy-kiosek)
 * [Slashdot](http://tech.slashdot.org/story/12/10/09/163210/os-upgrades-powered-by-git)
 * [Twitter](http://search.twitter.com/search?q=webconverger)
 * [Google blog search](http://blogsearch.google.com/blogsearch?hl=en&q=webconverger&btnG=Search+Blogs)
