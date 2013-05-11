@@ -1,7 +1,9 @@
+[[!meta title="Screen casting" ]]
+
 For <http://www.youtube.com/webconverger/> we've made a couple of videos to
 show users around Webconverger.
 
-<a href="http://www.flickr.com/photos/hendry/7272704214/" title="Tripof with Iphone mount by Kai Hendry, on Flickr"><img src="http://farm8.staticflickr.com/7102/7272704214_402ce1f037.jpg" width="500" height="375" alt="Tripof with Iphone mount"></a>
+<a href="http://www.flickr.com/photos/hendry/7272704214/" title="Tripod with Iphone mount by Kai Hendry, on Flickr"><img src="http://farm8.staticflickr.com/7102/7272704214_402ce1f037.jpg" width="500" height="375" alt="Tripof with Iphone mount"></a>
 
 Our video camera is a Iphone 4S with a generic plastic iphone4 and tripod to
 keep the "video camera" steady. The [tripod was
@@ -49,7 +51,7 @@ Linux & Mac effort!
 
 # recordmydesktop 2.0
 
-`recordmydesktop` has been a reliable tool for creating screencasts in OGG
+[recordmydesktop](http://en.wikipedia.org/wiki/RecordMyDesktop) has been a reliable tool for creating screencasts in OGG
 video format. Unfortunately uploading a OGG video to Youtube results in a green
 mess (no kidding). So instead we've been using:
 <https://github.com/kaihendry/recordmydesktop2.0>
@@ -58,6 +60,3 @@ mess (no kidding). So instead we've been using:
 
 When importing videos, the Inspector tool's Normalize Clip Volume in the Audio
 tab and Enhance to reduce background noise are its killer features.
-
-	Initial video placement: Fit in frame
-	Initial photo placement: Fit in frame
