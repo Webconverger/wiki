@@ -2,18 +2,7 @@
 
 # de.webconverger.org
 
-"Hetty" is an [EQ4](http://www.hetzner.de/en/hosting/produkte_rootserver/eq4) 32bit Debian "squeeze" dedicated server supplied by [Hetzner online](http://www.hetzner.de) in Germany.
-
-* [Control panel](https://robot.your-server.de)
-* [Hetzner status and fault reports](http://translate.google.com/translate?hl=de&langpair=de|en&u=http://www.hetzner-status.de)
-* [Hetzner wiki](http://wiki.hetzner.de) with a [Debian section](http://wiki.hetzner.de/index.php/Debian)
-
-Hetty (88.198.64.227) is rented for the following functions:
-
-* Performing [builds](http://build.webconverger.org)
-* Storage & backup
-
-50EUR a month
+Is being de-commisioned on the 23rd of May 2013.
 
 # sg.webconverger.com
 
@@ -22,21 +11,24 @@ configured machine for development, hosted in Singapore.
 
 * 30USD a month
 * [Control panel](https://dtc.node6503.gplhost.com/dtc/)
-* <http://ppd.webconverger.com/> hosting
+* [Printer configuration hosting](http://ppd.webconverger.com/)
 * [Nagios](https://github.com/Webconverger/nagios)
 
 # webconverger.com
 
 webconverger.com hosted by [Dreamhost](http://www.dreamhost.com/r.cgi?104617)
-in California - 120USD (~75GBP) a year responsible for archives and serving
-<http://webconverger.com>
+in California - 120USD (~75GBP) a year responsible for archives, backups and
+serving <http://webconverger.com>
 
 # uk.webconverger.com
 
 Our VPS name is **webc** (85.119.83.83), which is hosted by
 [Bitfolk](http://bitfolk.com) based in London, England - ~200GBP year
 
-* <http://uk.webconverger.com/>
+* [Configuration service](http://config.webconverger.com)
+* [Support service](http://support.webconverger.com/)
+* [Download service](http://dl.webconverger.com/)
+* [Ping/Statistics service](http://ping.webconverger.org)
 * [Nagios](https://github.com/Webconverger/nagios)
 
 # webconverger.org
