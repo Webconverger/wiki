@@ -30,6 +30,7 @@ Web feedback
 * [Youtube](http://www.youtube.com/results?search_query=webconverger)
 * [Freecode](http://freecode.com/projects/webconverger)
 * [Distrowatch Entry](http://distrowatch.com/table.php?distribution=webconverger)
+* [Argentinian deployment](http://www.estudiogenus.com/2010/11/knobby-nuestro-web-kiosk-para-histrix/)
 * [Current favourite for secure Internet banking - Webconverger](http://www.andrewpatrick.ca/security-and-privacy/quest-for-a-good-boot-cd-for-internet-banking/)
 * [Webconverger is a Winner: Very simply Internet kiosk](http://stefanomatic.wordpress.com/2008/09/03/internet-kiosk/)
 * [German tech site profiling USB linux distributions including Webconverger](http://www.tecchannel.de/pc_mobile/linux/1750236/)
