@@ -1,5 +1,7 @@
 [[!meta title="Internationalization and localization"]]
 
+<iframe width="560" height="315" src="http://www.youtube.com/embed/n25THKbzSfg" frameborder="0" allowfullscreen></iframe>
+
 There are several ways to setup the locale and keyboard. We have good support
 for European languages and we will (re)address Asian requirements in the
 future.
@@ -69,13 +71,6 @@ In the future we might add a
 inputs.
 
 There are setxkbmap aliases which can be found in [/usr/share/X11/xkb/rules](https://github.com/Webconverger/webc/blob/master/usr/share/X11/xkb/rules/base.lst)
-
-# Russian demonstration with Alt+Shift toggle
-
-<video controls width=640 height=360>
-<source src=http://r2d2.webconverger.org/2013-02-13/arabic-russian.webm type=video/webm>
-<source src=http://r2d2.webconverger.org/2013-02-13/arabic-russian.mp4 type=video/mp4>
-</video>
 
 # Fonts
 

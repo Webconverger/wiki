@@ -16,18 +16,6 @@ Using the **firefox-i18n** packaging from Archlinux:
 	/tmp/firefox-i18n$ for i in *.xpi; do unzip -d /tmp/exts/$(unzip -p $i install.rdf | grep -m 1 -H em:id  | sed 's,.*em:id=",,' | sed 's,"$,,') $i; done 
 	rsync -a . /home/hendry/debian/sid-root/root/webconverger/chroot/opt/firefox/langpacks/
 
-Copy in the extension directories to /opt/firefox/extensions/
-
-	ln -s /etc/webc/extensions/webconverger/ kiosk@webconverger.com
-
-For major version updates of the browsers, check the [Webconverger extension](https://github.com/Webconverger/iceweasel-webconverger) is uptodate.
-
-Make sure you carry over the defaults, for the search engine "DuckDuckGo".
-
-	x220:~/debian/sid-root/root/webconverger/chroot/opt/firefox-old$ sudo rsync -a defaults/ ../firefox/defaults
-
-Ensure Crash Reporter binary `crashreporter`, `webapprt*`, `updater` is not included.
-
 * [Example update for 16.x](https://github.com/Webconverger/webc/commit/4083bfa460be5e1c1469468ac5b4abf69acb5f76)
 * [Example update for 17.x](https://github.com/Webconverger/webc/commit/28d255eabbfe325a06a0d887a2b9a20f29cd066b)
 
