@@ -1,6 +1,6 @@
 [[!meta title="Checklist for making a release"]]
 
-1. `git tag -s 13.0 && git push origin 13.0` (you might need to copy across keys into /root/.gnupg temporarily)
+1. Tag [webc](https://github.com/Webconverger/webc) and [Debian Live config](https://github.com/Webconverger/Debian-Live-config) - `git tag -s 13.0 && git push origin 13.0` (you might need to copy across keys into /root/.gnupg temporarily)
 * Build it `h2:~# /srv/www/build.webconverger.org/webc-build.sh`
 * [[Test|testing]] it
 * Just debug.log [[ping|privacy]], check clients config fetch
