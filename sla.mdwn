@@ -2,11 +2,11 @@
 
 Email: support@webconverger.com
 
-Our current support hours are 9:00-17:00 (+8) and we endeavour to respond to
+Our current support hours are 9:00-17:00 (UTC+8) and we endeavour to respond to
 your request within four working hours. For example an email sent to us at 1PM
-(+12) would reach us at 9AM (+8), and we try respond at the latest by 5PM
-(+12). An email sent to us at 9AM (+12), would be received at 5AM (+8), and
-would have a response by 5PM (+12).
+(UTC+12) would reach us at 9AM (UTC+8), and we try respond at the latest by 5PM
+(UTC+12). An email sent to us at 9AM (UTC+12), would be received at 5AM
+(UTC+8), and would have a response by 5PM (UTC+12).
 
 # How we handle issues
 
