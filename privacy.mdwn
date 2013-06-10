@@ -1,15 +1,17 @@
 [[!meta title="Privacy policy"]]
+
 # Privacy policy
 
 Webconverger is designed to ensure users privacy and [[security]] whilst
 surfing the Web, primarily by wiping the slate clean between sessions.
-Therefore public users of a Webconverger kiosks do not have to fear they are
-leaving any private data behind.
+Therefore public users of a Webconverger kiosks should not have to fear they
+are leaving any private data behind.
 
 Webconverger does not record your search history or collect any data of your
 surfing habits.
 
-Webconverger send to our servers on boot:
+The Webconverger operating system sends the following data to our servers on
+boot:
 
 * Machine identity, your machine UUID + MAC address
 * IP address from where you sent it from
@@ -27,12 +29,14 @@ You can opt out by appending `noping` to the command line.
 
 ## Configuration service
 
-By default (unless opted by specifying `noconfig`), we direct you to our
+By default (unless opted out by specifying `noconfig`), we apply our
 [configuration service](http://config.webconverger.com). This configuration
-service can see your machine UUID and MAC address. We use these machine
-identifiers (not personally identifying), to track and apply subscriptions made
-with our [configuration service](http://config.webconverger.com). This is how
-the company generates revenue in order to support the opensource project.
+service will use your machine UUID and MAC address as machine identifiers (not
+personally identifying), to track and apply configurations. This is how the
+company generates revenue in order to support the opensource project.
+
+If you do not have a subscription, your Webconverger instance will be
+unconfigured by default, which is usable in many scenarios.
 
 All *.webconverger.[com|org] sites have standard [Apache](http://apache.org/)
 logs, which will log when you visit that site. Logs are typically rotated
@@ -41,4 +45,9 @@ Analytics](http://www.google.com/analytics/) are also enabled on some of the
 sites.
 
 We try to make the privacy policy as clear as possible. If you have any
-questions please ask privacy AT webconverger.com.
+questions please email privacy AT webconverger.com.
+
+## Default search service
+
+If you have the URL bar enabled, and you do not type in a valid URL, the input
+will be passed onto <https://duckduckgo.com/> as search terms.
