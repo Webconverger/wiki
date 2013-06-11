@@ -1,0 +1,136 @@
+The canonical location of Webconverger's Terms and Conditions is
+<http://webconverger.org/terms>.
+
+It comes complete with a changelog and is subject to change.
+
+### Interpretation
+
+This agreement is written in plain English and should be read as such. This
+agreement is subject to English law in the jurisdiction of the United Kingdom.
+
+We have used the terms we, us, our, etc to mean Webconverger Ltd, and you,
+your, etc to mean the customer to whom we are providing services.  We are
+Webconverger Limited, a company registered in England and Wales number 6366403
+and in Singapore number 201211208C.
+
+### Limitations of liability
+
+We understand that ongoing operation of services we provide is important to you
+but we expect you to understand that services can fail for a variety of
+reasons. It is also possible for us to make mistakes.  As such we expect you to
+take whatever precautions or insurances against such failure or mistakes as you
+see fit, including situations where we may be negligent.
+
+We limit any liability for consequential losses or tort or any other liabilities
+to the amount that you paid.
+
+If we are negligent, then we accept that we have liability. We require you to
+prove we have been negligent in such cases. We require you to demonstrate
+actual losses for your claim. We require you to take all reasonable steps to
+minimise your losses.
+
+Whilst there are no limits on our liability for death or personally injury due
+to negligence, we limit our liability for any other negligence or any other
+reasons to a refund of the amount paid for the failed goods or services. (We
+also make it a condition that you do not use any of our services in any safety
+of life situations where a failure could cause death or personal injury). You
+agree to this limit whether we are negligent, or not, and even for liabilities
+that somehow occur when we are not in breach of contract with you.
+
+It is important to realise what this means. Basically, in most cases, if we
+mess up, the most you can get is your money back. Some of our services are very
+cheap and some are even free of charge, so this is not a lot of compensation.
+If this is a problem, then you should look at getting your own insurance or
+buying services from someone else. When you order goods or services from us you
+are agreeing to these limits of liability.
+
+These terms do not affect your statutory rights, and apply to the full extent
+that the law permits them to within those rights.
+
+### License of Webconverger
+
+The Webconverger operating system is based on opensource software, with notable
+exceptions of non-free wireless firmware and Adobe flash. You must understand
+that the branding (logo and the name "Webconverger") are proprietary. Only our
+Webconverger built images can display the logo and can be sold as
+"Webconverger".
+
+### Services
+
+Services of Webconverger are our support, the [configuration
+manager](http://config.webconverger.com) and our customised ISOs.
+
+If you derive services from us, you must maintain a subscription, i.e. you must
+pay for services you use.
+
+If you fail to maintain a subscription for example by missing payment, we
+reserve the right to terminate service and reset Webconverger to its
+unconfigured defaults.
+
+### Termination
+
+Termination of service means the nullification of your configuration, which in
+turn resets Webconverger to its defaults. Webconverger at its unconfigured or
+uncustomised defaults can be used without payment.
+
+It is a violation of the contract to circumvent termination, by for example
+using a customised ISO without paying. You must continue to pay or stop using
+the service. We are able to tell if customers are using customised ISOs without
+payment by our ping service described in [[privacy]].
+
+### Privacy policy
+
+Please refer to the [Webconverger privacy policy](http://webconverger.org/privacy/).
+
+### Service levels
+
+Our [service levels](http://webconverger.org/sla/) are supplied on a best
+effort basis.
+
+### Webconverger subscription terminology versus license
+
+To avoid confusion with the opensource licensed Webconverger PC operating
+system, we prefer to sell our managed PC services as "subscriptions" and not as
+"licenses" as our competitors typically do.
+
+Each subscription is mapped to a machine identity; a unique combination of a
+PC's motherboard identifier and its MAC address. A "one off" subscription is
+fixed to a particular machine identity and is non-transferable.
+
+### Refunds
+
+We offer a 30 day money back guarantee once service has begun. So if you begun
+trial at the start of the month, made payment at the beginning of the second
+week, you have until the end of that month to cancel for a refund.
+
+We will immediately terminate service and return your money minus payment
+transaction fees within 30 days after receiving notice.
+
+### Payment fees
+
+For bank transfers you must bear all the costs of the bank transfer.
+
+### Credit terms
+
+Unless we agree otherwise, invoices are due for payment immediately. We are
+prepared to agree terms such as 14 days, 30 days or end of following month at
+our discretion. Credit is not automatic or a right and we may withdraw or
+change credit terms for future invoices if we wish. If you do not agree to the
+terms stated on the invoice you must contact us immediately.
+
+### Misc
+
+If we don't enforce our contract terms at any point it doesn't mean we won't
+later.
+
+If we don't charge you for something right away it doesn't mean we won't charge
+for it later.
+
+These terms are not intended to benefit any third party as per Contracts
+(Rights of Third Parties) Act 1999.
+
+We may anonymously quote your bug reports on our public bug tracker.
+
+We may anonymously quote comments from any emails or comments we receive unless
+you specifically say we can't, e.g. for our testimonials page. We will normally
+ask first.
