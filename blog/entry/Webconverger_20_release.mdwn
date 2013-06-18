@@ -23,7 +23,7 @@ href="http://config.webconverger.com/faq/#what-do-you-mean-by-live-version-and-i
 version of Webconverger</a>, you should seamlessly upgrade incrementally day by
 day as [Webconverger is
 updated](https://github.com/Webconverger/webc/commits/master). In other words,
-Webconverger is maintenance free.
+an installed Webconverger is maintenance free.
 
 I've measured the upgrade size as about 112M from a fresh 19.1 install. My
 methodology was to to install the previous [[Webconverger_19_release]]. Then
