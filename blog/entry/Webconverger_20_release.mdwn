@@ -37,5 +37,5 @@ large value into Google.com and append "bytes into megabytes".
 # Our new terms and conditions
 
 Please view our new [[terms]] and [[privacy]] policy if you haven't already.
-Each document have a history, so you can easily check for changes. We aim to be
+Each document has a history, so you can easily check for changes. We aim to be
 fair, transparent and we will never log your browsing history.
