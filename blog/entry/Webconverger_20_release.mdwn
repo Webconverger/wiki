@@ -1,0 +1,38 @@
+Please [download Webconverger 20](http://dl.webconverger.com/latest.iso), our stable update release, featuring:
+
+* [Firefox 21](http://www.mozilla.org/en-US/firefox/21.0/releasenotes/) updates and Flash security updates
+* A dist-upgrade, based on [Progress Linux 2.0 (baureo)](http://www.progress-linux.org/releases/stable/current/)
+* On a bit a diet, 441M to 357M, saving about 60 Megs, by removing files you won't need
+* `widescrollbars` options for [touch screen deployments](http://webconverger.org/touch_screen_calibration/)
+* Tweaks to force viewing PDFs inline
+* Customer configurations are now fetched over SSL
+
+For the full changelog,  `git log --oneline --decorate 19.1..20.0`.
+
+md5sum is `261d6dba5c913b0d753c1b595ab85740` and the sha1sum is
+`16a35b4fac95296b6a7276ae189b16c00a6e3134`.
+
+# Upgrading bandwidth
+
+<img src="/img/upgrade-bandwidth19-20.png" alt="112MB upgrade">
+
+If you are using the <a
+href="http://config.webconverger.com/faq/#what-do-you-mean-by-live-version-and-install-version">Install
+version of Webconverger</a> (recommended!), you should seamlessly upgrade
+incrementally day by day as [Webconverger is
+updated](https://github.com/Webconverger/webc/commits/master).
+
+I've measured the upgrade size as about 112M from a fresh 19.1 install. My
+methodology was to to install the previous [[Webconverger_19_release]]. Then
+reboot with [[debug]] mode enabled and `grep upgrade /var/log/syslog` from time
+to time until it was finished downloading from our [origin hosted at
+Github](https://github.com/Webconverger/webc).
+
+To see how much data was transferred, `cat /proc/net/netstat` and plug in the
+large value into Google.com and append "bytes into megabytes".
+
+# Our new terms and conditions
+
+Please view our new [[terms]] and [[privacy]] policy if you haven't already.
+Each document have a history, so you can easily check for changes. We aim to be
+fair, transparent and we will never log your browsing history.
