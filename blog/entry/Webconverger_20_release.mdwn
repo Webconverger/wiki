@@ -1,3 +1,5 @@
+<img src="/img/webc-20.png" alt="Webconverger 20 screenshot">
+
 Please [download Webconverger 20](http://dl.webconverger.com/latest.iso), our stable update release, featuring:
 
 * [Firefox 21](http://www.mozilla.org/en-US/firefox/21.0/releasenotes/) updates and Flash security updates
