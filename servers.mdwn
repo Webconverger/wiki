@@ -1,8 +1,17 @@
 [[!meta title="Servers used by Webconverger"]]
 
-# de.webconverger.org
+# Bandwidth costs
 
-Is being de-commisioned on the 23rd of May 2013.
+Webconverger averages about [100 downloads a
+day](http://dl.webconverger.com/stats/) and the ISO file is about 400M. So we
+transfer about 40GB a day, or 1 Terabyte a month.
+
+On [AWS S3](http://aws.amazon.com/s3/), transferring 1TB is ~122USD. 1024GB * $0.120 per GB = ~122USD
+
+The annoying thing about Bitfolk/GPLhost is that you need to somehow buy your
+bandwidth in advance and it can be tricky to predict.
+
+We probably should think about setting up mirrors and reaching out to the community.
 
 # sg.webconverger.com
 
@@ -13,6 +22,14 @@ configured machine for development, hosted in Singapore.
 * [Control panel](https://dtc.node6503.gplhost.com/dtc/)
 * [Printer configuration hosting](http://ppd.webconverger.com/)
 * [Nagios](https://github.com/Webconverger/nagios)
+
+## Bandwidth
+
+150GB pcm quota (Goto monitoring to see current use) - Extra is 12 USD (plus
+paypal fee) for 200 GB, and 24 USD for 400 GB, working out to be **$0.06 per
+Gigabyte**. Half the cost of S3.
+
+Note that VPS will only turn off when you reach 120% of the allowed traffic!
 
 # webconverger.com
 
@@ -26,10 +43,18 @@ Our VPS name is **webc** (85.119.83.83), which is hosted by
 [Bitfolk](http://bitfolk.com) based in London, England - ~200GBP year
 
 * [Configuration service](http://config.webconverger.com)
+* 300GB quota
 * [Support service](http://support.webconverger.com/)
 * [Download service](http://dl.webconverger.com/)
 * [Ping/Statistics service](http://ping.webconverger.org)
 * [Nagios](https://github.com/Webconverger/nagios)
+
+## Bandwidth
+
+Overage rate is £0.25+VAT per GB
+
+At £5.00+VAT per year for each 10GB, that would be £25.00+VAT per year for 50GB
+every month (5x £5.00).
 
 # webconverger.org
 
