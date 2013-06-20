@@ -25,11 +25,13 @@ configured machine for development, hosted in Singapore.
 
 ## Bandwidth
 
-150GB pcm quota (Goto monitoring to see current use) - Extra is 12 USD (plus
-paypal fee) for 200 GB, and 24 USD for 400 GB, working out to be **$0.06 per
-Gigabyte**. Half the cost of S3.
+150GB pcm quota, goto Monitoring to see current use.
 
-Note that VPS will only turn off when you reach 120% of the allowed traffic!
+Extra is 12 USD (plus paypal fee) for 200 GB, and 24 USD for 400 GB, working
+out to be **$0.06 per Gigabyte**. Half the cost of S3. However it's just for
+that month! So it doesn't scale well at all.
+
+Note that VPS will only turn off when you reach 120% of the allowed traffic.
 
 # webconverger.com
 
@@ -54,7 +56,7 @@ Our VPS name is **webc** (85.119.83.83), which is hosted by
 Overage rate is £0.25+VAT per GB
 
 At £5.00+VAT per year for each 10GB, that would be £25.00+VAT per year for 50GB
-every month (5x £5.00).
+every month (5x £5.00). You need to commit in advance. :/
 
 # webconverger.org
 
