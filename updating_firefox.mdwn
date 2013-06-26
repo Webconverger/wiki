@@ -22,6 +22,7 @@ Remove crash reporter
 
 	vim firefox/application.ini
 
-Make sure nothing is deleted / missing
+Make sure nothing is deleted / missing. Otherwise you might get a strange error
+message, like please contact your system administrator.
 
 	git checkout firefox/mozilla.cfg
