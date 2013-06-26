@@ -1,3 +1,6 @@
+
+Note: [hostperm.1](http://kb.mozillazine.org/Hostperm.1) is DEPRECATED.
+
 Unfortunately the Web is not a perfect place and a customer's Website might use
 abominations like popups and mixed SSL.
 
