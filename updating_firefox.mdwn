@@ -1,29 +1,22 @@
 [[!meta title="Updating Firefox for a Webconverger developer"]]
 
+	<http://getfirefox.com>
+
 	sudo mv firefox/ /home/hendry/debian/sid-root/root/webconverger/chroot/tmp
 
-	root@x220:/opt# mv firefox/ firefox-old
-	root@x220:/opt# mv /tmp/firefox/ .
-	root@x220:/opt# ls -l
-	total 12
-	drwxr-xr-x 5 root root  4096 Aug  7 10:11 VirtualGL
-	drwxr-xr-x 9 webc users 4096 Aug 24 23:55 firefox
-	drwxr-xr-x 9 root root  4096 Aug 21 15:39 firefox-old
-	root@x220:/opt# 
+	/opt# mv firefox/ firefox-old
+	/opt# mv /tmp/firefox/ .
 
 Using the **firefox-i18n** packaging from Archlinux:
 
-	/tmp/firefox-i18n$ for i in *.xpi; do unzip -d /tmp/exts/$(unzip -p $i install.rdf | grep -m 1 -H em:id  | sed 's,.*em:id=",,' | sed 's,"$,,') $i; done 
+	/tmp/firefox-i18n$ for i in *.xpi; do unzip -d /tmp/exts/$(unzip -p $i install.rdf | grep -m 1 -H em:id  | sed 's,.*em:id=",,' | sed 's,"$,,') $i; done
 	rsync -a . /home/hendry/debian/sid-root/root/webconverger/chroot/opt/firefox/langpacks/
-
-* [Example update for 16.x](https://github.com/Webconverger/webc/commit/4083bfa460be5e1c1469468ac5b4abf69acb5f76)
-* [Example update for 17.x](https://github.com/Webconverger/webc/commit/28d255eabbfe325a06a0d887a2b9a20f29cd066b)
 
 # Doing an update
 
-	/opt# cp -r firefox-old/langpacks/ firefox/
-	/opt# cp -r firefox-old/defaults/ firefox
-	/opt# cp -ra firefox-old/extensions/ firefox
+	/opt# cp -ra firefox-old/browser/extensions/ firefox/browser/
+	/opt# cp -ra firefox-old/browser/defaults/ firefox/browser/
+	/opt# cp -ra firefox-old/langpacks/ firefox
 
 Remove crash reporter
 
