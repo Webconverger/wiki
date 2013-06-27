@@ -172,7 +172,7 @@ Using the `printer=` API, documented in [[printing]].
 
 Please look at `prefs=` usage examples in [[printing]] and [[blog/entry/Popups_and_SSL_warnings]].
 
-`prefs=` sets Firefox powerful `autoadmin.global_config_url`
+`prefs=` sets Firefox's powerful `autoadmin.global_config_url`
 [autoconfig](http://mike.kaply.com/2012/03/16/customizing-firefox-autoconfig-files/)
 feature.
 
