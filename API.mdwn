@@ -170,7 +170,7 @@ Using the `printer=` API, documented in [[printing]].
 
 ### How to override some Firefox preferences
 
-Please have a look at a `prefs=` example in [[printing]].
+Please look at `prefs=` usage examples in [[printing]] and [[blog/entry/Popups_and_SSL_warnings]].
 
 ### Remote logging (from version 15)
 
