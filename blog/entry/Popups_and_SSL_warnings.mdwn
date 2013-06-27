@@ -1,23 +1,47 @@
-
 Note: [hostperm.1](http://kb.mozillazine.org/Hostperm.1) is DEPRECATED.
 
-Unfortunately the Web is not a perfect place and a customer's Website might use
-abominations like popups and mixed SSL.
+The explicit need to allow popups is for client homepages that are frankly
+poorly engineered to use popups as an interaction model. Popups in Webconverger
+are configured to forcefully open as new tabs.
 
-You can work around these bad practices by using
-`config/includes.chroot/etc/iceweasel/profile/hostperm.1`:
+Using the new improved `prefs=` API from
+<https://github.com/Webconverger/webc/commit/a1b18d281e1b4858564b38fdda12b36352eed7bf>
+we can use Firefox's powerful "autoconfig" commands to setup these permissions.
 
-	# Permission File
-	# always allow popups and session cookies from example.com
-	host    cookie  1       example.com
-	host    popup   1       example.com
-	host    cookie  1       www.example.com
-	host    popup   1       www.example.com
+Lets walk through an example using <http://popuptest.com/>.
 
-To deal with SSL warnings in Firefox, I've employed:
+We [configure our Webconverger](http://config.webconverger.com/) using
+`prefs=http://ppd.webconverger.com/2013/autoconfigfile.js` and this
+"autoconfig" file contains:
 
-	hendry@h2 webconverger$ grep security config/includes.chroot/etc/iceweasel/pref/iceweasel.js
-	pref("security.warn_entering_secure", false);
-	pref("security.warn_leaving_secure", false);
-	pref("security.warn_submit_insecure", false);
-	pref("security.warn_viewing_mixed", false);
+	$ curl -s http://ppd.webconverger.com/2013/autoconfigfile.js
+	Components.utils.import("resource://gre/modules/Services.jsm");
+	Components.utils.import("resource://gre/modules/NetUtil.jsm");
+	Services.perms.add(NetUtil.newURI("http://popuptest.com"), "popup", Services.perms.ALLOW_ACTION);
+	Services.prompt.alert(null, "", "Popup test");
+
+You would host `http://ppd.webconverger.com/2013/autoconfigfile.js` yourself,
+though Webconverger as a service to its customers can reliably host it for you.
+
+As you can see in the `Services.perms.add` invocation, with `prefs=` we can now
+run commands to add <http://popuptest.com> into a popup whitelist.
+
+You can verify this works by visiting <http://popuptest.com/> or by examing the
+whitelist using `chrome=debug` in Edit->Preferences->Content->Exceptions.
+
+# On SSL warnings (historic)
+
+To deal with SSL warnings in Firefox, have a look at the [preferences set by
+the Webconverger
+extension](https://github.com/Webconverger/iceweasel-webconverger/blob/master/defaults/preferences/prefs.js#L30)
+
+# More on "Netscape Mission Control Desktop" aka Firefox#s autoconfig
+
+Webconverger's `prefs=` [[API]] uses Autoconfig files.
+
+* <http://mike.kaply.com/2012/03/16/customizing-firefox-autoconfig-files/>
+* <http://mike.kaply.com/2012/03/22/customizing-firefox-advanced-autoconfig-files/>
+
+Many [[thanks|acknowledgements]] to [Mike Kaply](http://mike.kaply.com) for
+taking the time to document this almost hidden Enterprise feature of the
+Firefox browser.

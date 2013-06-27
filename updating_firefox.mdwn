@@ -10,7 +10,9 @@
 Using the **firefox-i18n** packaging from Archlinux:
 
 	/tmp/firefox-i18n$ for i in *.xpi; do unzip -d /tmp/exts/$(unzip -p $i install.rdf | grep -m 1 -H em:id  | sed 's,.*em:id=",,' | sed 's,"$,,') $i; done
-	rsync -a . /home/hendry/debian/sid-root/root/webconverger/chroot/opt/firefox/langpacks/
+	rsync -a --delete . /home/hendry/debian/sid-root/root/webconverger/chroot/opt/firefox/langpacks/
+
+Check for invalid XML: `find -name '*.xml' -o -name '*.rdf' | xargs xmlstarlet val | grep inv`
 
 # Doing an update
 
