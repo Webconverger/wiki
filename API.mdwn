@@ -168,9 +168,13 @@ Please refer to the [[touch_screen_calibration]] wiki page.
 
 Using the `printer=` API, documented in [[printing]].
 
-### How to override some Firefox preferences
+### How to override Firefox preferences (autoconfig)
 
 Please look at `prefs=` usage examples in [[printing]] and [[blog/entry/Popups_and_SSL_warnings]].
+
+`prefs=` sets Firefox powerful `autoadmin.global_config_url`
+[autoconfig](http://mike.kaply.com/2012/03/16/customizing-firefox-autoconfig-files/)
+feature.
 
 ### Remote logging (from version 15)
 
