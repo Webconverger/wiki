@@ -94,10 +94,23 @@ Note one should probably work from a branch, e.g. `git branch flashtest; git pus
 * Cleanup of the .git directory needs to be investigated
 * failover bootloader stuff
 * make fetch happen periodically from /etc/inittab to reduce upgrade delay
-* [use https:// for firewalled deployments](https://github.com/blog/1270-easier-builds-and-deployments-using-git-over-https-and-oauth) ?
 
 For more background, see these [[gitupgrades]] notes.
 
 # Does git-fs use a lot of RAM?
 
 Our memory requirements have gone up and by our calculations, it's about 200M of memory usage for git-fs, which isn't a lot.
+
+# How to integrate git-fs from scratch
+
+[/usr/share/initramfs-tools/hooks/git-fs](https://github.com/Webconverger/webc/blob/master/usr/share/initramfs-tools/hooks/git-fs) ensures the git-fs binary is in the initrd.
+
+[/usr/share/initramfs-tools/scripts/live-bottom/00git-fs](https://github.com/Webconverger/webc/blob/master/usr/share/initramfs-tools/scripts/live-bottom/00git-fs) prepares the /live for mounting.
+
+[/lib/live/boot/overlay.sh](https://github.com/Webconverger/webc/blob/master/lib/live/boot/overlay.sh) is where the actual git-fs mount happens.
+
+[/etc/webc/upgrade.sh](https://github.com/Webconverger/webc/blob/master//etc/webc/upgrade.sh)
+implements the `{fetch,update}-revision=` API that fetches updates in the
+background.
+
+OPTIONAL: [mount_git](https://github.com/Webconverger/webc/blob/master//etc/webc/live-config.sh#L21) function for mounting the .git/ directory for debugging.
