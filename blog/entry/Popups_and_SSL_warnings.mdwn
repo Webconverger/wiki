@@ -42,6 +42,7 @@ Webconverger's `prefs=` [[API]] uses Autoconfig files.
 
 * <http://mike.kaply.com/2012/03/16/customizing-firefox-autoconfig-files/>
 * <http://mike.kaply.com/2012/03/22/customizing-firefox-advanced-autoconfig-files/>
+* [Canonical Mozilla documentation on the PermissionManager](https://developer.mozilla.org/en-US/docs/XPCOM_Interface_Reference/nsIPermissionManager)
 
 Many [[thanks|acknowledgements]] to [Mike Kaply](http://mike.kaply.com) for
 taking the time to document this almost hidden Enterprise feature of the
