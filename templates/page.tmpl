@@ -188,6 +188,8 @@ Last edited <TMPL_VAR MTIME>
 <!-- Created <TMPL_VAR CTIME> -->
 </div>
 
+<p id=feedback>Noticed an error? Something that could be better? Please get in touch!</p>
+
 <TMPL_IF HTML5></nav><TMPL_ELSE></div></TMPL_IF>
 <TMPL_IF EXTRAFOOTER><TMPL_VAR EXTRAFOOTER></TMPL_IF>
 </TMPL_UNLESS>
@@ -197,17 +199,17 @@ Last edited <TMPL_VAR MTIME>
 <TMPL_IF HTML5></article><TMPL_ELSE></div></TMPL_IF>
 
 <script type="text/javascript">
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-195686-3']);
+_gaq.push(['_trackPageview']);
 
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-195686-3']);
-  _gaq.push(['_trackPageview']);
+(function() {
+var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
 
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
-
+document.getElementById("feedback").innerHTML += " feedback" + new Date().getFullYear() + "@webconverger.com";
 </script>
 
 </body>
