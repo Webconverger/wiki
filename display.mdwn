@@ -1,3 +1,5 @@
+[[!meta title="Changing Webconverger's screen resolution"]]
+
 # Manually setting up a monitor that isn't automatically setup
 
 Sometimes
