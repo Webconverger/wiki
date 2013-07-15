@@ -2,8 +2,4 @@ Webconverger is low maintenance. No administrator required!
 
 Webconverger is [[designed|design]] so that users store their data on Web applications, so you need not worry about losing **or maintaining** any data locally.
 
-Webconverger ships with the [[latest_stable_packages|txt]].
-
-# Competition
-
-* [EZWebPC™](http://livekiosk.com/) is not being maintained
+Webconverger stays seamlessly uptodate with its [[gitfs|upgrade]] technology. No more headaches!
