@@ -42,7 +42,7 @@ This is largely for [[debugging|debug]], using `update-revision=`. Supported cli
 # No upgrades on Live version since it isn't a writable disk
 
 If the logs say [Not a writable boot
-medium](https://github.com/Webconverger/webc/blob/master/etc/webc/upgrade.sh#L26),
+medium](https://github.com/Webconverger/webc/blob/master/etc/webc/live-config.sh#L312),
 then you are in [Live
 mode](http://config.webconverger.com/faq/#what-do-you-mean-by-live-version-and-install-version)
 and you cannot upgrade until you've installed to a writable disk.
