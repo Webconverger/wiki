@@ -1,3 +1,5 @@
+[[!meta title="Practically maintenance free software"]]
+
 Webconverger is low maintenance. No administrator required!
 
 Webconverger is [[designed|design]] so that users store their data on Web applications, so you need not worry about losing **or maintaining** any data locally.
