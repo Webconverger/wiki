@@ -1,0 +1,19 @@
+* [Firefox 22](http://www.mozilla.org/en-US/firefox/22.0/releasenotes/) and Flash security updates
+* Fixed an issue whereby the installer would not show up on a small subset of machines
+* Upgraded to syslinux 6 which should make the boot experience slightly smoother
+* Re-introduced support for [[allowing popups via the prefs= API|Popups_and_SSL_warnings]]
+* `prefs=` API has been beefed up so you can practically script Firefox to do whatever you want using [autoconfig](http://mike.kaply.com/2012/03/16/customizing-firefox-autoconfig-files/) files
+* Removed the proprietary Google talkplugin in favour of [WebRTC](http://www.webrtc.org/) e.g. <https://talky.io/>
+* ttf-liberation fonts are back to improve compatibility to Windows renderings
+
+In other news we are [working on a Webconverger Raspberry PI
+port](http://www.youtube.com/watch?v=3SJb9RESlaY), FINALLY! With the caveat
+that it will only be used in <a href="http://neon.webconverger.com/">Web
+signage use cases (Neon!)</a> and not as a kiosk browsing machine. We were
+recently [interviewed about
+Neon](http://www.sixteen-nine.net/2013/07/10/webconvergers-neon-stable-secure-browser-digital-sign-platform/)
+if you want to learn more.
+
+We also recently contributed a [linux.com blog explaining the nuances that go
+into Webconverger, that make it the best Web kiosk
+software](http://www.linux.com/community/blogs/133-general-linux/728387-how-to-turn-a-pc-into-a-linux-web-kiosk).
