@@ -17,3 +17,5 @@ if you want to learn more.
 We also recently contributed a [linux.com blog explaining the nuances that go
 into Webconverger, that make it the best Web kiosk
 software](http://www.linux.com/community/blogs/133-general-linux/728387-how-to-turn-a-pc-into-a-linux-web-kiosk).
+
+[Please download the latest release](http://dl.webconverger.com/latest.iso) and we would love to hear from you!
