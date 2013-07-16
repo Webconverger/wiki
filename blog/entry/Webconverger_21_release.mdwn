@@ -1,3 +1,5 @@
+<img src="/img/webrtc.png" alt="WebRTC in action">
+
 * [Firefox 22](http://www.mozilla.org/en-US/firefox/22.0/releasenotes/) and Flash security updates
 * Fixed an issue whereby the installer would not show up on a small subset of machines
 * Upgraded to syslinux 6 which should make the boot experience slightly smoother
