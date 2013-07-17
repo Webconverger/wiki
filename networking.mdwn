@@ -17,8 +17,6 @@ Preferably you set this in your DHCPD, however you can override DNS for example 
 
 This is implemented by [resolvconf script](https://github.com/Webconverger/webc/blob/master/etc/webc/network-up.d/resolvconf)
 
-This is required for setting up [[filtering]] services like OpenDNS.
-
 ### Static IP networking via [[boot]] command line on the Live version
 
 We defer to using

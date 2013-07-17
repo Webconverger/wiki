@@ -75,17 +75,9 @@ reset Webconverger to your site every say, 3 minutes. This can help avoid an
 unsupervised Webconverger kiosk being set on a non-mandated Website for too
 long in public spaces.
 
-# Using a 3rd party DNS service for comprehensive filtering
+# OpenDNS alternative
 
-[OpenDNS](http://www.opendns.com/) provide a comprehensive [filtering
-service](http://www.opendns.com/web-filtering/). [Case
-studies](http://www.opendns.com/resources/customer-showcase/#tab=case-study).
-
-You can open an account with OpenDNS directly or go through Webconverger.com's
-sales who are resellers of the product. sales@webconverger.com can generally
-get a better deal for you per seat because we buy OpenDNS services in blocks.
-
-This uses the `dns=` [[API]]
+We are working on an OpenDNS alternative. Do enquire to learn more.
 
 # Further un-supported options
 

@@ -1,12 +1,12 @@
 [[!meta title="Checklist for making a release"]]
 
-1. Tag [webc](https://github.com/Webconverger/webc) and [Debian Live config](https://github.com/Webconverger/Debian-Live-config) - `git tag -s 13.0 && git push origin 13.0` (you might need to copy across keys into /root/.gnupg temporarily)
-* Build it `h2:~# /srv/www/build.webconverger.org/webc-build.sh`
+1. Tag [webc](https://github.com/Webconverger/webc) and [Debian Live config](https://github.com/Webconverger/Debian-Live-config) - `git tag -s 13.0 && git push origin 13.0`. Permission problems? `sudo chown -R $USER:root .git`
+* Build it `uk# /srv/www/build.webconverger.org/webc-build.sh`
 * [[Test|testing]] it
 * Just debug.log [[ping|privacy]], check clients config fetch
-* On hetty, run `download.webconverger.org$ cp /srv/www/build.webconverger.org/output/webc-13.0.* .`
-* Sync `www$ ./download-mirror.sh`, back up old release to http://archive.webconverger.com/
+* On uk, run `download.webconverger.org$ cp /srv/www/build.webconverger.org/output/webc-13.0.* .`
 * Update .htaccess
+* Sync `www$ ./download-mirror.sh`, back up old release to http://archive.webconverger.com/
 * Download text files for diff
 	git diff --color-words --no-index  webc-12.3.txt webc-13.0.txt | ansi2html > ~/wikis/webconverger-org.branchable.com/changes/12.3-13.0.mdwn
 * Blog release notes, for [example](http://webconverger.org/blog/entry/Webconverger_13_release_notes/)
