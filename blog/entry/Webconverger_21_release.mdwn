@@ -6,7 +6,7 @@
 * Re-introduced support for [[allowing popups via the prefs= API|Popups_and_SSL_warnings]]
 * `prefs=` API has been beefed up so you can practically script Firefox to do whatever you want using [autoconfig](http://mike.kaply.com/2012/03/16/customizing-firefox-autoconfig-files/) files
 * Removed the proprietary Google talkplugin in favour of [WebRTC](http://www.webrtc.org/) e.g. <https://talky.io/>
-* ttf-liberation fonts are back to improve compatibility to Windows renderings
+* ttf-liberation fonts are back to improve compatibility with Windows renderings
 
 In other news we are [working on a Webconverger Raspberry PI
 port](http://www.youtube.com/watch?v=3SJb9RESlaY), FINALLY! With the caveat
