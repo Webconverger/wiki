@@ -121,3 +121,5 @@ Assuming you are running a Virtualbox instance, sharing a bridged adaptor. On th
 
 	sudo tcpdump -w /tmp/foo.pcap -s 0 -n -i wlan0 dst 192.168.1.136 and not port 53
 	wireshark -r /tmp/foo.pcap
+
+`lpstat -t` is a good way to list CUPS printers to see how they are configured on a running Webconverger system.
