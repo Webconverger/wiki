@@ -6,20 +6,21 @@ is network failure**. So you can ultimately expect to see a log of "false
 negatives" with your monitoring. That is Webconverger is fully operational, but
 somehow between you and your kiosk, the network connection was disrupted.
 Webconverger is fault tolerant and designed to retry the network when
-disconnected, so when it's back on, it's back to functional.
+disconnected, so when network connectivity returns, Webconverger is functional
+straight away.
 
 What I don't want to see is use of "graphical desktop sharing system" tools
 like VNC for IT administrators to invade the privacy of users, which [I have
 seen in Asia](https://dukgo.com/blog/webconverger-interview). There is **really
 no need to view a users screen** in Webconverger.  Webconverger can be
-configured to reset if a user just leaves the station with
-[[kioskresetstation|blanking]].
+configured to reset if a user just leaves the station without closing the last
+tab with [[kioskresetstation|blanking]].
 
 So here are some options to check your kiosk machine is alive:
 
 ### ping
 
-Super simple. 1ping1 the IP of your kiosk machine. If pings fail to be returned, you know you have a problem.
+Super simple. `ping` the IP of your kiosk machine. If pings fail to be returned, you know you have a problem.
 
 In practice you need to have stable IP addressing. You probably want to run a
 tool like [Nagios](http://www.nagios.org/) to alert you by email if something
@@ -36,7 +37,7 @@ And than will expand and be seen in your Web servers logs:
 
 	example 127.0.0.1 - - [06/Aug/2013:10:38:43 +0800] "GET /?id=B69E3A64-898C-11E1-BBA0-8CCB39332B00;44:37:e6:9a:3b:51 HTTP/1.1" 200
 
-So typically after a kiosk is used, the station is reset and your homepage reloaded. Now you can monitor this event in your logs.
+So typically after a kiosk is used, the station is reset and your homepage reloaded. Now you can monitor this event from your logs.
 
 ### support.webconverger.com
 
@@ -54,22 +55,25 @@ monitoring.
 
 ### log=
 
-Remote logging is documented already in [[API]], though this ability combined
-with your logging endpoint, shows all Webconverger logs. So here the client
+Remote logging as documented in the [[API]] reference, is the ability combined
+with your logging endpoint to show all Webconverger logs. So here the client
 effectively pushes every 5 minutes a message that you can track, saying that
 the machine is alive and well.
+
+It's probably the best method to detect hardware issues, though this is a very
+advanced practice.
 
 ### Could we do it better?
 
 We don't run any
 [SNMP](http://en.wikipedia.org/wiki/Simple_Network_Management_Protocol)
 services on Webconverger. If there is demand from you, we certainly can
-consider it. This would effectively a be a better defined `log=` functionality.
+consider it. This would effectively be a better defined `log=` functionality.
 
 We also do have a system only used in [Neon digital
-signage](http://neon.webconverger.com/) that uses ssh for very active
+signage](http://neon.webconverger.com/) that uses `ssh` for very active
 monitoring that would be unsuitable for Web kiosks due to the risk to a users
-privacy.
+privacy. This allows is to be flexible and better track memory issues in signs.
 
 # Webconverger uptime monitoring summary
 
