@@ -1,6 +1,6 @@
 [[!meta title="Updating Firefox for a Webconverger developer"]]
 
-	<http://getfirefox.com>
+<http://getfirefox.com>
 
 	sudo mv firefox/ /home/hendry/debian/sid-root/root/webconverger/chroot/tmp
 
@@ -14,11 +14,12 @@ Using the **firefox-i18n** packaging from Archlinux:
 
 Check for invalid XML: `find -name '*.xml' -o -name '*.rdf' | xargs xmlstarlet val | grep inv`
 
+Delete searchplugins since they are not needed, except DDG.
+
 # Doing an update
 
 	/opt# cp -ra firefox-old/browser/extensions/ firefox/browser/
 	/opt# cp -ra firefox-old/browser/defaults/ firefox/browser/
-	/opt# cp -ra firefox-old/langpacks/ firefox
 
 Remove crash reporter
 

@@ -1,13 +1,17 @@
-[[!meta title="Network filtering options"]]
+[[!meta title="Network filtering / censorship options"]]
 
 # Limiting users to your Website
 
 <img src="/chrome/webcnoaddressbar.png" alt="No addressbar" />
 
-The easiest way to limit users to your Website, in your [customisation
-order](http://webconverger.com) please specify
-[[chrome=webcnoaddressbar|kiosk]]. This modifies the User Interface to remove
-the URL addressbar, so that users can't navigate away from your homepage.
+The easiest way to limit users to your Website, in your order is to select
+"User interface without URL address bar, used for limiting users to your
+homepage" or the advanced API command [[chrome=webcnoaddressbar|kiosk]]. This
+modifies the User Interface to remove the URL addressbar, so that users are
+effectively walled into your homepage and its links.
+
+Beware your homepage's external link might link to Google and allow that user
+to browse effectively anywhere.
 
 # Simple filtering with the hosts= API
 
@@ -17,10 +21,6 @@ It's by no means fool-proof, and you need to be able to create the file
 yourself for the time being on a public URL since we don't offer a
 configuration Web user-interface for it atm.
 
-This feature was introduced in
-[839dde](https://github.com/Webconverger/webc/commit/839dde7388bbf1a466191ca28d72b4419d17ad39)
-and if you are using the install version, you will automatically just get this.
-
 Note the hosts file is only setup on boot, so if you change the `hosts=` file
 you need to reboot the machine for it to take affect of any modified rules.
 
@@ -29,8 +29,6 @@ unprotected. We will make this feature more failsafe, i.e. if the hosts file
 fails to download, it will show a graphic to that affect and halt.
 
 ## iptables API
-
-From Webconverger 18 there is a simple [iptables API](https://github.com/Webconverger/webc/commit/68b8445a0e919641d7ecdf24eca7352d47bdb77e).
 
 [Iptables man page](http://manpages.debian.net/cgi-bin/man.cgi?query=iptables)
 
@@ -77,7 +75,7 @@ long in public spaces.
 
 # OpenDNS alternative
 
-We are working on an OpenDNS alternative. Do enquire to learn more.
+We are working on an OpenDNS, DNS black listing alternative. Do enquire to learn more.
 
 # Further un-supported options
 
@@ -106,7 +104,7 @@ limit WAN access under Access Restrictions to:
 ### Cons
 
 * An additional PC must be installed
-* Networkinterfaces must be separated physically
+* Network interfaces must be separated physically
 * No multi-WAN connections
 * AddOns can only be installed by using a shell
 
