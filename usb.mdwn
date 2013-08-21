@@ -1,11 +1,6 @@
 [[!meta title="Preparing a USB stick to boot Webconverger"]]
 
-Why USB stick boot?
-
-* Just as fast as a hard drive in many cases
-* Does not touch any existing disks on your computer when it Live boots so it's great for trialling. Remove thumb drive and the machine is back to how it was before
-* USB boot works generally works with computers made since 2004
-* Advanced: You can actually install from a USB stick, to another USB stick, so that it's read/write formatted and [has the ability to upgrade from 17.0](http://webconverger.org/blog/entry/Webconverger_17.0_release/)
+## Webconverger is runs from a USB memory stick that is plugged into the rear of your kiosk computer.  You may either purchase a pre-installed memory stick, or you may create one yourself.  Below are a series of instructions to help you do either.
 
 Any generic USB stick greater than 0.5G should be fine.  Alternatively you can
 order a preloaded [Webconverger stick at
