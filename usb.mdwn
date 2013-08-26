@@ -1,12 +1,12 @@
 [[!meta title="Preparing a USB stick to boot Webconverger"]]
 
-## Webconverger is runs from a USB memory stick that is plugged into the rear of your kiosk computer.  You may either purchase a pre-installed memory stick, or you may create one yourself.  Below are a series of instructions to help you do either.
+## Webconverger runs from a USB memory stick that is plugged into the rear of your kiosk computer.  You may either purchase a pre-installed memory stick, or you may create one yourself.  Below are a series of instructions to help you do either.
 
-Any generic USB stick greater than 0.5G should be fine.  Alternatively you can
-order a preloaded [Webconverger stick at
+Any generic USB stick greater than 0.5G should be fine. You can order a
+preloaded [Webconverger stick at
 OSDisc](http://www.osdisc.com/cgi-bin/view.cgi/products/linux/webconverger).
 
-## How to replace the contents of a USB stick with the Webconverger ISO-hybrid downloaded file using Microsoft Windows
+# Using Microsoft Windows
 
 <iframe width="560" height="315" src="http://www.youtube.com/embed/ji2JADVf694" frameborder="0" allowfullscreen></iframe>
 
@@ -29,7 +29,7 @@ If you re-insert the USB key once specially formatted with Webconverger,
 Windows may ask if it should format the USB stick. Ignore this, it's because
 Windows doesn't understand the filesystem now on your USB stick.
 
-## How to replace the contents of a USB stick with the Webconverger ISO-hybrid downloaded file using Linux
+# Using Linux
 
 `dmesg` or `fdisk -l` will list your inserted USB drive - usually /dev/sdx ("x"
 representing letter like sdb, sdc etc.).
@@ -38,11 +38,11 @@ representing letter like sdb, sdc etc.).
 
 You might find specifying the additional argument `bs=1M` makes it faster.
 
-## How to replace the contents of a USB stick with the Webconverger ISO-hybrid downloaded file using MacOSX
+# Using MacOSX
 
 Please follow our step-by-step [[MacOSX_guide_with_pictures|macosx_usb]].
 
-# Configuring your PC to boot the USB key instead of your hard drive
+## Configuring your PC to boot the USB key instead of your hard drive
 
 <iframe width="560" height="315" src="http://www.youtube.com/embed/-EaYTPbfuhI" frameborder="0" allowfullscreen></iframe>
 
