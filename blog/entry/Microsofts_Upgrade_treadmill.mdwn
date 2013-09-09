@@ -3,17 +3,17 @@ assume you are getting "Windows for free", though the fact is you are paying a
 [Microsoft tax](http://en.wikipedia.org/wiki/Bundling_of_Microsoft_Windows),
 which impedes the competitiveness of PCs and makes Microsoft a monopoly.
 
-[Windows XP support Ends April 8, 2014](http://www.microsoft.com/en-us/windows/endofsupport.aspx)
+[Windows XP support ends April 8, 2014](http://www.microsoft.com/en-us/windows/endofsupport.aspx)
 
-What does "support Ends" mean? That means running a Windows XP machine after
-this date will **expose you to security risks** since your Microsoft operating
-system will not be offering ongoing security patches.
+What does "support ends" mean? It means that running a Windows XP machine after
+this date will **expose you to security risks** because Microsoft
+will not be providing ongoing security patches.
 
-You then are typically faced with a [decision to spend 150USD per computer to
+You are then typically faced with a [decision to spend 150USD per computer to
 upgrade to Windows
-7](http://community.spiceworks.com/topic/368088-any-good-articles-explaining-windows-xp-end-of-life-to-end-users).
-Unless you are one of the "lucky" few who can pay additional 200
-dollar/year/box for [Custom
+7](http://community.spiceworks.com/topic/368088-any-good-articles-explaining-windows-xp-end-of-life-to-end-users),
+unless you are one of the "lucky" few who can pay additional 200
+dollars per year per box for [Custom
 Support](http://www.pcworld.com/article/2047768/microsoft-will-still-patch-windows-xp-for-a-select-group.html).
 
 However, [Windows 7 end of mainstream support ends in less than 500 days.](http://support.microsoft.com/lifecycle/search/default.aspx?alpha=windows+7)
@@ -24,15 +24,15 @@ Webconverger is making a unique offer that no other operating system vendor is
 making.
 
 If you buy a subscription for your hardware, we promise to support that machine
-**forever**. As long as our company survives.
+**forever**. For as long as our company survives.
 
 The only caveat is that a lifetime "one off" subscription is fixed to a
 particular machine identity and is non-transferable.
 
-Webconverger provides more than just an Windows operating system. We provide
-everything upto the browser and ensure it is tested and patched with the
+Webconverger provides more than just a windowed operating system. We provide
+everything up to the browser and ensure it is tested and patched with 
 [[security|security updates]].
 
 If you think your hardware will last more than two years, we highly recommend
-our "one off" offer as documented on the [pricing
+our one off offer as documented on the [pricing
 page](http://webconverger.com/pricing/).
