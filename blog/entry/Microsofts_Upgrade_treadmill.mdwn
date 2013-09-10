@@ -31,7 +31,7 @@ particular machine identity and is non-transferable.
 
 Webconverger provides more than just a windowed operating system. We provide
 everything up to the browser and ensure it is tested and patched with 
-[[security|security updates]].
+[[security updates|security]].
 
 If you think your hardware will last more than two years, we highly recommend
 our one off offer as documented on the [pricing
