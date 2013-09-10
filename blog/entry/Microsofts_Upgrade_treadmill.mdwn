@@ -16,12 +16,16 @@ unless you are one of the "lucky" few who can pay additional 200
 dollars per year per box for [Custom
 Support](http://www.pcworld.com/article/2047768/microsoft-will-still-patch-windows-xp-for-a-select-group.html).
 
-However, [Windows 7 end of mainstream support ends in less than 500 days.](http://support.microsoft.com/lifecycle/search/default.aspx?alpha=windows+7)
+However, [Windows 7 end of mainstream support ends in less than 500
+days.](http://support.microsoft.com/lifecycle/search/default.aspx?alpha=windows+7)
+And lets be honest, upgrading an Enterprise to a new Windows release is
+absolutely non-trivial.
 
-# Webconverger's lifetime subscription
+# Webconverger's lifetime subscription keeps your PC permanently patched
 
-Webconverger is making a unique offer that no other operating system vendor is
-making.
+Webconverger is making a unique "PC hardware saving" offer that no other
+software vendor is making. With Webconverger there is no need to retire an old
+PC. We don't force you to upgrade at cost like Microsoft effectively does.
 
 If you buy a subscription for your hardware, we promise to support that machine
 **forever**. For as long as our company survives.
@@ -33,6 +37,10 @@ particular machine identity and is non-transferable, as described in our
 Webconverger provides more than just a windowed operating system. We provide
 everything up to the browser and ensure it is tested and patched with
 [[security updates|security]].
+
+We will endeavour to make our software operating system not require more
+resources as time goes on, like Microsoft does. We will endeavour to keep a
+stable, simple and familiar browsing experience for many many years to come.
 
 If you think your hardware will last more than two years, we highly recommend
 you take advantage of our **one off** offer as documented on the [pricing
