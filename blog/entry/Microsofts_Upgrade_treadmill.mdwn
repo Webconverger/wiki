@@ -27,12 +27,13 @@ If you buy a subscription for your hardware, we promise to support that machine
 **forever**. For as long as our company survives.
 
 The only caveat is that a lifetime "one off" subscription is fixed to a
-particular machine identity and is non-transferable.
+particular machine identity and is non-transferable, as described in our
+[[Terms]].
 
 Webconverger provides more than just a windowed operating system. We provide
-everything up to the browser and ensure it is tested and patched with 
+everything up to the browser and ensure it is tested and patched with
 [[security updates|security]].
 
 If you think your hardware will last more than two years, we highly recommend
-our one off offer as documented on the [pricing
+you take advantage of our **one off** offer as documented on the [pricing
 page](http://webconverger.com/pricing/).
