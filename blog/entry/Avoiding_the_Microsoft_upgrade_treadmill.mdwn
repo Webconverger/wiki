@@ -12,10 +12,7 @@ will not be providing ongoing security patches.
 Usually that means businesses have to get rid of perfectly capable PC hardware
 and buy new PCs! Or you can opt for Microsoft upgrade where you are typically
 faced with a [150USD spend per PC to upgrade to Windows
-7](http://community.spiceworks.com/topic/368088-any-good-articles-explaining-windows-xp-end-of-life-to-end-users),
-unless you are one of the "lucky" few who can pay additional 200 dollars per
-year per box for [Custom
-Support](http://www.pcworld.com/article/2047768/microsoft-will-still-patch-windows-xp-for-a-select-group.html).
+7](http://community.spiceworks.com/topic/368088-any-good-articles-explaining-windows-xp-end-of-life-to-end-users).
 
 However, [Windows 7 end of mainstream support ends in less than 500
 days.](http://support.microsoft.com/lifecycle/search/default.aspx?alpha=windows+7)
