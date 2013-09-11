@@ -24,7 +24,7 @@ absolutely non-trivial.
 
 # Webconverger's lifetime subscription keeps your PC permanently patched
 
-We are delivering a unique, disruptive "PC hardware saving" offer that no other
+We are first with a unique, disruptive "PC hardware saving" offer that no other
 software vendor is making. With Webconverger's [one off
 pricing](http://webconverger.com/pricing/) there is no need to retire an old
 PC. We do not force you to upgrade at cost like Microsoft effectively does.
