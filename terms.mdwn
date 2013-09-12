@@ -15,6 +15,25 @@ your, etc to mean the customer to whom we are providing services.  We are
 Webconverger Limited, a company registered in England and Wales number 6366403
 and in Singapore number 201211208C.
 
+### Webconverger subscription terminology versus license
+
+To avoid confusion with the opensource licensed Webconverger PC operating
+system, we prefer to sell our managed PC services as "subscriptions" and not as
+"licenses" as our competitors typically do.
+
+Each subscription is mapped to a machine identity; a unique combination of a
+PC's motherboard identifier and its MAC address.
+
+### One off subscriptions
+
+A "one off" subscription is fixed to a particular machine identity and is
+non-transferable. Once you have paid for the one‐off subscription, unless we
+render any professional services to you for customisation, you shall not have
+any ongoing liability to us for payment.
+
+By purchasing a one off subscription, you are allowed to continue using the
+product for as long as it is on the machine that it is mapped to.
+
 ### Limitations of liability
 
 We understand that ongoing operation of services we provide is important to you
@@ -23,8 +42,9 @@ reasons. It is also possible for us to make mistakes.  As such we expect you to
 take whatever precautions or insurances against such failure or mistakes as you
 see fit, including situations where we may be negligent.
 
-We limit any liability for consequential losses or tort or any other liabilities
-to the amount that you paid.
+Both parties liability for direct losses is limited to the amount that you paid
+for the product or service.. Neither party shall be liable for any
+consequential or indirect losses howsoever arising.
 
 If we are negligent, then we accept that we have liability. We require you to
 prove we have been negligent in such cases. We require you to demonstrate
@@ -49,6 +69,12 @@ are agreeing to these limits of liability.
 These terms do not affect your statutory rights, and apply to the full extent
 that the law permits them to within those rights.
 
+Webconverger takes responsibility of any Intellectual Property rights issues
+arising from our product.  We will indemnify you if, by using our products or
+services as contemplated by this agreement, you are found to be in breach of a
+third party's intellectual property rights and such indemnity shall not be
+limited by the above clauses.
+
 ### License of Webconverger
 
 The Webconverger operating system is based on opensource software, with notable
@@ -59,15 +85,19 @@ Webconverger built images can display the logo and can be sold as
 
 ### Services
 
-Services of Webconverger are our support, the [configuration
-manager](http://config.webconverger.com) and our customised ISOs.
+Services of Webconverger include the support provided by us for the products
+and/or services you have purchased and the [configuration
+manager](http://config.webconverger.com).
 
 If you derive services from us, you must maintain a subscription, i.e. you must
-pay for services you use.
+have paid for services you use.
 
-If you fail to maintain a subscription for example by missing payment, we
-reserve the right to terminate service and reset Webconverger to its
-unconfigured defaults.
+If you fail to to pay for a subscription to use the product, we reserve the
+right to terminate the service and reset Webconverger to its unconfigured
+defaults.
+
+We warrant that the product will perform substantially in accordance with its
+specification.
 
 ### Termination
 
@@ -75,38 +105,37 @@ Termination of service means the nullification of your configuration, which in
 turn resets Webconverger to its defaults. Webconverger at its unconfigured or
 uncustomised defaults can be used without payment.
 
-It is a violation of the contract to circumvent termination, by for example
-using a customised ISO without paying. You must continue to pay or stop using
-the service. We are able to tell if customers are using customised ISOs without
-payment by our ping service described in [[privacy]].
+It is a violation of the contract to circumvent termination. You must continue
+to pay or stop using the service.
 
 ### Privacy policy
 
-Please refer to the [Webconverger privacy policy](http://webconverger.org/privacy/).
+The [Webconverger privacy policy](http://webconverger.org/privacy/) forms part
+of this Agreement.
+
+During this Agreement either party may provide the other with confidential
+information. Each party recognises and agrees that a breach of such
+confidentiality may cause irreparable harm and damages may not be an adequate
+remedy. Each party indemnifies the other in respect of any breach of
+confidential information and such indemnity shall not be limited by the
+Limitations of Liability clause above.
 
 ### Service levels
 
-Our [service levels](http://webconverger.org/sla/) are supplied on a best
-effort basis.
-
-### Webconverger subscription terminology versus license
-
-To avoid confusion with the opensource licensed Webconverger PC operating
-system, we prefer to sell our managed PC services as "subscriptions" and not as
-"licenses" as our competitors typically do.
-
-Each subscription is mapped to a machine identity; a unique combination of a
-PC's motherboard identifier and its MAC address. A "one off" subscription is
-fixed to a particular machine identity and is non-transferable.
+Our service levels are supplied on a best efforts basis and in accordance with
+the [Webconverger service level agreement](http://webconverger.org/sla/) and
+form part of this Agreement.
 
 ### Refunds
 
-We offer a 30 day money back guarantee once service has begun. So if you begun
-trial at the start of the month, made payment at the beginning of the second
-week, you have until the end of that month to cancel for a refund.
+We offer a 30 day money back guarantee once service has begun. So if you began
+trial at the beginning of the month, and made payment at the beginning of the
+second week, you have until the end of that month to cancel the service and
+receive a full refund.
 
-We will immediately terminate service and return your money minus payment
-transaction fees within 30 days after receiving notice.
+Upon your written notice (including email) to us to cancel the service, we will
+immediately terminate the service and return your money minus any payment
+transaction fees within 30 days after receiving the notice.
 
 ### Payment fees
 
@@ -116,9 +145,11 @@ For bank transfers you must bear all the costs of the bank transfer.
 
 Unless we agree otherwise, invoices are due for payment immediately. We are
 prepared to agree terms such as 14 days, 30 days or end of following month at
-our discretion. Credit is not automatic or a right and we may withdraw or
-change credit terms for future invoices if we wish. If you do not agree to the
-terms stated on the invoice you must contact us immediately.
+our discretion and as notified to you in writing (including by email).
+
+Credit is not automatic or a right and we may withdraw or change credit terms
+for future invoices if we wish but upon notice to you. If you do not agree to
+the terms stated on the invoice you must contact us immediately.
 
 ### Misc
 
@@ -133,6 +164,6 @@ These terms are not intended to benefit any third party as per Contracts
 
 We may anonymously quote your bug reports on our public bug tracker.
 
-We may anonymously quote comments from any emails or comments we receive unless
-you specifically say we can't, e.g. for our testimonials page. We will normally
-ask first.
+We may anonymously quote comments from any emails or comments we receive from
+you unless you specifically say we can't, e.g. for our testimonials page. We
+will ask first.
