@@ -37,8 +37,8 @@ Webconverger provides more than a better operating system. We provide
 everything up to the browser and ensure it is tested and patched with
 [[security updates|security]].
 
-We will endeavour to make our software operating system not require more
-resources as time goes on, like Microsoft does. We will endeavour to keep a
+We will endeavour to make our software operating system **not** require more
+resources as time goes on, unlike Microsoft. We will endeavour to keep a
 stable, simple and familiar browsing experience for many many years to come.
 
 If you think your PC hardware will last more than two years, we highly recommend
