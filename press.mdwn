@@ -24,6 +24,7 @@ Web feedback
 * [Interview by DDG](https://dukgo.com/blog/webconverger-interview)
 * [reddit](http://www.reddit.com/r/linux/comments/117uuj/webconverger_a_gnulinux_distribution_for_kiosks/)
 * [Czech article](http://www.linuxexpres.cz/distro/webconverger-linux-pro-internetovy-kiosek)
+* [Italian PC magazine mention](http://www.pcprofessionale.it/2012/11/08/webconverger-ti-porta-sul-web-proteggendo-la-tua-privacy/)
 * [Slashdot](http://tech.slashdot.org/story/12/10/09/163210/os-upgrades-powered-by-git)
 * [Twitter](http://search.twitter.com/search?q=webconverger)
 * [Google blog search](http://blogsearch.google.com/blogsearch?hl=en&q=webconverger&btnG=Search+Blogs)
@@ -51,7 +52,6 @@ Printed Media
 Foreign Language
 ================
 
-
 * [ZoneFirefox ES](http://www.zonafirefox.net/2007/04/webconverger-el-sistema-operativo.html)
 * [Portuguese coverage](http://debuxos.blogspot.com/2007/04/ferramentas-informticas-gratuitas-on_19.html)
 * [Web 2.0 OS in Spanish](http://kernelsource.org/2007/04/18/webconverger-un-livecd-para-el-web-20/)
@@ -59,6 +59,8 @@ Foreign Language
 Quoted positive feedback
 ========================
 
+* These guys have a really great product <strong>Webconverger is the best kiosk OS</strong> out there - and we tried a LOT of them!  --John Wolf at <a href="https://www.medlabcares.com">MedlabCares</a>
+* I have deployed two new Webconverger kiosks. They are simply AWESOME!  I have worked with LTSP terminals in schools, public internet stations, etc. but your solution is so well done. It is easy. It is fast and simple - obviously a very slim linux build in the background.  Kudo's for a fantastic job! -- Joe Guenther <http://oldscollege.ca/>
 * ... your product is incredible.  We haven't rolled out many of our users with the CD -- but it works perfectly when we do. [Jackson from Pawpawmail.com](http://pawpawmail.com)
 * [Thank you very much for such a wonderful product](https://groups.google.com/d/msg/webc-users/8m_DDHwNnRA/7iG3U7gNTDkJ)
 * I was looking for a Linux Live CD to do online banking and webc is the best solution out there. I'll suggest it to friends and forumers. Thank you. from M
