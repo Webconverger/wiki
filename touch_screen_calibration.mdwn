@@ -29,6 +29,14 @@ Which when `encodeURI`-ed, becomes:
 	xinput=set-prop%209%20%22Evdev%20Axis%20Calibration%22%200%204132%200%204135
 	xinput=set-prop%209%20%22Evdev%20Axes%20Swap%22%201
 
+# Grab and Drag
+
+<https://addons.mozilla.org/en-us/firefox/addon/grab-and-drag/> can be activated with the [[API]] option:
+
+	grabdrag
+
+This was introduced in <https://github.com/Webconverger/webc/commit/8a3a606d23b415114eacba6ca17b39a0103bdb2c>
+
 # Wide scrollbars
 
 Append to your configuration:
