@@ -21,6 +21,7 @@ Web feedback
 ============
 
 * [European commission joinup](https://joinup.ec.europa.eu/community/osor/news/linux-based-kiosk-pcs-assists-visitors-town-hall-dutch-uden)
+* [Spanish blog](http://www.scsintl.com/apps/blog/show/33544530-configura-tu-computador-como-navegador-web-anonimo-con-webconverger)
 * [Interview by DDG](https://dukgo.com/blog/webconverger-interview)
 * [reddit](http://www.reddit.com/r/linux/comments/117uuj/webconverger_a_gnulinux_distribution_for_kiosks/)
 * [Czech article](http://www.linuxexpres.cz/distro/webconverger-linux-pro-internetovy-kiosek)
