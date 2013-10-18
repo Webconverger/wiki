@@ -87,6 +87,10 @@ Disables the default [Mozilla PDF](https://mozillalabs.com/en-US/pdfjs/) viewer,
 * <https://bugzilla.mozilla.org/show_bug.cgi?id=811002>
 * <https://bugzilla.mozilla.org/show_bug.cgi?id=844090> also see [#146](https://github.com/Webconverger/webc/issues/146)
 
+# Setting default paper type to A4
+
+	pref("print.postscript.paper_size", "A4");
+
 # Printing to a [PDF file](http://en.wikipedia.org/wiki/PDF) to a remote machine on your network
 
 <a href="http://www.flickr.com/photos/hendry/8596195071/" title="2013-03-28_12.44.21 by Kai Hendry, on Flickr"><img src="http://farm9.staticflickr.com/8226/8596195071_bfea8255c9_z.jpg" width="640" height="480" alt="2013-03-28_12.44.21"></a>

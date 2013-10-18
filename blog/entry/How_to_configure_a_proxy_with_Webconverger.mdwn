@@ -1,0 +1,23 @@
+<video controls width=640 height=360>
+<source src=http://r2d2.webconverger.org/2013-10-18/proxy-setup-webconverger.webm type=video/webm>
+<source src=http://r2d2.webconverger.org/2013-10-18/proxy-setup-webconverger.mp4 type=video/mp4>
+</video>
+
+As documented in the [[API]] page, `http_proxy=IP:PORT` is used to specify a proxy.
+
+Ideally you organisation uses a [transparent
+proxy](http://en.wikipedia.org/wiki/Proxy_server#Transparent_proxy) where this
+configuration is not necessary.
+
+In the video above I demonstrate typically how you would set Webconverger up
+for a [oroxy server](http://en.wikipedia.org/wiki/Proxy_server).  However a
+potential problem is if you boot from an [install
+version](http://config.webconverger.com/faq/#what-do-you-mean-by-live-version-and-install-version)
+your proxy might not allow direct access to <https://config.webconverger.com/>,
+meaning you won't get your proxy configuration applied.
+
+In this case you need to hold the Alt or Shift keys to get a `boot:` prompt to
+pass the appropriate `http_proxy=` line, as mentioned on the [[debug]] page.
+Again ideally your network can be configured to always allow access to
+<https://config.webconverger.com/>, so that special configurations like a proxy
+server can be retrieved successfully and applied.
