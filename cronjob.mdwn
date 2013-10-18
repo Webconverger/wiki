@@ -50,3 +50,19 @@ To pass this as a configuration to Webconverger, it needs to be `encodeURI` on [
 	cron=00%2018%20*%20*%20*%20root%20poweroff
 
 Hint for developers: The script [live-config](https://github.com/Webconverger/webc/blob/master/etc/webc/live-config.sh) writes out the cronjob.
+
+## My machine is not shutting down at the specified time / my time is wrong
+
+In your logs, which can retrieved using the `support` [[API]] and
+<http://support.webconverger.com/> service, you will probably see:
+
+	ntpdate[9748]: no server suitable for synchronization found
+
+Which as documented upon
+<http://www.eecis.udel.edu/~ntp/ntpfaq/NTP-s-trouble.htm#AEN4972>, meaning your
+network is most likely filtering <abbr title="Network Time Protocol">NTP</abbr>
+time synchronization packets.
+
+The ideal way to fix this is to let your network/firewall administrator know.
+
+Else as a workaround, ensure correct BIOS time.
