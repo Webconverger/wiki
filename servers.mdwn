@@ -45,7 +45,7 @@ serving <http://webconverger.com>
 A bottom of the range [Digital Ocean droplet](https://www.digitalocean.com/?refcode=37b3b1850b32) with
 
 * 512MB Ram 20GB SSD Disk Amsterdam 1 Arch Linux 2013.05 x64
-* 1 TB pcm bandwidth (that's 3x more than other VPS providers)
+* 1 TB pcm bandwidth (that's 3x more than most other VPS providers)
 * 5USD a month
 
 Uses:
@@ -53,6 +53,17 @@ Uses:
 * DNS service backup
 * European mirror
 * Backups
+
+# gb.webconverger.com
+
+Hosted with [Linode](https://www.linode.com/?r=59198f21b93910b67d8e1e4212a3135343941aae)
+
+* Linode 1024
+* London, England, UK
+* 645GB Quota
+* 20USD pcm
+
+Will replace uk.webconverger.com
 
 # uk.webconverger.com
 
