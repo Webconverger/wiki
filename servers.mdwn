@@ -15,8 +15,9 @@ We probably should think about setting up mirrors and reaching out to the commun
 
 # sg.webconverger.com
 
-A [GPLHOST VPS package 4](https://dtc.node6503.gplhost.com/dtc/affiliation.php?affiliate=kaihendry&return=/hosting-vps.html) Debian
-configured machine for development, hosted in Singapore.
+A [GPLHOST VPS package
+4](https://dtc.node6503.gplhost.com/dtc/affiliation.php?affiliate=kaihendry&return=/hosting-vps.html)
+Debian configured machine for development, hosted in Singapore.
 
 * 30USD a month
 * [Control panel](https://dtc.node6503.gplhost.com/dtc/)
@@ -39,13 +40,26 @@ webconverger.com hosted by [Dreamhost](http://www.dreamhost.com/r.cgi?104617)
 in California - 120USD (~75GBP) a year responsible for archives, backups and
 serving <http://webconverger.com>
 
+# nl.webconverger.com
+
+A bottom of the range [Digital Ocean droplet](https://www.digitalocean.com/?refcode=37b3b1850b32) with
+
+* 512MB Ram 20GB SSD Disk Amsterdam 1 Arch Linux 2013.05 x64
+* 1 TB pcm bandwidth (that's 3x more than other VPS providers)
+* 5USD a month
+
+Uses:
+
+* DNS service backup
+* European mirror
+* Backups
+
 # uk.webconverger.com
 
-Our VPS name is **webc** (85.119.83.83), which is hosted by
-[Bitfolk](http://bitfolk.com) based in London, England - ~200GBP year
+Hosted by [Bitfolk](http://bitfolk.com) based in London, England - ~200GBP year
 
 * [Configuration service](http://config.webconverger.com)
-* 300GB quota
+* 400GB quota
 * [Support service](http://support.webconverger.com/)
 * [Download service](http://dl.webconverger.com/)
 * [Ping/Statistics service](http://ping.webconverger.org)
