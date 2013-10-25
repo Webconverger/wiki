@@ -8,7 +8,7 @@ transfer about 40GB a day, or 1 Terabyte a month.
 
 On [AWS S3](http://aws.amazon.com/s3/), transferring 1TB is ~122USD. 1024GB * $0.120 per GB = ~122USD
 
-The annoying thing about Bitfolk/GPLhost is that you need to somehow buy your
+The annoying thing about GPLhost is that you need to somehow buy your
 bandwidth in advance and it can be tricky to predict.
 
 We probably should think about setting up mirrors and reaching out to the community.
@@ -51,10 +51,11 @@ A bottom of the range [Digital Ocean droplet](https://www.digitalocean.com/?refc
 Uses:
 
 * DNS service backup
+* Block page
 * European mirror
 * Backups
 
-# gb.webconverger.com
+# uk.webconverger.com (gb)
 
 Hosted with [Linode](https://www.linode.com/?r=59198f21b93910b67d8e1e4212a3135343941aae)
 
@@ -62,26 +63,11 @@ Hosted with [Linode](https://www.linode.com/?r=59198f21b93910b67d8e1e4212a313534
 * London, England, UK
 * 645GB Quota
 * 20USD pcm
-
-Will replace uk.webconverger.com
-
-# uk.webconverger.com
-
-Hosted by [Bitfolk](http://bitfolk.com) based in London, England - ~200GBP year
-
 * [Configuration service](http://config.webconverger.com)
-* 400GB quota
 * [Support service](http://support.webconverger.com/)
 * [Download service](http://dl.webconverger.com/)
 * [Ping/Statistics service](http://ping.webconverger.org)
 * [Nagios](https://github.com/Webconverger/nagios)
-
-## Bandwidth
-
-Overage rate is £0.25+VAT per GB
-
-At £5.00+VAT per year for each 10GB, that would be £25.00+VAT per year for 50GB
-every month (5x £5.00). You need to commit in advance. :/
 
 # webconverger.org
 
