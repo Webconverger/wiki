@@ -23,6 +23,7 @@ Debian configured machine for development, hosted in Singapore.
 * [Control panel](https://dtc.node6503.gplhost.com/dtc/)
 * [Printer configuration hosting](http://ppd.webconverger.com/)
 * [Nagios](https://github.com/Webconverger/nagios)
+* Archlinux (systemd)
 
 ## Bandwidth
 
@@ -47,6 +48,7 @@ A bottom of the range [Digital Ocean droplet](https://www.digitalocean.com/?refc
 * 512MB Ram 20GB SSD Disk Amsterdam 1 Arch Linux 2013.05 x64
 * 1 TB pcm bandwidth (that's 3x more than most other VPS providers)
 * 5USD a month
+* Archlinux (systemd)
 
 Uses:
 
@@ -59,6 +61,7 @@ Uses:
 
 Hosted with [Linode](https://www.linode.com/?r=59198f21b93910b67d8e1e4212a3135343941aae)
 
+* Debian 7 (wheezy)
 * Linode 1024
 * London, England, UK
 * 645GB Quota
