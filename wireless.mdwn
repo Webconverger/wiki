@@ -1,3 +1,5 @@
+[[!meta title="How to connect Webconverger wirelessly to your access point"]]
+
 # Wireless
 
 <iframe width="560" height="315" src="http://www.youtube.com/embed/agqShJxROaU" frameborder="0" allowfullscreen></iframe>
