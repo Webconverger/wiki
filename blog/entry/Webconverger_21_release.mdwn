@@ -21,3 +21,10 @@ into Webconverger, that make it the best Web kiosk
 software](http://www.linux.com/community/blogs/133-general-linux/728387-how-to-turn-a-pc-into-a-linux-web-kiosk).
 
 [Please download the latest release](http://dl.webconverger.com/latest.iso) and we would love to hear from you!
+
+### Image checksums
+
+	$ md5sum webc-21.0.iso
+	d9dcac12391ca263063404f7e95edcca  webc-21.0.iso
+	$ sha1sum webc-21.0.iso
+	6c212bfa28f3b4e7c85cc6bf271bc6b22ba4bdf2  webc-21.0.iso
