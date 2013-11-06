@@ -5,10 +5,19 @@ promotional video in fullscreen in a loop. Such a configuration would look
 like:
 
 	homepage=http://signage.webconverger.com
-	prefs=http://ppd.webconverger.com/2013/attract.js
+	prefs=http://ppd.webconverger.com/2013/signage.js
 	hidecursor
 	noblank
 	chrome=neon
+
+Notice you need to tweak <http://ppd.webconverger.com/2013/signage.js>
+"autoconfig" preferences for your particular homepage's domain in order to give
+**fullscreen video permissions** for your domain.
+
+	Components.utils.import("resource://gre/modules/Services.jsm");
+	Components.utils.import("resource://gre/modules/NetUtil.jsm");
+	Services.perms.add(NetUtil.newURI("http://YOUR_HOMEPAGE_DOMAIN.com/"), "fullscreen", 1);
+	pref("full-screen-api.allow-trusted-requests-only", false);
 
 As for view-source:http://signage.webconverger.com/ it's a very simple use of
 [HTML
@@ -20,7 +29,7 @@ video](http://www.whatwg.org/specs/web-apps/current-work/multipage/the-video-ele
 	video.mozRequestFullScreen();
 	</script>
 
-The only complication is that we currently only support [WebM format](http://www.webmproject.org/) for HTML
+The only snag is that we currently only support [WebM format](http://www.webmproject.org/) for HTML
 video playback. MP4 licensing lately is easing up and we [plan to support MP4
 playback](https://github.com/Webconverger/webc/issues/161). Do ask if you need
 help [converting your video to
