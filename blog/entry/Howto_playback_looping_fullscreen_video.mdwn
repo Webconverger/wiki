@@ -20,7 +20,7 @@ video](http://www.whatwg.org/specs/web-apps/current-work/multipage/the-video-ele
 	video.mozRequestFullScreen();
 	</script>
 
-The only complication is that we currently only support WebM format for HTML
+The only complication is that we currently only support [WebM format](http://www.webmproject.org/) for HTML
 video playback. MP4 licensing lately is easing up and we [plan to support MP4
 playback](https://github.com/Webconverger/webc/issues/161). Do ask if you need
 help [converting your video to
