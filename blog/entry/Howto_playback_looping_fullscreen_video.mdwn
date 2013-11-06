@@ -1,7 +1,8 @@
 <iframe width="560" height="315" src="//www.youtube.com/embed/a05Uswl171A" frameborder="0" allowfullscreen></iframe>
 
-Say you want to use Webconverger for **Web digital signage**, to playback an
-HTML video in fullscreen in a loop. Such a configuration would look like:
+Say you want to use Webconverger for **Web digital signage**, to playback a
+promotional video in fullscreen in a loop. Such a configuration would look
+like:
 
 	homepage=http://signage.webconverger.com
 	prefs=http://ppd.webconverger.com/2013/attract.js
@@ -19,8 +20,8 @@ video](http://www.whatwg.org/specs/web-apps/current-work/multipage/the-video-ele
 	video.mozRequestFullScreen();
 	</script>
 
-The only complication is that we only currently support WebM format for
-playback. MP4 licensing lately is easing up and we [plan to support MP4
+The only complication is that we currently only support WebM format for HTML
+video playback. MP4 licensing lately is easing up and we [plan to support MP4
 playback](https://github.com/Webconverger/webc/issues/161). Do ask if you need
 help [converting your video to
 WebM](https://github.com/Webconverger/webc/issues/161), from MP4 or from a
@@ -29,7 +30,12 @@ bunch of images.
 You can also re-purpose this technique as a [Screensaver / Attraction loop for
 Webconverger](https://github.com/Webconverger/Screensaver/).
 
-"Is this Webconverger Neon?" you may ask. Yes. Neon has converged into
-Webconverger in every functionality, except the [heavyweight ssh based
+"Is this <a href=http://neon.webconverger.com/>Webconverger Neon</a>?" you may
+ask. Yes. Neon has converged into Webconverger in every functionality, except
+the [heavyweight ssh based
 monitoring](http://webconverger.org/blog/entry/Monitoring_kiosk_uptime/) and
 the price.
+
+Enjoy simple device management of the [control
+panel](http://config.webconverger.com/), not just for your kiosks, but for your
+PC signage devices too!
