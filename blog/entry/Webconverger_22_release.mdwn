@@ -10,7 +10,7 @@ updates.
 
 # What's new?
 
-* `grabdrag` API for better [[touch_screen_calibration|touch_screen_support]].
+* `grabdrag` API for better [[touch_screen_support|touch_screen_calibration]].
 * Emoji fonts! 💻 Webconverger saves you ⌚️ and 💰 giving you 📈 and your users 📰
 * [Firefox 25](http://www.mozilla.org/en-US/firefox/25.0/releasenotes/) and Flash security updates
 
