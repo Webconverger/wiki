@@ -1,10 +1,10 @@
-For those wise people who are using the automagically upgrading <a
+For those wise people who are using the [[automatically upgrading|upgrade]] <a
 href="http://config.webconverger.com/faq/#what-do-you-mean-by-live-version-and-install-version">install
 version</a>, you should have received all the benefits below.
 
 So this new release will help keep bandwidth low for new install users, since
 they don't need to download upgrades upto this release from the previous
-[[Webconverger_22_release|21.0 release]]. And as for the Live users, **please
+[[21.0 release|Webconverger_22_release]]. And as for the non-upgrading static Live users, **please
 upgrade** to keep users abreast with the latest Web technologies and security
 updates.
 
@@ -16,7 +16,7 @@ updates.
 
 # Roadmap
 
-As outlined in [[Avoiding_the_Microsoft_upgrade_treadmill]], we are keeping a
+As outlined in "[[Avoiding_the_Microsoft_upgrade_treadmill]]", we are keeping a
 conservative outlook. We are working on a kernel update so you don't have to
 worry about issues like this [new hardware
 issue](https://twitter.com/webconverger/status/377335412538101760) effecting
