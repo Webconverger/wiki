@@ -4,7 +4,7 @@ version</a>, you should have received all the benefits below.
 
 So this new release will help keep bandwidth low for new install users, since
 they don't need to download upgrades upto this release from the previous
-[[21.0 release|Webconverger_22_release]]. And as for the non-upgrading static Live users, **please
+[[21.0 release|Webconverger_21_release]]. And as for the non-upgrading static Live users, **please
 upgrade** to keep users abreast with the latest Web technologies and security
 updates.
 
