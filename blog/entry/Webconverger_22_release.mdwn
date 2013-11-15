@@ -26,6 +26,6 @@ the current kernel 3.8 we have.
 
 [Please download the latest release](http://dl.webconverger.com/latest.iso) and we would love to hear from you!
 
-For the full changelog:
+For the full changelog, or checkout [Github's commit view](https://github.com/Webconverger/webc/commits/master):
 
 	git log --oneline --decorate 21.0..22.0
