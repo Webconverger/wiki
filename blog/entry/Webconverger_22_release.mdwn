@@ -1,0 +1,29 @@
+For those wise people who are using the automagically upgrading <a
+href="http://config.webconverger.com/faq/#what-do-you-mean-by-live-version-and-install-version">install
+version</a>, you should have received all the benefits below.
+
+So this new release will help keep bandwidth low for new install users, since
+they don't need to download upgrades upto this release from the previous
+[[Webconverger_22_release|21.0 release]]. And as for the Live users, **please
+upgrade** to keep users abreast with the latest Web technologies and security
+updates.
+
+# What's new?
+
+* `grabdrag` API for better [[touch_screen_calibration|touch_screen_support]].
+* Emoji fonts! 💻 Webconverger saves you ⌚️ and 💰 giving you 📈 and your users 📰
+* [Firefox 25](http://www.mozilla.org/en-US/firefox/25.0/releasenotes/) and Flash security updates
+
+# Roadmap
+
+As outlined in [[Avoiding_the_Microsoft_upgrade_treadmill]], we are keeping a
+conservative outlook. We are working on a kernel update so you don't have to
+worry about issues like this [new hardware
+issue](https://twitter.com/webconverger/status/377335412538101760) effecting
+the current kernel 3.8 we have.
+
+[Please download the latest release](http://dl.webconverger.com/latest.iso) and we would love to hear from you!
+
+For the full changelog:
+
+	git log --oneline --decorate 21.0..22.0
