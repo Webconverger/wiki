@@ -1,3 +1,5 @@
+<img src=/img/webc-22.png alt="Highlighting Emoji support">
+
 For those wise people who are using the [[automatically upgrading|upgrade]] <a
 href="http://config.webconverger.com/faq/#what-do-you-mean-by-live-version-and-install-version">install
 version</a>, you should have received all the benefits below.
