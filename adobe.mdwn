@@ -10,7 +10,7 @@ standards](http://www.whatwg.org/).
 
 We download Flash updates from <http://get.adobe.com/flashplayer/otherversions/>.
 Linux 32 bit, .tar.gz version and [commit like
-so](https://github.com/Webconverger/webc/commit/6e3d2b2a653af136e74972bd3292e38a257989a5)
+so](https://github.com/Webconverger/webc/commit/375349b7cc2ddf7d2635551463052dcdd603927e)
 
 Flash from 17.x lives in [/usr/lib/mozilla/plugins/](https://github.com/Webconverger/webc/tree/master/usr/lib/mozilla/plugins)
 
