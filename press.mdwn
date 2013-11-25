@@ -42,6 +42,10 @@ Web feedback
 * [Google opensource talk](http://google-opensource.blogspot.com/2009/06/london-open-source-jam-13.html)
 * [French Web magazine](http://www.insidedaweb.com/informatique-libre-foss/distributions-gnu-linux/webconverger-distribution-linux-ideale-applications-web/)
 * [LWN article on Webconverger 12 on April 11, 2012](http://lwn.net/Articles/490871/)
+* [ZoneFirefox ES](http://www.zonafirefox.net/2007/04/webconverger-el-sistema-operativo.html)
+* [Portuguese coverage](http://debuxos.blogspot.com/2007/04/ferramentas-informticas-gratuitas-on_19.html)
+* [Web 2.0 OS in Spanish](http://kernelsource.org/2007/04/18/webconverger-un-livecd-para-el-web-20/)
+* [Spanish news article](http://bitelia.com/2013/07/modo-kiosko-con-webconverger)
 
 Printed Media
 =============
@@ -49,13 +53,6 @@ Printed Media
 * [LinuxUserMag cover disk](http://twitter.com/#!/vgholkar/status/182750337910849536) - [review](http://www.linuxuser.co.uk/reviews/webconverger-11-review/)
 * [Linux Magazine](http://www.linux-magazin.de/news/webconverger_4_7_mit_firewall_und_adobe_reader)
 * [Linux Format #97](http://www.linuxformat.co.uk/modules.php?op=modload&name=NewArchives&issue=97) - "For surfers only"
-
-Foreign Language
-================
-
-* [ZoneFirefox ES](http://www.zonafirefox.net/2007/04/webconverger-el-sistema-operativo.html)
-* [Portuguese coverage](http://debuxos.blogspot.com/2007/04/ferramentas-informticas-gratuitas-on_19.html)
-* [Web 2.0 OS in Spanish](http://kernelsource.org/2007/04/18/webconverger-un-livecd-para-el-web-20/)
 
 Quoted positive feedback
 ========================
