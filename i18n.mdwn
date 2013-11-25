@@ -9,7 +9,7 @@ to do so.
 # Choose your locale at boot
 
 1. By using syslinux [[boot]] menu **Languages**
-2. Appending your locale by editing the syslinux boot menu, see [[testing]] for a guie
+2. Appending your locale by editing the syslinux boot menu, see [[testing]] for a guide
 
 # Once booted
 
