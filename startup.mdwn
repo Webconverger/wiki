@@ -1,15 +1,9 @@
-# [/etc/init.d/webconverger](https://github.com/Webconverger/webc/tree/master/etc/init.d/webconverger)
+[[!meta title="Overview about the various webc-specific scripts and what gets called when"]]
 
-**Dependencies on other Webconverger scripts:** None
+# Systemd's [/lib/systemd/system/webc.service](https://github.com/Webconverger/webc/blob/master/lib/systemd/system/webc.service) &rarr; [/etc/webc/live-config.sh](https://github.com/Webconverger/webc/blob/master/etc/webc/live-config.sh)
 
-Can only be saved in a subscribed "install version".
 
-Only really used for persistent installs "install version". This typically holds values related to network setup.
-
-* wireless
-* proxy
-
-Logged in `/var/log/bootlog`
+[/etc/webc/live-config.sh](https://github.com/Webconverger/webc/blob/master/etc/webc/live-config.sh) calls [/etc/webc/wireless](https://github.com/Webconverger/webc/blob/master/etc/webc/wireless) which sets up **wireless** networking configuration and **proxy** configuration. Basically things that need to be preset before networking is activated.
 
 Once the network is setup, on a Debian system **/etc/network/if-up.d** is run,
 however in many cases in our experience only the interface is up and not the
@@ -21,22 +15,12 @@ Therefore we have:
 
 Which executes scripts in [/etc/webc/network-up.d](https://github.com/Webconverger/webc/tree/master/etc/webc/network-up.d)
 
-# [/etc/webc/live-config.sh](https://github.com/Webconverger/webc/tree/master/etc/webc/live-config.sh) controlled via [inittab](https://github.com/Webconverger/webc/blob/master/etc/inittab#L60)
+**live-config.sh dependencies on other Webconverger scripts:** [webc-id](https://github.com/Webconverger/webc/blob/master/etc/webc/network-up.d/webc-id) which is run from [.xinitrc's webc.sh](https://github.com/Webconverger/webc/blob/master/home/webc/webc.sh)
 
-**Dependencies on other Webconverger scripts:** [webc-id](https://github.com/Webconverger/webc/blob/master/etc/webc/network-up.d/webc-id) which is run from [.xinitrc](https://github.com/Webconverger/webc/blob/master/home/webc/.xinitrc)
+* live-config.sh contains logic that needs to be run as root.
+* webc.sh is the place where things can be run as the user.
 
-These are items that need to be run as root.
-
-This is not the place where things can be run as the user.
-
-logs() is defined in [/etc/webc/webc.conf](https://github.com/Webconverger/webc/blob/master/etc/webc/webc.conf)
-
-	logs ()
-	{
-	logger -t $0 -p daemon.info "$@"
-	}
-
-# [/home/webc/.xinitrc](https://github.com/Webconverger/webc/tree/master/home/webc/.xinitrc)
+# [/home/webc/.xinitrc](https://github.com/Webconverger/webc/tree/master/home/webc/.xinitrc) &rarr; [webc.sh](https://github.com/Webconverger/webc/blob/master/home/webc/webc.sh)
 
 **Dependencies on other Webconverger scripts:** Waits for `/etc/webc/id` from [webc-id](https://github.com/Webconverger/webc/blob/master/etc/webc/network-up.d/webc-id)
 
@@ -49,13 +33,13 @@ take effect, it's best to reboot the machine.
 
 # Boot order
 
-* .xinitrc blocks on network image
+* webc.sh blocks on network image
 * Network setup
 * webc-id has an id
-* .xinitrc blocks on config image, echos read into $ive_config_pipe
-* live-config
+* webc.sh blocks on config image, echos read into \$live_config_pipe
+* live-config.sh
 * updates (todo this needs to be triggered from live-config)
-* .xinitrc launches browser loop
+* webc.sh launches browser loop
 
 # Debugging
 
