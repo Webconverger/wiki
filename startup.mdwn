@@ -1,7 +1,16 @@
 [[!meta title="Overview about the various webc-specific scripts and what gets called when"]]
 
-# Systemd's [/lib/systemd/system/webc.service](https://github.com/Webconverger/webc/blob/master/lib/systemd/system/webc.service) &rarr; [/etc/webc/live-config.sh](https://github.com/Webconverger/webc/blob/master/etc/webc/live-config.sh)
+We currently use an old version of systemd now for [maintaining Webconverger services](https://github.com/Webconverger/webc/tree/master/etc/systemd/system):
 
+* Install target
+* startx service
+* upgrade service
+
+Named pipes are used to block certain actions until the network is up, as
+documented in
+[webc.conf](https://github.com/Webconverger/webc/blob/master/etc/webc/webc.conf).
+
+# Systemd's [/lib/systemd/system/webc.service](https://github.com/Webconverger/webc/blob/master/lib/systemd/system/webc.service) &rarr; [/etc/webc/live-config.sh](https://github.com/Webconverger/webc/blob/master/etc/webc/live-config.sh)
 
 [/etc/webc/live-config.sh](https://github.com/Webconverger/webc/blob/master/etc/webc/live-config.sh) calls [/etc/webc/wireless](https://github.com/Webconverger/webc/blob/master/etc/webc/wireless) which sets up **wireless** networking configuration and **proxy** configuration. Basically things that need to be preset before networking is activated.
 
@@ -36,9 +45,9 @@ take effect, it's best to reboot the machine.
 * webc.sh blocks on network image
 * Network setup
 * webc-id has an id
-* webc.sh blocks on config image, echos read into \$live_config_pipe
+* webc.sh blocks on config image, echos read into $live_config_pipe
 * live-config.sh
-* updates (todo this needs to be triggered from live-config)
+* [upgrade.sh](https://github.com/Webconverger/webc/blob/master/etc/webc/upgrade.sh) triggered by live-config.sh
 * webc.sh launches browser loop
 
 # Debugging
