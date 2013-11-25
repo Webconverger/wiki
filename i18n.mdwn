@@ -2,34 +2,33 @@
 
 <iframe width="560" height="315" src="http://www.youtube.com/embed/n25THKbzSfg" frameborder="0" allowfullscreen></iframe>
 
-There are several ways to setup the locale and keyboard. We have good support
-for European languages and we will (re)address Asian requirements in the
-future.
+We have excellent support for European languages and we will (re)address <abbr
+title="Chinese, Japanese &amp; Korean">CJK</abbr> requirements given the demand
+to do so.
 
-# At boot
+# Choose your locale at boot
 
-1. By using or modifying syslinux [[boot]] menu. There are already some [requested choices](https://groups.google.com/forum/#!msg/webc-users/a-E98XTTAD8/wgeBRQUme4gJ) included
-2. Building you own ISO and appending the [[boot]] option to `--bootappend-live` in the [config](https://github.com/Webconverger/Debian-Live-config/blob/master/webconverger/auto/config)
+1. By using syslinux [[boot]] menu **Languages**
+2. Appending your locale by editing the syslinux boot menu, see [[testing]] for a guie
 
 # Once booted
 
-3. By using the [customisation service](http://config.webconverger.com), filling in a form and purchasing a subscription
-4. Using a locale switcher in the browser chrome (still under development)
+3. By using the [customisation service](http://config.webconverger.com), filling in a form and purchasing a subscription or adding to your control panel
 
 # i18n support falls into a couple of areas
 
 1. Setting up the browser UI using `locale=` and using a single [ISO 639 code](http://www.loc.gov/standards/iso639-2/php/code_list.php)
 2. Keyboard options using the `xkb=` mapping to **setxkbmap**, for example `xkb=-layout%20gb`. Spaces are URL encoded.
-3. More complex CJK input methods via [SCIM](http://en.wikipedia.org/wiki/Smart_Common_Input_Method), which we can support, though not because of current ISO size constraints
+3. NOT SUPPORTED ATM: More complex <abbr title="Chinese, Japanese &amp; Korean">CJK</abbr> input methods
 
 The first locale setting is also set in the Accept languages in the browser.
-<https://github.com/Webconverger/webc/blob/master/etc/webc/live-config.sh#L39>
+<https://github.com/Webconverger/webc/blob/master/etc/webc/live-config.sh#L194>
 
 `xkb` replaces `keyboard-layouts=` from Debian Live and now gives you direct
 and convienant access to
 [setxkbmap](http://manpages.debian.net/cgi-bin/man.cgi?query=setxkbmap).
 
-<https://github.com/Webconverger/webc/blob/master/home/webc/.xinitrc#L39> is how Webconverger parses and runs the option to `setxkbmap`.
+<https://github.com/Webconverger/webc/blob/master/home/webc/webc.sh#L71> is how Webconverger parses and runs the option to `setxkbmap`.
 
 In [[debug_mode|boot]], this is how to setup a British keyboard and query its settings:
 
@@ -66,20 +65,11 @@ To configure Webconverger with this preference, you append:
 
 Caveat: [Do not quote your commands](https://github.com/Webconverger/webc/issues/25).
 
-In the future we might add a
-[widget](http://awesome.naquadah.org/wiki/Change_keyboard_maps) to toggle
-inputs.
-
 There are setxkbmap aliases which can be found in [/usr/share/X11/xkb/rules](https://github.com/Webconverger/webc/blob/master/usr/share/X11/xkb/rules/base.lst)
 
 # Fonts
 
-In the above example we can enable Thai input, however Webconverger does not
-currently ship a [Thai
-font](http://packages.qa.debian.org/t/thaifonts-scalable.html) because of size
-constraits in the default ISO.
-
-Over time we will include more fonts. It depends on demand, please contact us.
+Please see [[fonts]] for more information on the fonts we include.
 
 # Tested examples
 
