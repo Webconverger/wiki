@@ -20,6 +20,7 @@ A [GPLHOST VPS package
 Debian configured machine for development, hosted in Singapore.
 
 * 30USD a month
+* At least 50mbit/sec up and down for local traffic <http://www.gplhost.com/gplhost-network-singapore.html>
 * [Control panel](https://dtc.node6503.gplhost.com/dtc/)
 * [Printer configuration hosting](http://ppd.webconverger.com/)
 * [Nagios](https://github.com/Webconverger/nagios)
