@@ -6,7 +6,7 @@ of the [dwm](http://dwm.suckless.org/tutorial) window manager.
 * [Debug example of the Live version](http://r2d2.webconverger.org/2012-11-05/debug.html)
 
 # Getting a terminal
-Once X is booted, press shift+alt+enter to make dwm launch a terminal emulator.
+Once X is booted, press [shift+alt+enter together](http://dwm.suckless.org/tutorial) to make [dwm](http://dwm.suckless.org/) (the window manager) launch a terminal emulator.
 
 Alternatively, you can press ctrl+alt+F2 to switch out of X to tty2 and log in there (root, no password). This also works if X didn't start.
 
