@@ -57,6 +57,9 @@ Printed Media
 Quoted positive feedback
 ========================
 
+<blockquote class="twitter-tweet" lang="en"><p>Super impressed with <a href="https://twitter.com/webconverger">@webconverger</a> – Linux-based kiosk/signage client, incredible support. cc <a href="https://twitter.com/harrisony">@harrisony</a></p>&mdash; Myles Carrick (@mylescarrick) <a href="https://twitter.com/mylescarrick/statuses/413610132870664192">December 19, 2013</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 * These guys have a really great product <strong>Webconverger is the best kiosk OS</strong> out there - and we tried a LOT of them!  --John Wolf at <a href="https://www.medlabcares.com">MedlabCares</a>
 * I have deployed two new Webconverger kiosks. They are simply AWESOME!  I have worked with LTSP terminals in schools, public internet stations, etc. but your solution is so well done. It is easy. It is fast and simple - obviously a very slim linux build in the background.  Kudo's for a fantastic job! -- Joe Guenther <http://oldscollege.ca/>
 * ... your product is incredible.  We haven't rolled out many of our users with the CD -- but it works perfectly when we do. [Jackson from Pawpawmail.com](http://pawpawmail.com)
