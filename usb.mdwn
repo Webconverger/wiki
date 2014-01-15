@@ -1,17 +1,23 @@
 [[!meta title="Preparing a USB stick to boot Webconverger"]]
 
-## Webconverger runs from a USB memory stick that is plugged into the rear of your kiosk computer.  You may either purchase a pre-installed memory stick, or you may create one yourself.  Below are a series of instructions to help you do either.
+## Webconverger boots from a USB memory stick that is plugged into the rear of your PC computer
 
-Any generic USB stick greater than 0.5G should be fine. You can order a
-preloaded [Webconverger stick at
-OSDisc](http://www.osdisc.com/cgi-bin/view.cgi/products/linux/webconverger).
+You may either [purchase a pre-installed memory
+stick](https://www.osdisc.com/products/webconverger?affiliate=webconverger), or
+you may create one yourself with any generic USB stick greater than 1G.
+
+Instead of creating a USB stick for booting a PC to test Webconverger, you can
+alternatively use [[Virtualbox|testing]].
+
+Below are a series of step-by-step instructions to help you create a
+Webconverger USB stick on popular operating systems.
 
 # Using Microsoft Windows
 
 <iframe width="560" height="315" src="http://www.youtube.com/embed/ji2JADVf694" frameborder="0" allowfullscreen></iframe>
 
 1. Download the latest official Webconverger from
-<http://dl.webconverger.com/latest.iso> The download file will be renamed to
+<http://dl.webconverger.com/latest.iso> The downloaded file will be renamed to
 the latest ISO, webc-VERSION.iso
 2. Download Disk Imager from
 <http://sourceforge.net/projects/win32diskimager/files/latest/download>
@@ -29,6 +35,10 @@ If you re-insert the USB key once specially formatted with Webconverger,
 Windows may ask if it should format the USB stick. Ignore this, it's because
 Windows doesn't understand the filesystem now on your USB stick.
 
+# Using MacOSX
+
+Please follow our step-by-step [[MacOSX_guide_with_pictures|macosx_usb]].
+
 # Using Linux
 
 `dmesg` or `fdisk -l` will list your inserted USB drive - usually /dev/sdx ("x"
@@ -38,18 +48,13 @@ representing letter like sdb, sdc etc.).
 
 You might find specifying the additional argument `bs=1M` makes it faster.
 
-# Using MacOSX
-
-Please follow our step-by-step [[MacOSX_guide_with_pictures|macosx_usb]].
-
 ## Configuring your PC to boot the USB key instead of your hard drive
 
 <iframe width="560" height="315" src="http://www.youtube.com/embed/-EaYTPbfuhI" frameborder="0" allowfullscreen></iframe>
 
-Please don't be daunted by adjusting the boot order of your machine. You are
+Don't be daunted by adjusting the boot order of your machine. You are
 exercising your consumer choice, however this isn't straightforward as
-practically every software preloaded into a PC (the BIOS) is
-different!
+practically every software preloaded into a PC (the BIOS) is different!
 
 There are different keys of entering the BIOS **boot menu** depending on the BIOS,
 it could be [Del], [Esc], [F2], [F8] or [F12] key. The BIOS usually flashes
@@ -61,7 +66,3 @@ USB disk where you copied Webconverger upon. Then Save & Exit, to boot
 Webconverger every time you power on that machine.
 
 <a href="http://www.flickr.com/photos/hendry/6869935304/" title="Adjusting boot order on a American megatrends BIOS"><img src="http://farm8.staticflickr.com/7247/6869935304_610027e95b.jpg" width="500" height="375" alt=""></a>
-
-If you managed to configure your BIOS, please post pictures of your particular
-BIOS using the [webcboot tag](http://www.flickr.com/photos/tags/webcboot/) on
-Flickr. Thank you!
