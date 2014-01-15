@@ -10,7 +10,8 @@ Instead of creating a USB stick for booting a PC to test Webconverger, you can
 alternatively use [[Virtualbox|testing]].
 
 Below are a series of step-by-step instructions to help you create a
-Webconverger USB stick on popular operating systems.
+Webconverger USB stick on popular systems from the Webconverger download (ISO
+file).
 
 # Using Microsoft Windows
 
