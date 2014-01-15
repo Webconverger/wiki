@@ -1,6 +1,6 @@
 [[!meta title="Preparing a USB stick to boot Webconverger"]]
 
-## Webconverger boots from a USB memory stick that is plugged into the rear of your PC computer
+## Webconverger boots from a USB memory stick plugged into your PC
 
 You may either [purchase a pre-installed memory
 stick](https://www.osdisc.com/products/webconverger?affiliate=webconverger), or
