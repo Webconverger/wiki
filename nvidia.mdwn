@@ -39,6 +39,7 @@ These files should be in use:
 Currently from 14.1 only case 2 is supported.
 
 Typical issues:
+
 * <https://github.com/Webconverger/webc/issues/67>
 * Issue covering case 1 <https://github.com/Webconverger/webc/issues/76>
 
