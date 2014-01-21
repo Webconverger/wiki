@@ -54,6 +54,7 @@ Printed Media
 * [LinuxUserMag cover disk](http://twitter.com/#!/vgholkar/status/182750337910849536) - [review](http://www.linuxuser.co.uk/reviews/webconverger-11-review/)
 * [Linux Magazine](http://www.linux-magazin.de/news/webconverger_4_7_mit_firewall_und_adobe_reader)
 * [Linux Format #97](http://www.linuxformat.co.uk/modules.php?op=modload&name=NewArchives&issue=97) - "For surfers only"
+* [Com-magazin online banking guide](http://www.com-magazin.de/praxis/internet/sichere-banking-stick-65114.html)
 
 Quoted positive feedback
 ========================
