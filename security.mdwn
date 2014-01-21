@@ -1,3 +1,5 @@
+[[!meta title="Webconverger has better out of the box security"]]
+
 Webconverger unlike Windows for example does not require:
 
 * a Firewall
