@@ -200,9 +200,9 @@ ipv6_disabled: 0
 
 # inline plugin
 # enable rss feeds by default?
-rss: 1
+rss: 0
 # enable atom feeds by default?
-atom: 1
+atom: 0
 # allow rss feeds to be used?
 #allowrss: 0
 # allow atom feeds to be used?
@@ -318,8 +318,8 @@ po_link_to: default
 
 ######################################################################
 # web plugins
-#   (404, attachment, comments, editdiff, edittemplate, getsource, google,
-#    goto, mirrorlist, remove, rename, repolist, search, theme, userlist,
+#   (404, attachment, comments, editdiff, edittemplate, google, goto,
+#    mirrorlist, remove, rename, repolist, search, theme, userlist,
 #    websetup, wmd)
 ######################################################################
 
@@ -343,11 +343,7 @@ comments_pagename: comment_
 # commit comments to the VCS
 comments_commit: 1
 # Restrict formats for comments to (no restriction if empty)
-#comments_allowformats: mdwn txt
-
-# getsource plugin
-# Mime type for returned source.
-#getsource_mimetype: text/plain; charset=utf-8
+comments_allowformats: ''
 
 # mirrorlist plugin
 # list of mirrors
@@ -365,7 +361,7 @@ repositories:
 # path to the omega cgi program
 omega_cgi: /usr/lib/cgi-bin/omega/omega
 # use google site search rather than internal xapian index?
-google_search: 1
+google_search: 0
 
 # theme plugin
 # name of theme to enable
