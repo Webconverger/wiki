@@ -204,9 +204,9 @@ rss: 0
 # enable atom feeds by default?
 atom: 0
 # allow rss feeds to be used?
-#allowrss: 0
+allowrss: 1
 # allow atom feeds to be used?
-#allowatom: 0
+allowatom: 1
 # urls to ping (using XML-RPC) on feed update
 pingurl: []
 
