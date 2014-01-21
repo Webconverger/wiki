@@ -10,7 +10,7 @@ New York](http://ccrye.org/):
 
 <img src=http://www.webconverger.com/slides/churchkiosk.jpg alt="Webconverger as serving as a reliable Web kiosk">
 
-<blockquote>
+<blockquote style="font-size:large">
 We have been using Wenconverger to offer free internet access to parishioners
 and visitors to our church for quite a few years, but it really came into it's
 own when Hurricane Sandy hit New York in 2012! Our stone church building was
