@@ -1,1 +1,1 @@
-[[!inline pages="blog/entry/* and !*/Discussion and !link(unfinished)" archive="yes" rss="no" quick="yes"]]
+[[!inline pages="blog/*/*" archive="yes" rss="no" quick="yes"]]

@@ -1,0 +1,1 @@
+[[!inline pages="blog/2014" show="10" actions=no rss=no]]
