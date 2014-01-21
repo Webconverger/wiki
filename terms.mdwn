@@ -3,7 +3,9 @@
 The canonical location of Webconverger's Terms and Conditions is
 <http://webconverger.org/terms>.
 
-It comes complete with a [changelog](http://source.webconverger-org.branchable.com/?p=source.git;a=history;f=terms.mdwn;hb=HEAD) and is subject to change.
+It comes complete with a
+[changelog](http://source.webconverger-org.branchable.com/?p=source.git;a=history;f=terms.mdwn;hb=HEAD)
+and is subject to change.
 
 ### Interpretation
 
@@ -26,13 +28,17 @@ PC's motherboard identifier and its MAC address.
 
 ### One off subscriptions
 
-A "one off" subscription is fixed to a particular machine identity and is
+A "one off" subscription is fixed to a particular machine identity (that
+particular hardware's motherboard identity and MAC address) and is
 non-transferable. Once you have paid for the one‐off subscription, unless we
 render any professional services to you for customisation, you shall not have
 any ongoing liability to us for payment.
 
 By purchasing a one off subscription, you are allowed to continue using the
-product for as long as it is on the machine that it is mapped to.
+product for as long as it is on the machine that it is mapped to. If the
+machine's hardware fails, you must buy a new subscription since you will not be
+allowed to replace the identity with a new machine. Note that a hard drive /
+disk failure does affect the machine identity.
 
 ### Limitations of liability
 
