@@ -25,12 +25,12 @@ single, permanent kiosk, but we keep a few old, donated computers in a cupboard
 We also sponsor [Crossroads](http://crossroads.org.hk/our-sponsors):
 
 <img src=/img/crossroads-kiosk.jpg title="Webconverger public internet kiosks">
-<img src=/img/crossroads-volunteer-signup.jpg title="pair of volunteer sign-up kiosks (you can also see the doors of our demonstration container, that shows visitors how containers are packed and what sort of items we include)">
-<img src=/img/crossroads-volunteer-signin.jpg title="volunteer sign-in kiosks that runs a very heavily modified Webconverger instance to include touchscreens and a card reader">
+<img src=/img/crossroads-volunteer-signup.jpg title="Pair of volunteer sign-up kiosks (you can also see the doors of our demonstration container, that shows visitors how containers are packed and what sort of items Crossroads include)">
+<img src=/img/crossroads-volunteer-signin.jpg title="Volunteer sign-in kiosks that runs a very heavily modified Webconverger instance to include touchscreens and a card reader">
 
 To save time vetting non-profits and charities we partnered with [tt-exchange
 to distribute Webconverger](http://www.ctxchange.org/node/6674).
 
-As a general rule, we are happy to provide a [management
-console](http://config.webconverger.com/) in emergency situations. For
-charities we discount or provide upto two configured machines free of cost.
+As a general rule, we are more than happy to provide a [management
+console](http://config.webconverger.com/) in disaster situations. For charities
+we discount or provide upto two configured machines free of cost.
