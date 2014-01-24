@@ -4,8 +4,8 @@ the USA.
 
 <abbr title="Partnership for Assessment of Readiness for College and
 Careers">PARCC</abbr> is a system for computer-based assessments that "Approximately 1.2
-million students in 14 of the PARCC states -- roughly 10 percent of students in
-grades 3 through 11 across the consortium -- will take the field test this
+million students in 14 of the PARCC states &mdash; roughly 10 percent of students in
+grades 3 through 11 across the consortium &mdash; will take the field test this
 spring."
 
 The Web application carrying out the examinations is called **TestNav** and
@@ -36,7 +36,7 @@ seem out of date. More importantly their new platform is just HTML standards
 compliant with [bootstrap](http://getbootstrap.com/). The need to assert Web
 browser compatibility with a Web application is a bit of a misnomer.
 
-# Webconverger versus Chromebooks
+# PCs running Webconverger versus Chromebooks
 
 The school I've spoken to has raised concerns about using [Chromebooks in
 student
@@ -57,7 +57,7 @@ Webconverger is competitive here since:
 
 * Webconverger runs on any (refurbished >=1G of RAM) generic PC, you don't need to buy a special notebook
 * A PC can be temporarily made into a "<abbr title="Partnership for Assessment of Readiness for College and
-Careers">PARCC</abbr> client" by booting Webconverger and associating that terminal with a control panel set to the test
+Careers">PARCC</abbr> client" by booting Webconverger and associating that <a href="https://config.webconverger.com/">machine with a control panel set to the test</a>, e.g. homepage=http://epat-parcc.testnav.com/client/index.html#login?username=PARCC_35&password=PARCC_35
 * Our [pricing](http://www.webconverger.com/pricing/) allows for month by month use, so it is extremely cost effective compared to buying into Google and becoming effectively trapped
 
 So the school in question is hoping to use existing PCs with Webconverger
