@@ -1,5 +1,5 @@
-The <abbr title="Partnership for Assessment of Readiness for College and
-Careers">PARCC</abbr> initiative was brought to my attention by a K12 school in
+The <a href="http://parcconline.org/"><abbr title="Partnership for Assessment of Readiness for College and
+Careers">PARCC</abbr> initiative</a> was brought to my attention by a K12 school in
 the USA.
 
 <abbr title="Partnership for Assessment of Readiness for College and
@@ -55,7 +55,7 @@ does [not cost extra](http://www.webconverger.com/pricing/).
 
 Webconverger is competitive here since:
 
-* Webconverger runs on any (refurbished) generic PC, you don't need to buy a special notebook
+* Webconverger runs on any (refurbished >=1G of RAM) generic PC, you don't need to buy a special notebook
 * A PC can be temporarily made into a "<abbr title="Partnership for Assessment of Readiness for College and
 Careers">PARCC</abbr> client" by booting Webconverger and associating that terminal with a control panel set to the test
 * Our [pricing](http://www.webconverger.com/pricing/) allows for month by month use, so it is extremely cost effective compared to buying into Google and becoming effectively trapped
