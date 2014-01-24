@@ -9,9 +9,9 @@ grades 3 through 11 across the consortium -- will take the field test this
 spring."
 
 The Web application carrying out the examinations is called **TestNav** and
-it's implemented by Pearson.
+it's implemented by [Pearson](https://en.wikipedia.org/wiki/Pearson_PLC).
 
-When first investigating TestNav by Pearson, I was disappointed to see
+When first investigating TestNav, I was disappointed to see
 [requirements](http://www.pearsononlinetesting.com/TestNav/8/requirements_testnav_8_0_4.html)
 for Java and samples that used Flash. It didn't make sense, since later
 [guidelines](http://parcconline.org/sites/parcc/files/TechnologyGuidelinesforPARCCAssessmentsV3.0Sept2013.pdf)
@@ -21,6 +21,12 @@ have Java support.
 The good news is that recently new
 <http://www.parcconline.org/computer-based-samples> were released. I tested
 them in the latest Webconverger and they work just fine!
+
+
+<img src=/img/parcc1.png alt="PARCC multiple choice">
+<img src=/img/parcc-drag-drop.png alt="TestNav Drag and drop">
+<img src=/img/parcc-incomplete.png alt="Testnav sample items overview">
+
 
 I've contacted <http://testnavqualified.com/> several times to seek
 certification, though I have yet to receive a response. Pearson's own
@@ -42,7 +48,10 @@ Chromebooks that are effectively locked into Chrome OS.
 
 Chromebooks that are effectively locked into the Google ecosystem.
 
-Chromebooks that can only be managed at additional cost by Google's [management console](http://www.google.com.sg/intl/en/chrome/business/devices/features-management-console.html)
+Chromebooks that can only be managed at additional cost by Google's [management
+console](http://www.google.com.sg/intl/en/chrome/business/devices/features-management-console.html).
+Our [management console](https://config.webconverger.com/) is easier to use and
+does [not cost extra](http://www.webconverger.com/pricing/).
 
 Webconverger is competitive here since:
 
@@ -51,7 +60,8 @@ Webconverger is competitive here since:
 Careers">PARCC</abbr> client" by booting Webconverger and associating that terminal with a control panel set to the test
 * Our [pricing](http://www.webconverger.com/pricing/) allows for month by month use, so it is extremely cost effective compared to buying into Google and becoming effectively trapped
 
-So the school in question is hoping to use existing PCs temporarily for the
-<abbr title="Partnership for Assessment of Readiness for College and
-Careers">PARCC</abbr> trial in the Spring. And other [PARCC
-states](http://www.parcconline.org/parcc-states) should too!
+So the school in question is hoping to use existing PCs with Webconverger
+temporarily for the <abbr title="Partnership for Assessment of Readiness for
+College and Careers">PARCC</abbr> trial in the Spring. And other [PARCC
+states](http://www.parcconline.org/parcc-states) should too! Please contact us,
+we are happy to help.
