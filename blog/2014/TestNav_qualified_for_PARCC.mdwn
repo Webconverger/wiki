@@ -1,6 +1,7 @@
-The <a href="http://parcconline.org/"><abbr title="Partnership for Assessment of Readiness for College and
-Careers">PARCC</abbr> initiative</a> was brought to my attention by a K12 school in
-the USA.
+The <a href="http://parcconline.org/"><abbr title="Partnership for Assessment
+of Readiness for College and Careers">PARCC</abbr> initiative</a> was brought
+to my attention by Matthew Newton at Montclair High School, a K12 school in NJ,
+USA.
 
 <abbr title="Partnership for Assessment of Readiness for College and
 Careers">PARCC</abbr> is a system for computer-based assessments that "Approximately 1.2
@@ -38,7 +39,7 @@ browser compatibility with a Web application is a bit of a misnomer.
 
 # PCs running Webconverger versus Chromebooks
 
-The school I've spoken to has raised concerns about using [Chromebooks in
+The school contact I've spoken to has raised concerns about using [Chromebooks in
 student
 assessments](http://googleenterprise.blogspot.sg/2012/12/chromebooks-for-student-assessments-and.html).
 
@@ -60,7 +61,7 @@ Webconverger is competitive here since:
 Careers">PARCC</abbr> client" by booting Webconverger and associating that <a href="https://config.webconverger.com/">machine with a control panel set to the test</a>, e.g. homepage=http://epat-parcc.testnav.com/client/index.html#login?username=PARCC_35&password=PARCC_35
 * Our [pricing](http://www.webconverger.com/pricing/) allows for month by month use, so it is extremely cost effective compared to buying into Google and becoming effectively trapped
 
-So the school in question is hoping to use existing PCs with Webconverger
+So the school contact in question is hoping to use existing PCs with Webconverger
 temporarily for the <abbr title="Partnership for Assessment of Readiness for
 College and Careers">PARCC</abbr> trial in the Spring. And other [PARCC
 states](http://www.parcconline.org/parcc-states) should too! Please contact us,
