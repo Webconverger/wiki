@@ -3,44 +3,10 @@ of Readiness for College and Careers">PARCC</abbr> initiative</a> was brought
 to my attention by Matthew Newton at Montclair High School, a K12 school in NJ,
 USA.
 
-<abbr title="Partnership for Assessment of Readiness for College and
-Careers">PARCC</abbr> is a system for computer-based assessments that "Approximately 1.2
-million students in 14 of the PARCC states &mdash; roughly 10 percent of students in
-grades 3 through 11 across the consortium &mdash; will take the field test this
-spring."
-
-The Web application carrying out the examinations is called **TestNav** and
-it's implemented by [Pearson](https://en.wikipedia.org/wiki/Pearson_PLC).
-
-When first investigating TestNav, I was disappointed to see
-[requirements](http://www.pearsononlinetesting.com/TestNav/8/requirements_testnav_8_0_4.html)
-for Java and samples that used Flash. It didn't make sense, since later
-[guidelines](http://parcconline.org/sites/parcc/files/TechnologyGuidelinesforPARCCAssessmentsV3.0Sept2013.pdf)
-indicated that Chromebooks could run the application, and Chromebooks do not
-have Java support.
-
-The good news is that recently new
-<http://www.parcconline.org/computer-based-samples> were released. I tested
-them in the latest Webconverger and they work just fine!
-
-
-<img src=/img/parcc1.png alt="PARCC multiple choice">
-<img src=/img/parcc-drag-drop.png alt="TestNav Drag and drop">
-<img src=/img/parcc-incomplete.png alt="Testnav sample items overview">
-
-
-I've contacted <http://testnavqualified.com/> several times to seek
-certification, though I have yet to receive a response. Pearson's own
-[Qualification
-Standards](http://testnavqualified.com/assets/doc/Qualification-Standards-for-Virtualization-Products.pdf)
-seem out of date. More importantly their new platform is just HTML standards
-compliant with [bootstrap](http://getbootstrap.com/). The need to assert Web
-browser compatibility with a Web application is a bit of a misnomer.
-
 # PCs running Webconverger versus Chromebooks
 
-The school contact I've spoken to has raised concerns about using [Chromebooks in
-student
+The school contact I've spoken to has raised concerns about using [Chromebooks
+in student
 assessments](http://googleenterprise.blogspot.sg/2012/12/chromebooks-for-student-assessments-and.html).
 
 If they were to buy into the Google ecosystem, they would need to purchase at least 250 Chromebooks.
@@ -61,8 +27,33 @@ Webconverger is competitive here since:
 Careers">PARCC</abbr> client" by booting Webconverger and associating that <a href="https://config.webconverger.com/">machine with a control panel set to the test</a>, e.g. homepage=http://epat-parcc.testnav.com/client/index.html#login?username=PARCC_35&password=PARCC_35
 * Our [pricing](http://www.webconverger.com/pricing/) allows for month by month use, so it is extremely cost effective compared to buying into Google and becoming effectively trapped
 
-So the school contact in question is hoping to use existing PCs with Webconverger
-temporarily for the <abbr title="Partnership for Assessment of Readiness for
-College and Careers">PARCC</abbr> trial in the Spring. And other [PARCC
-states](http://www.parcconline.org/parcc-states) should too! Please contact us,
-we are happy to provide a **PARCC technology solution**.
+<abbr title="Partnership for Assessment of Readiness for College and
+Careers">PARCC</abbr> is a system for computer-based assessments that "Approximately 1.2
+million students in 14 of the PARCC states &mdash; roughly 10 percent of students in
+grades 3 through 11 across the consortium &mdash; will take the field test this
+Spring."
+
+The Web application carrying out the examinations is called **TestNav** and
+it's implemented by [Pearson](https://en.wikipedia.org/wiki/Pearson_PLC).
+
+When first investigating TestNav, I was disappointed to see
+[requirements](http://www.pearsononlinetesting.com/TestNav/8/requirements_testnav_8_0_4.html)
+for Java and samples that used Flash. It didn't make sense, since later
+[guidelines](http://parcconline.org/sites/parcc/files/TechnologyGuidelinesforPARCCAssessmentsV3.0Sept2013.pdf)
+indicated that Chromebooks could run the application, and Chromebooks do not
+have Java support. I've since discovered that [TestNav Qualified](http://testnavqualified.com/) is not upto date yet for **TestNav 8**.
+
+I tested the new TestNav 8 <http://www.parcconline.org/computer-based-samples>
+in the latest Webconverger and they work just fine! So we are working with
+<http://testnavqualified.com/> to seek certification.  Pearson's own
+[Qualification
+Standards](http://testnavqualified.com/assets/doc/Qualification-Standards-for-Virtualization-Products.pdf)
+are out of date. We are hoping their new platform is just HTML standards
+compliant with [bootstrap](http://getbootstrap.com/). The need to assert Web
+browser compatibility with a Web application is a bit of a misnomer.
+
+<img src=/img/parcc1.png alt="PARCC multiple choice">
+<img src=/img/parcc-drag-drop.png alt="TestNav Drag and drop">
+<img src=/img/parcc-incomplete.png alt="Testnav sample items overview">
+
+
