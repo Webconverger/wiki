@@ -37,9 +37,9 @@ I tested the new TestNav 8 <http://www.parcconline.org/computer-based-samples>
 in the latest Webconverger and they work just fine!  Pearson's own
 [Qualification
 Standards](http://testnavqualified.com/assets/doc/Qualification-Standards-for-Virtualization-Products.pdf)
-are out of date. We are working now with Pearson and we hope to pass their
-tests.
+are currently out of date. We are now working with Pearson and we hope to pass
+their tests.
 
-<img src=/img/parcc1.png alt="PARCC multiple choice">
-<img src=/img/parcc-drag-drop.png alt="TestNav Drag and drop">
-<img src=/img/parcc-incomplete.png alt="Testnav sample items overview">
+* Screenshot: [PARCC multiple choice](/img/parcc1.png)
+* Screenshot: [TestNav Drag and drop](/img/parcc-drag-drop.png)
+* Screenshot: [TestNav sample items overview](/img/parcc-incomplete.png)
