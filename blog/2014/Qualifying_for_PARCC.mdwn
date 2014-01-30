@@ -34,11 +34,8 @@ indicated that Chromebooks could run the application, and Chromebooks do not
 have Java support.
 
 I tested the new TestNav 8 <http://www.parcconline.org/computer-based-samples>
-in the latest Webconverger and they work just fine!  Pearson's own
-[Qualification
-Standards](http://testnavqualified.com/assets/doc/Qualification-Standards-for-Virtualization-Products.pdf)
-are currently out of date. We are now working with Pearson and we hope to pass
-their tests.
+in the latest Webconverger and they work just fine!  Pearson's Qualification
+Standards for TestNav 8 are not yet publicly posted.
 
 * Screenshot: [PARCC multiple choice](/img/parcc1.png)
 * Screenshot: [TestNav Drag and drop](/img/parcc-drag-drop.png)
