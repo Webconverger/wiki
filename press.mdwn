@@ -47,6 +47,7 @@ Web feedback
 * [Web 2.0 OS in Spanish](http://kernelsource.org/2007/04/18/webconverger-un-livecd-para-el-web-20/)
 * [Spanish news article](http://bitelia.com/2013/07/modo-kiosko-con-webconverger)
 * [InfoWorld Chrome OS comparison](http://www.infoworld.com/t/thin-clients/chrome-oss-best-new-use-case-the-all-in-one-pc-232904)
+* [LockerGnome](http://www.lockergnome.com/it/2011/04/26/secure-kiosk-mode/)
 
 Printed Media
 =============
