@@ -49,6 +49,7 @@ Web feedback
 * [InfoWorld Chrome OS comparison](http://www.infoworld.com/t/thin-clients/chrome-oss-best-new-use-case-the-all-in-one-pc-232904)
 * [LockerGnome](http://www.lockergnome.com/it/2011/04/26/secure-kiosk-mode/)
 * [Interview on Neon](http://www.sixteen-nine.net/2013/07/10/webconvergers-neon-stable-secure-browser-digital-sign-platform/)
+* [Virtualbox with Webconverger in a German magazine](http://www.com-magazin.de/praxis/virtualbox/10-besten-ideen-virtuelle-pcs-218127.html?page=1_sichere-surfstation-mit-webconverger)
 
 Printed Media
 =============
