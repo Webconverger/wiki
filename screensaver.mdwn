@@ -8,7 +8,7 @@ period of inactivity.
 This homepage should be tailored to your kiosk setup. Since you might not want
 your regular visitor's from home to see this screensaver.
 
-# How to make the videos, given JPEG slides
+## How to make the videos, given JPEG slides
 
 Using
 <https://trac.ffmpeg.org/wiki/Create%20a%20video%20slideshow%20from%20images>
@@ -32,7 +32,7 @@ extent function:
 
 The above code assumes an end resolution of **1440x1080**.
 
-# How to make your homepage play the video after a period of inactivity
+## How to make your homepage play the video after a period of inactivity
 
 You need to introduce a modified piece of
 [Javascript](https://github.com/Webconverger/Screensaver/blob/master/attract/attract.js)
@@ -48,15 +48,15 @@ Next you need to configure Webconverger with the security policy to allow the sc
 	Services.perms.add(NetUtil.newURI("http://YOUR_HOMEPAGE_URL/"), "fullscreen", 1);
 	pref("full-screen-api.allow-trusted-requests-only", false);
 
-Remember to replace **YOUR_HOMEPAGE_URL**.
+Remember to replace `YOUR_HOMEPAGE_URL`.
 
-# How to update the screensaver
+## How to update the screensaver
 
 You should host the video file as an MP4 on your homepage URL, e.g. `$homepage/attract.mp4`
 
 You simply update the video file on your homepage.
 
-# Background reading
+## Background reading
 
 * <http://webconverger.org/blog/entry/Howto_playback_looping_fullscreen_video/>
 * See <http://attract.webconverger.com/> for a demo, REMEMBER: you need to configure Webconverger's panel with the security policy to run the video in fullscreen without prompt
