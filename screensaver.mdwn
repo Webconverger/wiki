@@ -1,0 +1,62 @@
+To configure Webconverger with an attraction screensaver, for example to tell
+potential users which services are on offer, you need to setup your homepage,
+the homepage you control, to do that.
+
+This guide will run through a way to do this, by playing a video file after a
+period of inactivity.
+
+This homepage should be tailored to your kiosk setup. Since you might not want
+your regular visitor's from home to see this screensaver.
+
+# How to make the videos, given JPEG slides
+
+Using
+<https://trac.ffmpeg.org/wiki/Create%20a%20video%20slideshow%20from%20images>
+as a starting point.
+
+Problem is ffmpeg will take the resolution of the first frame, then only encode
+identically-sized frames. The trick is to expand the image using imagemagick's
+extent function:
+
+	tmpdir=$(mktemp -d)
+	count=0
+	padtowidth=3
+	for p in *.jpg
+	do
+		convert "$p" -gravity center -background black -extent 1440x1080  $tmpdir/$(printf "%0*d\n" $padtowidth $c).jpg
+		c=$(($c + 1))
+	done
+	echo $c images
+	ffmpeg -r 1/10 -i $tmpdir/%03d.jpg -c:v libx264 -r 30 -pix_fmt yuv420p out.mp4
+	rm -rf $tmpdir
+
+The above code assumes an end resolution of **1440x1080**.
+
+# How to make your homepage play the video after a period of inactivity
+
+You need to introduce a modified piece of
+[Javascript](https://github.com/Webconverger/Screensaver/blob/master/attract/attract.js)
+and source it, configuring:
+
+* the video file you want to play
+* the period of time for the timeout
+
+Next you need to configure Webconverger with the security policy to allow the screensaver to play fullscreen, using the prefs API pointing to a code snippet that looks like:
+
+	Components.utils.import("resource://gre/modules/Services.jsm");
+	Components.utils.import("resource://gre/modules/NetUtil.jsm");
+	Services.perms.add(NetUtil.newURI("http://YOUR_HOMEPAGE_URL/"), "fullscreen", 1);
+	pref("full-screen-api.allow-trusted-requests-only", false);
+
+Remember to replace **YOUR_HOMEPAGE_URL**.
+
+# How to update the screensaver
+
+You should host the video file as an MP4 on your homepage URL, e.g. `$homepage/attract.mp4`
+
+You simply update the video file on your homepage.
+
+# Background reading
+
+* <http://webconverger.org/blog/entry/Howto_playback_looping_fullscreen_video/>
+* See <http://attract.webconverger.com/> for a demo, REMEMBER: you need to configure Webconverger's panel with the security policy to run the video in fullscreen without prompt
