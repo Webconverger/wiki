@@ -29,19 +29,12 @@ video](http://www.whatwg.org/specs/web-apps/current-work/multipage/the-video-ele
 	video.mozRequestFullScreen();
 	</script>
 
-The only snag is that we currently only support [WebM format](http://www.webmproject.org/) for HTML
-video playback. MP4 licensing lately is easing up and we [plan to support MP4
-playback](https://github.com/Webconverger/webc/issues/161). Do ask if you need
-help [converting your video to
-WebM](https://github.com/Webconverger/webc/issues/161), from MP4 or from a
-bunch of images.
-
-You can also re-purpose this technique as a [Screensaver / Attraction loop for
-Webconverger](https://github.com/Webconverger/Screensaver/).
+You can also re-purpose this technique for a [Screensaver / Attraction loop for
+Webconverger](/screensaver/).
 
 "Is this <a href=http://neon.webconverger.com/>Webconverger Neon</a>?" you may
 ask. Yes. Neon has converged into Webconverger in every functionality, except
-the [heavyweight ssh based
+the [realtime
 monitoring](http://webconverger.org/blog/entry/Monitoring_kiosk_uptime/) and
 the price.
 
