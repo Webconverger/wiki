@@ -1,0 +1,22 @@
+<iframe src="https://www.flickr.com/photos/16105436@N00/12430614254/in/photolist-jWs9xq-jWs7Wu-dGLdzW-gEY7Sa-dGEMde-gEXyKM-dGLdk7-dAWFhu-dARdst-dAWH5U-dAReRk-dzqeKL-dzjJvD-jWqr5M-dAReJ4-dAWF9U-dAWGUw-dAWGQo-dAWGvh-dAWGDq-dAReZH-dGLcXo-dJpPJJ-gEXARG-dGLdpS-kiPEQH-e1y8gN/player/" width="500" height="375" frameborder="0" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+
+We initially blogged about the promising [Next Unit of
+Computing](http://webconverger.org/blog/2012/Next_Unit_of_Computing/) form
+factor back in 2012. What's changed?
+
+# Different manufacturers offering the NUC
+
+This should hopefully mean lower prices, with different OEMs putting together
+their own competitive NUC solutions.
+
+[Anandtech reviews the NUC Gigabyte offerings](http://anandtech.com/show/7648/gigabyte-brix-pro)
+
+They all should be plug and play with Webconverger.
+
+# The cheapest NUC?
+
+We've heard excellent reports of the [Intel
+DN2820FYKH](http://www.intel.com/content/www/us/en/nuc/nuc-board-dn2820fykh.html).
+
+Well made and uses a cheaper Celeron based processor. These are going for less
+than 200USD.
