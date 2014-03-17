@@ -2,7 +2,7 @@
 
 We initially blogged about the promising [Next Unit of
 Computing](http://webconverger.org/blog/2012/Next_Unit_of_Computing/) form
-factor back in 2012. What's changed?
+factor back in 2012 by [Intel](http://intel.com/nuc) . What's changed?
 
 # Different manufacturers offering the NUC
 
