@@ -53,10 +53,12 @@ A bottom of the range [Digital Ocean droplet](https://www.digitalocean.com/?refc
 
 Uses:
 
-* DNS service backup
-* Block page
-* European mirror
-* Backups
+* Possibly another European mirror
+* Backups (inc greptweet)
+
+# sgo.webconverger.com
+
+Another [Digital Ocean droplet](https://www.digitalocean.com/?refcode=37b3b1850b32), this time in Singapore (SGP1)
 
 # uk.webconverger.com (gb)
 
