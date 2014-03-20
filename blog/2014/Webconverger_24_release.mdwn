@@ -19,7 +19,7 @@ process. Do please check what version you are running by looking at `about:` or
 using the WEBCVERSION homepage expansion. Paid subscribers can quickly check
 the version of their machines by clicking the information icon on the [control
 panel](http://www.webconverger.com/screenshots/#managed-machines-scale). If in any
-doubt, please do download the [latest release](http://dl.webconverger.com/latest.so)
+doubt, please do download the [latest release](http://dl.webconverger.com/latest.iso)
 and re-image your machines!
 
 Notice a bug? Please email us or [report the bug on Github](https://github.com/webconverger/webc/issues).
