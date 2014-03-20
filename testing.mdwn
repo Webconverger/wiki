@@ -47,6 +47,7 @@ Think of cases where network comes online but configuration is failed to be fetc
 # Important elements to test before delivery
 
 * SSL <https://config.webconverger.com/>
+* Test DDG search engine works
 
 ## [[wireless]] can only be realistically tested on physical hardware (i.e. not under virtualisation)
 

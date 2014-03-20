@@ -1,6 +1,6 @@
 [[!meta title="Updating Firefox for a Webconverger developer"]]
 
-<http://getfirefox.com>
+Get the 32bit version: `wget 'https://download-installer.cdn.mozilla.net/pub/firefox/releases/28.0/linux-i686/en-GB/firefox-28.0.tar.bz2'`
 
 	sudo mv firefox/ /home/hendry/debian/sid-root/root/webconverger/chroot/tmp
 
