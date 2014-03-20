@@ -7,7 +7,7 @@ security reasons and a couple of new features mainly driven by Firefox.
 [Detailed changes between 23.0 and 24.0](https://github.com/webconverger/webc/compare/23.0...24.0)
 
 * [Firefox 28](http://www.mozilla.org/en-US/firefox/28.0/releasenotes/)
-* MP4 video playing support
+* MP4 video playing support, so you can use an MP4 video now to [[attract patrons to your service|screensaver]] when idle
 * Flash security updates
 * Linux kernel 3.12
 * New filter= API which complements our new (yet to be launched) [[filter.webconverger.com|filtering]] service for fine grained blacklisting (think OpenDNS, but cheaper)
