@@ -1,4 +1,4 @@
-It has been 3 months since [[blog/entry/Webconverger_23_release]] which has
+It has been 3 months since the [[blog/entry/Webconverger_23_release]] which has
 been a fine stable release. Now it's time to upgrade for Live users for
 security reasons and a couple of new features mainly driven by Firefox.
 
@@ -10,14 +10,17 @@ security reasons and a couple of new features mainly driven by Firefox.
 * MP4 video playing support
 * Flash security updates
 * Linux kernel 3.12
-* New filter= API which complements our new (yet to be launched) [[filter.webconverger.com|filter]] service for fine grained blacklisting (think OpenDNS, but cheaper)
+* New filter= API which complements our new (yet to be launched) [[filter.webconverger.com|filtering]] service for fine grained blacklisting (think OpenDNS, but cheaper)
 
 For install users of 23.0, the upgrade delta is about 178M, when
 [[automatically upgrading|upgrade]]. Github does throttle your connection or if
 you are on a poor internet connection, upgrading can be quite a long winded
 process. Do please check what version you are running by looking at `about:` or
-using the WEBCVERSION hompage expansion. If any doubt, do download the [latest
-release](http://dl.webconverger.com/latest.iso) and re-image your machines!
+using the WEBCVERSION homepage expansion. Paid subscribers can quickly check
+the version of their machines by clicking the information icon on the [control
+panel](http://www.webconverger.com/screenshots/#managed-machines-scale). If in any
+doubt, please do download the [latest release](http://dl.webconverger.com/latest.so)
+and re-image your machines!
 
 Notice a bug? Please email us or [report the bug on Github](https://github.com/webconverger/webc/issues).
 
@@ -25,7 +28,7 @@ Please support our work by [purchasing a
 subscription](http://webconverger.com/pricing). We are tentatively offering
 [free trials of our central management
 tool](https://config.webconverger.com/trial/), so you can see for yourself how
-easy it is to manage a fleet of machines accessing the Web.
+easy it is to manage a fleet of machines accessing the Web. Thank you!
 
 	sha1sum c2283b9d4b4f9df8496825138207a4e2442aa226  webc-24.0.iso
 	md5sum e557925fe4c7c31f66dd2423db0e97d0  webc-24.0.iso
