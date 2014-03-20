@@ -8,8 +8,8 @@ security reasons and a couple of new features mainly driven by Firefox.
 
 * [Firefox 28](http://www.mozilla.org/en-US/firefox/28.0/releasenotes/)
 * MP4 video playing support, so you can use an MP4 video now to [[attract patrons to your service|screensaver]] when idle
-* Flash security updates
-* Linux kernel 3.12
+* Flash security updates, though do try [HTML video](http://www.whatwg.org/specs/web-apps/current-work/multipage/the-video-element.html#the-video-element) instead, so we can deprecate Flash
+* Linux kernel 3.12, a longterm stable kernel
 * New filter= API which complements our new (yet to be launched) [[filter.webconverger.com|filtering]] service for fine grained blacklisting (think OpenDNS, but cheaper)
 
 For install users of 23.0, the upgrade delta is about 178M, when
