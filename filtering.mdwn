@@ -92,9 +92,6 @@ long in public spaces.
 As mentioned on <http://webconverger.org/blog/entry/Better_Routing_wanted>
 
 3rd party firmware like [OpenWRT](https://openwrt.org/) provide options to
-limit WAN access under Access Restrictions to:
-
-* Website Blocking by URL Address
-* Website Blocking by Keyword
+limit Internet access.
 
 <http://www.mikrotik.com/> also supply very good flexible access point solutions.
