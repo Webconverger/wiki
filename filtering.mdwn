@@ -13,13 +13,26 @@ effectively walled into your homepage and its links.
 Beware your homepage's external link might link to Google and allow that user
 to browse effectively anywhere.
 
-# Simple filtering with the hosts= API
+# Fine grained filtering as a Webconverger product (recommended)
+
+From Webconverger 24, we have a simpler `filter=BLACKLIST_URL,REDIR_IP` API
+which is able to filter on DNS wildcards.
+
+From March 2014, Webconverger provides a competitive service
+<http://filter.webconverger.com/> where you can select categories of sites
+(this is kept uptodate) you want to block, as well as your own
+whitelist/blacklist and it creates/maintains the **BLACKLIST_URL**.
+
+It offers the same functionality as OpenDNS, though at 3/4 of the cost. Please
+contact sales.
+
+# Coarse grained filtering with the hosts= API (not supported)
 
 Using <a href="http://en.wikipedia.org/wiki/Hosts_(file)">the hosts file</a> is
-a very simple way of filtering Web access of your Webconverger deployments.
-It's by no means fool-proof, and you need to be able to create the file
-yourself for the time being on a public URL since we don't offer a
-configuration Web user-interface for it atm.
+a naive way of filtering Web access of your Webconverger deployments.  It's by
+no means fool-proof, and you need to be able to create the file yourself for
+the time being on a public URL since we don't offer a configuration Web
+user-interface for it atm.
 
 Note the hosts file is only setup on boot, so if you change the `hosts=` file
 you need to reboot the machine for it to take affect of any modified rules.
@@ -52,13 +65,12 @@ in this format:
 
 Therefore the machine would be blacklisted to surf upon reddit.com, however's
 reddit's content might be available through other websites or subdomains so
-this method is not fool-proof. However for simple filtering, it may just
-suffice.
+this method is not fool-proof. 
 
 ## Whitelist
 
-To setup a simple [whitelist](http://en.wikipedia.org/wiki/Whitelist) where
-only sites you specify can be accessed since the DNS service is disabled, your
+To setup a [whitelist](http://en.wikipedia.org/wiki/Whitelist) where only
+domains you specify can be accessed since the DNS service is disabled, your
 `hosts=` value must contain the word **whitelist**.
 
 For example: hosts=http://example.webconverger.com/whitelist
@@ -73,42 +85,16 @@ reset Webconverger to your site every say, 3 minutes. This can help avoid an
 unsupervised Webconverger kiosk being set on a non-mandated Website for too
 long in public spaces.
 
-# OpenDNS alternative
-
-We are working on an OpenDNS, DNS black listing alternative. Do enquire to learn more.
-
 # Further un-supported options
 
 ## Using your router or wireless access point
 
 As mentioned on <http://webconverger.org/blog/entry/Better_Routing_wanted>
 
-3rd party firmware like [dd-wrt](http://www.dd-wrt.com) provide options to
+3rd party firmware like [OpenWRT](https://openwrt.org/) provide options to
 limit WAN access under Access Restrictions to:
 
 * Website Blocking by URL Address
 * Website Blocking by Keyword
 
-## Webconverger and IPCop
-
-[IPCop](http://www.ipcop.org/) is a lfs-based firewall which can easily be tweaked up to an url-filter.
-
-### Pros
-
-* Easy to implement (no cost)
-* Does not add any weight to Webconverger
-* Secures your whole network from the Internet
-* Very user-friendly and task-based GUI
-* Great community behind the project
-
-### Cons
-
-* An additional PC must be installed
-* Network interfaces must be separated physically
-* No multi-WAN connections
-* AddOns can only be installed by using a shell
-
-Here are two links when you have questions about IPCop.
-
-* [English-Forum](http://www.ipcops.com/phpbb3/)
-* [German-Forum](http://www.ipcop-forum.de/)
+<http://www.mikrotik.com/> also supply very good flexible access point solutions.
