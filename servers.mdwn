@@ -8,11 +8,6 @@ transfer about 40GB a day, or 1 Terabyte a month.
 
 On [AWS S3](http://aws.amazon.com/s3/), transferring 1TB is ~122USD. 1024GB * $0.120 per GB = ~122USD
 
-The annoying thing about GPLhost is that you need to somehow buy your
-bandwidth in advance and it can be tricky to predict.
-
-We probably should think about setting up mirrors and reaching out to the community.
-
 # sg.webconverger.com
 
 A [GPLHOST VPS package
@@ -53,12 +48,17 @@ A bottom of the range [Digital Ocean droplet](https://www.digitalocean.com/?refc
 
 Uses:
 
-* Possibly another European mirror
-* Backups (inc greptweet)
+* <http://config.webconverger.com>, synchronised by a Github Webhook
+* European mirror: <http://eu.download.webconverger.com/>
+* Backups (inc <a href="http://greptweet.com/">greptweet</a>)
 
 # sgo.webconverger.com
 
 Another [Digital Ocean droplet](https://www.digitalocean.com/?refcode=37b3b1850b32), this time in Singapore (SGP1)
+
+Uses:
+
+* Asian mirror: <http://as.download.webconverger.com/>
 
 # uk.webconverger.com (gb)
 
@@ -71,7 +71,7 @@ Hosted with [Linode](https://www.linode.com/?r=59198f21b93910b67d8e1e4212a313534
 * 20USD pcm
 * [Configuration service](http://config.webconverger.com)
 * [Support service](http://support.webconverger.com/)
-* [Download service](http://dl.webconverger.com/)
+* [Download service](http://dl.webconverger.com/), [source code](https://github.com/Webconverger/dl/)
 * [Ping/Statistics service](http://ping.webconverger.org)
 * [Nagios](https://github.com/Webconverger/nagios)
 
