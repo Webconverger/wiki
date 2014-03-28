@@ -6,7 +6,7 @@ Webconverger averages about [100 downloads a
 day](http://dl.webconverger.com/stats/) and the ISO file is about 400M. So we
 transfer about 40GB a day, or 1 Terabyte a month.
 
-On [AWS S3](http://aws.amazon.com/s3/), transferring 1TB is ~122USD. 1024GB * $0.120 per GB = ~122USD
+* [Interesting S3 update](https://news.ycombinator.com/item?id=7475278)
 
 # sg.webconverger.com
 
