@@ -6,7 +6,7 @@ gambling, gaming, image, malicious, pharma, piracy, porn, proxies, social media
 & video categories of sites. We keep the lists upto date for you, so you don't
 have to worry.
 
-**filter.webconverger.com** competes with the [OpenDNS](http://en.wikipedia.org/wiki/OpenDNS) service,
+**filter.webconverger.com** competes with the [OpenDNS](http://en.wikipedia.org/wiki/OpenDNS) "domain blocking" service,
 though at a cheaper price, typically sold as an annual subscription.
 
 Please contact sales to get on a trial!
