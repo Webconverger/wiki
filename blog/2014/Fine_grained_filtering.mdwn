@@ -1,11 +1,12 @@
 <iframe width="420" height="315" src="//www.youtube.com/embed/K4p322KQ6Ww?rel=0" frameborder="0" allowfullscreen></iframe>
 
 Today we launch a new [[filtering]] service **filter.webconverger.com**. It's
-an ongoing service to block any combination of ads, blasphemy, cp, dating,
-file, gambling, gaming, image, malicious, pharma, piracy, porn, proxies, social
-media & video categories of sites.
+an ongoing service to block any combination of ads, blasphemy, dating, file,
+gambling, gaming, image, malicious, pharma, piracy, porn, proxies, social media
+& video categories of sites. We keep the lists upto date for you, so you don't
+have to worry.
 
-It competes with the [OpenDNS](http://en.wikipedia.org/wiki/OpenDNS) service,
+**filter.webconverger.com** competes with the [OpenDNS](http://en.wikipedia.org/wiki/OpenDNS) service,
 though at a cheaper price, typically sold as an annual subscription.
 
 Please contact sales to get on a trial!
