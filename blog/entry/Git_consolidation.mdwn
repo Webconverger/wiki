@@ -1,4 +1,4 @@
-UPDATE: Latest state of Webconverger's custom Firefox extension is at <https://github.com/Webconverger/iceweasel-webconverger>
+UPDATE: Latest state of Webconverger's custom Firefox extension is at <https://github.com/Webconverger/webconverger-addon/>
 
 The 'Iceweasel-webconverger' package has two small deviations webcnoaddressbar
 and webcfullscreen described in [[kiosk]]. Instead of having 3 seperate repositries, you
@@ -7,7 +7,7 @@ can consolidate them nicely in one git repository as **branches**.
 I initially used `git-import-orig` to import each individual package into their
 own git repository with [git-buildpackage](http://packages.qa.debian.org/g/git-buildpackage.html).
 
-Then from an [iceweasel-webconverger](http://git.webconverger.org/?p=iceweasel-webconverger.git) clone, I fetch in the other git repos as branches, for example:
+Then from an [iceweasel-webconverger](https://github.com/Webconverger/webconverger-addon/) clone, I fetch in the other git repos as branches, for example:
 
     x61$ git fetch ssh://au/srv/git/iceweasel-webcnoaddressbar master:webcnoaddressbar
 

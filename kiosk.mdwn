@@ -4,6 +4,8 @@ Webconverger has its own [Firefox kiosk
 extension](https://addons.mozilla.org/en-US/firefox/addon/webconverger) to
 tweak the **user interface** elements such as the URL bar and icons.
 
+Github: <https://github.com/Webconverger/webconverger-addon/>
+
 # Default
 
 	chrome=webconverger
@@ -39,5 +41,5 @@ If you're concerned about the scroll bar, alter the **overflow** CSS element.
 
 # Source code
 
-* [Webconverger extension source code](https://github.com/Webconverger/iceweasel-webconverger)
+* [Webconverger extension source code](https://github.com/Webconverger/webconverger-addon/)
 * [Sample debugging session of the extension in Webconverger](http://r2d2.webconverger.org/2012-11-05/debug.html)
