@@ -52,11 +52,12 @@ These steps are formalised in the [daily build](http://build.webconverger.org/)
 process's
 [webc-build.sh](https://github.com/Webconverger/dailybuild/blob/master/webc-build.sh).
 
-It is recommend you build from a [[chroot]] and invest some time to setup your development environment.
-
 Next use this [[testing_guide|testing]] on your freshly built image.
 
-Please share your forks on github! :) Contributions must be [MIT licensed](http://en.wikipedia.org/wiki/MIT_License).
+Please share your forks on github! :) Contributions must be [MIT
+licensed](http://en.wikipedia.org/wiki/MIT_License). For patches to be
+accepted, you must agree to transfer copyright to Webconverger (the company) to
+make things manageable. We do [[acknowledge|acknowledgements]] contributions!
 
 ## Tips for getting your patch out
 
