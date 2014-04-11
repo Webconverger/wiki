@@ -1,6 +1,6 @@
 [[!meta title="Scheduling a shutdown"]]
 
-Instead in investing in a 5USD [time
+Instead of a 5USD [time
 switch](http://en.wikipedia.org/wiki/Time_switch), you can configure
 Webconverger to shutdown at a set time.
 
