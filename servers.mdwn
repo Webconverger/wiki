@@ -1,12 +1,14 @@
-[[!meta title="Servers used by Webconverger"]]
+[[!meta title="Servers and services used by Webconverger"]]
+
+DNS registration handled by Dreamhost.
+
+DNS records hosted with [AWS Route 53](http://aws.amazon.com/route53/), this is mainly for DNS failover.
 
 # Bandwidth costs
 
 Webconverger averages about [100 downloads a
 day](http://dl.webconverger.com/stats/) and the ISO file is about 400M. So we
 transfer about 40GB a day, or 1 Terabyte a month.
-
-* [Interesting S3 update](https://news.ycombinator.com/item?id=7475278)
 
 # sg.webconverger.com
 
@@ -31,11 +33,19 @@ that month! So it doesn't scale well at all.
 
 Note that VPS will only turn off when you reach 120% of the allowed traffic.
 
-# webconverger.com
+# na.download.webconverger.com
 
 webconverger.com hosted by [Dreamhost](http://www.dreamhost.com/r.cgi?104617)
 in California - 120USD (~75GBP) a year responsible for archives, backups and
 serving <http://webconverger.com>
+
+# www.webconverger.com
+
+Is hosted by Github Pages using the [Fastly CDN](https://github.com/blog/1715-faster-more-awesome-github-pages)
+
+# ny.webconverger.com
+
+New York droplet running Debian for building test images and other development/tests.
 
 # nl.webconverger.com
 
@@ -48,9 +58,10 @@ A bottom of the range [Digital Ocean droplet](https://www.digitalocean.com/?refc
 
 Uses:
 
-* <http://config.webconverger.com>, synchronised by a Github Webhook
+* <http://config.webconverger.com>, synchronised by a Github Webhook, used as a [secondary failover](http://s.natalian.org/2014-04-21/1398064783_1364x748.png) using AWS Route 53
 * European mirror: <http://eu.download.webconverger.com/>
 * Backups (inc <a href="http://greptweet.com/">greptweet</a>)
+* [filter.webconverger.com service](http://webconverger.org/blog/2014/Fine_grained_filtering/)
 
 # sgo.webconverger.com
 
@@ -60,6 +71,8 @@ Uses:
 
 * Asian mirror: <http://as.download.webconverger.com/>
 
+This is likely to take on sg.webconverger.com since it's so much cheaper.
+
 # uk.webconverger.com (gb)
 
 Hosted with [Linode](https://www.linode.com/?r=59198f21b93910b67d8e1e4212a3135343941aae)
@@ -68,6 +81,7 @@ Hosted with [Linode](https://www.linode.com/?r=59198f21b93910b67d8e1e4212a313534
 * Linode 1024
 * London, England, UK
 * 645GB Quota
+* 32bit, needs to rebuilt to 64bit for <https://blog.linode.com/2014/04/17/linode-cloud-ssds-double-ram-much-more/>
 * 20USD pcm
 * [Configuration service](http://config.webconverger.com)
 * [Support service](http://support.webconverger.com/)
@@ -77,8 +91,7 @@ Hosted with [Linode](https://www.linode.com/?r=59198f21b93910b67d8e1e4212a313534
 
 # webconverger.org
 
-<http://webconverger.org> is expertly curated by <http://www.branchable.com>
-for the public wiki.
+<http://webconverger.org> is expertly curated by <http://www.branchable.com> for the public wiki.
 
 ~60USD a year
 
@@ -88,4 +101,4 @@ On a bronze package at 25USD a month.
 
 # http://billing.webconverger.com/
 
-[Curdbee](http://curdbee.com/) 100USD a year.
+[Hiveage](http://www.hiveage.com/) 100USD a year.
