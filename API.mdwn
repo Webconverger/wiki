@@ -172,6 +172,10 @@ Please refer to the [[touch_screen_calibration]] wiki page for calibration and U
 
 Using the `printer=` API, documented in [[printing]].
 
+### How do I enable the numlock for numpad text entry?
+
+Use `numlock`.
+
 ### How to override Firefox preferences (autoconfig)
 
 Please look at `prefs=` usage examples in [[printing]] and [[blog/entry/Popups_and_SSL_warnings]].
