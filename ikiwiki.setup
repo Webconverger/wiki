@@ -8,7 +8,7 @@
 # Remember to re-run ikiwiki --setup any time you edit this file.
 #
 # name of the wiki
-wikiname: Webconverger wiki
+wikiname: Webconverger software wiki
 # contact email for wiki
 adminemail: hendry@iki.fi
 # users who are wiki admins
@@ -134,6 +134,8 @@ allow_symlinks_before_srcdir: 0
 # cookie control
 cookiejar:
   file: /home/b-webconverger-org/.ikiwiki/cookies
+# set custom user agent string for outbound HTTP requests e.g. when fetching aggregated RSS feeds
+#useragent: Wget/1.13.4 (linux-gnu)
 
 ######################################################################
 # core plugins
