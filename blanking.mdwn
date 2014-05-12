@@ -22,6 +22,8 @@ Customers who want to adjust the default 10 minutes, can use `blank=` API to
 set the minutes. E.g. a configuration with `blank=60` will only blank a monitor
 after 1 hour of non-use.
 
+Caveat: A [bug suggests there is an uppler limit](https://github.com/Webconverger/webc/issues/186)
+
 Use case: Client may want to show an "attraction loop" when kiosks are not in
 use. To realise this set `noblank` in the configuration and setup a [Web based
 screensaver](https://github.com/Webconverger/Screensaver) from their homepage.
