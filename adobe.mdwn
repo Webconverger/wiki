@@ -1,3 +1,5 @@
+[[!meta title="Adobe Flash in Webconverger"]]
+
 # Flash is included
 
 <a href="http://www.flickr.com/photos/hendry/5150959998/" title="Flash playback by Kai Hendry, on Flickr"><img src="http://farm5.static.flickr.com/4060/5150959998_37a097ced2.jpg" width="500" height="375" alt="Flash playback" /></a>
@@ -13,6 +15,8 @@ Linux 32 bit, .tar.gz version and [commit like
 so](https://github.com/Webconverger/webc/commit/375349b7cc2ddf7d2635551463052dcdd603927e)
 
 Flash from 17.x lives in [/usr/lib/mozilla/plugins/](https://github.com/Webconverger/webc/tree/master/usr/lib/mozilla/plugins)
+
+	sudo mv libflashplayer.so ~/debian/sid-root/root/webconverger/chroot/usr/lib/mozilla/plugins/libflashplayer.so
 
 # PDF support is included
 
