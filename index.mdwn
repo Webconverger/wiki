@@ -38,18 +38,17 @@ is so awkward!
 # Download Webconverger
 
 * This ISO-hybrid available for [download](http://download.webconverger.com/) can be treated as either a [[ISO]] or [[USB]] image
-* [[Package_listings|txt]]
 
 # Hardware
 
 Webconverger works with **almost any standard x86 PC hardware** with at least 1G of RAM.
 
-# Customisation
+# Configuration management is a commerical product
 
 <http://webconverger.com> is a UK & Singapore registered company that powers
-this project.  The money generated through customisations is the fuel.
+this project.  The money generated through subscriptions is the fuel.
 
-There is a [customisation service](http://config.webconverger.com/faq) and
+There is a [configuration service](http://config.webconverger.com/faq) and
 email support service to help you get your PCs up and running with
 Webconverger.
 
