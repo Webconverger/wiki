@@ -1,3 +1,5 @@
+[[!meta title="How to setup a network printer with Webconverger"]]
+
 # [CTRL]+[p]
 
 Webconverger utilises CUPS 1.5 which auto-detects CUPS <1.6 servers using
