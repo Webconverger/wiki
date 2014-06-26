@@ -2,14 +2,14 @@
 
 Highlights of 25.0 release, making Webconverger an even better Web kiosk:
 
-* New whitelist= filtering option
-* New **numlock** API
-* FF30 based UI refresh
+* New whitelist= [[filtering|filter]] option
+* New **numlock** [[API]]
+* FF30 based Australis UI refresh
 * Downsized 397M→375M, losing ~22M
-* nvidia switched to nouveau driver
+* nvidia video card supported restored with the nouveau driver
 * Various SSL and flash security updates
 
-[Detailed changelog](https://github.com/webconverger/webc/compare/24.0...25.0)
+Here is the [detailed changelog](https://github.com/webconverger/webc/compare/24.0...25.0).
 
 Would like to [[thank|acknowledgements]] my colleague [Mike
 Kaply](http://mike.kaply.com/) for his fine contributions to the Firefox
@@ -17,3 +17,9 @@ Kaply](http://mike.kaply.com/) for his fine contributions to the Firefox
 
 	md5sum: 83dbe58d01560b2ece17a78efc4dd15a  webc-25.0.iso
 	sha1sum: 8216353147e76701fdda7963f02027b6c75f1f6b  webc-25.0.iso
+
+If you are a new user or <a href="https://config.webconverger.com/faq/#what-do-you-mean-by-live-version-and-install-version">live user</a>, [download the latest ISO release](http://dl.webconverger.com/latest.iso) and upgrade.
+
+For install users, sit back and enjoy summer! Your install user should
+[[automatically upgrade|upgrade]]. You can double check with `about:` to be
+sure.
