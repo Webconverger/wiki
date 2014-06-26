@@ -3,7 +3,7 @@
 Highlights of this 25.0 signed & tagged release, making Webconverger an even better Web kiosk:
 
 * New super simple whitelist= [[filtering]] option
-* New **numlock** [[API]], to assist deployments in banks and such for numpad data entry
+* New **numlock** [[API]], to assist deployments in banks and such for [numpad](https://en.wikipedia.org/wiki/Numeric_keypad) data entry
 * FF30 based Australis UI refresh, being very careful to minimise its impact on our conservative userbase
 * Downsized 397M→375M, losing ~22M
 * nvidia video card supported restored with the nouveau driver
