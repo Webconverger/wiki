@@ -31,7 +31,7 @@ matched too. External dependencies of a page are permitted too.
 
 Say you want to give your users free reign on the Internet, though you cannot
 allow them to visit certain categories of such as adult and/or gambling sites.
-In that case please read and enquire about our [filtering
+In that case please read and enquire with sales about our [filtering
 product](http://webconverger.org/blog/2014/Fine_grained_filtering/) which
 competes with [OpenDNS's](https://en.wikipedia.org/wiki/OpenDNS) "domain
 blocking" product.
@@ -43,7 +43,7 @@ reset Webconverger to your site every say, 3 minutes. This can help avoid an
 unsupervised Webconverger kiosk being set on a non-mandated Website for too
 long in public spaces.
 
-# Further un-supported options
+# Unsupported options
 
 ## Using your router or wireless access point
 
