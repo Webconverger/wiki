@@ -4,19 +4,20 @@
 * Build it `uk# /srv/www/build.webconverger.org/webc-build.sh`
 * [[Test|testing]] it
 * Just debug.log [[ping|privacy]], check clients config fetch
-* On uk, run `download.webconverger.org$ cp /srv/www/build.webconverger.org/output/webc-13.0.* .`
-* Update .htaccess
-* Sync `www$ ./download-mirror.sh`, back up old release to http://archive.webconverger.com/
+* On gb, run `/srv/www/build.webconverger.org/sync.sh`
+* Update .htaccess and nginx config
+* Back up old release to http://archive.webconverger.com/
 * Download text files for diff
 	git diff --color-words --no-index  webc-12.3.txt webc-13.0.txt | ansi2html > ~/wikis/webconverger-org.branchable.com/changes/12.3-13.0.mdwn
 * Blog release notes, for [example](http://webconverger.org/blog/entry/Webconverger_13_release_notes/)
 
 I usually put in a md5sum here because it's seperate to the download servers.
-Link the package changes, but avoid linking the package list explicitly as a URL like http://download.webconverger.com/webc-13.0.txt will **break**
+
+Link the package changes, but avoid linking the package list explicitly as a
+URL like http://download.webconverger.com/webc-13.0.txt will **break**
 
 * Mail [webc-users](https://github.com/Webconverger/dotCom/blob/master/list/maillist), linking blog entry, for [example](https://groups.google.com/forum/#!topic/webc-users/6rDiV-Sjhf8/discussion)
 * Log into [twitter](http://twitter.com/#!/webconverger) and tweet linking the release notes, for [example](http://twitter.com/webconverger/status/205963007925301248)
 * Email distrowatch distro@distrowatch.com with release notes
 * [Update Wikipedia](http://en.wikipedia.org/wiki/Webconverger)
-* Update Freecode <http://freecode.com/projects/webconverger/releases/345043>
 * Send [Webconverger newsletter](https://github.com/Webconverger/dotCom/blob/master/list/maillist)
