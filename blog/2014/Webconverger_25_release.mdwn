@@ -1,10 +1,10 @@
 <img src="/img/australis-changes.png" alt="Australis changes">
 
-Highlights of 25.0 release, making Webconverger an even better Web kiosk:
+Highlights of this 25.0 signed & tagged release, making Webconverger an even better Web kiosk:
 
-* New whitelist= [[filtering|filter]] option
-* New **numlock** [[API]]
-* FF30 based Australis UI refresh
+* New super simple whitelist= [[filtering|filter]] option
+* New **numlock** [[API]], to assist deployments in banks and such for numpad data entry
+* FF30 based Australis UI refresh, being very careful to minimise its impact on our conservative userbase
 * Downsized 397M→375M, losing ~22M
 * nvidia video card supported restored with the nouveau driver
 * Various SSL and flash security updates
@@ -20,6 +20,6 @@ Kaply](http://mike.kaply.com/) for his fine contributions to the Firefox
 
 If you are a new user or <a href="https://config.webconverger.com/faq/#what-do-you-mean-by-live-version-and-install-version">live user</a>, [download the latest ISO release](http://dl.webconverger.com/latest.iso) and upgrade.
 
-For install users, sit back and enjoy summer! Your install user should
-[[automatically upgrade|upgrade]]. You can double check with `about:` to be
-sure.
+For install users, sit back and enjoy summer! Your install should
+[[automatically upgrade|upgrade]]. You can always double check with `about:` to
+be sure.
