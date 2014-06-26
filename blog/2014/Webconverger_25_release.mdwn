@@ -12,7 +12,7 @@ Highlights of this 25.0 signed & tagged release, making Webconverger an even bet
 Here is the [detailed changelog](https://github.com/webconverger/webc/compare/24.0...25.0).
 
 Would like to [[thank|acknowledgements]] my colleague [Mike
-Kaply](http://mike.kaply.com/) for his fine contributions to the Firefox
+Kaply](http://mike.kaply.com/) for his fine contributions to our integrated Firefox
 [webconverger addon](https://github.com/Webconverger/webconverger-addon).
 
 	md5sum: 83dbe58d01560b2ece17a78efc4dd15a  webc-25.0.iso
