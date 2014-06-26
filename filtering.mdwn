@@ -13,72 +13,27 @@ effectively walled into your homepage and its links.
 Beware your homepage's external link might link to Google and allow that user
 to browse effectively anywhere.
 
-# Fine grained filtering as a Webconverger product (recommended)
+# NEW whitelist=
 
-<iframe width="420" height="315" src="//www.youtube.com/embed/K4p322KQ6Ww?rel=0" frameborder="0" allowfullscreen></iframe>
+From Webconverger 25.0, you can simply have a configuration such as:
 
-From Webconverger 24, we have a simpler `filter=BLACKLIST_URL,REDIR_IP` API
-which is able to filter on DNS wildcards.
+	homepage=http://www.bl.uk/
+	whitelist=bl.uk
 
-From March 2014, Webconverger provides a competitive service
-<http://filter.webconverger.com/> where you can select categories of sites
-(this is kept uptodate) you want to block, as well as your own
-whitelist/blacklist and it creates/maintains the **BLACKLIST_URL**.
+And Webconverger will be configured to expose the URL bar, so that the user can
+type any URL in, as long as it matches the **bl.uk** top level domain.
 
-It offers the same functionality as OpenDNS, though at 3/4 of the cost. Please
-contact sales.
+To add more domains, such as flickr.com, simply append with a comma. Example:
+`whitelist=bl.uk,flickr.com`. All subdomains of a whitelisted domain are
+matched too. External dependencies of a page are permitted too.
 
-# Coarse grained filtering with the hosts= API (not supported)
+# Category based filtering
 
-Using <a href="http://en.wikipedia.org/wiki/Hosts_(file)">the hosts file</a> is
-a naive way of filtering Web access of your Webconverger deployments.  It's by
-no means fool-proof, and you need to be able to create the file yourself for
-the time being on a public URL since we don't offer a configuration Web
-user-interface for it atm.
-
-Note the hosts file is only setup on boot, so if you change the `hosts=` file
-you need to reboot the machine for it to take affect of any modified rules.
-
-WARNING: If the hosts file fails to retrieve, the machine can be left
-unprotected. We will make this feature more failsafe, i.e. if the hosts file
-fails to download, it will show a graphic to that affect and halt.
-
-## iptables API
-
-[Iptables man page](http://manpages.debian.net/cgi-bin/man.cgi?query=iptables)
-
-E.g. to block the IP 8.8.8.8
-
-	iptables=-I%20INPUT%20-s%208.8.8.8%20-j%20DROP
-
-You can have multiple iptables= commands and they will be processed in order.
-
-## Blacklist
-
-Specifying `hosts=http://example.webconverger.com/blacklist` will replace <a
-href="http://en.wikipedia.org/wiki/Hosts_(file)">/etc/hosts</a> with the black
-list <http://example.webconverger.com/blacklist>.
-
-To attempt to blacklist for example reddit.com, you would typically add lines
-in this format:
-
-	255.255.255.255 reddit.com
-	255.255.255.255 www.reddit.com
-
-Therefore the machine would be blacklisted to surf upon reddit.com, however's
-reddit's content might be available through other websites or subdomains so
-this method is not fool-proof. 
-
-## Whitelist
-
-To setup a [whitelist](http://en.wikipedia.org/wiki/Whitelist) where only
-domains you specify can be accessed since the DNS service is disabled, your
-`hosts=` value must contain the word **whitelist**.
-
-For example: hosts=http://example.webconverger.com/whitelist
-
-<http://example.webconverger.com/whitelist> contains the
-sites you explicitly want to resolve/allow.
+Say you want to give your users free reign on the Internet, though you cannot
+allow them to visit certain categories of such as adult and/or gambling sites.
+In that case [please read up about our [filtering
+product](http://webconverger.org/blog/2014/Fine_grained_filtering/) which
+competes with [OpenDNS's](https://en.wikipedia.org/wiki/OpenDNS) "domain blocking" product.
 
 # How to prevent users leaving public kiosks in a "bad state"
 
