@@ -69,7 +69,6 @@ Disabling upgrades will disable Webconverger from doing a `git fetch` on boot.
 
 * using hashes as update-revision, you'll do a sort of implicit validation
 * signed tags might be useful, but we'll have to have some way to circumvent that so we can push debug revisions without having to tag all of them
-* use https:// instead of git://
 
 # Quick notes on testing before a push
 
@@ -85,15 +84,11 @@ Disabling upgrades will disable Webconverger from doing a `git fetch` on boot.
 
 Note one should probably work from a branch, e.g. `git branch flashtest; git push origin flashtest -u` and then merge to master for a push
 
+<img src="/img/checking-upgrade.png" alt="Checking the size of an upgrade in debug mode">
+
 # TODOs and [issues](https://github.com/Webconverger/webc/issues)
 
-* auto reboot
-* dialog to choose install device
-* TODOs in the code
-* shallow fetches need to be investigated, since it can now sometimes end up downloading the complete history
-* Cleanup of the .git directory needs to be investigated
-* failover bootloader stuff
-* make fetch happen periodically from /etc/inittab to reduce upgrade delay
+* make fetch happen periodically from /etc/inittab to reduce upgrade delay?
 
 For more background, see these [[gitupgrades]] notes.
 
