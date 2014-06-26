@@ -1,0 +1,19 @@
+<img src="/img/australis-changes.png" alt="Australis changes">
+
+Highlights of 25.0 release, making Webconverger an even better Web kiosk:
+
+* New whitelist= filtering option
+* New **numlock** API
+* FF30 based UI refresh
+* Downsized 397M→375M, losing ~22M
+* nvidia switched to nouveau driver
+* Various SSL and flash security updates
+
+[Detailed changelog](https://github.com/webconverger/webc/compare/24.0...25.0)
+
+Would like to [[thank|acknowledgements]] my colleague [Mike
+Kaply](http://mike.kaply.com/) for his fine contributions to the Firefox
+[webconverger addon](https://github.com/Webconverger/webconverger-addon).
+
+	md5sum: 83dbe58d01560b2ece17a78efc4dd15a  webc-25.0.iso
+	sha1sum: 8216353147e76701fdda7963f02027b6c75f1f6b  webc-25.0.iso

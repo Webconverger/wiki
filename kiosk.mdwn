@@ -13,7 +13,9 @@ Github: <https://github.com/Webconverger/webconverger-addon/>
 The goal with this default to have a **stable**, simple & familiar user
 interface for using the Web.
 
-<img src="/chrome/webconverger.png" alt="webconverger" />
+<img src="/chrome/webconverger-showprintbutton.png" alt="webconverger" />
+
+`showprintbutton` API is enabled on this screenshot. Normally there would be no print icon.
 
 # No address bar
 
@@ -22,7 +24,9 @@ interface for using the Web.
 Customization option, perfect for [[filtered|filtering]] setups. For customers
 who want patrons to browse, but not enter in URLs to navigate away.
 
-<img src="/chrome/webcnoaddressbar.png" alt="webcnoaddressbar" />
+<img src="/chrome/webcnoaddressbar-showprintbutton.png" alt="webcnoaddressbar" />
+
+`showprintbutton` API is enabled on this screenshot. Normally there would be no print icon.
 
 # Fullscreen
 
@@ -32,8 +36,8 @@ Customization option. For customers who want to do basic [Digital
 signage](http://en.wikipedia.org/wiki/Digital_Signage) or just [show off some
 pictures](http://www.subitophoto.net/slideshow/machupicchu/) somewhere.
 
-[Neon](http://neon.webconverger.com/) has further tweaks and currently
-proprietary extension for the digital signage use case.
+[Neon](http://neon.webconverger.com/) has further tweaks for the digital
+signage use case, such as a black background.
 
 <img src="/chrome/webcfullscreen.png" alt="webcfullscreen" />
 
