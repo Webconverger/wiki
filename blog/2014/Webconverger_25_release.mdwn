@@ -6,7 +6,7 @@ Highlights of this 25.0 signed & tagged release, making Webconverger an even bet
 * New **numlock** [[API]], to assist deployments in banks and such for [numpad](https://en.wikipedia.org/wiki/Numeric_keypad) data entry
 * Incorporated [Firefox 29/30](http://www.mozilla.org/en-US/firefox/30.0/releasenotes/) based Australis user interface refresh, being very careful to minimise its impact on our conservative userbase
 * Downsized 397M→375M, losing ~22M
-* nvidia video card supported restored with the nouveau driver
+* nvidia video card support restored with the nouveau driver
 * Various SSL and flash security updates
 
 Here is the [detailed changelog](https://github.com/webconverger/webc/compare/24.0...25.0).
