@@ -1,14 +1,16 @@
+[[!meta title="Configuring the Webconverger background wallpaper"]]
+
 **Boot artwork** (the yellow tricolour progress bar) is **not** customisable.
 
 From Webconverger 12 the background image on a white background seen between
 browser restarts can be customised by:
 
-1. Passing for example `bgurl=http://hendry.iki.fi/bg.png` at the syslinux boot menu
+1. Passing for example `bgurl=http://www.webconverger.com/img/logo.png` at the syslinux boot menu
 2. By specifying your background image URL in the customisation form and purchasing a subscription
 
 Using option 2 is the most convenient, as this ensures you have you background set every boot.
 
 
-Currently the background image URL is checked after every browser session, here is the relevant code:
+Currently the background image URL is checked after every browser session, here is the relevant code and search for "bgurl":
 
-<https://github.com/Webconverger/webc/blob/master/home/webc/webc.sh#L138>
+<https://github.com/Webconverger/webc/blob/master/home/webc/webc.sh>
