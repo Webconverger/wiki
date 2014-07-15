@@ -22,6 +22,7 @@ Clients use Webconverger in:
 Web feedback
 ============
 
+* [Webconverger for PCs in hotel business centres](http://www.hotforsecurity.com/blog/the-danger-of-using-pcs-in-hotel-business-centres-9569.html)
 * [European commission joinup](https://joinup.ec.europa.eu/community/osor/news/linux-based-kiosk-pcs-assists-visitors-town-hall-dutch-uden)
 * [Spanish blog](http://www.scsintl.com/apps/blog/show/33544530-configura-tu-computador-como-navegador-web-anonimo-con-webconverger)
 * [Interview by DDG](https://dukgo.com/blog/webconverger-interview)
