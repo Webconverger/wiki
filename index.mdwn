@@ -39,7 +39,7 @@ is so awkward!
 
 # Download Webconverger
 
-* This ISO-hybrid available for [download](http://download.webconverger.com/) can be treated as either a [[ISO]] or [[USB]] image
+* This ISO-hybrid available for [download](http://dl.webconverger.com/latest.iso) can be treated as either a [[ISO]] or [[USB]] image
 
 # Hardware
 
@@ -62,7 +62,7 @@ Webconverger.
 * [[Low_requirements|Requirements]] - can run on old/cheap hardware and can be ported to run on embedded devices
 * Good [[security]] features by [[design]]
 * [[Web_Standards]] compliant
-* [[Cost_effective]] - try the [free version](http://download.webconverger.com/) or order a [customised version](http://custom.webconverger.com)
+* [[Cost_effective]] - try the [free version](http://dl.webconverger.com/latest.iso) or order a [customised version](http://custom.webconverger.com)
 * [[No_users_or_registration|Registration]]
 * [[Flash_and_PDF_viewer|Adobe]]
 * [[Easy_to_use|Training]]

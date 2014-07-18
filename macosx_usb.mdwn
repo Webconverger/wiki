@@ -5,7 +5,7 @@
 Accompanying [Flickr set](http://flic.kr/s/aHsjyN4KF5)
 
 1. Download the latest official Webconverger from
-<http://download.webconverger.com/latest.iso> The download file will be
+<http://dl.webconverger.com/latest.iso> The download file will be
 renamed to the latest ISO, at the time of writing `webc-13.0.iso`.
 
 2. Open a Terminal in `/Applications/Utilities/`
