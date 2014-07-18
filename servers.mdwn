@@ -1,6 +1,6 @@
 [[!meta title="Servers and services used by Webconverger"]]
 
-DNS registration handled by Dreamhost.
+Domain registration handled by Dreamhost.
 
 DNS records hosted with [AWS Route 53](http://aws.amazon.com/route53/), this is mainly for DNS failover.
 
