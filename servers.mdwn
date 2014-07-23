@@ -16,7 +16,7 @@ A [GPLHOST VPS package
 4](https://dtc.node6503.gplhost.com/dtc/affiliation.php?affiliate=kaihendry&return=/hosting-vps.html)
 Debian configured machine for development, hosted in Singapore.
 
-* 30USD a month
+* 30USD a month ( 335.56 USD a year )
 * At least 50mbit/sec up and down for local traffic <http://www.gplhost.com/gplhost-network-singapore.html>
 * [Control panel](https://dtc.node6503.gplhost.com/dtc/)
 * [Printer configuration hosting](http://ppd.webconverger.com/)
@@ -78,10 +78,9 @@ This is likely to take on sg.webconverger.com since it's so much cheaper.
 Hosted with [Linode](https://www.linode.com/?r=59198f21b93910b67d8e1e4212a3135343941aae)
 
 * Debian 7 (wheezy)
-* Linode 1024
+* Linode 2048
 * London, England, UK
-* 645GB Quota
-* 32bit, needs to rebuilt to 64bit for <https://blog.linode.com/2014/04/17/linode-cloud-ssds-double-ram-much-more/>
+* 2676GB Quota
 * 20USD pcm
 * [Configuration service](http://config.webconverger.com)
 * [Support service](http://support.webconverger.com/)

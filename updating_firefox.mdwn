@@ -9,7 +9,7 @@ Get the 32bit version: `wget 'https://download-installer.cdn.mozilla.net/pub/fir
 
 Using the **firefox-i18n** packaging from Archlinux:
 
-	cp /var/abs/extra/firefox-i18n /tmp
+	cp -r /var/abs/extra/firefox-i18n /tmp
 	cd /tmp/firefox-i18n
 	makepkg -o
 	mkdir /tmp/exts
