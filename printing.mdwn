@@ -34,7 +34,10 @@ For example a Ricoh Aficio SP 4310N with [PPD](http://en.wikipedia.org/wiki/Post
 
 	printer=lab1,http://192.168.1.5/printer,http://ppd.webconverger.com/ricoh.ppd
 
-Instead of specifying a remote [PPD](http://en.wikipedia.org/wiki/PostScript_Printer_Description), you could use the internal (generic) drivers `lpinfo -m` [list](http://ix.io/4Mf).
+Instead of specifying a remote
+[PPD](http://en.wikipedia.org/wiki/PostScript_Printer_Description), you should
+ideally use the internal (generic) drivers: "drv:///sample.drv/generpcl.ppd" or
+"drv:///sample.drv/generic.ppd".
 
 For example a network printer 192.168.1.10 named "helpdesk" with dns name
 printer is very likely to have "Laser printer"
