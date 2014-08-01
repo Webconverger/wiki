@@ -24,6 +24,12 @@ CUPS](http://cups.org/newsgroups.php?s25831+gcups.general+v25832+T1). You now
 need to "Add printer..." up front, and hence we have introduced the `printer=`
 API for you to do this.
 
+# Helping us support you
+
+For our customers, please print out the "Printer Settings" report and send it
+to us (a good capture from your mobile is usually sufficient) together with
+your printer query.
+
 # printer= API
 
 [the printer= API](https://github.com/Webconverger/webc/issues/145) has syntax like so:
