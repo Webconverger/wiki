@@ -6,7 +6,7 @@ DNS records hosted with [AWS Route 53](http://aws.amazon.com/route53/), this is 
 
 # Bandwidth costs
 
-Webconverger averages about [100 downloads a
+Webconverger averages ~[100 downloads a
 day](http://dl.webconverger.com/stats/) and the ISO file is about 400M. So we
 transfer about 40GB a day, or 1 Terabyte a month.
 
@@ -14,14 +14,14 @@ transfer about 40GB a day, or 1 Terabyte a month.
 
 A [GPLHOST VPS package
 4](https://dtc.node6503.gplhost.com/dtc/affiliation.php?affiliate=kaihendry&return=/hosting-vps.html)
-Debian configured machine for development, hosted in Singapore.
 
-* 30USD a month ( 335.56 USD a year )
+Archlinux local hosting machine in Singapore.
+
+* 320USD a year (quite uncompetitive compared to Digital Ocean) expiring in 2015-06-13
 * At least 50mbit/sec up and down for local traffic <http://www.gplhost.com/gplhost-network-singapore.html>
 * [Control panel](https://dtc.node6503.gplhost.com/dtc/)
 * [Printer configuration hosting](http://ppd.webconverger.com/)
 * [Nagios](https://github.com/Webconverger/nagios)
-* Archlinux (systemd)
 
 ## Bandwidth
 
@@ -101,3 +101,7 @@ On a bronze package at 25USD a month.
 # http://billing.webconverger.com/
 
 [Hiveage](http://www.hiveage.com/) 100USD a year.
+
+# SSL
+
+* [config.webconverger.com](https://www.ssllabs.com/ssltest/analyze.html?d=config.webconverger.com), expires Sat Apr 29 18:57:32 UTC 2017 
