@@ -184,6 +184,10 @@ Please look at `prefs=` usage examples in [[printing]] and [[blog/entry/Popups_a
 [autoconfig](http://mike.kaply.com/2012/03/16/customizing-firefox-autoconfig-files/)
 feature.
 
+### customer= API
+
+This is stanza to your current email address, so we can contact you.
+
 ### Remote logging (from version 15)
 
 Sign up for an account with [Papertrail](https://papertrailapp.com/?thank=97e900)
