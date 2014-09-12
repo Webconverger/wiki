@@ -47,3 +47,9 @@ If you're concerned about the scroll bar, alter the **overflow** CSS element.
 
 * [Webconverger extension source code](https://github.com/Webconverger/webconverger-addon/)
 * [Sample debugging session of the extension in Webconverger](http://r2d2.webconverger.org/2012-11-05/debug.html)
+
+## Notes on keeping the extension free of cruft
+
+Look for ids upon the
+[browser.xul](http://mxr.mozilla.org/mozilla-central/source/browser/base/content/browser.xul)
+that introduce new unwanted UI elements. Then block them in the <https://github.com/Webconverger/webconverger-addon/blob/master/src/webconverger.css>.

@@ -35,3 +35,4 @@ message, like please contact your system administrator.
 
 	git checkout firefox/mozilla.cfg
 	git checkout firefox/browser/searchplugins/DDG.xml
+
