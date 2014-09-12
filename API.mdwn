@@ -32,7 +32,7 @@ address with `%20` e.g.
 * WEBCID expands to <a href="https://config.webconverger.com/faq/#how-do-i-identify-my-machine(s)">Webconverger's identifier</a>
 * WEBCVERSION expands to use `git describe` the running instance's version
 
-For example Some customers want a way of tracking which kiosks are logging in.
+For example: Customers want to track which kiosks are logging in.
 These is best accomplished using a keyword **MACID**. For example the homepage:
 
 	homepage=http://webconverger.com/?mac=MACID
@@ -49,7 +49,7 @@ Could be expanded to
 * chrome=webcnoaddressbar - disable URL bar and search bar, good for [[controlled_access_setups|filtering]]
 * chrome=webcfullscreen - fullscreen without any chrome
 * chrome=neon - fullscreen as used with [Neon](http://neon.webconverger.com)
-* chrome=debug - nightly testing tools, for [[testing]] crash recovery etc.
+* chrome=debug - nightly testing tools, for [[testing]] crash recovery etc. and to expose `about:config`
 
 See [[kiosk]] for screenshots of the options.
 
@@ -64,10 +64,10 @@ See [[kiosk]] for screenshots of the options.
 
 Explanation of the above:
 
-1. Set the chrome (not the browser, but the [GUI](http://en.wikipedia.org/wiki/Graphical_user_interface)), to a dark themed "neon" for DOOH
+1. Set the chrome (not the browser, but the [GUI](http://en.wikipedia.org/wiki/Graphical_user_interface)), to a dark themed "neon" for <abbr="Digital Out Of Home">DOOH</abbr>
 * Set the homepage to sg.webconverger.com, whilst also passing a screen identifier
 * Set the timezone to Singapore, so we can express a local time in the next line
-* Schedule a job to run at 3AM, to kill firefox, the browser used in Webconverger. This is to ensure responsiveness in case there is a memory leak
+* [[Schedule a job|cronjob]] to run at 3AM, to kill firefox, the browser used in Webconverger. This is to ensure responsiveness in case there is a memory leak
 * `hidecursor` makes sure the mouse cursor is invisible
 * `noblank` ensures the screen does not turn black, i.e. it's always showing the rendered Webpage
 
