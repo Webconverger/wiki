@@ -51,8 +51,6 @@ To pass this as a configuration to Webconverger, it needs to be `encodeURI` on [
 
 Hint for developers: The script [live-config](https://github.com/Webconverger/webc/blob/master/etc/webc/live-config.sh) writes out the cronjob.
 
-[**BUG** Do not have the cronjob as the last line of your configuration without a carriage return](https://github.com/Webconverger/webc/issues/199)
-
 ## My machine is not shutting down at the specified time / my time is wrong
 
 In your logs, which can retrieved using the `support` [[API]] and
