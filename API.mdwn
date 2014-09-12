@@ -53,7 +53,7 @@ Could be expanded to
 
 See [[kiosk]] for screenshots of the options.
 
-### Neon configuration example
+### [Neon](http://neon.webconverger.com/) configuration example (a complex example)
 
 	chrome=neon
 	homepage=http://sg.webconverger.com/?mac=MACID
@@ -61,6 +61,7 @@ See [[kiosk]] for screenshots of the options.
 	cron=00%2003%20*%20*%20*%20root%20killall%20firefox
 	hidecursor
 	noblank
+	xrandr-all=--rotate%20left
 
 Explanation of the above:
 
@@ -70,11 +71,11 @@ Explanation of the above:
 * [[Schedule a job|cronjob]] to run at 3AM, to kill firefox, the browser used in Webconverger. This is to ensure responsiveness in case there is a memory leak
 * `hidecursor` makes sure the mouse cursor is invisible
 * `noblank` ensures the screen does not turn black, i.e. it's always showing the rendered Webpage
+* Rotate connected screens to portrait
 
 ### How to limit access with a blacklist or a whitelist?
 
-Please see [[filtering]] how to use the `hosts=` API and advice on other more
-comprehensive solutions.
+Please see [[filtering]] page.
 
 ### Use Webconverger in a different language to English
 
@@ -191,6 +192,10 @@ Please refer to the [[touch_screen_calibration]] wiki page for calibration and U
 ### How do I declare my network printer?
 
 Using the `printer=` API, documented in [[printing]].
+
+### How do I show a print button?
+
+	showprintbutton
 
 ### How do I enable the numlock for numpad text entry?
 
