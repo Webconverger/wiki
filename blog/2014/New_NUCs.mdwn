@@ -19,3 +19,5 @@ from customers.  They are well made and use the cheaper Celeron based
 processor. These are going for **less than 200USD**!
 
 September 2014 Update: Look out for the Atom [NUC Thin Canyon](http://nucupdate.com/sept2014/d_pub/thincanyonpb.htm) (DE3815TYKHE) and the <a href=http://nucupdate.com/sept2014/d_pub/viewdemoposter.html?pt=Intel%20NUC%20Kiosk%20eDP&psrc=Kiosk%20(eDP)&pdlink=demokiosk>Intel NUC Kiosk eDP</a>. These are around the 150USD mark and lowering.
+
+Also do compare the **Recommended Customer Price** at the [Intel ARK](http://ark.intel.com/products/series/70406/Intel-NUC-Boards).
