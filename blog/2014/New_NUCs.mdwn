@@ -14,7 +14,7 @@ They all should be plug and play with Webconverger.
 # The cheapest NUC?
 
 We've heard excellent reports of the [Intel
-DN2820FYKH](http://www.intel.com/content/www/us/en/nuc/nuc-board-dn2820fykh.html).
+DN2820FYKH](http://www.intel.com/content/www/us/en/nuc/nuc-board-dn2820fykh.html), the Atom [NUC Thin Canyon](http://nucupdate.com/sept2014/d_pub/thincanyonpb.htm) (DE3815TYKHE) and the <a href=http://nucupdate.com/sept2014/d_pub/viewdemoposter.html?pt=Intel%20NUC%20Kiosk%20eDP&psrc=Kiosk%20(eDP)&pdlink=demokiosk>Intel NUC Kiosk eDP</a>.
 
 Well made and uses a cheaper Celeron based processor. These are going for
 **less than 200USD**!
