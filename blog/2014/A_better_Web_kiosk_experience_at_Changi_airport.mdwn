@@ -1,0 +1,14 @@
+Since moving to Singapore about two years ago, I've fallen in love with [Changi
+Airport](https://twitter.com/FansofChangi). It's the best Airport in the world.
+
+However it pains me to see their [Internet stations](http://www.changiairport.com/at-changi/internet-and-business-services/internet-access), with such poor support for modern HTML standards:
+
+<img width=640 height=480 src=/img/sitekiosk_changi_html5test.jpg alt="42 points with SiteKiosk" />
+
+If Changi airport would upgrade their ~550 Internet stations software to run Webconverger:
+
+<img width=640 height=480 src=/img/webconverger-26-htmltest.png alt="455 points with Webconverger" />
+
+* Changi Airport would instantly go from 42 to 455 points with the <http://html5test.com/>
+* Kiosks running Webconverger would auto update to track the latest Firefox developments, ensuring it doesn't just stay at 455 points
+* Users of the kiosks would have better Web experiences with <a href=/img/changi-privacy-click-through.jpg>privacy and safety</a> improvements
