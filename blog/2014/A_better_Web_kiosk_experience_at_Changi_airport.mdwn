@@ -5,6 +5,13 @@ However it pains me to see their [Internet stations](http://www.changiairport.co
 
 <img width=640 height=480 src=/img/sitekiosk_changi_html5test.jpg alt="42 points with SiteKiosk" />
 
+It wouldn't surprise me that these kiosk running old software had:
+
+* Some Web sites simply wouldn't work
+* Or work with much reduced functionality
+* Waste peoples time without have good form validation controls
+* Have a range of security issues since it's so out of date
+
 If Changi airport would upgrade their ~550 Internet stations software to run Webconverger:
 
 <img width=640 height=480 src=/img/webconverger-26-htmltest.png alt="455 points with Webconverger" />
