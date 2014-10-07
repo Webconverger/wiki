@@ -12,3 +12,8 @@ If Changi airport would upgrade their ~550 Internet stations software to run Web
 * Changi Airport would instantly go from 42 to 455 points with the <http://html5test.com/> for **far better Web experience** and happier users
 * Users of the kiosks would have better Web experiences with <a href=/img/changi-privacy-click-through.jpg>privacy and safety</a> improvements - **better security** for passengers
 * Kiosks running Webconverger would auto update to track the latest Firefox developments, ensuring it doesn't just stay at 455 points - **always getting better**
+
+Webconverger is used by various US, New Zealand and UK government institutions
+and several banks. There are at least [six
+thousand](http://ping.webconverger.org/) machines running the Webconverger
+software all around the world, software made right here in Singapore.
