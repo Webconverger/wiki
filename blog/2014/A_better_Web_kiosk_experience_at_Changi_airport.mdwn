@@ -9,7 +9,7 @@ It wouldn't surprise me that these kiosks running old software had complaints li
 
 * Some Web sites simply wouldn't work
 * Or work with much reduced functionality
-* Waste peoples time without have good form validation controls
+* Wastes people's time without have good form validation controls
 * Have a range of security issues since it's so out of date
 
 If Changi airport would upgrade their ~550 Internet stations software to run Webconverger:
