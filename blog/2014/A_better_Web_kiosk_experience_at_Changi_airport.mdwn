@@ -5,7 +5,7 @@ However it pains me to see their [Internet stations](http://www.changiairport.co
 
 <img width=640 height=480 src=/img/sitekiosk_changi_html5test.jpg alt="42 points with SiteKiosk" />
 
-It wouldn't surprise me that these kiosk running old software had:
+It wouldn't surprise me that these kiosks running old software had complaints like:
 
 * Some Web sites simply wouldn't work
 * Or work with much reduced functionality
@@ -22,5 +22,5 @@ If Changi airport would upgrade their ~550 Internet stations software to run Web
 
 Webconverger is used by various US, New Zealand and UK government institutions
 and several banks. There are at least [six
-thousand](http://ping.webconverger.org/) machines running the Webconverger
-software all around the world, software made right here in Singapore.
+thousand](http://ping.webconverger.org/) machines running Webconverger software
+all around the world, software made right here in Singapore.
