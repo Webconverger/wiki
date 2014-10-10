@@ -1,6 +1,6 @@
 # Welcome to the opensource Webconverger Web kiosk project wiki !
 
-[Subscribe to the RSS feed](http://webconverger.org/blog/index.rss) of the **[[blog]]**:
+[Subscribe to the RSS feed](//webconverger.org/blog/index.rss) of the **[[blog]]**:
 
 [[!inline  pages="blog/*/*" show="1" actions="no" feeds="no" archive="yes"]]
 
@@ -14,13 +14,13 @@
 
 <table border=0 style="background-color: #fff; padding: 5px;" cellspacing=0>
   <tr><td style="padding-left: 5px"> <b>Subscribe to Webconverger Users</b> </td></tr>
-  <form action="http://groups.google.com/group/webc-users/boxsubscribe">
+  <form action="https://groups.google.com/group/webc-users/boxsubscribe">
   <input type=hidden name="hl" value="en-GB">
   <tr><td style="padding-left: 5px;"> Email: <input type=text name=email>
   <input type=submit name="sub" value="Subscribe">
   </td></tr>
 </form>
-<tr><td align=right> <a href="http://groups.google.com/group/webc-users?hl=en-GB">Visit this group</a> </td></tr>
+<tr><td align=right> <a href="https://groups.google.com/group/webc-users?hl=en-GB">Visit this group</a> </td></tr>
 </table>
 
 ## We have established a \#webconverger IRC channel on the http://freenode.net/ IRC network. Join!
@@ -30,7 +30,7 @@ site and then I can give you the appropriate write/admin privileges. Sorry this
 is so awkward!
 
 * [Download Webconverger](http://dl.webconverger.com/latest.iso)
-* [Webconverger videos](http://www.youtube.com/webconverger/) and [[how_they_are_made|screencasting]]
+* [Webconverger videos](https://www.youtube.com/webconverger/) and [[how_they_are_made|screencasting]]
 * [[Design_document|Design]]
 * [[Developer_information|Develop]]
 * [[Acknowledgements]] - thanks everyone for your MIT licensed contributions!
@@ -47,10 +47,10 @@ Webconverger works with **almost any standard x86 PC hardware** with at least 1G
 
 # Configuration management is a commerical product
 
-<http://webconverger.com> is a UK & Singapore registered company that powers
+<https://webconverger.com> is a UK & Singapore registered company that powers
 this project.  The money generated through subscriptions is the fuel.
 
-There is a [configuration service](http://config.webconverger.com/faq) and
+There is a [configuration service](https://config.webconverger.com/faq) and
 email support service to help you get your PCs up and running with
 Webconverger.
 
@@ -62,10 +62,10 @@ Webconverger.
 * [[Low_requirements|Requirements]] - can run on old/cheap hardware and can be ported to run on embedded devices
 * Good [[security]] features by [[design]]
 * [[Web_Standards]] compliant
-* [[Cost_effective]] - try the [free version](http://dl.webconverger.com/latest.iso) or order a [customised version](http://custom.webconverger.com)
+* [[Cost_effective]] - try the [free version](http://dl.webconverger.com/latest.iso) or order a [customised version](https://custom.webconverger.com)
 * [[No_users_or_registration|Registration]]
 * [[Flash_and_PDF_viewer|Adobe]]
 * [[Easy_to_use|Training]]
 * [[Low_Maintenance|Maintenance]]
-* Commercial [[Support]] via [Webconverger.com](http://webconverger.com/) is available. Please enquire.
+* Commercial [[Support]] via [Webconverger.com](https://webconverger.com/) is available. Please enquire.
 * [[Privacy_policy|privacy]]
