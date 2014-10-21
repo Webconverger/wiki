@@ -228,3 +228,13 @@ Alternatively, you can use the `support` command to send us your logs to the <ht
 Although wired connections are preferred, Webconverger does have
 comprehensive [[support_for_wireless_devices|wireless]] and
 [[blog/entry/USB_tethering]].
+
+### Switch between tabs
+
+New from Oct 17, 2014
+
+	tabswitch=5
+
+Switch between tabs on chrome={neon,webcfullscreen} every 5 seconds.
+
+Screencast: <http://r2d2.webconverger.org/2014-10-17/tabswitch.mp4>
