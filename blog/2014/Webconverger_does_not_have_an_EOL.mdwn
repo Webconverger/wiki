@@ -19,6 +19,5 @@ the Microsoft upgrade
 treadmill](/blog/entry/Avoiding_the_Microsoft_upgrade_treadmill/).
 
 Please get in touch with <a
-href="mailto:sales@webconverger.com?subject=Migrating from
-Windows">Webconverger sales</a> and we will help you migrate away from Windows
+href="mailto:sales@webconverger.com?subject=Migrating from Windows">Webconverger sales</a> and we will help you migrate away from Windows
 to a stable and long term supported Web platform.

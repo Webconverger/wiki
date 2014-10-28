@@ -237,4 +237,4 @@ New from Oct 17, 2014
 
 Switch between tabs on chrome={neon,webcfullscreen} every 5 seconds.
 
-Screencast: <http://r2d2.webconverger.org/2014-10-17/tabswitch.mp4>
+Screencast: <http://youtu.be/eh6u6Bmjnu8>
