@@ -10,8 +10,6 @@
 <script src="https://apis.google.com/js/platform.js"></script>
 <div class="g-ytsubscribe" data-channel="Webconverger" data-layout="full" data-count="default"></div>
 
-<iframe src="//www.facebook.com/plugins/likebox.php?href=https%3A%2F%2Fwww.facebook.com%2Fwebconverger&amp;width=292&amp;height=62&amp;show_faces=false&amp;colorscheme=light&amp;stream=false&amp;show_border=false&amp;header=false&amp;appId=298489836835737" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:292px; height:62px;" allowTransparency="true"></iframe>
-
 <table border=0 style="background-color: #fff; padding: 5px;" cellspacing=0>
   <tr><td style="padding-left: 5px"> <b>Subscribe to Webconverger Users</b> </td></tr>
   <form action="https://groups.google.com/group/webc-users/boxsubscribe">
