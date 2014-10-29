@@ -1,17 +1,11 @@
-# Incorporating Webconverger's new icon into the browser chrome
+Back in [[acknowledgements|2007]] a daisy flower was hastily chosen as
+Webconverger's logo to express simplicity. Over time it has found to be a
+little too generic and probably not reflective of our "enterprise" positioning
+in the PC software market. Therefore we commissioned
+<http://www.hawkenking.com/> to update the logo to be a little more unique and
+serious looking.
 
-<img src=/img/2014/sq-no-tooltip.png>
-<img src=/img/2014/sq-with-tooltip.png>
-
-Currently users have **no idea what kiosk software** they are using. So with
-the logo embedded now a curious user can hover over the 35x35 flower icon
-embedded into the top right of the `{webconverger,webcnoaddressbar}` chrome to
-see the tooltip _Webconverger_. They cannot interact with the icon and **cannot
-click away** to browse <https://webconverger.com/> for example.
-
-Hopefully [this symbol](/img/2014/flower.svg) can give confidence to the user that the are using a secure & privacy concious Web kiosk!
-
-# Banner update explanation
+# Update philosophy
 
 The old formats of Webconverger's logo are:
 
@@ -26,4 +20,15 @@ The new logo is:
 2. The detached petal, demonstrates machines can be easily detached and reattached. i.e. moved between configurations or even to leave Webconverger services altogether, since we try protect customers from [vendor lock in](https://en.wikipedia.org/wiki/Vendor_lock-in)
 3. The centre symbolises a customer configuration, e.g. https://config.webconverger.com/client/**[CUSTOMER_EMAIL]**
 
+# Incorporating Webconverger's new icon into the browser chrome
 
+<img src=/img/2014/sq-no-tooltip.png>
+<img src=/img/2014/sq-with-tooltip.png>
+
+Currently users have **no idea what kiosk software** they are using. So with
+the logo embedded now a curious user can hover over the 35x35 flower icon
+embedded into the top right of the `{webconverger,webcnoaddressbar}` chrome to
+see the tooltip _Webconverger_. They cannot interact with the icon and **cannot
+click away** to browse <https://webconverger.com/> for example.
+
+Hopefully [our new symbol](/img/2014/flower.svg) can give confidence to the user that the are using a secure & privacy concious Web kiosk!
