@@ -6,22 +6,24 @@
 Currently users have **no idea what kiosk software** they are using. So with
 the logo embedded now a curious user can hover over the 35x35 flower icon
 embedded into the top right of the `{webconverger,webcnoaddressbar}` chrome to
-see the tooltip Webconverger. They cannot interact with the icon and **cannot
-click away** to browser <https://webconverger.com/> for example.
+see the tooltip _Webconverger_. They cannot interact with the icon and **cannot
+click away** to browse <https://webconverger.com/> for example.
 
 Hopefully [this symbol](/img/2014/flower.svg) can give confidence to the user that the are using a secure & privacy concious Web kiosk!
 
 # Banner update explanation
 
-The old formats of Webconverger's logo is:
+The old formats of Webconverger's logo are:
 
 <img src=/img/2014/bg-orig.png>
-<img src=/img/2014/img/logo.png>
+<img src=/img/2014/logo.png>
 
 The new logo is:
 
 <img src=/img/2014/logo-style1-annotation-04.png>
 
-1. The petal symbolises a configured machine, typically deployed via USB stick (hence the petal shape)
-2. The detached petal, demonstrates machines can be easily detached and reattached. i.e. moved between configurations or even to leave Webconverger services altogether, since we don't lock in customers.
+1. The petal symbolises a configured machine, typically deployed via USB stick, hence the petal shape
+2. The detached petal, demonstrates machines can be easily detached and reattached. i.e. moved between configurations or even to leave Webconverger services altogether, since we try protect customers from [vendor lock in](https://en.wikipedia.org/wiki/Vendor_lock-in)
 3. The centre symbolises a customer configuration, e.g. https://config.webconverger.com/client/**[CUSTOMER_EMAIL]**
+
+
