@@ -1,6 +1,6 @@
 Like Windows XP before it, [Windows
 7](http://www.zdnet.com/what-happens-to-windows-7-on-october-31-2014-7000033965/)
-is reaching "End of Life" on October 31, 2014. This event presents all sorts of
+is reaching "End of Life" (EOL) on October 31, 2014. This event presents all sorts of
 logistical nightmares for IT administrators around the world.
 
 In comparison **Webconverger does **NOT** have an <a
