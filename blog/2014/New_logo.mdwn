@@ -16,8 +16,8 @@ The new logo is:
 
 <img src=/img/2014/logo-style1-annotation-04.png>
 
-1. The petal symbolises a configured machine, typically deployed via USB stick, hence the petal shape
-2. The detached petal, demonstrates machines can be easily detached and reattached. i.e. moved between configurations or even to leave Webconverger services altogether, since we try protect customers from [vendor lock in](https://en.wikipedia.org/wiki/Vendor_lock-in)
+1. The petal symbolises a configured machine, typically deployed via USB stick, hence the shape
+2. The detached petal, demonstrates machines can be easily detached and reattached. i.e. moved between configurations or even to leave Webconverger services altogether, since we actively protect customers from [vendor lock in](https://en.wikipedia.org/wiki/Vendor_lock-in)
 3. The centre symbolises a customer configuration, e.g. https://config.webconverger.com/client/**[CUSTOMER_EMAIL]**
 
 The font used is <https://www.myfonts.com/fonts/mti/neo-sans/>.
