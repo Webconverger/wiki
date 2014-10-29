@@ -1,4 +1,4 @@
-Back in [[acknowledgements|2007]] a daisy flower was hastily chosen as
+Back in [[2007|acknowledgements]] a daisy flower was hastily chosen as
 Webconverger's logo to express simplicity. Over time it has found to be a
 little too generic and probably not reflective of our "enterprise" positioning
 in the PC software market. Therefore we commissioned
@@ -19,6 +19,8 @@ The new logo is:
 1. The petal symbolises a configured machine, typically deployed via USB stick, hence the petal shape
 2. The detached petal, demonstrates machines can be easily detached and reattached. i.e. moved between configurations or even to leave Webconverger services altogether, since we try protect customers from [vendor lock in](https://en.wikipedia.org/wiki/Vendor_lock-in)
 3. The centre symbolises a customer configuration, e.g. https://config.webconverger.com/client/**[CUSTOMER_EMAIL]**
+
+The font used is <https://www.myfonts.com/fonts/mti/neo-sans/>.
 
 # Incorporating Webconverger's new icon into the browser chrome
 
