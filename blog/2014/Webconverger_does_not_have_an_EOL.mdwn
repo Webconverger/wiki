@@ -1,3 +1,5 @@
+<img src=/img/EOL-grave.png alt="Windows End of Life">
+
 Like Windows XP before it, [Windows
 7](http://www.zdnet.com/what-happens-to-windows-7-on-october-31-2014-7000033965/)
 is reaching "End of Life" (EOL) on October 31, 2014. This event presents all sorts of
