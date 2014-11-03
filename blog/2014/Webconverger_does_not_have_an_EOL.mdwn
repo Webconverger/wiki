@@ -1,4 +1,4 @@
-<img src=/img/EOL-grave.png alt="Windows End of Life">
+<img src="/img/pushing-up-daisies.svg" alt="Webconverger outlives Windows" style="width: 100%; height: auto;">
 
 Like Windows XP before it, [Windows
 7](http://www.zdnet.com/what-happens-to-windows-7-on-october-31-2014-7000033965/)
