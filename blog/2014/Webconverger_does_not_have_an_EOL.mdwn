@@ -9,10 +9,10 @@ In comparison **Webconverger does **NOT** have an <a
 href="https://en.wikipedia.org/wiki/End-of-life_(product)">End of Life</a>**!
 
 Webconverger deployments will just carry on working into the future, providing
-a standard Web interface, with an uptodate, security supported OS+browser
+a standard Web interface, with an up-to-date, security supported OS+browser
 behind it.
 
-We aim to support our software with updates and keep out [[API]] stable for
+We aim to support our software with updates and keep our [[API]] stable for
 ever. This is why and how we offer "Life time subscriptions" in our [pricing
 table](https://webconverger.com/pricing/).
 
