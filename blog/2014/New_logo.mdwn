@@ -28,9 +28,10 @@ The font used is <https://www.myfonts.com/fonts/mti/neo-sans/>.
 <img src=/img/2014/sq-with-tooltip.png>
 
 Currently users have **no idea what kiosk software** they are using. So with
-the logo embedded now a curious user can hover over the 35x35 flower icon
-embedded into the top right of the `{webconverger,webcnoaddressbar}` chrome to
-see the tooltip _Webconverger_. They cannot interact with the icon and **cannot
-click away** to browse <https://webconverger.com/> for example.
+the logo embedded now a curious user can hover over the flower icon embedded
+into the top right of the `{webconverger,webcnoaddressbar}` chrome to see the
+tooltip _Webconverger_. They cannot interact with the icon and **cannot click
+away** to browse <https://webconverger.com/> for example.
 
-Hopefully [our new symbol](/img/2014/flower.svg) can give confidence to the user that the are using a secure & privacy concious Web kiosk!
+Hopefully [our new symbol](/img/2014/flower.svg) can give **confidence** to the
+user, that they are using a **secure & privacy concious Web kiosk**!
