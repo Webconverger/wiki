@@ -1,16 +1,18 @@
 [[!meta title="Configuring the Webconverger background wallpaper"]]
 
-**Boot artwork** (the yellow tricolour progress bar) is **not** customisable.
+**Boot artwork** is **not** customisable. Ideally users should never see Webconverger boot.
 
-From Webconverger 12 the background image on a white background seen between
+The background image on a white background (black for neon) seen between
 browser restarts can be customised by:
 
-1. Passing for example `bgurl=http://www.webconverger.com/img/logo.png` at the syslinux boot menu
-2. By specifying your background image URL in the customisation form and purchasing a subscription
+	bgurl=https://webconverger.com/img/logo.png
 
-Using option 2 is the most convenient, as this ensures you have you background set every boot.
+Currently the background image URL is checked after every browser session, here is the relevant code and search for "bgurl": <https://github.com/Webconverger/webc/blob/master/home/webc/webc.sh>
 
+# Turn off branding / [throbber](https://en.wikipedia.org/wiki/Throbber)
 
-Currently the background image URL is checked after every browser session, here is the relevant code and search for "bgurl":
+<img src=http://webconverger.org/img/2014/sq-with-tooltip.png>
 
-<https://github.com/Webconverger/webc/blob/master/home/webc/webc.sh>
+The Webconverger brand mark can be turned off with `nobrand` in your [configuration](https://config.webconverger.com/).
+
+Please see <http://webconverger.org/blog/2014/New_logo/> for more information on the logo.

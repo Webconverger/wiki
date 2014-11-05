@@ -211,7 +211,10 @@ feature.
 
 ### customer= API
 
-This is stanza to your current email address, so we can contact you.
+Stanza for you to indicate your **current email address**, so we can
+contact you in the case your configuration id becomes unclear.
+
+Ignored by Webconverger OS itself.
 
 ### Remote logging (from version 15)
 
@@ -238,3 +241,7 @@ New from Oct 17, 2014
 Switch between tabs on chrome={neon,webcfullscreen} every 5 seconds.
 
 Screencast: <http://youtu.be/eh6u6Bmjnu8>
+
+### Can I turn off the Webconverger brand mark?
+
+Please see [[artwork]].
