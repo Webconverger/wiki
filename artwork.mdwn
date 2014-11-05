@@ -1,4 +1,4 @@
-[[!meta title="Configuring the Webconverger background wallpaper"]]
+[[!meta title="Configuring the Webconverger branding"]]
 
 **Boot artwork** is **not** customisable. Ideally users should never see Webconverger boot.
 
@@ -9,10 +9,10 @@ browser restarts can be customised by:
 
 Currently the background image URL is checked after every browser session, here is the relevant code and search for "bgurl": <https://github.com/Webconverger/webc/blob/master/home/webc/webc.sh>
 
-# Turn off branding / [throbber](https://en.wikipedia.org/wiki/Throbber)
+# Turning off branding / [throbber](https://en.wikipedia.org/wiki/Throbber)
 
 <img src=http://webconverger.org/img/2014/sq-with-tooltip.png>
 
 The Webconverger brand mark can be turned off with `nobrand` in your [configuration](https://config.webconverger.com/).
 
-Please see <http://webconverger.org/blog/2014/New_logo/> for more information on the logo.
+Please see <http://webconverger.org/blog/2014/New_logo/> for more information on the new logo.
