@@ -22,6 +22,8 @@ The new logo is:
 
 The font used is <https://www.myfonts.com/fonts/mti/neo-sans/>.
 
+The canonical location of the new logo is: <https://webconverger.com/img/logo.svg>
+
 # Incorporating Webconverger's new icon into the browser chrome
 
 <img src=/img/2014/sq-no-tooltip.png>
