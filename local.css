@@ -29,7 +29,7 @@ html, body {
   overflow: hidden;
   height: 100px;
   border-width: 0;
-  background: url(img/webconverger_org.png) no-repeat;
+  background: url(https://webconverger.com/img/logo.svg) no-repeat;
 }
 
 .pageheader .header {
