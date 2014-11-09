@@ -58,7 +58,6 @@ add_plugins:
 - ikiwikihosting
 - branchable
 - recentchangesdiff
-- attachment
 - remove
 - rename
 - edittemplate
@@ -80,6 +79,7 @@ add_plugins:
 disable_plugins:
 - search
 - htmlscrubber
+- attachment
 # additional directory to search for template files
 templatedir: /usr/share/ikiwiki/templates
 # base wiki source location
