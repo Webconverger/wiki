@@ -36,6 +36,8 @@ destdir: /home/b-webconverger-org/public_html
 url: http://webconverger.org
 # url to the ikiwiki.cgi
 cgiurl: http://webconverger.org/ikiwiki.cgi
+# do not adjust cgiurl if CGI is accessed via different URL
+reverse_proxy: 0
 # filename of cgi wrapper to generate
 cgi_wrapper: /var/www/b-webconverger-org/ikiwiki.cgi
 # mode for cgi_wrapper (can safely be made suid)
@@ -121,8 +123,7 @@ hardlink: 1
 # extra library and plugin directory
 libdir: /home/b-webconverger-org/.ikiwiki
 # environment variables
-ENV:
-  TMPDIR: /home/b-webconverger-org/tmp
+#ENV: ''
 # time zone name
 timezone: GMT
 # regexp of normally excluded files to include
@@ -137,12 +138,12 @@ allow_symlinks_before_srcdir: 0
 cookiejar:
   file: /home/b-webconverger-org/.ikiwiki/cookies
 # set custom user agent string for outbound HTTP requests e.g. when fetching aggregated RSS feeds
-#useragent: Wget/1.13.4 (linux-gnu)
+useragent: ikiwiki/3.20141017
 
 ######################################################################
 # core plugins
 #   (branchable, editpage, git, gitpush, htmlscrubber, ikiwikihosting,
-#    inline, link, meta, parentlinks)
+#    inline, link, meta, parentlinks, templatebody)
 ######################################################################
 
 # branchable plugin
@@ -248,9 +249,9 @@ locked_pages: '!sandbox'
 
 # openid plugin
 # url pattern of openid realm (default is cgiurl)
-#openid_realm: http://*.branchable.com/
+openid_realm: http://*.branchable.com/
 # url to ikiwiki cgi to use for openid authentication (default is cgiurl)
-#openid_cgiurl: http://webconverger-org.branchable.com/ikiwiki.cgi
+#openid_cgiurl: ''
 
 # passwordauth plugin
 # a password that must be entered when signing up for an account
