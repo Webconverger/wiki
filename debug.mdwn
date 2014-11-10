@@ -3,6 +3,7 @@
 Append `debug` on the boot command line, in order to access a default instance
 of the [dwm](http://dwm.suckless.org/tutorial) window manager.
 
+* [Screencast using Virtualbox and editing syslinux](http://youtu.be/vpAJybQrbjc)
 * [Debug example of the Live version](http://r2d2.webconverger.org/2012-11-05/debug.html)
 
 # Getting a terminal

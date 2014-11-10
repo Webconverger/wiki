@@ -1,6 +1,6 @@
 [[!meta title="Howto test Webconverger"]]
 
-<iframe width="420" height="315" src="http://www.youtube.com/embed/H_2RXjpU3LQ" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="//www.youtube.com/embed/vpAJybQrbjc?list=UUH9ZMgfESFakRPvm6QRFNMQ" frameborder="0" allowfullscreen></iframe>
 
 Please help test the very latest [daily build
 images](http://build.webconverger.org). Report bugs on
