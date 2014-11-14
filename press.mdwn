@@ -53,6 +53,7 @@ Web feedback
 * [Portuguese coverage](http://debuxos.blogspot.com/2007/04/ferramentas-informticas-gratuitas-on_19.html)
 * [Web 2.0 OS in Spanish](http://kernelsource.org/2007/04/18/webconverger-un-livecd-para-el-web-20/)
 * [Spanish news article](http://bitelia.com/2013/07/modo-kiosko-con-webconverger)
+* [Interview in DDG](https://duck.co/blog/webconverger-interview)
 * [InfoWorld Chrome OS comparison](http://www.infoworld.com/t/thin-clients/chrome-oss-best-new-use-case-the-all-in-one-pc-232904)
 * [LockerGnome](http://www.lockergnome.com/it/2011/04/26/secure-kiosk-mode/)
 * [Interview on Neon](http://www.sixteen-nine.net/2013/07/10/webconvergers-neon-stable-secure-browser-digital-sign-platform/)

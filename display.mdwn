@@ -1,5 +1,23 @@
 [[!meta title="Changing Webconverger's screen resolution"]]
 
+<iframe width="560" height="315" src="//www.youtube.com/embed/8dePy1O_FCM?rel=0" frameborder="0" allowfullscreen></iframe>
+
+Tutorial above which turns off the laptops screen and configures the browser to take advantage of attached screen.
+
+	homepage=http://www.changiairport.com/flight-info/flight-status/passenger-arrivals
+	chrome=neon
+	noblank
+	xrandr=--output%20LVDS1%20--off%20--output%20HDMI1%20--auto
+	xrandr-all=--rotate%20left
+
+This is a little tricky, since we need to use [[debug]] mode to find the **names** of our attached displays.
+
+# Finding the names of your output screens
+
+1. Run in [[debug]] mode
+* Launch a terminal, [Shift]+[Alt]+[Enter]
+* Run `xrandr` to find the names
+
 # Manually setting up a monitor that isn't automatically setup
 
 Sometimes
