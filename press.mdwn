@@ -3,6 +3,9 @@
 <blockquote class="twitter-tweet" lang="en"><p>If you need a no-drama kiosk you can&#39;t screw up, use <a href="https://t.co/tZkwrg9z05">https://t.co/tZkwrg9z05</a>. DO NOT ROLL YOUR OWN KIOSK.</p>&mdash; InfoSec Taylor Swift (@SwiftOnSecurity) <a href="https://twitter.com/SwiftOnSecurity/status/519768632570564608">October 8, 2014</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
+<blockquote class="twitter-tweet" lang="en"><p>Our secure break room and public terminals. Running <a href="https://twitter.com/webconverger">@webconverger</a> with washable keyboards. Zero maintenance ever. 👌 <a href="http://t.co/pRM07uuoIA">pic.twitter.com/pRM07uuoIA</a></p>&mdash; InfoSec Taylor Swift (@SwiftOnSecurity) <a href="https://twitter.com/SwiftOnSecurity/status/532373228669644800">November 12, 2014</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 Clients use Webconverger in:
 ============================
 

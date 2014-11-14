@@ -1,4 +1,4 @@
-[[!meta title="Changing Webconverger's screen resolution"]]
+[[!meta title="Configuring screens with Webconverger's xrandr"]]
 
 <iframe width="560" height="315" src="//www.youtube.com/embed/8dePy1O_FCM?rel=0" frameborder="0" allowfullscreen></iframe>
 
