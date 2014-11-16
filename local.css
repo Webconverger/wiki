@@ -1,57 +1,62 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:400,700);
+
 html, body {
- 	font-family: 'Open Sans', sans-serif;
- 	color:#666;
- 	background: url(img/bg_body.png) repeat-x;
+ 	font-family: "Lato", Helvetica, Arial, sans-serif;
+ 	color: #34495e;
  }
 
- h1, h2, h3, h4, h5, h6 { font-family: 'Arvo', serif; }
+ h1, h2, h3, h4, h5, h6 { font-family: "Lato", Helvetica, Arial, sans-serif; }
 
  a, a:visited {
- 	color: #339BB9;
+ 	color: #16a085;
  }
 
  a:hover {
- 	color: #339BB9;
+ 	color: #16a085;
  	text-decoration: underline;
  }
 
 .notebox { width: auto; margin: 0; padding: 0; }
 
 .page{
- 	width:960px;
+ 	width: 1020px;
  	margin: 0 auto;
  }
 
 .pageheader {
-  margin: 20px 0 20px 0;
-  padding: 10px 0 10px 0;
+  margin: 0 0 0 0;
+  padding: 10px 20px 10px 20px;
   position: relative;
   overflow: hidden;
-  height: 100px;
+  width:  100%px;
+  height: auto;
   border-width: 0;
-  background: url(https://webconverger.com/img/logo.svg) no-repeat;
-  background-size: auto 50%;
+  background: url("https://webconverger.com/img/logo.svg") no-repeat;
+  background-size: auto 45%;
+  background-position:  10px 10px;
+  background-color: #F5F5F5;
+  border-bottom: 1px solid #E5E5E5;
 }
 
 .pageheader .header {
-  float: left;
-  margin: 60px 0 0 0;
+  margin: 80px 0 0 0;
+}
+
+#content{
+	margin: 100px 0 0 0;
 }
 
 .title {
   color: #b3b3b3;
-  font-weight: bold;
   border-top: 0px;
-  font: 100% 'Open Sans', sans-serif}
+  }
 
 h1, h2, h3, h4, h5, h6 {
-  color: #339BB9;
-  text-shadow: 1px 1px 0 #fff;
+  color: #34495e;
 }
 
 .header {
   font-size: 200%;
-  text-shadow: 1px 1px 0 #fff;
 }
 
 .inlinefooter{
@@ -69,8 +74,10 @@ h1, h2, h3, h4, h5, h6 {
 img { max-width: 100%; }
 
 h1 {
-  font-size: 150%;
-  margin-bottom: 10px;
+  font-size: 38px;
+  font-weight: 400;
+  line-height: 40px;
+  margin-bottom: 18px;
 }
 
 h2 {
@@ -112,17 +119,14 @@ background: #57b0b8;
   right: 2em; }
 
 input#searchbox {
-  border: 1px solid #339BB9;
+  border: 1px solid #ccc;
   padding: .5em;
-  -moz-border-radius: 4px;
-  -webkit-border-radius: 4px;
-  border-radius: 4px;
 }
 
 .pageheader .actions {
   position: absolute;
   bottom: 0;
-  right: 0;
+  right: 10;
   text-align: right; }
 
 .pageheader .actions ul {
@@ -139,7 +143,7 @@ input#searchbox {
 }
 
 .pageheader .actions ul li a, input[type="submit"] {
-  background: #339BB9;
+  background: #16a085;
   color: #fff;
   margin: 0.2em;
   padding: 0.1em 0.5em;
@@ -149,7 +153,7 @@ input#searchbox {
 
 .pageheader .actions ul li a:hover, input[type="submit"]:hover {
     background: #fff;
-    color: #339BB9; }
+    color: #16a085; }
 
 div.toggleable#attachments {
   margin: 1em; }
@@ -181,21 +185,7 @@ pre {
 }
 
 #content {
-	-webkit-border-radius: 0 0 5px 5px;
-	-moz-border-radius: 0 0 5px 5px;
-	border-radius: 0 0 5px 5px;
-	padding: 20px 10px 10px 10px;
 	margin-bottom: 20px;
-	background: #efefef;
-	background: -webkit-gradient(linear, left top, left bottom, from(#efefef), to(#cccccc));
-	background: -webkit-linear-gradient(top, #efefef, #cccccc);
-	background:    -moz-linear-gradient(top, #efefef, #cccccc);
-	background:     -ms-linear-gradient(top, #efefef, #cccccc);
-	background:      -o-linear-gradient(top, #efefef, #cccccc);
-	background:         linear-gradient(top, #efefef, #cccccc);
-	-moz-box-shadow: 0 0 1px #000;
-	-webkit-box-shadow: 0 0 1px #000;
-	box-shadow: 0 0 1px #000;
 }
 
 #pageinfo {
@@ -343,6 +333,6 @@ tr:nth-child(even) {
   background-color: #d9d9d9; }
 
 
-.actions { opacity: 0 }
+//.actions { opacity: 0 }
 
 .actions:hover { opacity: 1 }
