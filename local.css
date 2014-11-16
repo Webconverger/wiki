@@ -333,6 +333,6 @@ tr:nth-child(even) {
   background-color: #d9d9d9; }
 
 
-//.actions { opacity: 0 }
+.actions { opacity: 0 }
 
 .actions:hover { opacity: 1 }
