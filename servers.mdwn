@@ -2,7 +2,7 @@
 
 Domain registration handled by Dreamhost.
 
-DNS records hosted with [AWS Route 53](http://aws.amazon.com/route53/), this is mainly for DNS failover.
+DNS records hosted with [AWS Route 53](http://aws.amazon.com/route53/), this is mainly for DNS failover, though its performance is pretty damn good.
 
 # Bandwidth costs
 
@@ -39,9 +39,11 @@ webconverger.com hosted by [Dreamhost](http://www.dreamhost.com/r.cgi?104617)
 in California - 120USD (~75GBP) a year responsible for archives, backups and
 serving <http://webconverger.com>
 
-# www.webconverger.com
+# webconverger.com
 
-Is hosted by Github Pages using the [Fastly CDN](https://github.com/blog/1715-faster-more-awesome-github-pages)
+Hosted by AWS CloudFront.
+
+Test site is at <http://beta.webconverger.com/>
 
 # ny.webconverger.com
 
@@ -58,9 +60,8 @@ A bottom of the range [Digital Ocean droplet](https://www.digitalocean.com/?refc
 
 Uses:
 
-* <http://config.webconverger.com>, synchronised by a Github Webhook, used as a [secondary failover](http://s.natalian.org/2014-04-21/1398064783_1364x748.png) using AWS Route 53
+* <http://config.webconverger.com>, synchronised by a Github Webhook, used as a [secondary failover](http://s.natalian.org/2014-04-21/1398064783_1364x748.png) using [AWS Route 53](https://console.aws.amazon.com/route53/home)
 * European mirror: <http://eu.download.webconverger.com/>
-* Backups (inc <a href="http://greptweet.com/">greptweet</a>)
 * [filter.webconverger.com service](http://webconverger.org/blog/2014/Fine_grained_filtering/)
 
 # sgo.webconverger.com
@@ -105,3 +106,7 @@ On a bronze package at 25USD a month.
 # SSL
 
 * [config.webconverger.com](https://www.ssllabs.com/ssltest/analyze.html?d=config.webconverger.com), expires Sat Apr 29 18:57:32 UTC 2017 
+* <https://webconverger.com> - [Comodo POSITIVESSL via Namecheap.com](https://manage.www.namecheap.com/myaccount/ssl-list.asp) - Expiry 09/29/2016
+* <https://webconverger.org> - [Comodo POSITIVESSL via Namecheap.com](https://manage.www.namecheap.com/myaccount/ssl-list.asp) - Expiry 10/08/2016
+
+TODO: Look into switching <https://sslmate.com/>
