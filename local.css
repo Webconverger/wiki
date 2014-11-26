@@ -19,7 +19,7 @@ html, body {
 .notebox { width: auto; margin: 0; padding: 0; }
 
 .page{
- 	width: 1020px;
+ 	width: 960px;
  	margin: 0 auto;
  }
 
@@ -34,7 +34,7 @@ html, body {
   background: url("https://webconverger.com/img/logo.svg") no-repeat;
   background-size: auto 45%;
   background-position:  10px 10px;
-  background-color: #F5F5F5;
+  background-color: #3498db;
   border-bottom: 1px solid #E5E5E5;
 }
 
@@ -44,6 +44,8 @@ html, body {
 
 #content{
 	margin: 100px 0 0 0;
+	width: 960px;
+	padding:  0 15px;
 }
 
 .title {
@@ -72,6 +74,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 img { max-width: 100%; }
+
+.fork{
+	z-index: 99;
+}
 
 h1 {
   font-size: 38px;
