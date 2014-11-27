@@ -77,6 +77,10 @@ img { max-width: 100%; }
 
 .fork{
 	z-index: 99;
+	position: absolute;
+	top: 0;
+	right: 0;
+	border: 0;
 }
 
 h1 {
