@@ -32,9 +32,9 @@ html, body {
   height: auto;
   border-width: 0;
   background: url("https://webconverger.com/img/logo.svg") no-repeat;
-  background-size: auto 45%;
-  background-position:  10px 10px;
-  background-color: #3498db;
+  background-size: auto 40%;
+  background-position:  15px 15px;
+  background-color: none;
   border-bottom: 1px solid #E5E5E5;
 }
 
@@ -77,10 +77,6 @@ img { max-width: 100%; }
 
 .fork{
 	z-index: 99;
-	position: absolute;
-	top: 0;
-	right: 0;
-	border: 0;
 }
 
 h1 {
