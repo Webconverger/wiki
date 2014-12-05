@@ -51,11 +51,11 @@ You might find specifying the additional argument `bs=1M` makes it faster.
 
 ## Configuring your PC to boot the USB key instead of your hard drive
 
-<iframe width="560" height="315" src="http://www.youtube.com/embed/-EaYTPbfuhI" frameborder="0" allowfullscreen></iframe>
+Some PCs boot a USB stick by default, so you might need to adjust your PC's
+BIOS at all.
 
-Don't be daunted by adjusting the boot order of your machine. You are
-exercising your consumer choice, however this isn't straightforward as
-practically every software preloaded into a PC (the BIOS) is different!
+* [Video showing how to change the BIOS to boot from the USB stick](https://www.youtube.com/watch?v=-EaYTPbfuhI)
+* Video on [configuring Intel Video BIOS](http://youtu.be/WxnmhOLFpjE)
 
 There are different keys of entering the BIOS **boot menu** depending on the BIOS,
 it could be [Del], [Esc], [F2], [F8] or [F12] key. The BIOS usually flashes
