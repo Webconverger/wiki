@@ -19,7 +19,7 @@ Webconverger provides a simple and secure operating system to get you onto your 
 <td>Broken</td>
 <td>Paid</td>
 <td>Yes</td>
-<td>Yes&[transparent](http://github.com/webconverger/webc)</td>
+<td>Yes&<a href=https://github.com/webconverger/webc>transparent</a></td>
 </tr>
 <tr>
 <td>Browser</td>
