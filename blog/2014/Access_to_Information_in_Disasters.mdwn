@@ -7,7 +7,7 @@ Webconverger used in these sorts of situations to everyone's benefit.
 Hence I was very proud to receive this testimonial from a [Church in New
 York](http://ccrye.org/):
 
-<img src=http://www.webconverger.com/slides/churchkiosk.jpg alt="Webconverger as serving as a reliable Web kiosk">
+<img src=/img/churchkiosk.jpg alt="Webconverger as serving as a reliable Web kiosk">
 
 <blockquote style="font-size:large">
 We have been using Webconverger to offer free internet access to parishioners
