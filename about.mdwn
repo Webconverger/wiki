@@ -61,7 +61,7 @@ gives you support and a [configuration management
 tool](https://config.webconverger.com/) to help you maintain many machines with
 your settings!
 
-## Webconverger is much better compared than Microsoft Windows based products
+## Webconverger is much better compared to Microsoft Windows based products
 
 Don't forget to include the cost of Windows which is usually a hidden cost
 forced upon [System
