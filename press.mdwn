@@ -15,6 +15,7 @@ Clients use Webconverger in:
 * Museum 'infopoints'
 * Retail shops for sales assistance
 * Bars
+* Point of sales
 * Clinics
 * In educational institutions; schools & colleges
 * Libraries
@@ -22,7 +23,6 @@ Clients use Webconverger in:
 * Hotels
 * Tourist information information points
 * Waiting rooms
-* [Sport relief 2008](http://flickr.com/photos/hendry/2315610422/) for taking donations
 
 
 Web feedback
@@ -93,3 +93,8 @@ Quoted positive feedback
 * I tested Webconverger mini in an ATOM based motherboard and works great. from Mauricio
 
 "If you are looking for an OPAC solution that gets rid of your old OS and menuing software (in our case, Windows XP and CARL's Everybody's Menu), keeps your old machines perfectly viable for another few years, and removes the need for antivirus and security software licensing, then Webconverger is for you!  Install everything in just minutes and move on to your other library IT projects." Tom @ <http://scarboroughlibrary.org/>
+
+"We use Webconverger as a solution for our POS system in our convenience
+stores.  Webconverger works very well from individual USB flash memories.  This
+allows to identify each system user by their personal USB.  Thanks,
+Webconverger !!!!" - Juan @ SISTELCOIN, S.L.
