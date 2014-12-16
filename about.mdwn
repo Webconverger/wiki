@@ -1,6 +1,53 @@
-[[!meta title="Webconverger Comparison Matrix"]]
+[[!meta title="Webconverger product comparison"]]
 
 Webconverger provides a simple and secure operating system to get you onto the Web.
+
+<table class=table>
+<caption>Competitor comparison</caption>
+<thead>
+<tr>
+<th>Feature</th>
+<th>Windows</th>
+<th><a href=http://porteus-kiosk.org/>Porteus</a></th>
+<th><a href=http://en.wikipedia.org/wiki/Chrome_OS>Chrome OS</a></th>
+<th>Webconverger</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Keeps seamlessly uptodate</td>
+<td>No</td>
+<td>Paid</td>
+<td>Yes</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>Browser</td>
+<td>IE</td>
+<td><a href=https://www.mozilla.org/en-US/firefox/organizations/faq/>Older Firefox</a></td>
+<td>Chrome</td>
+<td>Latest Firefox</td>
+</tr>
+<tr>
+<td>Remote configuration management</td>
+<td>No</td>
+<td>No</td>
+<td>Yes</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>Runs on any PC</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>No</td>
+<td>Yes</td>
+</tr>
+
+</tbody>
+</table>
+
+
+
 
 # Introduction
 
@@ -49,13 +96,13 @@ href="http://config.webconverger.com/faq/#what-do-you-mean-by-live-version-and-i
 Live version</a> which we plan to phase out over time in favour of the
 "automatically uptodate" install version.
 
-"Freezing" also does not guarantee any security for you users. For example a
+"Freezing" also does not guarantee any security for your users. For example a
 vulnerable flash in a "frozen" Windows could be exploited each and every
 browsing session, if the surfer unfortunately browses to the exploited every
 session. If Webconverger discovers an exploit, it is quickly patched and
 installs [[upgrade]] so that surfers are safe.
 
-# Rationale
+# Why converge your application platform to the Web?
 
 Entrepreneurs are not developing for the Windows or the Linux desktop, they are
 developing for the prevalent <a
