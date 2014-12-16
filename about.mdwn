@@ -1,6 +1,6 @@
 [[!meta title="Webconverger product comparison"]]
 
-Webconverger provides a simple and secure operating system to get you onto the Web.
+Webconverger provides a simple and secure operating system to get you onto the Web since **2007**.
 
 <table>
 <caption>Competitor comparison</caption>
@@ -59,18 +59,21 @@ Furthermore [why pay for Webconverger](http://webconverger.com/faq/#what-does-a-
 
 # Webconverger compared with Microsoft Windows based products
 
-Below are products that run on the Windows platform. Microsoft exert their PC
-monopoly on System Integrators.
+Don't forget to include the cost of Windows which is usually a hidden cost
+forced upon System Integrators by Microsoft. The main cost of Windows is its
+poor security track record and its poor Internet Explorer experience.
 
-## Kioware
+To lock down a Windows machine, you need to purchase 3rd party software like
+Kioware or SiteKiosk:
 
-Please view [[blog/entry/Kioware_Product_Comparison]].
+* [[blog/entry/Kioware_Product_Comparison]]
+* [[blog/entry/SiteKiosk_versus_Webconverger]]
 
-## SiteKiosk
+These third party software don't save you from the [maintenance headaches that
+Windows
+presents](https://webconverger.org/blog/2014/Webconverger_does_not_have_an_EOL/).
 
-Please view [[blog/entry/SiteKiosk_versus_Webconverger]].
-
-## Windows "Freezing" approaches
+## Windows "Freezing" is not a secure approach
 
 [Microsoft Steady State](http://en.wikipedia.org/wiki/Windows_SteadyState) has
 been **discontinued**.
@@ -88,22 +91,3 @@ vulnerable flash in a "frozen" Windows could be exploited each and every
 browsing session, if the surfer unfortunately browses to the exploited every
 session. If Webconverger discovers an exploit, it is quickly patched and
 installs [[upgrade]] so that surfers are safe.
-
-# Why converge your application platform to the Web?
-
-Entrepreneurs are not developing for the Windows or the Linux desktop, they are
-developing for the prevalent <a
-href="http://www.joelonsoftware.com/articles/APIWar.html">Web platform</a>.
-
-Likewise users are not checking their email with Outlook Express anymore, they
-are using Web applications such as Gmail or Yahoo. This is Web convergence.
-
-That leads us onto a <strong>problem</strong>. How does an IT manager roll out
-the Web platform? We probably have to deal with fragile pre-installations of
-Windows and battle to get Firefox on each machine. Then the hopeless battle to
-maintain that system from viruses, malware and the looming costs of a <a
-href="http://en.wikipedia.org/wiki/Microsoft_Vista">Vista</a> (or worse)
-update.
-
-Webconverger is an easy to deploy and maintenance free platform for running
-your Web applications.
