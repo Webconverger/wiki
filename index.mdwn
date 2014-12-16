@@ -2,7 +2,7 @@
 
 [Subscribe to the RSS feed](//webconverger.org/blog/index.rss) of the **[[blog]]** or view the [[blog/archives]]!
 
-[[!inline  pages="blog/*/*" show="1" actions="no" feeds="no" archive="yes"]]
+[[!inline  pages="blog/*/*" show="3" actions="no" feeds="no" archive="yes"]]
 
 <hr>
 
@@ -25,12 +25,8 @@
 
 ## We have established a \#webconverger IRC channel on the http://freenode.net/ IRC network. Join!
 
-How to edit the Wiki? Due to SPAM, I need you first to login/register with the
-site and then I can give you the appropriate write/admin privileges. Sorry this
-is so awkward!
-
 * [Download Webconverger](http://dl.webconverger.com/latest.iso)
-* [Webconverger videos](https://www.youtube.com/webconverger/) and [[how_they_are_made|screencasting]]
+* [Webconverger videos](https://www.youtube.com/webconverger/)
 * [[About Webconverger|about]]
 * [[Developer_information|Develop]]
 * [[Acknowledgements]] - thanks everyone for your MIT licensed contributions!
@@ -45,7 +41,7 @@ is so awkward!
 
 Webconverger works with **almost any standard x86 PC hardware** with at least 1G of RAM.
 
-# Configuration management is a commerical product
+# Configuration management is a commercial product
 
 <https://webconverger.com> is a UK & Singapore registered company that powers
 this project.
@@ -61,11 +57,8 @@ Webconverger.
 * [[Free_&_open_software]]
 * [[Low_requirements|Requirements]] - can run on old/cheap hardware and can be ported to run on embedded devices
 * Good [[security]] features by [[design]]
-* [[Web_Standards]] compliant
-* [[Cost_effective]] - try the [free version](http://dl.webconverger.com/latest.iso) or order a [customised version](https://custom.webconverger.com)
 * [[No_users_or_registration|Registration]]
 * [[Flash_and_PDF_viewer|Adobe]]
 * [[Easy_to_use|Training]]
 * [[Low_Maintenance|Maintenance]]
-* Commercial [[Support]] via [Webconverger.com](https://webconverger.com/) is available. Please enquire.
 * [[Privacy_policy|privacy]]

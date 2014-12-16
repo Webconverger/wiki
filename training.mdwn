@@ -1,3 +1,5 @@
+[[!meta title="Webconverger provides a familiar browsing interface" ]]
+
 Webconverger provides the familiar stable browser interface without any cruft.
 
 * Back button

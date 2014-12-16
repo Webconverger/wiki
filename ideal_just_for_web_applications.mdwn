@@ -1,5 +1,7 @@
+[[!meta title="Only the open Web"]]
+
 Webconverger is designed to support **only** Web applications. Converging your
-IT operations upon the Web frees you from [vendor
+IT operations upon the Web frees your clients from [vendor
 lock-in](http://en.wikipedia.org/wiki/Vendor_lock-in).
 
 Other operating systems often provide extra legacy software that simply is not
