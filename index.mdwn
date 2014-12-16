@@ -35,7 +35,7 @@
 
 # Download Webconverger
 
-* This ISO-hybrid available for [download](http://dl.webconverger.com/latest.iso) can be treated as either a [[ISO]] or [[USB]] image
+This ISO-hybrid available for [download](http://dl.webconverger.com/latest.iso) can be treated as either a [[ISO]] or [[USB]] image
 
 # Hardware
 
@@ -46,9 +46,10 @@ Webconverger works with **almost any standard x86 PC hardware** with at least 1G
 <https://webconverger.com> is a UK & Singapore registered company that powers
 this project.
 
-There is a [configuration service](https://config.webconverger.com/faq) and
-email support service to help you get your PCs up and running with
-Webconverger.
+The company provides a fault tolerant [configuration
+service](https://config.webconverger.com/faq) with email support to help you
+get your PCs up and running with Webconverger. Have a look at our
+[pricing](http://webconverger.com/pricing/).
 
 # Reasons for using Webconverger
 
