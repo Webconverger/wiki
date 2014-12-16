@@ -32,8 +32,8 @@ Webconverger provides a simple and secure operating system to get you onto your 
 <td>Remote configuration management</td>
 <td>No</td>
 <td>No</td>
-<td>Yes</td>
-<td><a href=https://config.webconverger.com/>Yes</a></td>
+<td>Paid</td>
+<td><a href=https://config.webconverger.com/>Paid</a></td>
 </tr>
 <tr>
 <td>Runs on any PC</td>
