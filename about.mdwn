@@ -1,6 +1,6 @@
 [[!meta title="Webconverger product comparison"]]
 
-Webconverger provides a simple and secure operating system to get you onto the Web since **2007**.
+Webconverger provides a simple and secure operating system to get you onto your Web application since **2007**.
 
 <table>
 <caption>Competitor comparison</caption>
@@ -16,7 +16,7 @@ Webconverger provides a simple and secure operating system to get you onto the W
 <tbody>
 <tr>
 <td>Automatic updates</td>
-<td>No</td>
+<td>Broken</td>
 <td>Paid</td>
 <td>Yes</td>
 <td>Yes</td>
