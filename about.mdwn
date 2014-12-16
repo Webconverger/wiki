@@ -19,7 +19,7 @@ Webconverger provides a simple and secure operating system to get you onto your 
 <td>Broken</td>
 <td>Paid</td>
 <td>Yes</td>
-<td>Yes</td>
+<td>Yes&[transparent](http://github.com/webconverger/webc)</td>
 </tr>
 <tr>
 <td>Browser</td>
@@ -80,6 +80,7 @@ Kioware or SiteKiosk:
 These third party software don't save you from the [maintenance headaches that
 Windows
 presents](https://webconverger.org/blog/2014/Webconverger_does_not_have_an_EOL/).
+Webconverger is much more polished and integrated Web kiosk solution.
 
 ### Windows "Freezing" is not a secure approach
 
