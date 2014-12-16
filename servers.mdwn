@@ -110,3 +110,7 @@ On a bronze package at 25USD a month.
 * <https://webconverger.org> - [Comodo POSITIVESSL via Namecheap.com](https://manage.www.namecheap.com/myaccount/ssl-list.asp) - Expiry 10/08/2016
 
 TODO: Look into switching <https://sslmate.com/>
+
+# Email
+
+Hosted with [FastMail.fm at 90USD a year](http://s.natalian.org/2014-12-16/1418701222_1364x748.png) with 1 basic & 1 professional account.
