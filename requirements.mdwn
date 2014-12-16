@@ -1,3 +1,5 @@
+[[!meta title="Webconverger requires 1GB of RAM"]]
+
 	By the way Webconverger is really cool because we used SiteKiosk under Windows
 	and the performance on our old terminals was terrible since we got a new
 	homepage... there was to much unused operating system trash running in the
@@ -9,7 +11,8 @@ Microsoft Vista has very high system requirements and poor hardware compatibilit
 MacOSX / Chromium OS require their own particular hardware.
 
 Webconverger can run on most PCs that meet [Firefox's minimum
-requirements](http://www.mozilla.com/en-US/firefox/system-requirements.html).
+requirements](http://www.mozilla.com/en-US/firefox/system-requirements.html),
+however with a minimum of 1GB of RAM.
 
 Webconverger has been even known to run on Pentium 3, though [[Flash|adobe]]
 should be disabled in such daring [re-uses of old computers](http://en.wikipedia.org/wiki/Computer_recycling).
