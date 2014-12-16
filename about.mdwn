@@ -2,7 +2,7 @@
 
 Webconverger provides a simple and secure operating system to get you onto the Web.
 
-<table class=table>
+<table>
 <caption>Competitor comparison</caption>
 <thead>
 <tr>
@@ -15,7 +15,7 @@ Webconverger provides a simple and secure operating system to get you onto the W
 </thead>
 <tbody>
 <tr>
-<td>Keeps seamlessly uptodate</td>
+<td>Automatic updates</td>
 <td>No</td>
 <td>Paid</td>
 <td>Yes</td>
@@ -23,7 +23,7 @@ Webconverger provides a simple and secure operating system to get you onto the W
 </tr>
 <tr>
 <td>Browser</td>
-<td>IE</td>
+<td><a href=http://en.wikipedia.org/wiki/Internet_Explorer>IE</a></td>
 <td><a href=https://www.mozilla.org/en-US/firefox/organizations/faq/>Older Firefox</a></td>
 <td>Chrome</td>
 <td>Latest Firefox</td>
@@ -33,7 +33,7 @@ Webconverger provides a simple and secure operating system to get you onto the W
 <td>No</td>
 <td>No</td>
 <td>Yes</td>
-<td>Yes</td>
+<td><a href=https://config.webconverger.com/>Yes</a></td>
 </tr>
 <tr>
 <td>Runs on any PC</td>
@@ -46,35 +46,21 @@ Webconverger provides a simple and secure operating system to get you onto the W
 </tbody>
 </table>
 
-
-
-
-# Introduction
-
-<p>Webconverger is an evolution of the <a
-href="http://en.wikipedia.org/wiki/Hybrid_client">hybrid client</a> for
-deployments in **public places** where only <a
-href="http://en.wikipedia.org/wiki/Web_application">Web applications</a> are
-used.</p>
-
-<p>Unlike <a href="http://en.wikipedia.org/wiki/Thin_clients">thin</a> or <a
-href="http://en.wikipedia.org/wiki/Hybrid_client">hybrid</a> clients,
-Webconverger is faster and more responsive by providing a up-to-date Web
-browser that runs locally.</p>
-
 # Why Webconverger
 
-* Simple
-* Reliable
+* Simple & Tested & Reliable
 * Good performance
+* [[API]] for fine tuning it for your deployment
 * Current, supporting the latest Web features
 * Excellent [[security]]
-* Better [[i18n]] support for difficult locales like Chinese, Korean and Japanese
+* [[i18n]] support
+
+Furthermore [why pay for Webconverger](http://webconverger.com/faq/#what-does-a-subscription-buy-exactly)?
 
 # Webconverger compared with Microsoft Windows based products
 
 Below are products that run on the Windows platform. Microsoft exert their PC
-monopoly on OEMs.
+monopoly on System Integrators.
 
 ## Kioware
 
@@ -86,7 +72,8 @@ Please view [[blog/entry/SiteKiosk_versus_Webconverger]].
 
 ## Windows "Freezing" approaches
 
-[Microsoft Steady State](http://en.wikipedia.org/wiki/Windows_SteadyState) has been **discontinued**.
+[Microsoft Steady State](http://en.wikipedia.org/wiki/Windows_SteadyState) has
+been **discontinued**.
 
 [Faronics](http://www.faronics.com/en-uk/) offers a comparable solution to
 "freeze" the Windows machine. However "freezing" is not a good strategy for
@@ -118,6 +105,5 @@ maintain that system from viruses, malware and the looming costs of a <a
 href="http://en.wikipedia.org/wiki/Microsoft_Vista">Vista</a> (or worse)
 update.
 
-Webconverger is simply a Web kiosk/terminal, that is easy to deploy and
-maintenance free. In most cases all you need to do is boot from a CD. That's
-it! A usable up to date Web browser that <strong>just works</strong>.
+Webconverger is an easy to deploy and maintenance free platform for running
+your Web applications.
