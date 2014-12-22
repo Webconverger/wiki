@@ -1,0 +1,16 @@
+<img src="/img/webc-27.png" alt="27 has the new logo">
+
+Highlights of 27.1:
+
+* Better Intel support
+* Rebranded to our [[new logo]] and do check out our [new Website](https://webconverger.com/)
+* [Firefox 34](https://www.mozilla.org/en-US/firefox/34.0.5/releasenotes/)
+* New [3.16 kernel](http://kernelnewbies.org/Linux_3.16)
+* New `tabswitch=` [[API]], [a convenience function to switch between tabs when used for Digital Signage](https://www.youtube.com/watch?v=eh6u6Bmjnu8)
+* Flash security updates
+* [Gujarati](https://github.com/Webconverger/webc/issues/211) font support
+* Several other security tweaks and noise reductions
+
+[Detailed changelog between 26 & 27.1](https://github.com/webconverger/webc/compare/26.0...27.1).
+
+The sha256sum is `9eb27578be2a4b846389a161197e1979e3d95c6a8724d62c5a2d0c175209b64c  webc-27.1.iso`, quickly download from our <abbr title="Content Delivery Network">CDN</abbr> <http://dl.webconverger.com/latest.iso>.
