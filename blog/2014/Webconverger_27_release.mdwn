@@ -11,6 +11,8 @@ Highlights of 27.1:
 * [Gujarati](https://github.com/Webconverger/webc/issues/211) font support
 * Several other security tweaks and noise reductions
 
+<img src="/img/webc-gu.png" alt="27 has the freefont for Gujarati glyphs">
+
 [Detailed changelog between 26 & 27.1](https://github.com/webconverger/webc/compare/26.0...27.1).
 
-The sha256sum is `9eb27578be2a4b846389a161197e1979e3d95c6a8724d62c5a2d0c175209b64c  webc-27.1.iso`, quickly download from our <abbr title="Content Delivery Network">CDN</abbr> <http://dl.webconverger.com/latest.iso>.
+The sha256sum is `9eb27578be2a4b846389a161197e1979e3d95c6a8724d62c5a2d0c175209b64c  webc-27.1.iso`, please <a href=http://dl.webconverger.com/latest.iso>download from our <abbr title="Content Delivery Network">CDN</abbr></a>.
