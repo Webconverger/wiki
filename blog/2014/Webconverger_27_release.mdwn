@@ -1,9 +1,9 @@
 <img src="/img/webc-27.png" alt="27 has the new logo">
 
-Webconverger wishes you a Happy new year and provides you safer
-surfing/travels. Highlights of 27.1:
+Webconverger wishes you a Happy new year and gives the gift of a better Web
+experience! Highlights of 27.1:
 
-* Better Intel support, we do recommend [[NUC_hardware|New_NUCs]] and this will give more [flexibility with external displays](https://www.youtube.com/watch?v=8dePy1O_FCM)
+* Better Intel support, we do recommend [[NUC_hardware|New_NUCs]] and this update will give more [flexibility with external displays](https://www.youtube.com/watch?v=8dePy1O_FCM)
 * Rebranded to our [[new logo]] and do check out our [refreshed Website](https://webconverger.com/)!
 * Includes [Firefox 34](https://www.mozilla.org/en-US/firefox/34.0.5/releasenotes/) with accompanying [security fixes](https://www.mozilla.org/en-GB/security/known-vulnerabilities/firefox/)
 * New [3.16 kernel](http://kernelnewbies.org/Linux_3.16) for better hardware support
