@@ -64,6 +64,7 @@ Web feedback
 * [Webconverger used to access German banking](http://www.com-magazin.de/praxis/sicherheit/sicheres-online-banking-banking-stick-241966.html)
 * [Drupal with onscreen keyboard](http://thisiscontext.com/latest/2013-11-16/creating-touchscreen-kiosks-using-drupal-and-backbone)
 * [What is Web signage?](http://www.linux.com/community/blogs/130-distributions/782621-what-is-web-signage)
+* [Softpedia](http://news.softpedia.com/news/Webconverger-27-Is-a-Linux-Kiosk-OS-with-No-End-of-Life-468205.shtml)
 
 Printed Media
 =============

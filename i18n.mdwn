@@ -51,8 +51,11 @@ Which becomes `xkb=-layout%20gb` in your Webconverger configuration.
 
 # Switching keyboard layouts
 
-You can switch keyboard layouts using a special key combination. For example,
-in debug mode or in any Linux Xorg terminal:
+Try the default Arabic or Russian Language choices. Alt+Shift toggles between
+latin based characters and the native language keyboard mapping.
+
+You can switch keyboard layouts using customised special key combinations. For
+example, in debug mode or in any Linux Xorg terminal:
 
 	setxkbmap -layout us,th -option grp:shift_toggle
 

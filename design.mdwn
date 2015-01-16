@@ -1,3 +1,5 @@
+[[!meta title="How Webconverger is designed"]]
+
 * No users - no superuser
 * Stability & [[security]] of open source - based on GNU/Linux Debian stable releases
 * No local user data - Locked down browser kiosk - for example no functionality to save bookmarks locally
