@@ -17,9 +17,9 @@ testers](https://groups.google.com/d/msg/webc-users/qXZHvmk1Jgo/3B2lw0mnWqMJ)!
 Why Android? Pros:
 
 * Better [touch screen experience](http://webconverger.com/faq/#does-webconverger-support-touch-screens)
-* In future we should be able to leverage Android's native [IMEs](http://en.wikipedia.org/wiki/Input_method) and support Korean, Japanese & Chinese inputs
+* In future we should be able to leverage Android's native [IMEs](http://en.wikipedia.org/wiki/Input_method) and easily support Korean, Japanese & Chinese inputs
 * Android hardware is generally cheaper than PC hardware
-* Android hardware is easier to deploy, especially in the <abbr title="Digital Out of Home">DOOH</abbr> use case. You could buy an ANDROID TV!
+* Android hardware is easier to deploy, especially in the <abbr title="Digital Out of Home">DOOH</abbr> use case. You could deploy on an ANDROID >=5.0 TV!
 * TODO: Android is a better platform for pushing configuration updates, by leveraging [Google Cloud Messaging](https://developer.android.com/google/gcm/index.html)
 
 Cons:
@@ -33,4 +33,7 @@ Cons:
 
 If you have an Android 5.0 (or above device), [check it out in the Play
 store](https://play.google.com/store/apps/details?id=com.webconverger.KioskApp).
-Now you can manage both Android and PC devices from a configuration panel! That's a first as far as I know!
+Thare are other kiosk apps in the Google play store, though they are not
+[Opensource like our effort](https://github.com/webconverger/android) is.  Now
+you can manage both Android and PC devices from our [configuration
+service](https://config.webconverger.com/)! That's a first as far as I know!
