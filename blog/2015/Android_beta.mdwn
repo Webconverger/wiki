@@ -31,9 +31,9 @@ Cons:
 * Installing from the Play store and running the App without provisioning works OK, until you [get stuck on the lock screen](https://code.google.com/p/android/issues/detail?id=77775). Note: This does not happen when provisioned!
 * Updating and [supporting the platform **forever** (one off subscriptions) like we do with the PC](/blog/2014/Webconverger_does_not_have_an_EOL/) cannot be achieved since we are at the mercy of Google and the chosen update path of the hardware vendor
 
-If you have an Android 5.0 (or above device), [check it out in the Play
+If you have an Android 5.0 (or above) device, [check it out in the Play
 store](https://play.google.com/store/apps/details?id=com.webconverger.KioskApp).
-Thare are other kiosk apps in the Google play store, though they are not
+Thare are other Web kiosk apps in the Google play store, though they are not
 [Opensource like our effort](https://github.com/Webconverger/android/blob/master/LICENSE) is.  Now
-you can manage both Android and PC devices from our [configuration
-service](https://config.webconverger.com/)! That's a first as far as I know!
+you can simply manage both Android and PC devices from our [configuration
+service](https://config.webconverger.com/)! That's a first!
