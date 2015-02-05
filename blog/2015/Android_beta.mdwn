@@ -34,6 +34,7 @@ Cons:
 If you have an Android 5.0 (or above) device, [check it out in the Play
 store](https://play.google.com/store/apps/details?id=com.webconverger.KioskApp).
 Thare are other Web kiosk apps in the Google play store, though they are not
-[Opensource like our effort](https://github.com/Webconverger/android/blob/master/LICENSE) is.  Now
-you can simply manage both Android and PC devices from our [configuration
-service](https://config.webconverger.com/)! That's a first!
+[Opensource like our
+effort](https://github.com/Webconverger/android/blob/master/LICENSE) is.
+Futhermore now you can simply manage both Android and PC devices from our
+[configuration service](https://config.webconverger.com/)! That's a first!
