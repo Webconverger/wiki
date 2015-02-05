@@ -4,7 +4,7 @@ Android 5.0's new features such as [screen
 pinning](http://developer.android.com/about/versions/android-5.0.html#ScreenPinning)
 and [managed
 provisioning](http://developer.android.com/about/versions/android-5.0.html#ManagedProvisioning),
-has now enabled Webconverger to make a port without too much fuss of say
+has now enabled Webconverger to make a port without too much fuss, instead of say
 building a ROM.
 
 At time of writing, the [current
@@ -12,23 +12,25 @@ release](https://play.google.com/store/apps/details?id=com.webconverger.KioskApp
 is **beta software** and [we are looking for interested
 testers](https://groups.google.com/d/msg/webc-users/qXZHvmk1Jgo/3B2lw0mnWqMJ)!
 
+<img src=/img/lollipop.png style="float: right;" alt="For Android Lollipop" />
+
 Why Android? Pros:
 
 * Better [touch screen experience](http://webconverger.com/faq/#does-webconverger-support-touch-screens)
-* In future we should be able to leverage Android's [IMEs](http://en.wikipedia.org/wiki/Input_method) and support Korean, Japanese & Chinese inputs
-* Android hardware is generally cheaper
-* Android hardware is easier to deploy, especially in the <abbr title="Digital Out of Home">DOOH</abbr> use case
-* Android is a better platform for pushing updates, by leveraging [Google Cloud Messaging](https://developer.android.com/google/gcm/index.html)
+* In future we should be able to leverage Android's native [IMEs](http://en.wikipedia.org/wiki/Input_method) and support Korean, Japanese & Chinese inputs
+* Android hardware is generally cheaper than PC hardware
+* Android hardware is easier to deploy, especially in the <abbr title="Digital Out of Home">DOOH</abbr> use case. You could buy an ANDROID TV!
+* TODO: Android is a better platform for pushing configuration updates, by leveraging [Google Cloud Messaging](https://developer.android.com/google/gcm/index.html)
 
 Cons:
 
 * Not as fast an a desktop Intel PC type setup
-* Touch screen keyboards aren't as good as a PC keyboard for form entry
+* Touch screen keyboards aren't as good as a PC keyboard for form entry (call centre use case)
 * Android 5.0 (Lollipop) is not widespread yet
 * The NFC [provisioning setup is a little clumsy](https://github.com/Webconverger/android/issues/3), but it does work. If you want it, ask us!
-* Install and running the App without provisioning works OK, until you [get stuck on the lock screen](https://code.google.com/p/android/issues/detail?id=77775)!
-* Updating and [supporting the platform forever like we do with the PC](/blog/2014/Webconverger_does_not_have_an_EOL/) cannot be achieved since we are at the mercy of Google
+* Installing from the Play store and running the App without provisioning works OK, until you [get stuck on the lock screen](https://code.google.com/p/android/issues/detail?id=77775)!
+* Updating and [supporting the platform forever like we do with the PC](/blog/2014/Webconverger_does_not_have_an_EOL/) cannot be achieved since we are at the mercy of Google and the chosen update path of the hardware vendor
 
 If you have an Android 5.0 (or above device), [check it out in the Play
 store](https://play.google.com/store/apps/details?id=com.webconverger.KioskApp).
-Now you can manage both Android and PC devices from a configuration panel!
+Now you can manage both Android and PC devices from a configuration panel! That's a first as far as I know!
