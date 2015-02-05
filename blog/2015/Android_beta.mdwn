@@ -1,4 +1,4 @@
-<img src=/img/nexus7usecase.jpg alt="Example deployments of Webconverger on a Nexus 7">
+<img src=/img/nexus7usecase.jpg alt="Example deployments of Webconverger on a Nexus 7" title="Checking out the Hackerspace.SG schedule">
 
 Android 5.0's new features such as [screen
 pinning](http://developer.android.com/about/versions/android-5.0.html#ScreenPinning)
@@ -24,16 +24,16 @@ Why Android? Pros:
 
 Cons:
 
-* Not as fast an a desktop Intel PC type setup
+* Not as fast as a desktop Intel PC setup
 * Touch screen keyboards aren't as good as a PC keyboard for form entry (call centre use case)
-* Android 5.0 (Lollipop) is not widespread yet
+* Android 5.0 (Lollipop) devices are not widespread yet
 * The NFC [provisioning setup is a little clumsy](https://github.com/Webconverger/android/issues/3), but it does work. If you want it, ask us!
-* Installing from the Play store and running the App without provisioning works OK, until you [get stuck on the lock screen](https://code.google.com/p/android/issues/detail?id=77775)!
-* Updating and [supporting the platform forever like we do with the PC](/blog/2014/Webconverger_does_not_have_an_EOL/) cannot be achieved since we are at the mercy of Google and the chosen update path of the hardware vendor
+* Installing from the Play store and running the App without provisioning works OK, until you [get stuck on the lock screen](https://code.google.com/p/android/issues/detail?id=77775). Note: This does not happen when provisioned!
+* Updating and [supporting the platform **forever** (one off subscriptions) like we do with the PC](/blog/2014/Webconverger_does_not_have_an_EOL/) cannot be achieved since we are at the mercy of Google and the chosen update path of the hardware vendor
 
 If you have an Android 5.0 (or above device), [check it out in the Play
 store](https://play.google.com/store/apps/details?id=com.webconverger.KioskApp).
 Thare are other kiosk apps in the Google play store, though they are not
-[Opensource like our effort](https://github.com/webconverger/android) is.  Now
+[Opensource like our effort](https://github.com/Webconverger/android/blob/master/LICENSE) is.  Now
 you can manage both Android and PC devices from our [configuration
 service](https://config.webconverger.com/)! That's a first as far as I know!
