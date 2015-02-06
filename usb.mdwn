@@ -51,19 +51,4 @@ You might find specifying the additional argument `bs=1M` makes it faster.
 
 ## Configuring your PC to boot the USB key instead of your hard drive
 
-Some PCs boot a USB stick by default, so you might need to adjust your PC's
-BIOS at all.
-
-* [Video showing how to change the BIOS to boot from the USB stick](https://www.youtube.com/watch?v=-EaYTPbfuhI)
-* Video on [configuring Intel Video BIOS](http://youtu.be/WxnmhOLFpjE)
-
-There are different keys of entering the BIOS **boot menu** depending on the BIOS,
-it could be [Del], [Esc], [F2], [F8] or [F12] key. The BIOS usually flashes
-which key to press on your keyboard that allows you to access the BIOS setup
-for the briefest of moments as you turn your PC computer on.
-
-Once you are in the BIOS menu, you need to find the boot menu and bubble up the
-USB disk where you copied Webconverger upon. Then Save & Exit, to boot
-Webconverger every time you power on that machine.
-
-<a href="http://www.flickr.com/photos/hendry/6869935304/" title="Adjusting boot order on a American megatrends BIOS"><img src="http://farm8.staticflickr.com/7247/6869935304_610027e95b.jpg" width="500" height="375" alt=""></a>
+Please refer to [[BIOS]].

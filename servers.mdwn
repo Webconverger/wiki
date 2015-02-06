@@ -43,7 +43,7 @@ serving <http://webconverger.com>
 
 Hosted by AWS CloudFront.
 
-Test site is at <http://beta.webconverger.com/>
+Github Pages hosted test site is at <http://beta.webconverger.com/>.
 
 # ny.webconverger.com
 
