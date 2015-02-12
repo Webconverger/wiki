@@ -7,7 +7,7 @@ provisioning](http://developer.android.com/about/versions/android-5.0.html#Manag
 has now enabled Webconverger to make a port without too much fuss, instead of say
 building a ROM.
 
-At time of writing, the [current
+At the time of writing, the [current
 release](https://play.google.com/store/apps/details?id=com.webconverger.KioskApp)
 is **beta software** and [we are looking for interested
 testers](https://groups.google.com/d/msg/webc-users/qXZHvmk1Jgo/3B2lw0mnWqMJ)!
@@ -25,7 +25,7 @@ Why Android? Pros:
 Cons:
 
 * Not as fast as a desktop Intel PC setup
-* Touch screen keyboards aren't as good as a PC keyboard for form entry (call centre use case)
+* Touch screen keyboards aren't as good as a PC keyboard for form entry (data entry use cases)
 * Android 5.0 (Lollipop) devices are not widespread yet
 * The NFC [provisioning setup is a little clumsy](https://github.com/Webconverger/android/issues/3), but it does work. If you want it, ask us!
 * Installing from the Play store and running the App without provisioning works OK, until you [get stuck on the lock screen](https://code.google.com/p/android/issues/detail?id=77775). Note: This does not happen when provisioned!
