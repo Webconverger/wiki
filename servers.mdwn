@@ -23,6 +23,8 @@ Archlinux local hosting machine in Singapore.
 * [Printer configuration hosting](http://ppd.webconverger.com/)
 * [Nagios](https://github.com/Webconverger/nagios)
 
+** NOT RECOMMENDED **
+
 ## Bandwidth
 
 150GB pcm quota, goto Monitoring to see current use.
