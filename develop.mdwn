@@ -3,7 +3,6 @@
 * [Report and view bugs](https://github.com/Webconverger/webc/issues)
 * [[Core_concepts|design]]
 * [Webconverger Debian Live configuration](https://github.com/Webconverger/Debian-Live-config)
-* [Official Webconverger package repository](http://debian.webconverger.com)
 * [Webconverger daily builds](http://build.webconverger.org/) - [build script sources](https://github.com/Webconverger/dailybuild)
 * [[Webconverger_in_your_locale|i18n]]
 * [[Artwork]]
@@ -14,7 +13,6 @@
 * [[Customising_cronjob|cronjob]]
 * [[Debug_mode|debug]]
 * [[Using_PXEBOOT_for_deployment|pxeboot]]
-* Webconverger uses [Progress](http://progress-linux.org) (Artax) backports
 
 If you are new to the project, **Welcome**!! Please start out by [[testing]].
 
@@ -39,8 +37,7 @@ This is the developer supported way of building the Webconverger image.
 customise Webconverger any other way to avoid paying for the [configuration
 service](http://config.webconverger.com) that funds this project. Thank you!
 
-1. Download and install the **latest**
-[live-build](http://packages.qa.debian.org/l/live-build.html) from the [Debian
+1. Download [live-build](http://packages.qa.debian.org/l/live-build.html) 3.x from the [Debian
 Unstable repository](http://packages.qa.debian.org/l/live-build.html), and syslinux.
 
 1. `git clone git://github.com/Webconverger/Debian-Live-config.git`

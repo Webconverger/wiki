@@ -35,5 +35,5 @@ into the top right of the `{webconverger,webcnoaddressbar}` chrome to see the
 tooltip _Webconverger_. They cannot interact with the icon and **cannot click
 away** to browse <https://webconverger.com/> for example.
 
-Hopefully [our new symbol](/img/2014/flower.svg) can give **confidence** to the
+Hopefully [our new symbol](https://webconverger.com/images/daisy.svg) can give **confidence** to the
 user, that they are using a **secure & privacy concious Web kiosk**!
