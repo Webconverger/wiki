@@ -1,7 +1,7 @@
 [[!meta title="Virtual Desktop Infrastructure versus Webconverger"]]
 
 We are sometimes compared to "thin client" solutions like those offered by
-Enterprise heavyweights like Amazon, VMWARE & Citrix solutions. In reality they
+Enterprise heavyweights like Amazon, VMWARE and Citrix solutions. In reality they
 are in a **different market sector** called [Virtual Desktop
 Infrastructure](http://en.wikipedia.org/wiki/Desktop_virtualization#Virtual_desktop_infrastructure).
 Nonetheless, it's a good exercise to compare a Webconverger to <abbr
@@ -39,7 +39,7 @@ network assumptions are made and **which will lag** on the Internet. Once a Web
 application is loaded, it's very responsive and usable.
 
 If your end to end network is managed by yourself, then this argument is
-probably mute, however this is increasingly rare as things move towards a more
+probably moot, however this is increasingly rare as things move towards a more
 cost effective "cloud hosted" <abbr title="Virtual Desktop
 Infrastructure">VDI</abbr>.
 
@@ -64,14 +64,14 @@ Just update the homepage= URL, enter a password and any amount of machines
 attached to the configuration will have a new configuration applied on reboot.
 
 However we do not allow administrators to monitor the exact screen of the end
-user like what most <abbr title="Virtual Desktop Infrastructure">VDI</abbr>
+user as most <abbr title="Virtual Desktop Infrastructure">VDI</abbr>
 solutions do, for [[privacy]] reasons. Some Orwellian enterprises sadly require
 this invasive feature in order to be considered "enterprise grade".
 
 To conclude, <abbr title="Virtual Desktop Infrastructure">VDI</abbr> has better controls,
 unless you care about end user privacy, and then you will want Webconverger.
 
-# Input & output devices
+# Input & Output devices
 
 Since Webconverger is limited to a Web browser for input and output for the end
 user, we are limited typically to:
@@ -91,7 +91,7 @@ consideration and testing of your hardware.
 With <abbr title="Virtual Desktop Infrastructure">VDI</abbr> you typically have
 **complete control** of all input and outputs. So you can attach anything to
 your local device and you should be able to integrate it with your application
-as the vendor intended, typically on Windows. Webconverger or rather the
+as the vendor intended, typically on Windows. Webconverger, or rather the
 browser currently is unable to support a range of devices like cash registers
 and smart cards which a lot of businesses rely upon. However there is usually
 an out of band (usually more expensive) alternative solution that can fulfill
@@ -142,14 +142,14 @@ are usually better geared to supplying <abbr title="Virtual Desktop
 Infrastructure">VDI</abbr> solutions, since currently to deploy Webconverger, you
 need to source the hardware yourself.
 
-Over time browsers & the Web applications they host may ask for more and more
+Over time browsers and the Web applications they host may ask for more and more
 memory, making the base Webconverger system slower and slower. <abbr
 title="Virtual Desktop Infrastructure">VDI</abbr> solutions like [Amazon
 workspaces](http://aws.amazon.com/workspaces/) correctly argue their <abbr
 title="Virtual Desktop Infrastructure">VDI</abbr>s can be provisioned with more
 memory or CPU on the server side. We would like to argue any client hardware in
 our experience probably needs to be replaced every 5-10 years and that cycle
-basically keeps up with Web browser & application bloat in that time.
+basically keeps up with Web browser and application bloat in that time.
 
 # Security
 
