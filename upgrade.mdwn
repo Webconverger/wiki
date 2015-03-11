@@ -98,13 +98,15 @@ Our memory requirements have gone up and by our calculations, it's about 200M of
 
 # How to integrate git-fs from scratch
 
-[/usr/share/initramfs-tools/hooks/git-fs](https://github.com/Webconverger/webc/blob/master/usr/share/initramfs-tools/hooks/git-fs) ensures the git-fs binary is in the initrd.
+[/usr/share/initramfs-tools/hooks/git-fs](https://github.com/Webconverger/webc/blob/master/usr/share/initramfs-tools/hooks/git-fs) ensures the git-fs binary is in the initramfs.
 
 [/usr/share/initramfs-tools/scripts/live-bottom/00git-fs](https://github.com/Webconverger/webc/blob/master/usr/share/initramfs-tools/scripts/live-bottom/00git-fs) prepares the /live for mounting.
 
-[/lib/live/boot/overlay.sh](https://github.com/Webconverger/webc/blob/master/lib/live/boot/overlay.sh) is where the actual git-fs mount happens.
+Notice <https://github.com/Webconverger/webc/tree/master/.git-fixups> which needs to run before switching.
 
-[/etc/webc/upgrade.sh](https://github.com/Webconverger/webc/blob/master//etc/webc/upgrade.sh)
+[/lib/live/boot/overlay.sh](https://github.com/Webconverger/webc/blob/master/lib/live/boot/9990-overlay.sh) is where the actual git-fs mount happens.
+
+[/etc/webc/upgrade.sh](https://github.com/Webconverger/webc/blob/master/etc/webc/upgrade.sh)
 implements the `{fetch,update}-revision=` API that fetches updates in the
 background.
 
