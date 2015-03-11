@@ -1,5 +1,7 @@
 [[!meta title="Webconverger touch screen calibration" ]]
 
+Update: Please consider using Android instead for touch screen experiences: <https://webconverger.com/faq/#does-webconverger-support-touch-screens>
+
 1. Boot a [Live Linux Ubuntu](http://www.ubuntu.com/download)
 2. Make sure your machine is connected to the internet (LAN)
 3. Open an terminal (In Ubuntu 12.04 LTS hit the windows key an search for "terminal" or "xterm" in the dash)

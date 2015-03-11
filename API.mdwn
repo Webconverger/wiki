@@ -117,7 +117,7 @@ For finer control by explicitly naming your CONNECTED_DEVICE, you can use
 `xrandr=`, but then you must discover the exact name of your output device,
 which can vary machine to machine.
 
-[Video explaining how to use debug mode to discover the properties of your connected displays](http://r2d2.webconverger.org/2012-11-13/xrandr.html)
+[Video explaining how to use debug mode to discover the properties of your connected displays](http://r2d2.webconverger.org/2012-11-13/xrandr.mp4)
 
 ### Need to setup up a higher than detected resolution?
 
@@ -203,11 +203,18 @@ Use `numlock`.
 
 ### How to override Firefox preferences (autoconfig)
 
-Please look at `prefs=` usage examples in [[printing]] and [[blog/entry/Popups_and_SSL_warnings]].
-
-`prefs=` sets Firefox's powerful `autoadmin.global_config_url`
+`prefs=` sets Firefox's **powerful** `autoadmin.global_config_url`
 [autoconfig](http://mike.kaply.com/2012/03/16/customizing-firefox-autoconfig-files/)
 feature.
+
+Examples:
+
+* prefs=http://prefs.webconverger.com/2015/safe.js - force Google to provide a safe search result
+* prefs=http://prefs.webconverger.com/2015/disable-pdfjs.js - disable pdfjs in favour of native PDF viewer
+* prefs=http://prefs.webconverger.com/2015/chromebook.js - override user agent string
+
+Please look for further usage examples in [[printing]] and
+[[blog/entry/Popups_and_SSL_warnings]].
 
 ### customer= API
 
@@ -224,7 +231,9 @@ Sign up for an account with [Papertrail](https://papertrailapp.com/?thank=97e900
 
 Replace XXXXX with the port number associated with your account.
 
-Alternatively, you can use the `support` command to send us your logs to the <http://support.webconverger.com/> service.
+Alternatively, you can use the `support` command to send us your logs to the
+**http://support.webconverger.com/** service available from the information
+icon next to your alias in the configuration panel.
 
 ### Wireless configuration
 
