@@ -214,7 +214,7 @@ Examples:
 * prefs=http://prefs.webconverger.com/2015/chromebook.js - override user agent string
 
 Please look for further usage examples in [[printing]] and
-[[blog/entry/Popups_and_SSL_warnings]].
+[[allowing_popups|blog/entry/Popups_and_SSL_warnings]].
 
 ### customer= API
 

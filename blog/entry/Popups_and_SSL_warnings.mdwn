@@ -11,16 +11,16 @@ we can use Firefox's powerful "autoconfig" commands to setup these permissions.
 Lets walk through an example using <http://popuptest.com/> as a source for popups.
 
 We [configure our Webconverger](http://config.webconverger.com/) using
-`prefs=http://ppd.webconverger.com/2013/autoconfigfile.js` and this
+`prefs=http://prefs.webconverger.com/2015/autoconfigfile.js` and this
 "autoconfig" file contains:
 
-	$ curl -s http://ppd.webconverger.com/2013/autoconfigfile.js
+	$ curl -s http://prefs.webconverger.com/2015/autoconfigfile.js
 	Components.utils.import("resource://gre/modules/Services.jsm");
 	Components.utils.import("resource://gre/modules/NetUtil.jsm");
 	Services.perms.add(NetUtil.newURI("http://popuptest.com"), "popup", Services.perms.ALLOW_ACTION);
 	Services.prompt.alert(null, "", "Popup test");
 
-You should host `http://ppd.webconverger.com/2013/autoconfigfile.js` yourself,
+You should host `http://prefs.webconverger.com/2015/autoconfigfile.js` yourself,
 though Webconverger as a service to its customers can reliably host it for you.
 
 As you can see in the `Services.perms.add` invocation, with `prefs=` we can now
