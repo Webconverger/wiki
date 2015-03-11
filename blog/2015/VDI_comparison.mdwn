@@ -27,26 +27,33 @@ Infrastructure">VDI</abbr> solutions can operate without a "management server"
 by caching its configuration.  Webconverger actually also caches its
 configuration, in case <https://config.webconverger.com/> goes down.
 
-**Winner**: Webconverger
+To summarise, Webconverger wins since it is more usable and will be even more
+usable in the future, offline.
 
 ## Lag
 
 Webconverger page loads will indeed suffer from a poor connection. However Web
-delivery is arguably "Internet grade" than typical LAN based <abbr
+delivery is arguably "Internet grade" than typically LAN based "premise" <abbr
 title="Virtual Desktop Infrastructure">VDI</abbr> solutions where certain
 network assumptions are made and **which will lag** on the Internet. Once a Web
 application is loaded, it's very responsive and usable.
 
-**Winner**: Webconverger
+If your end to end network is managed by yourself, then this argument is
+probably mute, however this is increasingly rare as things move towards a more
+cost effective "cloud hosted" <abbr title="Virtual Desktop
+Infrastructure">VDI</abbr>.
+
+Webconverger is powered by the Web and therefore is much more robust and usable
+on poor internet connections.
 
 # Scalability
 
-<abbr title="Virtual Desktop Infrastructure">VDI</abbr> quickly advocate it's
-solution as scalable. Webconverger is just as scalable if not more so, since
-it's usually less of a burden on the network since it's more designed for
-Internet usage than a LAN.
+<abbr title="Virtual Desktop Infrastructure">VDI</abbr> quickly advocate its
+solution as scalable.  Webconverger has been specifically designed with an
+Internet connection in mind and will prove to be less of a burden on the
+network.
 
-**Winner**: Webconverger
+In summary Webconverger is very bandwidth efficient.
 
 # Control and management
 
@@ -61,7 +68,8 @@ user like what most <abbr title="Virtual Desktop Infrastructure">VDI</abbr>
 solutions do, for [[privacy]] reasons. Some Orwellian enterprises sadly require
 this invasive feature in order to be considered "enterprise grade".
 
-**Winner**: <abbr title="Virtual Desktop Infrastructure">VDI</abbr>, unless you care about privacy
+To conclude, <abbr title="Virtual Desktop Infrastructure">VDI</abbr> has better controls,
+unless you care about end user privacy, and then you will want Webconverger.
 
 # Input & output devices
 
@@ -90,7 +98,8 @@ an out of band (usually more expensive) alternative solution that can fulfill
 these use cases, such as logging in with 2 factor authentication or standalone
 electronic payment devices.
 
-**Winner**: <abbr title="Virtual Desktop Infrastructure">VDI</abbr>
+<abbr title="Virtual Desktop Infrastructure">VDI</abbr> wins here since it has
+better device control.
 
 # Legacy support for non-Web applications
 
@@ -114,7 +123,9 @@ However once applications are indeed Web applications, the Web has a fantastic
 track record of backwards compatibility. Often one reason enterprises are
 burdened with odd insecure legacy platforms, is due to broken upgrade paths.
 
-**Winner**: <abbr title="Virtual Desktop Infrastructure">VDI</abbr>
+<abbr title="Virtual Desktop Infrastructure">VDI</abbr> is a better technology
+for supporting non-Web platforms, though hopefully the Web can maybe one day
+support <abbr title="Virtual Desktop Infrastructure">VDI</abbr> in the browser.
 
 # Hardware requirements
 
@@ -123,13 +134,13 @@ on lower cost Android 5.0 and ARM7 Raspberry PI2 devices.
 
 Typically <abbr title="Virtual Desktop Infrastructure">VDI</abbr> solutions run
 on PCs on top of pre-installed Windows operating systems, making it a
-heavyweight stack. However there are dedicated <abbr title="Virtual Desktop
-Infrastructure">VDI</abbr> "thin client" hardware which can be quite
-inexpensive. One negative point is that this hardware is often proprietary and
-there is some lock in. On the contrary **system integrators** are usually
-better geared to supplying <abbr title="Virtual Desktop
-Infrastructure">VDI</abbr> solutions, since currently to run Webconverger, you
-need to buy the hardware seperately.
+heavyweight stack. However there are dedicated "locked down" <abbr
+title="Virtual Desktop Infrastructure">VDI</abbr> "thin client" hardware which
+can be quite inexpensive. One negative point is that this hardware is often
+proprietary and there is some lock in. On the contrary **system integrators**
+are usually better geared to supplying <abbr title="Virtual Desktop
+Infrastructure">VDI</abbr> solutions, since currently to deploy Webconverger, you
+need to source the hardware yourself.
 
 Over time browsers & the Web applications they host may ask for more and more
 memory, making the base Webconverger system slower and slower. <abbr
@@ -137,26 +148,26 @@ title="Virtual Desktop Infrastructure">VDI</abbr> solutions like [Amazon
 workspaces](http://aws.amazon.com/workspaces/) correctly argue their <abbr
 title="Virtual Desktop Infrastructure">VDI</abbr>s can be provisioned with more
 memory or CPU on the server side. We would like to argue any client hardware in
-our experience probably needs to be rotated every 5-10 years and that cycle
+our experience probably needs to be replaced every 5-10 years and that cycle
 basically keeps up with Web browser & application bloat in that time.
-
-**Winner**: Calling it a tie
 
 # Security
 
-This is a complicated topic, however Webconverger's main strength is that it's
-not susceptible to key loggers and screen grabbers like all Windows based thin
-client applications tend to be. The <abbr title="Virtual Desktop
-Infrastructure">VDI</abbr> on the server might be well managed, but usually the
-underlying non-dedicated clients are poorly managed and maintained.
+This is a complicated topic, though overall the two approaches share a similar
+security model, where the application and data are remotely hosted and not
+local.
 
-**Winner**: Webconverger
+Webconverger's main security strength is that it's not susceptible to key
+loggers and screen grabbers like all Windows based thin client applications
+tend to be. The <abbr title="Virtual Desktop Infrastructure">VDI</abbr> on the
+server might be well managed, but usually the underlying non-dedicated clients
+are poorly managed and maintained.
 
 If you made it down here, congratulations. Hopefully you better understand the
 difference between Web browser only systems like Webconverger and <abbr
 title="Virtual Desktop Infrastructure">VDI</abbr> solutions.
 
 To summarise, assuming you are running Web applications in your business, the
-Webconverger system certainly has the edge. It's offers a better UX on a
-frequently unstable **Internet**, it's less complex and it offers better
+Webconverger system certainly has the edge. Webconverger offers a better UX on
+a frequently unstable **Internet**, it's less complex and it offers better
 security than the typical vulnerable thin client running on Windows.
