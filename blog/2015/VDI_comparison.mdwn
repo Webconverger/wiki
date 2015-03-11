@@ -1,3 +1,5 @@
+[[!meta title="Virtual Desktop Infrastructure versus Webconverger"]]
+
 We are sometimes compared to "thin client" solutions like those offered by
 Enterprise heavyweights like Amazon, VMWARE & Citrix solutions. In reality they
 are in a **different market sector** called [Virtual Desktop
