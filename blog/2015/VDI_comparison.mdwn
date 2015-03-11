@@ -22,7 +22,7 @@ Infrastructure">VDI</abbr> solutions are unusable. Furthermore in some
 solutions, if the "management server" goes down, this can be another single
 point of failure.  **Better** <abbr title="Virtual Desktop
 Infrastructure">VDI</abbr> solutions can operate without a "management server"
-by caching it's configuration.  Webconverger actually also caches it's
+by caching its configuration.  Webconverger actually also caches its
 configuration, in case <https://config.webconverger.com/> goes down.
 
 **Winner**: Webconverger
@@ -30,9 +30,10 @@ configuration, in case <https://config.webconverger.com/> goes down.
 ## Lag
 
 Webconverger page loads will indeed suffer from a poor connection. However Web
-delivery is arguably better worked than typical <abbr title="Virtual Desktop
-Infrastructure">VDI</abbr> solutions which will lag, especially on the
-Internet. Once a Web application is loaded, it's very responsive and usable.
+delivery is arguably "Internet grade" than typical LAN based <abbr
+title="Virtual Desktop Infrastructure">VDI</abbr> solutions where certain
+network assumptions are made and **which will lag** on the Internet. Once a Web
+application is loaded, it's very responsive and usable.
 
 **Winner**: Webconverger
 
