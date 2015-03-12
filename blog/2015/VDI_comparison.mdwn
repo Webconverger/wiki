@@ -117,17 +117,18 @@ at that. The reasons to migrate to Web applications are several:
 * leverage open standards
 * reduce complexity
 
-Of course some apps just can't be migrated easily, like display intensive
-applications.
+Of course **some apps just can't be migrated easily to the Web**, like display
+or compute intensive applications. e.g. CAD/matlab
 
-However once applications are indeed Web applications, the Web has a fantastic
-track record of backwards compatibility. Often one reason enterprises are
-burdened with odd insecure legacy platforms, is due to broken upgrade paths.
+However when applications are indeed Web applications, the Web has a good track
+record of backwards compatibility. Often one reason enterprises are burdened
+with odd insecure legacy platforms, is due to broken upgrade paths.
 
 <abbr title="Virtual Desktop Infrastructure">VDI</abbr> is a better technology
 for supporting non-Web platforms, though hopefully the Web can maybe one day
-support <abbr title="Virtual Desktop Infrastructure">VDI</abbr> **in the browser**.
-TODO: Try <http://freerdp.net/>
+support <abbr title="Virtual Desktop Infrastructure">VDI</abbr> **in the
+browser**, with projects like freerdp-webconnect which still has a long way to
+go.
 
 # Hardware requirements
 
