@@ -5,12 +5,12 @@ promotional video in fullscreen in a loop. Such a configuration would look
 like:
 
 	homepage=http://signage.webconverger.com
-	prefs=http://ppd.webconverger.com/2013/signage.js
+	prefs=http://prefs.webconverger.com/2013/signage.js
 	hidecursor
 	noblank
 	chrome=neon
 
-Notice you need to tweak <http://ppd.webconverger.com/2013/signage.js>
+Notice you need to tweak <http://prefs.webconverger.com/2013/signage.js>
 "autoconfig" preferences for your particular homepage's domain in order to give
 **fullscreen video permissions** for your domain.
 

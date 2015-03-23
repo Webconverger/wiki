@@ -38,7 +38,7 @@ your printer query.
 
 For example a Ricoh Aficio SP 4310N with [PPD](http://en.wikipedia.org/wiki/PostScript_Printer_Description) on IP 192.168.1.5 might be setup like so:
 
-	printer=lab1,http://192.168.1.5/printer,http://ppd.webconverger.com/ricoh.ppd
+	printer=lab1,http://192.168.1.5/printer,http://prefs.webconverger.com/2013/ricoh.ppd
 
 Instead of specifying a remote
 [PPD](http://en.wikipedia.org/wiki/PostScript_Printer_Description), you should
@@ -87,7 +87,7 @@ Add your printer to the client using the printer= API, using the an
 
 The prefs= API allows you to override Firefox preferences.
 
-For example `prefs=http://ppd.webconverger.com/2013/ricoh.js` removes header/footer for the printer named 'Ricoh'.
+For example `prefs=http://prefs.webconverger.com/2013/ricoh.js` removes header/footer for the printer named 'Ricoh'.
 
 # Disable PDF.JS
 

@@ -12,6 +12,8 @@ transfer about 40GB a day, or 1 Terabyte a month.
 
 # sg.webconverger.com
 
+**BEING RETIRED**
+
 A [GPLHOST VPS package
 4](https://dtc.node6503.gplhost.com/dtc/affiliation.php?affiliate=kaihendry&return=/hosting-vps.html)
 
@@ -20,10 +22,7 @@ Archlinux local hosting machine in Singapore.
 * 320USD a year (quite uncompetitive compared to Digital Ocean) expiring in 2015-06-13
 * At least 50mbit/sec up and down for local traffic <http://www.gplhost.com/gplhost-network-singapore.html>
 * [Control panel](https://dtc.node6503.gplhost.com/dtc/)
-* [Printer configuration hosting](http://ppd.webconverger.com/)
 * [Nagios](https://github.com/Webconverger/nagios)
-
-** NOT RECOMMENDED **
 
 ## Bandwidth
 
