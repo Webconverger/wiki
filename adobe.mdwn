@@ -16,7 +16,7 @@ so](https://github.com/Webconverger/webc/commit/375349b7cc2ddf7d2635551463052dcd
 
 Flash from 17.x lives in [/usr/lib/mozilla/plugins/](https://github.com/Webconverger/webc/tree/master/usr/lib/mozilla/plugins)
 
-	sudo mv libflashplayer.so ~/debian/sid-root/root/webconverger/chroot/usr/lib/mozilla/plugins/libflashplayer.so
+	sudo mv libflashplayer.so ~/debian/jessie-chroot/root/Debian-Live-config/webconverger/chroot/usr/lib/mozilla/plugins/libflashplayer.so
 
 # PDF support is included
 

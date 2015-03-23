@@ -1,9 +1,10 @@
 [[!meta title="Updating Firefox for a Webconverger developer"]]
 
-Get the 32bit version: `wget 'https://download-installer.cdn.mozilla.net/pub/firefox/releases/28.0/linux-i686/en-GB/firefox-28.0.tar.bz2'`
+First work out the current version from <https://getfirefox.com>
 
-	sudo mv firefox/ /home/hendry/debian/sid-root/root/webconverger/chroot/tmp
+Get the 32bit version: `wget 'https://download.mozilla.org/?product=firefox-36.0.4-SSL&os=linux'`
 
+	sudo mv firefox ~/debian/jessie-chroot/root/Debian-Live-config/webconverger/chroot/tmp/
 	/opt# mv firefox/ firefox-old
 	/opt# mv /tmp/firefox/ .
 
@@ -15,7 +16,7 @@ Using the **firefox-i18n** packaging from Archlinux:
 	mkdir /tmp/exts
 	/tmp/firefox-i18n$ for i in *.xpi; do unzip -d /tmp/exts/$(unzip -p $i install.rdf | grep -m 1 -H em:id  | sed 's,.*em:id=",,' | sed 's,"$,,') $i; done
 	cd /tmp/exts
-	rsync -a --delete . /home/hendry/debian/sid-root/root/webconverger/chroot/opt/firefox/langpacks/
+	rsync -a --delete . ~/debian/jessie-chroot/root/Debian-Live-config/webconverger/chroot/opt/firefox/langpacks/
 
 Check for invalid XML: `find -name '*.xml' -o -name '*.rdf' | xargs xmlstarlet val | grep inv`
 
@@ -35,4 +36,3 @@ message, like please contact your system administrator.
 
 	git checkout firefox/mozilla.cfg
 	git checkout firefox/browser/searchplugins/DDG.xml
-
