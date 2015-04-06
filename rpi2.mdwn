@@ -1,0 +1,10 @@
+# Webconverger for Raspberry PI 2 port
+
+A curated Archlinux Arm (alarm) rootfs <https://github.com/webconverger/rpi2>
+using webkit2gtk based surf2 and a new [Websocket based
+updater](https://github.com/Webconverger/wsc) allowing for instant updates to
+the configuration.
+
+Currently this port is designed for <abbr title="Digital Out of
+Home">DOOH</abbr> applications. It can be used as a kiosk, though it will not
+have a "chrome", i.e. [[user interface options|kiosk]],
