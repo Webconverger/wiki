@@ -15,7 +15,7 @@ the configuration and better visibility if the device is actually online.
 
 Currently this port is designed for <abbr title="Digital Out of
 Home">DOOH</abbr> / Signage applications. It can be used as a kiosk, though it
-will not have a "chrome", i.e. [[user interface options|kiosk]],
+will not have a "chrome", i.e. [[user interface options|kiosk]] is set to `chrome=webcfullscreen`.
 
 [Installation instructions](https://github.com/Webconverger/rpi2/blob/master/README.md)
 
