@@ -2,6 +2,8 @@
 
 # Webconverger for Raspberry PI 2 port BETA
 
+[Video showing the possibilities of hardware motion detector integration](https://youtu.be/O0jdE7A-vbg?list=PLECEw2eFfW7hYMucZmsrryV_9nIc485P1&t=3721)
+
 A curated
 [auto-updating](https://github.com/Webconverger/rpi2/blob/master/usr/bin/webc-upgrade)
 Archlinux Arm (alarm) rootfs <https://github.com/webconverger/rpi2> using
