@@ -133,7 +133,8 @@ go.
 # Hardware requirements
 
 Webconverger runs on any PC with 1GB of RAM. Also we recently started testing
-on lower cost Android 5.0 and ARM7 Raspberry PI2 devices.
+on lower cost [[Android 5.0|Web_kiosk_and_signage_for_Android]] and [[ARM7
+Raspberry PI2 devices|rpi2]].
 
 Typically <abbr title="Virtual Desktop Infrastructure">VDI</abbr> solutions run
 on PCs on top of pre-installed Windows operating systems, making it a
@@ -164,10 +165,9 @@ Webconverger's main security strength is that it's not susceptible to key
 loggers and screen grabbers like all Windows based thin client applications
 tend to be. The <abbr title="Virtual Desktop Infrastructure">VDI</abbr> on the
 server might be well managed, but usually the underlying non-dedicated clients
-are poorly managed and maintained.
+are poorly locked down.
 
 To summarise, assuming you are running Web applications in your business, the
 Webconverger system certainly has the edge. Webconverger offers a better user
-experience on a frequently unstable **Internet**, it's less complex and it
-offers better security than the typical vulnerable thin client running on
-Windows.
+experience on a frequently unstable **Internet**, it's less complex and offers
+better security than the typical vulnerable thin client running on Windows.
