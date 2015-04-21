@@ -19,6 +19,30 @@ will not have a "chrome", i.e. [[user interface options|kiosk]] is set to `chrom
 
 [Installation instructions](https://github.com/Webconverger/rpi2/blob/master/README.md)
 
+# [[API]] notes
+
+Only a limited subset of the [[API]] is implemented. The
+[webc-config](https://github.com/Webconverger/rpi2/blob/master/usr/bin/webc-config)
+is the best documentation.
+
+`instantupdate` is enabled by default.
+
+You can override the browser binary `surf2` with the `webck` variable. For
+example `webck=omxplayer%20-r` with
+`homepage=http://techslides.com/demos/sample-videos/small.mp4` makes
+Webconverger loop and play back an MP4 file.
+
+You can power down the rpi2 with `poweroff` and reboot with `reboot`. This is
+actually good practice since unfortunately the rpi2 boots from a [vfat
+partition](http://en.wikipedia.org/wiki/File_Allocation_Table) that can easily
+get corrupted.
+
+To rotate the screen, you can use
+`rpi2config=http://prefs.webconverger.com/2015/90-degrees.txt`.
+[[xrandr|display]] commands do not work with the rpi2's framebuffer powered
+display.
+
 # Caveats
 
-You must have your HDMI screen on as the rpi2 boots since it does some sort of HDMI negotiation only at boot.
+You must have your HDMI screen on as the rpi2 boots since it does some sort of
+HDMI negotiation only at boot.
