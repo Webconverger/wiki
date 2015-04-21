@@ -41,6 +41,15 @@ Could be expanded to
 
 	homepage=http://webconverger.com/?mac=081196ae2d3c
 
+### Instantupdate to the homepage
+
+Using `instantupdate` from version 28.
+
+This [video has an instantupdate
+demonstration](https://www.youtube.com/watch?v=VJehjCZg02k). Good for getting a
+pool of Webconverger devices on the same page. Support by the [[rpi2]] & x86
+version currently. Android coming soon.
+
 ### Changing [[browser_chrome|kiosk]]
 
 <https://github.com/Webconverger/webc/tree/master/etc/webc/extensions>
