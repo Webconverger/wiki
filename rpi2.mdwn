@@ -51,4 +51,6 @@ HDMI negotiation only at boot.
 
 [Video showing the possibilities of hardware motion detector integration](https://youtu.be/O0jdE7A-vbg?list=PLECEw2eFfW7hYMucZmsrryV_9nIc485P1&t=3721)
 
+* [/etc/systemd/system/dpms.service](http://ix.io/hmV)
+
 Useful for saving power when no one is in the vicinity.
