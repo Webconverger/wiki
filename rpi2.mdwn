@@ -1,6 +1,6 @@
 [[!meta title="Webconverger for Raspberry PI 2"]]
 
-# Webconverger for Raspberry PI 2 port BETA
+# Webconverger for Raspberry PI 2 port
 
 [Video showing the possibilities of hardware motion detector integration](https://youtu.be/O0jdE7A-vbg?list=PLECEw2eFfW7hYMucZmsrryV_9nIc485P1&t=3721)
 
@@ -11,8 +11,6 @@ Archlinux Arm (alarm) rootfs <https://github.com/webconverger/rpi2> using
 updater](https://github.com/Webconverger/wsc) allowing for instant updates to
 the configuration and better visibility if the device is actually online.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/-ZUJ7WaJnmc" frameborder="0" allowfullscreen></iframe>
-
 Currently this port is designed for <abbr title="Digital Out of
 Home">DOOH</abbr> / Signage applications. It can be used as a kiosk, though it
 will not have a "chrome", i.e. [[user interface options|kiosk]] is set to `chrome=webcfullscreen`.
@@ -20,6 +18,8 @@ will not have a "chrome", i.e. [[user interface options|kiosk]] is set to `chrom
 [Installation instructions](https://github.com/Webconverger/rpi2/blob/master/README.md)
 
 # [[API]] notes
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/K54BDqJcYsA?rel=0" frameborder="0" allowfullscreen></iframe>
 
 Only a limited subset of the [[API]] is implemented. The
 [webc-config](https://github.com/Webconverger/rpi2/blob/master/usr/bin/webc-config)
