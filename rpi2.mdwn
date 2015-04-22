@@ -25,7 +25,7 @@ Only a limited subset of the [[API]] is implemented. The
 [webc-config](https://github.com/Webconverger/rpi2/blob/master/usr/bin/webc-config)
 is the best documentation.
 
-`instantupdate` is enabled by default.
+`instantupdate` is enabled by default. This allows instant updates to the homepage without rebooting.
 
 You can override the browser binary `surf2` with the `webck` variable. For
 example `webck=omxplayer%20-r` with
@@ -40,7 +40,9 @@ get corrupted.
 To rotate the screen, you can use
 `rpi2config=http://prefs.webconverger.com/2015/90-degrees.txt`.
 [[xrandr|display]] commands do not work with the rpi2's framebuffer powered
-display.
+display. You may need to patient rebooting the device a couple of times as this
+configuration is only embedded at boot via
+[webc-upgrade](https://github.com/Webconverger/rpi2/blob/master/usr/bin/webc-upgrade).
 
 # Caveats
 
