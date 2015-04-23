@@ -29,7 +29,7 @@ takes a couple of minutes)!
 Coming soon: A **major update** where we will upgrade from Debian codename
 wheezy to [jessie](https://www.debian.org/releases/jessie/) smoothly. Work in
 our [testing branch](https://github.com/Webconverger/webc/tree/testing) is well
-underway and we hope to release the next version soon after Debian makes the
+underway and we hope to release the next version of "stable" soon after Debian makes the
 switch.
 
 The sha256sum is `ce422a67f18b8fbf97303bf421c0010f7d8af87b0c09fd78b9c281dca5cb9cbb  webc-28.0.iso`, please <a href=http://dl.webconverger.com/latest.iso><strong>download</strong> from our <abbr title="Content Delivery Network">CDN</abbr></a>, where we are playing with some <abbr title="Amazon Web Services">AWS</abbr> credits for this release.
