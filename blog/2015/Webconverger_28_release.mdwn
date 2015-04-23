@@ -5,14 +5,14 @@ and [[Raspberry PI2|rpi2]] ports give customers cheaper hardware deployment
 options. All these different device architectures managed consistently via
 <https://config.webconverger.com/>.
 
-The PC x86 version however is our mainstay and this is probably the last
-release based on [Debian Wheezy](https://www.debian.org/releases/wheezy/).
-Debian's **stable** platform lived up to it's name. It has been rock solid.
-Thank you.
+The PC x86 version however is our mainstay and this our last release based on
+[Debian Wheezy](https://www.debian.org/releases/wheezy/).  Debian's **stable**
+platform lived up to its name. It has been rock solid.  Thank you to the Debian
+project, its developers and users.
 
-The most exciting **new feature** is enabled with the `instantupdate` [[API]]
-option which allows you to change the homepage remotely for one or many
-machines in an instant. **No reboot required!** See the [instantupdate
+The most exciting **new feature** is _opted in_ with the `instantupdate`
+[[API]] option which allows you to change the homepage remotely for one or many
+of your devices in an instant. **No reboot required!** See the [instantupdate
 demo](https://www.youtube.com/watch?v=VJehjCZg02k). The technology behind this
 is [Websockets](http://en.wikipedia.org/wiki/WebSocket) and the service runs
 upon <https://wss.webconverger.com/>.
