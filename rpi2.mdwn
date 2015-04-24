@@ -1,8 +1,6 @@
 [[!meta title="Webconverger for Raspberry PI 2"]]
 
-# Webconverger for Raspberry PI 2 port BETA
-
-[Video showing the possibilities of hardware motion detector integration](https://youtu.be/O0jdE7A-vbg?list=PLECEw2eFfW7hYMucZmsrryV_9nIc485P1&t=3721)
+# Webconverger for Raspberry PI 2 port
 
 A curated
 [auto-updating](https://github.com/Webconverger/rpi2/blob/master/usr/bin/webc-upgrade)
@@ -10,8 +8,6 @@ Archlinux Arm (alarm) rootfs <https://github.com/webconverger/rpi2> using
 [webkit2gtk](http://webkitgtk.org/) based surf2 and a new [Websocket based
 updater](https://github.com/Webconverger/wsc) allowing for instant updates to
 the configuration and better visibility if the device is actually online.
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/-ZUJ7WaJnmc" frameborder="0" allowfullscreen></iframe>
 
 Currently this port is designed for <abbr title="Digital Out of
 Home">DOOH</abbr> / Signage applications. It can be used as a kiosk, though it
@@ -21,11 +17,15 @@ will not have a "chrome", i.e. [[user interface options|kiosk]] is set to `chrom
 
 # [[API]] notes
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/K54BDqJcYsA?rel=0" frameborder="0" allowfullscreen></iframe>
+
 Only a limited subset of the [[API]] is implemented. The
 [webc-config](https://github.com/Webconverger/rpi2/blob/master/usr/bin/webc-config)
 is the best documentation.
 
-`instantupdate` is enabled by default, see this [video demo](https://www.youtube.com/watch?v=SgaqofU1zgc).
+`instantupdate` is enabled by default, see this [video demo with two
+rpi2s](https://www.youtube.com/watch?v=SgaqofU1zgc). This allows instant
+updates to the homepage without rebooting.
 
 You can override the browser binary `surf2` with the `webck` variable. For
 example `webck=omxplayer%20-r` with
@@ -40,7 +40,11 @@ get corrupted.
 To rotate the screen, you can use
 `rpi2config=http://prefs.webconverger.com/2015/90-degrees.txt`.
 [[xrandr|display]] commands do not work with the rpi2's framebuffer powered
-display. Begin with the [canonical
+display. You may need to patient rebooting the device a couple of times as this
+configuration is only embedded at boot via
+[webc-upgrade](https://github.com/Webconverger/rpi2/blob/master/usr/bin/webc-upgrade).
+
+Begin with the [canonical
 config.txt](https://raw.githubusercontent.com/Webconverger/rpi2/master/boot/config.txt)
 when making your changes. Other examples:
 
@@ -50,3 +54,11 @@ when making your changes. Other examples:
 
 You must have your HDMI screen on as the rpi2 boots since it does some sort of
 HDMI negotiation only at boot.
+
+# For hardware tinkerers
+
+[Video showing the possibilities of hardware motion detector integration](https://youtu.be/O0jdE7A-vbg?list=PLECEw2eFfW7hYMucZmsrryV_9nIc485P1&t=3721)
+
+* [/etc/systemd/system/dpms.service](http://ix.io/hmV)
+
+Useful for saving power when no one is in the vicinity.
