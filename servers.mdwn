@@ -10,20 +10,6 @@ Webconverger averages ~[100 downloads a
 day](http://dl.webconverger.com/stats/) and the ISO file is about 400M. So we
 transfer about 40GB a day, or 1 Terabyte a month.
 
-# sg.webconverger.com
-
-**BEING RETIRED**
-
-A [GPLHOST VPS package
-4](https://dtc.node6503.gplhost.com/dtc/affiliation.php?affiliate=kaihendry&return=/hosting-vps.html)
-
-Archlinux local hosting machine in Singapore.
-
-* 320USD a year (quite uncompetitive compared to Digital Ocean) expiring in 2015-06-13
-* At least 50mbit/sec up and down for local traffic <http://www.gplhost.com/gplhost-network-singapore.html>
-* [Control panel](https://dtc.node6503.gplhost.com/dtc/)
-* [Nagios](https://github.com/Webconverger/nagios)
-
 ## Bandwidth
 
 150GB pcm quota, goto Monitoring to see current use.
@@ -79,7 +65,7 @@ This is likely to take on sg.webconverger.com since it's so much cheaper.
 
 Hosted with [Linode](https://www.linode.com/?r=59198f21b93910b67d8e1e4212a3135343941aae)
 
-* Debian 7 (wheezy)
+* Debian 7 (jessie)
 * Linode 2048
 * London, England, UK
 * 2676GB Quota
