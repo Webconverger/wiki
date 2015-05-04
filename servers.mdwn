@@ -51,16 +51,6 @@ Uses:
 * European mirror: <http://eu.download.webconverger.com/>
 * [filter.webconverger.com service](http://webconverger.org/blog/2014/Fine_grained_filtering/)
 
-# sgo.webconverger.com
-
-Another [Digital Ocean droplet](https://www.digitalocean.com/?refcode=37b3b1850b32), this time in Singapore (SGP1)
-
-Uses:
-
-* Asian mirror: <http://as.download.webconverger.com/>
-
-This is likely to take on sg.webconverger.com since it's so much cheaper.
-
 # uk.webconverger.com (gb)
 
 Hosted with [Linode](https://www.linode.com/?r=59198f21b93910b67d8e1e4212a3135343941aae)
