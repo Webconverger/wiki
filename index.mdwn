@@ -1,4 +1,4 @@
-# Opensource kiosk software to get you on the Open Web platform
+# Opensource kiosk software to get you onto the Open Web
 
 [Subscribe to the RSS feed](//webconverger.org/blog/index.rss) of the **[[blog]]** or view the [[blog/archives]]!
 
