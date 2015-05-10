@@ -1,5 +1,10 @@
 # Opensource kiosk software to get you onto the Open Web
 
+* x86 version Based on Debian stable & uses latest Firefox stable releases
+* [Rootfs in git](https://github.com/webconverger/webc) to roll out updates and keep transparent
+* [[Configuration API|API]] to manage deployments
+* Also available on [Raspberry PI2](https://github.com/Webconverger/rpi2) & [Android >= 5](https://github.com/Webconverger/android)
+
 [Subscribe to the RSS feed](//webconverger.org/blog/index.rss) of the **[[blog]]** or view the [[blog/archives]]!
 
 [[!inline  pages="blog/*/*" show="3" actions="no" feeds="no" archive="yes"]]
@@ -33,13 +38,9 @@
 * [[Testing_Webconverger|Testing]] - please join the Quality Assurance(QA) effort
 * [[Content_filtering|Filtering]] is achieved by simply disabling the address bar in most cases
 
-# Download Webconverger
+# Download daily builds of Webconverger
 
-This ISO-hybrid available for [download](http://dl.webconverger.com/latest.iso) can be treated as either a [[ISO]] or [[USB]] image
-
-# Hardware
-
-Webconverger works with **almost any standard x86 PC hardware** with at least 1G of RAM.
+* <http://build.webconverger.org/>
 
 # Configuration management is a commercial product
 
