@@ -1,4 +1,4 @@
-# Welcome to the Webconverger wiki
+# Opensource kiosk software to get you on the Open Web platform
 
 [Subscribe to the RSS feed](//webconverger.org/blog/index.rss) of the **[[blog]]** or view the [[blog/archives]]!
 

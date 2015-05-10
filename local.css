@@ -16,7 +16,15 @@ a:hover {
 	text-decoration: underline;
 }
 
-.notebox { width: auto; margin: 0; padding: 0; }
+.notebox { 
+	width: auto; margin: 0;  position: relative;
+	box-shadow: 0 0 2px #3C790A;
+	color: green;
+	background: #DDFFDD;
+	font-style: italic;
+	margin-left: 2em;
+	padding-left: 2em;
+}
 
 .pageheader {
 	margin: 0 0 0 0;
