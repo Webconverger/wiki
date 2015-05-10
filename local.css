@@ -91,17 +91,6 @@ h2 {
 h3, h4, h5, h6 {
 font-size: 110%; }
 
-ul{
-	margin-left: 40px;
-}
-
-li{
-	font-size: 14px;
-	margin: 0 0 5px 0;
-	line-height: 18px;
-
-}
-
 .feedbutton {
 	background: #339BB9;
 	color: #fff;
