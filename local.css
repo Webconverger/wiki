@@ -220,7 +220,7 @@ margin-bottom: 1em; }
 
 .inlinepage {
 	margin: .4em 0;
-	padding: .4em 0;
+	padding: 0.5em;
 	border-style: none;
 border-top: 0 solid gray; }
 
