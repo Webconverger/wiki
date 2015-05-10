@@ -18,11 +18,6 @@ html, body {
 
 .notebox { width: auto; margin: 0; padding: 0; }
 
-.page{
- 	width: 960px;
- 	margin: 0 auto;
- }
-
 .pageheader {
   margin: 0 0 0 0;
   padding: 10px 20px 10px 20px;
@@ -40,12 +35,6 @@ html, body {
 
 .pageheader .header {
   margin: 80px 0 0 0;
-}
-
-#content{
-	margin: 100px 0 0 0;
-	width: 960px;
-	padding:  0 15px;
 }
 
 .title {
@@ -190,10 +179,6 @@ pre {
   -moz-box-shadow: 0 0 2px #1a1a1a;
   -webkit-box-shadow: 0 0 2px #1a1a1a;
   box-shadow: 0 0 2px #1a1a1a; }
-
-#content, #comments, #footer {
-	margin: 0;
-}
 
 #content {
 	margin-bottom: 20px;
@@ -347,3 +332,10 @@ tr:nth-child(even) {
 .actions { opacity: 0 }
 
 .actions:hover { opacity: 1 }
+
+
+@media (min-width: 1200px) {
+  #content {
+    width: 970px;
+  }
+}
