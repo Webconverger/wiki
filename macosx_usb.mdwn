@@ -48,3 +48,5 @@ it's doing nothing. Wait until it displays the transfer message.
 
 Finally **step 8** Run `diskutil eject /dev/diskN` and remove your flash media when
 the command completes.
+
+Related: [Video demonstrating how to test Webconverger using a Macbook Pro](https://www.youtube.com/watch?v=1kfIda2oJjo)
