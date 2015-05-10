@@ -27,7 +27,7 @@ a:hover {
 }
 
 .pageheader {
-	margin: 0 0 0 0;
+	margin: 0;
 	padding: 10px 20px 10px 20px;
 	position: relative;
 	overflow: hidden;
@@ -35,9 +35,7 @@ a:hover {
 	height: auto;
 	border-width: 0;
 	background: url("https://webconverger.com/img/logo.svg") no-repeat;
-	background-size: 80% 40%;
-	background-position:  15px 15px;
-	background-color: none;
+	background-size: 25% auto;
 	border-bottom: 1px solid #E5E5E5;
 }
 
