@@ -28,7 +28,9 @@ You can verify this works by visiting <http://popuptest.com/popuptest4.html> or
 by examining the whitelist using `chrome=debug` in
 Edit→Preferences→Content→Exceptions.
 
-Webconverger's `prefs=` [[API]] uses Autoconfig files.
+# More on "Netscape Mission Control Desktop" aka Firefox's autoconfig
+
+Webconverger's `prefs=` [[API]] uses **autoconfig** files.
 
 * <http://mike.kaply.com/2012/03/16/customizing-firefox-autoconfig-files/>
 * <http://mike.kaply.com/2012/03/22/customizing-firefox-advanced-autoconfig-files/>
