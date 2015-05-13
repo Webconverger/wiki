@@ -1,5 +1,3 @@
-Note: [hostperm.1](http://kb.mozillazine.org/Hostperm.1) is DEPRECATED.
-
 The explicit need to allow popups is for homepages that are frankly poorly
 engineered to use popups as an interaction model. Popups in Webconverger are
 configured to forcefully open as new tabs.
@@ -29,14 +27,6 @@ issue commands that add <http://popuptest.com> into a popup whitelist.
 You can verify this works by visiting <http://popuptest.com/popuptest4.html> or
 by examining the whitelist using `chrome=debug` in
 Edit→Preferences→Content→Exceptions.
-
-# On SSL warnings (historic)
-
-To deal with SSL warnings in Firefox, please view the [preferences set by the
-Webconverger
-extension](https://github.com/Webconverger/iceweasel-webconverger/blob/master/defaults/preferences/prefs.js#L30).
-
-# More on "Netscape Mission Control Desktop" aka Firefox's autoconfig
 
 Webconverger's `prefs=` [[API]] uses Autoconfig files.
 
