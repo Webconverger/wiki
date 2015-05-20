@@ -15,6 +15,8 @@ will not have a "chrome", i.e. [[user interface options|kiosk]] is set to `chrom
 
 [Installation instructions](https://github.com/Webconverger/rpi2/blob/master/README.md)
 
+A >= 4GB microSD card is recommended.
+
 # [[API]] notes
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/K54BDqJcYsA?rel=0" frameborder="0" allowfullscreen></iframe>
@@ -62,3 +64,27 @@ HDMI negotiation only at boot.
 * [/etc/systemd/system/dpms.service](http://ix.io/hmV)
 
 Useful for saving power when no one is in the vicinity.
+
+# Wireless
+
+Here is an example configuration I use for testing:
+
+	boot_append=debug
+	homepage=https://google.com
+	wpa-ssid=SINGTEL-F726
+	wpa-psk=0011466534
+	instantupdate
+
+This is naively implemented at the bottom of
+<https://github.com/Webconverger/rpi2/blob/master/usr/bin/webc-config>. On rpi2
+your WEBCID will stay on the eth0's mac address.
+
+You need to have an initial wired internet setup to provision the wireless
+settings.
+
+# Debug mode
+
+Triggered with `boot_append=debug`. In debug mode [sshd is
+enabled](https://github.com/Webconverger/rpi2/commit/cf0c56b90549c26bf0ede1a54a8c2e30c1e82b37)
+and you can log in as root with the password **webconverger**.
+

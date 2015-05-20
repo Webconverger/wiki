@@ -21,10 +21,6 @@ This only works when `debug` is on the commandline.
 
 	chrome=debug
 
-# Setting root password
-
-<http://r2d2.webconverger.org/2013-03-15/setting-root-password-guide.html>
-
 # Remote logging
 
 Use the `log=` [[API]] and grab an account with [Papertrail](https://papertrailapp.com/?thank=97e900) for a nice Web interface
@@ -37,7 +33,7 @@ This will not work if `noescape` is being used beforehand.
 
 # Doing compiles
 
-You need to remove `/etc/dpkg/dpkg.cfg.d/exclude-files` to get your headers, before installing `build-essential` et al.
+You may need to remove `/etc/dpkg/dpkg.cfg.d/exclude-files` to get your headers, before installing `build-essential` et al.
 
 # Pastebin
 
@@ -48,9 +44,7 @@ As the root _super-user_ `sudo -i`, utilise the `p` tool to paste you logs into.
 
 # Describing the video hardware
 
-TODO: Somehow automate this?
-
-<http://r2d2.webconverger.org/2012-11-19/graphics-cards.html>
+Basically all we need is the Xorg file which we can get via `support`.
 
 # Disable upgrades
 
@@ -73,7 +67,7 @@ Putting at the top of your script
 
 Creates a complete log file in /tmp
 
-# Taking a screenshot
+# Taking a screenshot on a non-virtualised system
 
 Boot with `debug` in cmdline and as root `sudo -i`.
 
