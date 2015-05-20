@@ -6,6 +6,8 @@ of the [dwm](http://dwm.suckless.org/tutorial) window manager.
 * [Screencast using Virtualbox and editing syslinux](http://youtu.be/vpAJybQrbjc)
 * [Debug example of the Live version](http://r2d2.webconverger.org/2012-11-05/debug.html)
 
+<img src=/img/debug-mode.jpg alt="dwm's statusbar in debug mode">
+
 # Getting a terminal
 Once X is booted, press [shift+alt+enter together](http://dwm.suckless.org/tutorial) to make [dwm](http://dwm.suckless.org/) (the window manager) launch a terminal emulator.
 
