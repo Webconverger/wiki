@@ -28,4 +28,9 @@ this release includes the latest [Firefox
 38](https://www.mozilla.org/en-US/firefox/38.0/releasenotes/) at time of
 writing.
 
+[[Many thanks|acknowledgements]] to [Matthijs
+Kooijman](https://github.com/matthijskooijman) &
+[Bizplay](http://www.bizplay.com/en/) for helping realise this "no meat feat"
+of a release.
+
 Notice a problem? Please let us know!
