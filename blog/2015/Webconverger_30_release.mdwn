@@ -1,0 +1,31 @@
+As [announced on
+twitter](https://twitter.com/webconverger/status/595525589861277697) earlier
+this month, we achieved a significant technical accomplishment for Debian based
+derivatives doing the dreaded dist-upgrade.
+
+**A seamless upgrade**. No config changes. No hoop jumping. No sweat. If you
+are running [the install
+version](https://webconverger.com/faq/#what-do-you-mean-by-live-version-and-install-version)
+that upgrades itself, you will now be based on Debian Jessie. The new "stable"
+major [release of the underlying open Debian
+platform](https://wiki.debian.org/DebianReleases) for Firefox that will be the
+basis for Webconverger for the next 3 years.
+
+So we skipped version 29 and **30** marks the fact that we are on Debian Jessie
+8.0. Hopefully the only difference you will notice is that this new release
+should **run a bit better on newer hardware**. There is an unfortunate caveat
+that if you are using a [486 kernel based Webconverger, your upgrade will not
+go smoothly](https://twitter.com/webconverger/status/597244298707501056). We
+noticed that most people using the 486 kernel were doing so mistakenly and
+we've asked the _very few people that are affected_, to please simply
+re-install with any version since 25. Usually you will find your machine to run
+better, since it's taking advantage of 686 multicore architecture. So yes, we
+are dropping 486 support.
+
+The [detailed changelog between 28.0 and
+30.0](https://github.com/webconverger/webc/compare/28.0...30.0) and of course
+this release includes the latest [Firefox
+38](https://www.mozilla.org/en-US/firefox/38.0/releasenotes/) at time of
+writing.
+
+Notice a problem? Please let us know!
