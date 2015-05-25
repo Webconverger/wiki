@@ -36,5 +36,5 @@ of a release.
 Notice a problem? Please let us know! Please [download the new release from our
 CDN](http://dl.webconverger.com/latest.iso) and the sha1sum is
 9db8fb19bf63ab5d6b770f493bff825110d295c8. The [webc-30.0 package
-list](http://webconverger.org/blog/2015/webc-30.0.txt) will show every package
+list](https://webconverger.org/static/2015/webc-30.0.txt) will show every package
 as being updated.
