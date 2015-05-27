@@ -88,3 +88,20 @@ Triggered with `boot_append=debug`. In debug mode [sshd is
 enabled](https://github.com/Webconverger/rpi2/blob/master/etc/systemd/system/sshd.service.d/override.conf)
 and you can log in as root with the password **webconverger**.
 
+# TODO design shell API
+
+Maybe:
+
+	shell=https://example.com/script.sh
+
+Which downloads and executes the script. Analogous to `curl https://example.com/script.sh | sh` anti-pattern.
+
+But, how to make it idempotent? And not damage the system?
+
+A general API is needed for:
+
+* Copying in [style.css](http://s.natalian.org/2015-05-27/style.css) into ~/.surf/style.css for overriding style
+* For downloading service files and enabling / starting them
+* For downloading and setting `~/.surf/cookies.txt` in advance
+* For tweaking wpa_supplicant@wlan0.service with [wext](https://wiki.archlinux.org/index.php/WPA_supplicant) for older wlan interfaces
+* For overriding SSL warnings or preloading internal SSLs

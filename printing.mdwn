@@ -141,3 +141,5 @@ Assuming you are running a Virtualbox instance, sharing a bridged adaptor. On th
 	wireshark -r /tmp/foo.pcap
 
 `lpstat -t` is a good way to list CUPS printers to see how they are configured on a running Webconverger system.
+
+Use `cups-bsd` to spool a job from the command line using `lpr`.
