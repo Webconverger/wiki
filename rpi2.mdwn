@@ -61,7 +61,8 @@ HDMI negotiation only at boot.
 
 [Video showing the possibilities of hardware motion detector integration](https://youtu.be/O0jdE7A-vbg?list=PLECEw2eFfW7hYMucZmsrryV_9nIc485P1&t=3721)
 
-* [/etc/systemd/system/dpms.service](http://ix.io/hmV)
+* [/etc/systemd/system/dpms.service](http://ix.io/iSq)
+* [/root/dpms.sh](http://ix.io/iSp)
 
 Useful for saving power when no one is in the vicinity.
 
@@ -86,17 +87,20 @@ settings.
 
 Triggered with `boot_append=debug`. In debug mode [sshd is
 enabled](https://github.com/Webconverger/rpi2/blob/master/etc/systemd/system/sshd.service.d/override.conf)
-and you can log in as root with the password **webconverger**.
+and you can log in with a ssh public configured like so `ssh=http://hendry.iki.fi/hendry.pub`.
 
-# TODO design shell API
+# Experimental shell API
 
-Maybe:
+Implemented initially in [d8f49300bfbdef094e485a610f2a39ed75a1e7b6](https://github.com/Webconverger/rpi2/commit/d8f49300bfbdef094e485a610f2a39ed75a1e7b6)
 
-	shell=https://example.com/script.sh
+	shell=http://shell.dabase.com/hello.sh
 
-Which downloads and executes the script. Analogous to `curl https://example.com/script.sh | sh` anti-pattern.
+Which downloads and executes the script. Analogous to `curl https://example.com/script.sh | sh` "anti-pattern".
 
-But, how to make it idempotent? And not damage the system?
+Q: How to make it idempotent? A: Checksum it and make sure it isn't run twice, by looking for its log.
+Q: And not damage the system? A: No easy answer except for logging changed files with `git status`.
+
+For example, the log for `shell=http://shell.dabase.com/hello.sh` is [/var/log/4316d2b290540618c54fd1c9e082b6ecf441f8e8](http://ix.io/iSr)
 
 A general API is needed for:
 
