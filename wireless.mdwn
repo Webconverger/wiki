@@ -2,7 +2,7 @@
 
 # Wireless
 
-<iframe width="560" height="315" src="http://www.youtube.com/embed/agqShJxROaU" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/agqShJxROaU" frameborder="0" allowfullscreen></iframe>
 
 Note only the subscribed "install version" of Webconverger can persistently
 keep your wireless configuration between reboots.
