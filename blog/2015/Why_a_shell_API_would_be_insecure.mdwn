@@ -102,8 +102,8 @@ to be easily restored. However the client would need to be rebooted.
 ## Browser sessions are not cleared between users
 
 The "noclean" API means that Webconverger would not delete the `~/.mozilla`
-directory between sessions. This could jeopardise users privacy local to the
-machine, as cookies etc would be shared amongst sessions. Again, once this
+directory between sessions. This could jeopardise users privacy _local to the
+machine_, as cookies etc would be shared amongst sessions. Again, once this
 discovered, it is very quickly rectified by effectively a reboot.
 
 Our current API design served by <https://config.webconverger.com/> would score:
@@ -113,13 +113,15 @@ Our current API design served by <https://config.webconverger.com/> would score:
 * The worst possible case is `noclean` mode, described above, which isn't nearly as bad as `shell=` potential of having root access
 * Worst possible case with config.webconverger.com, the machine would require a **manual reboot**
 
+## Wait... what if the upgrade mechanism got compromised?
+
 Now it's probably worth mentioning the elephant in the room. What happens if
 <https://github.com/webconverger/webc> got compromised? The impact could be
 very bad (root), however note that upgrades only happen at boot with install
 versions. So there is a natural delay. Next the speed in which we can detect
 and fix a piece of malicious code injected into our repository should be VERY
 QUICK. <https://github.com/Webconverger/webc/commits/master> is **closely
-watched**.  Finally the worst possible outcome for a client is a re-install.
+watched**. Finally the worst possible outcome for a client is a re-install.
 
 # Keeping to the current slow API design
 
