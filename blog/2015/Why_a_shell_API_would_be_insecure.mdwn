@@ -9,7 +9,7 @@ For example:
 
 	shell=https://example.com/hello.sh
 
-Which downloads and executes the script. Analogous to `curl https://example.sh | sh` "anti-pattern".
+Which downloads and executes the script. Analogous to `curl https://example.com/hello.sh | sh` "anti-pattern".
 
 The pro with the shell API is that we can now create scripts on the fly, and so
 could clients to toggle some functionality like:
@@ -99,28 +99,27 @@ of service. Again this can be mitigated quickly since
 **config.webconverger.com** is completely managed in source control is designed
 to be easily restored. However the client would need to be rebooted.
 
-## All machine go into "no clean" mode?
+## Browser sessions are not cleared between users
 
-"No clean" means that Webconverger won't delete the `~/.mozilla` directory
-between sessions. This could jeopardise users privacy, as cookies etc would be
-shared amongst sessions. Again, once this discovered, it is very quickly
-rectified by effectively a reboot.
+The "noclean" API means that Webconverger would not delete the `~/.mozilla`
+directory between sessions. This could jeopardise users privacy local to the
+machine, as cookies etc would be shared amongst sessions. Again, once this
+discovered, it is very quickly rectified by effectively a reboot.
 
-Our current API design would score:
+Our current API design served by <https://config.webconverger.com/> would score:
 
-1. Usually this would just require a reboot
-* We have a git log of all the configuration changes and we can tell
-* The worst possible case is `noclean` mode, described above
-* Worst possible case with config.webconverger.com, the machine would require a manual reboot
+1. Usually this would just require a reboot, but in the homepage= case with instantupdate, it could be quicker
+* We have a git log of all the configuration changes, so we can tell if something is amiss
+* The worst possible case is `noclean` mode, described above, which isn't nearly as bad as `shell=` potential of having root access
+* Worst possible case with config.webconverger.com, the machine would require a **manual reboot**
 
-It's probably worth mentioning the elephant in the room. What happens if
+Now it's probably worth mentioning the elephant in the room. What happens if
 <https://github.com/webconverger/webc> got compromised? The impact could be
-very bad (root), however it's worth noting that upgrades only happen at boot
-with install versions. So there is a natural delay. Next the speed in which we
-can detect and fix a piece of malicious code injected into our repository
-should be VERY QUICK. People watch
-<https://github.com/Webconverger/webc/commits/master>. Finally the worse
-possible outcome for a client is a re-install.
+very bad (root), however note that upgrades only happen at boot with install
+versions. So there is a natural delay. Next the speed in which we can detect
+and fix a piece of malicious code injected into our repository should be VERY
+QUICK. <https://github.com/Webconverger/webc/commits/master> is **closely
+watched**.  Finally the worst possible outcome for a client is a re-install.
 
 # Keeping to the current slow API design
 
@@ -130,5 +129,5 @@ limited, quickly and easily fixed by a reboot. The current [[security]] design
 is a LOT better than if the machine turned into a Zombie via a remote scripting
 interface like `shell=`!
 
-The con here is that you need to request every new feature and we need to
+The down side is that you need to request every new feature and we need to
 implement it as an [[API]]. It's more secure that way.
