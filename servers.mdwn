@@ -76,10 +76,6 @@ Hosted with [Linode](https://www.linode.com/?r=59198f21b93910b67d8e1e4212a313534
 
 On a bronze package at 25USD a month.
 
-# http://billing.webconverger.com/
-
-[Hiveage](http://www.hiveage.com/) 200USD a year on [promotion](http://www.hiveage.com/2014promo/)
-
 # SSL
 
 * [config.webconverger.com](https://www.ssllabs.com/ssltest/analyze.html?d=config.webconverger.com), expires Sat Apr 29 18:57:32 UTC 2017 

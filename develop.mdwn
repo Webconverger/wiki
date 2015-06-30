@@ -36,7 +36,7 @@ This is the developer supported way of building the Webconverger image.
 customise Webconverger any other way to avoid paying for the [configuration
 service](http://config.webconverger.com) that funds this project. Thank you!
 
-1. Download [live-build](http://packages.qa.debian.org/l/live-build.html) 4.x from Debian Stable. You may need extra packages like `xorriso`.
+1. Download [live-build](http://packages.qa.debian.org/l/live-build.html) 4.x from Debian Stable. You may need extra packages like `xorriso` and setup `ln -s /usr/lib/ISOLINUX/ /usr/share/`
 
 1. `git clone git://github.com/Webconverger/Debian-Live-config.git`
 1. `cd Debian-Live-config/webconverger/`
