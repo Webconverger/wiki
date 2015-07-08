@@ -1,7 +1,7 @@
 [[!meta title="Webconverger Limited's Terms and Conditions"]]
 
 The canonical location of Webconverger's Terms and Conditions is
-<http://webconverger.org/terms>.
+<https://webconverger.org/terms/>.
 
 It comes complete with a
 [changelog](http://source.webconverger-org.branchable.com/?p=source.git;a=history;f=terms.mdwn;hb=HEAD)

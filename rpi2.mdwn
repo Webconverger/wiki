@@ -91,21 +91,4 @@ and you can log in with a ssh public configured like so `ssh=http://hendry.iki.f
 
 # Experimental shell API
 
-Implemented initially in [d8f49300bfbdef094e485a610f2a39ed75a1e7b6](https://github.com/Webconverger/rpi2/commit/d8f49300bfbdef094e485a610f2a39ed75a1e7b6)
-
-	shell=http://shell.dabase.com/hello.sh
-
-Which downloads and executes the script. Analogous to `curl https://example.com/script.sh | sh` "anti-pattern".
-
-Q: How to make it idempotent? A: Checksum it and make sure it isn't run twice, by looking for its log.
-Q: And not damage the system? A: No easy answer except for logging changed files with `git status`.
-
-For example, the log for `shell=http://shell.dabase.com/hello.sh` is [/var/log/4316d2b290540618c54fd1c9e082b6ecf441f8e8](http://ix.io/iSr)
-
-A general API is needed for:
-
-* Copying in [style.css](http://s.natalian.org/2015-05-27/style.css) into ~/.surf/style.css for overriding style
-* For downloading service files and enabling / starting them
-* For downloading and setting `~/.surf/cookies.txt` in advance
-* For tweaking wpa_supplicant@wlan0.service with [wext](https://wiki.archlinux.org/index.php/WPA_supplicant) for older wlan interfaces
-* For overriding SSL warnings or preloading internal SSLs
+Removing the API because of [[blog/2015/Why_a_shell_API_would_be_insecure]].
