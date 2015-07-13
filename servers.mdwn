@@ -10,21 +10,10 @@ Webconverger averages ~[100 downloads a
 day](http://dl.webconverger.com/stats/) and the ISO file is about 400M. So we
 transfer about 40GB a day, or 1 Terabyte a month.
 
-## Bandwidth
-
-150GB pcm quota, goto Monitoring to see current use.
-
-Extra is 12 USD (plus paypal fee) for 200 GB, and 24 USD for 400 GB, working
-out to be **$0.06 per Gigabyte**. Half the cost of S3. However it's just for
-that month! So it doesn't scale well at all.
-
-Note that VPS will only turn off when you reach 120% of the allowed traffic.
-
 # na.download.webconverger.com
 
 webconverger.com hosted by [Dreamhost](http://www.dreamhost.com/r.cgi?104617)
-in California - 120USD (~75GBP) a year responsible for archives, backups and
-serving <http://webconverger.com>
+in California - 120USD (~75GBP) a year responsible for archives and backups.
 
 # webconverger.com
 
@@ -47,7 +36,7 @@ A bottom of the range [Digital Ocean droplet](https://www.digitalocean.com/?refc
 
 Uses:
 
-* <http://config.webconverger.com>, synchronised by a Github Webhook, used as a [secondary failover](http://s.natalian.org/2014-04-21/1398064783_1364x748.png) using [AWS Route 53](https://console.aws.amazon.com/route53/home)
+* <https://config.webconverger.com>, synchronised by a Github Webhook, used as a [secondary failover](http://s.natalian.org/2014-04-21/1398064783_1364x748.png) using [AWS Route 53](https://console.aws.amazon.com/route53/home)
 * European mirror: <http://eu.download.webconverger.com/>
 * [filter.webconverger.com service](http://webconverger.org/blog/2014/Fine_grained_filtering/)
 
@@ -60,7 +49,7 @@ Hosted with [Linode](https://www.linode.com/?r=59198f21b93910b67d8e1e4212a313534
 * London, England, UK
 * 2676GB Quota
 * 20USD pcm
-* [Configuration service](http://config.webconverger.com)
+* [Configuration service](https://config.webconverger.com)
 * [Support service](http://support.webconverger.com/)
 * [Download service](http://dl.webconverger.com/), [source code](https://github.com/Webconverger/dl/)
 * [Ping/Statistics service](http://ping.webconverger.org)
@@ -68,7 +57,7 @@ Hosted with [Linode](https://www.linode.com/?r=59198f21b93910b67d8e1e4212a313534
 
 # webconverger.org
 
-<http://webconverger.org> is expertly curated by <http://www.branchable.com> for the public wiki.
+<https://webconverger.org> is expertly curated by <http://www.branchable.com> for the public wiki.
 
 ~60USD a year
 
@@ -81,9 +70,14 @@ On a bronze package at 25USD a month.
 * [config.webconverger.com](https://www.ssllabs.com/ssltest/analyze.html?d=config.webconverger.com), expires Sat Apr 29 18:57:32 UTC 2017 
 * <https://webconverger.com> - [Comodo POSITIVESSL via Namecheap.com](https://manage.www.namecheap.com/myaccount/ssl-list.asp) - Expiry 09/29/2016
 * <https://webconverger.org> - [Comodo POSITIVESSL via Namecheap.com](https://manage.www.namecheap.com/myaccount/ssl-list.asp) - Expiry 10/08/2016
+* <https://wss.webconverger.com> - bought with <https://sslmate.com/>:
 
-TODO: Look into switching <https://sslmate.com/>
+	X1C3:~$ sslmate list
+	Name                  Type  Status  Expiration  Local Status
+	------------------------------------------------------------
+	wss.webconverger.com  DV    Active  2016-04-09  None
+
 
 # Email
 
-Hosted with [FastMail.fm at 90USD a year](http://s.natalian.org/2014-12-16/1418701222_1364x748.png) with 1 basic & 1 professional account.
+Hosted with [FastMail.fm at 90USD a year](http://www.fastmail.com/?STKI=11542869) with 1 basic & 1 professional account.
