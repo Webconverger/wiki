@@ -221,6 +221,7 @@ Examples:
 * prefs=http://prefs.webconverger.com/2015/safe.js - force Google to provide a safe search result
 * prefs=http://prefs.webconverger.com/2015/disable-pdfjs.js - disable pdfjs in favour of native PDF viewer
 * prefs=http://prefs.webconverger.com/2015/chromebook.js - override user agent string
+* prefs=http://prefs.webconverger.com/2015/click-to-play.js - Opt into [[flash|adobe]]
 
 Please look for further usage examples in [[printing]] and
 [[allowing_popups|blog/entry/Popups_and_SSL_warnings]].

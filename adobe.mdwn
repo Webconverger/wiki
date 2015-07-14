@@ -8,6 +8,8 @@ Despite [Flash](http://www.adobe.com/products/flash/) being non-free, having a
 poor security track record and not supportive of [Web
 standards](http://www.whatwg.org/).
 
+To opt into flash, append `prefs=http://prefs.webconverger.com/2015/click-to-play.js` to your configuration.
+
 ## Developer notes
 
 We download Flash updates from <http://get.adobe.com/flashplayer/otherversions/>.
