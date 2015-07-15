@@ -16,7 +16,7 @@ So if you are a content creator, **please** move to HTML5 video.  I have
 quickly made a [Web tool to help create HTML5 video](http://o.dabase.com/).
 
 Webconverger's HTML5 video playback is far more stable and faster than Flash on
-cheap netbooks. Yes, I'm aware [Youtube](http://www.youtube.com/) is being a
+cheap netbooks. Yes, I'm aware [Youtube](https://www.youtube.com/) is being a
 little bit daft by UA sniffing.
 
 Otherwise, do [download](http://download.webconverger.org/) and enjoy this new feature release of Webconverger and please [report

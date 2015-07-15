@@ -1,7 +1,7 @@
 <a href="http://www.flickr.com/photos/dittaeva/7160672906/" title="Webconverger as tourist information by Guttorm Flatabø, on Flickr"><img src="http://farm8.staticflickr.com/7105/7160672906_6ae16dc491.jpg" width="500" height="301" alt="Webconverger as tourist information"></a>
 
 As [Linux Torvalds
-says](http://www.youtube.com/watch?feature=player_detailpage&v=MShbP3OpASA#t=1492s),
+says](https://www.youtube.com/watch?feature=player_detailpage&v=MShbP3OpASA#t=1492s),
 "Linux on the Desktop", aka Linux on PCs is hard to crack since machines are
 not pre-installed with it.
 
@@ -11,7 +11,7 @@ designed for public kiosk applications.
 It's hard enough for folks to simply ready a [[USB]] stick with Webconverger.
 Despite [third parties who offer USB keys with
 Webconverger](http://www.osdisc.com/cgi-bin/view.cgi/products/linux/webconverger)
-and our great [tutorial videos](http://www.youtube.com/webconverger/)
+and our great [tutorial videos](https://www.youtube.com/webconverger/)
 to guide you.
 
 The PC vendors need to wake up and innovate. PC hardware innovation compared to

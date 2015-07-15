@@ -1,4 +1,4 @@
-<iframe width="560" height="315" src="http://www.youtube.com/embed/nla5SsWCSyQ" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/nla5SsWCSyQ" frameborder="0" allowfullscreen></iframe>
 
 For want of a better place, I thought it would be prude to outline our ".COM"
 business activities on the ".ORG" blog.

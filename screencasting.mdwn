@@ -1,6 +1,6 @@
 [[!meta title="Screen casting" ]]
 
-For <http://www.youtube.com/webconverger/> we've made a couple of videos to
+For <https://www.youtube.com/webconverger/> we've made a couple of videos to
 show users around Webconverger.
 
 <a href="http://www.flickr.com/photos/hendry/7272704214/" title="Tripod with Iphone mount by Kai Hendry, on Flickr"><img src="http://farm8.staticflickr.com/7102/7272704214_402ce1f037.jpg" width="500" height="375" alt="Tripof with Iphone mount"></a>

@@ -1,6 +1,6 @@
 [[!meta title="Internationalization and localization"]]
 
-<iframe width="560" height="315" src="http://www.youtube.com/embed/n25THKbzSfg" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/n25THKbzSfg" frameborder="0" allowfullscreen></iframe>
 
 We have excellent support for European languages and we will (re)address <abbr
 title="Chinese, Japanese &amp; Korean">CJK</abbr> requirements given the demand

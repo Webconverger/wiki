@@ -9,7 +9,7 @@
 * ttf-liberation fonts are back to improve compatibility with Windows renderings
 
 In other news we are [working on a Webconverger Raspberry PI
-port](http://www.youtube.com/watch?v=3SJb9RESlaY), FINALLY! With the caveat
+port](https://www.youtube.com/watch?v=3SJb9RESlaY), FINALLY! With the caveat
 that it will only be used in <a href="http://neon.webconverger.com/">Web
 signage use cases (Neon!)</a> and not as a kiosk browsing machine. We were
 recently [interviewed about
