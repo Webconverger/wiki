@@ -2,17 +2,17 @@
 
 In no order as yet:
 
-Wyemun Chin, Juanita Sabapathy, Benjamin Joffe, Peng Huang, Andreas Beckmann, Paul Craig,
-Dominique Goncalves, Paddy Byers, Koen Roggemans, Patrick Haller, Matthijs
-Kooijman, Mike Kaply, Stewart Willis, François Audirac, Andrei Popescu, Petter
-Reinholdtsen, Ben Armstrong, Guttorm Flatabø, Teemu Hukkanen, Jamie Kitson,
-Larry Dockery, Nicolas Spalinger, Daniel Glassey, Eric Dorland, Otavio
-Salvador, Heike Jurzik, Mike Hommey, Anselm Garbe, Alexis Hildebrandt, Chris
-Lamb, Christophe DAVID, Marcel Bensch, Henri David, Paul Sander Langeslag,
-Daniel Baumann, the Debian community, Ian Hickson, Tom Pike, Allan Clements,
-Phil Waring, Henri Sivonen, Kimmo Heinäaro, Jure Cuhalev, Thomas Park, Antoine
-Delaunay, Marco Amadori, Ruth Chong, Joose Vettenranta, in fact the entire
-country of Finland and for everyone who provided feedback.
+Anant Shrivastava, Wyemun Chin, Juanita Sabapathy, Benjamin Joffe, Peng Huang,
+Andreas Beckmann, Paul Craig, Dominique Goncalves, Paddy Byers, Koen Roggemans,
+Patrick Haller, Matthijs Kooijman, Mike Kaply, Stewart Willis, François
+Audirac, Andrei Popescu, Petter Reinholdtsen, Ben Armstrong, Guttorm Flatabø,
+Teemu Hukkanen, Jamie Kitson, Larry Dockery, Nicolas Spalinger, Daniel Glassey,
+Eric Dorland, Otavio Salvador, Heike Jurzik, Mike Hommey, Anselm Garbe, Alexis
+Hildebrandt, Chris Lamb, Christophe DAVID, Marcel Bensch, Henri David, Paul
+Sander Langeslag, Daniel Baumann, the Debian community, Ian Hickson, Tom Pike,
+Allan Clements, Phil Waring, Henri Sivonen, Kimmo Heinäaro, Jure Cuhalev,
+Thomas Park, Antoine Delaunay, Marco Amadori, Ruth Chong, Joose Vettenranta, in
+fact the entire country of Finland and for everyone who provided feedback.
 
 The 2012/2014 teal CSS design is designed by [Patric
 Schwarz](http://www.bureauschwarz.de). <http://webconverger.org/> is
