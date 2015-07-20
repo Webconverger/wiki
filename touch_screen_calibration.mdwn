@@ -1,6 +1,8 @@
 [[!meta title="Webconverger touch screen calibration" ]]
 
-Update: Please consider using Android instead for touch screen experiences: <https://webconverger.com/faq/#does-webconverger-support-touch-screens>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/OGoqzQtD4kg" frameborder="0" allowfullscreen></iframe>
+
+If you use a **eGalax (eeti) device**, please contact sales since that requires a special driver that we cannot distribute normally.
 
 1. Boot a [Live Linux Ubuntu](http://www.ubuntu.com/download)
 2. Make sure your machine is connected to the internet (LAN)
