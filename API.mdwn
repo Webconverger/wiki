@@ -264,3 +264,9 @@ Screencast: <http://youtu.be/eh6u6Bmjnu8>
 ### Can I turn off the Webconverger brand mark?
 
 Please see [[artwork]].
+
+# Hiding the cursor
+
+Add to your configuration:
+
+	hidecursor
