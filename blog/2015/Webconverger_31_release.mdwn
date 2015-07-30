@@ -11,7 +11,7 @@ Two months ago was our momentous Jessie based [[Webconverger_30_release]] and si
 
 # What next?
 
-We could really do wtth your feedback, help & support on a couple of goals for
+We could really do with your feedback, help & support on a couple of goals for
 the next release:
 
 * [Making wireless setups easier](https://github.com/Webconverger/webc/issues/221)
