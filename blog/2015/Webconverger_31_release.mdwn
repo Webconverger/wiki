@@ -1,0 +1,35 @@
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Scn2Z8wBkqs" frameborder="0" allowfullscreen></iframe>
+
+Two months ago was our momentous Jessie based [[Webconverger_30_release]] and since then we've:
+
+* Fixed an issue with printing
+* Pushed [Firefox 39](https://www.mozilla.org/en-US/firefox/39.0/releasenotes/)
+* Further locked down some new Mozilla anti-features like [social services, pocket and hello URLs](https://github.com/Webconverger/webconverger-addon/issues?q=is%3Aissue+is%3Aclosed)
+* Received a fantastic endorsement from the (Internet) famous security pundit [SwiftOnSecurity](https://twitter.com/SwiftOnSecurity/status/620647975329468416)
+
+<https://github.com/webconverger/webc/compare/30.0...31.0> for details
+
+# What next?
+
+We could really do your feedback, help & support on a couple of goals for the next release:
+
+* [Making wireless setups easier](https://github.com/Webconverger/webc/issues/221)
+* [Improve boot times](https://github.com/Webconverger/webc/issues/220)
+* Perhaps... work on efficient sharing a single machine with [multiseat](https://www.youtube.com/watch?v=_Tp3P3qxdxU) is there is a demand for it!
+
+If you can't code or have the time to, **please** [purchase a subscription](https://webconverger.com/pricing/)!
+
+# Other hardware news
+
+Managed to integrate the EETI eGalaxTouch driver for some models of resistive
+touchscreens.  It works well as your can see by this [touch screen demo
+video](https://www.youtube.com/watch?v=OGoqzQtD4kg) and it's typically deployed
+in Point of Sales in retail. Unfortunately the driver is in a private branch
+since the End User of License is very limited and a good case study of how not
+to write a license.  Please enquire to know more.
+
+Recently obtained a ~130 USD [Intel NUC
+NUC5CPYH](http://www.amazon.com/gp/product/B00XPVRR5M/) and it works well as
+our single take [NUC video](https://www.youtube.com/watch?v=Scn2Z8wBkqs) shows.
+We have recommended this form factor before [[blog/2014/New_NUCs]] and
+thankfully they are getting better and **cheaper**.
