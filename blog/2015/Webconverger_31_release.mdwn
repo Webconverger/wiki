@@ -31,5 +31,5 @@ to write a license.  Please enquire to know more.
 Recently obtained a ~130 USD [Intel NUC
 NUC5CPYH](http://www.amazon.com/gp/product/B00XPVRR5M/) and it works well as
 our single take [NUC video](https://www.youtube.com/watch?v=Scn2Z8wBkqs) shows.
-We have recommended [[this neat form factor|blog/2014/New_NUCs]] before and
+We have recommended [[this neat PC form factor before|blog/2014/New_NUCs]] and
 thankfully they are getting better and **cheaper**.
