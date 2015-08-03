@@ -2,7 +2,7 @@ Webconverger's main competitor especially in the K12 school (assessments)
 market is Google with their Google Chrome OS aka Chrome{books,box} product,
 which is typically sold as a hardware and software bundle.
 
-It's high time to post at update on a 4 year old
+It's high time to post an update on a 6 year old
 [[blog/entry/Comparing_Google_Chrome_OS]] blog, which demonstrated that we had
 support for inexpensive [Netbook
 category](https://en.wikipedia.org/wiki/Netbook) of PCs and speculated what
@@ -49,10 +49,10 @@ hardware and subsidise it accordingly. For example a Chromebook at 250USD is a
 good price, though you need to remember you are effectively locked to running
 Google software on that hardware, limiting your choice.
 
-Webconverger does not design hardware. We mainly focus on supplying software
-that will run on any PC. This broadens your hardware choice and software
-choices too. Have old PC stock you want to deploy Webconverger to? No problem.
-What to run in Virtualbox? No problem with Webconverger.
+Webconverger does not design hardware. We focus on supplying software that will
+run on any PC. This broadens your hardware choice and software choices too.
+Have old PC stock you want to deploy Webconverger to? No problem.  What to run
+in Virtualbox? No problem with Webconverger.
 
 # Google's Embrace, extend and extinguish... via extensions
 
