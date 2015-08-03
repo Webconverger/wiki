@@ -1,9 +1,10 @@
 Webconverger's main competitor especially in the K12 school (assessments)
 market is Google with their Google Chrome OS aka Chrome{books,box} product,
-which is typically as a hardware and software bundle.
+which is typically sold as a hardware and software bundle.
 
-It's high time to post at update on an awful 4 year old
-[[blog/entry/Comparing_Google_Chrome_OS]] blog!
+It's high time to post at update on a 4 year old
+[[blog/entry/Comparing_Google_Chrome_OS]] blog, which demonstrated that we
+support inexpensive [Netbook category](https://en.wikipedia.org/wiki/Netbook).
 
 To summarise; the main advantages that Webconverger has over Google are:
 * Simpler, less is more. Less training. Less things to understand.
@@ -31,7 +32,7 @@ they charge 150USD whilst [we charge
 <img src=/img/chromeos-pricing-2015.png alt="ChromeOS pricing 2015">
 </a>
 
-ChromeOS perpetual Licenses seem analogous to our **One off subscriptions**. Like us they
+ChromeOS's perpetual Licenses seem analogous to our **One off subscriptions**. Like us they
 also do [annual
 subscriptions](https://support.google.com/chrome/a/answer/2717664?hl=en), but
 oddly limited to North America. They charge [50USD per year](https://shop.promevo.com/index.php/google-chrome-management-console-business-annual-renew.html) and [we currently charge 100USD](https://webconverger.com/pricing/).
@@ -45,7 +46,7 @@ hardware and subsidise it accordingly. For example a Chromebook at 250USD is a
 good price, though you need to remember you are effectively locked to running
 Google software on that hardware, limiting your choice.
 
-Webconverger doesn't design hardware. We mainly focus on supplying software
+Webconverger does not design hardware. We mainly focus on supplying software
 that will run on any PC. This broadens your hardware choice and software
 choices too. Have old PC stock you want to deploy Webconverger to? No problem.
 What to run in Virtualbox? No problem with Webconverger.
@@ -74,11 +75,12 @@ workload.
 
 # What is the price of freedom?
 
-We do currently charge a little bit more for our software. However testing one
-machine without configuration management is typically free of cost. We want to
-attract large deployments. Deployments where choice, privacy and
+We do currently charge a little bit more for our software. However running
+unconfigured or testing one machine without configuration management is **free
+of cost**. As a business supporting an opensource product, we want to attract
+and invoice large deployments. Deployments where choice, privacy and
 [openness](https://github.com/Webconverger/webc/commits/master) about the way
-their clients interact with the Web is important. They choose Webconverger.
+their clients interact with the Web are important. They choose Webconverger.
 
 Please contact <a href=mailto:sales@webconverger.com>sales</a> for a
 competitive quote.
