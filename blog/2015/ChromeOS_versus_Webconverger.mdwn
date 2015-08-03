@@ -82,7 +82,7 @@ unconfigured or testing one machine without configuration management is **free
 of cost**. As a business supporting an opensource product, we want to attract
 and invoice large deployments. Deployments where choice, privacy and
 [openness](https://github.com/Webconverger/webc/commits/master) about the way
-their clients interact with the Web are important. They choose Webconverger.
+their clients get on the the Web are important. They choose Webconverger.
 
 Please contact <a href=mailto:sales@webconverger.com>sales</a> for a
 competitive quote.
