@@ -9,6 +9,7 @@ category](https://en.wikipedia.org/wiki/Netbook) of PCs and speculated what
 Google would do. Four years later and Google are domineering.
 
 To summarise; the main advantages that Webconverger has over Google are:
+
 * Simpler, less is more. Less training. Less things to understand.
 * Less lockin. [Google Cloud Print](https://en.wikipedia.org/wiki/Google_Cloud_Print), specific hardware, (App) extensions & other office related services upsell... these are all proprietary ways for Google to lock you into their solution
 * We don't try to own your users, we don't ask users to login or register!
