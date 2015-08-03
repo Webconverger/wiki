@@ -6,7 +6,7 @@ It's high time to post an update on a 6 year old
 [[blog/entry/Comparing_Google_Chrome_OS]] blog, which demonstrated that we had
 support for inexpensive [Netbook
 category](https://en.wikipedia.org/wiki/Netbook) of PCs and speculated what
-Google would do. Four years later and Google are domineering.
+Google would do. Six years later and Google are domineering.
 
 To summarise; the main advantages that Webconverger has over Google are:
 
