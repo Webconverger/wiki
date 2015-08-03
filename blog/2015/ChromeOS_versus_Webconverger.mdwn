@@ -1,0 +1,84 @@
+Webconverger's main competitor especially in the K12 school (assessments)
+market is Google with their Google Chrome OS aka Chrome{books,box} product,
+which is typically as a hardware and software bundle.
+
+It's high time to post at update on an awful 4 year old
+[[blog/entry/Comparing_Google_Chrome_OS]] blog!
+
+To summarise; the main advantages that Webconverger has over Google are:
+* Simpler, less is more. Less training. Less things to understand.
+* Less lockin. [Google Cloud Print](https://en.wikipedia.org/wiki/Google_Cloud_Print), specific hardware, (App) extensions & other office related services upsell... these are all proprietary ways for Google to lock you into their solution
+* We don't try to own your users, we don't ask users to login or register!
+
+# The products are comparable
+
+Webconverger actually started before Google did, in 2007:
+
+* [Chrome for kiosks](https://www.google.com/work/chrome/devices/for-kiosks/index.html) like regular Webconverger
+* [Chrome for signage](https://www.google.com/work/chrome/devices/for-signage/index.html#cmc-module) like [Webconverger Neon](http://neon.webconverger.com/)
+* The [Chrome management console](https://www.google.com/work/chrome/management-console/index.html) is analoguous to Webconverger's <https://config.webconverger.com/> and [[API]].
+
+# Pricing
+
+Google recently became somewhat transparent with their
+[pricing](https://www.google.com/intl/en_sg/chrome/business/devices/pricing.html).
+We too offer discounts, and based upon their resellers [perpetual license
+page](https://shop.promevo.com/index.php/chrome-management-console/management-console-business.html)
+they charge 150USD whilst [we charge
+200USD](https://webconverger.com/pricing/).
+
+<a href=https://www.google.com/intl/en_sg/chrome/business/devices/pricing.html>
+<img src=/img/chromeos-pricing-2015.png alt="ChromeOS pricing 2015">
+</a>
+
+ChromeOS perpetual Licenses seem analogous to our **One off subscriptions**. Like us they
+also do [annual
+subscriptions](https://support.google.com/chrome/a/answer/2717664?hl=en), but
+oddly limited to North America. They charge [50USD per year](https://shop.promevo.com/index.php/google-chrome-management-console-business-annual-renew.html) and [we currently charge 100USD](https://webconverger.com/pricing/).
+
+We want to be competitive, so do please ask <a href=mailto:sales@webconverger.com>sales</a> for a quote to beat.
+
+# Hardware
+
+The hardware is difficult to directly compare since they design their own
+hardware and subsidise it accordingly. For example a Chromebook at 250USD is a
+good price, though you need to remember you are effectively locked to running
+Google software on that hardware, limiting your choice.
+
+Webconverger doesn't design hardware. We mainly focus on supplying software
+that will run on any PC. This broadens your hardware choice and software
+choices too. Have old PC stock you want to deploy Webconverger to? No problem.
+What to run in Virtualbox? No problem with Webconverger.
+
+# Google's Embrace, extend and extinguish... via extensions
+
+One of our system integrators reports why he chose Webconverger:
+
+1. The Chrome feature to allow a user to sign in to the browser itself is
+in appropriate in shared use environments but it happens all the time in
+practice and users frequently forget to sign out! - Webconverger prevents
+this user misbehavior completely.
+
+2. Installing Chrome Extensions is quickly becoming a 'go to' way for
+malicious actors to get malware onto endpoints even without Admin rights
+again Webconverger prevents this from becoming an issue.
+
+3. Simply closing all tabs to get a fresh session is much faster than the
+login/logout required on a fat client.
+In the education environment Webconverger rocks!
+
+One other thing to note is that malicious Chrome Extensions 'follow'
+the Google user account from computer to computer. Any malicious Extensions
+must be deleted in the user account itself which adds to Administrator
+workload.
+
+# What is the price of freedom?
+
+We do currently charge a little bit more for our software. However testing one
+machine without configuration management is typically free of cost. We want to
+attract large deployments. Deployments where choice, privacy and
+[openness](https://github.com/Webconverger/webc/commits/master) about the way
+their clients interact with the Web is important. They choose Webconverger.
+
+Please contact <a href=mailto:sales@webconverger.com>sales</a> for a
+competitive quote.
