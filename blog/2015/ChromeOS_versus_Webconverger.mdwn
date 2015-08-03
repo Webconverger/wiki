@@ -11,7 +11,7 @@ Google would do. Six years later and Google are domineering.
 To summarise; the main advantages that Webconverger has over Google are:
 
 * Simpler, less is more. Less training. Less things to understand.
-* Less lockin. [Google Cloud Print](https://en.wikipedia.org/wiki/Google_Cloud_Print), specific hardware, (App) extensions & other office related services upsell... these are all proprietary ways for Google to lock you into their solution
+* **No lock-in** [Google Cloud Print](https://en.wikipedia.org/wiki/Google_Cloud_Print), specific hardware, (App) extensions & other office related services upsell... these are all proprietary ways for Google to lock you into their solution
 * We don't try to own your users, we don't ask users to login or register!
 
 # The products are comparable
@@ -54,7 +54,7 @@ run on any PC. This broadens your hardware choice and software choices too.
 Have old PC stock you want to deploy Webconverger to? No problem.  What to run
 in Virtualbox? No problem with Webconverger.
 
-# Google's Embrace, extend and extinguish... via extensions
+# Google's embrace, extend and extinguish... via extensions
 
 One of our system integrators reports why he chose Webconverger:
 
@@ -64,7 +64,7 @@ practice and users frequently forget to sign out! - Webconverger prevents
 this user misbehavior completely.
 
 2. Installing Chrome Extensions is quickly becoming a 'go to' way for
-malicious actors to get malware onto endpoints even without Admin rights
+malicious actors to get malware onto endpoints even without Admin rights and
 again Webconverger prevents this from becoming an issue.
 
 3. Simply closing all tabs to get a fresh session is much faster than the
@@ -85,5 +85,4 @@ and invoice large deployments. Deployments where choice, privacy and
 [openness](https://github.com/Webconverger/webc/commits/master) about the way
 their clients get on the Web are important. They choose [Webconverger](https://webconverger.com/).
 
-Please contact <a href=mailto:sales@webconverger.com>sales</a> for a
-competitive quote.
+Please contact <a href=mailto:sales@webconverger.com>sales</a> for a competitive quote.
