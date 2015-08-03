@@ -3,8 +3,10 @@ market is Google with their Google Chrome OS aka Chrome{books,box} product,
 which is typically sold as a hardware and software bundle.
 
 It's high time to post at update on a 4 year old
-[[blog/entry/Comparing_Google_Chrome_OS]] blog, which demonstrated that we
-support inexpensive [Netbook category](https://en.wikipedia.org/wiki/Netbook).
+[[blog/entry/Comparing_Google_Chrome_OS]] blog, which demonstrated that we had
+support for inexpensive [Netbook
+category](https://en.wikipedia.org/wiki/Netbook) of PCs and speculated what
+Google would do. Four years later and Google are domineering.
 
 To summarise; the main advantages that Webconverger has over Google are:
 * Simpler, less is more. Less training. Less things to understand.
