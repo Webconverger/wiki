@@ -72,6 +72,7 @@ experience.
 To lock down a Windows machine, you need to purchase 3rd party software like
 Kioware or SiteKiosk:
 
+* [[blog/2015/ChromeOS_versus_Webconverger]]
 * [[blog/entry/Kioware_Product_Comparison]]
 * [[blog/entry/SiteKiosk_versus_Webconverger]]
 
