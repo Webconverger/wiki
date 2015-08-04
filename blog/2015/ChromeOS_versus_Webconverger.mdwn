@@ -10,7 +10,7 @@ Google would do. Six years later and Google are domineering.
 
 To summarise; the main advantages that Webconverger has over Google are:
 
-* Simpler, less is more. Less things to understand and we provide great customer service if get stuck!
+* Simpler, less is more. Less things to understand and we provide great customer service if you get stuck!
 * **No lock-in** as opposed to [Google Cloud Print](https://en.wikipedia.org/wiki/Google_Cloud_Print), specific hardware, (App) extensions & other office related services upsell... these are all proprietary ways for Google to lock you into their solution
 * We don't try to own your users, we don't ask users to login or register!
 
@@ -56,7 +56,7 @@ in Virtualbox? No problem with Webconverger.
 
 # Google's embrace, extend and extinguish... via extensions
 
-One of our system integrators reports why he chose Webconverger:
+One of our [system integrators](http://uniontechcoop.com/) reports why he chose Webconverger:
 
 1. The Chrome feature to allow a user to sign in to the browser itself is
 in appropriate in shared use environments but it happens all the time in
