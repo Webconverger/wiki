@@ -79,10 +79,12 @@ workload.
 # What is the price of freedom?
 
 We do currently charge a little bit more for our software. However running
-unconfigured or testing one machine without configuration management is **free
-of cost**. As a business supporting an opensource product, we want to attract
-and invoice large deployments. Deployments where choice, privacy and
-[openness](https://github.com/Webconverger/webc/commits/master) about the way
-their clients get on the Web are important. They choose [Webconverger](https://webconverger.com/).
+unconfigured or trialling our [configuration
+management](https://config.webconverger.com/) with several machines for a week
+or two is **free of cost**. As a business supporting an opensource product, we
+want to attract and invoice large deployments. Deployments where choice,
+privacy and [openness](https://github.com/Webconverger/webc/commits/master)
+about the way their clients get on the Web are important. They choose
+[Webconverger](https://webconverger.com/).
 
-Please contact <a href=mailto:sales@webconverger.com>sales</a> for a competitive quote.
+Please contact <a href=mailto:sales@webconverger.com>sales</a> for a competitive quote!
