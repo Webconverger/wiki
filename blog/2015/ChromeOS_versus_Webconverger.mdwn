@@ -47,7 +47,8 @@ We want to be competitive, so do please ask <a href=mailto:sales@webconverger.co
 The hardware is difficult to directly compare since they design their own
 hardware and subsidise it accordingly. For example a Chromebook at 250USD is a
 good price, though you need to remember you are effectively locked to running
-Google software on that hardware, limiting your choice.
+Google software on that hardware, limiting your choice and making your
+switching cost very high.
 
 Webconverger does not design hardware. We focus on supplying software that will
 run on any PC. This broadens your hardware choice and software choices too.

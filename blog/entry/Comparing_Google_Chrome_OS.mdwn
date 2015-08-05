@@ -1,3 +1,5 @@
+UPDATE: Please see [[blog/2015/ChromeOS_versus_Webconverger]] as an argument for an alternative to Google Chrome OS
+
 <h4>Sun, 07 Jun 2009 08:30:47 -0700</h4>
 <video controls="controls" src="http://static.natalian.org/2009-06-07/mvi_5405.ogg">
 <img src="http://static.natalian.org/2009-06-07/mvi_5405.thm" alt="thumbnail" />
