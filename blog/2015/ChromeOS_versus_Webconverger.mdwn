@@ -60,22 +60,22 @@ in Virtualbox? No problem with Webconverger.
 One of our [system integrators](http://uniontechcoop.com/) reports why he chose Webconverger:
 
 1. The Chrome feature to allow a user to sign in to the browser itself is
-in appropriate in shared use environments but it happens all the time in
-practice and users frequently forget to sign out! - Webconverger prevents
-this user misbehavior completely.
+   inappropriate in shared use environments. In practice users frequently
+forget to sign out! - Webconverger prevents this user misbehavior completely.
 
 2. Installing Chrome Extensions is quickly becoming a 'go to' way for
 malicious actors to get malware onto endpoints even without Admin rights and
 again Webconverger prevents this from becoming an issue.
 
-3. Simply closing all tabs to get a fresh session is much faster than the
-login/logout required on a fat client.
-In the education environment Webconverger rocks!
-
 One other thing to note is that malicious Chrome Extensions 'follow'
 the Google user account from computer to computer. Any malicious Extensions
 must be deleted in the user account itself which adds to Administrator
 workload.
+
+3. Simply closing all tabs to get a fresh session is much faster than the
+login/logout required on a fat client.
+
+In the education environment Webconverger rocks!
 
 # What is the price of freedom?
 
