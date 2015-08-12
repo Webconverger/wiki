@@ -21,8 +21,10 @@ Clients use Webconverger in:
 * Libraries
 * Charities
 * Hotels
-* Tourist information information points
+* Gyms
+* Tourist information points
 * Waiting rooms
+* Warehouses
 
 
 Web feedback
@@ -66,6 +68,7 @@ Web feedback
 * [What is Web signage?](http://www.linux.com/community/blogs/130-distributions/782621-what-is-web-signage)
 * [Softpedia](http://news.softpedia.com/news/Webconverger-27-Is-a-Linux-Kiosk-OS-with-No-End-of-Life-468205.shtml)
 * [Tux diary](http://tuxdiary.com/2014/11/05/linux-distros-for-kiosks/)
+* [Swift on Security](https://twitter.com/SwiftOnSecurity/status/629788409586802688)
 
 Printed Media
 =============
