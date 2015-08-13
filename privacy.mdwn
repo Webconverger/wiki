@@ -17,7 +17,7 @@ boot:
 * IP address from where you sent it from
 * Version of Webconverger you use
 
-## Ping
+We call this the **ping**:
 
 * [ping client source](https://github.com/Webconverger/webc/blob/master/etc/webc/network-up.d/ping)
 * [ping receiver source](https://github.com/Webconverger/ping/blob/master/index.php)
@@ -25,11 +25,12 @@ boot:
 This "ping" is used to determine how many users Webconverger has to warrant
 further investment. [Public usage statistics](http://ping.webconverger.org/).
 
-You can opt out by appending `noping` to the command line.
+You can **opt out** by appending `noping` to the command line. **noping** means no
+collection of the unique machine identity (UUID + MAC address) or version.
 
 ## Configuration service
 
-By default (unless opted out by specifying `noconfig`), we apply our
+By default (unless **opted out** by specifying `noconfig`), we apply our
 [configuration service](http://config.webconverger.com). This configuration
 service will use your machine UUID and MAC address as machine identifiers (not
 personally identifying), to track and apply configurations. This is how the
