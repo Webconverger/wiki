@@ -6,12 +6,12 @@ features](http://www.kioware.com/comparison.aspx):
 
 * Browser Lockdown - yes
 * Popup Window Control - yes
-* Domain/Page List Blocking - we simply rely on no URL address bar chrome=webcnoaddressbar for [[controlled_access|filtering]]
+* Domain/Page List Blocking - yes, see [[filtering]]
 * Integrated Browser Error Handling - yes, we can override the error page
 * Custom Navigational Toolbar Skins - we don't do skinning, though we do have <a href="http://webconverger.org/kiosk/">"skin" options</a>
 * File Download Blocking - yes
-* Remote XML Configuration - yes, we have a simpler line based API defined by [[boot]]
-* Citrix/Terminal Server Support - no
+* Remote XML Configuration - yes, we have a simpler line based [[API]]
+* Citrix/Terminal Server Support - no, though we support virtualisation with Virtualbox
 * OS/Desktop Lockdown - yes
 * Clear Cookies and Cache - yes
 * Keyboard Filtering - yes
@@ -21,14 +21,14 @@ features](http://www.kioware.com/comparison.aspx):
 * Virtual Keyboard - [an option at the moment](http://config.webconverger.com/faq/#does-webconverger-support-touch-screens)
 * Automatically Run Logoff Script - this is like [[kioskresetstation|blanking]]
 * Replace Windows Explorer Shell - yes, though this is Windows specific
-* Dialog Blocking - we do block popups by default, though I might have misunderstood this
+* Dialog Blocking - we do block popups by default and we can offer exceptions, please view [[blog/entry/Popups_and_SSL_warnings]]
 * Hardware/Software Watchdog - we don't have this, but we do plan to develop something comparable
 * Automatic Printer Retraction - no, I doubt this works in practice
 * Security Mat/Proximity Switch - no, we rely on users closing the last tab or a [[kioskresetstation_timeout|blanking]], but though we can integrate this hardware if a customer chooses
-* Barcode/MSR/Prox Reader Support - no
+* Barcode/MSR/Prox Reader Support - no (Android camera might work)
 * Bill Acceptor/Card Dispenser Support - no
 * Multiple Monitor Support (up to 10) - doable
-* Phone Dialing through your Application - yes, we can offer voice telephony via the Google Talk plugin
+* Phone Dialing through your Application - yes, we can offer voice telephony via WebRTC
 * Upload Usage Stats - if you have Google analytics enabled on your site, we can arrange to identify the kiosk via a MAC identifier
 * Remote Content Updating - yes, this is the same as the earlier "Remote XML Configuration"
 * Server Side Kiosk Management - you can manage your kiosk in the cloud with Webconverger and achieve the same functionality
@@ -44,7 +44,7 @@ features](http://www.kioware.com/comparison.aspx):
 Webconverger 12.3 compares closest to [Kioware
 Lite](http://www.kioware.com/kwl.aspx?c=kwl_pricing) which is priced at 84USD a
 year.  Webconverger's basic price is 100USD a year or 10USD per month. We plan to
-bring back [[printing]] and perhaps the Google Talk plugin for telephony which
+bring back [[printing]] and perhaps the WebRTC for telephony which
 will be closer to their "Kioware Kiosk Basic" product at 162USD a year.
 
 Webconverger does have other

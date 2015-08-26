@@ -25,20 +25,20 @@ SiteKiosk has [four versions](https://www.provisio.com/en-US/SiteKiosk/Default.a
 * Auto Recovery - yes
 * Folder/file access management - no, we don't offer file access
 * Display in fullscreen mode - yes, this is an option with [[webcfullscreen|kiosk]]
-* SiteRemote Remote Monitoring - no, this looks like [[privacy]] concern to us. We encourage clients to use simple Analytics whereby you can identify this kiosk by mac ID
+* SiteRemote Remote Monitoring - We have a support service which can tell when a configuration was last fetched
 * SiteCaster - yes, though in the [Neon](http://neon.webconverger.com/) product, not Webconverger
 * Large selection of browser skins - no, we don't do this. Skins are usually a performance killer, how we do offer [[bgurl=|artwork]] for simply branding the background
-* Customizable user interface - yes, see our [user interface options](http://webconverger.org/kiosk/)
+* Customizable user interface - yes, see our [[user interface options|kiosk]]
 * Logout (Clear history) - yes
-* Start page templates - no, we don't build or prescribe how to build your homepage
+* Start page templates - no, we don't build or prescribe how to build your homepage. Do ask for tips though!
 * URL access restricting - yes, with `chrome=webcnoaddressbar`, see [[filtering]]
 * Execute programs you specified - no
 * Printing - yes, please see [[printing]]
 * Support of connected devices - no, except [[printing]] as above
-* On-screen keyboard - [yes, though not currently enabled in default builds](http://config.webconverger.com/faq/#does-webconverger-support-touch-screens)
-* Video & photo email - no, this is could be realised with the embedded [[flash|adobe]]
-* Internet content filter - this is the same as [[URL_access_restricting|filtering]]
-* VoIP phone support - this is possible via the Google talk plugin which is disabled by default
+* On-screen keyboard - Please see <https://webconverger.com/faq/#does-webconverger-support-touch-screens>
+* Video & photo email - yes, see <https://developer.mozilla.org/en-US/docs/Web/API/WebRTC_API/Taking_still_photos>
+* Internet content filter - yes, see [[filtering]]
+* VoIP phone support - via WebRTC
 * Charging for PC usage - no
 * Payment device support - no
 * Internet cafe billing (SiteCafe) - no
@@ -59,8 +59,8 @@ SiteKiosk has [four versions](https://www.provisio.com/en-US/SiteKiosk/Default.a
 
 Webconverger seems most similar to SiteKiosk Basic priced at 149USD for 12
 months of free updates.  Excluding the
-[[cost_of_Windows|Comparing_to_our_competitors]], Webconverger beats SiteKiosk
-on that price for the first year with our 100USD annual fee. SiteKiosk allows
+[[cost_of_Windows|Comparing_to_our_competitors]], **Webconverger beats SiteKiosk
+on that price** for the first year with our 100USD annual fee. SiteKiosk allows
 customers to run without updates after the first year, though we feel
 continuous updates are vital for kiosk security and ensuring a continually
 improving Web user experience.
