@@ -10,7 +10,7 @@ Webconverger provides a simple and secure operating system to get you onto your 
 <th>Windows</th>
 <th><a href=http://porteus-kiosk.org/>Porteus</a></th>
 <th>
-[[blog/2015/ChromeOS_versus_Webconverger|ChromeOS]]
+[[ChromeOS|blog/2015/ChromeOS_versus_Webconverger]]
 </th>
 <th>Webconverger</th>
 </tr>
