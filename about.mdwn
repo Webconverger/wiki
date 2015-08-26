@@ -9,7 +9,9 @@ Webconverger provides a simple and secure operating system to get you onto your 
 <th>Feature</th>
 <th>Windows</th>
 <th><a href=http://porteus-kiosk.org/>Porteus</a></th>
-<th><a href=http://en.wikipedia.org/wiki/Chrome_OS>Chrome OS</a></th>
+<th>
+[[blog/2015/ChromeOS]]
+</th>
 <th>Webconverger</th>
 </tr>
 </thead>
@@ -72,7 +74,6 @@ experience.
 To lock down a Windows machine, you need to purchase 3rd party software like
 Kioware or SiteKiosk:
 
-* [[blog/2015/ChromeOS_versus_Webconverger]]
 * [[blog/entry/Kioware_Product_Comparison]]
 * [[blog/entry/SiteKiosk_versus_Webconverger]]
 
