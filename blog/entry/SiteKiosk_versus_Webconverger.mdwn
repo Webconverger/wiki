@@ -5,7 +5,7 @@ Update: Since SiteKiosk uses IE, it often has [very poor HTML compatibility
 ratings](http://webconverger.org/blog/2014/A_better_Web_kiosk_experience_at_Changi_airport/)
 compared to Webconverger which uses the latest Firefox browser.
 
-Like [[Kioware|Kioware_Product_Comparison]]
+Like [[Kioware|Kioware_Product_Comparison]],
 [SiteKiosk](https://www.provisio.com/en-US/SiteKiosk/Default.aspx#system) is a
 Windows based solution based on Internet Explorer. Webconverger is an operating
 system, so you don't need Windows and we ship the Firefox Web browser that
@@ -25,7 +25,7 @@ SiteKiosk has [four versions](https://www.provisio.com/en-US/SiteKiosk/Default.a
 * Auto Recovery - yes
 * Folder/file access management - no, we don't offer file access
 * Display in fullscreen mode - yes, this is an option with [[webcfullscreen|kiosk]]
-* SiteRemote Remote Monitoring - We have a support service which can tell when a configuration was last fetched
+* SiteRemote Remote Monitoring - We have a support service which can tell when a configuration was last fetched and when **support** API is enabled, logs
 * SiteCaster - yes, though in the [Neon](http://neon.webconverger.com/) product, not Webconverger
 * Large selection of browser skins - no, we don't do this. Skins are usually a performance killer, how we do offer [[bgurl=|artwork]] for simply branding the background
 * Customizable user interface - yes, see our [[user interface options|kiosk]]
