@@ -18,7 +18,7 @@ Webconverger provides a simple and secure operating system to get you onto your 
 <tbody>
 <tr>
 <td>Automatic updates</td>
-<td><a href=http://webconverger.org/blog/2014/Webconverger_does_not_have_an_EOL/>Will be <abbr="End of lifed">EOL</abbr></a></td>
+<td>Yes, from Windows 10</td>
 <td>Paid</td>
 <td>Yes</td>
 <td>Yes&<a href=https://github.com/webconverger/webc>transparent</a></td>
@@ -56,6 +56,7 @@ Webconverger provides a simple and secure operating system to get you onto your 
 * Current, supporting the latest Web features
 * Excellent [[security]]
 * [[i18n]] support
+* We care about [[privacy]]!
 
 Webconverger has sensible and sane defaults. [Supporting Webconverger through
 payment](http://webconverger.com/faq/#what-does-a-subscription-buy-exactly),
@@ -64,6 +65,8 @@ tool](https://config.webconverger.com/) to help you maintain many machines with
 your settings!
 
 ## Webconverger is much better compared to Microsoft Windows based products
+
+The newly auto-updating Windows 10 has [terrible privacy defaults](http://arstechnica.com/information-technology/2015/08/windows-10-doesnt-offer-much-privacy-by-default-heres-how-to-fix-it/).
 
 Don't forget to include the cost of Windows which is usually a hidden cost
 forced upon [System
