@@ -1,9 +1,12 @@
 <img src="/img/2014/pushing-up-daisies.svg" alt="Webconverger outlives Windows" style="width: 100%; height: auto;">
 
-Like Windows XP before it, [Windows
+UPDATE: [Windows 10 despite some misleading articles will also reach End of support](http://windows.microsoft.com/en-sg/windows/lifecycle)
+
+[Windows XP](http://www.microsoft.com/en-us/windows/endofsupport.aspx) and now
+[Windows
 7](http://www.zdnet.com/what-happens-to-windows-7-on-october-31-2014-7000033965/)
-is reaching "End of Life" (EOL) on October 31, 2014. This event presents all sorts of
-logistical nightmares for IT administrators around the world.
+is reaching "End of Life" (EOL) on October 31, 2014. This event presents all
+sorts of logistical nightmares for IT administrators around the world.
 
 In comparison **Webconverger does **NOT** have an <a
 href="https://en.wikipedia.org/wiki/End-of-life_(product)">End of Life</a>**!
@@ -12,9 +15,9 @@ Webconverger deployments will just carry on working into the future, providing
 a standard Web interface, with an up-to-date, security supported OS+browser
 behind it.
 
-We aim to support our software with updates and keep our [[API]] stable for
-ever. This is why and how we offer "Life time subscriptions" in our [pricing
-table](https://webconverger.com/pricing/).
+We aim to support our software with updates and keep our [[API]] stable
+**forever**. This is why and how we offer "Life time subscriptions" in our
+[pricing table](https://webconverger.com/pricing/).
 
 Learn more about our philosophy and long term vision with our blog [Avoiding
 the Microsoft upgrade
