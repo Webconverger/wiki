@@ -58,8 +58,7 @@ Please refer to [[BIOS]].
 When you "image" the ISO to a USB or CD media using the instructions above and
 boot that media, that is effectively _read only_ aka **Live** mode.
 
-When you Install Webconverger from the media, normally to that machine's hard
-drive or [another USB key](https://www.youtube.com/watch?v=7Zmsj5DnQYo), only
-then it will **automatically update** aka keep "Evergreen".
-
-<https://webconverger.com/faq/#what-do-you-mean-by-live-version-and-install-version>
+When you Install Webconverger from the _Live media_ above, typically to that
+machine's hard drive or to [another USB
+key](https://www.youtube.com/watch?v=7Zmsj5DnQYo), only then it will
+**automatically update** aka keep "Evergreen".
