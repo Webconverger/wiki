@@ -52,3 +52,14 @@ You might find specifying the additional argument `bs=1M` makes it faster.
 ## Configuring your PC to boot the USB key instead of your hard drive
 
 Please refer to [[BIOS]].
+
+# Making Webconverger automatically update
+
+When you "image" the ISO to a USB or CD media using the instructions above and
+boot that media, that is effectively _read only_ aka **Live** mode.
+
+When you Install Webconverger from the media, normally to that machine's hard
+drive or [another USB key](https://www.youtube.com/watch?v=7Zmsj5DnQYo), only
+then it will **automatically update** aka keep "Evergreen".
+
+<https://webconverger.com/faq/#what-do-you-mean-by-live-version-and-install-version>
