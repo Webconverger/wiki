@@ -1,9 +1,12 @@
 As we did with the [[Kioware_Product_Comparison]], let's compare Webconverger
 against [Provisio's SiteKiosk](https://www.provisio.com/en-US/SiteKiosk).
 
-Update: Since SiteKiosk uses IE, it often has [very poor HTML compatibility
+Since SiteKiosk uses IE, it often has [very poor HTML compatibility
 ratings](http://webconverger.org/blog/2014/A_better_Web_kiosk_experience_at_Changi_airport/)
 compared to Webconverger which uses the latest Firefox browser.
+
+Update: SiteKiosk 9 - currently in Beta phase - supports the Chrome Browser
+Engine.
 
 Like [[Kioware|Kioware_Product_Comparison]],
 [SiteKiosk](https://www.provisio.com/en-US/SiteKiosk/Default.aspx#system) is a
