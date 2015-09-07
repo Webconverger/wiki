@@ -107,7 +107,7 @@ viewer, which should default to epdfview viewer. PDFJS has issues like:
 
 # Printing to a [PDF file](http://en.wikipedia.org/wiki/PDF) to a remote machine on your network
 
-<a href="http://www.flickr.com/photos/hendry/8596195071/" title="2013-03-28_12.44.21 by Kai Hendry, on Flickr"><img src="http://farm9.staticflickr.com/8226/8596195071_bfea8255c9_z.jpg" width="640" height="480" alt="2013-03-28_12.44.21"></a>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/nJ1sPLcLC9k" frameborder="0" allowfullscreen></iframe>
 
 The [cups-pdf](http://packages.qa.debian.org/c/cups-pdf.html) package allows
 you to setup a "Virtual Print" server on your network that write out PDFs on
