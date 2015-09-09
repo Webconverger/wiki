@@ -49,7 +49,7 @@ SiteKiosk has [four versions](https://www.provisio.com/en-US/SiteKiosk/Default.a
 * Remap keyboard layouts - yes, via the xkb= [[API|boot]]
 * Dialog window blocking - yes
 * Debug output window - no
-* Log files - yes system logs, using the log= API and [papertrail](https://papertrailapp.com/) for example, but NOT [user tracking](/images/comparison/sitekiosk_privacy.png)
+* Log files - yes system logs, using the log= API and [papertrail](https://papertrailapp.com/) for example, but NOT [user tracking](/img/2015/sitekiosk_privacy.png)
 * Pop-up blocker - yes
 * Support of multiple languages - yes
 * Favorites - you can customise more than one startup page which is equivalent
