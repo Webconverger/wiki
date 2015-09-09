@@ -55,8 +55,8 @@ Webconverger provides a simple and secure operating system to get you onto your 
 * [[API]] for fine tuning it for your deployment
 * Current, supporting the latest Web features
 * Excellent [[security]]
-* [[i18n]] support
-* We care about [[privacy]]!
+* Extensive [[i18n]] support
+* We care about user [[privacy]]!
 
 Webconverger has sensible and sane defaults. [Supporting Webconverger through
 payment](http://webconverger.com/faq/#what-does-a-subscription-buy-exactly),
