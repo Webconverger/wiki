@@ -1,5 +1,9 @@
 [[!meta title="Webconverger product comparison"]]
 
+We beat [[Kioware|blog/entry/Kioware_Product_Comparison]] &
+[[SiteKiosk|blog/entry/SiteKiosk_versus_Webconverger]] on
+[price](https://webconverger.com/pricing)!
+
 Webconverger provides a simple and secure operating system to get you onto your Web application since **2007**.
 
 <table>
