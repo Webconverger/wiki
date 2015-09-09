@@ -5,8 +5,7 @@ Since SiteKiosk uses IE, it often has [very poor HTML compatibility
 ratings](http://webconverger.org/blog/2014/A_better_Web_kiosk_experience_at_Changi_airport/)
 compared to Webconverger which uses the latest Firefox browser.
 
-Update: SiteKiosk 9 - currently in Beta phase - supports the Chrome Browser
-Engine.
+Update: SiteKiosk 9 - currently in Beta phase - supports the Chrome Browser Engine.
 
 Like [[Kioware|Kioware_Product_Comparison]],
 [SiteKiosk](https://www.provisio.com/en-US/SiteKiosk/Default.aspx#system) is a
@@ -68,7 +67,14 @@ customers to run without updates after the first year, though we feel
 continuous updates are vital for kiosk security and ensuring a continually
 improving Web user experience.
 
+SiteKiosk's customers buy an update after the first year the total investment
+is $218.00 for 2 years of continued support and updates. The total cost for 3
+years of continued support and updates is $287.00. Compare this to
+Webconverger's [one off pricing](https://webconverger.com/pricing/) where
+Webconverger not only beats SiteKiosk on price, but gets cheaper every year
+your hardware endures.
+
 Webconverger solves the same security for public access computers problem
 better, beats SiteKiosk on price, [[faster|requirements]] and easier to deploy.
-[Download Webconverger](http://download.webconverger.com) and see for yourself
-with a free 1 week no risk trial.
+[Download Webconverger](http://dl.webconverger.com) and see for yourself with a
+free 1 week no risk trial.
