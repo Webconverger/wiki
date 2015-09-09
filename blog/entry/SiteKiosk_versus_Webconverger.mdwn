@@ -49,7 +49,7 @@ SiteKiosk has [four versions](https://www.provisio.com/en-US/SiteKiosk/Default.a
 * Remap keyboard layouts - yes, via the xkb= [[API|boot]]
 * Dialog window blocking - yes
 * Debug output window - no
-* Log files - yes, using the log= API and [papertrail](https://papertrailapp.com/) for example
+* Log files - yes system logs, using the log= API and [papertrail](https://papertrailapp.com/) for example, but NOT [user tracking](/images/comparison/sitekiosk_privacy.png)
 * Pop-up blocker - yes
 * Support of multiple languages - yes
 * Favorites - you can customise more than one startup page which is equivalent
@@ -78,3 +78,5 @@ Webconverger solves the same security for public access computers problem
 better, beats SiteKiosk on price, [[faster|requirements]] and easier to deploy.
 [Download Webconverger](http://dl.webconverger.com) and see for yourself with a
 free 1 week no risk trial.
+
+Want another product comparison? See [[Kioware_Product_Comparison]] & [[blog/2015/ChromeOS_versus_Webconverger]].
