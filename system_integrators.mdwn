@@ -43,15 +43,15 @@ blog.
 
 # Microsoft Windows arguments
 
-## Does not need to replace Windows
+## Webconverger does not need to replace Windows
 
 You don't need to install Webconverger over your existing systems.
 
 Webconverger can operate beside Windows without touching your existing
-installs. This can be achieved by installing Webconverger to a USB stick.
+installs. This can be achieved by [[installing Webconverger to a USB stick|usb]].
 
 Need to temporarily convert some of your customer's computers to kiosks?
-Webconverger is a turn key solution.
+Webconverger is a **turn key solution**.
 
 ## Cost effective
 
@@ -68,8 +68,10 @@ Webconverger takes minutes to setup. With free automatic updates, your **total c
 
 Windows client software typically by default log users surfing habits. Reports
 and statistics might be what your client wants, but what about the end user's
-privacy? Your client can still have reports by running something like Google
-Analytics on their own server site instead.
+privacy? Your client can still have reports by running Web Analytics on their
+**own server site**. This approach with our [[API's ID expansions|API]] allows
+your client's Web site developers to **better** understand how their kiosks use
+their site.
 
 Protect your client from legal challenges by using Webconverger, a kiosk
 software solution that respects users [[privacy]] by default.
