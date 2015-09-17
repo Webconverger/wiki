@@ -1,109 +1,65 @@
-[[!meta title="Webconverger product comparison"]]
+[[!meta title="Webconverger for system integrators"]]
 
-We beat [[Kioware|blog/entry/Kioware_Product_Comparison]] &
-[[SiteKiosk|blog/entry/SiteKiosk_versus_Webconverger]] on
-[price](https://webconverger.com/pricing)!
+# Best of class in Linux
 
-Webconverger provides a simple and secure operating system to get you onto your Web application since **2007**.
+When your customers are looking for opensource or secure linux based systems to
+deploy in their organisation, the choice is Webconverger.
 
-<table>
-<caption>Competitor comparison</caption>
-<thead>
-<tr>
-<th>Feature</th>
-<th>Windows</th>
-<th><a href=http://porteus-kiosk.org/>Porteus</a></th>
-<th>
-[[ChromeOS|blog/2015/ChromeOS_versus_Webconverger]]
-</th>
-<th>Webconverger</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Automatic updates</td>
-<td>Yes, from Windows 10</td>
-<td>Paid</td>
-<td>Yes</td>
-<td>Yes&<a href=https://github.com/webconverger/webc>transparent</a></td>
-</tr>
-<tr>
-<td>Browser</td>
-<td><a href=http://en.wikipedia.org/wiki/Internet_Explorer>IE</a></td>
-<td><a href=https://www.mozilla.org/en-US/firefox/organizations/faq/>Older Firefox</a></td>
-<td>Chrome</td>
-<td>Latest Firefox</td>
-</tr>
-<tr>
-<td>Remote configuration management</td>
-<td>No</td>
-<td>No</td>
-<td>Paid</td>
-<td><a href=https://config.webconverger.com/>Paid</a></td>
-</tr>
-<tr>
-<td>Runs on any PC</td>
-<td>Yes</td>
-<td>Yes</td>
-<td>No</td>
-<td>Yes</td>
-</tr>
+## Hardware choice
 
-</tbody>
-</table>
+Google Chrome OS effectively only runs on [their mandated
+hardware](http://www.google.com/chromebook/find/). Typically not PCs. Typically
+locked to their software.
 
-## Why Webconverger for your Web kiosk?
+This jeopardises your existing hardware relationships. Webconverger on other
+hand works on almost any PC compatible hardware.
 
-* Simple & Tested & Reliable
-* Good performance
-* [[API]] for fine tuning it for your deployment
-* Current, supporting the latest Web features
-* Excellent [[security]]
-* Extensive [[i18n]] support
-* We care about user [[privacy]]!
+## Control the upsell
 
-Webconverger has sensible and sane defaults. [Supporting Webconverger through
-payment](http://webconverger.com/faq/#what-does-a-subscription-buy-exactly),
-gives you support and a [configuration management
-tool](https://config.webconverger.com/) to help you maintain many machines with
-your settings!
+Google Chrome OS control the applications pushed to end systems.  With
+Webconverger you have control over the Application ecosystem, by defining the
+Web applications the PC is locked to.
 
-## Webconverger is much better compared to Microsoft Windows based products
+## User privacy
 
-The newly auto-updating Windows 10 has [terrible privacy defaults](http://arstechnica.com/information-technology/2015/08/windows-10-doesnt-offer-much-privacy-by-default-heres-how-to-fix-it/).
+In sensitive government / banking / "Cardholder Data" Environment where you
+cannot have data leaking to the cloud, Webconverger is the only choice.
 
-Don't forget to include the cost of Windows which is usually a hidden cost
-forced upon [System
-Integrators](http://en.wikipedia.org/wiki/Systems_integrator).  The main cost
-of Windows is its poor security track record and its poor Internet Explorer
-experience.
+We ensure no data about your intranet or where you browsed is leaked outside
+your network.
 
-To lock down a Windows machine, you need to purchase 3rd party software like
-Kioware or SiteKiosk:
+## Accountability and control
+
+Every [change in Webconverger is atomic and happens in one
+place](https://github.com/webconverger/webc). With our pioneering [[upgrade]]
+technology you can do things that are impossible in other systems, like roll
+back or lock/pin to a particular revision of software.
+
+For more information about the difference between Webconverger and Google Chrome OS, see [[blog/2015/ChromeOS_versus_Webconverger]].
+
+# Windows arguments
+
+## Does not need to replace Windows
+
+Webconverger does not require Windows, though it can operate beside it without
+disrupting its existing install. This can be done by installing Webconverger to
+a USB stick.
+
+## Cost effective
+
+We are price competitive with complex software that locks down Windows:
 
 * [[blog/entry/Kioware_Product_Comparison]]
 * [[blog/entry/SiteKiosk_versus_Webconverger]]
 
-These third party software don't save you from the [maintenance headaches that
-Windows
-presents](https://webconverger.org/blog/2014/Webconverger_does_not_have_an_EOL/).
-Webconverger is much more polished and integrated Web kiosk solution.
+## Easier to deploy
 
-### Windows "Freezing" is not a secure approach
+Webconverger takes minutes to setup. With free automatic updates, your ongoing
+maintenance cost is minimised.
 
-[Microsoft Steady State](http://en.wikipedia.org/wiki/Windows_SteadyState) has
-been **discontinued**.
+## Privacy
 
-[Faronics](http://www.faronics.com/en-uk/) offers a comparable solution to
-"freeze" the Windows machine. However "freezing" is not a good strategy for
-providing users an uptodate and current browser experience like Webconverger
-install users enjoy. "Deep Freeze" is comparable to <a
-href="http://config.webconverger.com/faq/#what-do-you-mean-by-live-version-and-install-version-?">Webconverger's
-Live version</a> which we plan to phase out over time in favour of the
-"automatically uptodate" install version.
-
-"Freezing" also does not guarantee any security for your users. For example a
-vulnerable flash in a "frozen" Windows could be exploited each and every
-browsing session, if the surfer unfortunately browses to the exploited every
-session. If Webconverger discovers an exploit, it is quickly patched and
-installs [[upgrade]] so that surfers are safe.
+Windows and our competitors by default log users surfing habits. We know this
+might be what your client wants, but what about the end user's privacy? Protect
+your client from legal challenges by using a Webconverger, a kiosk software
+solution that respects users privacy by default.
