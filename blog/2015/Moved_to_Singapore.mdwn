@@ -1,14 +1,14 @@
 <img src=/img/2015/uk-sg.png alt="UK to Singapore">
 
 tl;dr We are closing the UK entity in favour of operating exclusively via the
-Singapore entity which (almost) all customers are already using for the last
-couple of years. All assets have (or will be) transferred to the Singapore
-entity. This does not effect our regular use of the MIT license. Business as usual!
+Singapore entity which (almost) all customers have already been using for the
+last couple of years. All assets have (or will be) transferred to the
+Singapore entity. This does not effect our regular use of the MIT license.
+Business as usual!
 
 As mentioned in the [[acknowledgements]] of Webconverger, the opensource kiosk
-project was founded by myself Kai Hendry in February 2007 and then later in
-September 2007, formed as a private limited company (Company No. 6366403) in
-the UK.
+project was founded by myself Kai Hendry in February 2007 and then in September
+2007 formed as a private limited company (Company No. 6366403) in the UK.
 
 In 2012 I decided to move to Singapore largely due to my now wife and I
 incorporated a Singapore entity on the 4th May 2012 (Company No. 201211208C). I
@@ -18,9 +18,9 @@ Singapore.  Unfortunately as a small business, the
 assumes you have received some venture capital and I've long decided not to
 take Webconverger down that "get big or go bust" road.
 
-Nonetheless as I grew with confidence, I moved more and more accounts to
-Singapore. Having the money in Singapore obviously helps with paying the bills
-without transferring money back and forth. In the meantime the upkeep of the UK
+Nonetheless as my confidence grew I moved more and more accounts to Singapore.
+Having the money in Singapore obviously helps with paying the bills without
+transferring money back and forth. In the meantime the upkeep of the UK
 business became more and more tiring.
 
 Seemingly never a couple of months would pass without the need to be made aware
@@ -41,4 +41,4 @@ the UK. Though the weather is a lot better.
 I would like to thank you in advance for your understanding and support, and I
 look forward to serving you long into the future wherever you or I may be
 physically located. That said, if any of my customers are passing through
-Singapore, please get in touch! -Kai
+Singapore, please get in touch! -Kai (Managing Director)
