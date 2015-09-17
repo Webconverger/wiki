@@ -1,0 +1,74 @@
+[[!meta title="Webconverger for system integrators"]]
+
+# Best of class in Linux
+
+When your customers are looking for opensource or secure linux based Web
+browser systems to deploy in their organisation, the choice is Webconverger.
+
+## Hardware choice
+
+Google Chrome OS effectively only runs on [their mandated
+hardware](http://www.google.com/chromebook/find/). Typically not industry
+standard PCs.
+
+This jeopardises your existing hardware relationships. Webconverger on the
+other hand works on almost any PC compatible hardware.
+
+Use existing old rolling PC stock (with at least 1GB of RAM) for suppling your
+kiosk solution with Webconverger to your customers.
+
+## Control the upsell
+
+Google Chrome OS control the applications pushed to end systems.  With
+Webconverger you have control over the Application ecosystem, by defining the
+Web applications the PC is locked to.
+
+## User privacy
+
+In sensitive government / banking / "Cardholder Data" Environment where you
+cannot have data leaking to the cloud, Webconverger is the only choice.
+
+We ensure no data about your intranet or where you browsed is leaked outside
+your network.
+
+## Accountability and control
+
+Every [change in Webconverger is atomic and happens in one
+place](https://github.com/webconverger/webc). With our pioneering [[upgrade]]
+technology you can do things that are impossible in other systems, like roll
+back or lock/pin to a particular revision of software.
+
+For more details, please read our [[blog/2015/ChromeOS_versus_Webconverger]]
+blog.
+
+# Microsoft Windows arguments
+
+## Does not need to replace Windows
+
+Webconverger does not require Windows, though it can operate beside it without
+disrupting its existing install. This can be done by installing Webconverger to
+a USB stick.
+
+## Cost effective
+
+We are price competitive with complex software that locks down Windows:
+
+* [[blog/entry/Kioware_Product_Comparison]]
+* [[blog/entry/SiteKiosk_versus_Webconverger]]
+
+## Easier to deploy
+
+Webconverger takes minutes to setup. With free automatic updates, your ongoing
+maintenance cost is minimised.
+
+## Privacy
+
+Windows and our competitors by default log users surfing habits. We know this
+might be what your client wants, but what about the end user's privacy? Protect
+your client from legal challenges by using a Webconverger, a kiosk software
+solution that respects users privacy by default.
+
+# Pricing
+
+When you handle first line of support, we will provide generous commissions to
+our [clear pricing](https://webconverger.com/pricing/).
