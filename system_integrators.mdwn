@@ -66,14 +66,18 @@ Webconverger takes minutes to setup. With free automatic updates, your **total c
 
 ## Privacy
 
-Windows software by default log users surfing habits. We know this might be
-what your client wants, but what about the end user's privacy? Protect your
-client from legal challenges by using Webconverger, a kiosk software solution
-that respects users [[privacy]] by default.
+Windows client software typically by default log users surfing habits. Reports
+and statistics might be what your client wants, but what about the end user's
+privacy? Your client can still have reports by running something like Google
+Analytics on their own server site instead.
+
+Protect your client from legal challenges by using Webconverger, a kiosk
+software solution that respects users [[privacy]] by default.
 
 # System integrator commissions
 
 When you handle first line of support, we will provide generous commissions to
 our [clear pricing](https://webconverger.com/pricing/).
 
-Please get in touch with <a href=sales+si@webconverger.com>sales</a>.
+Please get in touch with <a href=sales+si@webconverger.com>sales</a> to learn
+more.
