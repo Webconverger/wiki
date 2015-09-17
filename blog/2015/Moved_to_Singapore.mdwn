@@ -1,0 +1,42 @@
+tl;dr We are closing the UK entity in favour of operating exclusively via the
+Singapore entity which (almost) all customers are already using for the last
+couple of years. All assets have (or will be) transferred to the Singapore
+entity. This does not effect our regular use of the MIT license. Business as usual!
+
+As mentioned in the [[acknowledgements]] of Webconverger, the opensource kiosk
+project was founded by myself Kai Hendry in February 2007 and then later in
+September 2007, formed as a private limited company (Company No. 6366403) in
+the UK.
+
+In 2012 I decided to move to Singapore largely due to my now wife and I
+incorporated a Singapore entity on the 4th May 2012 (Company No. 201211208C). I
+did this at the time mainly to help myself get a visa, to stay long term in
+Singapore.  Unfortunately as a small business, the
+[EntrePass](http://www.mom.gov.sg/passes-and-permits/entrepass/eligibility)
+assumes you have received some venture capital and I've long decided not to
+take Webconverger down that "get big or go bust" road.
+
+Nonetheless as I grew with confidence, I moved more and more accounts to
+Singapore. Having the money in Singapore obviously helps with paying the bills
+without transferring money back and forth. In the meantime the upkeep of the UK
+business became more and more tiring.
+
+Seemingly never a couple of months would pass without the need to be made aware
+of new [HMRC](https://www.gov.uk/government/organisations/hm-revenue-customs)
+or European regulation. It's frustrating that HMRC can't communicate directly
+with businesses online in 2015 and that silly [European tax
+laws](https://en.wikipedia.org/wiki/Taxation_of_digital_goods#Overview_of_Internet_Taxation_in_the_European_Union)
+came into force. To keep up with regulation I needed to pay an accountant at
+least 1500GBP a year to complete corporate and personal tax returns.
+
+For those of you interested in doing business in Singapore, the costs of
+running a business are roughly the same at the UK, especially since you need to
+nominate a local director here as a foreigner. There is a tax honeymoon period,
+but that soon expires and again you are paying roughly the same UK tax
+corporate rate of ~20%. It's no easier in Singapore as a small business than in
+the UK. Though the weather is a lot better.
+
+I would like to thank you in advance for your understanding and support, and I
+look forward to serving you long into the future wherever you or I may
+physically located. That said, if any of my customers are passing through
+Singapore, please get in touch!
