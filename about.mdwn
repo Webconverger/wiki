@@ -2,17 +2,20 @@
 
 # Best of class in Linux
 
-When your customers are looking for opensource or secure linux based systems to
-deploy in their organisation, the choice is Webconverger.
+When your customers are looking for opensource or secure linux based Web
+browser systems to deploy in their organisation, the choice is Webconverger.
 
 ## Hardware choice
 
 Google Chrome OS effectively only runs on [their mandated
-hardware](http://www.google.com/chromebook/find/). Typically not PCs. Typically
-locked to their software.
+hardware](http://www.google.com/chromebook/find/). Typically not industry
+standard PCs.
 
-This jeopardises your existing hardware relationships. Webconverger on other
-hand works on almost any PC compatible hardware.
+This jeopardises your existing hardware relationships. Webconverger on the
+other hand works on almost any PC compatible hardware.
+
+Use existing old rolling PC stock (with at least 1GB of RAM) for suppling your
+kiosk solution with Webconverger to your customers.
 
 ## Control the upsell
 
@@ -35,9 +38,10 @@ place](https://github.com/webconverger/webc). With our pioneering [[upgrade]]
 technology you can do things that are impossible in other systems, like roll
 back or lock/pin to a particular revision of software.
 
-For more information about the difference between Webconverger and Google Chrome OS, see [[blog/2015/ChromeOS_versus_Webconverger]].
+For more details, please read our [[blog/2015/ChromeOS_versus_Webconverger]]
+blog.
 
-# Windows arguments
+# Microsoft Windows arguments
 
 ## Does not need to replace Windows
 
@@ -63,3 +67,8 @@ Windows and our competitors by default log users surfing habits. We know this
 might be what your client wants, but what about the end user's privacy? Protect
 your client from legal challenges by using a Webconverger, a kiosk software
 solution that respects users privacy by default.
+
+# Pricing
+
+When you handle first line of support, we will provide generous commissions to
+our [clear pricing](https://webconverger.com/pricing/).
