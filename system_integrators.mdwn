@@ -7,8 +7,8 @@ browser systems to deploy in their organisation, the choice is Webconverger.
 
 ## Hardware choice
 
-Google Chrome OS effectively only runs on [their mandated
-hardware](http://www.google.com/chromebook/find/). Typically not industry
+Google Chrome OS effectively only runs on [mandated
+hardware](http://www.google.com/chromebook/find/), typically not industry
 standard PCs.
 
 This jeopardises your existing hardware relationships. Webconverger on the
@@ -19,7 +19,7 @@ kiosk solution with Webconverger to your customers.
 
 ## Control the upsell
 
-Google Chrome OS control the applications pushed to end systems.  With
+Google Chrome OS controls the applications pushed to end systems.  With
 Webconverger you have control over the Application ecosystem, by defining the
 Web applications the PC is locked to.
 
@@ -66,7 +66,7 @@ Webconverger takes minutes to setup. With free automatic updates, your **total c
 
 ## Privacy
 
-Windows client software typically by default log users surfing habits. Reports
+Windows client software typically by default log users' surfing habits. Reports
 and statistics might be what your client wants, but what about the end user's
 privacy? Your client can still have reports by running Web Analytics on their
 **own server site**. This approach with our [[API's ID expansions|API]] allows
@@ -78,7 +78,7 @@ software solution that respects users [[privacy]] by default.
 
 # System integrator commissions
 
-When you handle first line of support, we will provide generous commissions to
+When you handle first tier support, we will provide generous commissions to
 our [clear pricing](https://webconverger.com/pricing/).
 
 Please get in touch with <a href=sales+si@webconverger.com>sales</a> to learn
