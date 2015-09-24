@@ -2,7 +2,13 @@
 
 First work out the current version from <https://getfirefox.com>
 
-Get the 32bit version: `wget 'https://download.mozilla.org/?product=firefox-36.0.4-SSL&os=linux'`
+Get the 32bit version
+
+	ver=41.0; wget "https://download.mozilla.org/?product=firefox-$ver-SSL&os=linux" -O firefox-$ver.tar.bz2
+	open https://www.mozilla.org/en-US/firefox/$ver/releasenotes/
+
+	cd /tmp
+	tar zxvf ~/Downloads/firefox-$ver.tar.bz2
 
 	sudo mv firefox ~/debian/jessie-chroot/root/Debian-Live-config/webconverger/chroot/tmp/
 	/opt# mv firefox/ firefox-old
@@ -26,6 +32,7 @@ Delete searchplugins since they are not needed, except DDG.
 
 	/opt# cp -ra firefox-old/browser/extensions/ firefox/browser/
 	/opt# cp -ra firefox-old/browser/defaults/ firefox/browser/
+	/opt# cp -ra firefox-old/distribution/ firefox/
 
 Remove crash reporter
 
