@@ -5,9 +5,9 @@
 * [[Test|testing]] it
 * Just debug.log [[ping|privacy]], check clients config fetch
 * On gb, run `/srv/www/build.webconverger.org/sync.sh`
-* Update .htaccess and nginx config
+* Update [CDN index.php](https://github.com/Webconverger/dl/blob/master/index.php)
 * Back up old release to http://archive.webconverger.com/
-* Blog release notes, for [example](http://webconverger.org/blog/entry/Webconverger_26_release_notes/)
+* Blog release notes, for [example](http://webconverger.org/blog/2015/Webconverger_32_release/)
 
 * Mail [webc-users](https://github.com/Webconverger/dotCom/blob/master/list/maillist), linking blog entry, for [example](https://groups.google.com/forum/#!topic/webc-users/6rDiV-Sjhf8/discussion)
 * Log into [twitter](http://twitter.com/#!/webconverger) and tweet linking the release notes, for [example](http://twitter.com/webconverger/status/205963007925301248)
