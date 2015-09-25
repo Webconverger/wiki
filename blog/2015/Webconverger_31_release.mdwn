@@ -9,7 +9,7 @@ Two months ago was our momentous Jessie based [[Webconverger_30_release]] and si
 
 <https://github.com/webconverger/webc/compare/30.0...31.0> for details
 
-Please download from <http://dl.webconverger.com/latest.iso> and follow the [[USB imaging guide|usb]] to put it on a USB stick! The sha1sum is `4032c86eefdcbcb3486f7e00661d1f9920fffdf7`.
+Please download from <http://dl.webconverger.com/latest.iso> and follow the [[USB imaging guide|usb]] to put it on a USB stick! The sha1sum is `4032c86eefdcbcb3486f7e00661d1f9920fffdf7` for webc-31.0.iso.
 
 # What next?
 
