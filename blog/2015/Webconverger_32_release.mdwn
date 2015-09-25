@@ -65,4 +65,4 @@ interface without a URL bar|kiosk]] option.
 
 We hope that our [[policy|privacy]] gives users more confidence to use
 Webconverger branded kiosks in public spaces, since their privacy will be
-respected if they decide to surf private Web sites.
+respected if they are permitted by kiosk owners to surf private Web sites.
