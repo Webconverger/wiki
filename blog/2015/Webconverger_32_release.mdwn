@@ -27,15 +27,17 @@ preferences with our `prefs=` API to turn them back on for example.
 
 As mentioned what was coming next in [[Webconverger_31_release]], we did make
 boots a few seconds faster by closing
-[#220](https://github.com/Webconverger/webc/issues/220).
+[#220](https://github.com/Webconverger/webc/issues/220)!
 
 <https://github.com/webconverger/webc/compare/31.0...32.0> for details and
 [Firefox 41](https://www.mozilla.org/en-US/firefox/41.0/releasenotes/) is
-included!
+included.
 
 	c3c1ee4c594b50557ffdca62d56ff1e4b8bb106c  webc-32.0.iso
 
-Please download from our [CDN](http://dl.webconverger.com/latest.iso).
+Please download from our [CDN](http://dl.webconverger.com/latest.iso). Please
+support our continued operation by [purchasing a
+subscription](https://webconverger.com/pricing/).
 
 # No user tracking
 
