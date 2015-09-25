@@ -3,7 +3,7 @@ Prompted by the [disturbing privacy defaults in Windows
 and an enquiry whether Webconverger leaked any intranet information, we
 reviewed Firefox defaults.
 
-This was accomplished with [Wireshark](https://www.wireshark.org/), a tool that
+This review was accomplished with [Wireshark](https://www.wireshark.org/), a tool that
 allows us to analyse every packet leaving and entering a Webconverger instance.
 
 * [We did notice a lot of network noise chatter](https://www.youtube.com/watch?v=tVPiIruJ7rA) caused by safe browsing, location services & a media codec download
@@ -14,14 +14,14 @@ Strictly speaking these Firefox defaults don't leak any private information and
 elements like [safe
 browsing](https://en.wikipedia.org/wiki/Google_Safe_Browsing) should give an
 extra layer of malware protection, but in practice the network noise generated
-by these services are too risky. Some future exploit could masquerade as one of
-the services we turned off and it would have been very difficult to have
-noticed it otherwise. Furthermore "Safe browsing" doesn't really have value
-when a typical Webconverger deployment is [[locked|kiosk]] on a customer's
-homepage.
+by these services are too risky for [[security]]. Some future exploit could
+masquerade as one of the services we turned off and it would have been very
+difficult to have noticed it otherwise. Furthermore "Safe browsing" doesn't
+really have value when a typical Webconverger deployment is [[locked|kiosk]] on
+a customer's homepage.
 
 So our **quiet defaults** from version 32 can be overridden by your own Firefox
-preferences and our `prefs=` API to turn them back on for example.
+preferences with our `prefs=` API to turn them back on for example.
 
 # Webconverger 32 with non-noisy defaults and ...
 
@@ -48,7 +48,7 @@ We don't and by design can't log user activity from our end for [[privacy]]
 reasons. What we suggest customers do, is track the kiosk from their Web
 analytics platform:
 
-	homepage=http://example.com/kiosks/?id=WEBCID
+	homepage=https://example.com/kiosks/?id=WEBCID
 
 You could then use that expanded WEBCID for tracking the particular kiosk on
 your site.  Of course that strategy only **applies to Web sites the kiosk owner
