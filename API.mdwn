@@ -269,3 +269,18 @@ Please see [[artwork]].
 Add to your configuration:
 
 	hidecursor
+
+# Adjusting the volume to 100%
+
+We do set [volume to 100% by
+default](https://github.com/Webconverger/webc/blob/master/etc/webc/wireless#L20)
+however sometimes it might need tweaking, for example:
+
+	amixer=sset%20Master%20100%25
+
+# Tweaking the touch pad
+
+We have an interface on synclient
+
+	synclient=TapButton1%3D1
+
