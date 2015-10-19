@@ -4,11 +4,11 @@ First work out the current version from <https://getfirefox.com>
 
 Get the 32bit version
 
+	cd /tmp
 	ver=41.0; wget "https://download.mozilla.org/?product=firefox-$ver-SSL&os=linux" -O firefox-$ver.tar.bz2
 	open https://www.mozilla.org/en-US/firefox/$ver/releasenotes/
 
-	cd /tmp
-	tar zxvf ~/Downloads/firefox-$ver.tar.bz2
+	tar xvf firefox-$ver.tar.bz2
 
 	sudo mv firefox ~/debian/jessie-chroot/root/Debian-Live-config/webconverger/chroot/tmp/
 	/opt# mv firefox/ firefox-old
@@ -43,3 +43,11 @@ message, like please contact your system administrator.
 
 	git checkout firefox/mozilla.cfg
 	git checkout firefox/browser/searchplugins/DDG.xml
+
+# Remove useless items from langpacks
+
+	find /opt/firefox/langpacks/ -name devtools -type d | xargs rm -rf
+	find /opt/firefox/langpacks/ -name browser-region -type d | xargs rm -rf
+	find /opt/firefox/langpacks/ -name global-region -type d | xargs rm -rf
+	find /opt/firefox/langpacks/ -name searchplugins -type d | xargs rm -rf
+	find /opt/firefox/langpacks/ -name browser-pocket.properties | xargs rm
