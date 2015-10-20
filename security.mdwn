@@ -9,30 +9,26 @@ Webconverger unlike Windows for example does not require:
 
 Webconverger is [[designed|design]] for [[privacy]] and [[security]], based on:
 
-* opensource software
-* no super user
+* Transparency with [opensource software](https://github.com/webconverger/webc)
 * always clears private data once a session is ended (last tab is closed or by inactivity timeout)
-* does not store local data
 * does not require any signup or registration
 * does not snoop on users
 
-Webconverger has [[automatic updates|upgrade]] that keep your painlessly security patched.
+Once installed, Webconverger has [[automatic updates|upgrade]] that keep you
+deployment security patched. Note that fetched updated only apply at boot.
 
 We can support Enterprise IT administrators looking to finely tune updates and
 test updates before rolling them out.
 
 # Peer review
 
-Webconverger welcomes security review. Please email **security** AT webconverger.com with your findings.
+Webconverger welcomes security review. Please email **security** AT
+webconverger.com with your findings. Valid bugs are typically kindly
+[[acknowledged|acknowledgements]] building up your online reputation as an expert!
 
-Could reviewers please practice [responsible disclosure](http://www.google.com/corporate/security.html).
+Could security reviewers please practice [responsible disclosure](https://www.google.com/about/appsecurity/).
 
-* Webconverger is a member of the [Open Source Computer Emergency Response Team](http://ocert.org/team_and_members.html)
+* Webconverger is a member of the [Open Source Computer Emergency Response Team](https://ocert.org/team_and_members.html)
 * [Review by Andrew Patrick, Ph.D. of the Information Security Group](http://www.andrewpatrick.ca/security-and-privacy/quest-for-a-good-boot-cd-for-internet-banking/) of the [National Research Council Canada](http://www.nrc-cnrc.gc.ca/)
 
-# Secure Tempfiles
-
-Malware present on hacked sites has increasingly become an issue. To close one
-vector of attack, we have set up Webconverger's temporary files to not be
-executable by creating a new filesystem just for tempfiles and optioned with
-noexec.
+Please be vigilant and [[packet sniff Webconverger|wireshark]] yourself and please [monitor changes](https://github.com/Webconverger/webc/commits/master).
