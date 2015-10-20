@@ -1,6 +1,11 @@
 [[!meta title="Webconverger would like to thank"]]
 
-In no order as yet:
+Firstly we thank our customers who [purchase
+subscriptions](https://webconverger.com/pricing/) to keep this project funded &
+active. [Thousands](http://ping.webconverger.org/) of people use Webconverger
+to surf the Web in a controlled and private manner.
+
+Esteemed contributors in no order as yet:
 
 Anant Shrivastava, Wyemun Chin, Juanita Sabapathy, Benjamin Joffe, Peng Huang,
 Andreas Beckmann, Paul Craig, Dominique Goncalves, Paddy Byers, Koen Roggemans,
