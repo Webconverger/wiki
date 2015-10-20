@@ -22,13 +22,13 @@ file).
 the latest ISO, webc-VERSION.iso
 2. Download Disk Imager from
 <http://sourceforge.net/projects/win32diskimager/files/latest/download>
-3. The 'win32diskimager' binary should download as a zip file. Extract all files to a folder on the Desktop
+3. Run the installer and it should create a shortcut on your Desktop
 4. Insert your USB stick
 5. Note the drive letter assigned to your USB stick
-6. Start Disk Imager from your folder of extracted files on the Desktop
+6. Run **Win32DiskImager**
 	* On Windows 10 you might see a ["CreateProcess failed; code 740." Error](/img/2015/win10-win32imager.png)
-	* Right click on [**Run as administrator** the Imager](/img/2015/requireselevation.png)
-7. Select the downloaded file webc-VERSION.iso (you need to change the file filter to *.*) and target device, and click
+	* Right click on the icon & [**Run as administrator** the Imager](/img/2015/requireselevation.png)
+7. Select the downloaded file webc-VERSION.iso (you need to change the file filter to \*.\*) and target device, and click
 "Write" (Note: this will wipe all information you have on the selected USB stick.
 So be very careful to note the correct drive letter assigned to your USB stick
 at step.4)
@@ -49,7 +49,7 @@ representing letter like sdb, sdc etc.).
 
 	sudo dd if=webc-VERSION.iso of=/dev/sdx
 
-You might find specifying the additional argument `bs=1M` makes it faster.
+You might find specifying the additional argument `bs=1M` makes it faster & `status=progress` gives you progress bar.
 
 ## Configuring your PC to boot the USB key instead of your hard drive
 
@@ -62,5 +62,5 @@ boot that media, that is effectively _read only_ aka **Live** mode.
 
 When you Install Webconverger from the _Live media_ above, typically to that
 machine's hard drive or to [another USB
-key](https://www.youtube.com/watch?v=7Zmsj5DnQYo), only then it will
-**automatically update** aka keep "Evergreen".
+key](https://www.youtube.com/watch?v=7Zmsj5DnQYo), only then it will keep
+**[[automatically up to date|upgrade]]**.
