@@ -26,6 +26,8 @@ the latest ISO, webc-VERSION.iso
 4. Insert your USB stick
 5. Note the drive letter assigned to your USB stick
 6. Start Disk Imager from your folder of extracted files on the Desktop
+	* On Windows 10 you might see a ["CreateProcess failed; code 740." Error](/img/2015/win10-win32imager.png)
+	* Right click on [**Run as administrator** the Imager](/img/2015/requireselevation.png)
 7. Select the downloaded file webc-VERSION.iso (you need to change the file filter to *.*) and target device, and click
 "Write" (Note: this will wipe all information you have on the selected USB stick.
 So be very careful to note the correct drive letter assigned to your USB stick
