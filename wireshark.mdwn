@@ -5,7 +5,7 @@ Tools:
 * [Virtualbox](https://www.virtualbox.org/) for running Webconverger on your host system as a guest
 * [Wireshark](https://www.wireshark.org/) for packet sniffing
 
-Tested in Windows. Unfortunately Virtualbox bridged networkin under Linux tends to be broken.
+Tested in Windows. Unfortunately Virtualbox bridged networking under Linux tends to be broken.
 
 # Webconverger settings
 
