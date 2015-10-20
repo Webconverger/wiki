@@ -1,4 +1,4 @@
-# Opensource kiosk software to get you onto the Open Web
+# Opensource kiosk software to get you onto the Web
 
 * x86 version Based on Debian stable & uses latest Firefox stable releases. [5000+ deployments](http://ping.webconverger.org/)
 * [Rootfs in git](https://github.com/webconverger/webc) to roll out updates and keep transparent
@@ -44,13 +44,13 @@
 
 # Configuration management is a commercial product
 
-<https://webconverger.com> is a UK & Singapore registered company that powers
-this project.
+<https://webconverger.com> is a Singapore registered company that funds this
+project via [subscriptions](https://webconverger.com/pricing/) taken out by
+companies deploying Webconverger.
 
-The company provides a fault tolerant [configuration
-service](https://config.webconverger.com/faq) with email support to help you
-get your PCs up and running with Webconverger. Have a look at our
-[pricing](http://webconverger.com/pricing/).
+Webconverger maintains a proprietary fault tolerant [configuration
+service](https://config.webconverger.com) with email support to help deploy
+Webconverger en masse. The [service is optional](https://webconverger.com/screenshots/#webconverger-is-usable-unconfigured).
 
 # Reasons for using Webconverger
 
