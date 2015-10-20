@@ -49,7 +49,7 @@ representing letter like sdb, sdc etc.).
 
 	sudo dd if=webc-VERSION.iso of=/dev/sdx
 
-You might find specifying the additional argument `bs=1M` makes it faster & `status=progress` gives you progress bar.
+You might find specifying the additional argument `bs=1M` makes it faster & `status=progress` gives you a progress bar.
 
 ## Configuring your PC to boot the USB key instead of your hard drive
 
