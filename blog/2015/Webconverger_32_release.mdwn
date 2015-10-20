@@ -3,7 +3,7 @@ Prompted by the [disturbing privacy defaults in Windows
 and an enquiry whether Webconverger leaked any intranet information, we
 reviewed Firefox defaults.
 
-This review was accomplished with [Wireshark](https://www.wireshark.org/), a tool that
+This review was accomplished with [[Wireshark]], a tool that
 allows us to analyse every packet leaving and entering a Webconverger instance.
 
 * [We did notice a lot of network noise chatter](https://www.youtube.com/watch?v=tVPiIruJ7rA) caused by safe browsing, location services & a media codec download

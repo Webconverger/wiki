@@ -113,6 +113,10 @@ Then... you're not going to like this. Try all of these kernel cmdline options:
 
 	memtest noapic noapm nodma nomce nolapic nomodeset nosmp nosplash vga=normal
 
+# Packet sniffing
+
+Refer to the [[wireshark]] guide.
+
 # Debugging systemd
 
 	systemd.confirm_spawn=1
