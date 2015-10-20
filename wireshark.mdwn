@@ -1,0 +1,23 @@
+[[!meta title="How to packet sniff Webconverger"]]
+
+Tools:
+
+* [Virtualbox](https://www.virtualbox.org/) for running Webconverger on your host system as a guest
+* [Wireshark](https://www.wireshark.org/) for packet sniffing
+
+Tested in Windows. Unfortunately Virtualbox bridged networkin under Linux tends to be broken.
+
+# Webconverger settings
+
+<img src=/img/2015/aboutblank.png alt="most network quiet settings">
+
+	noping noconfig homepage=about:blank
+
+* `noping` disables the [machine ping for statistics](http://ping.webconverger.org/) as documented in [[privacy]]
+* `noconfig` disables the [configuration service](https://config.webconverger.com/)
+
+# Virtualbox settings
+
+Using **bridged networking** (it's NAT by default) and filter in Wireshark on the eth.src address of your guest.
+
+<img src=/img/2015/wireshark.png alt="Packet sniffing under Windows">
