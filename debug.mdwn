@@ -120,3 +120,7 @@ Refer to the [[wireshark]] guide.
 # Debugging systemd
 
 	systemd.confirm_spawn=1
+
+# Debugging autoconfig
+
+I host a test.js on my local httpd and configure [Firefox on Archlinux like so](http://s.natalian.org/2015-10-21/1445431661_1912x1036.png).
