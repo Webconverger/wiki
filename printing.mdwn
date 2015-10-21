@@ -83,11 +83,16 @@ the network.
 Add your printer to the client using the printer= API, using the an
 [appropriate device URI](/img/highlighted-printer-device-uri.png).
 
-# prefs= API to remove default header and footer
+# prefs= API to remove default header and footer when printing Web pages
 
-The prefs= API allows you to override Firefox preferences.
+	pref("print.print_headerleft", "");
+	pref("print.print_headercenter", "");
+	pref("print.print_headerright", "");
+	pref("print.print_footerleft", "");
+	pref("print.print_footercenter", "");
+	pref("print.print_footerright", "");
 
-For example `prefs=http://prefs.webconverger.com/2013/ricoh.js` removes header/footer for the printer named 'Ricoh'.
+Notice that these settings have no effect when printing a PDF.
 
 # Disable PDF.JS
 
@@ -101,9 +106,13 @@ viewer, which should default to epdfview viewer. PDFJS has issues like:
 * [Poor printing quality](https://bugzilla.mozilla.org/show_bug.cgi?id=932289)
 * <https://bugzilla.mozilla.org/show_bug.cgi?id=844090> also see [#146](https://github.com/Webconverger/webc/issues/146)
 
-# Setting default paper type to A4
+# Setting default paper type to US legal
 
-	pref("print.postscript.paper_size", "A4");
+	pref("print.print_paper_name", "na_letter");
+	pref("print.print_paper_size_type", 1);
+	pref("print.print_paper_size_unit", 0);
+	pref("print.print_paper_width", "  8.50");
+	pref("print.print_paper_height", " 11.00");
 
 # Printing to a [PDF file](http://en.wikipedia.org/wiki/PDF) to a remote machine on your network
 
