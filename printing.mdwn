@@ -96,14 +96,7 @@ Notice that these settings have no effect when printing a PDF.
 
 Or just add to your configuration: `prefs=http://prefs.webconverger.com/2015/no-header-or-footer.js`
 
-# Disable PDF.JS
-
-A preference override such as:
-
-	pref("pdfjs.disabled", true);
-
-Disables the default [Mozilla PDF](https://mozillalabs.com/en-US/pdfjs/)
-viewer, which should default to epdfview viewer. PDFJS has issues like:
+# Printing PDFs
 
 * [Poor printing quality](https://bugzilla.mozilla.org/show_bug.cgi?id=932289)
 * <https://bugzilla.mozilla.org/show_bug.cgi?id=844090> also see [#146](https://github.com/Webconverger/webc/issues/146)
