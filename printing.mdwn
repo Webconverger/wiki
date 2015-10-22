@@ -94,6 +94,8 @@ Add your printer to the client using the printer= API, using the an
 
 Notice that these settings have no effect when printing a PDF.
 
+Or just add to your configuration: `prefs=http://prefs.webconverger.com/2015/no-header-or-footer.js`
+
 # Disable PDF.JS
 
 A preference override such as:
