@@ -1,3 +1,7 @@
+Update: [ChromeOS is being merged into
+Android](https://news.ycombinator.com/item?id=10474206) news brings uncertainty
+and change. Choose **stability** with Webconverger instead!
+
 Webconverger's main competitor especially in the K12 school (assessments)
 market is Google with their Google Chrome OS aka Chrome{books,box} product,
 which is typically sold as a hardware and software bundle.
