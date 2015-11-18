@@ -46,7 +46,14 @@ If you're concerned about the scroll bar, alter the **overflow** CSS element.
 # Source code
 
 * [Webconverger extension source code](https://github.com/Webconverger/webconverger-addon/)
-* [Sample debugging session of the extension in Webconverger](http://r2d2.webconverger.org/2012-11-05/debug.html)
+
+## Preferences locations
+
+Locking down Firefox is a [project on its own](https://github.com/pyllyukko/user.js). In Webconverger logic to disable various Firefox anti-features reside in:
+
+* <https://github.com/Webconverger/webc/blob/master/opt/firefox/browser/defaults/preferences/webconverger.js>
+* <https://github.com/Webconverger/webconverger-addon> for example to disable <https://support.mozilla.org/en-US/kb/refresh-firefox-reset-add-ons-and-settings>
+* <https://github.com/Webconverger/webc/blob/master/opt/firefox/distribution/distribution.ini>
 
 ## Notes on keeping the extension free of cruft
 
