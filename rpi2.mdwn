@@ -13,7 +13,8 @@ Currently this port is designed for <abbr title="Digital Out of
 Home">DOOH</abbr> / Signage applications. It can be used as a kiosk, though it
 will not have a "chrome", i.e. [[user interface options|kiosk]] is set to `chrome=webcfullscreen`.
 
-[Installation instructions](https://github.com/Webconverger/rpi2/blob/master/README.md)
+* [Installation instructions](https://github.com/Webconverger/rpi2/blob/master/README.md)
+* [Video of preparing the Webconverger microSD from Windows 10](https://www.youtube.com/watch?v=X4B0emkwvaw)
 
 A >= 4GB microSD card is recommended.
 
