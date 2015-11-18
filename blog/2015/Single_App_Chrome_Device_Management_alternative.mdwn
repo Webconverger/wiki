@@ -8,13 +8,14 @@ which Webconverger has offered for several years now via
 <https://config.webconverger.com/>.
 
 Google are charging 24USD a year for the service where we typically sell the
-[200USD one off](https://webconverger.com/pricing) charge. Over the 7+ years
-we've offered commercial services supplying kiosk & signage OS software, our
-customers tell us they much prefer the one off cost. Hardware wise, currently
-our full featured flagship product using the Firefox browser is PC only. Chrome
-OS is generally locked to particular hardware. We did make an effort to support
-the [[Raspberry Pi2|rpi2]], though recently efforts have somewhat stalled due a
-[Broadcom graphics issue](http://dabase.com/blog/Webkit_on_Rpi2/).
+[200USD one off](https://webconverger.com/pricing) (bulk discounts available!)
+charge. Over the 7+ years we've offered commercial services supplying kiosk &
+signage OS software, our customers tell us they much prefer the one off cost.
+Hardware wise, currently our full featured flagship product using the Firefox
+browser is PC only. Chrome OS is generally locked to particular hardware. We
+did make an effort to support the [[Raspberry Pi2|rpi2]], though recently
+efforts have somewhat stalled due a [Broadcom graphics
+issue](http://dabase.com/blog/Webkit_on_Rpi2/).
 
 Besides the differences outlined in [[blog/2015/ChromeOS_versus_Webconverger]],
 we do not allow remote screen grabs as we think it can violate user
