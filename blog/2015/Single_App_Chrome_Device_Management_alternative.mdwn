@@ -7,15 +7,15 @@ title="Single App Chrome Device Management">Single App CDM</abbr> mode</a> aka
 which Webconverger has offered for several years now via
 <https://config.webconverger.com/>.
 
-Google are charging 24USD a year for the service where we typically sell the
-[200USD one off](https://webconverger.com/pricing) (bulk discounts available!)
-charge. Over the 7+ years we've offered commercial services supplying kiosk &
-signage OS software, our customers tell us they much prefer the one off cost.
-Hardware wise, currently our full featured flagship product using the Firefox
-browser is PC only. Chrome OS is generally locked to particular hardware. We
-did make an effort to support the [[Raspberry Pi2|rpi2]], though recently
-efforts have somewhat stalled due a [Broadcom graphics
-issue](http://dabase.com/blog/Webkit_on_Rpi2/).
+Google are charging 24USD a year for the service where we sell the service for
+[200USD one off](https://webconverger.com/pricing) (bulk discounts available!).
+Over the 7+ years we've offered commercial services supplying kiosk & signage
+OS software, our customers tell us they much prefer the one off cost since it's
+easier to budget for.  Hardware wise, currently our _full_ featured flagship
+product using the Firefox browser is PC only. Chrome OS is generally locked to
+particular hardware. We did make an effort to support the [[Raspberry
+Pi2|rpi2]], though recently efforts have somewhat stalled due a [Broadcom
+graphics issue with Webkit2](http://dabase.com/blog/Webkit_on_Rpi2/).
 
 Besides the differences outlined in [[blog/2015/ChromeOS_versus_Webconverger]],
 we do not allow remote screen grabs as we think it can violate user
@@ -23,9 +23,9 @@ we do not allow remote screen grabs as we think it can violate user
 the surfing session like out competitors do. We believe it is upto the
 configured homepage to determine how it was used.
 
-So to summarise, we ask you to please consider Webconverger on PC as
+So to summarise, we ask you to please consider Webconverger on PC as an
 alternative to Google Chrome OS on Chromebit with <abbr title="Single App
-Chrome Device Management">Single App CDM</abbr>.
+Chrome Device Management">Single App CDM</abbr> since:
 
 * [Webconverger is more transparent](https://github.com/Webconverger/webc/commits/master)
 * Webconverger cares more about [[privacy]]
@@ -33,6 +33,6 @@ Chrome Device Management">Single App CDM</abbr>.
 * We will not upsell you any Google service
 * Supporting our work, will be indirectly support work for cheaper ARM based hardware support
 
-Please ask for us [alternative kiosk
+Please ask us for an [alternative kiosk
 quote](https://config.webconverger.com/quote/) where you can use your existing
-PC stock instead of being locked into the Google ecosystem.
+PC supplier/stock instead of being locked into the Google ecosystem.
