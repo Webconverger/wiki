@@ -1,0 +1,34 @@
+Google have announced the
+[chromebit](http://techcrunch.com/2015/11/17/google-and-asus-launch-the-85-chromebit-a-chrome-os-desktop-on-an-hdmi-stick/)
+<a
+href=http://googleforwork.blogspot.com.es/2015/11/reaching-customers-with-kiosks-and-digital-signage-just-got-simpler.html><abbr
+title="Single App Chrome Device Management">Single App CDM</abbr> mode</a>
+which Webconverger has offered for several years now via <https://config.webconverger.com/>.
+
+Google are charging 24USD a year for the service and we typically sell the
+[200USD one off](http://webconverger.com/pricing) charge. Our the 7+ years
+we've offered commercial services, our customers tell us they much prefer the
+one off cost. Hardware wise, currently our flagship product using the Firefox
+browser is PC only. Chrome OS is generally locked to particular hardware. We
+did make an effort to support the [[Raspberry Pi2|rpi2]], though has efforts
+have somewhat stalled due a [Broadcom graphics
+issue](http://dabase.com/blog/Webkit_on_Rpi2/).
+
+Besides the differences outlined in [[blog/2015/ChromeOS_versus_Webconverger]],
+we do not allow remote screen grabs as we think it can violet use [[privacy]].
+We also cannot tell how our kiosk is used. That's upto the configured homepage
+to determine how it was used.
+
+So to summarise, we ask to consider Webconverger on PC as alternative to Google
+Chrome OS on Chromebit with <abbr title="Single App Chrome Device
+Management">Single App CDM</abbr>.
+
+* [Webconverger is more transparent](https://github.com/Webconverger/webc/commits/master)
+* Webconverger cares more about [[privacy]]
+* Webconverger is not Google. We do not depend on any Google service.
+* We will not upsell you any Google service
+* Supporting our work, will be indirectly support work for cheaper ARM based hardware support
+
+Please ask for us [alternative quote](https://config.webconverger.com/quote/)
+where you can use your existing PC stock instead of being locked into the
+Google ecosystem.
