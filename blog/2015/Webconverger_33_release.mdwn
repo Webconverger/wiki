@@ -1,0 +1,22 @@
+# Webconverger 33 release notes
+
+<img src=/img/2015/33.png alt="Webconverger 33 release">
+
+This is very solid & stable release that businesses all around the world should
+be deploying Web applications with.
+
+* [Firefox 42](https://www.mozilla.org/en-US/firefox/42.0/releasenotes/)
+* Flash [11.2.202.548](https://helpx.adobe.com/security/products/flash-player/apsb15-28.html)
+* Further tweaks and lock downs
+* <https://github.com/webconverger/webc/compare/32.0...33.1> for details
+
+The `sha256sum` for the image available on the
+[CDN](http://dl.webconverger.com/latest.iso) is:
+
+	b33927b80799cb874d30faf72488dde173716abe3658c48c267417344fcfe942  webc-33.1.iso
+
+For those "power" system administrators, to celebrate the latest Wireshark
+release 2.0, here is a [capture with
+`homepage=about:blank`](/img/2015/aboutblank-33.pcapng). This should re-assure
+deployers that we [[keeping network noise to a
+minimum|Webconverger_32_release]] for you [[privacy]] and security.
