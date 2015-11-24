@@ -10,8 +10,8 @@ be deploying Web applications with.
 * Further tweaks and lock downs
 * <https://github.com/webconverger/webc/compare/32.0...33.1> for details
 
-The `sha256sum` for the image available on the
-[CDN](http://dl.webconverger.com/latest.iso) is:
+The `sha256sum` for the image [available for download on the
+CDN](http://dl.webconverger.com/latest.iso) is:
 
 	b33927b80799cb874d30faf72488dde173716abe3658c48c267417344fcfe942  webc-33.1.iso
 
@@ -19,4 +19,4 @@ For those "power" system administrators, to celebrate the latest Wireshark
 release 2.0, here is a [capture with
 `homepage=about:blank`](/img/2015/aboutblank-33.pcapng). This should re-assure
 deployers that we [[keeping network noise to a
-minimum|Webconverger_32_release]] for you [[privacy]] and security.
+minimum|Webconverger_32_release]] for your [[privacy]] and security.
