@@ -5,6 +5,12 @@
 When your customers are looking for opensource or secure linux based Web
 browser systems to deploy in their organisation, the choice is Webconverger.
 
+You don't need to have any expertise in Linux. Webconverger is **Turnkey**. You
+don't need any training. Everything is managed from an [easy to use
+configuration
+panel](https://webconverger.com/screenshots/#creating-a-new-configuration-requires-an-email-address)
+or by contacting support with your request!
+
 ## Hardware choice
 
 Google Chrome OS effectively only runs on [mandated
@@ -14,7 +20,7 @@ standard PCs.
 This jeopardises your existing hardware relationships. Webconverger on the
 other hand works on almost any PC compatible hardware.
 
-Use existing old rolling PC stock (with at least 1GB of RAM) for suppling your
+Use existing old rolling PC stock (with at least 1GB of RAM) for supplying your
 kiosk solution with Webconverger to your customers.
 
 ## Control the upsell
