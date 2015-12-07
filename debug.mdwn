@@ -124,3 +124,11 @@ Refer to the [[wireshark]] guide.
 # Debugging autoconfig
 
 I host a test.js on my local httpd and configure [Firefox on Archlinux like so](http://s.natalian.org/2015-10-21/1445431661_1912x1036.png).
+
+# Howto test printing
+
+Use `cups-pdf` and a stanza like:
+
+	printer=Printer,http://printer:631/printers/Virtual_PDF_Printer,drv:///sample.drv/generpcl.ppd
+
+Please [watch the How printing is tested on Webconverger with a Virtual PDF printer video for a walkthrough](https://www.youtube.com/watch?v=nJ1sPLcLC9k).
