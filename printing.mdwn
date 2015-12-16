@@ -42,14 +42,14 @@ For example a Ricoh Aficio SP 4310N with [PPD](http://en.wikipedia.org/wiki/Post
 
 Instead of specifying a remote
 [PPD](http://en.wikipedia.org/wiki/PostScript_Printer_Description), you should
-ideally use the internal (generic) drivers: "drv:///sample.drv/generpcl.ppd" or
-"drv:///sample.drv/generic.ppd".
+ideally use the internal (generic) drivers: "drv:///sample.drv/generpcl.ppd" (older PCL) or
+"drv:///sample.drv/generic.ppd" (Postscript).
 
 For example a network printer 192.168.1.10 named "helpdesk" with dns name
 printer is very likely to have "Laser printer"
 [PCL](http://en.wikipedia.org/wiki/Printer_Command_Language) support:
 
-	printer=helpdesk,socket://printer,drv:///sample.drv/generpcl.ppd
+	printer=helpdesk,socket://printer,lsb/usr/cupsfilters/Generic-PDF_Printer-PDF.ppd
 
 However if your printer supports PostScript, you might find using the "Generic
 PostScript Printer" driver `drv:///sample.drv/generic.ppd` result in better
@@ -130,7 +130,7 @@ accessed by your clients. To find the device URI of your CUPS printer, it's the
 Once you know the printer's device URI, you then setup your Webconverger
 clients like so:
 
-	printer=PDF,http://192.168.0.1:631/printers/Virtual_PDF_Printer,drv:///sample.drv/generic.ppd
+	printer=PDF,http://192.168.0.1:631/printers/Virtual_PDF_Printer,lsb/usr/cupsfilters/Generic-PDF_Printer-PDF.ppd
 
 On the print server, you should be able to see "Send-Document successful-ok"
 whilst viewing the log like so `tail -f /var/log/cups/access_log`.
