@@ -1,4 +1,4 @@
-[[!meta title="How to setup a network printer with Webconverger 🖶"]]
+[[!meta title="🖨 How to setup a network printer with Webconverger 🖶"]]
 
 # [CTRL]+[p]
 
