@@ -1,11 +1,6 @@
-[[!meta title="How to setup a network printer with Webconverger"]]
+[[!meta title="How to setup a network printer with Webconverger 🖶"]]
 
 # [CTRL]+[p]
-
-Webconverger utilises CUPS 1.5 which auto-detects CUPS <1.6 servers using
-"BrowsePoll" for CUPS Browsing for sharing and discovery. This "auto setup"
-feature is [removed in CUPS
-1.6](http://cups.org/newsgroups.php?s25812+gcups.general+v25830+T0).
 
 Holding down the [Control] and [p] keys on your keyboard gives you the printing
 dialog. Or you can use the `showprintbutton` [[API]] to show a print icon to
@@ -15,22 +10,13 @@ your users.
 guidelines](https://support.mozilla.org/en-US/kb/how-print-websites) can help
 you improve prints.
 
-If you do **not see your printer in that dialog** or you just see "Print to
-File", _your_ print server is **not correctly configured**.
-
-So unfortunately [the user experience of just using detected "auto setup" printers is no longer
-supported in
-CUPS](http://cups.org/newsgroups.php?s25831+gcups.general+v25832+T1). You now
-need to "Add printer..." up front, and hence we have introduced the `printer=`
-API for you to do this.
-
 # Helping us support you
 
 For our customers, please print out the "Printer Settings" report and send it
 to us (a good capture from your mobile is usually sufficient) together with
 your printer query.
 
-# printer= API
+# printer= API to declare your network printers to Webconverger
 
 [the printer= API](https://github.com/Webconverger/webc/issues/145) has syntax like so:
 
@@ -40,7 +26,7 @@ For example a Ricoh Aficio SP 4310N with [PPD](http://en.wikipedia.org/wiki/Post
 
 	printer=lab1,http://192.168.1.5/printer,http://prefs.webconverger.com/2013/ricoh.ppd
 
-A [Dell B2360dn laser printer](http://s.natalian.org/2015-12-16/printer-setup-page.pdf) could be:
+A [Dell B2360dn laser printer](http://s.natalian.org/2015-12-16/printer-setup-page.pdf) example could be:
 
 	printer=DellPrinter,socket://10.0.6.34,http://prefs.webconverger.com/2015/Dell_B2360d-dn_Laser_Printer.ppd
 
@@ -68,16 +54,15 @@ printers to print to.
 
 Buy a printer with a **network port**. These printers are generally more
 expensive and _generally_ have Postscript/PDF printing support built in. Some
-do not have a print server or [are simply
-buggy](http://cups.org/newsgroups.php?s25812+gcups.general+v25827+T1). So make
-sure you purchase it with a good exchange / refund policy.
+do not have a print server or are simply buggy, so make sure you purchase it
+with a good exchange / refund policy.
 
 <http://www.cups.org/documentation.php/network.html>
 
 Discovering the "device URI" can be alarmingly difficult. Usually
-socket://$PRINTER_IP_ADDRESS will probably work. If in doubt send your [printer
-setup page](http://s.natalian.org/2015-12-16/printer-setup-page.pdf) to
-support.
+`socket://$PRINTER_IP_ADDRESS` will probably work. If in doubt send your
+[printer setup page](http://s.natalian.org/2015-12-16/printer-setup-page.pdf)
+to support.
 
 ## Using a CUPS server with (attached) printer shared upon it
 
