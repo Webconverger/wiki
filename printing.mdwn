@@ -40,38 +40,44 @@ For example a Ricoh Aficio SP 4310N with [PPD](http://en.wikipedia.org/wiki/Post
 
 	printer=lab1,http://192.168.1.5/printer,http://prefs.webconverger.com/2013/ricoh.ppd
 
+A [Dell B2360dn laser printer](http://s.natalian.org/2015-12-16/printer-setup-page.pdf) could be:
+
+	printer=DellPrinter,socket://10.0.6.34,http://prefs.webconverger.com/2015/Dell_B2360d-dn_Laser_Printer.ppd
+
 Instead of specifying a remote
 [PPD](http://en.wikipedia.org/wiki/PostScript_Printer_Description), you should
 ideally use the internal (generic) drivers: "drv:///sample.drv/generpcl.ppd" (older PCL) or
-"drv:///sample.drv/generic.ppd" (Postscript).
+"drv:///sample.drv/generic.ppd" (Postscript) as described by [lpinfo -m](/static/2016/lpinfo-m.txt).
 
 For example a network printer 192.168.1.10 named "helpdesk" with dns name
-printer is very likely to have "Laser printer"
+printer is very likely to have some form of
 [PCL](http://en.wikipedia.org/wiki/Printer_Command_Language) support:
 
-	printer=helpdesk,socket://printer,lsb/usr/cupsfilters/Generic-PDF_Printer-PDF.ppd
+	printer=helpdesk,socket://printer,drv:///sample.drv/generpcl.ppd
 
-However if your printer supports PostScript, you might find using the "Generic
-PostScript Printer" driver `drv:///sample.drv/generic.ppd` result in better
-quality prints.
+However if your printer supports PostScript (it really should!), you might find
+using the "Generic PostScript Printer" driver `drv:///sample.drv/generic.ppd`
+result in **better quality prints**. Modern printers might support
+`lsb/usr/cupsfilters/Generic-PDF_Printer-PDF.ppd` which one can think of as a
+modern form of "postscript".
 
 You can have multiple `printer=` lines and hence give your users several
 printers to print to.
 
-# Two typical printing configurations
-
-## Using a network printer
+# Webconverger requires a network printer
 
 Buy a printer with a **network port**. These printers are generally more
-expensive and _generally_ have IPP support built in. Some do not have an IPP
-print server or [are simply
+expensive and _generally_ have Postscript/PDF printing support built in. Some
+do not have a print server or [are simply
 buggy](http://cups.org/newsgroups.php?s25812+gcups.general+v25827+T1). So make
 sure you purchase it with a good exchange / refund policy.
 
 <http://www.cups.org/documentation.php/network.html>
 
 Discovering the "device URI" can be alarmingly difficult. Usually
-socket://$PRINTER_IP_ADDRESS will probably work.
+socket://$PRINTER_IP_ADDRESS will probably work. If in doubt send your [printer
+setup page](http://s.natalian.org/2015-12-16/printer-setup-page.pdf) to
+support.
 
 ## Using a CUPS server with (attached) printer shared upon it
 

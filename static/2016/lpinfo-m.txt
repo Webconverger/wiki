@@ -1,0 +1,33 @@
+lsb/usr/cupsfilters/Fuji_Xerox-DocuPrint_CM305_df-PDF.ppd Fuji Xerox
+drv:///sample.drv/dymo.ppd Dymo Label Printer
+drv:///sample.drv/epson9.ppd Epson 9-Pin Series
+drv:///sample.drv/epson24.ppd Epson 24-Pin Series
+drv:///sample.drv/stcolor2.ppd Epson New Stylus Color Series
+drv:///sample.drv/stphoto2.ppd Epson New Stylus Photo Series
+drv:///sample.drv/stcolor.ppd Epson Stylus Color Series
+drv:///sample.drv/stphoto.ppd Epson Stylus Photo Series
+drv:///cupsfilters.drv/pwgrast.ppd Generic IPP Everywhere Printer
+drv:///sample.drv/generpcl.ppd Generic PCL Laser Printer
+lsb/usr/cupsfilters/Generic-PDF_Printer-PDF.ppd Generic PDF Printer
+drv:///sample.drv/generic.ppd Generic PostScript Printer
+lsb/usr/cupsfilters/textonly.ppd Generic text-only printer
+lsb/usr/cupsfilters/HP-Color_LaserJet_CM3530_MFP-PDF.ppd HP Color LaserJet CM3530 MFP PDF
+lsb/usr/cupsfilters/pxlcolor.ppd HP Color LaserJet Series PCL 6 CUPS
+drv:///cupsfilters.drv/dsgnjt600pcl.ppd HP DesignJet 600 pcl, 1.0
+drv:///cupsfilters.drv/dsgnjt750cpcl.ppd HP DesignJet 750c pcl, 1.0
+drv:///cupsfilters.drv/dsgnjt1050cpcl.ppd HP DesignJet 1050c pcl, 1.0
+drv:///cupsfilters.drv/dsgnjt4000pcl.ppd HP DesignJet 4000 pcl, 1.0
+drv:///cupsfilters.drv/dsgnjtt790pcl.ppd HP DesignJet T790 pcl, 1.0
+drv:///cupsfilters.drv/dsgnjtt1100pcl.ppd HP DesignJet T1100 pcl, 1.0
+drv:///sample.drv/deskjet.ppd HP DeskJet Series
+drv:///sample.drv/laserjet.ppd HP LaserJet Series PCL 4/5
+lsb/usr/cupsfilters/pxlmono.ppd HP LaserJet Series PCL 6 CUPS
+lsb/usr/cupsfilters/HP-PhotoSmart_Pro_B8300-hpijs-pdftoijs.ppd HP PhotoSmart Pro B8300 CUPS/pdftoijs/hpijs
+drv:///sample.drv/intelbar.ppd Intellitech IntelliBar Label Printer, 1.5
+drv:///sample.drv/okidata9.ppd Oki 9-Pin Series
+drv:///sample.drv/okidat24.ppd Oki 24-Pin Series
+raw Raw Queue
+drv:///sample.drv/zebracpl.ppd Zebra CPCL Label Printer
+drv:///sample.drv/zebraep1.ppd Zebra EPL1 Label Printer
+drv:///sample.drv/zebraep2.ppd Zebra EPL2 Label Printer
+drv:///sample.drv/zebra.ppd Zebra ZPL Label Printer

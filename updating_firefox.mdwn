@@ -42,7 +42,6 @@ Make sure nothing is deleted / missing. Otherwise you might get a strange error
 message, like please contact your system administrator.
 
 	git checkout firefox/mozilla.cfg
-	git checkout firefox/browser/searchplugins/DDG.xml
 
 # Remove useless items from langpacks
 
