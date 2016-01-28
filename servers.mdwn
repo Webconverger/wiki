@@ -73,9 +73,11 @@ On a bronze package at 25USD a month.
 * <https://wss.webconverger.com> - bought with <https://sslmate.com/>:
 
 
+<pre>
 	X1C3:~$ sslmate list
 	Name                  Type  Status  Expiration  Local Status
 	wss.webconverger.com  DV    Active  2016-04-09  None
+</pre>
 
 
 # Email
