@@ -17,8 +17,8 @@ Webconverger is [[designed|design]] for [[privacy]] and [[security]], based on:
 Once installed, Webconverger has [[automatic updates|upgrade]] that keep you
 deployment security patched. Note that fetched updates only apply at boot.
 
-We can support Enterprise IT administrators looking to finely tune updates and
-test updates before rolling them out.
+We can support Enterprise IT administrators looking to finely tune update roll
+outs.
 
 # Peer review
 
@@ -26,9 +26,10 @@ Webconverger welcomes security review. Please email **security** AT
 webconverger.com with your findings. Valid bugs are typically kindly
 [[acknowledged|acknowledgements]] building up your online reputation as an expert!
 
-Could security reviewers please practice [responsible disclosure](https://www.google.com/about/appsecurity/).
+Could security reviewers please practice [responsible disclosure](https://en.wikipedia.org/wiki/Responsible_disclosure).
 
 * Webconverger is a member of the [Open Source Computer Emergency Response Team](https://ocert.org/team_and_members.html)
 * [Review by Andrew Patrick, Ph.D. of the Information Security Group](http://www.andrewpatrick.ca/security-and-privacy/quest-for-a-good-boot-cd-for-internet-banking/) of the [National Research Council Canada](http://www.nrc-cnrc.gc.ca/)
+* Webconverger has been reviewed by "kiosk hacker" Paul Craig of <http://ikat.ha.cked.net/>
 
 Please be vigilant: [[Packet sniff Webconverger|wireshark]] and [monitor changes](https://github.com/Webconverger/webc/commits/master).
