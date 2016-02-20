@@ -1,0 +1,32 @@
+With the arrival of free SSL certificates from [Lets
+Encrypt](https://letsencrypt.org/), together with a kind offer from [Fastly
+CDN](https://www.fastly.com/) <a
+href=https://www.fastly.com/network-map>(locations)</a> to help distribute
+Webconverger since we are an opensource project, we serving the ISOs over SSL
+from <https://dl.webconverger.com/latest.iso>. If there is a download problem,
+please get in touch & try this
+[backup](https://webcdl.s3-eu-west-1.amazonaws.com/webc-34.0.iso).
+
+So serving over SSL greatly reduces the chance of some malicious actor
+intercepting your connection to our server and giving you a corrupt version of
+our ISO.  That's never happened to our knowledge, though why not make it even
+less likely going into the future?! The `sha256sum` is:
+
+	a3d71fbd55d4eac2f65ceeefff557f57ab3b76e41ecd25d00c69b65c0d522667  webc-34.0.iso
+	2d7a9d6f2a4ec3cc48926f2362d86485e1080169e4940ad187be4b9b5bccf57a  webc-34.0.txt
+
+Updates include:
+
+* [Firefox 44](https://www.mozilla.org/en-US/firefox/44.0.2/releasenotes/)
+* Ongoing security updates including the recent [CVE-2015-7547](https://googleonlinesecurity.blogspot.sg/2016/02/cve-2015-7547-glibc-getaddrinfo-stack.html) which we [patched quickly](https://twitter.com/webconverger/status/699912899742060545) thanks to the fantastic work of the [Debian security team](https://www.debian.org/security/).
+* Added Cambodian (Khmer) fonts via [Google's fonts-noto package](https://en.wikipedia.org/wiki/Noto_fonts)
+* <https://github.com/webconverger/webc/compare/33.1...34.0> for details
+
+Please [follow @webconverger](https://twitter.com/webconverger) on twitter for the very latest news.
+
+# Future plans
+
+* We hope to move to [systemd-networkd](https://github.com/Webconverger/webc/issues/222) for the next release
+* We have someone new taking maintainership of the [Rpi2](https://webconverger.org/rpi2/) version, so expect some updates in the near future
+* Keep absolutely rock solid & security patched for your business processes to run smoothly on the open Web!
+* Please support our ongoing work by [purchasing a subscription](https://webconverger.com/pricing/)
