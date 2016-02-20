@@ -2,9 +2,9 @@ With the arrival of free SSL certificates from [Lets
 Encrypt](https://letsencrypt.org/), together with a kind offer from [Fastly
 CDN](https://www.fastly.com/) <a
 href=https://www.fastly.com/network-map>(locations)</a> to help distribute
-Webconverger since we are an opensource project, we serving the ISOs over SSL
-from <https://dl.webconverger.com/latest.iso>. If there is a download problem,
-please get in touch & try this
+Webconverger since we are an opensource project, we are now serving our ISO
+over SSL from <https://dl.webconverger.com/latest.iso>. If there is a download
+problem, please get in touch & try this
 [backup](https://webcdl.s3-eu-west-1.amazonaws.com/webc-34.0.iso).
 
 So serving over SSL greatly reduces the chance of some malicious actor
