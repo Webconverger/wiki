@@ -26,7 +26,7 @@ Please [follow @webconverger](https://twitter.com/webconverger) on twitter for t
 
 # Future plans
 
-* We hope to move to [systemd-networkd](https://github.com/Webconverger/webc/issues/222) for the next release
+* We hope to move to [systemd-networkd](https://github.com/Webconverger/webc/issues/222) for the next release. This should shave seconds off boot times.
 * We have someone new taking maintainership of the [Rpi2](https://webconverger.org/rpi2/) version, so expect some updates in the near future
 * Keep absolutely rock solid & security patched for your business processes to run smoothly on the open Web!
 * Please support our ongoing work by [purchasing a subscription](https://webconverger.com/pricing/)
