@@ -1,3 +1,5 @@
+<img src=/img/2016/verified.png alt="SSL by Lets Encrypt in Webconverger">
+
 With the arrival of free SSL certificates from [Lets
 Encrypt](https://letsencrypt.org/), together with a kind offer from [Fastly
 CDN](https://www.fastly.com/) <a
