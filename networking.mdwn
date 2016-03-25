@@ -1,3 +1,7 @@
+<div class="notebox">
+Note: We do not support static/fixed IP addresses.
+</div>
+
 Ideally Webconverger **should** be deployed in a **wired network** with a
 **DHCP server**, instead of a potentially unstable [[wireless]] connection.
 
