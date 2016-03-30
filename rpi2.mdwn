@@ -1,6 +1,8 @@
-[[!meta title="Webconverger for Raspberry PI 2"]]
+[[!meta title="Webconverger for Raspberry PI 2 & 3"]]
 
-# Webconverger for Raspberry PI 2 port
+<div class="notebox">We also support the <a href=https://twitter.com/webconverger/status/709405833709297664>Rpi3</a> with our Rpi2 binaries!</div>
+
+# Webconverger for Raspberry PI 2/3 port
 
 A curated
 [auto-updating](https://github.com/Webconverger/rpi2/blob/master/usr/bin/webc-upgrade)
