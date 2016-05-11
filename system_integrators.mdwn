@@ -2,10 +2,11 @@
 
 # Best of class in Linux
 
-When your customers are looking for opensource or secure linux based Web
-browser systems to deploy in their organisation, the choice is Webconverger.
+When your customers are looking for an opensource **stateless** secure linux
+based Web browser systems to deploy in their organisation, the choice is
+Webconverger.
 
-You don't need to have any expertise in Linux. Webconverger is **Turnkey**. You
+You don't need to have any expertise in Linux. Webconverger is **turnkey**. You
 don't need any training. Everything is managed from an [easy to use
 configuration
 panel](https://webconverger.com/screenshots/#creating-a-new-configuration-requires-an-email-address)
