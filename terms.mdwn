@@ -4,18 +4,18 @@ The canonical location of Webconverger's Terms and Conditions is
 <https://webconverger.org/terms/>.
 
 It comes complete with a
-[changelog](http://source.webconverger-org.branchable.com/?p=source.git;a=history;f=terms.mdwn;hb=HEAD)
+[changelog](//source.webconverger-org.branchable.com/?p=source.git;a=history;f=terms.mdwn;hb=HEAD)
 and is subject to change.
 
 ### Interpretation
 
 This agreement is written in plain English and should be read as such. This
-agreement is subject to English law in the jurisdiction of the United Kingdom.
+agreement is subject to English law in the jurisdiction of Singapore.
 
 We have used the terms we, us, our, etc to mean Webconverger Ltd, and you,
 your, etc to mean the customer to whom we are providing services.  We are
-Webconverger Limited, a company registered in England and Wales number 6366403
-and in Singapore number 201211208C.
+Webconverger Pte Limited, a privately owned company registered in Singapore,
+company number 201211208C.
 
 ### Webconverger subscription terminology versus license
 
@@ -93,7 +93,7 @@ Webconverger built images can display the logo and can be sold as
 
 Services of Webconverger include the support provided by us for the products
 and/or services you have purchased and the [configuration
-manager](http://config.webconverger.com).
+manager](//config.webconverger.com).
 
 If you derive services from us, you must maintain a subscription, i.e. you must
 have paid for services you use.
@@ -116,7 +116,7 @@ to pay or stop using the service.
 
 ### Privacy policy
 
-The [Webconverger privacy policy](http://webconverger.org/privacy/) forms part
+The [Webconverger privacy policy](//webconverger.org/privacy/) forms part
 of this Agreement.
 
 During this Agreement either party may provide the other with confidential
@@ -129,7 +129,7 @@ Limitations of Liability clause above.
 ### Service levels
 
 Our service levels are supplied on a best efforts basis and in accordance with
-the [Webconverger service level agreement](http://webconverger.org/sla/) and
+the [Webconverger service level agreement](//webconverger.org/sla/) and
 form part of this Agreement.
 
 ### Refunds
@@ -164,9 +164,6 @@ later.
 
 If we don't charge you for something right away it doesn't mean we won't charge
 for it later.
-
-These terms are not intended to benefit any third party as per Contracts
-(Rights of Third Parties) Act 1999.
 
 We may anonymously quote your bug reports on our public bug tracker.
 
