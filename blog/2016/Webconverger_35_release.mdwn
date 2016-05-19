@@ -29,17 +29,16 @@ We are hoping this new revenue stream will give us the resources to tackle [our
 issue list](https://github.com/webconverger/webc/issues), improve the Raspberry
 PI & Android versions and grow.
 
-# Is Webconverger still free?
+# Is Webconverger free?
 
 Webconverger will always be opensource, meaning you can check out the source
 code and [[fork|develop]] Webconverger. Unconfigured it's still the best
 operating system to surf privately in my opinion.
 
-But there is no such thing as free _of cost_ software. Since 2007 I've been
-working on Webconverger, mostly part time alongside my full time employment.
-However my circumstances have changed, I have a newborn sucking up all my spare
-time and I need this to be full time and enough to meet a Singaporean
-Employment Pass (5000+ SGD pcm).
+There is no such thing as free _of cost_ software. Since 2007 I've been working
+on Webconverger, mostly part time alongside my full time employment.
+**Configured Webconverger** is a paid product with a **30 day free trial** and
+the revenue will go into engineering a better kiosk & Web signage system.
 
 <img src=/img/2016/newfamily.jpg alt="New start">
 
@@ -52,5 +51,5 @@ sniff](https://www.youtube.com/watch?v=7Zmsj5DnQYo) our software to ensure
 there are no leaks. Then we test Webconverger and test it again, and provide
 timely support.
 
-If you or your company share our values, please subscribe to our service or
-just drop us an email if you can help. Thank you,
+If you or your company share our values, please **subscribe to our service**,
+that makes small and large deployments of Web browsers manageable and secure.
