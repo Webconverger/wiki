@@ -1,6 +1,6 @@
 From our last release [24,481 changed files](https://github.com/webconverger/webc/compare/34.0...35.1):
 
-* Better new hardware support with the Linux 4.5 kernel from [Debian backports](http://backports.debian.org/)
+* Much better new hardware support with the Linux 4.5 kernel from [Debian backports](http://backports.debian.org/)
 * Gtk3 with [Firefox 46](https://www.mozilla.org/en-US/firefox/46.0.1/releasenotes/)
 * Raft of security updates like OpenSSL & Flash
 * Known issue: [Virtualbox](https://www.virtualbox.org/ticket/15422) may have an issue running this release
@@ -33,8 +33,8 @@ operating system to surf privately in my opinion.
 
 But there is no such thing as free _of cost_ software. Since 2007 I've been
 working on Webconverger, mostly part time alongside my full time employment.
-However my circumstances have changed, I have a new born sucking up all my
-spare time and I need this to be full time and enough to meet a Singaporean
+However my circumstances have changed, I have a newborn sucking up all my spare
+time and I need this to be full time and enough to meet a Singaporean
 Employment Pass (5000+ SGD pcm).
 
 <img src=/img/2016/newfamily.jpg alt="New start">
