@@ -4,7 +4,7 @@ The canonical location of Webconverger's Terms and Conditions is
 <https://webconverger.org/terms/>.
 
 It comes complete with a
-[changelog](//source.webconverger-org.branchable.com/?p=source.git;a=history;f=terms.mdwn;hb=HEAD)
+[changelog](http://source.webconverger-org.branchable.com/?p=source.git;a=history;f=terms.mdwn;hb=HEAD)
 and is subject to change.
 
 ### Interpretation
