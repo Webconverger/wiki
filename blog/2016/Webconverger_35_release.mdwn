@@ -5,7 +5,7 @@ From our last release [24,481 changed files](https://github.com/webconverger/web
 * Raft of security updates like OpenSSL & Flash
 * Known issue: [Virtualbox](https://www.virtualbox.org/ticket/15422) may have an issue running this release
 
-Please download from <http://dl.webconverger.com/latest.iso>. The `sha1sum` is
+Please download from <https://dl.webconverger.com/latest.iso>. The `sha1sum` is
 `4e5589fa7b35b967b4ad884dd72aa8981a144ba0  webc-35.1.iso`.
 
 # Kickstart Webconverger
