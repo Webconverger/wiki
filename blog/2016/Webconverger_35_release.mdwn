@@ -3,12 +3,13 @@ From our last release [24,481 changed files](https://github.com/webconverger/web
 * Better new hardware support with the Linux 4.5 kernel from [Debian backports](http://backports.debian.org/)
 * Gtk3 with [Firefox 46](https://www.mozilla.org/en-US/firefox/46.0.1/releasenotes/)
 * Raft of security updates like OpenSSL & Flash
+* Known issue: [Virtualbox](https://www.virtualbox.org/ticket/15422) may have an issue running this release
 
 # Kickstart Webconverger
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/hqt66LOuuJE" frameborder="0" allowfullscreen></iframe>
 
-From yesterday, configuring a device requires payment authorisation. The
+From yesterday, configuring a device **requires** payment authorisation. The
 **new** [Stripe](https://stripe.com/) based billing system should make it
 painless for new subscribers who have just one or two machines to purchase a
 subscription.  If you do encounter a problem, _please_ email support.
@@ -38,13 +39,13 @@ Employment Pass (5000+ SGD pcm).
 
 <img src=/img/2016/newfamily.jpg alt="New start">
 
-Webconverger's value is to give IT managers a steamlined tool to provide the
+Webconverger's value is to give IT managers a streamlined tool to provide the
 Web in non-personal spaces so the public, students or business employees can
 access the Web privately and securely. Every [commit we make is transparent &
 open](https://github.com/webconverger/). We ensure everything is patched,
 locked down and even go through lengths to [packet
 sniff](https://www.youtube.com/watch?v=7Zmsj5DnQYo) our software to ensure
-there is no leaks. Then we test Webconverger and test it again, and provide
+there are no leaks. Then we test Webconverger and test it again, and provide
 timely support.
 
 If you or your company share our values, please subscribe to our service or
