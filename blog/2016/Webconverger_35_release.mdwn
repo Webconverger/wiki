@@ -3,7 +3,7 @@ From our last release [24,481 changed files](https://github.com/webconverger/web
 * Much better new hardware support with the Linux 4.5 kernel from [Debian backports](http://backports.debian.org/)
 * Gtk3 with [Firefox 46](https://www.mozilla.org/en-US/firefox/46.0.1/releasenotes/)
 * Raft of security updates like OpenSSL & Flash
-* Known issue: [Virtualbox](https://www.virtualbox.org/ticket/15422) may have an issue running this release
+* Caveat: [Virtualbox](https://www.virtualbox.org/ticket/15422) requires [Virtualisation features enabled in your BIOS](http://s.natalian.org/2016-05-20/virt.jpeg)
 
 Please fetch from our [Fastly powered](https://www.fastly.com/)
 <https://dl.webconverger.com/latest.iso> download. The `sha1sum` is
