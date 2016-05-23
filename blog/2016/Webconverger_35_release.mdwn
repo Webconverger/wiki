@@ -3,6 +3,7 @@ From our last release [24,481 changed files](https://github.com/webconverger/web
 * Much better new hardware support with the Linux 4.5 kernel from [Debian backports](http://backports.debian.org/)
 * Gtk3 with [Firefox 46](https://www.mozilla.org/en-US/firefox/46.0.1/releasenotes/)
 * Raft of security updates like OpenSSL & Flash
+* Bugfix: [PDFjs not working in locales other than English #229](https://github.com/Webconverger/webc/issues/229)
 * Caveat: [Virtualbox](https://www.virtualbox.org/ticket/15422) requires [Virtualisation features enabled in your BIOS](http://s.natalian.org/2016-05-20/virt.jpeg)
 
 Please fetch from our [Fastly powered](https://www.fastly.com/)
@@ -40,12 +41,12 @@ on Webconverger, mostly part time alongside my full time employment.
 **Configured Webconverger** is a paid product with a **30 day free trial** and
 the revenue will go into engineering a better kiosk & Web signage system.
 
-<img src=/img/2016/newfamily.jpg alt="New start">
+<img src=/img/2016/newfamily.jpg alt="New start with subscriptions">
 
-Webconverger's value is to give IT managers a streamlined tool to provide the
-Web in non-personal spaces so the public, students or business employees can
-access the Web privately and securely. Every [commit we make is transparent &
-open](https://github.com/webconverger/). We ensure everything is patched,
+Webconverger's value is to give IT managers a **streamlined tool** to provide
+the Web in non-personal spaces so the public, students or business employees
+can access the Web privately and securely. Every [commit we make is transparent
+& open](https://github.com/webconverger/). We ensure everything is patched,
 locked down and even go through lengths to [packet
 sniff](https://www.youtube.com/watch?v=7Zmsj5DnQYo) our software to ensure
 there are no leaks. Then we test Webconverger and test it again, and provide
