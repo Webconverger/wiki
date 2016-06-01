@@ -53,11 +53,8 @@ Think of cases where network comes online but configuration is failed to be fetc
 
 ## [[wireless]] can only be realistically tested on physical hardware (i.e. not under virtualisation)
 
-## [YouTube](http://youtube.com/)
+## [YouTube](https://www.youtube.com/)
 
-* [[Adobe]] Flash video
+* [[Adobe]] flash test <http://www.adobe.com/software/flash/about/>
 * Sound
-
-## [Letterly](http://letterly.com/)
-
-* PDF
+* [PDF](http://hendry.iki.fi/cv/resume.pdf)
