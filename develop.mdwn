@@ -21,7 +21,7 @@ We might be the first distribution to use [git](http://git-scm.com/) for
 
 <div class="notebox"> The Webconverger distribution is an MIT licensed
 production (notable exceptions are non-free wireless firmware and
-[[flash|adobe]]). You <b>must</b> understand that the branding (logo and the
+[[flash|adobe]]). You <b>must</b> understand that the branding ([logo](https://webconverger.com/images/logo.svg) and the
 name "Webconverger") are <b>proprietary</b>.  Only Webconverger built images
 should display the logo and can be sold as "Webconverger". Thank you.</div>
 
