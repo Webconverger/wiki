@@ -27,21 +27,18 @@ should display the logo and can be sold as "Webconverger". Thank you.</div>
 
 ## Build with a Docker image
 
-Follow the notes at the bottom of the <https://github.com/Webconverger/Debian-Live-config/blob/master/Dockerfile>.
+Follow the notes at the bottom of our [Dockerfile](https://github.com/Webconverger/Debian-Live-config/blob/master/Dockerfile).
 
 **WEBC_CHECKOUT** environment variable should be the clone of
 <https://github.com/Webconverger/webc>, though you could try get away with a
-shallow clone to save bandwidth and disk space, e.g. `git clone --depth 1
-https://github.com/Webconverger/webc.git` but it's not guaranteed to work!
+shallow clone (~2GB versus ~6GB for full) to save bandwidth and disk space,
+e.g. `git clone --depth 1 https://github.com/Webconverger/webc.git` but it's
+not guaranteed to work!
 
 Take a look at
 [auto/config](https://github.com/Webconverger/Debian-Live-config/blob/master/webconverger/auto/config)
 
-`make`
-
-On our Debian build server we conduct a [daily
-build](http://build.webconverger.org/) using the script
-[webc-build.sh](https://github.com/Webconverger/dailybuild/blob/master/webc-build.sh).
+`make` is run from within the Docker container.
 
 Next use this [[testing_guide|testing]] on your freshly built image.
 
