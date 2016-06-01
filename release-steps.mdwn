@@ -4,10 +4,11 @@
 * Build it `gb# /srv/www/build.webconverger.org/webc-build.sh`
 * [[Test|testing]] it
 * Just debug.log [[ping|privacy]], check clients config fetch
-* On gb, run `/srv/www/build.webconverger.org/sync.sh`
-* Update [CDN index.php](https://github.com/Webconverger/dl/blob/master/index.php)
+* On gb, run `aws s3 cp --acl public-read --storage-class REDUCED_REDUNDANCY webc-35.0.iso s3://webcdl/`
+* Update houston.dreamhost.com:/home/hendry/dl2.webconverger.com/index.php
 * Back up old release to http://archive.webconverger.com/
 * Blog release notes, for [example](http://webconverger.org/blog/2015/Webconverger_32_release/)
+* Make sure <https://webconverger.com/> links to latest release
 
 * Mail [webc-users](https://github.com/Webconverger/dotCom/blob/master/list/maillist), linking blog entry, for [example](https://groups.google.com/forum/#!topic/webc-users/6rDiV-Sjhf8/discussion)
 * Log into [twitter](http://twitter.com/#!/webconverger) and tweet linking the release notes, for [example](http://twitter.com/webconverger/status/205963007925301248)

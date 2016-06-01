@@ -16,8 +16,8 @@
 
 If you are new to the project, **Welcome**!! Please start out by [[testing]].
 
-We like to think we are pretty innovative how we use [git](http://git-scm.com/)
-for [[upgrades|upgrade]] and managing just about everything we do. :)
+We might be the first distribution to use [git](http://git-scm.com/) for
+[[upgrades|upgrade]] and managing just about everything we do. :)
 
 <div class="notebox"> The Webconverger distribution is an MIT licensed
 production (notable exceptions are non-free wireless firmware and
@@ -25,26 +25,22 @@ production (notable exceptions are non-free wireless firmware and
 name "Webconverger") are <b>proprietary</b>.  Only Webconverger built images
 should display the logo and can be sold as "Webconverger". Thank you.</div>
 
-## Build on a stable Debian system:
+## Build with a Docker image
 
-Building an image from scratch is usually only necessary if you need to
-customise the [image's rootfs](https://github.com/webconverger/webc). The
-[[boot_API|API]] should be sufficient for most of your needs.
+Follow the notes at the bottom of the <https://github.com/Webconverger/Debian-Live-config/blob/master/Dockerfile>.
 
-This is the developer supported way of building the Webconverger image.
-**Please do not ask** [webc-users](https://groups.google.com/forum/#!forum/webc-users) how to
-customise Webconverger any other way to avoid paying for the [configuration
-service](http://config.webconverger.com) that funds this project. Thank you!
+**WEBC_CHECKOUT** environment variable should be the clone of
+<https://github.com/Webconverger/webc>, though you could try get away with a
+shallow clone to save bandwidth and disk space, e.g. `git clone --depth 1
+https://github.com/Webconverger/webc.git` but it's not guaranteed to work!
 
-1. Download [live-build](http://packages.qa.debian.org/l/live-build.html) 4.x from Debian Stable. You may need extra packages like `xorriso` and setup `ln -s /usr/lib/ISOLINUX/ /usr/share/`
+Take a look at
+[auto/config](https://github.com/Webconverger/Debian-Live-config/blob/master/webconverger/auto/config)
 
-1. `git clone git://github.com/Webconverger/Debian-Live-config.git`
-1. `cd Debian-Live-config/webconverger/`
-1. Take a look at [auto/config](https://github.com/Webconverger/Debian-Live-config/blob/master/webconverger/auto/config)
-1. `make`
+`make`
 
-These steps are formalised in the [daily build](http://build.webconverger.org/)
-process's
+On our Debian build server we conduct a [daily
+build](http://build.webconverger.org/) using the script
 [webc-build.sh](https://github.com/Webconverger/dailybuild/blob/master/webc-build.sh).
 
 Next use this [[testing_guide|testing]] on your freshly built image.
@@ -74,10 +70,4 @@ And provide the link <http://ix.io/41O> in a bug report! :)
 ## If your build doesn't work
 
 1. Check with the latest [daily build](http://build.webconverger.org/) logs. Compare them.
-* Check for bugs with [Debian Live](http://bugs.debian.org/cgi-bin/pkgreport.cgi?repeatmerged=no&src=live-build)
-* [Submit a bug report](https://github.com/Webconverger/webc/issues)
-
-SYSLINUX (the sane boot loader) paths have changed again and again through
-different Debian releases annoyingly. You might need to [setup some
-paths](https://github.com/Webconverger/Debian-Live-config/pull/20#issuecomment-110671831)
-to make sure **live-build** doesn't fail.
+* [Submit a bug report](https://github.com/Webconverger/Debian-Live-config/issues)
