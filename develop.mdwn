@@ -46,14 +46,22 @@ named `live-image-i386.hybrid.iso` by default.
 
 Next use this [[testing_guide|testing]] on your freshly built image.
 
+To work within the chroot, you shouldn't require the Docker image. `chroot` should be sufficient:
+
+	alias c="sudo chroot $WEBC_CHECKOUT env -i PATH=/bin:/usr/bin:/sbin:/usr/sbin /bin/bash"
+
+Typical work as you can see from the
+[commits](https://github.com/Webconverger/webc/commits/master) is keeping the
+distro upto date with the latest packages.
+
 Please share your forks on github! :) Contributions must be [MIT
 licensed](http://en.wikipedia.org/wiki/MIT_License). For patches to be
 accepted, you must agree to transfer copyright to Webconverger (the company) to
 make things manageable. We do [[acknowledge|acknowledgements]] contributions!
 
-## Tips for getting your patch out
+## Tips for getting your patch out a running Webconverger
 
-In debug mode:
+In [[debug]] mode:
 
 	root@webconverger:/etc/systemd/system# git status | less
 	root@webconverger:/etc/systemd/system# git commit
