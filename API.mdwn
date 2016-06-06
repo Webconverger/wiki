@@ -283,3 +283,10 @@ We have an interface on synclient
 
 	synclient=TapButton1%3D1
 
+# Search override
+
+New from June 2016, for example:
+
+	opensearch=http://prefs.webconverger.com/bl.xml
+
+Only applicable with default `chrome=webconverger`, since that [[user_interface|kiosk]] has a URL bar for entering search terms.
