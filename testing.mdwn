@@ -13,6 +13,8 @@ images](http://build.webconverger.org). Report bugs on
 
 **NOTE**: You need to <a href="/img/pae.png">enable PAE</a> and if your VM fails to boot try give it more RAM
 
+**NOTE**: If Webconverger fails to boot, make sure your BIOS has Virtualization options turned on as noted in [[blog/2016/Webconverger_35_release]].
+
 * [Archlinux Virtualbox setup guide](https://wiki.archlinux.org/index.php/VirtualBox)
 
 Setting a bridged network interface is straightforward, you just need to ensure:
@@ -51,11 +53,8 @@ Think of cases where network comes online but configuration is failed to be fetc
 
 ## [[wireless]] can only be realistically tested on physical hardware (i.e. not under virtualisation)
 
-## [YouTube](http://youtube.com/)
+## [YouTube](https://www.youtube.com/)
 
-* [[Adobe]] Flash video
+* [[Adobe]] flash test <http://www.adobe.com/software/flash/about/>
 * Sound
-
-## [Letterly](http://letterly.com/)
-
-* PDF
+* [PDF](http://hendry.iki.fi/cv/resume.pdf)

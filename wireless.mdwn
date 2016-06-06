@@ -52,20 +52,4 @@ Gjestenett')`, to get the following [[boot]] recipe:
 
 # Wireless router (recommended)
 
-<http://www.tp-link.com> make some excellent products like the TL-WR1043ND.
-[Ubiquiti Networks](http://www.ubnt.com/) also make some fantastic Wifi kit.
-
-<a href="http://www.flickr.com/photos/hendry/1172361934/" title="Every home should have a WRT54G-L by Kai Hendry, on Flickr"><img src="http://farm2.static.flickr.com/1055/1172361934_fe1a77dc72_m.jpg" width="180" height="240" alt="Every home should have a WRT54G-L" /></a>
-
-A [Linksys WRT54G](http://en.wikipedia.org/wiki/WRT54G) in **Wireless Client
-mode** is a very good solution for wireless kiosk access. They are about 50USD
-and this dedicated hardware provides excellent Wireless access without the
-complication of often proprietary Wireless drivers for each client. The highly
-recommended Linksys WRT54G allows at least four machines to easily plug into
-the router.
-
-Also the blog entry on this topic: [[blog/entry/Better_Routing_wanted]]
-
-Recommended firmware:
-
-* [OpenWRT](https://openwrt.org)
+<http://routerboard.com/RBmAP2n>

@@ -45,8 +45,4 @@ message, like please contact your system administrator.
 
 # Remove useless items from langpacks
 
-	find /opt/firefox/langpacks/ -name devtools -type d | xargs rm -rf
-	find /opt/firefox/langpacks/ -name browser-region -type d | xargs rm -rf
-	find /opt/firefox/langpacks/ -name global-region -type d | xargs rm -rf
 	find /opt/firefox/langpacks/ -name searchplugins -type d | xargs rm -rf
-	find /opt/firefox/langpacks/ -name browser-pocket.properties | xargs rm

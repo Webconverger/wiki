@@ -16,47 +16,53 @@
 
 If you are new to the project, **Welcome**!! Please start out by [[testing]].
 
-We like to think we are pretty innovative how we use [git](http://git-scm.com/)
-for [[upgrades|upgrade]] and managing just about everything we do. :)
+We might be the first distribution to use [git](http://git-scm.com/) for
+[[upgrades|upgrade]] and managing just about everything we do. :)
 
 <div class="notebox"> The Webconverger distribution is an MIT licensed
 production (notable exceptions are non-free wireless firmware and
-[[flash|adobe]]). You <b>must</b> understand that the branding (logo and the
-name "Webconverger") are <b>proprietary</b>.  Only Webconverger built images
+[[flash|adobe]]). You <b>must</b> understand that the <a
+href="https://webconverger.com/images/logo.svg">branding (logo and the name
+"Webconverger")</a> are <b>proprietary</b>.  Only Webconverger built images
 should display the logo and can be sold as "Webconverger". Thank you.</div>
 
-## Build on a stable Debian system:
+## Build with a Docker image
 
-Building an image from scratch is usually only necessary if you need to
-customise the [image's rootfs](https://github.com/webconverger/webc). The
-[[boot_API|API]] should be sufficient for most of your needs.
+Follow the [README](https://github.com/Webconverger/Debian-Live-config) for
+tips how to build and run the
+[Dockerfile](https://github.com/Webconverger/Debian-Live-config/blob/master/Dockerfile),
+which we use for building Webconverger in the Debian environment.
 
-This is the developer supported way of building the Webconverger image.
-**Please do not ask** [webc-users](https://groups.google.com/forum/#!forum/webc-users) how to
-customise Webconverger any other way to avoid paying for the [configuration
-service](http://config.webconverger.com) that funds this project. Thank you!
+**WEBC_CHECKOUT** environment variable should be the clone of
+<https://github.com/Webconverger/webc>. Though you could try get away with a
+shallow clone (~2GB versus ~6GB for full) to save bandwidth and disk space,
+e.g. `git clone --depth 1 https://github.com/Webconverger/webc.git` but it's
+not guaranteed to work!
 
-1. Download [live-build](http://packages.qa.debian.org/l/live-build.html) 4.x from Debian Stable. You may need extra packages like `xorriso` and setup `ln -s /usr/lib/ISOLINUX/ /usr/share/`
+For tweaks, take a look at
+[auto/config](https://github.com/Webconverger/Debian-Live-config/blob/master/webconverger/auto/config).
 
-1. `git clone git://github.com/Webconverger/Debian-Live-config.git`
-1. `cd Debian-Live-config/webconverger/`
-1. Take a look at [auto/config](https://github.com/Webconverger/Debian-Live-config/blob/master/webconverger/auto/config)
-1. `make`
-
-These steps are formalised in the [daily build](http://build.webconverger.org/)
-process's
-[webc-build.sh](https://github.com/Webconverger/dailybuild/blob/master/webc-build.sh).
+`make` is run from within the Docker container to build the ISO image, which is
+named `live-image-i386.hybrid.iso` by default.
 
 Next use this [[testing_guide|testing]] on your freshly built image.
+
+To work within the chroot, you shouldn't require the Docker image. `chroot` should be sufficient:
+
+	alias c="sudo chroot $WEBC_CHECKOUT env -i PATH=/bin:/usr/bin:/sbin:/usr/sbin /bin/bash"
+
+Typical work as you can see from the
+[commits](https://github.com/Webconverger/webc/commits/master) is keeping the
+distro upto date with the latest packages.
 
 Please share your forks on github! :) Contributions must be [MIT
 licensed](http://en.wikipedia.org/wiki/MIT_License). For patches to be
 accepted, you must agree to transfer copyright to Webconverger (the company) to
 make things manageable. We do [[acknowledge|acknowledgements]] contributions!
 
-## Tips for getting your patch out
+## Tips for getting your patch out a running Webconverger
 
-In debug mode:
+In [[debug]] mode:
 
 	root@webconverger:/etc/systemd/system# git status | less
 	root@webconverger:/etc/systemd/system# git commit
@@ -74,10 +80,4 @@ And provide the link <http://ix.io/41O> in a bug report! :)
 ## If your build doesn't work
 
 1. Check with the latest [daily build](http://build.webconverger.org/) logs. Compare them.
-* Check for bugs with [Debian Live](http://bugs.debian.org/cgi-bin/pkgreport.cgi?repeatmerged=no&src=live-build)
-* [Submit a bug report](https://github.com/Webconverger/webc/issues)
-
-SYSLINUX (the sane boot loader) paths have changed again and again through
-different Debian releases annoyingly. You might need to [setup some
-paths](https://github.com/Webconverger/Debian-Live-config/pull/20#issuecomment-110671831)
-to make sure **live-build** doesn't fail.
+* [Submit a bug report](https://github.com/Webconverger/Debian-Live-config/issues)
