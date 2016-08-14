@@ -4,6 +4,7 @@
 * [Rootfs in git](https://github.com/webconverger/webc) to roll out updates and keep transparent
 * [[Configuration API|API]] to manage deployments
 * Also available on [Raspberry PI2](https://github.com/Webconverger/rpi2) & [Android >= 5](https://github.com/Webconverger/android)
+* Like to help our work financially? Please send money via <https://www.paypal.me/Webconverger>
 
 [Subscribe to the RSS feed](//webconverger.org/blog/index.rss) of the **[[blog]]** or view the [[blog/archives]]!
 
