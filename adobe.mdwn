@@ -12,13 +12,16 @@ To opt into flash, append `prefs=http://prefs.webconverger.com/2015/click-to-pla
 
 ## Developer notes
 
-We download Flash updates from <http://get.adobe.com/flashplayer/otherversions/>.
-Linux 32 bit, .tar.gz version and [commit like
-so](https://github.com/Webconverger/webc/commit/375349b7cc2ddf7d2635551463052dcdd603927e)
+We download Flash updates from
+<http://get.adobe.com/flashplayer/otherversions/>.  Linux **32 bit**, .tar.gz
+version and [commit like
+so](https://www.youtube.com/watch?v=pH8DvOXbBwE&feature=youtu.be)
 
 Flash from 17.x lives in [/usr/lib/mozilla/plugins/](https://github.com/Webconverger/webc/tree/master/usr/lib/mozilla/plugins)
 
 	sudo mv libflashplayer.so $WEBC_CHECKOUT/usr/lib/mozilla/plugins/libflashplayer.so
+
+Check download was over TLS, e.g. https://fpdownload.adobe.com
 
 # PDF support is included
 
