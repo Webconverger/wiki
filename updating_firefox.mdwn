@@ -1,11 +1,13 @@
 [[!meta title="Updating Firefox for a Webconverger developer"]]
 
-First work out the current version from <https://getfirefox.com>
+We now use [ESR because of the painful signing process of
+extensions](https://www.mozilla.org/en-US/firefox/organizations/all/)
 
-Get the 32bit version
+Get the 32bit version and for the `ver=` value, see what
+`https://www.mozilla.org/en-US/firefox/organizations/notes/` redirects to.
 
 	cd /tmp
-	ver=41.0; wget "https://download.mozilla.org/?product=firefox-$ver-SSL&os=linux" -O firefox-$ver.tar.bz2
+	ver=45.4; wget "https://download.mozilla.org/?product=firefox-$ver.0esr-SSL&os=linux&lang=en-US" -O firefox-$ver.tar.bz2
 	open https://www.mozilla.org/en-US/firefox/$ver/releasenotes/
 
 	tar xvf firefox-$ver.tar.bz2
