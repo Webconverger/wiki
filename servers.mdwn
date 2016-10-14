@@ -67,18 +67,10 @@ On a bronze package at 25USD a month.
 
 # SSL
 
-* [config.webconverger.com](https://www.ssllabs.com/ssltest/analyze.html?d=config.webconverger.com), expires Sat Apr 29 18:57:32 UTC 2017 
-* <https://webconverger.com> - [Comodo POSITIVESSL via Namecheap.com](https://manage.www.namecheap.com/myaccount/ssl-list.asp) - Expiry 09/29/2016
-* <https://webconverger.org> - [Comodo POSITIVESSL via Namecheap.com](https://manage.www.namecheap.com/myaccount/ssl-list.asp) - Expiry 10/08/2016
+Most sites are now using automagic Lets Encrypt or AWS Certificate Manager on CF.
+
+* [config.webconverger.com](https://www.ssllabs.com/ssltest/analyze.html?d=config.webconverger.com), expires Sat Apr 29 18:57:32 UTC 2017
 * <https://wss.webconverger.com> - bought with <https://sslmate.com/>:
-
-
-<pre>
-	X1C3:~$ sslmate list
-	Name                  Type  Status  Expiration  Local Status
-	wss.webconverger.com  DV    Active  2016-04-09  None
-</pre>
-
 
 # Email
 
