@@ -2,7 +2,7 @@
 
 Happy new year 2012! As I prepare a [Firefox 9 based
 release](https://www.mozilla.org/en-US/firefox/9.0/releasenotes/) which is
-already available in [daily builds](http://build.webconverger.org/) for
+already available in [daily builds](https://build.webconverger.com/) for
 [[testing]], lets introduce a feature I failed to document on
 [[Webconverger_10]] release, [USB tethering](http://en.wikipedia.org/wiki/Tethering) in
 this [10.2

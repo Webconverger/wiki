@@ -3,7 +3,7 @@
 * [Report and view bugs](https://github.com/Webconverger/webc/issues)
 * [[Core_concepts|design]]
 * [Webconverger Debian Live configuration](https://github.com/Webconverger/Debian-Live-config)
-* [Webconverger daily builds](http://build.webconverger.org/) - [build script sources](https://github.com/Webconverger/dailybuild)
+* [Webconverger daily builds](https://build.webconverger.com/)
 * [[Webconverger_in_your_locale|i18n]]
 * [[Artwork]]
 * [[Firefox_extension_development|Kiosk]]

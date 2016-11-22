@@ -3,7 +3,7 @@ video](http://www.whatwg.org/specs/web-apps/current-work/multipage/video.html#vi
 like the very latest [Firefox trunk
 builds](http://ftp.mozilla.org/pub/mozilla.org/firefox/nightly/latest-trunk/),
 you could enjoy a little [[wireless]] setup demonstration with a Thinkpad T60p and
-a [Webconverger nightly](http://build.webconverger.org/) [[USB]] build.
+a [Webconverger nightly](https://build.webconverger.com/) [[USB]] build.
 
 <video controls="controls" src="http://static.natalian.org/2009-04-16/mvi_4868.ogg">
 <img src="http://static.natalian.org/2009-04-16/mvi_4868.thm" alt="thumbnail" />

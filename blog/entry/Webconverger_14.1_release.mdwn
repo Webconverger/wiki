@@ -22,10 +22,10 @@ for two reasons:
 
 Obviously the `.git` directory returns in the upcoming
 [git-fs](https://github.com/Webconverger/git-fs) based 15.0, and judging by our
-current git-fs based [dailies](http://build.webconverger.org), it only
+current git-fs based [dailies](https://build.webconverger.com), it only
 increases the size by 40M. Fantastic!
 
 Please help [[testing]] the **future** [[upgradable|upgrade]] version, that
 uses own home grown [git-fs technology](https://github.com/Webconverger/git-fs)
-from the [daily build site](http://build.webconverger.org). Webconverger is
+from the [daily build site](https://build.webconverger.com). Webconverger is
 innovating here with git like no other operating system.

@@ -28,7 +28,7 @@
 
 ## We have established a \#webconverger IRC channel on the http://freenode.net/ IRC network. Join!
 
-* [Download Webconverger](https://dl.webconverger.com/latest.iso)
+* [Download Webconverger](https://build.webconverger.com/latest.iso)
 * [Webconverger videos](https://www.youtube.com/webconverger/)
 * [[About Webconverger|about]]
 * [[Developer_information|Develop]]
@@ -38,7 +38,7 @@
 
 # Download daily builds of Webconverger
 
-* <https://build.webconverger.org/>
+* <https://build.webconverger.com/>
 
 # Configuration management is a commercial product
 

@@ -12,7 +12,7 @@ After years of procrastination on my part, the basic functionality has been
 checked in with the help of the lightweight httpd
 [nostromo](http://www.nazgul.ch/dev.html). To try it out you can experiment
 with [3.6 beta maxi releases](http://download.webconverger.com/maxi/) or try
-out the [dailies](http://build.webconverger.org/) from today.
+out the [dailies](https://build.webconverger.com/) from today.
 
 Browsing to [http://webconverger](http://flickr.com/photos/hendry/2954897791/),
 will give a list of some options you can try out.

@@ -18,7 +18,7 @@ file).
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ji2JADVf694" frameborder="0" allowfullscreen></iframe>
 
 1. Download the latest official Webconverger from
-<http://dl.webconverger.com/latest.iso> The downloaded file will be renamed to
+<https://build.webconverger.com/latest.iso> The downloaded file will be renamed to
 the latest ISO, webc-VERSION.iso
 2. Download Disk Imager from
 <http://sourceforge.net/projects/win32diskimager/files/latest/download>

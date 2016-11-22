@@ -5,7 +5,7 @@ Youtube video following:
 <object width="425" height="344"><param name="movie" value="https://www.youtube.com/v/MIvE_Qn-2fw"></param><param name="wmode" value="transparent"></param>
 <embed src="https://www.youtube.com/v/MIvE_Qn-2fw" type="application/x-shockwave-flash" wmode="transparent" width="425" height="344"></embed></object>
 
-UPDATE: The [very latest builds](http://build.webconverger.org/) should have WPA support.
+UPDATE: The [very latest builds](https://build.webconverger.com/) should have WPA support.
 
 UPDATE: A new `wlan=` [[boot]] option has been added to the [daily builds](http://build.webconverger.com/), see [[wireless]] for more.
 

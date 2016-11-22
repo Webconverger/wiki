@@ -60,5 +60,5 @@ badly that [CrunchPad](http://en.wikipedia.org/wiki/CrunchPad) will suck if
 they don't use Webconverger. ;)
 
 So a new release of 4.3 is being prepared. I just want to test it a little more
-over the week. Try a [beta](http://build.webconverger.org/) in the meantime for
+over the week. Try a [beta](https://build.webconverger.com/) in the meantime for
 [[testing]].

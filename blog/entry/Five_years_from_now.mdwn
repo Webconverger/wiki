@@ -1,7 +1,7 @@
 <a href="http://www.flickr.com/photos/hendry/5625226358/" title="London Hackspace Webcam by Kai Hendry, on Flickr"><img src="http://farm6.static.flickr.com/5142/5625226358_bee1ffb8ac.jpg" width="500" height="313" alt="London Hackspace Webcam"></a>
 
 The [[last 2 year key|Security_and_privacy]] (7EEFD8EC) expired before I should
-have updated it, before it broke the [builds](http://build.webconverger.org/)
+have updated it, before it broke the [builds](https://build.webconverger.com/)
 with "WARNING: The following packages cannot be authenticated!"
 
 [Apologies](https://groups.google.com/d/topic/webc-users/rU1KkDqMK0g/discussion) for that. :/

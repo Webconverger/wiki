@@ -4,26 +4,11 @@ Domain registration handled by Dreamhost.
 
 DNS records hosted with [AWS Route 53](http://aws.amazon.com/route53/), this is mainly for DNS failover, though its performance is pretty damn good.
 
-# Bandwidth costs
-
-Webconverger averages ~[100 downloads a
-day](http://dl.webconverger.com/stats/) and the ISO file is about 400M. So we
-transfer about 40GB a day, or 1 Terabyte a month.
-
-# na.download.webconverger.com
-
-webconverger.com hosted by [Dreamhost](http://www.dreamhost.com/r.cgi?104617)
-in California - 120USD (~75GBP) a year responsible for archives and backups.
-
 # webconverger.com
 
 Hosted by AWS CloudFront.
 
 Github Pages hosted test site is at <http://beta.webconverger.com/>.
-
-# ny.webconverger.com
-
-New York droplet running Debian for building test images and other development/tests.
 
 # nl.webconverger.com
 
@@ -51,7 +36,6 @@ Hosted with [Linode](https://www.linode.com/?r=59198f21b93910b67d8e1e4212a313534
 * 20USD pcm
 * [Configuration service](https://config.webconverger.com)
 * [Support service](http://support.webconverger.com/)
-* [Download service](http://dl.webconverger.com/), [source code](https://github.com/Webconverger/dl/)
 * [Ping/Statistics service](http://ping.webconverger.org)
 * [Nagios](https://github.com/Webconverger/nagios)
 

@@ -33,8 +33,8 @@ change the configuration, your install will need to access
 Typical steps to trouble shoot problems:
 
 1. Reboot the machine
-2. Re-install the machine with the [latest update](http://build.webconverger.org/latest.iso)
-3. Try the older [release snapshot](http://dl.webconverger.com/latest.iso), since you might be suffering with a regression
+2. Re-install the machine with the [latest update](https://build.webconverger.com/latest.iso)
+3. Try the older [release snapshot](https://build.webconverger.com/), since you might be suffering with a regression
 4. Log machine identity and try to reproduce the problem. Our [bug tracking](https://github.com/Webconverger/webc/issues) is transparent (we don't name customers)
 
 In any case, please email support@webconverger.com with the machine identity and problem description.
