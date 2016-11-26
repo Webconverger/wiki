@@ -1,3 +1,5 @@
+<iframe width="560" height="315" src="https://www.youtube.com/embed/FaBFbkBhnXI" frameborder="0" allowfullscreen></iframe>
+
 Webconverger was started because I couldn't trust those terminals and kiosks in
 public spaces to browse the Web.
 
@@ -15,13 +17,16 @@ corresponds to an [[ISO]] release you downloaded which you would use to deploy
 to your hardware?
 
 Previously you would have to trust the checksum I provided on the release page,
-but if you built Webconverger yourself, you would get a different checksum.
+but if you built Webconverger yourself, you would get a different checksum. A
+different checksum should make you suspicious that something nefarious was
+inserted in the build pipeline.
 
-Why? Because the build chain would typically use the current date and when
-bundled up, the checksum is different. We have fixed this now and now you can
-too can produce independently verifiable ISO builds of Webconverger. This
-[[security]] feature is called [reproducible
-builds](https://reproducible-builds.org/).
+But why were the checksums different if you [[built this ISO
+yourself|develop]]? Because the build chain would typically use the current
+date and when bundled up, the checksum is different. [Chris
+Lamb](https://chris-lamb.co.uk/) has fixed this and now you can too can produce
+independently verifiable ISO builds of Webconverger. This [[security]] feature
+is called [reproducible builds](https://reproducible-builds.org/).
 
 I must admit we owe the motivation to achieve this was due to [Mozilla
 sponsoring
@@ -35,4 +40,7 @@ The build system has been improved to use a third party continuous integration
 process at <https://travis-ci.org/Webconverger/webc>. The finished builds are
 uploaded to <https://build.webconverger.com/>. Since everything now is
 automated, much like the [[automatic updates|upgrade]] do once Webconverger is
-installed on read/write medium, there is no need for releases anymore.
+installed on read/write medium, there is no need for releases anymore. Hence
+the x86 download button on the [Webconverger
+homepage](https://webconverger.com/) is set to
+<https://build.webconverger.com/latest.iso>.
