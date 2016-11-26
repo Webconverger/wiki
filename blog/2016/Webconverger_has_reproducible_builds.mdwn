@@ -32,7 +32,7 @@ If you like our work, please tell your {school,office,company} IT department
 that this is the very best Web kiosk software.
 
 The build system has been improved to use a third party continuous integration
-process at <https://travis-ci.org/Webconverger/webc>. The finished builds are uploaded
-to <https://build.webconverger.com/>. Since everything now is automated, much
-like the [upgrades] do once Webconverger is installed on read/write medium,
-there is no need for releases anymore.
+process at <https://travis-ci.org/Webconverger/webc>. The finished builds are
+uploaded to <https://build.webconverger.com/>. Since everything now is
+automated, much like the [[automatic updates|upgrade]] do once Webconverger is
+installed on read/write medium, there is no need for releases anymore.
