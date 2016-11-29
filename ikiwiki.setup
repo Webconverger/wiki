@@ -263,7 +263,7 @@ locked_pages: '!sandbox'
 
 # openid plugin
 # url pattern of openid realm (default is cgiurl)
-openid_realm: http://*.branchable.com/
+#openid_realm: http://*.branchable.com/
 # url to ikiwiki cgi to use for openid authentication (default is cgiurl)
 #openid_cgiurl: ''
 
