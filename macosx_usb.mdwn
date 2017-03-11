@@ -5,8 +5,8 @@
 Accompanying [Flickr set](http://flic.kr/s/aHsjyN4KF5)
 
 1. Download the latest official Webconverger from
-<http://dl.webconverger.com/latest.iso> The download file will be
-renamed to the latest ISO, at the time of writing `webc-13.0.iso`.
+<https://build.webconverger.com/latest.iso> The download file will be
+named to the latest ISO checksum.
 
 2. Open a Terminal in `/Applications/Utilities/`
 
@@ -23,8 +23,8 @@ number from the last command; in the previous example, N would be 4)
 So be very careful to note the correct device node assigned to your
 thumbdrive
 
-7. Execute `sudo dd if=/path/to/downloaded.img of=/dev/rdiskN bs=1m`
-(replace "/path/to/downloaded.img" with the path where the desired
+7. Execute `sudo dd if=/path/to/downloaded.iso of=/dev/rdiskN bs=1m`
+(replace "/path/to/downloaded.iso" with the path where the desired
 file is located).
 
 A path is where the desired file is stored on your computer. To find
@@ -46,7 +46,7 @@ type it correctly once and hit enter.
 While copying, Terminal does not show any progress bar and looks like
 it's doing nothing. Wait until it displays the transfer message.
 
-Finally **step 8** Run `diskutil eject /dev/diskN` and remove your flash media when
-the command completes.
+Finally **step 8** Run `diskutil eject /dev/diskN` and remove your flash media
+when the command completes.
 
 Related: [Video demonstrating how to test Webconverger using a Macbook Pro](https://www.youtube.com/watch?v=1kfIda2oJjo)
