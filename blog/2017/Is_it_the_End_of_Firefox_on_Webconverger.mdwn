@@ -52,8 +52,9 @@ To conclude, I am thankful for Firefox, they have had a good run and they
 probably do need to let their software die to re-invent itself. However this
 means turbulent times for Webconverger. I fear we will be distributing a
 "security unsupported" browser for a period of time before a good solution can
-be found. Thankfully the design [[security]] design of Webconverger does make
-certain exploits impossible by keeping sessions isolated.
+be found. Thankfully the [[security]] design of Webconverger does reduce the
+risk of exploits by keeping sessions isolated.
 
-I want to manage this complex change, to be as seamless as possible for
-customers, so customers almost do not notice a browser change.
+Webconverger as a company will endeavour to manage this complex change, to be
+as seamless as possible for customers, so customers almost do not notice a
+browser change.
