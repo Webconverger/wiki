@@ -1,0 +1,56 @@
+Firefox as the choice browser for the x86 version in Webconverger is fast
+becoming in doubt. Reasons are:
+
+1. Unable to lock down Firefox
+2. Media playback has become a mess thanks to DRM
+
+# Unable to lock down Firefox
+
+For over 10 years, all the crazy malfeatures Mozilla have introduced have been
+turned off via their extension/addon API and preferences. The
+[webconverger-addon](https://github.com/Webconverger/webconverger-addon) is a
+key component to Webconverger and without it, Firefox would be absolutely
+unusable and unsafe in a kiosk or Enterprise environment (think public banking).
+
+Over the years extensions have become [increasingly difficult to
+debug/develop](https://github.com/mkaply/cck2wizard/pull/55#issuecomment-293578666) , [require signing](https://www.youtube.com/watch?v=aBIqpEFmfUI)
+and after Firefox 52 are likely to completely replaced by the incompatible
+[WebExtensions](https://developer.mozilla.org/en-US/Add-ons/WebExtensions).
+
+Furthermore **WebExtensions** as it stands, appears to not have the APIs to
+lock down Firefox. It's unclear how long "legacy" addon API will be supported
+by Mozilla.
+
+# Media playback
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/HxYIoWO4DoA" frameborder="0" allowfullscreen></iframe>
+
+Some Webconverger customers have their homepage set to Spotify for example.
+Spotify's Web interface used to require Adobe Flash which is distributed in
+Webconverger.
+
+The new way of playing back protected content is to click "Enable DRM" &
+**download** a three megabyte Widevine CDM binary and **execute it**. Even if I
+permitted this extremely questionable form of distribution, it [does not appear
+to work](https://youtu.be/HxYIoWO4DoA).
+
+Therefore I am tempted to tell my customers who require to playback DRM
+content, that we cannot service them.
+
+# The future
+
+Thankfully there is ... [one other opensource browser](http://caniuse.com/) to
+choose, but I am very reluctant to choose it. I fear if everyone runs _derived_
+Webkit, the open Web which I have personally strived for most of my adult life
+will be doomed.
+
+Of course switching to <https://webkitgtk.org/> would not be easy. Various
+elements like the powerful prefs [[API]] will have to go with Firefox, though a
+minority of Webconverger customers use that.
+
+To conclude, I am thankful for Firefox, they have had a good run and they
+probably do need to let their software die and re-invent itself. However this
+means turbulent times for Webconverger. I fear we will be distributing a
+"security unsupported" browser for a period of time before a good solution can
+be found. Thankfully the design [[security]] design of Webconverger does make
+certain exploits impossible by keeping sessions isolated.
