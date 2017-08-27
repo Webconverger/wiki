@@ -22,7 +22,6 @@ A bottom of the range [Digital Ocean droplet](https://www.digitalocean.com/?refc
 Uses:
 
 * <https://config.webconverger.com>, synchronised by a Github Webhook, used as a [secondary failover](http://s.natalian.org/2014-04-21/1398064783_1364x748.png) using [AWS Route 53](https://console.aws.amazon.com/route53/home)
-* European mirror: <http://eu.download.webconverger.com/>
 * [filter.webconverger.com service](http://webconverger.org/blog/2014/Fine_grained_filtering/)
 
 # uk.webconverger.com (gb)

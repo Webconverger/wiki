@@ -10,9 +10,10 @@ Webconverger unlike Windows for example does not require:
 Webconverger is [[designed|design]] for [[privacy]] and [[security]], based on:
 
 * Transparency with [opensource software](https://github.com/webconverger/webc)
-* always clears private data once a session is ended (last tab is closed or by inactivity timeout or by poweroff)
-* does not require any signup or registration
-* does not snoop on users
+* [Reproducble builds](/blog/2016/Webconverger_has_reproducible_builds)
+* Always clears private data once a session is ended (last tab is closed or by inactivity timeout or by poweroff)
+* Does not require any signup or registration
+* Does not snoop on users
 
 Once installed, Webconverger has [[automatic updates|upgrade]] that keep you
 deployment security patched. Note that fetched updates only apply at boot.
