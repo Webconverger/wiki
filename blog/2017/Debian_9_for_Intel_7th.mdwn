@@ -9,7 +9,7 @@ hardware of:
 Issues were LAN networking and video issues. This is a typical symptom of a new
 Intel hardware generation, namely the [**7th generation**](https://en.wikipedia.org/wiki/Kaby_Lake). We have been a little
 fortunate that customers generally run our operating system on older hardware,
-someone reducing these sorts of issues. Recently [Intel announced 8th
+somewhat reducing these sorts of issues. Recently [Intel announced 8th
 generation](https://newsroom.intel.com/editorials/new-8th-gen-intel-core-processors-simplifying-today-opening-door-whats-next/).
 
 Unfortunately each new hardware generation requires new drivers. I wish it
