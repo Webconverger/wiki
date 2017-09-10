@@ -40,7 +40,7 @@ changes](https://github.com/Webconverger/webc/pull/234) and I haven't had any
 negative feedback so far... However the now [leader of Debian
 project](https://github.com/Webconverger/Debian-Live-config/commit/89dcd1c4a59667611c6b69e6f6960f9b7a3d0ab3#commitcomment-24064994)
 has noticed I have broken
-[[2016/Webconverger_has_reproducible_builds/|reproducible builds]]. I will fix
+[[reproducible builds|2016/Webconverger_has_reproducible_builds/]]. I will fix
 it or again contract someone to do it, since I am super busy.
 
 To conclude, we have now taken many users through three major versions of
