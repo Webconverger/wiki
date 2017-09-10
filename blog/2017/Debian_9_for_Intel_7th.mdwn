@@ -1,18 +1,21 @@
+[[!meta title="Debian 9 for Intel's 7th generation"]]
+
 Webconverger customers let us know about issue running on:
 
-* NUC7iBNK
+* [NUC7iBNK](https://www.intel.com/content/dam/www/public/us/en/documents/product-briefs/nuc-kit-nuc7i5bnh-nuc7i5bnk-brief.pdf)
 * Dell Optiplex 7450s
 
-Issues were LAN networking issues and video issues. This is a typical symptom
-of a new Intel hardware generation, namely the **7th generation**. Recently
-[Intel announced 8th
+Issues were LAN networking and video issues. This is a typical symptom of a new
+Intel hardware generation, namely the **7th generation**. We have been a little
+fortunate that customers generally run our operating system on older hardware,
+someone reducing these sorts of issues. Recently [Intel announced 8th
 generation](https://newsroom.intel.com/editorials/new-8th-gen-intel-core-processors-simplifying-today-opening-door-whats-next/).
 
 Unfortunately each new hardware generation requires new drivers. I wish it
 didn't, but Intel's drivers _do not seem to be always forward compatible_. In
 the Linux ecosystem, this means an updated kernel and often [Xorg
-drivers](https://packages.qa.debian.org/x/xserver-xorg-video-intel.html) to
-support the new generation.
+drivers](https://tracker.debian.org/pkg/xserver-xorg-video-intel) to
+support the new PC generation.
 
 In Debian on which Webconverger is based, to get the latest kernel, you need to
 often do an entire distribution upgrade. Since Debian releases are typically
@@ -23,21 +26,22 @@ We don't start from scratch, like re-installing a fresh copy of Windows. The
 reason why is that we are keen to keep the differences down using our [git
 maintained rootfs](http://github.com/webconverger/webc). Though over time the
 position might become untenable. We've endeavoured to seamlessly support
-upgrades for our customer base, but the problem is often a crazy amount of
-work. Work that is manual and requiring a lot of test hardware. Worse is...
-work that often completely unnoticed!
+upgrades for our customer base, but the problem is... it's often a crazy amount
+of work. Tedious work that is manual and requiring a lot of test hardware. Worse is...
+work that often goes completely unnoticed!
 
 The transition from Debian 8 (Jessie) to Debian 9 (Stretch) was an enormously
 stressful for me and I am thankful [Matthijs
 Kooijman](https://github.com/Webconverger/webc/commits?author=matthijskooijman)
-did such a great job. I laboriously ran as many tests as I could.
+did such a great job. I laboriously ran as many tests as I could...
 
 On [2017-09-06 I merged the 25805 file
-changes](https://github.com/Webconverger/webc/pull/234) and I haven't any
+changes](https://github.com/Webconverger/webc/pull/234) and I haven't had any
 negative feedback so far... However the now [leader of Debian
 project](https://github.com/Webconverger/Debian-Live-config/commit/89dcd1c4a59667611c6b69e6f6960f9b7a3d0ab3#commitcomment-24064994)
-has noticed I have broken [[2016/Webconverger_has_reproducible_builds/]].
+has noticed I have broken
+[[2016/Webconverger_has_reproducible_builds/|reproducible builds]]. I will fix
+it or again contract someone to do it, since I am super busy.
 
-So this is another milestone for Webconverger. We've taken many users through
-three major versions of Debian. I'm celebrating this release, the one you don't
-notice. ;)
+To conclude, we have now taken many users through three major versions of
+Debian. I'm celebrating this release, the one you don't notice. ;)
