@@ -1,12 +1,13 @@
 [[!meta title="Debian 9 for Intel's 7th generation"]]
 
-Webconverger customers let us know about issue running on:
+Our customers let us know about problems running Webconverger on the new
+hardware of:
 
 * [NUC7iBNK](https://www.intel.com/content/dam/www/public/us/en/documents/product-briefs/nuc-kit-nuc7i5bnh-nuc7i5bnk-brief.pdf)
 * Dell Optiplex 7450s
 
 Issues were LAN networking and video issues. This is a typical symptom of a new
-Intel hardware generation, namely the **7th generation**. We have been a little
+Intel hardware generation, namely the [**7th generation**](https://en.wikipedia.org/wiki/Kaby_Lake). We have been a little
 fortunate that customers generally run our operating system on older hardware,
 someone reducing these sorts of issues. Recently [Intel announced 8th
 generation](https://newsroom.intel.com/editorials/new-8th-gen-intel-core-processors-simplifying-today-opening-door-whats-next/).
