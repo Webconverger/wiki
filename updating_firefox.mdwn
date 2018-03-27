@@ -19,8 +19,7 @@ Get the 32bit version and for the `ver=` value, see what
 
 Using the **firefox-i18n** packaging from Archlinux:
 
-	cp -r /var/abs/extra/firefox-i18n /tmp
-	cd /tmp/firefox-i18n
+	curl -O https://git.archlinux.org/svntogit/packages.git/plain/firefox-i18n/trunk/PKGBUILD
 
 Update `pkgver=52.0esr`
 
