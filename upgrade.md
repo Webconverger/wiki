@@ -1,4 +1,9 @@
-[[!meta title="Git powered operating system upgrades"]]
+---
+{
+  "title": "Git powered operating system upgrades",
+  "permalink": "/upgrade/"
+}
+---
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Xm-2s8voadM" frameborder="0" allowfullscreen></iframe>
 

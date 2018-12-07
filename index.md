@@ -1,8 +1,14 @@
+---
+home: true
+actionText: Get Started →
+actionLink: /API/
+---
+
 # Opensource kiosk software to get you onto the Web
 
 * x86 version Based on Debian stable & uses latest Firefox stable releases. [5000+ deployments](http://ping.webconverger.org/)
 * [Rootfs in git](https://github.com/webconverger/webc) to roll out updates and keep transparent
-* [[Configuration API|API]] to manage deployments
+* [Configuration API](/API/) to manage deployments
 * Also available on [Raspberry PI2](https://github.com/Webconverger/rpi2) & [Android >= 5](https://github.com/Webconverger/android)
 * Like to help our work financially? Please send money via <https://www.paypal.me/Webconverger>
 
@@ -13,7 +19,6 @@
 <hr>
 
 <a href="https://twitter.com/webconverger" class="twitter-follow-button" data-show-count="true" data-lang="en" data-size="large">Follow @webconverger</a>
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 
 <table border=0 style="background-color: #fff; padding: 5px;" cellspacing=0>
   <tr><td style="padding-left: 5px"> <b>Subscribe to Webconverger Users</b> </td></tr>

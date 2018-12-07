@@ -1,4 +1,9 @@
-[[!meta title="Webconverger API documentation"]]
+---
+{
+  "title": "Webconverger API documentation",
+  "permalink": "/API/"
+}
+---
 
 Webconverger heavily uses the notion of `/proc/cmdline` to control setup.
 [Spaces in cmdline

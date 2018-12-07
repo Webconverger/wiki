@@ -1,4 +1,10 @@
-[[!meta title="How to setup Webconverger with an attraction screensaver"]]
+---
+{
+  "title": "How to setup Webconverger with an attraction screensaver",
+  "permalink": "/screensaver/"
+}
+---
+
 
 To configure Webconverger with an attraction screensaver, for example to tell
 potential users which services are on offer, you need to setup your homepage,
