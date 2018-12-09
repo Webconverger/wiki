@@ -34,11 +34,11 @@ actionLink: /API/
 
 * [Download Webconverger](https://build.webconverger.com/latest.iso)
 * [Webconverger videos](https://www.youtube.com/webconverger/)
-* [About Webconverger](about)
-* [Developer information](develop)
-* [Acknowledgements](acknowledgements) - thanks everyone for your MIT licensed contributions!
-* [Testing Webconverger](testing) - please join the Quality Assurance(QA) effort
-* [Content filtering](filtering) is achieved by simply disabling the address bar in most cases
+* [About Webconverger](/about/)
+* [Developer information](/develop/)
+* [Acknowledgements](/acknowledgements/) - thanks everyone for your MIT licensed contributions!
+* [Testing Webconverger](/testing/) - please join the Quality Assurance(QA) effort
+* [Content filtering](/filtering/) is achieved by simply disabling the address bar in most cases
 
 # Download daily builds of Webconverger
 
@@ -56,13 +56,13 @@ Webconverger en masse. The [service is optional](https://webconverger.com/screen
 
 # Reasons for using Webconverger
 
-* [What people are saying about Webconverger](press)
-* [Ideal just for Web applications](ideal_just_for_web_applications)
-* [Free & open software](free_&_open_software)
-* [Low requirements](requirements) - can run on old/cheap hardware and can be ported to run on embedded devices
-* Good [security](security) features by [design](design)
-* [No users or registration](registration)
-* [Flash and PDF viewer](adobe)
-* [Easy to use](training)
-* [Low Maintenance](maintenance)
-* [Privacy policy](privacy)
+* [What people are saying about Webconverger](/press/)
+* [Ideal just for Web applications](/ideal_just_for_web_applications/)
+* [Free & open software](/free_&_open_software/)
+* [Low requirements](/requirements/) - can run on old/cheap hardware and can be ported to run on embedded devices
+* Good [security](/security/) features by [design](/design/)
+* [No users or registration](/registration/)
+* [Flash and PDF viewer](/adobe/)
+* [Easy to use](/training/)
+* [Low Maintenance](/maintenance/)
+* [Privacy policy](/privacy/)
