@@ -1,0 +1,13 @@
+{
+  "name": "webconverger-doc",
+  "version": "0.0.1",
+  "license": "MIT",
+  "dependencies": {
+    "vuepress": "^1.0.0-alpha.27",
+    "vuepress-backlinks": "https://github.com/gcoda/vuepress-backlinks"
+  },
+  "scripts": {
+    "dev": "vuepress dev . --temp .temp",
+    "build": "vuepress build . --temp .temp"
+  }
+}

@@ -1,0 +1,5 @@
+Ability to detect broken markdown links?
+
+When updating Frontmatter `npm run dev` could not show new page
+
+What to do about catching 404s?
