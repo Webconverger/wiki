@@ -1,9 +1,14 @@
-[[!meta title="🖨 How to setup a network printer with Webconverger"]]
+---
+{
+    "title": "🖨 How to setup a network printer with Webconverger",
+    "permalink": "/printing/"
+}
+---
 
 # [CTRL]+[p]
 
 Holding down the [Control] and [p] keys on your keyboard gives you the printing
-dialog. Or you can use the `showprintbutton` [[API]] to show a print icon to
+dialog. Or you can use the `showprintbutton` [API](/api/) to show a print icon to
 your users.
 
 [Mozilla Firefox printing

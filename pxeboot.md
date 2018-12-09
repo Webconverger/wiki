@@ -1,4 +1,9 @@
-[[!meta title="Mass cloning Webconverger in a LAN"]]
+---
+{
+    "title": "Mass cloning Webconverger in a LAN",
+    "permalink": "/pxeboot/"
+}
+---
 
 # Mass cloning Webconverger, using [pxeboot](http://en.wikipedia.org/wiki/Preboot_Execution_Environment)
 

@@ -1,4 +1,9 @@
-[[!meta title="Webconverger provides a familiar browsing interface" ]]
+---
+{
+    "title": "Webconverger provides a familiar browsing interface",
+    "permalink": "/training/"
+}
+---
 
 Webconverger provides the familiar stable browser interface without any cruft.
 
@@ -7,6 +12,6 @@ Webconverger provides the familiar stable browser interface without any cruft.
 * Reload button
 * Stop button
 * Home button
-* The **URL bar** (can be disabled via the [[API|kiosk]])
-* Search form (can be disabled via the [[API|kiosk]])
+* The **URL bar** (can be disabled via the [API](/kiosk/))
+* Search form (can be disabled via the [API](/kiosk/))
 * Tabs

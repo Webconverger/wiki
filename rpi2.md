@@ -1,4 +1,9 @@
-[[!meta title="Webconverger for Raspberry PI 2 & 3"]]
+---
+{
+    "title": "Webconverger for Raspberry PI 2 & 3",
+    "permalink": "/rpi2/"
+}
+---
 
 <div class="notebox">We also support the <a href=https://twitter.com/webconverger/status/709405833709297664>Rpi3</a> with our Rpi2 binaries!</div>
 
@@ -13,18 +18,18 @@ the configuration and better visibility if the device is actually online.
 
 Currently this port is designed for <abbr title="Digital Out of
 Home">DOOH</abbr> / Signage applications. It can be used as a kiosk, though it
-will not have a "chrome", i.e. [[user interface options|kiosk]] is set to `chrome=webcfullscreen`.
+will not have a "chrome", i.e. [user interface options](/kiosk/) is set to `chrome=webcfullscreen`.
 
 * [Installation instructions](https://github.com/Webconverger/rpi2/blob/master/README.md)
 * [Video of preparing the Webconverger microSD from Windows 10](https://www.youtube.com/watch?v=X4B0emkwvaw)
 
 A >= 4GB microSD card is recommended.
 
-# [[API]] notes
+# [API](/api/) notes
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/K54BDqJcYsA?rel=0" frameborder="0" allowfullscreen></iframe>
 
-Only a limited subset of the [[API]] is implemented. The
+Only a limited subset of the [API](/api/) is implemented. The
 [webc-config](https://github.com/Webconverger/rpi2/blob/master/usr/bin/webc-config)
 is the best documentation.
 
@@ -44,7 +49,7 @@ get corrupted.
 
 To rotate the screen, you can use
 `rpi2config=http://prefs.webconverger.com/2015/90-degrees.txt`.
-[[xrandr|display]] commands do not work with the rpi2's framebuffer powered
+[xrandr](/display/) commands do not work with the rpi2's framebuffer powered
 display. You may need to patient rebooting the device a couple of times as this
 configuration is only embedded at boot via
 [webc-upgrade](https://github.com/Webconverger/rpi2/blob/master/usr/bin/webc-upgrade).
@@ -94,4 +99,4 @@ and you can log in with a ssh public configured like so `ssh=http://hendry.iki.f
 
 # Experimental shell API
 
-Removing the API because of [[blog/2015/Why_a_shell_API_would_be_insecure]].
+Removing the API because of [blog/2015/Why a shell API would be insecure](/blog/2015/why_a_shell_api_would_be_insecure/).

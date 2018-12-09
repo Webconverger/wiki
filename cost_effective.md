@@ -1,7 +1,7 @@
-The non-customised Webconverger itself is free of charge and is [[Free_&_open_software]].
+The non-customised Webconverger itself is free of charge and is [Free & open software](/free_&_open_software/).
 
-* [[Runs_on_cheap_hardware|Requirements]]
-* [[Exhibits_cheaper_training_costs|Training]]
-* [[Cheaper_to_deploy|Deployment]]
-* [[Cheaper_to_maintain|Maintenance]]
-* [[Cheaper_to_support|Support]]
+* [Runs on cheap hardware](/requirements/)
+* [Exhibits cheaper training costs](/training/)
+* [Cheaper to deploy](/deployment/)
+* [Cheaper to maintain](/maintenance/)
+* [Cheaper to support](/support/)

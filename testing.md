@@ -1,4 +1,9 @@
-[[!meta title="Howto test Webconverger"]]
+---
+{
+    "title": "Howto test Webconverger",
+    "permalink": "/testing/"
+}
+---
 
 <iframe width="560" height="315" src="//www.youtube.com/embed/vpAJybQrbjc?list=UUH9ZMgfESFakRPvm6QRFNMQ" frameborder="0" allowfullscreen></iframe>
 
@@ -13,7 +18,7 @@ images](https://build.webconverger.com). Report bugs on
 
 **NOTE**: You need to <a href="/img/pae.png">enable PAE</a> and if your VM fails to boot try give it more RAM
 
-**NOTE**: If Webconverger fails to boot, make sure your BIOS has Virtualization options turned on as noted in [[blog/2016/Webconverger_35_release]].
+**NOTE**: If Webconverger fails to boot, make sure your BIOS has Virtualization options turned on as noted in [blog/2016/Webconverger 35 release](/blog/2016/webconverger_35_release/).
 
 * [Archlinux Virtualbox setup guide](https://wiki.archlinux.org/index.php/VirtualBox)
 
@@ -23,7 +28,7 @@ Setting a bridged network interface is straightforward, you just need to ensure:
 
 ## Testing branches from the install version
 
-With `fetch-revision=` from [[upgrade]] we can test experimental [branches](https://github.com/Webconverger/webc/branches), before they are merged to master.
+With `fetch-revision=` from [upgrade](/upgrade/) we can test experimental [branches](https://github.com/Webconverger/webc/branches), before they are merged to master.
 
 Here is a [video explaining how to get an installed Webconverger to switch branches for testing](http://r2d2.webconverger.org/2012-11-05/branches.html).
 
@@ -51,10 +56,10 @@ Think of cases where network comes online but configuration is failed to be fetc
 * SSL <https://config.webconverger.com/>
 * Test DDG search engine works
 
-## [[wireless]] can only be realistically tested on physical hardware (i.e. not under virtualisation)
+## [wireless](/wireless/) can only be realistically tested on physical hardware (i.e. not under virtualisation)
 
 ## [YouTube](https://www.youtube.com/)
 
-* [[Adobe]] flash test <http://www.adobe.com/software/flash/about/>
+* [Adobe](/adobe/) flash test <http://www.adobe.com/software/flash/about/>
 * Sound
 * [PDF](http://hendry.iki.fi/cv/resume.pdf)

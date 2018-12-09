@@ -1,4 +1,9 @@
-[[!meta title="How to connect Webconverger wirelessly to your access point"]]
+---
+{
+    "title": "How to connect Webconverger wirelessly to your access point",
+    "permalink": "/wireless/"
+}
+---
 
 # Wireless
 
@@ -9,12 +14,12 @@ keep your wireless configuration between reboots.
 
 Wireless setup works by [directly mapping
 wpa](https://github.com/Webconverger/webc/blob/master/etc/webc/wireless)
-[[boot]] configuration names onto [wpasupplicant for
+[boot](/boot/) configuration names onto [wpasupplicant for
 Debian](http://anonscm.debian.org/viewvc/pkg-wpa/wpasupplicant/trunk/debian/README.Debian?view=markup).
 
 ### Example 0, essid 'home' with no security
 
-Simply appending `wpa-ssid=home wpa-key-mgmt=NONE` to your [[boot]] command
+Simply appending `wpa-ssid=home wpa-key-mgmt=NONE` to your [boot](/boot/) command
 line should set your machine up for these wireless settings.
 
 ### Example 1, hidden essid 'home', no/disabled security
@@ -46,7 +51,7 @@ Append `wpa-ssid=home wpa-psk=uiopzxcv`
 ### Example 4 "Spaces in the ESSID", broadcasting essid 'Hopstock Gjestenett', with WPA key uiopzxcv
 
 Please avoid spaces in ESSIDs. In this case we workaround with a `encodeURI('Hopstock
-Gjestenett')`, to get the following [[boot]] recipe:
+Gjestenett')`, to get the following [boot](/boot/) recipe:
 
 	wpa-ssid=Hopstock%20Gjestenett wpa-psk=uiopzxcv
 

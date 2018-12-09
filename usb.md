@@ -1,4 +1,9 @@
-[[!meta title="Preparing a USB stick to boot Webconverger"]]
+---
+{
+    "title": "Preparing a USB stick to boot Webconverger",
+    "permalink": "/usb/"
+}
+---
 
 ## Webconverger boots from a USB memory stick plugged into your PC
 
@@ -7,7 +12,7 @@ stick](https://www.osdisc.com/products/webconverger?affiliate=webconverger), or
 you may create one yourself with any generic USB stick greater than 1G.
 
 Instead of creating a USB stick for booting a PC to test Webconverger, you can
-alternatively use [[Virtualbox|testing]].
+alternatively use [Virtualbox](/testing/).
 
 Below are a series of step-by-step instructions to help you create a
 Webconverger USB stick on popular systems from the Webconverger download (ISO
@@ -40,7 +45,7 @@ Windows doesn't understand the filesystem now on your USB stick.
 
 # Using MacOSX
 
-Please follow our step-by-step [[MacOSX_guide_with_pictures|macosx_usb]].
+Please follow our step-by-step [MacOSX guide with pictures](/macosx_usb/).
 
 # Using Linux
 
@@ -53,7 +58,7 @@ You might find specifying the additional argument `bs=1M` makes it faster & `sta
 
 ## Configuring your PC to boot the USB key instead of your hard drive
 
-Please refer to [[BIOS]].
+Please refer to [BIOS](/bios/).
 
 # Making Webconverger automatically update
 
@@ -63,4 +68,4 @@ boot that media, that is effectively _read only_ aka **Live** mode.
 When you Install Webconverger from the _Live media_ above, typically to that
 machine's hard drive or to [another USB
 key](https://www.youtube.com/watch?v=7Zmsj5DnQYo), only then it will keep
-**[[automatically up to date|upgrade]]**.
+**[automatically up to date](/upgrade/)**.

@@ -1,4 +1,9 @@
-[[!meta title="Webconverger service level"]]
+---
+{
+  "title": "Webconverger service level",
+  "permalink": "/sla/"
+}
+---
 
 Email: support@webconverger.com
 

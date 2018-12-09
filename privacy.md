@@ -1,8 +1,13 @@
-[[!meta title="Privacy policy"]]
+---
+{
+    "title": "Privacy policy",
+    "permalink": "/privacy/"
+}
+---
 
 # Privacy policy
 
-Webconverger is designed to ensure users privacy and [[security]] whilst
+Webconverger is designed to ensure users privacy and [security](/security/) whilst
 surfing the Web, primarily by wiping the slate clean between sessions.
 Therefore public users of a Webconverger kiosks should not have to fear they
 are leaving any private data behind.

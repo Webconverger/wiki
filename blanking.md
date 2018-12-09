@@ -1,4 +1,9 @@
-[[!meta title="When Webconverger idles"]]
+---
+{
+    "title": "When Webconverger idles",
+    "permalink": "/blanking/"
+}
+---
 
 # How Webconverger clients "blank" (save monitor power, by turning off or going black)
 
@@ -54,4 +59,4 @@ Caveat: Your homepage must have a title for `kioskresetstation` to work currentl
 in
 Webconverger](https://github.com/Webconverger/webc/blob/master/home/webc/.xinitrc).
 
-To override, you can add the [[API]] parameter `showcursor`.
+To override, you can add the [API](/api/) parameter `showcursor`.

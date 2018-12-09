@@ -1,4 +1,9 @@
-[[!meta title="Webconverger Limited's Terms and Conditions"]]
+---
+{
+    "title": "Webconverger Limited's Terms and Conditions",
+    "permalink": "/terms/"
+}
+---
 
 The canonical location of Webconverger's Terms and Conditions is
 <https://webconverger.org/terms/>.

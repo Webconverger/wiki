@@ -1,4 +1,9 @@
-[[!meta title="Tips for debugging"]]
+---
+{
+    "title": "Tips for debugging",
+    "permalink": "/debug/"
+}
+---
 
 Append `debug` on the boot command line, in order to access a default instance
 of the [dwm](http://dwm.suckless.org/tutorial) window manager.
@@ -25,7 +30,7 @@ This only works when `debug` is on the commandline.
 
 # Remote logging
 
-Use the `log=` [[API]] and grab an account with [Papertrail](https://papertrailapp.com/?thank=97e900) for a nice Web interface
+Use the `log=` [API](/api/) and grab an account with [Papertrail](https://papertrailapp.com/?thank=97e900) for a nice Web interface
 
 # Debugging an installed version of Webconverger
 
@@ -115,7 +120,7 @@ Then... you're not going to like this. Try all of these kernel cmdline options:
 
 # Packet sniffing
 
-Refer to the [[wireshark]] guide.
+Refer to the [wireshark](/wireshark/) guide.
 
 # Debugging systemd
 

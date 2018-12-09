@@ -1,7 +1,12 @@
-[[!meta title="Practically maintenance free software"]]
+---
+{
+    "title": "Practically maintenance free software",
+    "permalink": "/maintenance/"
+}
+---
 
 Webconverger is low maintenance. No administrator required!
 
-Webconverger is [[designed|design]] so that users store their data on Web applications, so you need not worry about losing **or maintaining** any data locally.
+Webconverger is [designed](/design/) so that users store their data on Web applications, so you need not worry about losing **or maintaining** any data locally.
 
-Webconverger stays seamlessly uptodate with its [[gitfs|upgrade]] technology. No more headaches!
+Webconverger stays seamlessly uptodate with its [gitfs](/upgrade/) technology. No more headaches!

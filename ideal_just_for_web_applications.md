@@ -1,4 +1,9 @@
-[[!meta title="Only the open Web"]]
+---
+{
+    "title": "Only the open Web",
+    "permalink": "/ideal_just_for_web_applications/"
+}
+---
 
 Webconverger is designed to support **only** Web applications. Converging your
 IT operations upon the Web frees your clients from [vendor

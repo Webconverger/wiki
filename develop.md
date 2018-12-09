@@ -1,27 +1,32 @@
-[[!meta title="Developing Webconverger"]]
+---
+{
+    "title": "Developing Webconverger",
+    "permalink": "/develop/"
+}
+---
 
 * [Report and view bugs](https://github.com/Webconverger/webc/issues)
-* [[Core_concepts|design]]
+* [Core concepts](/design/)
 * [Webconverger Debian Live configuration](https://github.com/Webconverger/Debian-Live-config)
 * [Webconverger daily builds](https://build.webconverger.com/)
-* [[Webconverger_in_your_locale|i18n]]
-* [[Artwork]]
-* [[Firefox_extension_development|Kiosk]]
+* [Webconverger in your locale](/i18n/)
+* [Artwork](/artwork/)
+* [Firefox extension development](/kiosk/)
 * [Debian Live project](http://live.debian.net/) and [Live helper packages](http://live.debian.net/)
-* [[Howto_add_Java|Java]]
-* [[Howto_integrate_nvidia_drivers|nvidia]]
-* [[Customising_cronjob|cronjob]]
-* [[Debug_mode|debug]]
-* [[Using_PXEBOOT_for_deployment|pxeboot]]
+* [Howto add Java](/java/)
+* [Howto integrate nvidia drivers](/nvidia/)
+* [Customising cronjob](/cronjob/)
+* [Debug mode](/debug/)
+* [Using PXEBOOT for deployment](/pxeboot/)
 
-If you are new to the project, **Welcome**!! Please start out by [[testing]].
+If you are new to the project, **Welcome**!! Please start out by [testing](/testing/).
 
 We might be the first distribution to use [git](http://git-scm.com/) for
-[[upgrades|upgrade]] and managing just about everything we do. :)
+[upgrades](/upgrade/) and managing just about everything we do. :)
 
 <div class="notebox"> The Webconverger distribution is an MIT licensed
 production (notable exceptions are non-free wireless firmware and
-[[flash|adobe]]). You <b>must</b> understand that the <a
+[flash](/adobe/)). You <b>must</b> understand that the <a
 href="https://webconverger.com/images/logo.svg">branding (logo and the name
 "Webconverger")</a> are <b>proprietary</b>.  Only Webconverger built images
 should display the logo and can be sold as "Webconverger". Thank you.</div>
@@ -45,7 +50,7 @@ For tweaks, take a look at
 `make` is run from within the Docker container to build the ISO image, which is
 named `live-image-i386.hybrid.iso` by default.
 
-Next use this [[testing_guide|testing]] on your freshly built image.
+Next use this [testing guide](/testing/) on your freshly built image.
 
 To work within the chroot, you shouldn't require the Docker image. `chroot` should be sufficient:
 
@@ -58,11 +63,11 @@ distro upto date with the latest packages.
 Please share your forks on github! :) Contributions must be [MIT
 licensed](http://en.wikipedia.org/wiki/MIT_License). For patches to be
 accepted, you must agree to transfer copyright to Webconverger (the company) to
-make things manageable. We do [[acknowledge|acknowledgements]] contributions!
+make things manageable. We do [acknowledge](/acknowledgements/) contributions!
 
 ## Tips for getting your patch out a running Webconverger
 
-In [[debug]] mode:
+In [debug](/debug/) mode:
 
 	root@webconverger:/etc/systemd/system# git status | less
 	root@webconverger:/etc/systemd/system# git commit

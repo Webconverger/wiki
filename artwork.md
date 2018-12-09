@@ -1,4 +1,9 @@
-[[!meta title="Customising Webconverger with your branding"]]
+---
+{
+    "title": "Customising Webconverger with your branding",
+    "permalink": "/artwork/"
+}
+---
 
 **Boot artwork** is **not** customisable. Ideally users should never see Webconverger boot.
 
@@ -17,7 +22,7 @@ is the relevant code and search for "bgurl":
 
 The Webconverger brand mark can be turned off with `nobrand` in your [configuration](https://config.webconverger.com/) or setting `pref("extensions.webconverger.nobrand", true);`, using the `prefs=` API.
 
-Please see [[blog/2014/New_logo]] for more information on the new logo.
+Please see [blog/2014/New logo](/blog/2014/new_logo/) for more information on the new logo.
 
 # Themes
 

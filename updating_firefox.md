@@ -1,4 +1,9 @@
-[[!meta title="Updating Firefox for a Webconverger developer"]]
+---
+{
+    "title": "Updating Firefox for a Webconverger developer",
+    "permalink": "/updating_firefox/"
+}
+---
 
 We now use [ESR because of the painful signing process of
 extensions](https://www.mozilla.org/en-US/firefox/organizations/all/)

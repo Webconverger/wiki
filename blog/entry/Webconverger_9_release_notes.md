@@ -17,6 +17,3 @@ location](http://download.webconverger.com/) and do check the sha1sum is
 Source code can be downloaded from <http://src.webconverger.com/>.
 
 Please support Webconverger by [ordering a customised version](http://webconverger.com/buy/) or by offering a [[testimonial|press]]!
-
-<a href="https://twitter.com/webconverger" class="twitter-follow-button" data-show-count="false">Follow @webconverger</a>
-<script src="//platform.twitter.com/widgets.js" type="text/javascript"></script>

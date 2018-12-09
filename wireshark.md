@@ -1,4 +1,9 @@
-[[!meta title="How to packet sniff Webconverger"]]
+---
+{
+    "title": "How to packet sniff Webconverger",
+    "permalink": "/wireshark/"
+}
+---
 
 Tools:
 
@@ -13,7 +18,7 @@ Tested in Windows. Unfortunately Virtualbox bridged networking under Linux tends
 
 	noping noconfig homepage=about:blank
 
-* `noping` disables the [machine ping for statistics](http://ping.webconverger.org/) as documented in [[privacy]]
+* `noping` disables the [machine ping for statistics](http://ping.webconverger.org/) as documented in [privacy](/privacy/)
 * `noconfig` disables the [configuration service](https://config.webconverger.com/)
 
 # Virtualbox settings
@@ -32,5 +37,5 @@ constantly introduced](https://wiki.mozilla.org/Advocacy/heartbeat).
 Related project: <https://github.com/pyllyukko/user.js>
 
 Be sure to check out the [Webconverger packet sniffing
-videos](https://www.youtube.com/watch?v=7Zmsj5DnQYo) for the [[upgrade]]
+videos](https://www.youtube.com/watch?v=7Zmsj5DnQYo) for the [upgrade](/upgrade/)
 scenario run through.

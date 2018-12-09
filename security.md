@@ -1,4 +1,9 @@
-[[!meta title="Webconverger has better out of the box security"]]
+---
+{
+    "title": "Webconverger has better out of the box security",
+    "permalink": "/security/"
+}
+---
 
 Webconverger unlike Windows for example does not require:
 
@@ -7,7 +12,7 @@ Webconverger unlike Windows for example does not require:
 * anti-malware
 * anti-virus
 
-Webconverger is [[designed|design]] for [[privacy]] and [[security]], based on:
+Webconverger is [designed](/design/) for [privacy](/privacy/) and [security](/security/), based on:
 
 * Transparency with [opensource software](https://github.com/webconverger/webc)
 * [Reproducble builds](/blog/2016/Webconverger_has_reproducible_builds)
@@ -15,7 +20,7 @@ Webconverger is [[designed|design]] for [[privacy]] and [[security]], based on:
 * Does not require any signup or registration
 * Does not snoop on users
 
-Once installed, Webconverger has [[automatic updates|upgrade]] that keep you
+Once installed, Webconverger has [automatic updates](/upgrade/) that keep you
 deployment security patched. Note that fetched updates only apply at boot.
 
 We can support Enterprise IT administrators looking to finely tune update roll
@@ -25,7 +30,7 @@ outs.
 
 Webconverger welcomes security review. Please email **security** AT
 webconverger.com with your findings. Valid bugs are typically kindly
-[[acknowledged|acknowledgements]] building up your online reputation as an expert!
+[acknowledged](/acknowledgements/) building up your online reputation as an expert!
 
 Could security reviewers please practice [responsible disclosure](https://en.wikipedia.org/wiki/Responsible_disclosure).
 
@@ -33,4 +38,4 @@ Could security reviewers please practice [responsible disclosure](https://en.wik
 * [Review by Andrew Patrick, Ph.D. of the Information Security Group](http://www.andrewpatrick.ca/security-and-privacy/quest-for-a-good-boot-cd-for-internet-banking/) of the [National Research Council Canada](http://www.nrc-cnrc.gc.ca/)
 * Webconverger has been reviewed by "kiosk hacker" Paul Craig of <http://ikat.ha.cked.net/>
 
-Please be vigilant: [[Packet sniff Webconverger|wireshark]] and [monitor changes](https://github.com/Webconverger/webc/commits/master).
+Please be vigilant: [Packet sniff Webconverger](/wireshark/) and [monitor changes](https://github.com/Webconverger/webc/commits/master).

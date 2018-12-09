@@ -1,4 +1,9 @@
-[[!meta title="Notes on PC BIOS"]]
+---
+{
+    "title": "Notes on PC BIOS",
+    "permalink": "/bios/"
+}
+---
 
 BIOS sound scary, but it's simply the system responsible for booting your
 Operating System of choice.

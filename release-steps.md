@@ -1,11 +1,16 @@
-[[!meta title="Checklist for making a release"]]
+---
+{
+    "title": "Checklist for making a release",
+    "permalink": "/release-steps/"
+}
+---
 
 DEPRECATED: Favouring <https://travis-ci.org/Webconverger/webc/>
 
 1. Tag [webc](https://github.com/Webconverger/webc) and [Debian Live config](https://github.com/Webconverger/Debian-Live-config) - `git tag -s 13.0 && git push origin 13.0`. Permission problems? `sudo chown -R $USER:root .git`
 * Build it `gb# /srv/www/build.webconverger.org/webc-build.sh`
-* [[Test|testing]] it
-* Just debug.log [[ping|privacy]], check clients config fetch
+* [Test](/testing/) it
+* Just debug.log [ping](/privacy/), check clients config fetch
 * On gb, run `aws s3 cp --acl public-read --storage-class REDUCED_REDUNDANCY webc-35.0.iso s3://webcdl/`
 * Update houston.dreamhost.com:/home/hendry/dl2.webconverger.com/index.php
 * Back up old release to http://archive.webconverger.com/

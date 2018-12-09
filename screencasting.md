@@ -1,4 +1,9 @@
-[[!meta title="Screen casting" ]]
+---
+{
+    "title": "Screen casting",
+    "permalink": "/screencasting/"
+}
+---
 
 For <https://www.youtube.com/webconverger/> we've made a couple of videos to
 show users around Webconverger.

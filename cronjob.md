@@ -1,4 +1,9 @@
-[[!meta title="Scheduling a shutdown"]]
+---
+{
+  "title": "Scheduling a shutdown",
+  "permalink": "/cronjob/"
+}
+---
 
 Instead of a 5USD [time
 switch](http://en.wikipedia.org/wiki/Time_switch), you can configure

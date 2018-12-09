@@ -59,10 +59,10 @@ version currently. Android coming soon.
 <https://github.com/Webconverger/webc/tree/master/etc/webc/extensions>
 
 * chrome=webconverger - this is the default
-* chrome=webcnoaddressbar - disable URL bar and search bar, good for [controlled access setups](/filtering)
+* chrome=webcnoaddressbar - disable URL bar and search bar, good for [controlled access setups](/filtering/)
 * chrome=webcfullscreen - fullscreen without any chrome
-* chrome=neon - fullscreen as used with [Neon](http://neon.webconverger.com)
-* chrome=debug - nightly testing tools, for [testing](/testing) crash recovery etc. and to expose `about:config`
+* chrome=neon - fullscreen as used with Web signage
+* chrome=debug - nightly testing tools, for [testing](/testing/) crash recovery etc. and to expose `about:config`
 
 See [kiosk](/kiosk) for screenshots of the options.
 
@@ -106,11 +106,11 @@ append `http_proxy=http://192.168.1.5:8888`
 
 ### How do I make the screen not timeout and go black?
 
-Append `noblank`, see [blanking](/blanking) for more.
+Append `noblank`, see [blanking](/blanking/) for more.
 
 ### How do I make the terminal reset / timeout after being used?
 
-Use `kioskresetstation`, see [blanking](/blanking) for more information
+Use `kioskresetstation`, see [blanking](/blanking/) for more information
 
 ### How do I prevent Webconverger from cleaning up after each session? (From 14.0)
 

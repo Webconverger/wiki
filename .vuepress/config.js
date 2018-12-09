@@ -6,5 +6,8 @@ module.exports = {
     displayAllHeaders: true,
     lastUpdated: 'Last Updated'
   },
-  evergreen: true
+  evergreen: true,
+  plugins: [
+    require('vuepress-backlinks')
+  ]
 }

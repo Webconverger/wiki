@@ -1,4 +1,9 @@
-[[!meta title="Configuring screens with Webconverger's xrandr"]]
+---
+{
+    "title": "Configuring screens with Webconverger's xrandr",
+    "permalink": "/display/"
+}
+---
 
 <iframe width="560" height="315" src="//www.youtube.com/embed/8dePy1O_FCM?rel=0" frameborder="0" allowfullscreen></iframe>
 
@@ -10,11 +15,11 @@ Tutorial above which turns off the laptops screen and configures the browser to 
 	xrandr=--output%20LVDS1%20--off%20--output%20HDMI1%20--auto
 	xrandr-all=--rotate%20left
 
-This is a little tricky, since we need to use [[debug]] mode to find the **names** of our attached displays.
+This is a little tricky, since we need to use [debug](/debug/) mode to find the **names** of our attached displays.
 
 # Finding the names of your output screens
 
-1. Run in [[debug]] mode
+1. Run in [debug](/debug/) mode
 * Launch a terminal, [Shift]+[Alt]+[Enter]
 * Run `xrandr` to find the names
 
@@ -31,10 +36,10 @@ of the ends of the VGA cable will achieve this as well.
 
 When EDID is not received, the OS defaults to lower resolutions, such as
 1024x768 and higher resolution modes are not available.  As a result, the
-`xrandr-all` of the boot [[API]] is ineffective at setting resolutions.
+`xrandr-all` of the boot [API](/api/) is ineffective at setting resolutions.
 
-Instead, we can use `xrandr` from the boot [[API]], but we need to do some
-investigation in [[debug_mode|debug]] to get the video output names and the like and to
+Instead, we can use `xrandr` from the boot [API](/api/), but we need to do some
+investigation in [debug mode](/debug/) to get the video output names and the like and to
 test things out.
 
 ## Manually adding the resolution and testing
@@ -121,7 +126,7 @@ Sample output:
 
     xrandr --output VGA-0 --mode 1280x720
 
-## Using the Webconverger xrandr [[API]] to force a given resolution
+## Using the Webconverger xrandr [API](/api/) to force a given resolution
 
 The same steps as above need to be accomplished, so we pass three `xrandr` parameters at boot **in the correct order**:
 

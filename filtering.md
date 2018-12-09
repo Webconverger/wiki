@@ -1,12 +1,17 @@
-[[!meta title="Network filtering / censorship options"]]
+---
+{
+    "title": "Network filtering / censorship options",
+    "permalink": "/filtering/"
+}
+---
 
 # Limiting users to your Website
 
-<img src="/chrome/webcnoaddressbar.png" alt="No addressbar" />
+<img src="/img/chrome/webcnoaddressbar.png" alt="No addressbar" />
 
 The easiest way to limit users to your Website, in your order is to select
 "User interface without URL address bar, used for limiting users to your
-homepage" or the advanced API command [[chrome=webcnoaddressbar|kiosk]]. This
+homepage" or the advanced API command [chrome=webcnoaddressbar](/kiosk/). This
 modifies the User Interface to remove the URL addressbar, so that users are
 effectively walled into your homepage and its links.
 
@@ -54,7 +59,7 @@ for details.
 
 # How to prevent users leaving public kiosks in a "bad state"
 
-You will want to consider the [[kiosk_reset|blanking]] options in order to
+You will want to consider the [kiosk reset](/blanking/) options in order to
 reset Webconverger to your site every say, 3 minutes. This can help avoid an
 unsupervised Webconverger kiosk being set on a non-mandated Website for too
 long in public spaces.

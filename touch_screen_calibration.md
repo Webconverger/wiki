@@ -1,4 +1,9 @@
-[[!meta title="Webconverger touch screen calibration" ]]
+---
+{
+    "title": "Webconverger touch screen calibration",
+    "permalink": "/touch_screen_calibration/"
+}
+---
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/OGoqzQtD4kg" frameborder="0" allowfullscreen></iframe>
 
@@ -43,7 +48,7 @@ Add to your configuration:
 
 # Grab and Drag
 
-<https://addons.mozilla.org/en-us/firefox/addon/grab-and-drag/> can be activated with the [[API]] option:
+<https://addons.mozilla.org/en-us/firefox/addon/grab-and-drag/> can be activated with the [API](/api/) option:
 
 	grabdrag
 

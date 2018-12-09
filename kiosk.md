@@ -1,4 +1,9 @@
-[[!meta title="Webconverger chrome UI options"]]
+---
+{
+    "title": "Webconverger chrome UI options",
+    "permalink": "/kiosk/"
+}
+---
 
 Webconverger has its own [Firefox kiosk
 extension](https://addons.mozilla.org/en-US/firefox/addon/webconverger) to
@@ -13,7 +18,7 @@ Github: <https://github.com/Webconverger/webconverger-addon/>
 The goal with this default to have a **stable**, simple & familiar user
 interface for using the Web.
 
-<img src="/chrome/webconverger-showprintbutton.png" alt="webconverger" />
+<img src="/img/chrome/webconverger-showprintbutton.png" alt="webconverger" />
 
 `showprintbutton` API is enabled on this screenshot. Normally there would be no print icon.
 
@@ -21,10 +26,10 @@ interface for using the Web.
 
 	chrome=webcnoaddressbar
 
-Customization option, perfect for [[filtered|filtering]] setups. For customers
+Customization option, perfect for [filtered](/filtering/) setups. For customers
 who want patrons to browse, but not enter in URLs to navigate away.
 
-<img src="/chrome/webcnoaddressbar-showprintbutton.png" alt="webcnoaddressbar" />
+<img src="/img/chrome/webcnoaddressbar-showprintbutton.png" alt="webcnoaddressbar" />
 
 `showprintbutton` API is enabled on this screenshot. Normally there would be no print icon.
 
@@ -39,7 +44,7 @@ pictures](http://www.subitophoto.net/slideshow/machupicchu/) somewhere.
 [Neon](http://neon.webconverger.com/) has further tweaks for the digital
 signage use case, such as a black background.
 
-<img src="/chrome/webcfullscreen.png" alt="webcfullscreen" />
+<img src="/img/chrome/webcfullscreen.png" alt="webcfullscreen" />
 
 If you're concerned about the scroll bar, alter the **overflow** CSS element.
 

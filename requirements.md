@@ -1,4 +1,9 @@
-[[!meta title="Webconverger requires 1GB of RAM"]]
+---
+{
+    "title": "Webconverger requires 1GB of RAM",
+    "permalink": "/requirements/"
+}
+---
 
 	By the way Webconverger is really cool because we used SiteKiosk under Windows
 	and the performance on our old terminals was terrible since we got a new
@@ -14,9 +19,9 @@ Webconverger can run on most PCs that meet [Firefox's minimum
 requirements](http://www.mozilla.com/en-US/firefox/system-requirements.html),
 however with a minimum of 1GB of RAM.
 
-Webconverger has been even known to run on Pentium 3, though [[Flash|adobe]]
+Webconverger has been even known to run on Pentium 3, though [Flash](/adobe/)
 should be disabled in such daring [re-uses of old computers](http://en.wikipedia.org/wiki/Computer_recycling).
 
-In fact Webconverger **does not require any hard drive**, if you boot from a [[USB]] stick.
+In fact Webconverger **does not require any hard drive**, if you boot from a [USB](/usb/) stick.
 
 Webconverger can run well on **older machines** that can USB boot. Give Webconverger a try!

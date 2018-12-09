@@ -1,4 +1,9 @@
-[[!meta title="Making git rootfs development iterations faster"]]
+---
+{
+    "title": "Making git rootfs development iterations faster",
+    "permalink": "/chroot/"
+}
+---
 
 # chroot for building (running Debian Live)
 
@@ -47,7 +52,7 @@ Please try contribute your changes back to
 [webc](https://github.com/Webconverger/webc/commits/master) by doing a **Pull
 Request**. All contributions become copyrighted Webconverger and [MIT
 licensed](http://en.wikipedia.org/wiki/MIT_License) and
-[[thanked|acknowledgements]]. :)
+[thanked](/acknowledgements/). :)
 
 # Handy shortcuts
 
@@ -73,7 +78,7 @@ Whenever I drop out of the chroot, I run `up` to push the change [up to github](
 		git push
 	}
 
-Update: With [[upgrade]] the flow is to push to a branch before merging to
+Update: With [upgrade](/upgrade/) the flow is to push to a branch before merging to
 master, since master is automatically used by install users and it's extremely
 important that it remains stable.
 
@@ -106,5 +111,5 @@ Then I go `b` to get into the Debian sid-chroot with [Debian Live build
 script](https://github.com/Webconverger/Debian-Live-config). I run `make` and
 builds the ISO.
 
-Once the ISO is built I launch [[Virtualbox|testing]] and test
+Once the ISO is built I launch [Virtualbox](/testing/) and test
 `binary.hybrid.iso`.

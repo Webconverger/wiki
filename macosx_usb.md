@@ -1,4 +1,9 @@
-[[!meta title="How to put Webconverger on a USB stick from MACOSX"]]
+---
+{
+    "title": "How to put Webconverger on a USB stick from MACOSX",
+    "permalink": "/macosx_usb/"
+}
+---
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/DUN2UXiMYH8" frameborder="0" allowfullscreen></iframe>
 

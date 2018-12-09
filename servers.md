@@ -1,4 +1,9 @@
-[[!meta title="Servers and services used by Webconverger"]]
+---
+{
+    "title": "Servers and services used by Webconverger",
+    "permalink": "/servers/"
+}
+---
 
 Domain registration handled by Dreamhost.
 
@@ -40,9 +45,7 @@ Hosted with [Linode](https://www.linode.com/?r=59198f21b93910b67d8e1e4212a313534
 
 # webconverger.org
 
-<https://webconverger.org> is expertly curated by <http://www.branchable.com> for the public wiki.
-
-~60USD a year
+<https://webconverger.org> is running on [Vuepress](https://vuepress.vuejs.org/) on https://commons.host/
 
 # [Webconverger Github](https://github.com/Webconverger)
 

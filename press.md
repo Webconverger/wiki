@@ -1,4 +1,9 @@
-[[!meta title="Webconverger in the media"]]
+---
+{
+    "title": "Webconverger in the media",
+    "permalink": "/press/"
+}
+---
 Clients use Webconverger in:
 ============================
 
