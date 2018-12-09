@@ -1,4 +1,9 @@
-[[!meta title="Overview about the various webc-specific scripts and what gets called when"]]
+---
+{
+  "title": "Overview about the various webc-specific scripts and what gets called when",
+  "permalink": "/startup/"
+}
+---
 
 We currently use an old version of systemd now for [maintaining Webconverger services](https://github.com/Webconverger/webc/tree/master/etc/systemd/system):
 
@@ -52,4 +57,4 @@ take effect, it's best to reboot the machine.
 
 # Debugging
 
-Append `debug` on cmdline and view `/var/log/syslog`. You can export logs using the `log=` [[API|boot]]
+Append `debug` on cmdline and view `/var/log/syslog`. You can export logs using the `log=` [API](/boot/)

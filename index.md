@@ -1,6 +1,7 @@
 ---
 home: true
-actionText: Get Started →
+description: Webconverger reference and blog
+actionText: View the API
 actionLink: /API/
 ---
 
@@ -12,9 +13,7 @@ actionLink: /API/
 * Also available on [Raspberry PI2](https://github.com/Webconverger/rpi2) & [Android >= 5](https://github.com/Webconverger/android)
 * Like to help our work financially? Please send money via <https://www.paypal.me/Webconverger>
 
-[Subscribe to the RSS feed](//webconverger.org/blog/index.rss) of the **[[blog]]** or view the [[blog/archives]]!
-
-[[!inline  pages="blog/*/*" show="3" actions="no" feeds="no" archive="yes"]]
+[Subscribe to the RSS feed](//webconverger.org/blog/index.rss) of the **[blog](blog)**
 
 <hr>
 
@@ -35,11 +34,11 @@ actionLink: /API/
 
 * [Download Webconverger](https://build.webconverger.com/latest.iso)
 * [Webconverger videos](https://www.youtube.com/webconverger/)
-* [[About Webconverger|about]]
-* [[Developer_information|Develop]]
-* [[Acknowledgements]] - thanks everyone for your MIT licensed contributions!
-* [[Testing_Webconverger|Testing]] - please join the Quality Assurance(QA) effort
-* [[Content_filtering|Filtering]] is achieved by simply disabling the address bar in most cases
+* [About Webconverger](about)
+* [Developer information](develop)
+* [Acknowledgements](acknowledgements) - thanks everyone for your MIT licensed contributions!
+* [Testing Webconverger](testing) - please join the Quality Assurance(QA) effort
+* [Content filtering](filtering) is achieved by simply disabling the address bar in most cases
 
 # Download daily builds of Webconverger
 
@@ -57,13 +56,13 @@ Webconverger en masse. The [service is optional](https://webconverger.com/screen
 
 # Reasons for using Webconverger
 
-* [[What_people_are_saying_about_Webconverger|press]]
-* [[Ideal_just_for_Web_applications]]
-* [[Free_&_open_software]]
-* [[Low_requirements|Requirements]] - can run on old/cheap hardware and can be ported to run on embedded devices
-* Good [[security]] features by [[design]]
-* [[No_users_or_registration|Registration]]
-* [[Flash_and_PDF_viewer|Adobe]]
-* [[Easy_to_use|Training]]
-* [[Low_Maintenance|Maintenance]]
-* [[Privacy_policy|privacy]]
+* [What people are saying about Webconverger](press)
+* [Ideal just for Web applications](ideal_just_for_web_applications)
+* [Free & open software](free_&_open_software)
+* [Low requirements](requirements) - can run on old/cheap hardware and can be ported to run on embedded devices
+* Good [security](security) features by [design](design)
+* [No users or registration](registration)
+* [Flash and PDF viewer](adobe)
+* [Easy to use](training)
+* [Low Maintenance](maintenance)
+* [Privacy policy](privacy)

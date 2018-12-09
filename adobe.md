@@ -1,4 +1,9 @@
-[[!meta title="Adobe Flash in Webconverger"]]
+---
+{
+  "title": "Adobe Flash in Webconverger",
+  "permalink": "/adobe/"
+}
+---
 
 # Flash is included
 

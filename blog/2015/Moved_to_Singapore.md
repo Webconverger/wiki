@@ -1,3 +1,10 @@
+---
+{
+  "title": "Overview about the various webc-specific scripts and what gets called when",
+  "permalink": "/blog/2015/moved_to_singapore/"
+}
+---
+
 <img src=/img/2015/uk-sg.png alt="UK to Singapore">
 
 tl;dr We are closing the UK entity in favour of operating exclusively via the

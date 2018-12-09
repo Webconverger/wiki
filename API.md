@@ -5,22 +5,18 @@
 }
 ---
 
-[[toc]]
-
-
 Webconverger heavily uses the notion of `/proc/cmdline` to control setup.
-[Spaces in cmdline
-values](http://stackoverflow.com/questions/993452/splitting-proc-cmdline-arguments-with-spaces)
+[Spaces in cmdline values](//stackoverflow.com/questions/993452/splitting-proc-cmdline-arguments-with-spaces)
 need to be `encodeURI` in order not be considered keys themselves. For
-developers, [[startup]] might better explain how these are used.
+developers, [startup](/startup/) might better explain how these are used.
 
 There are two ways to start using the API, firstly by hitting
-[TAB](http://en.wikipedia.org/wiki/Tab_key) on the boot screen. See [[testing]]
+[TAB](//en.wikipedia.org/wiki/Tab_key) on the boot screen. See [testing](/testing/)
 for a video of how to do this in a Virtual machine.
 
-<img src="/img/webc-boot.png" alt="Syslinux boot menu, press TAB" />
+![Syslinux boot menu, press TAB](./img/webc-boot.png)
 
-Or by using the [configuration service](http://config.webconverger.com/) form
+Or by using the [configuration service](//config.webconverger.com/) form
 which you need to take a subscription out with Webconverger. The service
 presents the various options below in a friendly Web form on boot, which are
 saved on the Web so your values are retained between boots once subscribed.
@@ -55,22 +51,22 @@ Using `instantupdate` from version 28.
 
 This [video has an instantupdate
 demonstration](https://www.youtube.com/watch?v=VJehjCZg02k). Good for getting a
-pool of Webconverger devices on the same page. Support by the [[rpi2]] & x86
+pool of Webconverger devices on the same page. Support by the [rpi2](rpi2) & x86
 version currently. Android coming soon.
 
-### Changing [[browser_chrome|kiosk]]
+### Changing [browser chrome](/kiosk)
 
 <https://github.com/Webconverger/webc/tree/master/etc/webc/extensions>
 
 * chrome=webconverger - this is the default
-* chrome=webcnoaddressbar - disable URL bar and search bar, good for [[controlled_access_setups|filtering]]
+* chrome=webcnoaddressbar - disable URL bar and search bar, good for [controlled access setups](/filtering)
 * chrome=webcfullscreen - fullscreen without any chrome
 * chrome=neon - fullscreen as used with [Neon](http://neon.webconverger.com)
-* chrome=debug - nightly testing tools, for [[testing]] crash recovery etc. and to expose `about:config`
+* chrome=debug - nightly testing tools, for [testing](/testing) crash recovery etc. and to expose `about:config`
 
-See [[kiosk]] for screenshots of the options.
+See [kiosk](/kiosk) for screenshots of the options.
 
-### [Neon](http://neon.webconverger.com/) configuration example (a complex example)
+### Web signage configuration example (a complex example)
 
 	chrome=neon
 	homepage=http://iframereload.dabase.com//?mac=MACID
@@ -82,25 +78,25 @@ See [[kiosk]] for screenshots of the options.
 
 Explanation of the above:
 
-1. Set the chrome (not the browser, but the [GUI](http://en.wikipedia.org/wiki/Graphical_user_interface)), to a dark themed "neon" for <abbr="Digital Out Of Home">DOOH</abbr>
+1. Set the chrome (not the browser, but the [GUI](http://en.wikipedia.org/wiki/Graphical_user_interface)), to a dark themed "neon" for <abbr title="Digital Out Of Home">DOOH</abbr>
 * Set the homepage to http://iframereload.dabase.com/, whilst also passing a screen identifier (mac address)
 * Set the timezone to Singapore, so we can express a local time in the next line
-* [[Schedule a job|cronjob]] to run at 3AM, to kill firefox, the browser used in Webconverger. This is to ensure responsiveness in case there is a memory leak
+* [Schedule a job](cronjob) to run at 3AM, to kill firefox, the browser used in Webconverger. This is to ensure responsiveness in case there is a memory leak
 * `hidecursor` makes sure the mouse cursor is invisible
 * `noblank` ensures the screen does not turn black, i.e. it's always showing the rendered Web page
 * Rotate connected screens to portrait
 
 ### How to limit access with a blacklist or a whitelist?
 
-Please see [[filtering]] page.
+Please see [filtering](/filtering) page.
 
 ### Use Webconverger in a different language to English
 
-Please refer to [[i18n]]
+Please refer to [i18n](/i18n)
 
 ### Is it possible to change desktop background image ?
 
-Please see [[artwork]] for details how to use `bgurl=`
+Please see [artwork](/artwork) for details how to use `bgurl=`
 
 ### Specify a HTTP proxy at 192.168.1.5 with port 8888
 
@@ -110,11 +106,11 @@ append `http_proxy=http://192.168.1.5:8888`
 
 ### How do I make the screen not timeout and go black?
 
-Append `noblank`, see [[blanking]] for more.
+Append `noblank`, see [blanking](/blanking) for more.
 
 ### How do I make the terminal reset / timeout after being used?
 
-Use `kioskresetstation`, see [[blanking]] for more information
+Use `kioskresetstation`, see [blanking](/blanking) for more information
 
 ### How do I prevent Webconverger from cleaning up after each session? (From 14.0)
 
@@ -134,11 +130,11 @@ For finer control by explicitly naming your CONNECTED_DEVICE, you can use
 `xrandr=`, but then you must discover the exact name of your output device,
 which can vary machine to machine.
 
-[Video explaining how to use debug mode to discover the properties of your connected displays](http://r2d2.webconverger.org/2012-11-13/xrandr.mp4)
+Using `debug` mode you can determine the properties of your connected displays using `xrandr`.
 
 ### Need to setup up a higher than detected resolution?
 
-Please follow this [[display]] guide.
+Please follow this [display](/display) guide.
 
 ### DEBUG MODE for developers
 
@@ -148,7 +144,7 @@ Once Webconverger is booted, the [dwm window
 manager](http://dwm.suckless.org/tutorial) defaults to shift+alt+enter for a
 Terminal. Gain root with `sudo -i`.
 
-Please see [[debug]] for more.
+Please see [debug](/debug) for more.
 
 ### Position mouse pointer
 
@@ -160,7 +156,7 @@ mouse over event in the Web application.
 
 ### Disable automatic upgrades with git
 
-Append `noupgrade`. See [[upgrade]] for more details.
+Append `noupgrade`. See [upgrade](/upgrade) for more details.
 
 ### Disable configuration service
 
@@ -168,15 +164,15 @@ Append `noconfig`
 
 ### How do I make the machine turn off at a set time everyday?
 
-Set a [[cronjob]]
+Set a [cronjob](/cronjob)
 
 ### Changing DNS or statically configuring the network?
 
-Please refer to [[networking]]
+Please refer to [networking](/networking)
 
 ### Locking down boot
 
-Use `noescape`, which disallows [[debugging|debug]] of installed Webconverger.
+Use `noescape`, which disallows [debugging](/debug) of installed Webconverger.
 However it only kicks in after the boot configuration is rewritten after a
 successful upgrade.
 
@@ -190,13 +186,13 @@ Caveat: Since
 [hidecursor](https://github.com/Webconverger/webc/blob/master/home/webc/.xserverrc)
 can only be applied when starting X, you cannot use this option in the [Live
 mode](https://config.webconverger.com/faq/#what-do-you-mean-by-live-version-and-install-version)
-with the [configuration service](http://config.webconverger.com/).
+with the [configuration service](//config.webconverger.com/).
 
 Showing:
 
 	showcursor
 
-By default the cursor is shown on input use and hides after 5 seconds. See [[blanking]] for details.
+By default the cursor is shown on input use and hides after 5 seconds. See [blanking](/blanking/) for details.
 
 ### How to create a screensaver for attracting patrons?
 
@@ -204,11 +200,11 @@ Please see [screensaver](/screensaver/).
 
 ### Touch screen input calibration and user interface tweaks
 
-Please refer to the [[touch_screen_calibration]] wiki page for calibration and UI tweaks like `widescrollbars` and `grabdrag`.
+Please refer to the [touch screen calibration](/touch_screen_calibration/) wiki page for calibration and UI tweaks like `widescrollbars` and `grabdrag`.
 
 ### How do I declare my network printer?
 
-Using the `printer=` API, documented in [[printing]].
+Using the `printer=` API, documented in [printing](/printing/).
 
 ### How do I show a print button?
 
@@ -228,11 +224,11 @@ Examples:
 
 * prefs=http://prefs.webconverger.com/2015/safe.js - force Google to provide a safe search result
 * prefs=http://prefs.webconverger.com/2015/chromebook.js - override user agent string
-* prefs=http://prefs.webconverger.com/2015/click-to-play.js - Opt into [[flash|adobe]]
+* prefs=http://prefs.webconverger.com/2015/click-to-play.js - Opt into [flash](/adobe/)
 * prefs=http://prefs.webconverger.com/2015/disable-safebrowsing.js - Disable Google's safe browsing
 
-Please look for further usage examples in [[printing]] and
-[[allowing_popups|blog/entry/Popups_and_SSL_warnings]].
+Please look for further usage examples in [printing](/printing) and
+[allowing popups](/blog/entry/popups_and_ssl_warnings).
 
 ### customer= API
 
@@ -241,7 +237,7 @@ contact you in the case your configuration id becomes unclear.
 
 Ignored by Webconverger OS itself.
 
-### Remote logging (from version 15)
+### Remote logging
 
 Sign up for an account with [Papertrail](https://papertrailapp.com/?thank=97e900)
 
@@ -256,8 +252,8 @@ icon next to your alias in the configuration panel.
 ### Wireless configuration
 
 Although wired connections are preferred, Webconverger does have
-comprehensive [[support_for_wireless_devices|wireless]] and
-[[blog/entry/USB_tethering]].
+comprehensive [support for wireless devices](/wireless) and
+[blog/entry/USB tethering](/blog/entry/usb_tethering).
 
 ### Switch between tabs
 
@@ -265,11 +261,11 @@ comprehensive [[support_for_wireless_devices|wireless]] and
 
 Switch between tabs on chrome={neon,webcfullscreen} every 5 seconds.
 
-Screencast: <http://youtu.be/eh6u6Bmjnu8>
+Screencast: <https://youtu.be/eh6u6Bmjnu8>
 
 ### Can I turn off the Webconverger brand mark?
 
-Please see [[artwork]].
+Please see [artwork](/artwork).
 
 # Hiding the cursor
 
@@ -297,4 +293,4 @@ New from June 2016, for example:
 
 	opensearch=http://prefs.webconverger.com/bl.xml
 
-Only applicable with default `chrome=webconverger`, since that [[user_interface|kiosk]] has a URL bar for entering search terms.
+Only applicable with default `chrome=webconverger`, since that [user interface](/kiosk) has a URL bar for entering search terms.
