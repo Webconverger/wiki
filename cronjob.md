@@ -34,7 +34,7 @@ isn't the capital, I know it keeps the same time as Durban.
 [zone.tab](ftp://ftp.iana.org/tz/data/zone.tab) for describing my local time
 zone.
 
-Now I need to append that to a Webconverger [[boot]] like so:
+Now I need to append that to a Webconverger [boot](/boot/) like so:
 
 	timezone=Africa/Johannesburg
 
@@ -50,7 +50,7 @@ To realise the above use case a crontab entry would look like:
 
 At 6PM, as the "super user" root user, the machine will power off.
 
-To pass this as a configuration to Webconverger, it needs to be `encodeURI` on [[boot]] like so:
+To pass this as a configuration to Webconverger, it needs to be `encodeURI` on [boot](/boot/) like so:
 
 	cron=00%2018%20*%20*%20*%20root%20poweroff
 
@@ -58,7 +58,7 @@ Hint for developers: The script [live-config](https://github.com/Webconverger/we
 
 ## My machine is not shutting down at the specified time / my time is wrong
 
-In your logs, which can retrieved using the `support` [[API]] and
+In your logs, which can retrieved using the `support` [API](/api/) and
 <http://support.webconverger.com/> service, you will probably see:
 
 	ntpdate[9748]: no server suitable for synchronization found

@@ -1,27 +1,36 @@
-<div class="notebox">
-Note: We do not support static/fixed IP addresses.
-</div>
+---
+{
+  "title": "Webconverger networking",
+  "permalink": "/networking/"
+}
+---
+
+
+::: warning
+Webconverger does not support static/fixed IP addresses.
+:::
+
 
 Ideally Webconverger **should** be deployed in a **wired network** with a
-**DHCP server**, instead of a potentially unstable [[wireless]] connection.
+**DHCP server**, instead of a potentially unstable [wireless](/wireless/) connection.
 
 Webconverger's default  [network/interfaces](https://github.com/Webconverger/webc/blob/master/etc/network/interfaces)
 
-* Allows hotplug of wired interfaces including [[USB_dongles|blog/entry/USB_tethering]]
+* Allows hotplug of wired interfaces including [USB dongles](/blog/entry/usb_tethering/)
 * Configures a firewall with this [iptables configuration](https://github.com/Webconverger/Debian-Live-config/blob/master/webconverger/config/includes.chroot/etc/iptables.conf)
 
-Please also see [[wireless]] and [[testing]].
+Please also see [wireless](/wireless/) and [testing](/testing/).
 
-### Overriding DNS via [[API]]
+### Overriding DNS via [API](/api/)
 
 Preferably you set this in your DHCPD, however you can override DNS for example for
-[[filtering]] like so:
+[filtering](/filtering/) like so:
 
 	dns=8.8.8.8,8.8.4.4
 
 This is implemented by [resolvconf script](https://github.com/Webconverger/webc/blob/master/etc/webc/network-up.d/resolvconf)
 
-### Static IP networking via [[boot]] command line on the Live version
+### Static IP networking via [boot](/boot/) command line on the Live version
 
 We defer to using
 [live-boot](http://manpages.debian.net/cgi-bin/man.cgi?query=live-boot) in this
