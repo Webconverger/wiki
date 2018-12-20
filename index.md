@@ -1,6 +1,7 @@
 ---
 home: true
 description: Webconverger reference and blog
+sidebar: auto
 actionText: View the API
 actionLink: /API/
 ---

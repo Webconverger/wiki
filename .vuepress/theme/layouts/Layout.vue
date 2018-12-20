@@ -84,11 +84,21 @@ export default {
     },
 
     shouldShowSidebar () {
-      return true
+      const { frontmatter } = this.$page
+      return (
+        !frontmatter.home &&
+        frontmatter.sidebar !== false &&
+        this.sidebarItems.length
+      )
     },
 
     sidebarItems () {
-      return this.$backLinks
+      return resolveSidebarItems(
+        this.$page,
+        this.$page.regularPath,
+        this.$site,
+        this.$localePath
+      )
     },
 
     pageClasses () {
@@ -105,8 +115,6 @@ export default {
   },
 
   mounted () {
-    window.addEventListener('scroll', this.onScroll)
-
     // configure progress bar
     nprogress.configure({ showSpinner: false })
 
@@ -126,6 +134,37 @@ export default {
   methods: {
     toggleSidebar (to) {
       this.isSidebarOpen = typeof to === 'boolean' ? to : !this.isSidebarOpen
+    },
+sidebarItems() {
+      const defaultSidebar = resolveSidebarItems(
+        this.$page,
+        this.$page.regularPath,
+        this.$site,
+        this.$localePath
+      )
+      return defaultSidebar
+        .concat(
+          this.$backLinks.length > 0
+            ? [
+                {
+                  title: "Back Links",
+                  type: "group",
+                  children: this.$backLinks,
+                },
+              ]
+            : []
+        )
+        .concat(
+          this.$pageLinks.length > 0
+            ? [
+                {
+                  title: "Forward Links",
+                  type: "group",
+                  children: this.$pageLinks,
+                },
+              ]
+            : []
+        )
     },
 
     // side swipe

@@ -3,8 +3,8 @@
   "version": "0.0.1",
   "license": "MIT",
   "dependencies": {
-    "vuepress": "^1.0.0-alpha.29",
-    "vuepress-backlinks": "https://github.com/gcoda/vuepress-backlinks"
+    "vuepress": "^1.0.0-alpha.30",
+    "vuepress-backlinks": "git+https://github.com/gcoda/vuepress-backlinks.git"
   },
   "scripts": {
     "dev": "vuepress dev . --temp .temp",
