@@ -1,3 +1,10 @@
+---
+{
+	"title": "The Samsung SCX-4200 printer support With Webconverger",
+	"permalink": "/blog/entry/Samsung_SCX-4200/"
+}
+---
+
 <a href="http://www.flickr.com/photos/hendry/2880137032/" title="Samsung SCX-4200 by Kai Hendry, on Flickr"><img src="http://farm4.static.flickr.com/3172/2880137032_6d9f025a46.jpg" width="500" height="375" alt="Samsung SCX-4200" /></a>
 
 **Update**: Recently upgraded [CUPS](http://www.cups.org/) to 1.4? See <http://wiki.archlinux.org/index.php/Cups#USB_printers_under_CUPS_1.4.x>
