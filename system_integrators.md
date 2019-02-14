@@ -1,7 +1,7 @@
 ---
 {
 	"title": "Webconverger for system integrators",
-	"permalink": "/about/",
+	"permalink": "/system_integrators/",
 	"sidebar" : "auto"
 }
 ---

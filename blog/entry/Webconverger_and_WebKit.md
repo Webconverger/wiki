@@ -1,3 +1,10 @@
+---
+{
+    "title": "Webconverger and Webkit",
+    "permalink": "/blog/entry/Webconverger_and_WebKit/"
+}
+---
+
 <a href="http://www.flickr.com/photos/hendry/2608094293/" title="GTK Webkit Youtube by Kai Hendry, on Flickr"><img src="http://farm4.static.flickr.com/3128/2608094293_52e77d5997.jpg" width="500" height="375" alt="GTK Webkit Youtube" /></a>
 
 Thanks to [Mike Hommey](http://glandium.org/)'s [webkit
