@@ -1,3 +1,10 @@
+---
+{
+       "title": "VAT return for a British online business",
+       "permalink": "/blog/entry/VAT_return_for_a_British_online_business/"
+}
+---
+
 <a href="http://www.flickr.com/photos/hendry/4196706209/" title="HMRC formatting error by Kai Hendry, on Flickr"><img src="http://farm5.static.flickr.com/4044/4196706209_4437812bdf.jpg" width="464" height="500" alt="HMRC formatting error" /></a>
 
 As a UK VAT registered company you are obligated to file a 'VAT return' every three months.

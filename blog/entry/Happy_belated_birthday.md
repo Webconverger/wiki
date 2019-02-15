@@ -1,3 +1,10 @@
+---
+{
+       "title": "Happy belated birthday to Webconverger",
+       "permalink": "/blog/entry/Happy_belated_birthday/"
+}
+---
+
 <a href="http://www.flickr.com/photos/hendry/2315610422/" title="Webconverger was used at Sport Relief 2008"><img src="http://farm4.static.flickr.com/3151/2315610422_2cda3b918a_m.jpg" width="240" height="150" alt="Sport Relief 2008" /></a>
 
 Yikes! I only just noticed from the [[acknowledgements]] that Webconverger that is more than a year old.

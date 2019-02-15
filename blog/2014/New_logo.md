@@ -1,3 +1,10 @@
+---
+{
+       "title": "Webconverger's new logo",
+       "permalink": "/blog/2014/New_logo/"
+}
+---
+
 Back in [[2007|acknowledgements]] a daisy flower was hastily chosen as
 Webconverger's logo to express simplicity. Over time it has found to be a
 little too generic and probably not reflective of our "enterprise" positioning

@@ -1,3 +1,10 @@
+---
+{
+       "title": "Webconverger Neon (digital signage mode)",
+       "permalink": "/blog/entry/Webconverger_Neon/"
+}
+---
+
 <a href="http://www.flickr.com/photos/hendry/7214909720/" title="Webconverger software in London #renew #amazing #websignage by Kai Hendry, on Flickr"><img src="http://farm8.staticflickr.com/7226/7214909720_c28d1a0bab.jpg" width="375" height="500" alt="Webconverger software in London #renew #amazing #websignage"></a>
 
 Webconverger is a community project funded by Webconverger Limited, which in

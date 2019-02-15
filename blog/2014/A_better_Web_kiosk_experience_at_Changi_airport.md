@@ -1,3 +1,10 @@
+---
+{
+       "title": "A better Web kiosk experience at Changi airport",
+       "permalink": "/blog/2014/A_better_Web_kiosk_experience_at_Changi_airport/"
+}
+---
+
 Since moving to Singapore about two years ago, I've fallen in love with [Changi
 Airport](https://twitter.com/FansofChangi). It's the best Airport in the world.
 

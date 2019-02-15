@@ -1,3 +1,10 @@
+---
+{
+       "title": "How to configure a proxy with Webconverger",
+       "permalink": "/blog/entry/How_to_configure_a_proxy_with_Webconverger/"
+}
+---
+
 <video controls width=640 height=360>
 <source src=http://r2d2.webconverger.org/2013-10-18/proxy-setup-webconverger.webm type=video/webm>
 <source src=http://r2d2.webconverger.org/2013-10-18/proxy-setup-webconverger.mp4 type=video/mp4>

@@ -1,3 +1,10 @@
+---
+{
+       "title": "Qualifying for PARCC",
+       "permalink": "/blog/2014/Qualifying_for_PARCC/"
+}
+---
+
 The <a href="http://parcconline.org/"><abbr title="Partnership for Assessment
 of Readiness for College and Careers">PARCC</abbr> initiative</a> was brought
 to my attention by Matthew Newton at Montclair High School, a K12 school in NJ,

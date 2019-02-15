@@ -1,3 +1,10 @@
+---
+{
+       "title": "Google Checkout fee",
+       "permalink": "/blog/entry/Google_Checkout_fee/"
+}
+---
+
 <a href="http://www.flickr.com/photos/jamiekitson/3386044172/">
 <img src="http://farm4.static.flickr.com/3649/3386044172_601e9a2e9a.jpg">
 </a>

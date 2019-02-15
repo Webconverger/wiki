@@ -1,3 +1,10 @@
+---
+{
+       "title": "Webconverger (had) reproducible builds",
+       "permalink": "/blog/2016/Webconverger_has_reproducible_builds/"
+}
+---
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/FaBFbkBhnXI" frameborder="0" allowfullscreen></iframe>
 
 Webconverger was started because I couldn't trust those terminals and kiosks in

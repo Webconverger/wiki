@@ -1,3 +1,10 @@
+---
+{
+       "title": "ChromeOS versus Webconverger",
+       "permalink": "/blog/2015/chromeos_versus_webconverger/"
+}
+---
+
 Update: [ChromeOS is being merged into
 Android](https://news.ycombinator.com/item?id=10474206) news brings uncertainty
 and change. Choose **stability** with Webconverger instead!

@@ -1,3 +1,10 @@
+---
+{
+       "title": "Making Debian Webconverger (deprecated)",
+       "permalink": "/blog/entry/Debian_Web_Kiosk/"
+}
+---
+
 # UPDATE: This "mode" is no longer supported and can be considered deprecated.
 # Please [download Webconverger](http://download.webconverger.com/) to use Debian as a Web kiosk.
 

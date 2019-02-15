@@ -1,3 +1,10 @@
+---
+{
+       "title": "Webconverger with Wireless",
+       "permalink": "/blog/entry/Webconverger_with_Wireless/"
+}
+---
+
 [Announcement of the **wifi** Web interface on webc-users mailing list](http://groups.google.com/group/webc-users/browse_frm/thread/ced1ec57c56e20ef#).
 
 Youtube video following:

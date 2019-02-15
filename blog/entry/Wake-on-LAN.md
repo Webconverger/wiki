@@ -1,3 +1,10 @@
+---
+{
+       "title": "Wake on LAN",
+       "permalink": "/blog/entry/Wake-on-LAN/"
+}
+---
+
 Background: [Wake on Lan
 support](https://groups.google.com/forum/#!topic/webc-users/7VvFvf8yq2k/discussion)
 was asked for sometime ago and it almost delayed Webconverger 13.0 until it was

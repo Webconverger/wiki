@@ -1,3 +1,10 @@
+---
+{
+       "title": "Webconverger install from USB",
+       "permalink": "/blog/entry/Webconverger_install_from_USB/"
+}
+---
+
 <a href="http://www.flickr.com/photos/hendry/2849197426/" title="USB install of Webconverger by Kai Hendry, on Flickr"><img src="http://farm4.static.flickr.com/3230/2849197426_b3e0d13f9f.jpg" width="500" height="375" alt="USB install of Webconverger" /></a>
 
 From [webc-3.4.mini.img](http://download.webconverger.com/mini/)'s [[boot]] menu, try running: `installgui` (default is `live`)

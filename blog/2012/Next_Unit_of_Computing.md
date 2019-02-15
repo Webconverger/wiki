@@ -1,4 +1,10 @@
-[[!meta date="Fri, 14 Dec 2012 12:51:04 +0800"]]
+---
+{
+       "title": "Intel's NUC is a great platform for Webconverger",
+       "permalink": "/blog/2012/Next_Unit_of_Computing/"
+}
+---
+
 
 
 <a href="http://www.flickr.com/photos/hendry/8270649161/" title="Intel NUC runs Webconverger 16.0! by Kai Hendry, on Flickr"><img src="http://farm9.staticflickr.com/8200/8270649161_8b6b1390a8.jpg" width="500" height="375" alt="Intel NUC runs Webconverger 16.0!"></a>

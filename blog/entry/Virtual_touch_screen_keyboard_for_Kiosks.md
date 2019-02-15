@@ -1,3 +1,10 @@
+---
+{
+       "title": "Virtual keyboard for a touch screen",
+       "permalink": "/blog/entry/Virtual_touch_screen_keyboard_for_Kiosks/"
+}
+---
+
 A popular requested feature on the [[todo_list|todo]] is a virtual keyboard.
 
 I'm not entirely sure if customers need a [virtual keyboard](http://en.wikipedia.org/wiki/Virtual_keyboard) for systems with a [touch
