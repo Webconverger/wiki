@@ -1,0 +1,39 @@
+#!/bin/sh
+
+if [ "$#" -ne 2 ]; then
+    echo "Usage: $0 SRC DEST" >&2
+    exit 1
+fi
+
+if ! [ -d "$1" ]; then
+    echo "Source directory \"$1\" doesn't exist" >&2
+    exit 1
+fi
+
+if ! [ -d "$2" ]; then
+    echo "Destination directory \"$2\" doesn't exist" >&2
+    exit 1
+fi
+
+ikiwiki --timeformat '%F' \
+        --wikiname 'Webconverger.org' \
+        --url "https://webconverger.org" \
+        --adminemail "hendry@webconverger.com" \
+        --rebuild \
+        --gettime \
+        --verbose \
+        --no-discussion \
+        --plugin autoindex \
+        --plugin favicon \
+        --plugin goodstuff \
+        --plugin img \
+        --plugin lockedit \
+        --plugin rawhtml \
+        --plugin sidebar \
+        --disable-plugin openid \
+        --disable-plugin sandbox \
+        --disable-plugin passwordauth \
+        --disable-plugin smiley \
+        "$1" \
+        "$2"
+
