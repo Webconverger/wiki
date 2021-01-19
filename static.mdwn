@@ -1,0 +1,1 @@
+[[!map pages="static/* and ! static/*/*"]]
