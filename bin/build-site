@@ -21,6 +21,7 @@ ikiwiki --timeformat '%F' \
         --adminemail "hendry@webconverger.com" \
         --rebuild \
         --gettime \
+        --rcs=git \
         --verbose \
         --no-discussion \
         --plugin autoindex \
