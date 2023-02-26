@@ -1,6 +1,10 @@
 <img src="/img/2014/pushing-up-daisies.svg" alt="Webconverger outlives Windows" style="width: 100%; height: auto;">
 
-UPDATE: [Windows 10 despite some misleading articles will also reach End of support](http://windows.microsoft.com/en-sg/windows/lifecycle)
+2023 update, [Webconverger rootfs](https://github.com/Webconverger/webc) is not
+being actively maintained. It is not sustainable to patch the rootfs, and a
+[different approach is sought](https://dabase.com/blog/2023/no-dist-upgrade/).
+
+[Windows 10 despite some misleading articles will also reach End of support](http://windows.microsoft.com/en-sg/windows/lifecycle)
 
 [Windows XP](http://www.microsoft.com/en-us/windows/endofsupport.aspx) and now
 [Windows
